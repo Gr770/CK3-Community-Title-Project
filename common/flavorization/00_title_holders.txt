@@ -4302,7 +4302,7 @@ emperor_male_finnish = {
 	priority = 102
 	tier = empire
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
 }
 emperor_female_finnish = {
@@ -4312,7 +4312,7 @@ emperor_female_finnish = {
 	priority = 102
 	tier = empire
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
 }
 empire_finnish = {
@@ -4320,14 +4320,14 @@ empire_finnish = {
 	priority = 102
 	tier = empire
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
 }
 king_male_finnish = {
 	type = character
 	gender = male
 	special = holder
-	priority = 102
+	priority = 48
 	tier = kingdom
 	cultures = { finnish estonian karelian }
 	governments = { feudal_government tribal_government }
@@ -4337,7 +4337,7 @@ king_female_finnish = {
 	type = character
 	gender = female
 	special = holder
-	priority = 102
+	priority = 48
 	tier = kingdom
 	cultures = { finnish }
 	governments = { feudal_government tribal_government }
@@ -4345,7 +4345,7 @@ king_female_finnish = {
 }
 kingdom_finnish = {
 	type = title
-	priority = 102
+	priority = 48
 	tier = kingdom
 	cultures = { finnish }
 	governments = { feudal_government tribal_government }
@@ -4400,7 +4400,7 @@ title_prince_female_finnish_empire = {
 	governments = { feudal_government }
 	top_liege = no
 }
-duke_male_finnish_independent = {
+duke_male_finnish_independent = { #PettyKing
 	type = character
 	gender = male
 	special = holder
@@ -4411,7 +4411,7 @@ duke_male_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
-duke_female_finnish_independent = {
+duke_female_finnish_independent = { #PettyKing
 	type = character
 	gender = female
 	special = holder
@@ -4422,7 +4422,7 @@ duke_female_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
-duchy_finnish_independent = {
+duchy_finnish_independent = { #PettyKing
 	type = title
 	tier = duchy
 	priority = 29
@@ -4518,7 +4518,7 @@ county_feudal_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
-count_tribal_male_finnish_independent = {
+count_tribal_male_finnish_independent = { #PettyKing
 	type = character
 	gender = male
 	special = holder
@@ -4529,7 +4529,7 @@ count_tribal_male_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
-count_tribal_female_finnish_independent = {
+count_tribal_female_finnish_independent = { #PettyKing
 	type = character
 	gender = female
 	special = holder
@@ -4540,7 +4540,7 @@ count_tribal_female_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
-county_tribal_finnish_independent = {
+county_tribal_finnish_independent = { #PettyKing
 	type = title
 	tier = county
 	priority = 19
