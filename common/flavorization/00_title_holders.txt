@@ -5460,7 +5460,7 @@ count_republic_female_french = {
 	only_holder = yes
 	top_liege = no
 }
-county_republic_french_t = {
+county_republic_french = {
 	type = title
 	tier = county
 	priority = 18
@@ -5653,25 +5653,33 @@ barony_republic_occitan = {
 county_republic_occitan = {
 	type = title
 	tier = county
-	priority = 7
+	priority = 17
 	cultures = { occitan }
 	governments = { republic_government }
 	top_liege = no
 }
 duchy_republic_occitan = {
 	type = title
-	tier = county
-	priority = 7
+	tier = duchy
+	priority = 28
 	cultures = { occitan }
 	governments = { republic_government }
 	top_liege = no
 }
 kingdom_republic_occitan = {
 	type = title
-	tier = county
-	priority = 7
+	tier = kingdom
+	priority = 48
 	cultures = { occitan }
 	governments = { republic_government }
+	top_liege = no
+}
+duchy_occitan = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { occitan }
+	governments = { fedual_government tribal_government }
 	top_liege = no
 }
 
