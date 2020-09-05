@@ -4431,60 +4431,60 @@ duchy_finnish_independent = {
 	top_liege = no
 	only_independent = yes
 }
-duke_male_finnish = {
+duke_feudal_male_finnish = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
-duke_female_finnish = {
+duke_feudal_female_finnish = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
-duchy_finnish = {
+duchy_feudal_finnish = {
 	type = title
 	tier = duchy
 	priority = 28
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
-count_male_finnish = {
+count_feudal_male_finnish = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 18
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
-count_female_finnish = {
+count_feudal_female_finnish = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 18
 	cultures = { french }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
-county_finnish = {
+county_feudal_finnish = {
 	type = title
 	tier = county
 	priority = 18
 	cultures = { finnish }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
 }
 count_feudal_male_finnish_independent = {
@@ -4549,6 +4549,22 @@ county_tribal_finnish_independent = {
 	top_liege = no
 	only_independent = yes
 }
+count_tribal_finnish = {
+	type = character
+	tier = county
+	priority = 18
+	cultures = { finnish }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_finnish = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { finnish }
+	governments = { tribal_government }
+	top_liege = no
+}
 baron_male_finnish = {
 	type = character
 	gender = male
@@ -4590,6 +4606,68 @@ city_finnish = {
 	priority = 7
 	cultures = { finnish }
 	governments = { republic_government }
+	top_liege = no
+}
+king_muslim_male_finnish = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { finnish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+}
+king_muslim_female_finnish = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { finnish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+}
+kingdom_muslim_finnish = {
+	type = title
+	tier = kingdom
+	priority = 49
+	cultures = { finnish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+}
+duke_muslim_male_finnish = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	cultures = { finnish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+}
+duchy_muslim_finnish = {
+	type = title
+	tier = duchy
+	priority = 30
+	cultures = { finnish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+}
+duke_tribal_finnish = {
+	type = character
+	tier = duchy
+	priority = 28
+	cultures = { finnish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_finnish = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { finnish }
+	governments = { tribal_government }
 	top_liege = no
 }
 
