@@ -5534,6 +5534,7 @@ emperor_female_castilian = {
 	cultures = { castilian galician asturleonese }
 	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
+	only_holder = yes
 }
 emperor_consort_female_castilian = {
 	type = character
@@ -5650,6 +5651,7 @@ duke_female_consort_castilian = {
 	cultures = { castilian portuguese galician asturleonese }
 	governments = { feudal_government tribal_government }
 	top_liege = no
+	only_holder = yes
 }
 duchy_castilian = {
 	type = title
@@ -5751,7 +5753,7 @@ duke_republic_female_castilian = {
 	only_holder = yes
 	top_liege = no
 }
-duke_republic_castilian = {
+duchy_republic_castilian = {
 	type = title
 	tier = duchy
 	priority = 28
@@ -5781,7 +5783,7 @@ king_republic_female_castilian = {
 	only_holder = yes
 	top_liege = no
 }
-king_republic_castilian = {
+kingdom_republic_castilian = {
 	type = title
 	tier = kingdom
 	priority = 48
@@ -5883,6 +5885,27 @@ duke_tribal_male_castilian = {
 	governments = { tribal_government }
 	top_liege = no
 }
+count_tribal_female_castilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { castilian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_castilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { castilian }
+	governments = { tribal_government }
+	top_liege = no
+}
+
 
 
 ### Pictish ###
