@@ -5440,6 +5440,215 @@ county_feudal_english = {
 	top_liege = no
 }
 
+###basque###
+
+emperor_male_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	cultures = { basque }
+	governments = { feudal_government republic_government tribal_government }
+	top_liege = no
+}
+emperor_female_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	cultures = { basque aragonese }
+	governments = { feudal_government republic_government tribal_government }
+	top_liege = no
+}
+empire_basque = {
+	type = title
+	tier = empire
+	priority = 102
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+king_male_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+king_female_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+kingdom_basque = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_male_basque = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_basque = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_male_basque_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_basque_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_female_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duchy_basque = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_basque_independent = {
+	type = title
+	tier = county
+	priority = 19
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+count_male_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+count_female_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_basque = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_independent = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	only_independent = yes
+}
+baron_female_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { basque castillian galician asturleonese portuguese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+barony_basque = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { basque }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_welsh = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { basque }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_basque = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { basque }
+	governments = { republic_government }
+	top_liege = no
+}
+
 ### Anglo-Saxon ###
 # Feudal
 baron_feudal_male_anglo_saxon = {
