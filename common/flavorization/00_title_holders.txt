@@ -6511,7 +6511,222 @@ duke_tribal_female_castilian = {
 	top_liege = no
 }
 
+###catalan###
 
+emperor_female_catalan = {
+	type = character
+	gender = female
+	special = holder
+	priority = 102
+	tier = empire
+	cultures = { catalan }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+empire_catalan = {
+	type = title
+	priority = 102
+	tier = empire
+	cultures = { catalan galician aragonese }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_catalan_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { catalan }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_catalan_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { catalan }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { catalan aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duchy_catalan = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { catalan }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_catalan = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { catalan }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { catalan }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_catalan = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_catalan = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { catalan }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+count_republic_female_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+county_republic_catalan = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { catalan }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duchy_republic_catalan = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { catalan }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_female_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { catalan }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+kingdom_republic_catalan = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { catalan }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_catalan_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_male_catalan_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
 
 
 ### Pictish ###
