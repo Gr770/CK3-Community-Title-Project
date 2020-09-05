@@ -5556,6 +5556,28 @@ duchy_basque = {
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
+count_male_basque_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	cultures = { basque }
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+count_female_basque_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	cultures = { basque }
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
 county_basque_independent = {
 	type = title
 	tier = county
@@ -5592,14 +5614,6 @@ county_basque = {
 	cultures = { basque }
 	governments = { feudal_government tribal_government }
 	top_liege = no
-}
-county_independent_basque = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { basque }
-	governments = { feudal_government tribal_government }
-	only_independent = yes
 }
 baron_female_basque = {
 	type = character
