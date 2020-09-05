@@ -6511,7 +6511,178 @@ duke_tribal_female_castilian = {
 	top_liege = no
 }
 
+###portuguese###
 
+emperor_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 102
+	tier = empire
+	cultures = { portuguese }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 102
+	tier = empire
+	cultures = { portuguese }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+empire_portuguese = {
+	type = title
+	priority = 102
+	tier = empire
+	cultures = { portuguese }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_portuguese_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { portuguese asturleonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_portuguese_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { portuguese asturleonese galician }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+king_female_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	cultures = { portuguese }
+}
+count_female_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government tribal_government }
+	cultures = { portuguese }
+	top_liege = no
+}
+baron_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { portuguese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { portuguese }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { portuguese }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_portuguese = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { portuguese galician }
+	governments = { republic_government }
+	top_liege = no
+}
+king_muslim_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	religions = { islam_religion }
+	cultures = { portuguese }
+}
+king_muslim_female_portuguese = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	religions = { islam_religion }
+	cultures = { portuguese }
+}
+count_tribal_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { portuguese }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { portuguese }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { portuguese }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { portuguese }
+	governments = { tribal_government }
+	top_liege = no
+}
 
 
 ### Pictish ###
