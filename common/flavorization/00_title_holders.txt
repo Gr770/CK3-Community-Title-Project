@@ -6134,17 +6134,6 @@ emperor_female_castilian = {
 	cultures = { castilian galician asturleonese }
 	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
-	only_holder = yes
-}
-emperor_consort_female_castilian = {
-	type = character
-	gender = female
-	special = holder
-	priority = 102
-	tier = empire
-	cultures = { castilian galician asturleonese }
-	governments = { feudal_government tribal_government republic_government }
-	top_liege = no
 }
 empire_castilian = {
 	type = title
@@ -6161,16 +6150,6 @@ king_male_castilian = {
 	priority = 48
 	tier = kingdom
 	cultures = { castilian }
-	governments = { feudal_government tribal_government }
-	top_liege = no
-}
-king_consort_female_castilian = {
-	type = character
-	gender = female
-	special = holder
-	priority = 48
-	tier = kingdom
-	cultures = { castilian asturleonese galician }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -6248,19 +6227,8 @@ duke_female_castilian = {
 	tier = duchy
 	priority = 28
 	cultures = { castilian portuguese galician asturleonese }
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	top_liege = no
-}
-duke_female_consort_castilian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { castilian portuguese galician asturleonese }
-	governments = { feudal_government tribal_government }
-	top_liege = no
-	only_holder = yes
 }
 duchy_castilian = {
 	type = title
