@@ -5661,6 +5661,34 @@ duchy_castilian = {
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
+count_male_castilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { castilian portuguese galician asturleonese }
+	governments = { feudal_government }
+	top_liege = no
+}
+count_female_castilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { castilian galician asturleonese }
+	governments = { feudal_government }
+	top_liege = no
+}
+county_castilian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { castilian portuguese galician }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
 baron_male_castilian = {
 	type = character
 	gender = male
@@ -5829,7 +5857,7 @@ count_female_castilian_independent = {
 	governments = { feudal_government }
 	only_independent = yes
 }
-county_castilian_independant = {
+county_castilian_independent = {
 	type = title
 	priority = 19
 	tier = duchy
@@ -5905,6 +5933,7 @@ duke_tribal_female_castilian = {
 	governments = { tribal_government }
 	top_liege = no
 }
+
 
 
 
