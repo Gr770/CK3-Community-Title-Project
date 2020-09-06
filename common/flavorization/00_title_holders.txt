@@ -6551,16 +6551,6 @@ title_prince_male_portuguese_kingdom = {
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
-title_prince_female_portuguese_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 40
-	cultures = { portuguese asturleonese galician }
-	governments = { feudal_government tribal_government }
-	top_liege = no
-}
 king_female_portuguese = {
 	type = character
 	gender = female
@@ -6621,7 +6611,7 @@ barony_republic_portuguese = {
 	governments = { republic_government }
 	top_liege = no
 }
-king_muslim_portuguese = {
+king_male_muslim_portuguese = {
 	type = character
 	gender = female
 	special = holder
@@ -6653,16 +6643,6 @@ count_tribal_male_portuguese = {
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_tribal_male_portuguese = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { portuguese }
-	governments = { tribal_government }
-	top_liege = no
-}
 count_tribal_female_portuguese = {
 	type = character
 	gender = male
@@ -6673,6 +6653,17 @@ count_tribal_female_portuguese = {
 	governments = { tribal_government }
 	top_liege = no
 }
+duke_tribal_male_portuguese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { portuguese }
+	governments = { tribal_government }
+	top_liege = no
+}
+
 duke_tribal_female_portuguese = {
 	type = character
 	gender = male
