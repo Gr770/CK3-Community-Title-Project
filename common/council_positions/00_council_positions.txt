@@ -1,7 +1,34 @@
 ﻿councillor_chancellor = {
 	skill = diplomacy
 	
-	name = councillor_chancellor
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_male = yes
+				}
+				desc = {
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege = {
+								has_culture = culture:english
+							}
+						}
+						desc = councillor_chancellor_english
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege = {
+								has_culture = culture:anglo_saxon
+							}
+						}
+						desc = councillor_chancellor_anglo_saxon
+					}
+				}
+			}
+			desc = councillor_chancellor
+		}
+	}
 
 	tooltip = game_concept_chancellor_desc
 
