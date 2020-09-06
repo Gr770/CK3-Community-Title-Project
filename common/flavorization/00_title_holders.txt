@@ -2358,35 +2358,68 @@ duchy_north_germanic_group = {
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
-count_male_north_germanic_group_independent = {
+count_feudal_male_north_germanic_group_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	culture_groups = { north_germanic_group }
 	only_independent = yes
 	top_liege = no
 }
-count_female_north_germanic_group_independent = {
+count_feudal_female_north_germanic_group_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
 	culture_groups = { north_germanic_group }
 	only_independent = yes
 	top_liege = no
 }
-county_north_germanic_group_independent = {
+county_feudal_north_germanic_group_independent = {
 	type = title
 	gender = male
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government tribal_government }
+	governments = { feudal_government }
+	culture_groups = { north_germanic_group }
+	only_independent = yes
+	top_liege = no
+}
+count_tribal_male_north_germanic_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+	only_independent = yes
+	top_liege = no
+}
+count_tribal_female_north_germanic_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+	only_independent = yes
+	top_liege = no
+}
+county_tribal_north_germanic_group_independent = {
+	type = title
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	governments = { tribal_government }
 	culture_groups = { north_germanic_group }
 	only_independent = yes
 	top_liege = no
@@ -5588,7 +5621,7 @@ count_female_occitan = {
 	top_liege = no
 }
 county_occitan = {
-	title = title
+	type = title
 	tier = county
 	priority = 18
 	cultures = { occitan }
@@ -5679,7 +5712,7 @@ duchy_occitan = {
 	tier = duchy
 	priority = 28
 	cultures = { occitan }
-	governments = { fedual_government tribal_government }
+	governments = { feudal_government tribal_government }
 	top_liege = no
 }
 
