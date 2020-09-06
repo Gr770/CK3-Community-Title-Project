@@ -6974,6 +6974,81 @@ duke_tribal_female_portuguese = {
 	top_liege = no
 }
 
+### Galician ###
+
+king_female_galician = {
+	type = character
+	gender = female
+	special = holder
+	priority = 48
+	tier = kingdom
+	cultures = { galician }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_male_galician = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { galician asturleonese }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+county_republic_asturleonese = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { galician }
+	governments = { republic_government }
+	top_liege = no
+}
+
+### Asturleonese ###
+
+empire_asturleonese = {
+	type = title
+	tier = empire
+	priority = 108
+	cultures = { asturleonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+kingdom_asturleonese = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { asturleonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duchy_asturleonese = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { asturleonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_asturleonese = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { asturleonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+barony_republic_asturleonese = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { asturleonese }
+	governments = { republic_government }
+	top_liege = no
+}
+
 ### Pictish ###
 
 count_feudal_male_pictish = {
