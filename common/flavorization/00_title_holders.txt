@@ -5538,7 +5538,7 @@ king_female_occitan = {
 	special = holder
 	tier = kingdom
 	priority = 48
-	cultures = { occitan castilian catalan asturleonese }
+	cultures = { occitan castilian catalan asturleonese aragonese }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -5745,7 +5745,7 @@ king_male_norman = {
 	special = holder
 	tier = kingdom
 	priority = 48
-	cultures = { norman occitan catalan portuguese galician asturleonese }
+	cultures = { norman occitan catalan portuguese galician asturleonese aragonese }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -7063,6 +7063,137 @@ barony_republic_asturleonese = {
 	tier = barony
 	priority = 7
 	cultures = { asturleonese }
+	governments = { republic_government }
+	top_liege = no
+}
+
+title_prince_male_aragonese_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_aragonese_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_female_aragonese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { aragonese }
+	governments = { feudal_government }
+	top_liege = no
+}
+count_male_aragonese_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { aragonese }
+	governments = { feudal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_aragonese_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { aragonese }
+	governments = { feudal_government }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_aragonese = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duchy_aragonese = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+county_aragonese = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { aragonese }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_aragonese = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { aragonese }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_aragonese = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { aragonese }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_aragonese = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { aragonese }
+	governments = { republic_government }
+	top_liege = no
+}
+county_republic_aragonese = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { aragonese }
+	governments = { republic_government }
+	top_liege = no
+}
+duchy_republic_aragonese = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { aragonese }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_aragonese = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { aragonese }
 	governments = { republic_government }
 	top_liege = no
 }
