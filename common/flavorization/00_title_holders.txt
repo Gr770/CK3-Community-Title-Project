@@ -6707,6 +6707,24 @@ kingdom_republic_catalan = {
 	governments = { republic_government }
 	top_liege = no
 }
+count_female_catalan_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+county_catalan_independent = {
+	type = title
+	priority = 19
+	tier = county
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
 count_male_catalan_independent = {
 	type = character
 	gender = male
@@ -6721,6 +6739,24 @@ duke_male_catalan_independent = {
 	type = character
 	gender = male
 	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_female_catalan_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { catalan  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duchy_catalan_independent = {
+	type = title
 	priority = 29
 	tier = duchy
 	cultures = { catalan  }
