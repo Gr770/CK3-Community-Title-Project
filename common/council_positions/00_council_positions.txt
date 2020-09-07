@@ -65,14 +65,6 @@
 					triggered_desc = {
 						trigger = {
 							scope:councillor_liege = {
-								has_culture = culture:french
-							}
-						}
-						desc = councillor_chancellor_french
-					}
-					triggered_desc = {
-						trigger = {
-							scope:councillor_liege = {
 								has_culture = culture:norman
 							}
 						}
@@ -97,6 +89,14 @@
 					triggered_desc = {
 						trigger = {
 							scope:councillor_liege = {
+								has_culture = culture:portuguese
+							}
+						}
+						desc = councillor_chancellor_portuguese
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege = {
 								has_culture = culture:aragonese
 							}
 						}
@@ -105,7 +105,7 @@
 					triggered_desc = {
 						trigger = {
 							scope:councillor_liege = {
-								has_culture_group = culture_group::north_germanic_group
+								has_culture_group = culture_group:north_germanic_group
 							}
 						}
 						desc = councillor_chancellor_norse
@@ -156,6 +156,33 @@
 							}
 						}
 						desc = councillor_chancellor_frisian
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege = {
+								has_culture_group = culture:eqyptian
+							}
+						}
+						desc = {
+							triggered_desc = {
+								trigger = {
+									scope:councillor_liege = {
+										has_religion = religion:islam_religion
+									}
+								}
+								desc = councillor_chancellor_arabic
+							}
+							triggered_desc = {
+								trigger = {
+									scope:councillor_liege = {
+										NOT = {
+											has_religion = religion:islam_religion
+										}
+									}
+								}
+								desc = councillor_chancellor_coptic
+							}
+						}
 					}
 					triggered_desc = {
 						trigger = {
