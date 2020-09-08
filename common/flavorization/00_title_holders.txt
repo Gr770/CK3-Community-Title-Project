@@ -10208,6 +10208,173 @@ empire_feudal_altaic_group = {
 
 ### Dravidian / Indo-Aryan ###
 # Feudal / Clan / Tribal
+
+baron_male_tamil = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { feudal_government republic_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+baron_female_tamil = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { feudal_government republic_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+barony_tamil = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { feudal_government republic_government clan_government tribal_government theocracy_government}
+	cultures = { tamil }
+	top_liege = no
+}
+count_male_tamil = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+count_female_tamil = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+county_tamil = {
+	type = title
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government theocracy_government }
+	cultures = { tamil }
+	top_liege = no
+}
+duke_male_tamil = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+duke_female_tamil = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+duchy_tamil = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government tribal_government theocracy_government}
+	cultures = { tamil }
+	top_liege = no
+}
+king_male_tamil = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+king_female_tamil = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { tamil }
+	top_liege = no
+}
+
+kingdom_tamil={
+	type= title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government theocracy_government}
+	cultures = { tamil }
+	top_liege = no
+}
+
+title_prince_male_tamil = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 41
+	cultures = { tamil }
+	governments = { feudal_government tribal_government clan_government}
+	top_liege = no
+}
+
+title_prince_female_tamil = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 41
+	cultures = { tamil }
+	governments = { feudal_government tribal_government clan_government}
+	top_liege = no
+}
+
+emperor_male_tamil = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = {tamil}
+	top_liege = no
+}
+emperor_female_tamil = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = {tamil}
+	top_liege = no
+
+empire_tamil = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government theocracy_government}
+	cultures = { tamil }
+	top_liege = no
+}
+
+##Generic Dravidian Group
 baron_feudal_male_dravidian_group = {
 	type = character
 	gender = male
@@ -10320,6 +10487,121 @@ emperor_feudal_female_dravidian_group = {
 	culture_groups = { dravidian_group indo_aryan_group }
 }
 
+baron_feudal_male_dravidian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+baron_feudal_female_dravidian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+barony_feudal_dravidian_group = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+count_feudal_male_dravidian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+count_feudal_female_dravidian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+county_feudal_dravidian_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+duke_feudal_male_dravidian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+duke_feudal_female_dravidian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+duchy_feudal_dravidian_group = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+king_feudal_male_dravidian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+king_feudal_female_dravidian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+emperor_feudal_male_dravidian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+}
+emperor_feudal_female_dravidian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { dravidian_group indo_aryan_group }
+
+##Tamil
+
+
+	
 ### West-African ###
 # Feudal / Clan / Tribal
 count_feudal_male_west_african_group = {
