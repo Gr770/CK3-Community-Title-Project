@@ -6020,7 +6020,7 @@ count_male_basque = {
 count_female_basque = {
 	type = character
 	gender = female
-	special = holder
+
 	tier = county
 	priority = 18
 	cultures = { basque }
@@ -6172,7 +6172,7 @@ empire_castilian = {
 	type = title
 	priority = 102
 	tier = empire
-	cultures = { castilian galician aragonese }
+	cultures = { castilian galician aragonese italian }
 	governments = { feudal_government tribal_government republic_government }
 	top_liege = no
 }
@@ -7101,11 +7101,11 @@ title_prince_female_aragonese_kingdom = {
 }
 duke_female_aragonese = {
 	type = character
-	gender = male
+	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	cultures = { aragonese }
+	cultures = { aragonese italian }
 	governments = { feudal_government }
 	top_liege = no
 }
@@ -7135,7 +7135,7 @@ kingdom_aragonese = {
 	type = title
 	tier = kingdom
 	priority = 48
-	cultures = { aragonese }
+	cultures = { aragonese italian galloitalic }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -7143,7 +7143,7 @@ duchy_aragonese = {
 	type = title
 	tier = duchy
 	priority = 28
-	cultures = { aragonese }
+	cultures = { aragonese italian galloitalic }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -7207,6 +7207,449 @@ kingdom_republic_aragonese = {
 	priority = 48
 	cultures = { aragonese }
 	governments = { republic_government }
+	top_liege = no
+}
+
+## Italian ##
+
+
+emperor_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 102
+	tier = empire
+	cultures = { italian }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 102
+	tier = empire
+	cultures = { italian cisalpine sardinian }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+empire_italian = {
+	type = title
+	priority = 102
+	tier = empire
+	cultures = { italian }
+	governments = { feudal_government tribal_government republic_government }
+	top_liege = no
+}
+king_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 48
+	tier = kingdom
+	cultures = { italian sicilian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+king_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 48
+	tier = kingdom
+	cultures = { italian roman cisalpine sicilian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_male_italian_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { italian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_italian_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { italian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_male_italian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { italian  }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_italian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { italian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { italian sardinian sicilian }
+	governments = { feudal_government }
+	top_liege = no
+}
+count_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { feudal_government }
+	top_liege = no
+}
+count_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { feudal_government }
+	top_liege = no
+}
+county_italian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { italian  }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { italian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_italian = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { italian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+count_republic_female_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+county_republic_italian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duchy_republic_italian = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { italian }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_female_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { italian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+kingdom_republic_italian = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { italian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_muslim_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+}
+count_muslim_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+}
+county_muslim_italian = {
+	type = title
+	priority = 19
+	tier = county
+	cultures = { italian }
+	governments = { feudal_government }
+	only_independent = yes
+	religions = { islam_religion }
+}
+duke_muslim_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+duke_muslim_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+duchy_muslim_italian = {
+	type = title
+	priority = 28
+	tier = duchy
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+king_muslim_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+king_muslim_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+kingdom_muslim_italian = {
+	type = title
+	priority = 48
+	tier = kingdom
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	religions = { islam_religion }
+	top_liege = no
+}
+count_male_italian_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+count_female_italian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+county_italian_independent = {
+	type = title
+	priority = 19
+	tier = county
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_male_italian_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_female_italian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duchy_italian_independent = {
+	type = title
+	priority = 29
+	tier = duchy
+	cultures = { italian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+count_tribal_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { italian }
+	governments = { tribal_government }
 	top_liege = no
 }
 
