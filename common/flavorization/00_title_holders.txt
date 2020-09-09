@@ -2173,7 +2173,17 @@ baron_male_saxon = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { saxon }
+	top_liege = no
+}
+baron_republic_male_saxon = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
 	cultures = { saxon }
 	top_liege = no
 }
@@ -2183,7 +2193,7 @@ baron_female_saxon = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { saxon }
 	top_liege = no
 }
@@ -2191,7 +2201,7 @@ barony_saxon = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { saxon }
 	top_liege = no
 }
@@ -2338,7 +2348,7 @@ baron_male_franconian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -2348,7 +2358,7 @@ baron_female_franconian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -2356,7 +2366,7 @@ barony_franconian = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -2503,7 +2513,7 @@ baron_male_swabian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { swabian }
 	top_liege = no
 }
@@ -2513,7 +2523,7 @@ baron_female_swabian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { swabian }
 	top_liege = no
 }
@@ -2521,7 +2531,7 @@ barony_swabian = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { swabian }
 	top_liege = no
 }
@@ -2668,8 +2678,18 @@ baron_male_bavarian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
+	top_liege = no
+}
+baron_republic_male_bavarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { bavarian swabian franconian }
 	top_liege = no
 }
 baron_female_bavarian = {
@@ -2678,7 +2698,7 @@ baron_female_bavarian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
 	top_liege = no
 }
@@ -2686,7 +2706,7 @@ barony_bavarian = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
 	top_liege = no
 }
@@ -2833,7 +2853,7 @@ baron_male_frisian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { frisian }
 	top_liege = no
 }
@@ -2843,7 +2863,27 @@ baron_female_frisian = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { frisian }
+	top_liege = no
+}
+baron_republic_male_frisian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { frisian }
+	top_liege = no
+}
+baron_republic_female_frisian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
 	cultures = { frisian }
 	top_liege = no
 }
@@ -2851,7 +2891,7 @@ barony_frisian = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { frisian }
 	top_liege = no
 }
@@ -2991,6 +3031,14 @@ empire_frisian = {
 	cultures = { frisian }
 	top_liege = no
 }
+barony_republic_frisian = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { frisian }
+	top_liege = no
+}
 ##Dutch##
 baron_male_dutch = {
 	type = character
@@ -2998,7 +3046,7 @@ baron_male_dutch = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { dutch }
 	top_liege = no
 }
@@ -3008,7 +3056,7 @@ baron_female_dutch = {
 	special = holder
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { dutch }
 	top_liege = no
 }
@@ -3016,8 +3064,38 @@ barony_dutch = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { feudal_government republic_government clan_government tribal_government theocracy_government }
+	governments = { feudal_government clan_government tribal_government  }
 	cultures = { dutch }
+	top_liege = no
+}
+baron_republic_male_dutch = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { dutch }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_dutch = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { dutch franconian swabian bavarian }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_dutch = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { dutch franconian swabian bavarian saxon }
 	top_liege = no
 }
 count_male_dutch = {
