@@ -9240,6 +9240,28 @@ empire_feudal_russian = {
 }
 
 ### Arabic ###
+##Sultan/Sultana##
+king_feudal_male_arabic_group_sunni = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+	faiths = {ashari muwalladi masmudi}
+}
+king_feudal_female_arabic_group_sunni = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 49
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+	faiths = {ashari muwalladi masmudi}
+}
+
 ##Bedouin##
 barony_feudal_bedouin = {
 	type = title
@@ -9322,6 +9344,8 @@ empire_feudal_bedouin = {
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { bedouin }
 }
+
+
 ##Levantine##
 barony_feudal_levantine = {
 	type = title
@@ -9337,7 +9361,7 @@ count_feudal_male_levantine = {
 	tier = county
 	priority = 18
 	governments = { feudal_government clan_government }
-	cultures = { levantine }
+	cultures = { levantine  }
 }
 county_feudal_levantine = {
 	type = title
