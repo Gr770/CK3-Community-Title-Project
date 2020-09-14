@@ -6529,7 +6529,559 @@ duke_tribal_female_italian = {
 ###############################################
 ## Arabic_cultrue_group ##
 ###############################################
-## Will be added in the future
+## Sultan/Sultana ## only for Sunni Muslims with Head of Faith##
+king_feudal_male_arabic_group_sunni = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+	faiths = {ashari muwalladi masmudi}
+}
+king_feudal_female_arabic_group_sunni = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 49
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+	faiths = {ashari muwalladi masmudi}
+}
+###############################################
+## Bedouin_culture ##
+barony_feudal_bedouin = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { feudal_government clan_government republic_government theocracy_government}
+	cultures = { bedouin }
+}
+count_feudal_male_bedouin = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { bedouin }
+}
+county_feudal_bedouin = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { bedouin }
+}
+duke_feudal_male_bedouin = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { bedouin }
+}
+duke_feudal_female_bedouin = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { bedouin }
+}
+duchy_feudal_bedouin = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { bedouin }
+}
+king_feudal_male_bedouin = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+}
+king_feudal_female_bedouin = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+}
+kingdom_feudal_bedouin = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+}
+
+empire_feudal_bedouin = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bedouin }
+}
+
+###############################################
+## Levantine_culture ##
+barony_feudal_levantine = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { feudal_government clan_government republic_government theocracy_government}
+	cultures = { levantine }
+}
+count_feudal_male_levantine = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { levantine  }
+}
+county_feudal_levantine = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { levantine }
+}
+duke_feudal_male_levantine = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { levantine }
+}
+duke_feudal_female_levantine = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { levantine }
+}
+duchy_feudal_levantine = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { levantine }
+}
+king_feudal_male_levantine = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+king_feudal_female_levantine = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+kingdom_feudal_levantine = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+
+emperor_feudal_male_levantine = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+emperor_feudal_female_levantine = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+empire_feudal_levantine = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { levantine }
+}
+###############################################
+## Egyptian_culture ##
+barony_feudal_egyptian = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { feudal_government clan_government republic_government theocracy_government}
+	cultures = { egyptian }
+}
+count_feudal_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+county_feudal_egyptian = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duke_feudal_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duke_feudal_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duchy_feudal_egyptian = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+king_feudal_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+king_feudal_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+kingdom_feudal_egyptian = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+
+emperor_feudal_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+emperor_feudal_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+empire_feudal_egyptian = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+
+###############################################
+## Egyptian_culture and Coptic_faith##
+
+baron_feudal_coptic_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 19
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+baron_feudal_coptic_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 19
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+barony_feudal_coptic_egyptian = {
+	type = title
+	tier = barony
+	priority = 9
+	faiths = { coptic }
+	governments = { feudal_government clan_government republic_government theocracy_government}
+	cultures = { egyptian }
+}
+count_feudal_coptic_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+count_feudal_coptic_female_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+county_feudal_coptic_egyptian = {
+	type = title
+	tier = county
+	priority = 19
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duke_feudal_coptic_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duke_feudal_coptic_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+duchy_feudal_coptic_egyptian = {
+	type = title
+	tier = duchy
+	priority = 29
+	faiths = { coptic }
+	governments = { feudal_government clan_government }
+	cultures = { egyptian }
+}
+king_feudal_coptic_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	faiths = { coptic }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+king_feudal_coptic_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 49
+	faiths = { coptic } 
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+kingdom_feudal_coptic_egyptian = {
+	type = title
+	tier = kingdom
+	priority = 49
+	faiths = { coptic }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+
+emperor_feudal_coptic_male_egyptian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	faiths = { coptic }
+	priority = 104
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+emperor_feudal_coptic_female_egyptian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	faiths = { coptic }
+	priority = 104
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+empire_feudal_coptic_egyptian = {
+	type = title
+	tier = empire
+	priority = 104
+	faiths = { coptic }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { egyptian }
+}
+##Maghrebi## 
+barony_feudal_maghrebi = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { feudal_government clan_government republic_government theocracy_government}
+	cultures = { maghrebi }
+}
+count_feudal_male_maghrebi = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { maghrebi }
+}
+county_feudal_maghrebi = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { maghrebi }
+}
+duke_feudal_male_maghrebi = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { maghrebi }
+}
+duke_feudal_female_maghrebi = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { maghrebi }
+}
+duchy_feudal_maghrebi = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	cultures = { maghrebi }
+}
+king_feudal_male_maghrebi = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+king_feudal_female_maghrebi = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+kingdom_feudal_maghrebi = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+
+emperor_feudal_male_maghrebi = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+emperor_feudal_female_maghrebi = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+empire_feudal_maghrebi = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { maghrebi }
+}
+
 ###############################################
 ## End of Arabic_cultrue_group ##
 ###############################################
