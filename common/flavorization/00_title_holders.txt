@@ -7252,7 +7252,7 @@ king_male_castilian = {
 	special = holder
 	priority = 48
 	tier = kingdom
-	cultures = { castilian }
+	cultures = { castilian sardinian }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -8723,6 +8723,8 @@ duke_tribal_female_italian = {
 	top_liege = no
 }
 
+## Russian ##
+
 ### Pictish ###
 
 count_feudal_male_pictish = {
@@ -9188,32 +9190,7 @@ duke_feudal_female_sardinian = { # Archonesa
 
 ### Russian ###
 # Feudal
-duke_feudal_male_russian = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	cultures = { russian }
-}
-duke_feudal_female_russian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	cultures = { russian }
-}
-duchy_feudal_russian = {
-	type = title
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	cultures = { russian }
-}
-emperor_feudal_male_russian = {
+emperor_male_russian = {
 	type = character
 	gender = male
 	special = holder
@@ -9222,7 +9199,7 @@ emperor_feudal_male_russian = {
 	governments = { feudal_government tribal_government }
 	cultures = { russian }
 }
-emperor_feudal_female_russian = {
+emperor_female_russian = {
 	type = character
 	gender = female
 	special = holder
@@ -9237,6 +9214,354 @@ empire_feudal_russian = {
 	priority = 102
 	governments = { feudal_government tribal_government }
 	cultures = { russian }
+}
+title_prince_male_russian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { russian  }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_russian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+king_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 48
+	governments = { feudal_government tribal_government }
+	cultures = { russian }
+}
+king_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 48
+	governments = { feudal_government tribal_government }
+	cultures = { russian }
+}
+kingdom_russian = {
+	type = title
+	tier = empire
+	priority = 48
+	governments = { feudal_government tribal_government }
+	cultures = { russian }
+}
+title_prince_male_russian_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+title_prince_female_russian_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+duke_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	cultures = { russian }
+}
+duke_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	cultures = { russian }
+}
+duchy_feudal_russian = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	cultures = { russian }
+}
+count_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { feudal_government }
+	top_liege = no
+}
+count_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { feudal_government }
+	top_liege = no
+}
+county_russian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { russian  }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { russian ilmenian severian volhynian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_female_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { russian ilmenian severian volhynian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+barony_russian = {
+	type = title
+	tier = county
+	priority = 7
+	cultures = { russian  }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_russian = {
+	type = title
+	tier = barony
+	priority = 7
+	cultures = { russian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+count_republic_female_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+county_republic_russian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { russian }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duchy_republic_russian = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { russian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_russian_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+count_female_russian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	tier = county
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+county_russian_independent = {
+	type = title
+	priority = 19
+	tier = county
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_male_russian_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duke_female_russian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 29
+	tier = duchy
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+duchy_russian_independent = {
+	type = title
+	priority = 29
+	tier = duchy
+	cultures = { russian  }
+	governments = { feudal_government }
+	only_independent = yes
+}
+count_tribal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { russian }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_russian = {
+	type = title
+	priority = 19
+	tier = county
+	cultures = { russian  }
+	governments = { tribal_government }
+	only_independent = yes
+}
+duke_tribal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { russian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { russian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_russian = {
+	type = title
+	priority = 29
+	tier = duchy
+	cultures = { russian  }
+	governments = { tribal_government }
+	only_independent = yes
 }
 
 ### Arabic ###
