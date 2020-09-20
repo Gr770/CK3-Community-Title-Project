@@ -1,7 +1,91 @@
 councillor_chancellor = {
 	skill = diplomacy
 	
-	name = councillor_chancellor
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_male = yes
+				}
+				desc = {
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:old_saxon
+						}
+						desc = chancellor_male_old_saxon
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:welsh
+						}
+						desc = chancellor_male_welsh
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:cornish
+						}
+						desc = chancellor_male_cornish
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:cumbric
+						}
+						desc = chancellor_male_cumbric
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:portuguese
+						}
+						desc = chancellor_male_portuguese
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:greek
+						}
+						desc = chancellor_male_greek
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:italian
+						}
+						desc = chancellor_male_italian
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:roman
+						}
+						desc = chancellor_male_roman
+					}
+					triggered_desc = {
+						trigger = {
+							OR = {
+								scope:councillor_liege.culture = culture:bosian
+								scope:councillor_liege.culture = culture:serbian
+							}
+						}
+						desc = chancellor_male_bosian
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:vlach
+						}
+						desc = chancellor_male_vlach
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:czech
+						}
+						desc = chancellor_male_czech
+					}
+					triggered_desc = {
+						trigger = {
+							scope:councillor_liege.culture = culture:egyptian
+							scope:councillor_liege.culture = faith:coptic
+						}
+						desc = chancellor_male_egyptian_coptic
+					}
+				}
+			}
 
 	tooltip = game_concept_chancellor_desc
 
