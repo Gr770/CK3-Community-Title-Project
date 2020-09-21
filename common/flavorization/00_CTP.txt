@@ -12,7 +12,7 @@
 ###################################################
 # Special cultural titles ##
 #################################################
-## Central_German_cultrue_group ##
+## Central_German_culture_group ##
 ###############################################
 ## Saxon_cultre ##
 ##
@@ -35,6 +35,7 @@ baron_republic_male_saxon = {
 	governments = { republic_government }
 	cultures = { saxon }
 	top_liege = no
+	only_holder = yes
 }
 baron_female_saxon = {
 	type = character
@@ -551,6 +552,7 @@ baron_republic_male_bavarian = {
 	governments = { republic_government }
 	cultures = { bavarian swabian franconian }
 	top_liege = no
+	only_holder = yes
 }
 baron_female_bavarian = {
 	type = character
@@ -738,6 +740,7 @@ baron_republic_male_frisian = {
 	priority = 8
 	governments = { republic_government }
 	cultures = { frisian }
+	only_holder = yes
 	top_liege = no
 }
 baron_republic_female_frisian = {
@@ -748,6 +751,7 @@ baron_republic_female_frisian = {
 	priority = 8
 	governments = { republic_government }
 	cultures = { frisian }
+	only_holder = yes
 	top_liege = no
 }
 barony_frisian = {
@@ -1103,11 +1107,11 @@ empire_dutch = {
 	top_liege = no
 }
 ###############################################
-## End of Central_German_cultrue_group ##
+## End of Central_German_culture_group ##
 ###########################################################
 
 ###########################################################
-## North_German_cultrue_group ##
+## North_German_culture_group ##
 ###############################################
 ## Have to be rearranged in the future ##
 
@@ -1492,10 +1496,10 @@ count_republic_male_north_germanic_group = {
 }
 
 ###############################################
-## End of North_German_cultrue_group ##
+## End of North_German_culture_group ##
 ###############################################
 ###############################################
-## Goidelic_cultrue_group ## (Irish and Gaelic)
+## Goidelic_culture_group ## (Irish and Gaelic)
 ###############################################
 ##
 
@@ -1791,11 +1795,11 @@ county_republic_gaelic = {
 	top_liege = no
 }
 ###############################################
-## End of Goidelioc_cultrue_group ##
+## End of Goidelioc_culture_group ##
 ###############################################
 
 ###############################################
-## West_German_cultrue_group ##
+## West_German_culture_group ##
 ###############################################
 ## English_culture ##
 ##
@@ -2591,11 +2595,11 @@ county_scottish_independent = {
 	only_independent = yes
 }
 ###############################################
-## End of West_German_cultrue_group ##
+## End of West_German_culture_group ##
 ###############################################
 
 ###############################################
-## Brythonic_cultrue_group ##
+## Brythonic_culture_group ##
 ###############################################
 ## Welsh_culture ###
 ##
@@ -3270,11 +3274,11 @@ barony_republic_breton = {
 	governments = { republic_government }
 }
 ###############################################
-## End of Brythonic_cultrue_group ##
+## End of Brythonic_culture_group ##
 ###############################################
 
 ###############################################
-## Balto-Finnic_cultrue_group ##
+## Balto-Finnic_culture_group ##
 ###############################################
 ## Finish_culture ##
 ##
@@ -3584,6 +3588,7 @@ mayor_finnish = {
 	cultures = { finnish }
 	governments = { republic_government }
 	top_liege = no
+	only_holder = yes
 }
 city_finnish = {
 	type = title
@@ -3656,10 +3661,10 @@ duchy_tribal_finnish = {
 }
 
 ###############################################
-## End of Balto-Finnic_cultrue_group ##
+## End of Balto-Finnic_culture_group ##
 ###############################################
 ###############################################
-## Part of Brythonic_cultrue_group ## ##To be rearranged
+## Part of Brythonic_culture_group ## ##To be rearranged
 ###############################################
 ## Cornish_culture ##
 ##
@@ -4188,6 +4193,7 @@ count_republic_male_cumbrian = {
 	cultures = { cumbrian }
 	governments = { republic_government }
 	top_liege = no
+	only_holder = yes
 }
 count_republic_female_cumbrian = {
 	type = character
@@ -4198,6 +4204,7 @@ count_republic_female_cumbrian = {
 	cultures = { cumbrian }
 	governments = { republic_government }
 	top_liege = no
+	only_holder = yes
 }
 county_republic_cumbrian = {
 	type = title
@@ -4209,7 +4216,7 @@ county_republic_cumbrian = {
 }
 
 ################################################
-## Frankish_cultrue_group ##
+## Frankish_culture_group ##
 ###############################################
 ## French_culture
 ##
@@ -4794,11 +4801,11 @@ barony_republic_norman = {
 	top_liege = no
 }
 ###############################################
-## End of Frankish_cultrue_group ##
+## End of Frankish_culture_group ##
 ###############################################
 
 ###############################################
-## Iberian_cultrue_group ##
+## Iberian_culture_group ##
 ###############################################
 ## Basque_culture ##
 ##
@@ -5042,7 +5049,7 @@ king_male_castilian = {
 	special = holder
 	priority = 48
 	tier = kingdom
-	cultures = { castilian }
+	cultures = { castilian sardinian }
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
@@ -5800,7 +5807,7 @@ king_muslim_female_portuguese = {
 	religions = { islam_religion }
 	cultures = { portuguese }
 }
-count_tribal_male_portuguese
+count_tribal_male_portuguese = {
 	type = character
 	gender = male
 	special = holder
@@ -6073,11 +6080,11 @@ kingdom_republic_aragonese = {
 	top_liege = no
 }
 ###############################################
-## End of Iberian_cultrue_group ##
+## End of Iberian_culture_group ##
 ###############################################
 
 ###############################################
-## Latin_cultrue_group ##
+## Latin_culture_group ##
 ###############################################
 ## Italian ##
 ##
@@ -6523,11 +6530,11 @@ duke_tribal_female_italian = {
 }
 
 ###############################################
-## End of Latin_cultrue_group ##
+## End of Latin_culture_group ##
 ###############################################
 
 ###############################################
-## Arabic_cultrue_group ##
+## Arabic_culture_group ##
 ###############################################
 
 baron_feudalclan_male_arabic_group = {
@@ -6860,14 +6867,12 @@ empire_feudalclan_egyptian_coptic = {
 	cultures = { egyptian }
 }
 
-=======
-## Will be added in the future
 ###############################################
-## End of Arabic_cultrue_group ##
+## End of Arabic_culture_group ##
 ###############################################
 
 ###############################################
-## Dravidian_cultrue_group ##
+## Dravidian_culture_group ##
 ###############################################
 ## Tamil_culture
 ##
@@ -6986,31 +6991,6 @@ kingdom_tamil={
 	top_liege = no
 }
 
-
-=======
-title_prince_male_tamil = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 41
-	cultures = { tamil }
-	governments = { feudal_government tribal_government clan_government}
-	top_liege = no
-}
-
-title_prince_female_tamil = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 41
-	cultures = { tamil }
-	governments = { feudal_government tribal_government clan_government}
-	top_liege = no
-}
-
-
 emperor_male_tamil = {
 	type = character
 	gender = male
@@ -7045,7 +7025,7 @@ prince_male_tamil_empire = {
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 41
+	priority = 100
 	cultures = { tamil }
 	governments = { feudal_government tribal_government clan_government}
 }
@@ -7055,7 +7035,7 @@ prince_female_tamil_empire = {
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 41
+	priority = 100
 	cultures = { tamil }
 	governments = { feudal_government tribal_government clan_government}
 }
@@ -7080,6 +7060,6 @@ prince_female_tamil_kingdom = {
 }
 
 ###############################################
-## End of Dravidian_cultrue_group ##
+## End of Dravidian_culture_group ##
 ###############################################
 
