@@ -7101,18 +7101,6 @@ baron_feudalclan_male_croatian = {
 	top_liege = no
 }
 
-baron_republic_male_croatian = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 8
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
 baron_feudalclan_female_croatian = {
 	type = character
 	gender = female
@@ -7124,37 +7112,6 @@ baron_feudalclan_female_croatian = {
 	top_liege = no
 }
 
-baron_republic_female_croatian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 8
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
-barony_feudalclan_croatian = {
-	type = title
-	tier = barony
-	priority = 8
-	cultures = { croatian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-barony_republic_croatian = {
-	type = title
-	tier = barony
-	priority = 8
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-}
-
-
 count_feudalclan_male_croatian = {
 	type = character
 	gender = male
@@ -7163,29 +7120,6 @@ count_feudalclan_male_croatian = {
 	priority = 18
 	cultures = { croatian }
 	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-count_republic_male_croatian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
-count_tribal_male_croatian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { tribal_government }
 	top_liege = no
 }
 
@@ -7212,29 +7146,6 @@ count_feudalclan_female_croatian = {
 	top_liege = no
 }
 
-count_republic_female_croatian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
-count_tribal_female_croatian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_female_croatian_independent = {
 	type = character
 	gender = female
@@ -7245,33 +7156,6 @@ count_feudalclan_female_croatian_independent = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
-}
-
-county_feudalclan_croatian = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-county_republic_croatian = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { republic_government }
-	top_liege = no
-}
-
-county_tribal_croatian = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { croatian }
-	governments = { tribal_government }
-	top_liege = no
 }
 
 county_feudalclan_croatian_independent = {
@@ -7295,16 +7179,6 @@ duke_feudalclan_male_croatian = {
 	top_liege = no
 }
 
-duke_tribal_male_croatian = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { croatian }
-	governments = { tribal_government }
-	top_liege = no
-}
 
 duke_feudalclan_male_croatian_independent = {
 	type = character
@@ -7330,17 +7204,6 @@ duke_feudalclan_female_croatian = {
 	
 }
 
-duke_tribal_female_croatian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { croatian }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 duke_feudalclan_female_croatian_independent = {
 	type = character
 	gender = female
@@ -7351,24 +7214,6 @@ duke_feudalclan_female_croatian_independent = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
-}
-
-duchy_feudalclan_croatian = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { croatian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-duchy_tribal_croatian = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { croatian }
-	governments = { tribal_government }
-	top_liege = no
 }
 
 duchy_feudalclan_croatian_independent = {
@@ -7404,15 +7249,6 @@ king_feudalclan_female_croatian = {
 	top_liege = no
 }
 
-kingdom_feudalclan_croatian = {
-	type = title
-	tier = kingdom
-	priority = 48
-	cultures = { croatian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
 emperor_feudalclan_male_croatian = {
 	type = character
 	gender = male
@@ -7435,14 +7271,6 @@ emperor_feudalclan_female_croatian = {
 	top_liege = no
 }
 
-empire_feudalclan_croatian = {
-	type = title
-	tier = empire
-	priority = 103
-	cultures = { croatian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
 
 ###############################################
 ## Bosnian_culture
@@ -8237,17 +8065,6 @@ count_feudalclan_male_vlach = {
 	top_liege = no
 }
 
-count_republic_male_vlach = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
 
 count_tribal_male_vlach = {
 	type = character
@@ -8283,29 +8100,6 @@ count_feudalclan_female_vlach = {
 	top_liege = no
 }
 
-count_republic_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
-count_tribal_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_female_vlach_independent = {
 	type = character
 	gender = female
@@ -8324,15 +8118,6 @@ county_feudalclan_vlach = {
 	priority = 18
 	cultures = { vlach }
 	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-county_republic_vlach = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { republic_government }
 	top_liege = no
 }
 
@@ -8401,17 +8186,6 @@ duke_feudalclan_female_vlach = {
 	
 }
 
-duke_tribal_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { vlach }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 duke_feudalclan_female_vlach_independent = {
 	type = character
 	gender = female
@@ -8430,15 +8204,6 @@ duchy_feudalclan_vlach = {
 	priority = 28
 	cultures = { vlach }
 	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-duchy_tribal_vlach = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { vlach }
-	governments = { tribal_government }
 	top_liege = no
 }
 
@@ -8528,18 +8293,6 @@ baron_feudalclan_male_bulgarian = {
 	top_liege = no
 }
 
-baron_republic_male_bulgarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 8
-	cultures = { bulgarian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
 baron_feudalclan_female_bulgarian = {
 	type = character
 	gender = female
@@ -8549,18 +8302,6 @@ baron_feudalclan_female_bulgarian = {
 	cultures = { bulgarian }
 	governments = { feudal_government clan_government }
 	top_liege = no
-}
-
-baron_republic_female_bulgarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 8
-	cultures = { bulgarian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
 }
 
 barony_feudalclan_bulgarian = {
@@ -8591,18 +8332,6 @@ count_feudalclan_male_bulgarian = {
 	cultures = { bulgarian }
 	governments = { feudal_government clan_government }
 	top_liege = no
-}
-
-count_republic_male_bulgarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { bulgarian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
 }
 
 count_tribal_male_bulgarian = {
@@ -8639,29 +8368,6 @@ count_feudalclan_female_bulgarian = {
 	top_liege = no
 }
 
-count_republic_female_bulgarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { bulgarian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-
-count_tribal_female_bulgarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { bulgarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_female_bulgarian_independent = {
 	type = character
 	gender = female
@@ -8689,15 +8395,6 @@ county_republic_bulgarian = {
 	priority = 18
 	cultures = { bulgarian }
 	governments = { republic_government }
-	top_liege = no
-}
-
-county_tribal_bulgarian = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { bulgarian }
-	governments = { tribal_government }
 	top_liege = no
 }
 
@@ -8757,17 +8454,6 @@ duke_feudalclan_female_bulgarian = {
 	
 }
 
-duke_tribal_female_bulgarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { bulgarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 duke_feudalclan_female_bulgarian_independent = {
 	type = character
 	gender = female
@@ -8786,15 +8472,6 @@ duchy_feudalclan_bulgarian = {
 	priority = 28
 	cultures = { bulgarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-duchy_tribal_bulgarian = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { bulgarian }
-	governments = { tribal_government }
 	top_liege = no
 }
 
