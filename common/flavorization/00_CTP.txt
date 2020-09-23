@@ -7167,7 +7167,14 @@ county_feudalclan_croatian_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
+county_feudalclan_croatian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { croatian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_croatian = {
 	type = character
 	gender = male
