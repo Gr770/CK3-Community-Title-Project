@@ -14,7 +14,100 @@
 #################################################
 ## Central_German_culture_group ##
 ###############################################
-## Saxon_cultre ##
+baron_republic_male_central_germanic = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	culture_groups = { central_germanic_group }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_central_germanic = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	culture_groups = { central_germanic_group }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_central_germanic = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	culture_groups = { central_germanic_group }
+	top_liege = no
+}
+count_feudalclan_male_central_germanic_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_central_germanic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_central_germanic_independent = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_male_central_germanic_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_central_germanic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_central_germanic_independent = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government }
+	culture_groups = { central_germanic }
+	top_liege = no
+	only_independent = yes
+}
+################################################
+## Saxon_culture ##
 ##
 baron_male_saxon = {
 	type = character
@@ -47,6 +140,17 @@ baron_female_saxon = {
 	cultures = { saxon }
 	top_liege = no
 }
+baron_republic_female_saxon = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { saxon }
+	top_liege = no
+	only_holder = yes
+}
 barony_saxon = {
 	type = title
 	tier = barony
@@ -55,61 +159,79 @@ barony_saxon = {
 	cultures = { saxon }
 	top_liege = no
 }
-count_male_saxon = {
+count_feudalclan_male_saxon = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
 }
-count_female_saxon = {
+count_feudalclan_female_saxon = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
 }
-county_saxon = {
+county_feudalclan_saxon = {
 	type = title
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
 }
-duke_male_saxon = {
+county_feudalclan_saxon_independent = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { saxon }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_male_saxon = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
 }
-duke_female_saxon = {
+duke_feudalclan_female_saxon = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
 }
-duchy_saxon = {
+duchy_feudalclan_saxon = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { saxon }
 	top_liege = no
+}
+duchy_feudalclan_saxon_independent = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	cultures = { saxon }
+	top_liege = no
+	only_independent = yes
 }
 king_male_saxon = {
 	type = character
@@ -132,11 +254,11 @@ king_female_saxon = {
 	top_liege = no
 }
 
-kingdom_saxon={
+kingdom_saxon = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { saxon }
 	top_liege = no
 }
@@ -145,10 +267,10 @@ title_prince_male_saxon = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { saxon }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -156,10 +278,10 @@ title_prince_female_saxon = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { saxon }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -188,13 +310,13 @@ empire_saxon = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { saxon }
 	top_liege = no
 }
 
 ###############################################
-## Franconian_culture ##
+## franconian_culture ##
 ##
 baron_male_franconian = {
 	type = character
@@ -224,59 +346,59 @@ barony_franconian = {
 	cultures = { franconian }
 	top_liege = no
 }
-count_male_franconian = {
+count_feudalclan_male_franconian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
-count_female_franconian = {
+count_feudalclan_female_franconian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
-county_franconian = {
+county_feudalclan_franconian = {
 	type = title
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
-duke_male_franconian = {
+duke_feudalclan_male_franconian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
-duke_female_franconian = {
+duke_feudalclan_female_franconian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
-duchy_franconian = {
+duchy_feudalclan_franconian = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -301,11 +423,11 @@ king_female_franconian = {
 	top_liege = no
 }
 
-kingdom_franconian={
+kingdom_franconian = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -314,10 +436,10 @@ title_prince_male_franconian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { franconian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -325,10 +447,10 @@ title_prince_female_franconian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { franconian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -357,7 +479,7 @@ empire_franconian = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { franconian }
 	top_liege = no
 }
@@ -392,59 +514,59 @@ barony_swabian = {
 	cultures = { swabian }
 	top_liege = no
 }
-count_male_swabian = {
+count_feudalclan_male_swabian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
-count_female_swabian = {
+count_feudalclan_female_swabian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
-county_swabian = {
+county_feudalclan_swabian = {
 	type = title
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
-duke_male_swabian = {
+duke_feudalclan_male_swabian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
-duke_female_swabian = {
+duke_feudalclan_female_swabian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
-duchy_swabian = {
+duchy_feudalclan_swabian = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { swabian }
 	top_liege = no
 }
@@ -469,11 +591,11 @@ king_female_swabian = {
 	top_liege = no
 }
 
-kingdom_swabian={
+kingdom_swabian = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { swabian }
 	top_liege = no
 }
@@ -482,10 +604,10 @@ title_prince_male_swabian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { swabian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -493,10 +615,10 @@ title_prince_female_swabian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { swabian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -525,11 +647,10 @@ empire_swabian = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { swabian }
 	top_liege = no
 }
-
 ###############################################
 ## Bavarian_culture  ##
 ##
@@ -542,17 +663,6 @@ baron_male_bavarian = {
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
 	top_liege = no
-}
-baron_republic_male_bavarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 8
-	governments = { republic_government }
-	cultures = { bavarian swabian franconian }
-	top_liege = no
-	only_holder = yes
 }
 baron_female_bavarian = {
 	type = character
@@ -572,59 +682,59 @@ barony_bavarian = {
 	cultures = { bavarian }
 	top_liege = no
 }
-count_male_bavarian = {
+count_feudalclan_male_bavarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
-count_female_bavarian = {
+count_feudalclan_female_bavarian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
-county_bavarian = {
+county_feudalclan_bavarian = {
 	type = title
 	tier = county
-	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
-duke_male_bavarian = {
+duke_feudalclan_male_bavarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
-duke_female_bavarian = {
+duke_feudalclan_female_bavarian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
-duchy_bavarian = {
+duchy_feudalclan_bavarian = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { bavarian }
 	top_liege = no
 }
@@ -649,11 +759,11 @@ king_female_bavarian = {
 	top_liege = no
 }
 
-kingdom_bavarian={
+kingdom_bavarian = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
 	top_liege = no
 }
@@ -662,10 +772,10 @@ title_prince_male_bavarian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { bavarian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -673,10 +783,10 @@ title_prince_female_bavarian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { bavarian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -705,7 +815,7 @@ empire_bavarian = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { bavarian }
 	top_liege = no
 }
@@ -722,6 +832,17 @@ baron_male_frisian = {
 	cultures = { frisian }
 	top_liege = no
 }
+baron_republic_male_frisian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { frisian }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_frisian = {
 	type = character
 	gender = female
@@ -732,17 +853,6 @@ baron_female_frisian = {
 	cultures = { frisian }
 	top_liege = no
 }
-baron_republic_male_frisian = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 8
-	governments = { republic_government }
-	cultures = { frisian }
-	only_holder = yes
-	top_liege = no
-}
 baron_republic_female_frisian = {
 	type = character
 	gender = female
@@ -751,8 +861,8 @@ baron_republic_female_frisian = {
 	priority = 8
 	governments = { republic_government }
 	cultures = { frisian }
-	only_holder = yes
 	top_liege = no
+	only_holder = yes
 }
 barony_frisian = {
 	type = title
@@ -762,61 +872,131 @@ barony_frisian = {
 	cultures = { frisian }
 	top_liege = no
 }
-count_male_frisian = {
+barony_republic_frisian = {
+	type = title
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { frisian }
+	top_liege = no
+}
+count_feudalclan_male_frisian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { frisian }
+	top_liege = no
+}
+count_feudalclan_male_frisian_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
+	cultures = { frisian }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_frisian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { frisian }
 	top_liege = no
 }
-count_female_frisian = {
+count_feudalclan_female_frisian_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
+	culture_groups = { frisian }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_frisian = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { frisian }
 	top_liege = no
 }
-county_frisian = {
+county_feudalclan_frisian_independent = {
 	type = title
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
-	cultures = { frisian }
+	governments = { feudal_government clan_government }
+	culture_groups = { frisian }
 	top_liege = no
+	only_independent = yes
 }
-duke_male_frisian = {
+duke_feudalclan_male_frisian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { frisian }
 	top_liege = no
 }
-duke_female_frisian = {
+duke_feudalclan_male_frisian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { frisian }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_frisian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { frisian }
 	top_liege = no
 }
-duchy_frisian = {
+duke_feudalclan_female_frisian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { frisian }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_frisian = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { frisian }
 	top_liege = no
+}
+duchy_feudalclan_frisian_independent = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { frisian }
+	top_liege = no
+	only_independent = yes
 }
 king_male_frisian = {
 	type = character
@@ -839,11 +1019,11 @@ king_female_frisian = {
 	top_liege = no
 }
 
-kingdom_frisian={
+kingdom_frisian = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { frisian }
 	top_liege = no
 }
@@ -852,10 +1032,10 @@ title_prince_male_frisian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { frisian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -863,10 +1043,10 @@ title_prince_female_frisian = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { frisian }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -895,19 +1075,10 @@ empire_frisian = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { frisian }
 	top_liege = no
 }
-barony_republic_frisian = {
-	type = title
-	tier = barony
-	priority = 8
-	governments = { republic_government }
-	cultures = { frisian }
-	top_liege = no
-}
-
 ###############################################
 ## Dutch_culture  ##
 ##
@@ -921,6 +1092,16 @@ baron_male_dutch = {
 	cultures = { dutch }
 	top_liege = no
 }
+baron_republic_male_dutch = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	governments = { republic_government }
+	cultures = { dutch }
+	top_liege = no
+}
 baron_female_dutch = {
 	type = character
 	gender = female
@@ -931,25 +1112,6 @@ baron_female_dutch = {
 	cultures = { dutch }
 	top_liege = no
 }
-barony_dutch = {
-	type = title
-	tier = barony
-	priority = 8
-	governments = { feudal_government clan_government tribal_government  }
-	cultures = { dutch }
-	top_liege = no
-}
-baron_republic_male_dutch = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 8
-	governments = { republic_government }
-	cultures = { dutch }
-	only_holder = yes
-	top_liege = no
-}
 baron_republic_female_dutch = {
 	type = character
 	gender = female
@@ -957,73 +1119,134 @@ baron_republic_female_dutch = {
 	tier = barony
 	priority = 8
 	governments = { republic_government }
-	cultures = { dutch franconian swabian bavarian }
-	only_holder = yes
+	cultures = { dutch }
 	top_liege = no
 }
-barony_republic_dutch = {
+barony_dutch = {
 	type = title
 	tier = barony
 	priority = 8
-	governments = { republic_government }
-	cultures = { dutch franconian swabian bavarian saxon }
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { dutch }
 	top_liege = no
 }
-count_male_dutch = {
+count_feudalclan_male_dutch = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	cultures = { dutch }
+	top_liege = no
+}
+count_feudalclan_male_dutch_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
+	cultures = { dutch }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_dutch = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { dutch }
 	top_liege = no
 }
-count_female_dutch = {
+count_feudalclan_female_dutch_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
+	culture_groups = { dutch }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_dutch = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
 	cultures = { dutch }
 	top_liege = no
 }
-county_dutch = {
+county_feudalclan_dutch_independent = {
 	type = title
 	tier = county
 	priority = 19
-	governments = { feudal_government clan_government tribal_government theocracy_government }
-	cultures = { dutch }
+	governments = { feudal_government clan_government }
+	culture_groups = { dutch }
 	top_liege = no
+	only_independent = yes
 }
-duke_male_dutch = {
+duke_feudalclan_male_dutch = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { dutch }
 	top_liege = no
 }
-duke_female_dutch = {
+duke_feudalclan_male_dutch_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { dutch }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_dutch = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	cultures = { dutch }
 	top_liege = no
 }
-duchy_dutch = {
+duke_feudalclan_female_dutch_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { dutch }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_dutch = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government }
 	cultures = { dutch }
 	top_liege = no
+}
+duchy_feudalclan_dutch_independent = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	culture_groups = { dutch }
+	top_liege = no
+	only_independent = yes
 }
 king_male_dutch = {
 	type = character
@@ -1046,11 +1269,11 @@ king_female_dutch = {
 	top_liege = no
 }
 
-kingdom_dutch={
+kingdom_dutch = {
 	type= title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government clan_government tribal_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { dutch }
 	top_liege = no
 }
@@ -1059,10 +1282,10 @@ title_prince_male_dutch = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { dutch }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -1070,10 +1293,10 @@ title_prince_female_dutch = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
+	tier = { kingdom empire }
 	priority = 41
 	cultures = { dutch }
-	governments = { feudal_government tribal_government clan_government}
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
@@ -1102,7 +1325,7 @@ empire_dutch = {
 	type = title
 	tier = empire
 	priority = 103
-	governments = { feudal_government clan_government theocracy_government}
+	governments = { feudal_government clan_government tribal_government }
 	cultures = { dutch }
 	top_liege = no
 }
