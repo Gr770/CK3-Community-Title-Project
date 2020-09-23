@@ -918,7 +918,7 @@ count_feudalclan_female_frisian_independent = {
 	tier = county
 	priority = 19
 	governments = { feudal_government clan_government }
-	culture_groups = { frisian }
+	cultures = { frisian }
 	top_liege = no
 	only_independent = yes
 }
@@ -935,7 +935,7 @@ county_feudalclan_frisian_independent = {
 	tier = county
 	priority = 19
 	governments = { feudal_government clan_government }
-	culture_groups = { frisian }
+	cultures = { frisian }
 	top_liege = no
 	only_independent = yes
 }
@@ -956,7 +956,7 @@ duke_feudalclan_male_frisian_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { frisian }
+	cultures = { frisian }
 	top_liege = no
 	only_independent = yes
 }
@@ -977,7 +977,7 @@ duke_feudalclan_female_frisian_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { frisian }
+	cultures = { frisian }
 	top_liege = no
 	only_independent = yes
 }
@@ -994,7 +994,7 @@ duchy_feudalclan_frisian_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { frisian }
+	cultures = { frisian }
 	top_liege = no
 	only_independent = yes
 }
@@ -1168,7 +1168,7 @@ count_feudalclan_female_dutch_independent = {
 	tier = county
 	priority = 19
 	governments = { feudal_government clan_government }
-	culture_groups = { dutch }
+	cultures = { dutch }
 	top_liege = no
 	only_independent = yes
 }
@@ -1185,7 +1185,7 @@ county_feudalclan_dutch_independent = {
 	tier = county
 	priority = 19
 	governments = { feudal_government clan_government }
-	culture_groups = { dutch }
+	cultures = { dutch }
 	top_liege = no
 	only_independent = yes
 }
@@ -1206,7 +1206,7 @@ duke_feudalclan_male_dutch_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { dutch }
+	cultures = { dutch }
 	top_liege = no
 	only_independent = yes
 }
@@ -1227,7 +1227,7 @@ duke_feudalclan_female_dutch_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { dutch }
+	cultures = { dutch }
 	top_liege = no
 	only_independent = yes
 }
@@ -1244,7 +1244,7 @@ duchy_feudalclan_dutch_independent = {
 	tier = duchy
 	priority = 29
 	governments = { feudal_government clan_government }
-	culture_groups = { dutch }
+	cultures = { dutch }
 	top_liege = no
 	only_independent = yes
 }
@@ -1307,7 +1307,7 @@ emperor_male_dutch = {
 	tier = empire
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = {dutch}
+	cultures = { dutch }
 	top_liege = no
 }
 emperor_female_dutch = {
@@ -1317,7 +1317,7 @@ emperor_female_dutch = {
 	tier = empire
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = {dutch}
+	cultures = { dutch }
 	top_liege = no
 }
 
@@ -1621,7 +1621,7 @@ baron_female_norwegian = {
 	cultures = { norwegian }
 	top_liege = no
 }
-barony_norse = {
+barony_norse = { ##is to be renamed?
 	type = title
 	tier = barony
 	priority = 7
@@ -7861,7 +7861,7 @@ emperor_feudalclan_female_croatian = {
 }
 
 ###############################################
-## Serbian and Bosnian culture
+## Serbian and Bosnian cultures
 
 baron_feudalclan_male_serbian = {
 	type = character
