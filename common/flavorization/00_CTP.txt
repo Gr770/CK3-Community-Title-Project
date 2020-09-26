@@ -8893,6 +8893,26 @@ empire_feudalclan_bulgarian = {
 ## Magyar_group ##
 ###############################################
 
+count_male_magyar_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	culture_group = { magyar_group }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_female_magyar_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	culture_group = { magyar_group }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 count_male_magyar_group_independent = {
 	type = character
 	gender = male
@@ -8928,6 +8948,42 @@ duchy_magyar_group_independent = {
 	culture_group = { magyar_group }
 	governments = { feudal_government clan_government }
 	only_independent = yes
+}
+county_tribal_magyar_group = {
+	type = title
+	tier = county
+	priority = 18
+	culture_group = { magyar_group }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_magyar_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	culture_group = { magyar_group }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_magyar_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	culture_group = { magyar_group }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_magyar_group = {
+	type = title
+	tier = duchy
+	priority = 28
+	culture_group = { magyar_group }
+	governments = { tribal_government }
+	top_liege = no
 }
 
 ## Mogyer ##
@@ -9038,26 +9094,6 @@ duchy_mogyer = {
 	governments = { feudal_government clan_government  }
 	top_liege = no
 }
-count_male_mogyer = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { mogyer }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { mogyer }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
 county_mogyer = {
 	type = title
 	tier = county
@@ -9138,42 +9174,6 @@ count_tribal_female_mogyer = {
 	special = holder
 	tier = county
 	priority = 18
-	cultures = { mogyer }
-	governments = { tribal_government }
-	top_liege = no
-}
-county_tribal_mogyer = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { mogyer }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_male_mogyer = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { mogyer }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { mogyer }
-	governments = { tribal_government }
-	top_liege = no
-}
-duchy_tribal_mogyer = {
-	type = title
-	tier = duchy
-	priority = 28
 	cultures = { mogyer }
 	governments = { tribal_government }
 	top_liege = no
@@ -9316,26 +9316,6 @@ duchy_hungarian = {
 	priority = 28
 	cultures = { hungarian }
 	governments = { feudal_government clan_government  }
-	top_liege = no
-}
-count_male_hungarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
 	top_liege = no
 }
 county_hungarian = {
@@ -9513,42 +9493,6 @@ count_tribal_female_hungarian = {
 	special = holder
 	tier = county
 	priority = 18
-	cultures = { hungarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-county_tribal_hungarian = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { hungarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_male_hungarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { hungarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { hungarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duchy_tribal_hungarian = {
-	type = title
-	tier = duchy
-	priority = 28
 	cultures = { hungarian }
 	governments = { tribal_government }
 	top_liege = no
