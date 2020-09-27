@@ -1,0 +1,164 @@
+﻿##############################################################
+### 		Community Title Project Mod 					##
+### 		Council Title Localisaiton 						##
+###############################################################
+
+###############################################################
+## Council Position Chancellor
+###############################################################
+
+CouncilPositionChancellor = {
+	type = character
+	
+##################################################
+### Goidelic
+##################################################
+
+### To be added
+
+##################################################
+### West Germanic
+##################################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = councillor_chancellor_english
+	}
+
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = councillor_chancellor_anglo_saxon
+	}
+
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_old_saxon_male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+			is_male = no
+		}
+		localization_key = councillor_chancellor_old_saxon_female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = councillor_chancellor_scottish
+	}
+##################################################
+### Brythonic
+##################################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_welsh_male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+			is_male = no
+		}
+		localization_key = councillor_chancellor_welsh_female
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_cornish_male
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+			is_male = no
+		}
+		localization_key = councillor_chancellor_cornish_female
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_cumbric_male
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+			is_male = no
+		}
+		localization_key = councillor_chancellor_cumbric_female
+	}
+##################################################
+### Frankish
+##################################################
+	text = {
+		trigger = {
+			has_culture = culture:french
+		}
+		localization_key = councillor_chancellor_french
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:norman
+		}
+		localization_key = councillor_chancellor_norman
+	}	
+	text = {
+		trigger = {
+			has_culture = culture:occitan
+		}
+		localization_key = councillor_chancellor_occitan
+	}
+##################################################
+### Iberian
+##################################################		
+	text = {
+		trigger = {
+			has_culture = culture:castilian
+		}
+		localization_key = councillor_chancellor_castilian
+	}
+	text = {
+		trigger = {
+			has_culture = culture:catalan
+		}
+		localization_key = councillor_chancellor_catalan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:portugese
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_portugese_male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:portugese
+			is_male = no
+		}
+		localization_key = councillor_chancellor_portugese_female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:aragonese
+		}
+		localization_key = councillor_chancellor_aragonese
+	}
+##################################################
+### Default Fallback
+##################################################
+	text = {
+		localization_key = councillor_chancellor_default
+		fallback = yes
+	}
+}
