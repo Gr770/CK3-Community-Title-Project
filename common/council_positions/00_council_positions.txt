@@ -5,208 +5,461 @@ councillor_chancellor = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					is_male = yes
+					scope:councillor_liege.culture = culture:english
+				}
+				desc = chancellor_english
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:anglo_saxon
+				}
+				desc = chancellor_anglo_saxon
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:old_saxon
 				}
 				desc = {
 					first_valid = {
 						triggered_desc = {
 							trigger = {
-								scope:councillor_liege.culture = culture:old_saxon
+								is_male = no
 							}
-							desc = chancellor_male_old_saxon
+							desc = chancellor_female_old_saxon
 						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:welsh
-							}
-							desc = chancellor_male_welsh
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:cornish
-							}
-							desc = chancellor_male_cornish
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:cumbric
-							}
-							desc = chancellor_male_cumbric
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:portuguese
-							}
-							desc = chancellor_male_portuguese
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:greek
-							}
-							desc = chancellor_male_greek
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:italian
-							}
-							desc = chancellor_male_italian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:roman
-							}
-							desc = chancellor_male_roman
-						}
-						triggered_desc = {
-							trigger = {
-								OR = {
-									scope:councillor_liege.culture = culture:bosnian
-									scope:councillor_liege.culture = culture:serbian
-								}
-							}
-							desc = chancellor_male_serbian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:vlach
-							}
-							desc = chancellor_male_vlach
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:czech
-							}
-							desc = chancellor_male_czech
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:pomeranian
-							}
-							desc = chancellor_male_pomeranian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:polabian
-							}
-							desc = chancellor_male_polabian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:slovien
-							}
-							desc = chancellor_male_slovien
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:egyptian
-								scope:councillor_liege.faith = faith:coptic
-							}
-							desc = chancellor_male_egyptian_coptic
-						}
-						desc = councillor_chancellor
+						desc = chancellor_male_old_saxon
 					}
 				}
 			}
 			triggered_desc = {
 				trigger = {
-					is_male = no
+					scope:councillor_liege.culture = culture:scottish
+				}
+				desc = chancellor_scottish
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:welsh
 				}
 				desc = {
 					first_valid = {
 						triggered_desc = {
 							trigger = {
-								scope:councillor_liege.culture = culture:old_saxon
-							}
-							desc = chancellor_female_old_saxon
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:welsh
+								is_male = no
 							}
 							desc = chancellor_female_welsh
 						}
+						desc = chancellor_male_welsh
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:cornish
+				}
+				desc = {
+					first_valid = {
 						triggered_desc = {
 							trigger = {
-								scope:councillor_liege.culture = culture:portuguese
+								is_male = no
+							}
+							desc = chancellor_female_cornish
+						}
+						desc = chancellor_male_cornish
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:cumbric
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_cumbric
+						}
+						desc = chancellor_male_cumbric
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:french
+				}
+				desc = chancellor_french
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:norman
+				}
+				desc = chancellor_norman
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:occitan
+				}
+				desc = chancellor_occitan
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:catalan
+				}
+				desc = chancellor_catalan
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:portuguese
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
 							}
 							desc = chancellor_female_portuguese
 						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:greek
-							}
-							desc = chancellor_female_greek
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:italian
-							}
-							desc = chancellor_female_italian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:roman
-							}
-							desc = chancellor_female_roman
-						}
-						triggered_desc = {
-							trigger = {
-								OR = {
-									scope:councillor_liege.culture = culture:bosnian
-									scope:councillor_liege.culture = culture:serbian
-								}
-							}
-							desc = chancellor_female_bosian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:vlach
-							}
-							desc = chancellor_female_vlach
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:pomeranian
-							}
-							desc = chancellor_female_pomeranian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:czech
-							}
-							desc = chancellor_female_czech
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:polish
-							}
-							desc = chancellor_female_polish
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:polabian
-							}
-							desc = chancellor_female_polabian
-						}
-						triggered_desc = {
-							trigger = {
-								scope:councillor_liege.culture = culture:slovien
-							}
-							desc = chancellor_female_slovien
-						}
+						desc = chancellor_male_portuguese
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:aragonese
+				}
+				desc = chancellor_aragonese
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture_group = culture_group:north_germanic_group
+				}
+				desc = chancellor_north_germanic
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:finnish
+				}
+				desc = chancellor_finnish
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:estonian
+				}
+				desc = chancellor_estonian
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						scope:councillor_liege.culture = culture:saxon
+						scope:councillor_liege.culture = culture:dutch
+					}
+				}
+				desc = chancellor_saxondutch
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						scope:councillor_liege.culture = culture:franconian
+						scope:councillor_liege.culture = culture:swabian
+						scope:councillor_liege.culture = culture:bavarian
+					}
+				}
+				desc = chancellor_centralgermanic
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:frisian
+				}
+				desc = chancellor_frisian
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture_group = culture_group:arabic_group
+				}
+				desc = {
+					first_valid = {
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:egyptian
 								scope:councillor_liege.faith = faith:coptic
 							}
-							desc = chancellor_male_egyptian_coptic
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = chancellor_female_egyptian_coptic
+									}
+									desc = chancellor_male_egyptian_coptic
+								}
+							}
 						}
-						desc = councillor_chancellor
+						desc = chancellor_arabic
 					}
 				}
 			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:greek
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_greek
+						}
+						desc = chancellor_male_greek
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:georgian
+				}
+				desc = chancellor_georgian
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:italian
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_italian
+						}
+						desc = chancellor_male_italian
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:roman
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_roman
+						}
+						desc = chancellor_male_roman
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:lombard
+				}
+				desc = chancellor_lombard
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						scope:councillor_liege.culture = culture:bosnian
+						scope:councillor_liege.culture = culture:serbian
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_serbian
+						}
+						desc = chancellor_male_serbian
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:vlach
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_vlach
+						}
+						desc = chancellor_male_vlach
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:pomeranian
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_pomeranian
+						}
+						desc = chancellor_male_pomeranian
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:czech
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_czech
+						}
+						desc = chancellor_male_czech
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:polish
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_polish
+						}
+						desc = chancellor_male_polish
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:polabian
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_polabian
+						}
+						desc = chancellor_male_polabian
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:slovien
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								is_male = no
+							}
+							desc = chancellor_female_slovien
+						}
+						desc = chancellor_male_slovien
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:mogyer
+				}
+				desc = chancellor_mogyer
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:hungarian
+				}
+				desc = chancellor_hungarian
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:lithuanuan
+				}
+				desc = chancellor_lithuanuan
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:russian
+				}
+				desc = chancellor_russian
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:tamil
+				}
+				desc = chancellor_tamil
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:telugu
+				}
+				desc = chancellor_telugu
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:ethiopian
+				}
+				desc = chancellor_ethiopian
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:ethiopian
+				}
+				desc = chancellor_ethiopian
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						scope:councillor_liege.culture = culture:kashmiri
+						scope:councillor_liege.culture = culture:bengali
+				}
+				desc = chancellor_bengalikashmiri
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:oriya
+				}
+				desc = chancellor_oriya
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						scope:councillor_liege.culture = culture:assamese
+						scope:councillor_liege.culture = culture:hindustani
+				}
+				desc = chancellor_assamesehindustani
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:rajaput
+				}
+				desc = chancellor_rajaput
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:sinhala
+				}
+				desc = chancellor_sinhala
+			}
 			desc = councillor_chancellor
-		}
+		}	
 	}
 	tooltip = game_concept_chancellor_desc
 
