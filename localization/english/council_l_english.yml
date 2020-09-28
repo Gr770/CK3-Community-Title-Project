@@ -20,7 +20,7 @@
  COUNCILLOR_NO_CHARACTER_IN_POSITION:0 "No $POSITION$"
  START_COUNCIL_TASK_SEND_COUNTY:1 "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [COUNTY.GetTitle.GetName]"
  START_COUNCIL_TASK_SEND_COURT:1 "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [TARGET.GetShortUINamePossessive] court"
- START_COUNCIL_TASK_ABORTED:1 "\n@warning_icon!#X Your [COUNCIL_TASK.GetPositionNamePossesive] current Task ('[COUNCIL_TASK.GetTaskType.GetName]') will be aborted.#!"
+ START_COUNCIL_TASK_ABORTED:1 "\n@warning_icon!#X Your [COUNCIL_TASK.GetPositionNamePossesive] current task ('[COUNCIL_TASK.GetTaskType.GetName]') will be aborted.#!"
  COUNCILLOR_TASK_ALREADY_IN_PROCESS:0 "The task is already being executed"
  COUNCILLOR_TIMEOUT_FIRE:0 "The [councillor|E] can not be fired until [DATE.GetString]"
  COUNCILLOR_TIMEOUT_REASSIGN:0 "@warning_icon!#X The [councillor|E] can not be reassigned until [DATE.GetString]#!"
@@ -34,18 +34,18 @@
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
- councillor_coregent:0 "Coregent"
+ councillor_coregent:0 "Coregent" ##Is this used anywhere?
  councillor_coregent_possessive:0 "Coregent's"
  councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
  councillor_chancellor_possessive:0 "$councillor_chancellor$'s"
  councillor_steward:0 "Steward"
- councillor_steward_possessive:0 "Steward's"
+ councillor_steward_possessive:0 "$councillor_steward$'s"
  councillor_marshal:0 "Marshal"
- councillor_marshal_possessive:0 "Marshal's"
+ councillor_marshal_possessive:0 "$councillor_marshal$'s"
  councillor_spymaster:0 "Spymaster"
- councillor_spymaster_possessive:0 "Spymaster's"
+ councillor_spymaster_possessive:0 "$councillor_spymaster$'s"
  councillor_court_chaplain:0 "Court Chaplain"
- councillor_court_chaplain_possessive:0 "Court Chaplain's"
+ councillor_court_chaplain_possessive:0 "$councillor_court_chaplain$'s"
 
 #Flavor localization for Court Chaplains, sorted by Religion.
 
@@ -73,19 +73,7 @@
  councillor_court_chaplain_christian_empire_possessive:0 "Patriarch's"
  councillor_court_chaplain_christian_empire_female_possessive:0 "Matriarch's"
 
- #Orthodox
- councillor_court_chaplain_orthodox_county:1 "Suffragan Bishop"
- councillor_court_chaplain_orthodox_county_possessive:1 "Suffragan Bishop's"
- councillor_court_chaplain_orthodox_duchy:1 "Bishop"
- councillor_court_chaplain_orthodox_duchy_possessive:1 "Bishop's"
- councillor_court_chaplain_orthodox_kingdom:0 "Patriarch"
- councillor_court_chaplain_orthodox_kingdom_female:0 "Matriarch"
- councillor_court_chaplain_orthodox_kingdom_possessive:0 "Patriarch's"
- councillor_court_chaplain_orthodox_kingdom_female_possessive:0 "Matriarch's"
- councillor_court_chaplain_orthodox_empire:0 "Patriarch"
- councillor_court_chaplain_orthodox_empire_female:0 "Matriarch"
- councillor_court_chaplain_orthodox_empire_possessive:0 "Patriarch's"
- councillor_court_chaplain_orthodox_empire_female_possessive:0 "Matriarch's"
+ #Orthodox - deleted because it's forking madness
 
 #Islam
  councillor_court_chaplain_islam_county:0 "Court Imam"
@@ -169,10 +157,10 @@
  councillor_court_chaplain_paganism_religion_county:0 "Court Shaman"
  councillor_court_chaplain_paganism_religion_county_possessive:0 "Court Shaman's"
  councillor_court_chaplain_paganism_religion_duchy:1 "Shaman"
- councillor_court_chaplain_paganism_religion_duchy_possessive:1 "Shaman's"
+ councillor_court_chaplain_paganism_religion_duchy_possessive:1 "$councillor_court_chaplain_paganism_religion_duchy$'s"
  councillor_court_chaplain_paganism_religion_kingdom:1 "High Shaman"
  councillor_court_chaplain_paganism_religion_kingdom_female:1 "$councillor_court_chaplain_paganism_religion_kingdom$"
- councillor_court_chaplain_paganism_religion_kingdom_possessive:1 "High Shaman's"
+ councillor_court_chaplain_paganism_religion_kingdom_possessive:1 "$councillor_court_chaplain_paganism_religion_kingdom$'s"
  councillor_court_chaplain_paganism_religion_kingdom_female_possessive:1 "$councillor_court_chaplain_paganism_religion_kingdom_possessive$"
 
 # Baltic (Court Seer) (Vaidilė/Vaidilutė)
@@ -243,13 +231,13 @@
 
 # Zunism (Court Seer) (Diviner) (Grand Diviner)
  councillor_court_chaplain_zunism_religion_duchy:0 "Diviner"
- councillor_court_chaplain_zunism_religion_duchy_possessive:0 "Diviner's"
+ councillor_court_chaplain_zunism_religion_duchy_possessive:0 "$councillor_court_chaplain_zunism_religion_duchy$'s"
  councillor_court_chaplain_zunism_religion_kingdom:0 "Grand Diviner"
- councillor_court_chaplain_zunism_religion_kingdom_possessive:0 "Grand Diviner's"
+ councillor_court_chaplain_zunism_religion_kingdom_possessive:0 "$councillor_court_chaplain_zunism_religion_kingdom$'s"
 
-#Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments.
+#Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments. Should we put here links to titles? But they directly include nations so this cannot be done from here.
  councillor_spouse:0 "Spouse"
- councillor_spouse_prince_consort:0 "Prince Consort"
+ councillor_spouse_prince_consort:0 "Prince Consort" ##It was clearly all done only because of this line, which can never be a title.
  councillor_spouse_husband:0 "Husband"
  councillor_spouse_empress:0 "Empress"
  councillor_spouse_queen:0 "Queen"
