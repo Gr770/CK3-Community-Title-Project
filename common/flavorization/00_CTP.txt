@@ -1907,7 +1907,7 @@ kingdom_goidelic_group = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_goidelic_group = {
+title_prince_male_goidelic_group_kingdom = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -1917,7 +1917,7 @@ title_prince_male_goidelic_group = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_female_goidelic_group = {
+title_prince_female_goidelic_group_kingdom = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -1932,9 +1932,9 @@ title_prince_male_goidelic_group_empire = {
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 42
+	priority = 43
 	culture_groups = { goidelic_group }
-	governments = { feudal_government clan_government tribal_government republic_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 title_prince_female_goidelic_group_empire = {
@@ -1942,9 +1942,9 @@ title_prince_female_goidelic_group_empire = {
 	gender = female
 	special = ruler_child
 	tier = empire
-	priority = 42
+	priority = 43
 	culture_groups = { goidelic_group }
-	governments = { feudal_government clan_government tribal_government republic_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
