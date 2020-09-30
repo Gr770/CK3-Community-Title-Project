@@ -442,3 +442,507 @@ CouncilPositionChancellor = {
 		fallback = yes
 	}
 }
+
+###############################################################
+## Council Position Steward
+###############################################################
+
+CouncilPositionSteward = {
+	type = character
+
+##################################################
+### Goidelic
+##################################################
+
+### To be added
+
+##################################################
+### West Germanic
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:english
+		}
+		localization_key = councillor_steward_english
+	}
+
+	text = {
+		trigger = {
+			liege.culture = culture:anglo_saxon
+		}
+		localization_key = councillor_steward_anglo_saxon
+	}
+
+	text = {
+		trigger = {
+			liege.culture = culture:old_saxon
+			is_male = yes
+		}
+		localization_key = councillor_steward_old_saxon_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:old_saxon
+			is_male = no
+		}
+		localization_key = councillor_steward_old_saxon_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:scottish
+		}
+		localization_key = councillor_steward_scottish
+	}
+##################################################
+### Brythonic
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:welsh
+			is_male = yes
+		}
+		localization_key = councillor_steward_welsh_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:welsh
+			is_male = no
+		}
+		localization_key = councillor_steward_welsh_female
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:cornish
+			is_male = yes
+		}
+		localization_key = councillor_steward_cornish_male
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:cornish
+			is_male = no
+		}
+		localization_key = councillor_steward_cornish_female
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:cumbric
+			is_male = yes
+		}
+		localization_key = councillor_steward_cumbric_male
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:cumbric
+			is_male = no
+		}
+		localization_key = councillor_steward_cumbric_female
+	}
+##################################################
+### Frankish
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:french
+		}
+		localization_key = councillor_steward_french
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:norman
+		}
+		localization_key = councillor_steward_norman
+	}	
+##################################################
+### Iberian
+##################################################		
+	text = {
+		trigger = {
+			liege.culture = culture:castilian
+		}
+		localization_key = councillor_steward_castilian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:catalan
+			is_male = yes
+		}
+		localization_key = councillor_steward_catalan_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:catalan
+			is_male = no
+		}
+		localization_key = councillor_steward_catalan_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:portugese
+			is_male = yes
+		}
+		localization_key = councillor_steward_portugese_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:portugese
+			is_male = no
+		}
+		localization_key = councillor_steward_portugese_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:asturleonese
+		}
+		localization_key = councillor_steward_asturleonese
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:aragonese
+		}
+		localization_key = councillor_steward_aragonese
+	}
+##################################################
+### North Germanic
+##################################################	
+	text = {
+		trigger = {
+			liege.culture = culture:norse
+		}
+		localization_key = councillor_steward_norse
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:norwegian
+				liege.culture = culture:danish
+		}
+		localization_key = councillor_steward_swedish_norwegian_danish
+	}
+##################################################
+### Balto-Finnic
+##################################################		
+	text = {
+		trigger = {
+			liege.culture = culture:finnish
+		}
+		localization_key = councillor_steward_finnish
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:estonian
+		}
+		localization_key = councillor_steward_estonian
+	}	
+##################################################
+### Central Germanic
+##################################################	
+	text = {
+		trigger = {
+			liege.culture = culture:saxon
+		}
+		localization_key = councillor_steward_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
+			}
+		}
+		localization_key = councillor_steward_bavarian_franconian_swabian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:frisian
+		}
+		localization_key = councillor_steward_frisian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:dutch
+		}
+		localization_key = councillor_steward_dutch
+	}
+##################################################
+### Arabic
+##################################################	
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bedouin
+				liege.culture = culture:levantine
+				liege.culture = culture:egyptian
+		}
+		localization_key = councillor_steward_bedouin_levantine_egyptian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:maghrebi
+		}
+		localization_key = councillor_steward_maghrebi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:andalusian
+		}
+		localization_key = councillor_steward_andalusian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:yemeni
+		}
+		localization_key = councillor_steward_yemeni
+	}
+##################################################
+### Byzantine
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:greek
+			is_male = yes
+		}
+		localization_key = councillor_steward_greek_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:greek
+			is_male = no
+		}
+		localization_key = councillor_steward_greek_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:georgian
+		}
+		localization_key = councillor_steward_georgian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:assyrian
+		}
+		localization_key = councillor_steward_assyrian
+	}
+##################################################
+### Latin
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:italian
+			is_male = yes
+		}
+		localization_key = councillor_steward_italian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:italian
+			is_male = no
+		}
+		localization_key = councillor_steward_italian_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:roman
+			is_male = yes
+		}
+		localization_key = councillor_steward_roman_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:roman
+			is_male = no
+		}
+		localization_key = councillor_steward_roman_female
+	}
+##################################################
+### South Slavic
+##################################################
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bosnian
+				liege.culture = culture:serbian
+			}
+			is_male = yes
+		}
+		localization_key = councillor_steward_bosnian_serbian_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bosnian
+				liege.culture = culture:serbian
+			}
+			is_male = no
+		}
+		localization_key = councillor_steward_bosnian_serbian_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:vlach
+		}
+		localization_key = councillor_steward_vlach
+	}
+##################################################
+### Western Slavic
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pomeranian
+		}
+		localization_key = councillor_steward_pomeranian
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:czech
+				liege.culture = culture:slovien
+			}
+		}
+		localization_key = councillor_steward_czech_slovien
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:polish
+			is_male = yes
+		}
+		localization_key = councillor_steward_polish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:polish
+			is_male = no
+		}
+		localization_key = councillor_steward_polish_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:polabian
+			is_male = yes
+		}
+		localization_key = councillor_steward_polabian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:polabian
+			is_male = no
+		}
+		localization_key = councillor_steward_polabian_female
+	}
+
+##################################################
+### Magyar
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:mogyer
+		}
+		localization_key = councillor_steward_mogyer
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:hungarian
+		}
+		localization_key = councillor_steward_hungarian
+	}
+##################################################
+### Baltic
+##################################################
+## Yet to be Added
+##################################################
+### Eastern Slavic
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:russian
+			is_male = yes
+		}
+		localization_key = councillor_steward_russian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:russian
+			is_male = no
+		}
+		localization_key = councillor_steward_russian_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:ilmenian
+			is_male = yes
+		}
+		localization_key = councillor_steward_ilmenian_male
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:ilmenian
+			is_male = no
+		}
+		localization_key = councillor_steward_ilmenian_female
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:severian
+				liege.culture = culture:volhynian
+			}
+			is_male = yes
+		}
+		localization_key = councillor_steward_severian_volhynian_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:severian
+				liege.culture = culture:volhynian
+			}
+			is_male = no
+		}
+		localization_key = councillor_steward_severian_volhynian_female
+	}
+##################################################
+### Dravidian
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:tamil
+		}
+		localization_key = councillor_steward_tamil
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:telugu
+		}
+		localization_key = councillor_steward_telugu
+	}
+##################################################
+### East African
+##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:ethiopian
+		}
+		localization_key = councillor_steward_ethiopian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:nubian
+		}
+		localization_key = councillor_steward_nubian
+	}
+##################################################
+### Indo-Aryan
+##################################################
+
+## To be added 
+
+##################################################
+### Default Fallback
+##################################################
+	text = {
+		localization_key = councillor_steward_default
+		fallback = yes
+	}
+}
