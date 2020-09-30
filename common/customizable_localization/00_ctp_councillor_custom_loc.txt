@@ -258,8 +258,16 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			liege.culture = culture:roman
+			is_male = yes
 		}
-		localization_key = councillor_chancellor_roman
+		localization_key = councillor_chancellor_roman_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:roman
+			is_male = no
+		}
+		localization_key = councillor_chancellor_roman_female
 	}
 ##################################################
 ### South Slavic
