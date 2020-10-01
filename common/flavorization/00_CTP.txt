@@ -4821,7 +4821,7 @@ kingdom_french = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-queen_mother_french = {
+queen_mother_french_norman = {
 	type = character
 	special = queen_mother
 	tier = kingdom
@@ -4830,7 +4830,7 @@ queen_mother_french = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_french = {
+title_prince_male_french_kingdom = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -5074,7 +5074,7 @@ queen_mother_occitan = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_female_occitan = {
+title_prince_female_occitan_kingdom = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -5255,6 +5255,14 @@ emperor_female_norman = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+empire_norman = {
+	type = title
+	tier = empire
+	priority = 102
+	cultures = { norman }
+	governments = { feudal_government clan_government republic_government tribal_government }
+	top_liege = no
+}
 king_male_norman = {
 	type = character
 	gender = male
@@ -5283,6 +5291,46 @@ kingdom_norman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+title_prince_male_norman_occitan_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { norman occitan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_french_norman_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { french norman }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_norman_occitan_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { norman occitan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_french_norman_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	cultures = { french norman }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 duchy_norman = {
 	type = title
 	tier = duchy
@@ -5291,15 +5339,15 @@ duchy_norman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_norman_independent = {
-	type = title
-	tier = county
-	priority = 19
-	cultures = { norman }
-	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
-	top_liege = no
-}
+#county_norman_independent = {
+#	type = title
+#	tier = county
+#	priority = 19
+#	cultures = { norman }
+#	governments = { feudal_government clan_government tribal_government }
+#	only_independent = yes
+#	top_liege = no
+#}
 count_male_norman = {
 	type = character
 	gender = male
@@ -5334,6 +5382,28 @@ barony_norman = {
 	priority = 7
 	cultures = { norman }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_norman = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { norman }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_norman = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	cultures = { norman }
+	governments = { republic_government }
+	only_holder = yes
 	top_liege = no
 }
 barony_republic_norman = {
