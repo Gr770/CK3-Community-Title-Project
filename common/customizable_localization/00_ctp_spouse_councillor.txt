@@ -1,0 +1,420 @@
+#################################################
+###        Community Title Project Mod        ###
+### Viridianus's Spouse councillor workaround ###
+#################################################
+
+
+
+CouncilPositionSpouseBaron = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = yes
+			liege.highest_held_title_tier = tier_barony
+		}
+		localization_key = baron_male_irish
+	}
+	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = yes
+			liege.highest_held_title_tier = tier_barony
+		}
+		localization_key = baron_male_gaelic
+	}
+
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseBaroness = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = no
+			liege.highest_held_title_tier = tier_barony
+		}
+		localization_key = baron_female_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = no
+			liege.highest_held_title_tier = tier_barony
+		}
+		localization_key = baron_female_gaelic
+	}
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseCount = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = yes
+			liege.highest_held_title_tier = tier_county
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = count_feudalclan_male_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = yes
+			liege.highest_held_title_tier = tier_county			
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = count_feudalclan_male_gaelic
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = yes
+			liege.highest_held_title_tier = tier_county
+			liege.has_government = tribal_government
+		}
+		localization_key = count_tribal_male_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = yes
+			liege.highest_held_title_tier = tier_county
+			liege.has_government = tribal_government			
+		}
+		localization_key = count_tribal_male_gaelic
+	}	
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseCountess = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = no
+			liege.highest_held_title_tier = tier_county
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = count_feudalclan_female_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = no
+			liege.highest_held_title_tier = tier_county			
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = count_feudalclan_female_gaelic
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = no
+			liege.highest_held_title_tier = tier_county
+			liege.has_government = tribal_government
+		}
+		localization_key = count_tribal_female_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = no
+			liege.highest_held_title_tier = tier_county
+			liege.has_government = tribal_government			
+		}
+		localization_key = count_tribal_female_gaelic
+	}
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseDuke = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = yes
+			liege.highest_held_title_tier = tier_duchy
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = duke_feudalclan_male_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = yes
+			liege.highest_held_title_tier = tier_duchy			
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = duke_feudalclan_male_gaelic
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = yes
+			liege.highest_held_title_tier = tier_duchy
+			liege.has_government = tribal_government
+		}
+		localization_key = duke_tribal_male_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = yes
+			liege.highest_held_title_tier = tier_duchy
+			liege.has_government = tribal_government			
+		}
+		localization_key = duke_tribal_male_gaelic
+	}
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseDuchess = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = no
+			liege.highest_held_title_tier = tier_duchy
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = duke_feudalclan_female_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = no
+			liege.highest_held_title_tier = tier_duchy			
+			OR = {
+				liege.has_government = feudal_government
+				liege.has_government = clan_government
+			}
+		}
+		localization_key = duke_feudalclan_female_gaelic
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:irish
+			is_male = no
+			liege.highest_held_title_tier = tier_duchy
+			liege.has_government = tribal_government
+		}
+		localization_key = duke_tribal_female_irish
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:gaelic
+			is_male = no
+			liege.highest_held_title_tier = tier_duchy
+			liege.has_government = tribal_government			
+		}
+		localization_key = duke_tribal_female_gaelic
+	}
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+CouncilPositionSpouseKing = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:irish
+				liege.culture = culture:gaelic
+			}
+			is_male = yes
+			liege.highest_held_title_tier = tier_kingdom
+		}
+		localization_key = king_male_goidelic_group
+	}
+
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseQueen = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:irish
+				liege.culture = culture:gaelic
+			}
+			is_male = no
+			liege.highest_held_title_tier = tier_kingdom
+		}
+		localization_key = king_female_goidelic_group
+	}	
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+CouncilPositionSpouseEmperor = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:irish
+				liege.culture = culture:gaelic
+			}
+			is_male = yes
+			liege.highest_held_title_tier = tier_empire
+		}
+		localization_key = emperor_male_goidelic_group
+	}
+
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+
+CouncilPositionSpouseEmpress = {
+	type = character
+##########################################
+##		Goidelic		##
+##########################################
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:irish
+				liege.culture = culture:gaelic
+			}
+			is_male = no
+			liege.highest_held_title_tier = tier_empire
+		}
+		localization_key = emperor_female_goidelic_group
+	}	
+	
+##########################################
+##	    Default fallback    	##
+##########################################
+	text = {
+		localization_key = game_concept_spouse
+		fallback = yes
+	}
+}
+
+
+## Prince Consort should just use king.  ##
