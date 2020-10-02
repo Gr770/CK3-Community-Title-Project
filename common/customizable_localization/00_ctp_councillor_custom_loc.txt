@@ -844,8 +844,16 @@ CouncilPositionSteward = {
 	text = {
 		trigger = {
 			liege.culture = culture:vlach
+			is_male = yes
 		}
-		localization_key = councillor_steward_vlach
+		localization_key = councillor_steward_vlach_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:vlach
+			is_male = no
+		}
+		localization_key = councillor_steward_vlach_female
 	}
 ##################################################
 ### Western Slavic
@@ -1863,8 +1871,16 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege.culture = culture:vlach
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_vlach
+		localization_key = councillor_spymaster_vlach_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:vlach
+			is_male = no
+		}
+		localization_key = councillor_spymaster_vlach_female
 	}
 ##################################################
 ### Western Slavic
