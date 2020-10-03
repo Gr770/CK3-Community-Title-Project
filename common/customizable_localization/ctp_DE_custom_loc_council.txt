@@ -1,4 +1,4 @@
-DE_MaleCouncillorsHaveS = {
+﻿DE_MaleCouncillorsHaveS = {
 	type = character
 	text = {
 		trigger = {
@@ -72,7 +72,7 @@ DE_MaleCouncillorsHaveS = {
 				AND = {
 					has_council_position = councillor_spouse
 					liege.highest_held_title_tier = tier_empire
-					OR = (
+					OR = {
 						liege.culture = culture:armenian
 						liege.culture = culture:pommeranian
 						liege.culture = culture:czech
@@ -88,7 +88,7 @@ DE_MaleCouncillorsHaveS = {
 						liege.faith.religion = religion:islam_religion
 						liege.is_independent_ruler = yes
 					}
-					OR = (
+					OR = {
 						liege.culture = culture:french
 						liege.culture = culture:norse
 						liege.culture = culture:swedish
