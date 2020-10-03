@@ -86,7 +86,9 @@
 					liege.highest_held_title_tier = tier_kingdom
 					NAND = { ##Exclude sultans
 						liege.faith.religion = religion:islam_religion
-						liege.is_independent_ruler = yes
+						scope:liege {
+							is_independent_ruler = yes
+						}
 					}
 					OR = {
 						liege.culture = culture:french
