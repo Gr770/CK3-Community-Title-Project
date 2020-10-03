@@ -70,7 +70,7 @@ DE_MaleCouncillorsHaveS = {
 #					}
 #				}
 				AND = {
-					has council_position = councillor_spouse
+					has_council_position = councillor_spouse
 					liege.highest_held_title_tier = tier_empire
 					OR = (
 						liege.culture = culture:armenian
@@ -82,7 +82,7 @@ DE_MaleCouncillorsHaveS = {
 					}
 				}				
 				AND = {
-					has council_position = councillor_spouse
+					has_council_position = councillor_spouse
 					liege.highest_held_title_tier = tier_kingdom
 					NAND = { ##Exclude sultans
 						liege.faith.religion = religion:islam_religion
