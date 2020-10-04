@@ -1,0 +1,126 @@
+﻿DE_MaleCouncillorsHaveS = {
+	type = character
+	text = {
+		trigger = {
+			is_male = yes
+			OR = { ##List cultures with male term having s/z/sh (or bad cluster?) in the end for each position
+				AND = {
+					has_council_position = councillor_chancellor
+					OR = {
+						AND = {
+							liege.culture = culture:egyptian
+							liege.faith = faith:coptic
+						}
+						liege.culture = culture:welsh
+						liege.culture = culture:french
+						liege.culture = culture:greek
+						liege.culture = culture:lombard
+						liege.culture = culture:pommeranian
+						liege.culture = culture:czech
+						liege.culture = culture:polish
+						liege.culture = culture:lithuanian ##Baltic terms will probably all end in -s, but I won't write that in now.
+						liege.culture = culture:ethiopian
+					}
+				}
+				AND = {
+					has_council_position = councillor_marshal
+					OR = {
+						AND = {
+							liege.culture = culture:egyptian
+							liege.faith = faith:coptic
+						}
+						liege.culture = culture:castilian
+						liege.culture = culture:asturleonese
+						liege.culture = culture:aragonese
+						liege.culture = culture:lombard
+					}
+				}
+				AND = {
+					has_council_position = councillor_steward
+					OR = {
+						AND = {
+							liege.culture = culture:egyptian
+							liege.faith = faith:coptic
+						}
+						liege.culture = culture:greek
+						liege.culture = culture:roman
+					}
+				}
+				AND = {
+					has_council_position = councillor_spymaster
+					OR = {							
+						liege.culture = culture:french
+						liege.culture = culture:norse
+						liege.culture = culture:swedish
+						liege.culture = culture:norwegian
+						liege.culture = culture:danish
+						liege.culture = culture:bedouin
+						liege.culture = culture:levantine
+						liege.culture = culture:egyptian ##Because of this, Coptic hack is not needed
+						liege.culture = culture:maghreb
+						liege.culture = culture:greek
+						liege.culture = culture:roman
+						liege.culture = culture:pommeranian
+					}
+				}
+#				AND = { ##Not used
+#					has_council_position = councillor_court_chaplain
+#					OR = {
+#						culture = culture:?
+#					}
+#				}
+				AND = {
+					has_council_position = councillor_spouse
+					liege.highest_held_title_tier = tier_empire
+					OR = {
+						liege.culture = culture:armenian
+						liege.culture = culture:pommeranian
+						liege.culture = culture:czech
+						liege.culture = culture:polish
+						liege.culture = culture:lithuanian
+						liege.culture = culture:prussian						
+					}
+				}				
+				AND = {
+					has_council_position = councillor_spouse
+					liege.highest_held_title_tier = tier_kingdom
+					NAND = { ##Exclude sultans
+						liege.faith.religion = religion:islam_religion
+						scope:liege {
+							is_independent_ruler = yes
+						}
+					}
+					OR = {
+						liege.culture = culture:french
+						liege.culture = culture:norse
+						liege.culture = culture:swedish
+						liege.culture = culture:norwegian
+						liege.culture = culture:danish
+						liege.culture = culture:lithuanian
+						liege.culture = culture:prussian
+						liege.culture = culture:latgalian
+						liege.culture = culture:finnish
+						liege.culture = culture:sami
+						liege.culture = culture:estonian
+						liege.culture = culture:karelian
+						liege.culture = culture:vepsian						
+						liege.culture = culture:greek
+						liege.culture = culture:roman
+						liege.culture = culture:cisalpine
+						liege.culture = culture:lombard
+						liege.culture = culture:vlach
+						liege.culture = culture:polabian
+						liege.culture = culture:ethiopian
+						liege.culture = culture:somali
+						liege.culture = culture:tocharian						
+					}
+				}
+			}	
+		}
+		localization_key = CustomLoc_DE_END_PRO_P_A_male ## "e"
+	}
+	text = {
+		localization_key = CustomLoc_DE_END_PRO_S_N_male ## ""
+		fallback = yes
+	}
+}
