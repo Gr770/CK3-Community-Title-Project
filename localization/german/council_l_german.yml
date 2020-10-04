@@ -35,18 +35,19 @@
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
  councillor_coregent:0 "Mitregent"
- councillor_coregent_possessive:0 "des Mitregenten" ##Don't touch this, weak declension
+ councillor_coregent_possessive:0 "des Mitregenten"
  councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
- councillor_chancellor_possessive:0 "[ROOT.Char.Custom('DE_ART_DEF_S_G')] $councillor_councillor$[ROOT.Char.Custom('DE_END_NOU_S_G')]" #[ROOT.Char.Custom('DE_MaleCouncillorsHaveS')][ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_chancellor_possessive:0 "des $councillor_councillor$"
  councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
- councillor_steward_possessive:0 "[ROOT.Char.Custom('DE_ART_DEF_S_G')] $councillor_steward$[ROOT.Char.Custom('DE_END_NOU_S_G')]" #[ROOT.Char.Custom('DE_MaleCouncillorsHaveS')][ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_steward_possessive:0 "des $councillor_steward$"
  councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
- councillor_marshal_possessive:0 "[ROOT.Char.Custom('DE_ART_DEF_S_G')] $councillor_marshal$[ROOT.Char.Custom('DE_END_NOU_S_G')]" #[ROOT.Char.Custom('DE_MaleCouncillorsHaveS')][ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_marshal_possessive:0 "des $councillor_marshal$"
  councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
- councillor_spymaster_possessive:0 "[ROOT.Char.Custom('DE_ART_DEF_S_G')] $councillor_spymaster$[ROOT.Char.Custom('DE_END_NOU_S_G')]" #[ROOT.Char.Custom('DE_MaleCouncillorsHaveS')][ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_spymaster_possessive:0 "des $councillor_spymaster$"
  councillor_court_chaplain:0 "Ratsprediger"
- councillor_court_chaplain_possessive:0 "[ROOT.Char.Custom('DE_ART_DEF_S_G')] $councillor_court_chaplain$[ROOT.Char.Custom('DE_END_NOU_S_G')]" #[ROOT.Char.Custom('DE_MaleCouncillorsHaveS')][ROOT.Char.Custom('DE_END_NOU_S_G')]"
-
+ councillor_court_chaplain_possessive:0 "des Ratspredigers"
+ councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsName]"
+ 
 #Flavor localization for Court Chaplains, sorted by Religion.
 
 #Fallback
@@ -275,16 +276,16 @@
 
  councillor_spouse_possessive:0 "des Ehepartners"
  councillor_spouse_prince_consort_possessive:0 "des Prinzgemahls"
- councillor_spouse_husband_possessive:0 "des Ehemanns"
- councillor_spouse_empress_possessive:0 "der $councillor_spouse_empress$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_queen_possessive:0 "der $councillor_spouse_queen$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_duchess_possessive:0 "der $councillor_spouse_duchess$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_countess_possessive:0 "der $councillor_spouse_countess$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_baroness_possessive:0 "der $councillor_spouse_baroness$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_spouse_husband_possessive:0 "des Gatten"
+ councillor_spouse_empress_possessive:0 "der Kaiserin"
+ councillor_spouse_queen_possessive:0 "der Königin"
+ councillor_spouse_duchess_possessive:0 "der Herzogin"
+ councillor_spouse_countess_possessive:0 "der Gräfin"
+ councillor_spouse_baroness_possessive:0 "der Baronin"
 
- councillor_spouse_emperor_possessive:0 "des $councillor_spouse_emperor$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_king_possessive:0 "des $councillor_spouse_king$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_duke_possessive:0 "des $councillor_spouse_duke$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
- councillor_spouse_count_possessive:0 "des $councillor_spouse_count$[ROOT.Char.Custom('DE_END_NOU_S_G')]" ##No weak declension, that's for certain.
- councillor_spouse_baron_possessive:0 "des $councillor_spouse_baron$[ROOT.Char.Custom('DE_END_NOU_S_G')]"
+ councillor_spouse_emperor_possessive:0 "des Kaisers"
+ councillor_spouse_king_possessive:0 "des Königs"
+ councillor_spouse_duke_possessive:0 "des Herzogs"
+ councillor_spouse_count_possessive:0 "des Grafen"
+ councillor_spouse_baron_possessive:0 "des Barons"
  
