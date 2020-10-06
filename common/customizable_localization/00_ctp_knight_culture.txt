@@ -1,0 +1,473 @@
+﻿########################################
+##	 Community Title Project Mod	  ##
+##		 Knight Customisation         ##
+########################################
+
+CTPKnightCulture = {
+	type = character
+	
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_irish_gaelic
+	}
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_default
+		fallback = yes
+	}
+}
+
+CTPKnightCultureNoTooltip = {
+	type = character
+	
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_no_tooltip_irish_gaelic
+	}
+
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_no_tooltip_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_no_tooltip_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_no_tooltip_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_no_tooltip_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_no_tooltip_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_no_tooltip_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_no_tooltip_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_no_tooltip_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_no_tooltip_default
+		fallback = yes
+	}
+}
+
+CTPKnightCultureLower = {
+	type = character
+	
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_lower_irish_gaelic
+	}
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_lower_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_lower_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_lower_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_lower_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_lower_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_lower_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_lower_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_lower_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_lower_default
+		fallback = yes
+	}
+}
+
+CTPKnightCulturePlural = {
+	type = character
+
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_plural_irish_gaelic
+	}
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_plural_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_plural_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_plural_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_plural_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_plural_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_plural_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_plural_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_plural_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_plural_default
+		fallback = yes
+	}
+}	
+CTPKnightCulturePluralNoTooltip = {
+	type = character
+
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_plural_no_tooltip_irish_gaelic
+	}
+
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_plural_no_tooltip_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_plural_no_tooltip_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_plural_no_tooltip_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_plural_no_tooltip_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_plural_no_tooltip_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_plural_no_tooltip_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_plural_no_tooltip_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_plural_no_tooltip_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_plural_no_tooltip_default
+		fallback = yes
+	}
+}
+
+CTPKnightCulturePluralLower = {
+	type = character
+
+#####################################
+## Goidelic Group
+#####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:irish
+				has_culture = culture:gaelic
+			}
+		}
+		localization_key = knight_plural_lower_irish_gaelic
+	}
+#####################################
+## West Germanic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:english
+		}
+		localization_key = knight_plural_lower_english
+	}
+	text = {
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+		localization_key = knight_plural_lower_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:old_saxon
+		}
+		localization_key = knight_plural_lower_old_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = culture:scottish
+		}
+		localization_key = knight_plural_lower_scottish
+	}
+#####################################
+## Brythonic Group
+#####################################
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = knight_plural_lower_welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:breton
+		}
+		localization_key = knight_plural_lower_breton
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cornish
+		}
+		localization_key = knight_plural_lower_cornish
+	}
+	text = {
+		trigger = {
+			has_culture = culture:cumbric
+		}
+		localization_key = knight_plural_lower_cumbric
+	}
+#####################################
+## Default Fallback
+#####################################
+	text = {
+		localization_key = knight_plural_lower_default
+		fallback = yes
+	}
+}
