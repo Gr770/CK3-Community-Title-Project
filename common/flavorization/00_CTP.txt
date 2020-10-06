@@ -2208,18 +2208,49 @@ duchy_feudalclan_gaelic = {
 	top_liege = no
 	priority = 28
 }
-county_republic_gaelic = {
-	type = title
-	tier = county
-	priority = 18
+duke_feudalclan_male_gaelic_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
 	cultures = { gaelic }
-	governments = { republic_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_gaelic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	cultures = { gaelic }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_gaelic_independent = {
+	type = title
+	tier = duchy
+	priority = 29
+	cultures = { gaelic }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
 }
 barony_republic_gaelic = {
 	type = title
 	tier = barony
 	priority = 8
+	cultures = { gaelic }
+	governments = { republic_government }
+	top_liege = no
+}
+county_republic_gaelic = {
+	type = title
+	tier = county
+	priority = 18
 	cultures = { gaelic }
 	governments = { republic_government }
 	top_liege = no
