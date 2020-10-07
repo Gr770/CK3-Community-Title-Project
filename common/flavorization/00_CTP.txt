@@ -2208,18 +2208,49 @@ duchy_feudalclan_gaelic = {
 	top_liege = no
 	priority = 28
 }
-county_republic_gaelic = {
-	type = title
-	tier = county
-	priority = 18
+duke_feudalclan_male_gaelic_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
 	cultures = { gaelic }
-	governments = { republic_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_gaelic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	cultures = { gaelic }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_gaelic_independent = {
+	type = title
+	tier = duchy
+	priority = 29
+	cultures = { gaelic }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
 }
 barony_republic_gaelic = {
 	type = title
 	tier = barony
 	priority = 8
+	cultures = { gaelic }
+	governments = { republic_government }
+	top_liege = no
+}
+county_republic_gaelic = {
+	type = title
+	tier = county
+	priority = 18
 	cultures = { gaelic }
 	governments = { republic_government }
 	top_liege = no
@@ -2551,6 +2582,22 @@ county_republic_english = {
 	governments = { republic_government }
 	top_liege = no
 }
+duchy_republic_english = {
+	type = title
+	tier = county
+	priority = 28
+	cultures = { english }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_english = {
+	type = title
+	tier = county
+	priority = 48
+	cultures = { english }
+	governments = { republic_government }
+	top_liege = no
+}
 ##########################################
 ## Anglo_saxon_culture ##
 ##
@@ -2854,6 +2901,22 @@ county_republic_anglo_saxon = {
 	type = title
 	tier = county
 	priority = 18
+	cultures = { anglo_saxon }
+	governments = { republic_government }
+	top_liege = no
+}
+duchy_republic_anglo_saxon = {
+	type = title
+	tier = county
+	priority = 28
+	cultures = { anglo_saxon }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_anglo_saxon = {
+	type = title
+	tier = county
+	priority = 48
 	cultures = { anglo_saxon }
 	governments = { republic_government }
 	top_liege = no
@@ -3484,7 +3547,22 @@ county_republic_scottish = {
 	governments = { republic_government }
 	top_liege = no
 }
-
+duchy_republic_scottish = {
+	type = title
+	tier = county
+	priority = 28
+	cultures = { scottish }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_anglo_saxon = {
+	type = title
+	tier = county
+	priority = 48
+	cultures = { scottish }
+	governments = { republic_government }
+	top_liege = no
+}
 ###############################################
 ## End of West_German_culture_group ##
 ###############################################
@@ -5265,7 +5343,7 @@ barony_french = {
 county_french = {
 	type = title
 	priority = 18
-	tier = duchy
+	tier = county
 	cultures = { french }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -10807,6 +10885,30 @@ empire_feudalclan_vlach = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+county_republic_vlach = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+}
+duchy_republic_vlach = {
+	type = title
+	tier = county
+	priority = 28
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_vlach = {
+	type = title
+	tier = county
+	priority = 48
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+}
 ###############################################
 ## Bulgarian_culture
 
@@ -10958,18 +11060,17 @@ duke_tribal_male_bulgarian = {
 	top_liege = no
 }
 
-duke_feudalclan_male_bulgarian_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 29
-	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-
+#duke_feudalclan_male_bulgarian_independent = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = duchy
+#	priority = 29
+#	cultures = { bulgarian }
+#	governments = { feudal_government clan_government }
+#	top_liege = no
+#	only_independent = yes
+#}
 duke_feudalclan_female_bulgarian = {
 	type = character
 	gender = female
@@ -10981,19 +11082,17 @@ duke_feudalclan_female_bulgarian = {
 	top_liege = no
 	
 }
-
-duke_feudalclan_female_bulgarian_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 29
-	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-
+#duke_feudalclan_female_bulgarian_independent = {
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = duchy
+#	priority = 29
+#	cultures = { bulgarian }
+#	governments = { feudal_government clan_government }
+#	top_liege = no
+#	only_independent = yes
+#}
 duchy_feudalclan_bulgarian = {
 	type = title
 	tier = duchy
@@ -11002,7 +11101,6 @@ duchy_feudalclan_bulgarian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-
 duchy_feudalclan_bulgarian_independent = {
 	type = title
 	tier = duchy
