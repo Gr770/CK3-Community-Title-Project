@@ -1,4 +1,4 @@
-version="Beta"
+version="1.0"
 tags={
 	"Historical"
 	"Culture"
