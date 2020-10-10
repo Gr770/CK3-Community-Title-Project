@@ -2739,7 +2739,7 @@ king_male_english_islam_independent = {
 	tier = kingdom
 	priority = 49
 	cultures = { english }
-	religions = { muslim_religion }
+	religions = { islam_religion }
 	governments = { feudal_government clan_government }
 	only_independent = yes
 	top_liege = no
@@ -2751,7 +2751,7 @@ king_female_english_islam_independent = {
 	tier = kingdom
 	priority = 49
 	cultures = { english }
-	religions = { muslim_religion }
+	religions = { islam_religion }
 	governments = { feudal_government clan_government }
 	only_independent = yes
 	top_liege = no
@@ -2761,7 +2761,7 @@ kingdom_english_islam_independent = {
 	tier = kingdom
 	priority = 49
 	cultures = { english }
-	religions = { muslim_religion }
+	religions = { islam_religion }
 	governments = { feudal_government clan_government }
 	only_independent = yes
 	top_liege = no
@@ -2818,17 +2818,6 @@ duke_feudalclan_male_anglo_saxon = {
 	cultures = { anglo_saxon }
 	governments = { feudal_government clan_government }
 	top_liege = no
-}
-duke_feudalclan_female_anglo_saxon_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 29
-	cultures = { anglo_saxon }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_holder = yes
 }
 duke_feudalclan_female_anglo_saxon = {
 	type = character
@@ -3057,6 +3046,28 @@ duke_republic_female_anglo_saxon = {
 	only_holder = yes
 	top_liege = no
 }
+king_republic_male_anglo_saxon = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { anglo_saxon }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_female_anglo_saxon = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { anglo_saxon }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
 barony_republic_anglo_saxon = {
 	type = title
 	tier = barony
@@ -3144,6 +3155,28 @@ duchy_tribal_anglo_saxon = {
 	cultures = { anglo_saxon }
 	governments = { tribal_government }
 	top_liege = no
+}
+king_male_anglo_saxon_islam_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { anglo_saxon }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_anglo_saxon_islam_independent = {
+	type = title
+	tier = kingdom
+	priority = 49
+	cultures = { anglo_saxon }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
 }
 
 ###############################################
