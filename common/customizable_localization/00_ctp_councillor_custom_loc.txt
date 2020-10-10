@@ -14,7 +14,21 @@ CouncilPositionChancellor = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_chancellor_irish_female
+	}
+	
 
 ##################################################
 ### West Germanic
@@ -504,7 +518,20 @@ CouncilPositionSteward = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_steward_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_steward_irish_female
+	}
 
 ##################################################
 ### West Germanic
@@ -1056,7 +1083,20 @@ CouncilPositionMarshal = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_marshal_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_marshal_irish_female
+	}
 
 ##################################################
 ### West Germanic
@@ -1602,7 +1642,20 @@ CouncilPositionSpymaster = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_spymaster_irish_female
+	}
 
 ##################################################
 ### West Germanic
