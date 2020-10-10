@@ -2645,6 +2645,61 @@ count_republic_male_english = {
 	only_holder = yes
 	top_liege = no
 }
+count_republic_female_english = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { english }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_male_english = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { english }
+	governments = { republic_governments }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_english = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	cultures = { english }
+	governments = { republic_governments }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_male_english = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { english }
+	governments = { republic_governments }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_female_english = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { english }
+	governments = { republic_governments }
+	only_holder = yes
+	top_liege = no
+}
 barony_republic_english = {
 	type = title
 	tier = barony
@@ -2663,7 +2718,7 @@ county_republic_english = {
 }
 duchy_republic_english = {
 	type = title
-	tier = county
+	tier = duchy
 	priority = 28
 	cultures = { english }
 	governments = { republic_government }
@@ -2671,10 +2726,44 @@ duchy_republic_english = {
 }
 kingdom_republic_english = {
 	type = title
-	tier = county
+	tier = kingdom
 	priority = 48
 	cultures = { english }
 	governments = { republic_government }
+	top_liege = no
+}
+king_male_english_islam_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { english }
+	religions = { muslim_religion }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+king_female_english_islam_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { english }
+	religions = { muslim_religion }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+kingdom_english_islam_independent = {
+	type = title
+	tier = kingdom
+	priority = 49
+	cultures = { english }
+	religions = { muslim_religion }
+	governments = { feudal_government clan_government }
+	only_independent = yes
 	top_liege = no
 }
 ##########################################
