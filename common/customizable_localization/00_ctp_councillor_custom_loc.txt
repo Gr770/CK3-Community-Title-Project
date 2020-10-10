@@ -58,6 +58,20 @@ CouncilPositionChancellor = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:pictish
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_pictish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = no
+		}
+		localization_key = councillor_chancellor_pictish_female
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:welsh
 			is_male = yes
 		}
@@ -532,6 +546,20 @@ CouncilPositionSteward = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = yes
+		}
+		localization_key = councillor_steward_pictish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = no
+		}
+		localization_key = councillor_steward_pictish_female
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
@@ -1072,6 +1100,12 @@ CouncilPositionMarshal = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:pictish
+		}
+		localization_key = councillor_marshal_pictish
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:welsh
 			is_male = yes
 		}
@@ -1595,6 +1629,12 @@ CouncilPositionSpymaster = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+		}
+		localization_key = councillor_spymaster_pictish
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
