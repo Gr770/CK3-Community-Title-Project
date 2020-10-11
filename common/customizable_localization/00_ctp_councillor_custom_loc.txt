@@ -732,7 +732,10 @@ CouncilPositionSteward = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture = culture:saxon
+			OR = {
+				liege.culture = culture:saxon
+				liege.culture = culture:dutch
+			}
 		}
 		localization_key = councillor_steward_saxon
 	}
@@ -752,12 +755,12 @@ CouncilPositionSteward = {
 		}
 		localization_key = councillor_steward_frisian
 	}
-	text = {
-		trigger = {
-			liege.culture = culture:dutch
-		}
-		localization_key = councillor_steward_dutch
-	}
+#	text = {
+#		trigger = {
+#			liege.culture = culture:dutch
+#		}
+#		localization_key = councillor_steward_dutch
+#	}
 ##################################################
 ### Arabic
 ##################################################	
