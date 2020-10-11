@@ -9843,27 +9843,6 @@ empire_feudalclan_lombard = {
 ## Eastern_Slavic_culture_group ##
 ###############################################
 
-baron_male_east_slavic_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 7
-	culture_groups = { east_slavic_group }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-baron_female_east_slavic_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 8
-	culture_groups = { east_slavic_group }
-	governments = { feudal_government clan_government tribal_government }
-	only_holder = yes
-	top_liege = no
-}
 baron_republic_male_east_slavic_group = {
 	type = character
 	gender = male
@@ -9897,6 +9876,27 @@ barony_republic_east_slavic_group = {
 
 ### Russian ###
 # Feudal
+baron_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	cultures = { russian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	cultures = { russian }
+	governments = { feudal_government clan_government tribal_government }
+	only_holder = yes
+	top_liege = no
+}
 emperor_male_russian = {
 	type = character
 	gender = male
@@ -10046,16 +10046,6 @@ county_russian = {
 	tier = county
 	priority = 18
 	cultures = { russian  }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-baron_female_russian_consort = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 7
-	cultures = { russian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -10239,7 +10229,7 @@ county_tribal_russian = {
 #}
 
 ###############################################
-## End of Eastern_slavic_culture_group ##
+## End of East_Slavic_culture_group ##
 ###############################################
 
 ###############################################
@@ -10255,7 +10245,6 @@ baron_feudalclan_male_arabic_group = {
 	governments = { feudal_government clan_government }
 	culture_groups = { arabic_group }
 }
-
 baron_feudalclan_female_arabic_group = {
 	type = character
 	gender = female
