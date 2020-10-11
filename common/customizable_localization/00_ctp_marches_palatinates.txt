@@ -42,7 +42,7 @@ DukesMarquessesPalatineMale = {
 	text = {
 		trigger = {
 			has_culture = anglo_saxon
-			NOT = {
+			NOR = {
 				vassal_contract_has_flag = has_palatinate_contract
 				vassal_contract_has_flag = has_march_contract
 			}
@@ -69,7 +69,7 @@ DuchyMarchesPalatinates = {
 	text = {
 		trigger = {
 			has_culture = anglo_saxon
-			NOT = {
+			NOR = {
 				vassal_contract_has_flag = has_palatinate_contract
 				vassal_contract_has_flag = has_march_contract
 			}
