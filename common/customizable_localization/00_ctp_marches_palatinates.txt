@@ -25,4 +25,55 @@ DukesMarquessesPalatineMale = {
 		}
 		localization_key = duke_gaelic_loc_male
 	}
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_anglo_saxon_male
+	}
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_anglo_saxon_male
+	}
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			NOT = {
+				vassal_contract_has_flag = has_palatinate_contract
+				vassal_contract_has_flag = has_march_contract
+			}
+		}
+		localization_key = duke_anglo_saxon_loc_male
+	}
+}
+DuchyMarchesPalatinates = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_anglo_saxon
+	}
+	text = {
+		trigger = {
+			has_culture = anglo_saxon
+			NOT = {
+				vassal_contract_has_flag = has_palatinate_contract
+				vassal_contract_has_flag = has_march_contract
+			}
+		}
+		localization_key = duke_anglo_saxon_loc
+	}
 }
