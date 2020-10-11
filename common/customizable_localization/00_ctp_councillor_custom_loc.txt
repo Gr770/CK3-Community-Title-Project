@@ -14,7 +14,21 @@ CouncilPositionChancellor = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_chancellor_irish_female
+	}
+	
 
 ##################################################
 ### West Germanic
@@ -56,6 +70,20 @@ CouncilPositionChancellor = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_pictish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = no
+		}
+		localization_key = councillor_chancellor_pictish_female
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
@@ -490,7 +518,20 @@ CouncilPositionSteward = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_steward_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_steward_irish_female
+	}
 
 ##################################################
 ### West Germanic
@@ -532,6 +573,20 @@ CouncilPositionSteward = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = yes
+		}
+		localization_key = councillor_steward_pictish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = no
+		}
+		localization_key = councillor_steward_pictish_female
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
@@ -1028,7 +1083,20 @@ CouncilPositionMarshal = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_marshal_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_marshal_irish_female
+	}
 
 ##################################################
 ### West Germanic
@@ -1070,6 +1138,12 @@ CouncilPositionMarshal = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+		}
+		localization_key = councillor_marshal_pictish
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
@@ -1568,7 +1642,20 @@ CouncilPositionSpymaster = {
 ### Goidelic
 ##################################################
 
-### To be added
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:goidelic_group
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_irish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:goidelic_group
+			is_male = no
+		}
+		localization_key = councillor_spymaster_irish_female
+	}
 
 ##################################################
 ### West Germanic
@@ -1595,6 +1682,12 @@ CouncilPositionSpymaster = {
 ##################################################
 ### Brythonic
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+		}
+		localization_key = councillor_spymaster_pictish
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:welsh
