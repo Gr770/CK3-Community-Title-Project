@@ -1,0 +1,28 @@
+DukesMarquessesPalatineMale = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = goidelic_group
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_goidelic_male
+	}
+	text = {
+		trigger = {
+			has_culture = irish
+			NOT = {
+				vassal_contract_has_flag = has_march_contract
+			}
+		}
+		localization_key = duke_irish_loc_male
+	}
+	text = {
+		trigger = {
+			has_culture = gaelic
+			NOT = {
+				vassal_contract_has_flag = has_march_contract
+			}
+		}
+		localization_key = duke_gaelic_loc_male
+	}
+}
