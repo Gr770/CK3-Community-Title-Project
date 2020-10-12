@@ -11108,6 +11108,7 @@ empire_feudalclan_serbian = {
 ###############################################
 ## Vlach_culture
 
+# Barony - Feudal/Clan
 baron_feudalclan_male_vlach = {
 	type = character
 	gender = male
@@ -11118,7 +11119,26 @@ baron_feudalclan_male_vlach = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+baron_feudalclan_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	cultures = { vlach }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+barony_feudalclan_vlach = {
+	type = title
+	tier = barony
+	priority = 8
+	cultures = { vlach }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 
+# Barony - Republic
 baron_republic_male_vlach = {
 	type = character
 	gender = male
@@ -11130,18 +11150,6 @@ baron_republic_male_vlach = {
 	top_liege = no
 	only_holder = yes
 }
-
-baron_feudalclan_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 8
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
 baron_republic_female_vlach = {
 	type = character
 	gender = female
@@ -11153,16 +11161,6 @@ baron_republic_female_vlach = {
 	top_liege = no
 	only_holder = yes
 }
-
-barony_feudalclan_vlach = {
-	type = title
-	tier = barony
-	priority = 8
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
 barony_republic_vlach = {
 	type = title
 	tier = barony
@@ -11172,7 +11170,7 @@ barony_republic_vlach = {
 	top_liege = no
 }
 
-
+# County - Feudal/Clan
 count_feudalclan_male_vlach = {
 	type = character
 	gender = male
@@ -11183,19 +11181,26 @@ count_feudalclan_male_vlach = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-
-
-count_tribal_male_vlach = {
+count_feudalclan_female_vlach = {
 	type = character
-	gender = male
+	gender = female
 	special = holder
 	tier = county
 	priority = 18
 	cultures = { vlach }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_vlach = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 
+# County - Feudal/Clan - Independent
 count_feudalclan_male_vlach_independent = {
 	type = character
 	gender = male
@@ -11207,18 +11212,6 @@ count_feudalclan_male_vlach_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
-count_feudalclan_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
 count_feudalclan_female_vlach_independent = {
 	type = character
 	gender = female
@@ -11230,25 +11223,6 @@ count_feudalclan_female_vlach_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
-county_feudalclan_vlach = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-county_tribal_vlach = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 county_feudalclan_vlach_independent = {
 	type = title
 	tier = county
@@ -11259,6 +11233,69 @@ county_feudalclan_vlach_independent = {
 	only_independent = yes
 }
 
+# County - Tribal
+count_tribal_male_vlach = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_vlach = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { tribal_government }
+	top_liege = no
+}
+
+# County - Republic
+count_republic_male_vlach = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 8
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 8
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_vlach = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { vlach }
+	governments = { republic_government }
+	top_liege = no
+}
+
+# Duchy - Feudal/Clan
 duke_feudalclan_male_vlach = {
 	type = character
 	gender = male
@@ -11269,18 +11306,26 @@ duke_feudalclan_male_vlach = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-
-duke_tribal_male_vlach = {
+duke_feudalclan_female_vlach = {
 	type = character
-	gender = male
+	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
 	cultures = { vlach }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_vlach = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { vlach }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 
+# Duchy - Feudal/Clan - Independent
 duke_feudalclan_male_vlach_independent = {
 	type = character
 	gender = male
@@ -11292,19 +11337,6 @@ duke_feudalclan_male_vlach_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
-duke_feudalclan_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	
-}
-
 duke_feudalclan_female_vlach_independent = {
 	type = character
 	gender = female
@@ -11316,16 +11348,6 @@ duke_feudalclan_female_vlach_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
-duchy_feudalclan_vlach = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
 duchy_feudalclan_vlach_independent = {
 	type = title
 	tier = duchy
@@ -11336,76 +11358,37 @@ duchy_feudalclan_vlach_independent = {
 	only_independent = yes
 }
 
-
-king_feudalclan_male_vlach = {
+# Duchy - Tribal
+duke_tribal_male_vlach = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
-	priority = 48
+	tier = duchy
+	priority = 28
 	cultures = { vlach }
-	governments = { feudal_government clan_government }
+	governments = { tribal_government }
 	top_liege = no
 }
-
-king_feudalclan_female_vlach = {
+duke_tribal_female_vlach = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
-	priority = 48
+	tier = duchy
+	priority = 28
 	cultures = { vlach }
-	governments = { feudal_government clan_government }
+	governments = { tribal_government }
 	top_liege = no
 }
-
-kingdom_feudalclan_vlach = {
+duchy_tribal_vlach = {
 	type = title
-	tier = kingdom
-	priority = 48
+	tier = duchy
 	cultures = { vlach }
-	governments = { feudal_government clan_government }
+	governments = { tribal_government }
 	top_liege = no
+	priority = 28
 }
 
-emperor_feudalclan_male_vlach = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 103
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-emperor_feudalclan_female_vlach = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 103
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-empire_feudalclan_vlach = {
-	type = title
-	tier = empire
-	priority = 103
-	cultures = { vlach }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-county_republic_vlach = {
-	type = title
-	tier = county
-	priority = 18
-	cultures = { vlach }
-	governments = { republic_government }
-	top_liege = no
-}
+# Duchy - Republic
 duchy_republic_vlach = {
 	type = title
 	tier = county
@@ -11414,14 +11397,152 @@ duchy_republic_vlach = {
 	governments = { republic_government }
 	top_liege = no
 }
+
+# Kingdom
+king_male_vlach = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+king_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+kingdom_vlach = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+
+# Kingdom - Republic
 kingdom_republic_vlach = {
 	type = title
-	tier = county
-	priority = 48
+	tier = kingdom
+	priority = 50
 	cultures = { vlach }
 	governments = { republic_government }
 	top_liege = no
 }
+
+# Kingdom - Muslim
+king_male_vlach_muslim = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 51
+	cultures = { vlach }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_vlach_muslim = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 51
+	cultures = { vlach }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_vlach_muslim = { 
+	type = title
+	tier = kingdom
+	priority = 51
+	cultures = { vlach }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+
+# Empire
+emperor_male_vlach = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empire_vlach = {
+	type = title
+	tier = empire
+	priority = 103
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+
+# Titles
+title_prince_male_vlach = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_vlach = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_vlach_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 43
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_vlach_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 43
+	cultures = { vlach }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+
 ###############################################
 ## Bulgarian_culture
 
