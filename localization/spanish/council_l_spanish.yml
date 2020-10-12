@@ -34,20 +34,25 @@
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
+### CTP TITLES 
+ councillor_chancellor_ctp:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
+ councillor_steward_ctp:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
+ councillor_marshal_ctp:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
+ councillor_spymaster_ctp:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+ councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
 
  councillor_coregent:0 "Corregente"
  councillor_coregent_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_coregent$"
- councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
- councillor_chancellor_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_chancellor$"
- councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
- councillor_steward_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_steward$"
- councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
- councillor_marshal_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_marshal$"
- councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
- councillor_spymaster_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_spymaster$"
+ councillor_chancellor:0 "Canciller"
+ councillor_chancellor_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_chancellor_ctp$"
+ councillor_steward:0 "Administrador"
+ councillor_steward_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_steward_ctp$"
+ councillor_marshal:0 "Mariscal"
+ councillor_marshal_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_marshal_ctp$"
+ councillor_spymaster:0 "Jefe de espías"
+ councillor_spymaster_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_spymaster_ctp$"
  councillor_court_chaplain:0 "Capellán de la corte"
  councillor_court_chaplain_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_court_chaplain$"
- councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsNameNoTooltipNoTooltip]"
 
 #Flavor localization for Court Chaplains, sorted by Religion.
 
