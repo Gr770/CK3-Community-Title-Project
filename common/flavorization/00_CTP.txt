@@ -157,6 +157,28 @@ duchy_feudalclan_saxon = {
 	cultures = { saxon old_saxon }
 	top_liege = no
 }
+duke_feudalclan_male_central_germanic_independent = { ##Because old_saxon is not Central Germanic
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30 #to override group-level
+	governments = { feudal_government clan_government }
+	cultures = { saxon old_saxon }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_central_germanic_independent = { ##Because old_saxon is not Central Germanic
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30 #to override group-level
+	governments = { feudal_government clan_government }
+	cultures = { saxon old_saxon }
+	top_liege = no
+	only_independent = yes
+}
 duchy_feudalclan_saxon_independent = {
 	type = title
 	tier = duchy
