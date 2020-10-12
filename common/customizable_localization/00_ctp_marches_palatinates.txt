@@ -1,79 +1,57 @@
-DukesMarquessesPalatineMale = {
+DukeMaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			has_culture_group = goidelic_group
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_goidelic_male
+		localization_key = marquess_male_irish
 	}
 	text = {
 		trigger = {
-			has_culture = irish
-			NOT = {
-				vassal_contract_has_flag = has_march_contract
-			}
-		}
-		localization_key = duke_irish_loc_male
-	}
-	text = {
-		trigger = {
-			has_culture = gaelic
-			NOT = {
-				vassal_contract_has_flag = has_march_contract
-			}
-		}
-		localization_key = duke_gaelic_loc_male
-	}
-	text = {
-		trigger = {
-			has_culture = anglo_saxon
-			vassal_contract_has_flag = has_march_contract
-		}
-		localization_key = march_anglo_saxon_male
-	}
-	text = {
-		trigger = {
-			has_culture = anglo_saxon
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_anglo_saxon_male
+		localization_key = palatine_male_irish
 	}
 	text = {
-		trigger = {
-			has_culture = anglo_saxon
-			NOR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				vassal_contract_has_flag = has_march_contract
-			}
-		}
-		localization_key = duke_anglo_saxon_loc_male
+		localization_key = duke_default_male_irish
+		fallback = yes
 	}
 }
-DuchyMarchesPalatinates = {
+DukeFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			has_culture = anglo_saxon
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_anglo_saxon
+		localization_key = marquess_female_irish
 	}
 	text = {
 		trigger = {
-			has_culture = anglo_saxon
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_anglo_saxon
+		localization_key = palatine_female_irish
+	}
+	text = {
+		localization_key = duke_default_female_irish
+		fallback = yes
+	}
+}
+DuchyIrish = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_irish
 	}
 	text = {
 		trigger = {
-			has_culture = anglo_saxon
-			NOR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				vassal_contract_has_flag = has_march_contract
-			}
+			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = duke_anglo_saxon_loc
+		localization_key = palatinate_irish
+	}
+	text = {
+		localization_key = duchy_default_irish
+		fallback = yes
 	}
 }

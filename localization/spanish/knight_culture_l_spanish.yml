@@ -1,0 +1,545 @@
+﻿l_spanish:
+ knight_culture_player:0 "[GetPlayer.Custom( 'KnightCulture' )]"
+ knight_culture_player_no_tooltip:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
+ knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
+ 
+ knight_culture_player_plural:0 "[GetPlayer.Custom( 'KnightCulturePlural' )]"
+ knight_culture_player_plural_no_tooltip:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
+ knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
+ 
+ knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "de los $knight_culture_player_plural_no_tooltip_lowercase$"
+ knight_culture_player_adjective_no_tooltip_lowercase:0 "soldadesco" #Not optimal but marcial has plural marciales
+
+## Flavorisations
+
+## Irish and Gaelic
+ knight_irish_gaelic:0 "[Concept( 'knight', '$knight_no_tooltip_irish_gaelic$' )|E]"
+ knight_no_tooltip_irish_gaelic:0 "Gaiscedach"
+ knight_lower_irish_gaelic:0 "gaiscedach"
+ 
+ knight_plural_irish_gaelic:0 "[Concept( 'knight', '$knight_plural_no_tooltip_irish_gaelic$' )|E]"
+ knight_plural_no_tooltip_irish_gaelic:0 "Gaiscedaig"
+ knight_plural_lower_irish_gaelic:0 "gaiscedaig"
+
+## English
+ knight_english:0 "[Concept( 'knight', '$knight_no_tooltip_english$' )|E]"
+ knight_no_tooltip_english:0 "Knyghte"
+ knight_lower_english:0 "knyghte"
+ 
+ knight_plural_english:0 "[Concept( 'knight', '$knight_plural_no_tooltip_english$' )|E]"
+ knight_plural_no_tooltip_english:0 "Knyghtes"
+ knight_plural_lower_english:0 "knyghtes"
+ 
+## Anglo-Saxon
+ knight_anglo_saxon:0 "[Concept( 'knight', '$knight_no_tooltip_anglo_saxon$' )|E]"
+ knight_no_tooltip_anglo_saxon:0 "Gesiþ"
+ knight_lower_anglo_saxon:0 "gesiþ"
+ 
+ knight_plural_anglo_saxon:0 "[Concept( 'knight', '$knight_plural_no_tooltip_anglo_saxon$' )|E]"
+ knight_plural_no_tooltip_anglo_saxon:0 "Gesiþas"
+ knight_plural_lower_anglo_saxon:0 "gesiþas"
+ 
+## old_saxon
+ knight_old_saxon:0 "[Concept( 'knight', '$knight_no_tooltip_saxon$' )|E]"
+ knight_no_tooltip_old_saxon:0 "$knight_no_tooltip_saxon$"
+ knight_lower_old_saxon:0 "$knight_lower_saxon$"
+ 
+ knight_plural_old_saxon:0 "[Concept( 'knight', '$knight_plural_no_tooltip_saxon$' )|E]"
+ knight_plural_no_tooltip_old_saxon:0 "$knight_plural_no_tooltip_saxon$"
+ knight_plural_lower_old_saxon:0 "$knight_plural_lower_saxon$"
+
+## Scottish
+ knight_scottish:0 "[Concept( 'knight', '$knight_no_tooltip_scottish$' )|E]"
+ knight_no_tooltip_scottish:0 "Knycht"
+ knight_lower_scottish:0 "knycht"
+ 
+ knight_plural_scottish:0 "[Concept( 'knight', '$knight_plural_no_tooltip_scottish$' )|E]"
+ knight_plural_no_tooltip_scottish:0 "Knychtis"
+ knight_plural_lower_scottish:0 "knychtis"
+ 
+## Welsh
+ knight_welsh:0 "[Concept( 'knight', '$knight_no_tooltip_welsh$' )|E]"
+ knight_no_tooltip_welsh:0 "Marchauc"
+ knight_lower_welsh:0 "marchauc"
+ 
+ knight_plural_welsh:0 "[Concept( 'knight', '$knight_plural_no_tooltip_welsh$' )|E]"
+ knight_plural_no_tooltip_welsh:0 "Marchaucion"
+ knight_plural_lower_welsh:0 "marchaucion"
+ 
+## Breton
+ knight_breton:0 "[Concept( 'knight', '$knight_no_tooltip_breton$' )|E]"
+ knight_no_tooltip_breton:0 "Marc'heg"
+ knight_lower_breton:0 "marc'heg"
+ 
+ knight_plural_breton:0 "[Concept( 'knight', '$knight_plural_no_tooltip_breton$' )|E]"
+ knight_plural_no_tooltip_breton:0 "Marc'hegion"
+ knight_plural_lower_breton:0 "marc'hegion"
+ 
+## Cornish
+ knight_cornish:0 "[Concept( 'knight', '$knight_no_tooltip_cornish$' )|E]"
+ knight_no_tooltip_cornish:0 "Marchek"
+ knight_lower_cornish:0 "marchek"
+ 
+ knight_plural_cornish:0 "[Concept( 'knight', '$knight_plural_no_tooltip_cornish$' )|E]"
+ knight_plural_no_tooltip_cornish:0 "Marchogyon"
+ knight_plural_lower_cornish:0 "marchogyon"
+ 
+## Cumbrian and Pictish
+ knight_cumbrian_pictish:0 "[Concept( 'knight', '$knight_no_tooltip_cumbrian_pictish$' )|E]"
+ knight_no_tooltip_cumbrian_pictish:0 "Markok"
+ knight_lower_cumbrian_pictish:0 "markok"
+ 
+ knight_plural_cumbrian_pictish:0 "[Concept( 'knight', '$knight_plural_no_tooltip_cumbrian_pictish$' )|E]"
+ knight_plural_no_tooltip_cumbrian_pictish:0 "Markokyon"
+ knight_plural_lower_cumbrian_pictish:0 "markokyon"
+ 
+## French and Norman
+ knight_french_norman:0 "[Concept( 'knight', '$knight_no_tooltip_french_norman$' )|E]"
+ knight_no_tooltip_french_norman:0 "Chevaliers"
+ knight_lower_french_norman:0 "chevaliers"
+ 
+ knight_plural_french_norman:0 "[Concept( 'knight', '$knight_plural_no_tooltip_french_norman$' )|E]"
+ knight_plural_no_tooltip_french_norman:0 "Chevalier"
+ knight_plural_lower_french_norman:0 "chevalier"
+ 
+## Occitan
+ knight_occitan:0 "[Concept( 'knight', '$knight_no_tooltip_occitan$' )|E]"
+ knight_no_tooltip_occitan:0 "Cavaliers"
+ knight_lower_occitan:0 "cavaliers"
+ 
+ knight_plural_occitan:0 "[Concept( 'knight', '$knight_plural_no_tooltip_occitan$' )|E]"
+ knight_plural_no_tooltip_occitan:0 "Chevalier"
+ knight_plural_lower_occitan:0 "chevalier"
+ 
+## Basque
+ knight_basque:0 "[Concept( 'knight', '$knight_no_tooltip_basque$' )|E]"
+ knight_no_tooltip_basque:0 "Zaldun"
+ knight_lower_basque:0 "zaldun"
+ 
+ knight_plural_basque:0 "[Concept( 'knight', '$knight_plural_no_tooltip_basque$' )|E]"
+ knight_plural_no_tooltip_basque:0 "Zaldunak"
+ knight_plural_lower_basque:0 "zaldunak"
+ 
+## Castilian
+ knight_castilian:0 "[Concept( 'knight', '$knight_no_tooltip_castilian$' )|E]"
+ knight_no_tooltip_castilian:0 "Caballero"
+ knight_lower_castilian:0 "caballero"
+ 
+ knight_plural_castilian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_castilian$' )|E]"
+ knight_plural_no_tooltip_castilian:0 "Caballeros"
+ knight_plural_lower_castilian:0 "caballeros"
+ 
+## Catalan
+ knight_catalan:0 "[Concept( 'knight', '$knight_no_tooltip_catalan$' )|E]"
+ knight_no_tooltip_catalan:0 "Cavaller"
+ knight_lower_catalan:0 "cavaller"
+ 
+ knight_plural_catalan:0 "[Concept( 'knight', '$knight_plural_no_tooltip_catalan$' )|E]"
+ knight_plural_no_tooltip_catalan:0 "Cavallers"
+ knight_plural_lower_catalan:0 "cavallers"
+ 
+## Portuguese/Galician
+ knight_portuguese_galician:0 "[Concept( 'knight', '$knight_no_tooltip_portuguese_galician$' )|E]"
+ knight_no_tooltip_portuguese_galician:0 "Cavaleiro"
+ knight_lower_portuguese_galician:0 "cavaleiro"
+ 
+ knight_plural_portuguese_galician:0 "[Concept( 'knight', '$knight_plural_no_tooltip_portuguese_galician$' )|E]"
+ knight_plural_no_tooltip_portuguese_galician:0 "Cavaleiros"
+ knight_plural_lower_portuguese_galician:0 "cavaleiros"
+ 
+## Visigothic
+ knight_visigothic:0 "[Concept( 'knight', '$knight_no_tooltip_visigothic$' )|E]"
+ knight_no_tooltip_visigothic:0 "Cavallarjo"
+ knight_lower_visigothic:0 "cavallarjo"
+ 
+ knight_plural_visigothic:0 "[Concept( 'knight', '$knight_plural_no_tooltip_visigothic$' )|E]"
+ knight_plural_no_tooltip_visigothic:0 "Cavallarjos"
+ knight_plural_lower_visigothic:0 "cavallarjos"
+ 
+## Asturleonese
+ knight_asturleonese:0 "[Concept( 'knight', '$knight_no_tooltip_asturleonese$' )|E]"
+ knight_no_tooltip_asturleonese:0 "Caballeiru"
+ knight_lower_asturleonese:0 "caballeiru"
+ 
+ knight_plural_asturleonese:0 "[Concept( 'knight', '$knight_plural_no_tooltip_asturleonese$' )|E]"
+ knight_plural_no_tooltip_asturleonese:0 "Cabelleiros"
+ knight_plural_lower_asturleonese:0 "cabelleiros"
+ 
+## Aragonese
+ knight_aragonese:0 "[Concept( 'knight', '$knight_no_tooltip_aragonese$' )|E]"
+ knight_no_tooltip_aragonese:0 "Cavallero"
+ knight_lower_aragonese:0 "cavallero"
+ 
+ knight_plural_aragonese:0 "[Concept( 'knight', '$knight_plural_no_tooltip_aragonese$' )|E]"
+ knight_plural_no_tooltip_aragonese:0 "Cavelleros"
+ knight_plural_lower_aragonese:0 "cavelleros"
+ 
+## North Germanic
+ knight_north_germanic_group:0 "[Concept( 'knight', '$knight_no_tooltip_north_germanic_group$' )|E]"
+ knight_no_tooltip_north_germanic_group:0 "Þegn"
+ knight_lower_north_germanic_group:0 "þegn"
+ 
+ knight_plural_north_germanic_group:0 "[Concept( 'knight', '$knight_plural_no_tooltip_north_germanic_group$' )|E]"
+ knight_plural_no_tooltip_north_germanic_group:0 "Þegnar"
+ knight_plural_lower_north_germanic_group:0 "þegnar"
+ 
+## Finnish
+ knight_finnish:0 "[Concept( 'knight', '$knight_no_tooltip_finnish$' )|E]"
+ knight_no_tooltip_finnish:0 "Ritari"
+ knight_lower_finnish:0 "ritari"
+ 
+ knight_plural_finnish:0 "[Concept( 'knight', '$knight_plural_no_tooltip_finnish$' )|E]"
+ knight_plural_no_tooltip_finnish:0 "Ritarit"
+ knight_plural_lower_finnish:0 "ritarit"
+ 
+## Estonian
+ knight_estonian:0 "[Concept( 'knight', '$knight_no_tooltip_estonian$' )|E]"
+ knight_no_tooltip_estonian:0 "Rüütel"
+ knight_lower_estonian:0 "rüütel"
+ 
+ knight_plural_estonian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_estonian$' )|E]"
+ knight_plural_no_tooltip_estonian:0 "Rüütlid"
+ knight_plural_lower_estonian:0 "rüütlid"
+ 
+## Saxon
+ knight_saxon:0 "[Concept( 'knight', '$knight_no_tooltip_saxon$' )|E]"
+ knight_no_tooltip_saxon:0 "Thegan"
+ knight_lower_saxon:0 "thegan"
+ 
+ knight_plural_saxon:0 "[Concept( 'knight', '$knight_plural_no_tooltip_saxon$' )|E]"
+ knight_plural_no_tooltip_saxon:0 "Theganos"
+ knight_plural_lower_saxon:0 "theganos"
+ 
+## Old High German - that is, Franconian, Swabian, and Bavarian
+ knight_old_high_german:0 "[Concept( 'knight', '$knight_no_tooltip_old_high_german$' )|E]"
+ knight_no_tooltip_old_high_german:0 "Degan"
+ knight_lower_old_high_german:0 "degan"
+ 
+ knight_plural_old_high_german:0 "[Concept( 'knight', '$knight_plural_no_tooltip_old_high_german$' )|E]"
+ knight_plural_no_tooltip_old_high_german:0 "Degnâ"
+ knight_plural_lower_old_high_german:0 "degnâ"
+ 
+## Frisian
+ knight_frisian:0 "[Concept( 'knight', '$knight_no_tooltip_frisian$' )|E]"
+ knight_no_tooltip_frisian:0 "Kniucht"
+ knight_lower_frisian:0 "kniucht"
+ 
+ knight_plural_frisian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_frisian$' )|E]"
+ knight_plural_no_tooltip_frisian:0 "Kniuchtas"
+ knight_plural_lower_frisian:0 "kniuchtas"
+ 
+## Dutch
+ knight_dutch:0 "[Concept( 'knight', '$knight_no_tooltip_dutch$' )|E]"
+ knight_no_tooltip_dutch:0 "Thegen"
+ knight_lower_dutch:0 "thegen"
+ 
+ knight_plural_dutch:0 "[Concept( 'knight', '$knight_plural_no_tooltip_dutch$' )|E]"
+ knight_plural_no_tooltip_dutch:0 "Thegena"
+ knight_plural_lower_dutch:0 "thegena"
+ 
+## Arabic group
+ knight_arabic_group:0 "[Concept( 'knight', '$knight_no_tooltip_arabic_group$' )|E]"
+ knight_no_tooltip_arabic_group:0 "Fāris"
+ knight_lower_arabic_group:0 "fāris"
+ 
+ knight_plural_arabic_group:0 "[Concept( 'knight', '$knight_plural_no_tooltip_arabic_group$' )|E]"
+ knight_plural_no_tooltip_arabic_group:0 "Fārisayn"
+ knight_plural_lower_arabic_group:0 "fārisayn"
+ 
+## Coptic
+ knight_egyptian_coptic:0 "[Concept( 'knight', '$knight_no_tooltip_egyptian_coptic$' )|E]"
+ knight_no_tooltip_egyptian_coptic:0 "Hippəus"
+ knight_lower_egyptian_coptic:0 "hippəus"
+ 
+ knight_plural_egyptian_coptic:0 "[Concept( 'knight', '$knight_plural_no_tooltip_egyptian_coptic$' )|E]"
+ knight_plural_no_tooltip_egyptian_coptic:0 "Hippəus"
+ knight_plural_lower_egyptian_coptic:0 "hippəus"
+ 
+## Armenian
+ knight_armenian:0 "[Concept( 'knight', '$knight_no_tooltip_armenian$' )|E]"
+ knight_no_tooltip_armenian:0 "Aspet"
+ knight_lower_armenian:0 "aspet"
+ 
+ knight_plural_armenian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_armenian$' )|E]"
+ knight_plural_no_tooltip_armenian:0 "Aspetkʿ"
+ knight_plural_lower_armenian:0 "aspetkʿ"
+ 
+## Greek
+ knight_greek:0 "[Concept( 'knight', '$knight_no_tooltip_greek$' )|E]"
+ knight_no_tooltip_greek:0 "Athanatos"
+ knight_lower_greek:0 "athanatos"
+ 
+ knight_plural_greek:0 "[Concept( 'knight', '$knight_plural_no_tooltip_greek$' )|E]"
+ knight_plural_no_tooltip_greek:0 "Athanatoi"
+ knight_plural_lower_greek:0 "athanatoi"
+ 
+## Georgian
+ knight_georgian:0 "[Concept( 'knight', '$knight_no_tooltip_georgian$' )|E]"
+ knight_no_tooltip_georgian:0 "Mxedari"
+ knight_lower_georgian:0 "mxedari"
+ 
+ knight_plural_georgian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_georgian$' )|E]"
+ knight_plural_no_tooltip_georgian:0 "Mxedrebi"
+ knight_plural_lower_georgian:0 "mxedrebi"
+ 
+## Assyrian
+ knight_assyrian:0 "[Concept( 'knight', '$knight_no_tooltip_assyrian$' )|E]"
+ knight_no_tooltip_assyrian:0 "Zārāyā"
+ knight_lower_assyrian:0 "zārāyā"
+ 
+ knight_plural_assyrian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_assyrian$' )|E]"
+ knight_plural_no_tooltip_assyrian:0 "Zārāyē"
+ knight_plural_lower_assyrian:0 "zārāyē"
+ 
+## Italian
+ knight_italian:0 "[Concept( 'knight', '$knight_no_tooltip_italian$' )|E]"
+ knight_no_tooltip_italian:0 "Cavaliere"
+ knight_lower_italian:0 "сavaliere"
+ 
+ knight_plural_cumbric:0 "[Concept( 'knight', '$knight_plural_no_tooltip_italian$' )|E]"
+ knight_plural_no_tooltip_cumbric:0 "Cavalieri"
+ knight_plural_lower_cumbric:0 "cavalieri"
+ 
+## Roman
+ knight_roman:0 "[Concept( 'knight', '$knight_no_tooltip_roman$' )|E]"
+ knight_no_tooltip_roman:0 "Eques"
+ knight_lower_roman:0 "eques"
+ 
+ knight_plural_roman:0 "[Concept( 'knight', '$knight_plural_no_tooltip_roman$' )|E]"
+ knight_plural_no_tooltip_roman:0 "Equites"
+ knight_plural_lower_roman:0 "equites"
+ 
+## Cisalpine
+ knight_cisalpine:0 "[Concept( 'knight', '$knight_no_tooltip_cisalpine$' )|E]"
+ knight_no_tooltip_cisalpine:0 "Cavaler"
+ knight_lower_cisalpine:0 "cavaler"
+ 
+ knight_plural_cisalpine:0 "[Concept( 'knight', '$knight_plural_no_tooltip_cisalpine$' )|E]"
+ knight_plural_no_tooltip_cisalpine:0 "Cavaleri"
+ knight_plural_lower_cisalpine:0 "cavaleri"
+ 
+## Sardinian
+ knight_sardinian:0 "[Concept( 'knight', '$knight_no_tooltip_sardinian$' )|E]"
+ knight_no_tooltip_sardinian:0 "Bujakeso"
+ knight_lower_sardinian:0 "bujakeso"
+ 
+ knight_plural_sardinian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_sardinian$' )|E]"
+ knight_plural_no_tooltip_sardinian:0 "Bujakesos"
+ knight_plural_lower_sardinian:0 "bujakesos"
+ 
+## Sicilian
+ knight_sicilian:0 "[Concept( 'knight', '$knight_no_tooltip_sicilian$' )|E]"
+ knight_no_tooltip_sicilian:0 "Cavaleri"
+ knight_lower_sicilian:0 "cavaleri"
+ 
+ knight_plural_sicilian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_sicilian$' )|E]"
+ knight_plural_no_tooltip_sicilian:0 "Cavaleri"
+ knight_plural_lower_sicilian:0 "cavaleri"
+ 
+## Lombard
+#knight_lombard:0 "[Concept( 'knight', '$knight_no_tooltip_lombard$' )|E]"
+#knight_no_tooltip_lombard:0 "Cavallario"
+#knight_lower_lombard:0 "cavallario"
+ 
+#knight_plural_lombard:0 "[Concept( 'knight', '$knight_plural_no_tooltip_lombard$' )|E]"
+#knight_plural_no_tooltip_lombard:0 "Cavallarii" 
+#knight_plural_lower_lombard:0 "cavallarii"
+
+## South Slavic group
+ knight_south_slavic_group:0 "[Concept( 'knight', '$knight_no_tooltip_south_slavic_group$' )|E]"
+ knight_no_tooltip_south_slavic_group:0 "Vitez"
+ knight_lower_south_slavic_group:0 "vitez"
+ 
+ knight_plural_south_slavic_group:0 "[Concept( 'knight', '$knight_plural_no_tooltip_south_slavic_group$' )|E]"
+ knight_plural_no_tooltip_south_slavic_group:0 "Vitezovi"
+ knight_plural_lower_south_slavic_group:0 "vitezovi"
+ 
+## Vlach
+ knight_vlach:0 "[Concept( 'knight', '$knight_no_tooltip_vlach$' )|E]"
+ knight_no_tooltip_vlach:0 "Viteaz"
+ knight_lower_vlach:0 "viteaz"
+ 
+ knight_plural_vlach:0 "[Concept( 'knight', '$knight_plural_no_tooltip_vlach$' )|E]"
+ knight_plural_no_tooltip_vlach:0 "Viteji"
+ knight_plural_lower_vlach:0 "viteji"
+ 
+## Bulgarian
+ knight_bulgarian:0 "[Concept( 'knight', '$knight_no_tooltip_bulgarian$' )|E]"
+ knight_no_tooltip_bulgarian:0 "Vitez"
+ knight_lower_bulgarian:0 "vitez"
+ 
+ knight_plural_bulgarian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_bulgarian$' )|E]"
+ knight_plural_no_tooltip_bulgarian:0 "Vitezi"
+ knight_plural_lower_bulgarian:0 "vitezi"
+ 
+## Pomeranian
+ knight_pommeranian:0 "[Concept( 'knight', '$knight_no_tooltip_pommeranian$' )|E]"
+ knight_no_tooltip_pommeranian:0 "Ricerz"
+ knight_lower_pommeranian:0 "ricerz"
+ 
+ knight_plural_pommeranian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_pommeranian$' )|E]"
+ knight_plural_no_tooltip_pommeranian:0 "Ricerze"
+ knight_plural_lower_pommeranian:0 "Ricerze"
+ 
+## Czech
+ knight_czech:0 "[Concept( 'knight', '$knight_no_tooltip_czech$' )|E]"
+ knight_no_tooltip_czech:0 "Rytíř"
+ knight_lower_czech:0 "rytíř"
+ 
+ knight_plural_czech:0 "[Concept( 'knight', '$knight_plural_no_tooltip_czech$' )|E]"
+ knight_plural_no_tooltip_czech:0 "Rytíři"
+ knight_plural_lower_czech:0 "rytíři"
+ 
+## Polish
+ knight_polish:0 "[Concept( 'knight', '$knight_no_tooltip_polish$' )|E]"
+ knight_no_tooltip_polish:0 "Rycerz"
+ knight_lower_polish:0 "rycerz"
+ 
+ knight_plural_polish:0 "[Concept( 'knight', '$knight_plural_no_tooltip_polish$' )|E]"
+ knight_plural_no_tooltip_polish:0 "Rycerze"
+ knight_plural_lower_polish:0 "rycerze"
+ 
+## Polabian
+ knight_polabian:0 "[Concept( 'knight', '$knight_no_tooltip_polabian$' )|E]"
+ knight_no_tooltip_polabian:0 "Råiter"
+ knight_lower_polabian:0 "råiter"
+
+ knight_plural_polabian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_polabian$' )|E]"
+ knight_plural_no_tooltip_polabian:0 "Råitere"
+ knight_plural_lower_polabian:0 "råitere"
+ 
+## Slovien
+ knight_slovien:0 "[Concept( 'knight', '$knight_no_tooltip_slovien$' )|E]"
+ knight_no_tooltip_slovien:0 "Rytier"
+ knight_lower_slovien:0 "rytier"
+ 
+ knight_plural_slovien:0 "[Concept( 'knight', '$knight_plural_no_tooltip_slovien$' )|E]"
+ knight_plural_no_tooltip_slovien:0 "Rytieri"
+ knight_plural_lower_slovien:0 "rytieri"
+ 
+## Mogyër
+ knight_mogyer:0 "[Concept( 'knight', '$knight_no_tooltip_mogyer$' )|E]"
+ knight_no_tooltip_mogyer:0 "Bajnuk"
+ knight_lower_mogyer:0 "bajnuk"
+ 
+ knight_plural_mogyer:0 "[Concept( 'knight', '$knight_plural_no_tooltip_mogyer$' )|E]"
+ knight_plural_no_tooltip_mogyer:0 "Bajnukuk"
+ knight_plural_lower_mogyer:0 "bajnukuk"
+ 
+## Hungarian
+ knight_hungarian:0 "[Concept( 'knight', '$knight_no_tooltip_hungarian$' )|E]"
+ knight_no_tooltip_hungarian:0 "Lovag"
+ knight_lower_hungarian:0 "lovag"
+ 
+ knight_plural_hungarian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_hungarian$' )|E]"
+ knight_plural_no_tooltip_hungarian:0 "Lovagok"
+ knight_plural_lower_hungarian:0 "lovagok"
+ 
+## Lithuanian
+ knight_lithuanian:0 "[Concept( 'knight', '$knight_no_tooltip_lithuanian$' )|E]"
+ knight_no_tooltip_lithuanian:0 "Riteris"
+ knight_lower_lithuanian:0 "riteris"
+ 
+ knight_plural_lithuanian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_lithuanian$' )|E]"
+ knight_plural_no_tooltip_lithuanian:0 "Riteriai"
+ knight_plural_lower_lithuanian:0 "riteriai"
+ 
+## Prussian
+ knight_prussian:0 "[Concept( 'knight', '$knight_no_tooltip_prussian$' )|E]"
+ knight_no_tooltip_prussian:0 "Wāldwika"
+ knight_lower_prussian:0 "wāldwika"
+ 
+ knight_plural_prussian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_prussian$' )|E]"
+ knight_plural_no_tooltip_prussian:0 "Wāldwikas"
+ knight_plural_lower_prussian:0 "wāldwikas"
+ 
+## Russian
+ knight_russian:0 "[Concept( 'knight', '$knight_no_tooltip_russian$' )|E]"
+ knight_no_tooltip_russian:0 "Vityaz'"
+ knight_lower_russian:0 "vityaz'"
+ 
+ knight_plural_russian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_russian$' )|E]"
+ knight_plural_no_tooltip_russian:0 "Vityazi"
+ knight_plural_lower_russian:0 "vityazi"
+ 
+## Ilmenian
+ knight_ilmenian:0 "[Concept( 'knight', '$knight_no_tooltip_ilmenian$' )|E]"
+ knight_no_tooltip_ilmenian:0 "Vitäge"
+ knight_lower_ilmenian:0 "vitäge"
+ 
+ knight_plural_ilmenian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_ilmenian$' )|E]"
+ knight_plural_no_tooltip_ilmenian:0 "Vitägi"
+ knight_plural_lower_ilmenian:0 "vitägi"
+ 
+## Severian and Volhynian
+ knight_severian_volhynian:0 "[Concept( 'knight', '$knight_no_tooltip_severian_volhynian$' )|E]"
+ knight_no_tooltip_severian_volhynian:0 "Vitäzĭ"
+ knight_lower_severian_volhynian:0 "vitäzĭ"
+ 
+ knight_plural_severian_volhynian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_severian_volhynian$' )|E]"
+ knight_plural_no_tooltip_severian_volhynian:0 "Vitäzi"
+ knight_plural_lower_severian_volhynian:0 "Vitäzi"
+ 
+## Chinese group
+ knight_chinese_group:0 "[Concept( 'knight', '$knight_no_tooltip_chinese_group$' )|E]"
+ knight_no_tooltip_chinese_group:0 "Qishi"
+ knight_lower_chinese_group:0 "qishi"
+ 
+ knight_plural_chinese_group:0 "[Concept( 'knight', '$knight_plural_no_tooltip_chinese_group$' )|E]"
+ knight_plural_no_tooltip_chinese_group:0 "Qishi"
+ knight_plural_lower_chinese_group:0 "qishi"
+ 
+## Tamil
+ knight_tamil:0 "[Concept( 'knight', '$knight_no_tooltip_tamil$' )|E]"
+ knight_no_tooltip_tamil:0 "Vēlaikkārar"
+ knight_lower_tamil:0 "vēlaikkārar"
+ 
+ knight_plural_tamil:0 "[Concept( 'knight', '$knight_plural_no_tooltip_tamil$' )|E]"
+ knight_plural_no_tooltip_tamil:0 "Vēlaikkārarkal"
+ knight_plural_lower_tamil:0 "vēlaikkārarkal"
+ 
+## telugu
+ knight_telugu:0 "[Concept( 'knight', '$knight_no_tooltip_telugu$' )|E]"
+ knight_no_tooltip_telugu:0 "Vīrar"
+ knight_lower_telugu:0 "vīrar"
+ 
+ knight_plural_telugu:0 "[Concept( 'knight', '$knight_plural_no_tooltip_telugu$' )|E]"
+ knight_plural_no_tooltip_telugu:0 "Vīrargalu"
+ knight_plural_lower_telugu:0 "vīrargalu"
+ 
+## Kannada
+ knight_kannada:0 "[Concept( 'knight', '$knight_no_tooltip_kannada$' )|E]"
+ knight_no_tooltip_kannada:0 "Garuḍa"
+ knight_lower_kannada:0 "garuḍa"
+ 
+ knight_plural_kannada:0 "[Concept( 'knight', '$knight_plural_no_tooltip_kannada$' )|E]"
+ knight_plural_no_tooltip_kannada:0 "Garuḍā́galu"
+ knight_plural_lower_kannada:0 "garuḍā́galu"
+ 
+## Ethiopian
+ knight_ethiopian:0 "[Concept( 'knight', '$knight_no_tooltip_ethiopian$' )|E]"
+ knight_no_tooltip_ethiopian:0 "Wä'ali"
+ knight_lower_ethiopian:0 "wä'ali"
+ 
+ knight_plural_ethiopian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_ethiopian$' )|E]"
+ knight_plural_no_tooltip_ethiopian:0 "Wä'aliyan"
+ knight_plural_lower_ethiopian:0 "wä'aliyan"
+ 
+## Mongol and Buryat
+ knight_mongol_buryat:0 "[Concept( 'knight', '$knight_no_tooltip_mongol_buryat$' )|E]"
+ knight_no_tooltip_mongol_buryat:0 "Bagatur"
+ knight_lower_mongol_buryat:0 "bagatur"
+ 
+ knight_plural_mongol_buryat:0 "[Concept( 'knight', '$knight_plural_no_tooltip_mongol_buryat$' )|E]"
+ knight_plural_no_tooltip_mongol_buryat:0 "Bagaturuud"
+ knight_plural_lower_mongol_buryat:0 "bagaturuud"
+ 
+  
+## default
+ knight_default:0 "[Concept( 'knight', '$knight_no_tooltip_default$' )|E]"
+ knight_no_tooltip_default:0 "Caballero"
+ knight_lower_default:0 "caballero"
+ 
+ knight_plural_default:0 "[Concept( 'knight', '$knight_plural_no_tooltip_default$' )|E]"
+ knight_plural_no_tooltip_default:0 "Caballeros"
+ knight_plural_lower_default:0 "Caballeros"

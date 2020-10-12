@@ -34,17 +34,23 @@
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
+### CTP TITLES 
+ councillor_chancellor_ctp:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
+ councillor_steward_ctp:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
+ councillor_marshal_ctp:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
+ councillor_spymaster_ctp:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+ councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
 
  councillor_coregent:0 "Corregente"
  councillor_coregent_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_coregent$"
- councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
- councillor_chancellor_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_chancellor$"
- councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
- councillor_steward_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_steward$"
- councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
- councillor_marshal_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_marshal$"
- councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
- councillor_spymaster_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_spymaster$"
+ councillor_chancellor:0 "Canciller"
+ councillor_chancellor_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_chancellor_ctp$"
+ councillor_steward:0 "Administrador"
+ councillor_steward_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_steward_ctp$"
+ councillor_marshal:0 "Mariscal"
+ councillor_marshal_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_marshal_ctp$"
+ councillor_spymaster:0 "Jefe de espías"
+ councillor_spymaster_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_spymaster_ctp$"
  councillor_court_chaplain:0 "Capellán de la corte"
  councillor_court_chaplain_possessive:0 "[ROOT.Char.Custom('ES_DelDela')] $councillor_court_chaplain$"
 
@@ -73,7 +79,7 @@
  councillor_court_chaplain_christian_empire_female:0 "Matriarca"
  councillor_court_chaplain_christian_empire_possessive:0 "del Patriarca"
  councillor_court_chaplain_christian_empire_female_possessive:0 "de la Matriarca"
- councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsName]"
+
 
  #Orthodox
  councillor_court_chaplain_orthodox_county:1 "$councillor_court_chaplain_christian_county$"
@@ -263,17 +269,17 @@
  councillor_spouse:0 "Cónyuge"
  councillor_spouse_prince_consort:0 "Príncipe consorte"
  councillor_spouse_husband:0 "Marido"
- councillor_spouse_empress:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_queen:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_duchess:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_countess:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_baroness:0 "[ROOT.Char.GetTitleAsName]"
+ councillor_spouse_empress:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_queen:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_duchess:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_countess:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_baroness:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
 
- councillor_spouse_emperor:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_king:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_duke:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_count:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_baron:0 "[ROOT.Char.GetTitleAsName]"
+ councillor_spouse_emperor:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_king:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_duke:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_count:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_baron:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
 
  councillor_spouse_possessive:0 "de cónyuge"
  councillor_spouse_prince_consort_possessive:0 "de príncipe consorte"
