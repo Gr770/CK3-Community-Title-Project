@@ -33,22 +33,29 @@
  COUNCILLOR_WILL_BE_ASSIGNED:0 "The [councillor|E] is about to be assigned"
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
+ 
+##CTP ADDED TITLES
+ councillor_chancellor_ctp:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
+ councillor_steward_ctp:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
+ councillor_marshal_ctp:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
+ councillor_spymaster_ctp:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+ councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+
 
  councillor_coregent:0 "Coregent"
- councillor_coregent_possessive:0 "$councillor_coregent$'s"
- councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
- councillor_chancellor_possessive:0 "$councillor_chancellor$'s"
- councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
- councillor_steward_possessive:0 "$councillor_steward$'s"
- councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
- councillor_marshal_possessive:0 "$councillor_marshal$'s"
- councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
- councillor_spymaster_possessive:0 "$councillor_spymaster$'s"
+ councillor_coregent_possessive:0 "$councillor_coregent_ctp$'s"
+ councillor_chancellor:0 "Chancellor"
+ councillor_chancellor_possessive:0 "$councillor_chancellor_ctp$'s"
+ councillor_steward:0 "Steward"
+ councillor_steward_possessive:0 "$councillor_steward_ctp$'s"
+ councillor_marshal:0 "Marshal"
+ councillor_marshal_possessive:0 "$councillor_marshal_ctp$'s"
+ councillor_spymaster:0 "Spymaster"
+ councillor_spymaster_possessive:0 "$councillor_spymaster_ctp$'s"
  councillor_court_chaplain:0 "Court Chaplain"
  councillor_court_chaplain_possessive:0 "$councillor_court_chaplain$'s"
- councillor_spouse_ctp:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_ctp_possessive:0 "$councillor_spouse_ctp$'s"
- 
+
+
 #Flavor localization for Court Chaplains, sorted by Religion.
 
 #Fallback
@@ -264,19 +271,18 @@
  councillor_spouse:0 "Spouse"
  councillor_spouse_prince_consort:0 "Prince Consort" 
  councillor_spouse_husband:0 "Husband"
- councillor_spouse_empress:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_queen:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_duchess:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_countess:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_baroness:0 "[ROOT.Char.GetTitleAsName]"
- 
- councillor_spouse_emperor:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_king:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_duke:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_count:0 "[ROOT.Char.GetTitleAsName]"
- councillor_spouse_baron:0 "[ROOT.Char.GetTitleAsName]"
+ councillor_spouse_empress:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_queen:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_duchess:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_countess:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_baroness:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_emperor:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_king:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_duke:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_count:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
+ councillor_spouse_baron:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
 
- councillor_spouse_possessive:0 "$councillor_spouse$'s"
+ councillor_spouse_possessive:0 "$councillor_spouse_ctp$'s"
  councillor_spouse_prince_consort_possessive:0 "$councillor_spouse_prince_consort$'s"
  councillor_spouse_husband_possessive:0 "$councillor_spouse_husband$'s"
  councillor_spouse_empress_possessive:0 "$councillor_spouse_empress$'s"
