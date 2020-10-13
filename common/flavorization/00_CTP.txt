@@ -4192,14 +4192,14 @@ duke_tribal_female_breton = {
 	governments = { tribal_government }
 	top_liege = no
 }
-duchy_tribal_breton = {
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { breton }
-	governments = { tribal_government }
-	top_liege = no
-}
+#duchy_tribal_breton = {
+#	type = title
+#	tier = duchy
+#	priority = 28
+#	cultures = { breton }
+#	governments = { tribal_government }
+#	top_liege = no
+#}
 
 ####################################
 ## Cornish 
@@ -4402,6 +4402,15 @@ county_cornish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+county_cornish_independent = {
+	type = title
+	priority = 19
+	tier = duchy
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	independent = yes
+}
 duchy_feudalclan_cornish = {
 	type = title
 	tier = duchy
@@ -4586,6 +4595,7 @@ duchy_tribal_cornish = {
 
 ##############################
 ## Cumbrian_culture
+
 baron_male_cumbrian = {
 	type = character
 	gender = male
@@ -4783,6 +4793,15 @@ county_cumbrian = {
 	cultures = { cumbrian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+}
+county_cumbrian_independent = {
+	type = title
+	priority = 19
+	tier = duchy
+	cultures = { cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	independent = yes
 }
 duchy_feudalclan_cumbrian = {
 	type = title
