@@ -503,7 +503,6 @@ duchy_feudalclan_gaelic_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
 count_tribal_male_gaelic = {
 	type = character
 	gender = male
@@ -1325,28 +1324,28 @@ duchy_tribal_anglo_saxon = {
 	governments = { tribal_government }
 	top_liege = no
 }
-king_male_anglo_saxon_islam_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 49
-	cultures = { anglo_saxon }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_anglo_saxon_islam_independent = {
-	type = title
-	tier = kingdom
-	priority = 49
-	cultures = { anglo_saxon }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
+#king_male_anglo_saxon_islam_independent = {  ##Commented out because no Female title, might cause some weird stuff
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	priority = 49
+#	cultures = { anglo_saxon }
+#	religions = { islam_religion }
+#	governments = { feudal_government clan_government }
+#	top_liege = no
+#	only_independent = yes
+#}
+#kingdom_anglo_saxon_islam_independent = {   ##Commented out because no Female title, might cause some weird stuff
+#	type = title
+#	tier = kingdom
+#	priority = 49
+#	cultures = { anglo_saxon }
+#	religions = { islam_religion }
+#	governments = { feudal_government clan_government }
+#	top_liege = no
+#	only_independent = yes
+#}
 
 ###############################################
 ## Scottish_culture ##
@@ -1630,13 +1629,47 @@ duchy_republic_scottish = {
 	governments = { republic_government }
 	top_liege = no
 }
-kingdom_republic_anglo_saxon = {
+kingdom_republic_scottish = {
 	type = title
 	tier = county
 	priority = 48
 	cultures = { scottish }
 	governments = { republic_government }
 	top_liege = no
+}
+king_male_scottish_islam_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { scottish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+king_female_scottish_islam_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 49
+	cultures = { scottish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_scottish_islam_independent = {
+	type = title
+	tier = kingdom
+	priority = 49
+	cultures = { scottish }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
 }
 ###############################################
 ## End of West_German_culture_group ##
