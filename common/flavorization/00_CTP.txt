@@ -12290,6 +12290,29 @@ county_feudal_k_wales = { # Lordship
 	de_jure_liege = { k_wales }
 	top_liege = no
 }
+king_feudal_male_k_ireland_irish = { # High King
+	type = character
+	gender = male
+	special = holder
+	priority = 46
+	cultures = { irish }
+	governments = { tribal_government clan_government feudal_government }
+	titles = { k_ireland }
+	only_independent = yes
+	top_liege = no
+}
+
+king_feudal_female_k_ireland_irish = { # High Queen
+	type = character
+	gender = female
+	special = holder
+	priority = 46
+	cultures = { irish }
+	governments = { tribal_government clan_government feudal_government }
+	titles = { k_ireland }
+	only_independent = yes
+	top_liege = no
+}
 ###############################################
 ## End of File ##
 ###############################################
