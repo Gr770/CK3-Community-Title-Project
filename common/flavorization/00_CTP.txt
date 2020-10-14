@@ -2679,20 +2679,20 @@ county_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_feudalclan_breton = {
+duchy_breton = {
 	type = title
 	tier = duchy
 	priority = 28
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_feudalclan_breton_independent = {
+duchy_breton_independent = {
 	type = title
 	priority = 29
 	tier = duchy
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
@@ -2742,34 +2742,6 @@ barony_republic_breton = {
 	governments = { republic_government }
 	top_liege = no
 }
-duke_tribal_male_breton = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { breton }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_breton = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { breton }
-	governments = { tribal_government }
-	top_liege = no
-}
-#duchy_tribal_breton = {
-#	type = title
-#	tier = duchy
-#	priority = 28
-#	cultures = { breton }
-#	governments = { tribal_government }
-#	top_liege = no
-#}
 
 ####################################
 ## Cornish 
@@ -3118,22 +3090,22 @@ county_republic_cornish = {
 	governments = { republic_government }
 	top_liege = no
 }
-#duchy_republic_cornish = {
-#	type = title
-#	tier = duchy
-#	priority = 28
-#	cultures = { cornish }
-#	governments = { republic_government }
-#	top_liege = no
-#}
-#kingdom_republic_cornish = {  #Commented out beacause no entry
-#	type = title
-#	tier = kingdom
-#	priority = 48
-#	cultures = { cornish }
-#	governments = { republic_government }
-#	top_liege = no
-#}
+duchy_republic_cornish = {
+	type = title
+	tier = duchy
+	priority = 28
+	cultures = { cornish }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_cornish = {
+	type = title
+	tier = kingdom
+	priority = 48
+	cultures = { cornish }
+	governments = { republic_government }
+	top_liege = no
+}
 duke_tribal_male_cornish = {
 	type = character
 	gender = male
