@@ -350,7 +350,7 @@ duchy_irish = {
 
 
 ########################################
-## Gaelic (Scottish) ##
+## Gaelic  ##
 ##
 
 baron_male_gaelic = {
@@ -1621,22 +1621,22 @@ county_republic_scottish = {
 	governments = { republic_government }
 	top_liege = no
 }
-duchy_republic_scottish = {
-	type = title
-	tier = county
-	priority = 28
-	cultures = { scottish }
-	governments = { republic_government }
-	top_liege = no
-}
-kingdom_republic_scottish = {
-	type = title
-	tier = county
-	priority = 48
-	cultures = { scottish }
-	governments = { republic_government }
-	top_liege = no
-}
+#duchy_republic_scottish = {
+#	type = title
+#	tier = county
+#	priority = 28
+#	cultures = { scottish }
+#	governments = { republic_government }
+#	top_liege = no
+#}
+#kingdom_republic_scottish = {
+#	type = title
+#	tier = county
+#	priority = 48
+#	cultures = { scottish }
+#	governments = { republic_government }
+#	top_liege = no
+#}
 king_male_scottish_islam_independent = {
 	type = character
 	gender = male
@@ -2541,45 +2541,45 @@ count_female_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_male_breton = {
+duke_male_breton = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 28
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_female_breton = {
+duke_female_breton = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 28
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_male_breton_independent = {
+duke_male_breton_independent = {
 	type = character
 	gender = male
 	special = holder
 	priority = 29
 	tier = duchy
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
-duke_feudalclan_female_breton_independent = {
+duke_female_breton_independent = {
 	type = character
 	gender = female
 	special = holder
 	priority = 29
 	tier = duchy
 	cultures = { breton }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
