@@ -2795,6 +2795,7 @@ count_male_cornish_independent = {
 	cultures = { cornish }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+	only_independent = yes
 }
 count_female_cornish_independent = {
 	type = character
@@ -2805,6 +2806,7 @@ count_female_cornish_independent = {
 	cultures = { cornish }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+	only_independent = yes
 }
 duke_feudalclan_male_cornish = {
 	type = character
@@ -9285,6 +9287,8 @@ kingdom_muslim_russian = {
 	priority = 51
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { russian }
+	religions = { islam_religion }
+	only_independent = yes
 }
 count_tribal_male_russian = {
 	type = character
