@@ -2,30 +2,12 @@ EarlMaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -40,30 +22,12 @@ EarlFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -79,11 +43,7 @@ EarldomIrish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
@@ -102,30 +62,12 @@ EarlMaleGaelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -140,30 +82,12 @@ EarlFemaleGaelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -178,30 +102,12 @@ EarlFemaleGaelicHolder = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -217,11 +123,7 @@ EarldomGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
@@ -240,30 +142,12 @@ EarlMaleCumbrian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -278,30 +162,12 @@ EarlFemaleCumbrian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -317,11 +183,7 @@ EarldomCumbrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
@@ -341,11 +203,7 @@ EarldomPictish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
@@ -364,30 +222,12 @@ EarlMaleWelsh = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -402,30 +242,12 @@ EarlFemaleWelsh = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -441,11 +263,7 @@ EarldomWelsh = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
@@ -464,30 +282,12 @@ EarlMaleCornish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -502,30 +302,12 @@ EarlFemaleCornish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				root.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
-				}
-				root.primary_spouse.top_liege = {
-					OR = {
-						has_culture = anglo_saxon
-						has_culture = english
-						has_culture = scottish
-					}
-					OR = {
-						has_primary_title = e_britannia
-						has_primary_title = k_england
-						has_primary_title = k_scotland
-					}
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
 				}
 			}
 		}
@@ -541,11 +323,7 @@ EarldomCornish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				OR = {
-					has_culture = anglo_saxon
-					has_culture = english
-					has_culture = scottish
-				}
+				has_culture_group = culture_group:west_germanic_group
 				OR = {
 					has_primary_title = e_britannia
 					has_primary_title = k_england
