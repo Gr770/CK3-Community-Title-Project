@@ -198,6 +198,46 @@ EarldomCumbrian = {
 		fallback = yes
 	}
 }
+EarlMalePictish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
+				}
+			}
+		}
+		localization_key = earl_male_cumbrian
+	}
+	text = {
+		localization_key = count_default_male_pictish
+		fallback = yes
+	}
+}
+EarlFemalePictish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = e_britannia
+					has_primary_title = k_england
+					has_primary_title = k_scotland
+				}
+			}
+		}
+		localization_key = earl_female_cumbrian
+	}
+	text = {
+		localization_key = count_default_female_pictish
+		fallback = yes
+	}
+}
 EarldomPictish = {
 	type = character
 	text = {
