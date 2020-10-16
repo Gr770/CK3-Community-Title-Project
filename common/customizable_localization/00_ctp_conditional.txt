@@ -124,7 +124,7 @@ EarldomGaelic = {
 		fallback = yes
 	}
 }
-EarlMaleCumbrian = {
+EarlMalePictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -135,14 +135,14 @@ EarlMaleCumbrian = {
 				top_liege:primary_title = primary_title:k_scotland
 			}
 		}
-		localization_key = earl_male_cumbrian
+		localization_key = earl_male_pictish_cumbrian
 	}
 	text = {
-		localization_key = count_default_male_cumbrian
+		localization_key = count_default_male_pictish_cumbrian
 		fallback = yes
 	}
 }
-EarlFemaleCumbrian = {
+EarlFemalePictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -153,14 +153,14 @@ EarlFemaleCumbrian = {
 				top_liege:primary_title = primary_title:k_scotland
 			}
 		}
-		localization_key = earl_female_cumbrian
+		localization_key = earl_female_pictish_cumbrian
 	}
 	text = {
-		localization_key = count_default_female_cumbrian
+		localization_key = count_default_female_pictish_cumbrian
 		fallback = yes
 	}
 }
-EarldomCumbrian = {
+EarldomPictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -171,64 +171,10 @@ EarldomCumbrian = {
 				top_liege:primary_title = primary_title:k_scotland
 			}
 		}
-		localization_key = earldom_cumbrian
+		localization_key = earldom_pictish_cumbrian
 	}
 	text = {
-		localization_key = county_default_cumbrian
-		fallback = yes
-	}
-}
-EarlMalePictish = {
-	type = character
-	text = {
-		trigger = {
-			top_liege:culture_group = culture_group:west_germanic_group
-			OR = {
-				top_liege:primary_title = primary_title:e_britannia
-				top_liege:primary_title = primary_title:k_england
-				top_liege:primary_title = primary_title:k_scotland
-			}
-		}
-		localization_key = earl_male_cumbrian
-	}
-	text = {
-		localization_key = count_default_male_pictish
-		fallback = yes
-	}
-}
-EarlFemalePictish = {
-	type = character
-	text = {
-		trigger = {
-			top_liege:culture_group = culture_group:west_germanic_group
-			OR = {
-				top_liege:primary_title = primary_title:e_britannia
-				top_liege:primary_title = primary_title:k_england
-				top_liege:primary_title = primary_title:k_scotland
-			}
-		}
-		localization_key = earl_female_cumbrian
-	}
-	text = {
-		localization_key = count_default_female_pictish
-		fallback = yes
-	}
-}
-EarldomPictish = {
-	type = character
-	text = {
-		trigger = {
-			top_liege:culture_group = culture_group:west_germanic_group
-			OR = {
-				top_liege:primary_title = primary_title:e_britannia
-				top_liege:primary_title = primary_title:k_england
-				top_liege:primary_title = primary_title:k_scotland
-			}
-		}
-		localization_key = earldom_cumbrian
-	}
-	text = {
-		localization_key = county_default_pictish
+		localization_key = county_default_pictish_cumbrian
 		fallback = yes
 	}
 }
