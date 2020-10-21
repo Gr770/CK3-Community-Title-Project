@@ -5297,7 +5297,7 @@ duke_female_aragonese = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { aragonese italian } ##Is this even allowed?
+	cultures = { aragonese }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
@@ -7329,7 +7329,16 @@ duke_male_italian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-##Duchess are in Aragonese
+duke_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { italian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 count_male_italian = {
 	type = character
 	gender = male
