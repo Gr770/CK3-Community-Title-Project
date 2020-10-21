@@ -11358,32 +11358,42 @@ title_prince_female_vlach_empire = {
 ###############################################
 ## Bulgarian_culture
 
-baron_feudalclan_male_bulgarian = {
+baron_male_bulgarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 8
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_feudalclan_female_bulgarian = {
+baron_female_bulgarian = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 8
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_bulgarian = {
+barony_bulgarian = {
 	type = title
 	tier = barony
 	priority = 8
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_republic_male_bulgarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	cultures = { bulgarian }
+	governments = { republic_government }
 	top_liege = no
 }
 barony_republic_bulgarian = {
@@ -11402,16 +11412,6 @@ count_feudalclan_male_bulgarian = {
 	priority = 18
 	cultures = { bulgarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_tribal_male_bulgarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 18
-	cultures = { bulgarian }
-	governments = { tribal_government }
 	top_liege = no
 }
 count_feudalclan_male_bulgarian_independent = {
@@ -11446,6 +11446,16 @@ count_feudalclan_female_bulgarian_independent = {
 	top_liege = no
 	only_independent = yes
 }
+count_tribal_male_bulgarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	cultures = { bulgarian }
+	governments = { tribal_government }
+	top_liege = no
+}
 count_tribal_female_bulgarian = {
 	type = character
 	gender = female
@@ -11470,6 +11480,14 @@ county_republic_bulgarian = {
 	priority = 18
 	cultures = { bulgarian }
 	governments = { republic_government }
+	top_liege = no
+}
+county_tribal_bulgarian = {
+	type = title
+	tier = county
+	priority = 18
+	cultures = { bulgarian }
+	governments = { tribal_government }
 	top_liege = no
 }
 county_feudalclan_bulgarian_independent = {
@@ -11537,6 +11555,26 @@ kingdom_feudalclan_bulgarian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+title_prince_male_bulgarian_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 42
+	cultures = { bulgarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_bulgarian_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 42
+	cultures = { bulgarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 emperor_male_bulgarian = {
 	type = character
 	gender = male
@@ -11563,6 +11601,26 @@ empire_bulgarian = {
 	priority = 103
 	cultures = { bulgarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_bulgarian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 43
+	cultures = { bulgarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_bulgarian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 43
+	cultures = { bulgarian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 
