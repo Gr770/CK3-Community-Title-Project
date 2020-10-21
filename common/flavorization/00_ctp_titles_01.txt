@@ -4384,7 +4384,7 @@ duke_male_castilian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { castilian portuguese galician asturleonese }
+	cultures = { castilian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
@@ -4394,7 +4394,7 @@ duke_female_castilian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { castilian portuguese galician asturleonese }
+	cultures = { castilian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
@@ -4402,7 +4402,7 @@ duchy_castilian = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { castilian portuguese galician }
+	cultures = { castilian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -4724,7 +4724,17 @@ duke_male_catalan = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { catalan aragonese }
+	cultures = { catalan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_catalan = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { catalan }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -4991,6 +5001,34 @@ queen_mother_portuguese = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+duke_male_portgalician = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { portuguese galician }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_female_portgalician = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { portuguese galician }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_portgalician = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { portuguese galician }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 count_female_portuguese = {
 	type = character
 	gender = female
@@ -5164,6 +5202,26 @@ kingdom_asturleonese = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+duke_male_asturleonese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { asturleonese }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_female_asturleonese = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { asturleonese }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duchy_asturleonese = {
 	type = title
 	tier = duchy
@@ -5219,6 +5277,16 @@ title_prince_female_aragonese_kingdom = {
 	special = ruler_child
 	tier = kingdom
 	priority = 131
+	cultures = { aragonese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_aragonese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
 	cultures = { aragonese }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -5287,7 +5355,7 @@ duchy_aragonese = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { aragonese italian } ##Is this even allowed?
+	cultures = { aragonese }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -7261,7 +7329,7 @@ duke_male_italian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-##Duchess and duchy are in Aragonese
+##Duchess are in Aragonese
 count_male_italian = {
 	type = character
 	gender = male
@@ -7280,6 +7348,14 @@ count_female_italian = {
 	priority = 113
 	cultures = { italian }
 	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_italian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { italian  }
+	governments = { feudal_government tribal_government }
 	top_liege = no
 }
 county_italian = {
