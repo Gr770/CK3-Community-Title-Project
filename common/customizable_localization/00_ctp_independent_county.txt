@@ -4,7 +4,7 @@ GaelicIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_gaelic
+		localization_key = county_feudalclan_gaelic
 	}
 	text = {
 		fallback = yes
@@ -17,10 +17,36 @@ PictishCumbrianIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_pictish_cumbrian
+		localization_key = county_pictish_cumbrian
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_county_pictish_cumbrian
+	}
+}
+WelshIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_welsh
+	}
+}
+CornishIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_cornish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_cornish
 	}
 }
