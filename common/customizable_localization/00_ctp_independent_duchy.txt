@@ -1,23 +1,65 @@
-﻿TestDuchy = {
+﻿GaelicIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy
-	}
-	text = {
-		trigger = {
-			highest_held_title_tier = tier_duchy
-			any_held_title = {
-				count >= 2
-				tier = tier_duchy
-			}
-		}
-		localization_key = grand_duchy
+		localization_key = dependent_duchy_gaelic
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy
+		localization_key = independent_duchy_gaelic
+	}
+}
+EnglishIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_english
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_english
+	}
+}
+AngloSaxonIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_anglo_saxon
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_anglo_saxon
+	}
+}
+ScottishIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_scottish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_scottish
+	}
+}
+PictishCumbrianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_cumbrian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_pictish_cumbrian
 	}
 }
