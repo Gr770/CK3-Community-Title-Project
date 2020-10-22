@@ -1974,3 +1974,52 @@ DuchyHung = {
 		fallback = yes
 	}
 }
+DukeMaleRus = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_rus
+	}
+	text = {
+		localization_key = duke_default_male_rus
+		fallback = yes
+	}
+}
+DukeFemaleRus = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_rus
+	}
+	text = {
+		localization_key = duke_default_female_rus
+		fallback = yes
+	}
+}
+DuchyRus = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_rus
+	}
+	text = {
+		localization_key = duchy_default_rus
+		fallback = yes
+	}
+}
