@@ -8709,38 +8709,128 @@ count_republic_female_dutch = {
 ###############################################
 ## Latin_culture_group ##
 ###############################################
-## Italian ##
-##
 
-emperor_male_italian = {
-	type = character
-	gender = male
-	special = holder
-	priority = 153
-	tier = empire
-	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government republic_government }
+barony_latin_group = {
+	type = title
+	tier = barony
+	priority = 102
+	culture_groups = { latin_group }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_female_italian = {
+king_female_latin_group = {
 	type = character
 	gender = female
 	special = holder
-	priority = 153
+	priority = 142
+	tier = kingdom
+	culture_groups = { latin_group }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_latin_group = {
+	type = character
+	gender = female
+	special = holder
+	priority = 152
 	tier = empire
-	cultures = { italian cisalpine sardinian }
+	culture_groups = { latin_group }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-empire_italian = {
-	type = title
-	priority = 153
-	tier = empire
+king_muslim_female_latin_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	culture_groups = { latin_group }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	religions = { islam_religion }
+	top_liege = no
+}
+
+## Italian ##
+##
+
+baron_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
 	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government republic_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_male_italian = {
+baron_female_italian_cisalpine = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { italian cisalpine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { italian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { italian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_italian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { italian  }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { italian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_italian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { italian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_italian_cisalpine = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { italian  }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+king_male_italian_sicilian = {
 	type = character
 	gender = male
 	special = holder
@@ -8750,14 +8840,12 @@ king_male_italian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_italian = {
-	type = character
-	gender = female
-	special = holder
-	priority = 143
-	tier = kingdom
-	cultures = { italian roman cisalpine sicilian }
-	governments = { feudal_government clan_government tribal_government }
+kingdom_italian_cisalpine = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { italian cisalpine }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_male_italian_kingdom = {
@@ -8780,6 +8868,24 @@ title_prince_female_italian_kingdom = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+emperor_male_italian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_italian = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 title_prince_male_italian_empire = {
 	type = character
 	gender = male
@@ -8798,72 +8904,6 @@ title_prince_female_italian_empire = {
 	priority = 132
 	cultures = { italian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_italian = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { italian sardinian sicilian } ##Renaming in order?
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duke_female_italian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { italian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_male_italian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { italian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_female_italian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { italian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_italian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { italian  }
-	governments = { feudal_government tribal_government }
-	top_liege = no
-}
-county_italian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { italian  }
-	governments = { feudal_government tribal_government }
-	top_liege = no
-}
-baron_male_italian = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { italian }
-	governments = { feudal_government tribal_government }
 	top_liege = no
 }
 baron_republic_male_italian = {
@@ -8998,18 +9038,6 @@ king_muslim_male_italian = {
 	religions = { islam_religion }
 	top_liege = no
 }
-king_muslim_female_italian = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
-	religions = { islam_religion }
-	top_liege = no
-}
 kingdom_muslim_italian = {
 	type = title
 	priority = 145
@@ -9020,35 +9048,7 @@ kingdom_muslim_italian = {
 	religions = { islam_religion }
 	top_liege = no
 }
-#count_male_italian_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	priority = 113
-#	tier = county
-#	cultures = { italian  }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-#count_female_italian_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	priority = 113
-#	tier = county
-#	cultures = { italian  }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-#county_italian_independent = {
-#	type = title
-#	priority = 113
-#	tier = county
-#	cultures = { italian  }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-duke_male_italian_independent = {
+duke_feudalclan_male_italian_independent = {
 	type = character
 	gender = male
 	special = holder
@@ -9058,7 +9058,7 @@ duke_male_italian_independent = {
 	governments = { feudal_government clan_government }
 	only_independent = yes
 }
-duke_female_italian_independent = {
+duke_feudalclan_female_italian_independent = {
 	type = character
 	gender = female
 	special = holder
@@ -9068,7 +9068,7 @@ duke_female_italian_independent = {
 	governments = { feudal_government clan_government }
 	only_independent = yes
 }
-duchy_italian_independent = {
+duchy_feudalclan_italian_independent = {
 	type = title
 	priority = 124
 	tier = duchy
@@ -9096,6 +9096,14 @@ count_tribal_female_italian = {
 	governments = { tribal_government }
 	top_liege = no
 }
+county_tribal_italian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
 duke_tribal_male_italian = {
 	type = character
 	gender = male
@@ -9110,6 +9118,14 @@ duke_tribal_female_italian = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_italian = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { italian }
@@ -9147,7 +9163,6 @@ barony_roman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-
 count_feudalclan_male_roman = {
 	type = character
 	gender = male
@@ -9176,28 +9191,28 @@ county_feudalclan_roman = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-#count_feudalclan_male_roman_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { roman } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#count_feudalclan_female_roman_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { roman } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
+сount_feudalclan_male_roman_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { roman } 
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_roman_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { roman } 
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 #county_feudalclan_roman_independent = {
 #	type = title
 #	priority = 113
@@ -9314,7 +9329,6 @@ kingdom_roman = {
 	governments = { feudal_government clan_government tribal_government}
 	top_liege = no
 }
-
 emperor_male_roman = {
 	type = character
 	gender = male
@@ -9322,6 +9336,35 @@ emperor_male_roman = {
 	tier = empire
 	priority = 153
 	cultures = { roman } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { roman } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_roman_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { roman } 
+	only_holder = yes
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empire_roman = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { roman }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -9345,25 +9388,6 @@ title_prince_female_roman_empire = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_female_roman = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { roman } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_roman = {
-	type = title
-	priority = 153
-	tier = empire
-	cultures = { roman }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-
 baron_republic_male_roman = {
 	type = character
 	gender = male
@@ -9395,7 +9419,6 @@ barony_republic_roman = {
 	only_holder = yes
 	top_liege = no
 }
-
 count_republic_male_roman = {
 	type = character
 	gender = male
@@ -9427,7 +9450,6 @@ county_republic_roman = {
 	only_holder = yes
 	top_liege = no
 }
-
 duke_republic_male_roman = {
 	type = character
 	gender = male
@@ -9459,7 +9481,6 @@ duchy_republic_roman = {
 	only_holder = yes
 	top_liege = no
 }
-
 king_republic_male_roman = {
 	type = character
 	gender = male
@@ -9491,7 +9512,6 @@ kingdom_republic_roman = {
 	only_holder = yes
 	top_liege = no
 }
-
 count_tribal_male_roman = {
 	type = character
 	gender = male
@@ -9520,7 +9540,6 @@ county_tribal_roman = {
 	governments = { tribal_government }
 	top_liege = no
 }
-
 duke_tribal_male_roman = {
 	type = character
 	gender = male
@@ -9573,15 +9592,6 @@ baron_female_cisalpine = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_cisalpine = {
-	type = title
-	priority = 103
-	tier = barony
-	cultures = { cisalpine }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_male_cisalpine = {
 	type = character
 	gender = male
@@ -9610,37 +9620,6 @@ county_feudalclan_cisalpine = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-#count_feudalclan_male_cisalpine_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { cisalpine } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#count_feudalclan_female_cisalpine_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { cisalpine } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#county_feudalclan_cisalpine_independent = {
-#	type = title
-#	priority = 113
-#	tier = county
-#	cultures = { cisalpine }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
 duke_feudalclan_male_cisalpine = {
 	type = character
 	gender = male
@@ -9700,6 +9679,16 @@ duchy_feudalclan_cisalpine_independent = {
 	top_liege = no
 	only_independent = yes
 }
+king_male_cisalpine = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { cisalpine } 
+	governments = { feudal_government clan_government tribal_government}
+	top_liege = no
+}
 title_prince_male_cisalpine_kingdom = {
 	type = character
 	gender = male
@@ -9716,54 +9705,6 @@ title_prince_female_cisalpine_kingdom = {
 	special = ruler_child
 	tier = kingdom
 	priority = 131
-	cultures = { cisalpine } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_male_cisalpine = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { cisalpine } 
-	governments = { feudal_government clan_government tribal_government}
-	top_liege = no
-}
-king_female_cisalpine = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { cisalpine } 
-	governments = { feudal_government clan_government tribal_government}
-	top_liege = no
-}
-kingdom_cisalpine = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { cisalpine }
-	governments = { feudal_government clan_government tribal_government}
-	top_liege = no
-}
-title_prince_male_cisalpine_empire = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = empire
-	priority = 132
-	cultures = { cisalpine } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_cisalpine_empire = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = empire
-	priority = 132
 	cultures = { cisalpine } 
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -9796,6 +9737,26 @@ empire_feudalclan_cisalpine = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+title_prince_male_cisalpine_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 132
+	cultures = { cisalpine } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_cisalpine_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 132
+	cultures = { cisalpine } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 
 ###############################################
 ## sardinian
@@ -9820,15 +9781,6 @@ baron_female_sardinian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_sardinian = {
-	type = title
-	priority = 103
-	tier = barony
-	cultures = { sardinian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_male_sardinian = {
 	type = character
 	gender = male
@@ -9857,37 +9809,6 @@ county_feudalclan_sardinian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-#count_feudalclan_male_sardinian_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { sardinian } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#count_feudalclan_female_sardinian_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { sardinian } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#county_feudalclan_sardinian_independent = {
-#	type = title
-#	priority = 113
-#	tier = county
-#	cultures = { sardinian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
 duke_feudalclan_male_sardinian = {
 	type = character
 	gender = male
@@ -9908,11 +9829,11 @@ duke_feudalclan_female_sardinian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duchy_feudalclan_sardinian = {
+duchy_feudalclan_sardinian_sicilian = {
 	type = title
 	priority = 123
 	tier = duchy
-	cultures = { sardinian }
+	cultures = { sardinian sicilian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
@@ -10074,7 +9995,6 @@ barony_sicilian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-
 count_feudalclan_male_sicilian = {
 	type = character
 	gender = male
@@ -10103,37 +10023,6 @@ county_feudalclan_sicilian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-#count_feudalclan_male_sicilian_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { sicilian } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#count_feudalclan_female_sicilian_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 113
-#	cultures = { sicilian } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#county_feudalclan_sicilian_independent = {
-#	type = title
-#	priority = 113
-#	tier = county
-#	cultures = { sicilian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
 duke_feudalclan_male_sicilian = {
 	type = character
 	gender = male
@@ -10151,14 +10040,6 @@ duke_feudalclan_female_sicilian = {
 	tier = duchy
 	priority = 123
 	cultures = { sicilian } 
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_sicilian = {
-	type = title
-	priority = 123
-	tier = duchy
-	cultures = { sicilian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
@@ -10312,15 +10193,6 @@ baron_female_lombard = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_lombard = {
-	type = title
-	priority = 1
-	tier = barony
-	cultures = { lombard }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-
 count_feudalclan_male_lombard = {
 	type = character
 	gender = male
@@ -10349,37 +10221,6 @@ county_feudalclan_lombard = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-#count_feudalclan_male_lombard_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 1
-#	cultures = { lombard } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#count_feudalclan_female_lombard_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 1
-#	cultures = { lombard } 
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#county_feudalclan_lombard_independent = {
-#	type = title
-#	priority = 1
-#	tier = county
-#	cultures = { lombard }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
 duke_feudalclan_male_lombard = {
 	type = character
 	gender = male
@@ -10469,16 +10310,6 @@ king_male_lombard = {
 	governments = { feudal_government clan_government tribal_government}
 	top_liege = no
 }
-king_female_lombard = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 1
-	cultures = { lombard } 
-	governments = { feudal_government clan_government tribal_government}
-	top_liege = no
-}
 kingdom_lombard = {
 	type = title
 	priority = 1
@@ -10507,7 +10338,7 @@ title_prince_female_lombard_empire = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_feudalclan_male_lombard = {
+emperor_male_lombard = {
 	type = character
 	gender = male
 	special = holder
@@ -10517,7 +10348,7 @@ emperor_feudalclan_male_lombard = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_feudalclan_female_lombard = {
+emperor_female_lombard = {
 	type = character
 	gender = female
 	special = holder
@@ -10527,7 +10358,7 @@ emperor_feudalclan_female_lombard = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empire_feudalclan_lombard = {
+empire_lombard = {
 	type = title
 	priority = 1
 	tier = empire
