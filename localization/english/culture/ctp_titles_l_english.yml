@@ -39,43 +39,51 @@
 
  baron_male_irish:0 "Rí Tuaithe"
  baron_female_irish:0 "Rígan Tuaithe"
+ 
  count_male_irish:0 "[CHARACTER.Custom('EarlMaleIrish')]"
- earl_male_irish:0 "Íarla"
  count_default_male_irish:0 "Ruirí"
  count_female_irish:0 "[CHARACTER.Custom('EarlFemaleIrish')]"
- earl_female_irish:0 "Baníarla"
  count_default_female_irish:0 "Ruirígan"
+ 
  duke_male_irish:0 "[CHARACTER.Custom('DukeMaleIrish')]"
- marquess_male_irish:0 "Rí Margaidh"
  duke_default_male_irish:0 "Rí Cóicid" 
  duke_female_irish:0 "[CHARACTER.Custom('DukeFemaleIrish')]"
- marquess_female_irish:0 "Rígan Margaidh"
  duke_default_female_irish:0 "Rígan Cóicid"  
 
  county_irish:0 "[CHARACTER.Custom('EarldomIrish')]"
- earldom_irish:0 "Íarlacht"
  county_default_irish:0 "Mór Túath"
  duchy_irish:0 "[CHARACTER.Custom('DuchyIrish')]"
- march_irish:0 "Margadh"
  duchy_default_irish:0 "Cóiced"
+ 
+ marquess_male_irish:0 "Rí Margaidh"
+ marquess_female_irish:0 "Rígan Margaidh"
+ march_irish:0 "Margadh"
+ 
+ earl_male_irish:0 "Íarla"
+ earl_female_irish:0 "Baníarla"
+ earldom_irish:0 "Íarlacht"
  
 ###########################################################
 ## Gaelic Culture
 
  baron_male_gaelic:0 "Taoiseach"
  baron_female_gaelic:0 "Bantaoiseach"
+ 
  count_feudalclan_male_gaelic:0 "[CHARACTER.Custom('EarlMaleGaelic')]"
  count_default_male_gaelic:0 "Mormaer"
- count_feudalclan_female_gaelic_holder:0 "[CHARACTER.Custom('EarlFemaleGaelic')]"
- count_default_female_gaelic:0 "Banmormaer"
- count_feudalclan_female_gaelic:0 "[CHARACTER.Custom('EarlFemaleGaelicHolder')]"
- count_default_female_holder_gaelic:0 "Bantiarna"
+ count_feudalclan_female_gaelic_holder:0 "[CHARACTER.Custom('EarlFemaleGaelicHolder')]"
+ count_default_female_gaelic_holder:0 "Banmormaer"
+ count_feudalclan_female_gaelic:0 "[CHARACTER.Custom('EarlFemaleGaelic')]"
+ count_default_female_gaelic:0 "Bantiarna"
+ 
  count_feudalclan_male_gaelic_independent:0 "Rí"
  count_feudalclan_female_gaelic_independent:0 "Rígan"
+ 
  duke_feudalclan_male_gaelic:0 "[CHARACTER.Custom('DukeMaleGaelic')]"
  duke_default_male_gaelic:0 "Ardtiarna" 
  duke_feudalclan_female_gaelic:0 "[CHARACTER.Custom('DukeFemaleGaelic')]"
- duke_default_female_gaelic:0 "Ardbhantiarna" 
+ duke_default_female_gaelic:0 "Ardbhantiarna"
+ 
  duke_feudalclan_male_gaelic_independent:0 "Rí"
  duke_feudalclan_female_gaelic_independent:0 "Rígan" 
 
@@ -83,18 +91,25 @@
  county_default_gaelic:0 "Mormaeracht"
  county_feudalclan_gaelic_independent:0 "[CHARACTER.Custom('GaelicIndepCounty')]"
  independent_county_gaelic:0 "Rígdacht"
+ dependent_county_gaelic:0 "$county_default_gaelic$"
+ 
  duchy_feudalclan_gaelic:0 "[CHARACTER.Custom('DuchyGaelic')]"
  duchy_default_gaelic:0 "Ardtiarnas"
  duchy_feudalclan_gaelic_independent:0 "[CHARACTER.Custom('GaelicIndepDuchy')]"
  independent_duchy_gaelic:0 "Rígdacht"
-
+ dependent_duchy_gaelic:0 "$duchy_default_gaelic$"
+ 
  count_tribal_male_gaelic:0 "Ceann-cinnidh"
  count_tribal_female_gaelic:0 "Banceann-cinnidh"
  duke_tribal_male_gaelic:0 "Rí" 
  duke_tribal_female_gaelic:0 "Rígan" 
  county_tribal_gaelic:0 "Cinneadh"
  duchy_tribal_gaelic:0 "Rígdacht"
-
+ 
+ ### Marches are same as Irish and have been coded as such
+ 
+ ### Conditional Earl/Earldom is same as Irish and have been coded as such
+ 
 ###########################################################
 ### West Germanic Culture Group 
 ###########################################################
@@ -103,18 +118,18 @@
 
  baron_male_english:0 "Baroun"
  baron_female_english:0 "Barounesse"
+ 
  count_male_english:0 "Erl"
  count_female_english:0 "Cuntesse"
+ 
  duke_male_english:0 "[CHARACTER.Custom('DukeMaleEnglish')]"
- marquess_male_english:0 "Markis"
- palatine_male_english:0 "Palatine"
  duke_default_male_english:0 "Duc"
  duke_female_english:0 "[CHARACTER.Custom('DukeFemaleEnglish')]"
- marquess_female_english:0 "Markise"
- palatine_female_english:0 "Palatine"
  duke_default_female_english:0 "Duchesse"
+ 
  duke_male_english_independent:0 "Prince"
  duke_female_english_independent:0 "Princesse"
+ 
  king_male_english:0 "King"
  king_female_english:0 "Quene"
  title_prince_male_english_kingdom:0 "Prince"
@@ -126,12 +141,13 @@
  
  barony_english:0 "Barone"
  county_english:0 "Erldom"
+ 
  duchy_english:0 "[CHARACTER.Custom('DuchyEnglish')]"
- march_english:0 "Marche"
- palatinate_english:0 "Palatinat"
  duchy_default_english:0 "Duche"
  duchy_english_independent:0 "[CHARACTER.Custom('EnglishIndepDuchy')]"
  independent_duchy_english:0 "Princepalte"
+ dependent_duchy_english:0 "$duchy_default_english$"
+ 
  kingdom_english:0 "Kingdom"
  empire_english:0 "Empire"
  
@@ -143,6 +159,7 @@
  duke_republic_female_english:0 "Gouerneresse"
  king_republic_male_english:0 "Consuler"
  king_republic_female_english:0 "Consuleresse"
+ 
  barony_republic_english:0 "Cite"
  county_republic_english:0 "Shire"
  duchy_republic_english:0 "Commonweal"
@@ -152,23 +169,30 @@
  king_female_english_islam_independent:0 "Sultanesse"
  kingdom_english_islam_independent:0 "Sultanat"
  
+ marquess_male_english:0 "Markis"
+ marquess_female_english:0 "Markise"
+ palatine_male_english:0 "Palatine"
+ palatine_female_english:0 "Palatine"
+ march_english:0 "Marche"
+ palatinate_english:0 "Palatinat"
+ 
 ###########################################################
 ## Anglo-Saxon 
  
  baron_male_anglo_saxon:0 "Þegen"
  baron_female_anglo_saxon:0 "Frowe"
+ 
  count_feudalclan_male_anglo_saxon:0 "Ealdormann"
  count_feudalclan_female_anglo_saxon:0 "Hlæfdige"
+ 
  duke_feudalclan_male_anglo_saxon:0 "[CHARACTER.Custom('DukeMaleAngloSaxon')]"
- marquess_male_anglo_saxon:0 "Mearcealdor"
- palatine_male_anglo_saxon:0 "Palentealdor"
  duke_default_male_anglo_saxon:0 "Eorl"
  duke_feudalclan_female_anglo_saxon:0 "[CHARACTER.Custom('DukeFemaleAngloSaxon')]"
- marquess_female_anglo_saxon:0 "Mearcfrowe"
- palatine_female_anglo_saxon:0 "Palentfrowe"
  duke_default_female_anglo_saxon:0 "Eorlen"
+ 
  duke_feudalclan_male_anglo_saxon_independent:0 "Cyning" 
  duke_feudalclan_female_anglo_saxon_independent:0 "Cwen" 
+ 
  king_male_anglo_saxon:0 "Þeodcyning"
  king_female_anglo_saxon:0 "Þeodcwen"
  title_prince_male_anglo_saxon_kingdom:0 "Æþeling"
@@ -180,12 +204,13 @@
  
  barony_anglo_saxon:0 "Burh"
  county_feudalclan_anglo_saxon:0 "Scir"
+ 
  duchy_feudalclan_anglo_saxon:0 "[CHARACTER.Custom('DuchyAngloSaxon')]"
- march_anglo_saxon:0 "Mearcland"
- palatinate_anglo_saxon:0 "Palent"
  duchy_default_anglo_saxon:0 "Eorldom"
  duchy_feudalclan_anglo_saxon_independent:0 "[CHARACTER.Custom('AngloSaxonIndepDuchy')]"
  independent_duchy_anglo_saxon:0 "Rice"
+ dependent_duchy_anglo_saxon:0 "$duchy_default_anglo_saxon$"
+ 
  kingdom_anglo_saxon:0 "Rice"
  empire_anglo_saxon:0 "Brytenrice"
  
@@ -197,10 +222,15 @@
  duke_republic_female_anglo_saxon:0 "Heahgerefen"
  king_republic_male_anglo_saxon:0 "Anwealda"
  king_republic_female_anglo_saxon:0 "Anwealden"
+ 
  barony_republic_anglo_saxon:0 "Tun"
  county_republic_anglo_saxon:0 "Gemænescir"
  duchy_republic_anglo_saxon:0 "Gemænewela"
  kingdom_republic_anglo_saxon:0 "Betlic Gemænewela"
+ 
+ king_male_anglo_saxon_islam_independent:0 "Soldan"
+ king_female_anglo_saxon_islam_independent:0 "Soldanen"
+ kingdom_anglo_saxon_islam_independent:0 "Soldanrice"
  
  count_tribal_male_anglo_saxon:0 "Brego"
  count_tribal_female_anglo_saxon:0 "Bregen"
@@ -209,16 +239,26 @@
  county_tribal_anglo_saxon:0 "Bregadom"
  duchy_tribal_anglo_saxon:0 "Heahbregadom"
  
+ marquess_male_anglo_saxon:0 "Mearcealdor"
+ marquess_female_anglo_saxon:0 "Mearcfrowe"
+ palatine_male_anglo_saxon:0 "Palentealdor"
+ palatine_female_anglo_saxon:0 "Palentfrowe"
+ march_anglo_saxon:0 "Mearcland"
+ palatinate_anglo_saxon:0 "Palent"
+ 
 ###########################################################
-### Old Saxon combined with Saxon
+### Old Saxon 
+### This is combined with Saxon 
 
 ###########################################################
 ## Scottish 
 
  baron_male_scottish:0 "Þein"
  baron_female_scottish:0 "Lady"
+ 
  count_male_scottish:0 "Erle"
  count_female_scottish:0 "Cuntesse"
+ 
  duke_male_scottish:0 "Duc"
  duke_female_scottish:0 "Duchess"
  duke_male_scottish_independent:0 "Prince"
@@ -235,17 +275,27 @@
  barony_scottish:0 "Þeindom"
  county_scottish:0 "Erldom"
  duchy_scottish:0 "Duché"
+ 
  duchy_scottish_independent:0 "[CHARACTER.Custom('ScottishIndepDuchy')]"
  independent_duchy_scottish:0 "Principat"
+ dependent_duchy_scottish:0 "$duchy_scottish$"
+ 
  kingdom_scottish:0 "Kinrick"
  empire_scottish:0 "Empyre"
  
- baron_republic_male_scottish:0 "Mair"
- baron_republic_female_scottish:0 "Mair"
- count_republic_male_scottish:0 "Syrreue"
- count_republic_female_scottish:0 "Syrreue"
+ baron_republic_male_scottish:0 "Prouost"
+ baron_republic_female_scottish:0 "Prouost"
+ count_republic_male_scottish:0 "Lord Prouost"
+ count_republic_female_scottish:0 "Ledie Prouost"
+ duke_republic_male_scottish:0 "Gouernour"
+ duke_republic_female_scottish:0 "Gouerneresse"
+ kingdom_republic_male_scottish:0 "Consule"
+ kingdom_republic_female_scottish:0 "Consulesse"
+ 
  barony_republic_scottish:0 "Ceté"
  county_republic_scottish:0 "Schire"
+ duchy_republic_scottish:0 "Comenwele"
+ kingdom_republic_scottish:0 "Graunt Comenwele"
 
  king_male_scottish_islam_independent:0 "Soudan"
  king_female_scottish_islam_independent:0 "Soudanesse"
@@ -259,24 +309,23 @@
 
  baron_male_pictish_cumbrian:0 "Argot"
  baron_female_pictish_cumbrian:0 "Argotes"
+ 
  count_male_pictish_cumbrian:0 "[CHARACTER.Custom('EarlMalePictishCumbrian')]"
- earl_male_pictish_cumbrian:0 "Yarl"
  count_default_male_pictish_cumbrian:0 "Mormair"
  count_female_pictish_cumbrian:0 "[CHARACTER.Custom('EarlFemalePictishCumbrian')]"
- earl_female_pictish_cumbrian:0 "Yarles"
  count_default_female_pictish_cumbrian:0 "Mormaires"
+ 
  count_male_pictish_cumbrian_independent:0 "Tiarn"
  count_female_pictish_cumbrian_independent:0 "Tiarnes"
+ 
  duke_feudalclan_male_pictish_cumbrian:0 "[CHARACTER.Custom('DukeMalePictish')]"
- marquess_male_pictish:0 "Ardalid"
- palatine_male_pictish:0 "Tarnyarl"
  duke_default_male_pictish:0 "Tuwissok"
  duke_feudalclan_female_pictish_cumbrian:0 "[CHARACTER.Custom('DukeFemalePictish')]"
- marquess_female_pictish:0 "Ardalides"
- palatine_female_pictish:0 "Tarnyarles"
  duke_default_female_pictish:0 "Tuwissokes"
+ 
  duke_feudalclan_male_pictish_cumbrian_independent:0 "Ri"
  duke_feudalclan_female_pictish_cumbrian_independent:0 "Rien"
+ 
  king_male_pictish_cumbrian:0 "Breyenhin"
  king_female_pictish_cumbrian:0 "Breyenhines"
  title_prince_male_pictish_cumbrian_kingdom:0 "Etived"
@@ -287,17 +336,19 @@
  title_prince_female_pictish_cumbrian_empire:0 "Etivedes"
  
  barony_pictish_cumbrian:0 "Lis"
+ 
  county_pictish_cumbrian:0 "[CHARACTER.Custom('EarldomPictishCumbrian')]"
- earldom_pictish_cumbrian:0 "Yarlaith"
  county_default_pictish_cumbrian:0 "Mormairaith"
  county_pictish_cumbrian_independent:0 "[CHARACTER.Custom('PictishCumbrianIndepCounty')]"
  independent_county_pictish_cumbrian:0 "Tiarnas"
+ dependent_county_pictish_cumbrian:0 "$county_default_pictish_cumbrian$"
+ 
  duchy_feudalclan_pictish_cumbrian:0 "[CHARACTER.Custom('DuchyPictish')]"
- march_pictish:0 "Ardal"
- palatinate_pictish:0 "Tarnyarlaith"
  duchy_default_pictish:0 "Tuwissokaith"
  duchy_feudalclan_pictish_cumbrian_independent:0 "[CHARACTER.Custom('PictishCumbrianIndepDuchy')]"
  independent_duchy_pictish_cumbrian:0 "Rigaith"
+ dependent_duchy_pictish_cumbrian:0 "$duchy_default_pictish$"
+ 
  kingdom_pictish_cumbrian:0 "Breyenhinaith"
  empire_pictish_cumbrian:0 "Ambrodraith"
  
@@ -309,6 +360,7 @@
  duke_republic_female_pictish_cumbrian:0 "Luides"
  king_republic_male_pictish_cumbrian:0 "Privluid"
  king_republic_female_pictish_cumbrian:0 "Privluides"
+ 
  barony_republic_pictish_cumbrian:0 "Din"
  county_republic_pictish_cumbrian:0 "Ukeldin"
  duchy_republic_pictish_cumbrian:0 "Gwernaith"
@@ -318,29 +370,39 @@
  duke_tribal_female_pictish_cumbrian:0 "Rien"
  duchy_tribal_pictish_cumbrian:0 "Rigaith"
  
+ marquess_male_pictish:0 "Ardalid"
+ marquess_female_pictish:0 "Ardalides"
+ palatine_male_pictish:0 "Tarnyarl"
+ palatine_female_pictish:0 "Tarnyarles"
+ march_pictish:0 "Ardal"
+ palatinate_pictish:0 "Tarnyarlaith"
+ 
+ earl_male_pictish_cumbrian:0 "Yarl"
+ earl_female_pictish_cumbrian:0 "Yarles"
+ earldom_pictish_cumbrian:0 "Yarlaith"
+ 
 #############################################################
 ### Welsh
 
  baron_male_welsh:0 "Arglwyt"
  baron_female_welsh:0 "Arglwytes"
+ 
  count_feudalclan_male_welsh:0 "[CHARACTER.Custom('EarlMaleWelsh')]"
- earl_male_welsh:0 "Iarll"
  count_default_male_welsh:0 "Pendewic"
  count_feudalclan_female_welsh:0 "[CHARACTER.Custom('EarlFemaleWelsh')]"
- earl_female_welsh:0 "Iarlles"
  count_default_female_welsh:0 "Pendewices"
+ 
  count_feudalclan_male_welsh_independent:0 "Teyrn"
  count_feudalclan_female_welsh_independent:0 "Teyrnes"
+ 
  duke_feudalclan_male_welsh:0 "[CHARACTER.Custom('DukeMaleWelsh')]"
- marquess_male_welsh:0 "Ardalwyr"
- palatine_male_welsh:0 "Teyrniarll"
  duke_default_male_welsh:0 "Tywysauc"
  duke_feudalclan_female_welsh:0 "[CHARACTER.Custom('DukeFemaleWelsh')]"
- marquess_female_welsh:0 "Ardelres"
- palatine_female_welsh:0 "Teyrniarlles"
  duke_default_female_welsh:0 "Tywysoces"
+ 
  king_male_welsh:0 "Brenhin"
  king_female_welsh:0 "Brenhines"
+ 
  title_prince_male_welsh_kingdom:0 "Etyued"
  title_prince_female_welsh_kingdom:0 "Etyuedes"
  emperor_male_welsh:0 "Amheraudyr"
@@ -349,15 +411,17 @@
  title_prince_female_welsh_empire:0 "Etyuedes"
  
  barony_welsh:0 "Llis"
+ 
  county_feudalclan_welsh:0 "[CHARACTER.Custom('EarldomWelsh')]"
- earldom_welsh:0 "Iarllaeth"
  county_default_welsh:0 "Swyt"
+ 
  county_feudalclan_welsh_independent:0 "[CHARACTER.Custom('WelshIndepCounty')]"
  independent_county_welsh:0 "Teyrnas"
+ dependent_county_welsh:0 "$duchy_default_welsh$"
+ 
  duchy_feudalclan_welsh:0 "[CHARACTER.Custom('DuchyWelsh')]"
- march_welsh:0 "Ardal"
- palatinate_welsh:0 "Teyrniarllaeth"
  duchy_default_welsh:0 "Tywyssogaeth"
+ 
  kingdom_welsh:0 "Brehinaeth"
  empire_welsh:0 "Amherodraeth"
 
@@ -369,6 +433,7 @@
  duke_republic_female_welsh:0 "Llywtes"
  king_republic_male_welsh:0 "Priflywyt"
  king_republic_female_welsh:0 "Priflywy"
+ 
  barony_republic_welsh:0 "Dinas"
  county_republic_welsh:0 "Ucheldinas"
  duchy_republic_welsh:0 "Gwerinaeth"
@@ -385,21 +450,34 @@
  county_tribal_male_welsh:0 "Luidt"
  duchy_tribal_male_welsh:0 "Gint" 
  
+ marquess_male_welsh:0 "Ardalwyr"
+ marquess_female_welsh:0 "Ardelres"
+ palatine_male_welsh:0 "Teyrniarll"
+ palatine_female_welsh:0 "Teyrniarlles"
+ march_welsh:0 "Ardal"
+ palatinate_welsh:0 "Teyrniarllaeth"
+ 
+ earl_male_welsh:0 "Iarll"
+ earl_female_welsh:0 "Iarlles"
+ earldom_welsh:0 "Iarllaeth"
+ 
 #############################################################
 ### Breton
 
  baron_male_breton:0 "Machtiern"
  baron_female_breton:0 "Machriernez"
+ 
  count_male_breton:0 "Gloedic"
  count_female_breton:0 "Gloedicez"
+ 
  duke_male_breton:0 "[CHARACTER.Custom('DukeMaleBreton')]"
- marquess_male_breton:0 "Markiz"
  duke_default_male_breton:0 "Dug"
  duke_female_breton:0 "[CHARACTER.Custom('DukeFemaleBreton')]"
- marquess_female_breton:0 "Markizez"
  duke_default_female_breton:0 "Dugez"
+ 
  duke_male_breton_independent:0 "Toguisoc"
  duke_female_breton_independent:0 "Toguisocez"
+ 
  king_male_breton:0 "Ri"
  king_female_breton:0 "Roenez"
  title_prince_male_breton_kingdom:0 "Priñs"
@@ -411,11 +489,14 @@
  
  barony_breton:0 "Plou"
  county_breton:0 "Gloedicelez"
+ 
  duchy_breton:0 "[CHARACTER.Custom('DuchyBreton')]"
- march_breton:0 "Marz"
  duchy_default_breton:0 "Dugelez"
+ 
  duchy_breton_independent:0 "[CHARACTER.Custom('BretonIndepDuchy')]"
  independent_duchy_breton:0 "Toguisocelez"
+ dependent_duchy_breton:0 "$duchy_default_breton$"
+ 
  kingdom_breton:0 "Roentelez"
  emprie_breton:0 "Impalazriez"
  
@@ -423,29 +504,32 @@
  baron_republic_female_breton:0 "Maerez"
  barony_republic_breton:0 "Kêr"
  
+ marquess_male_breton:0 "Markiz"
+ marquess_female_breton:0 "Markizez"
+ march_breton:0 "Marz"
+ 
 #############################################################
 ### Cornish
 
  baron_male_cornish:0 "Arluit"
  baron_female_cornish:0 "Arluides"
+ 
  count_male_cornish:0 "[CHARACTER.Custom('EarlMaleCornish')]"
- earl_male_cornish:0 "Yurl"
  count_default_male_cornish:0 "Pendeuig"
  count_female_cornish:0 "[CHARACTER.Custom('EarlFemaleCornish')]"
- earl_female_cornish:0 "Yurles"
  count_default_female_cornish:0 "Pendeuiges"
+ 
  count_male_cornish_independent:0 "Tern"
  count_female_cornish_independent:0 "Ternes"
+ 
  duke_feudalclan_male_cornish:0 "[CHARACTER.Custom('DukeMaleCornish')]"
- marquess_male_cornish:0 "Ardalur"
- palatine_male_cornish:0 "Ternyurl"
  duke_default_male_cornish:0 "Toguisoc"
  duke_feudalclan_female_cornish:0 "[CHARACTER.Custom('DukeFemaleCornish')]"
- marquess_female_cornish:0 "Ardalures"
- palatine_female_cornish:0 "Ternyurles"
  duke_default_female_cornish:0 "Toguisoces"
+ 
  duke_feudalclan_male_cornish_independent:0 "Ruy"
  duke_feudalclan_female_cornish_independent:0 "Ruifanes"
+ 
  king_male_cornish:0 "Brentyn"
  king_female_cornish:0 "Brentynes"
  title_prince_male_cornish_kingdom:0 "Etiued"
@@ -456,15 +540,21 @@
  title_prince_female_cornish_empire:0 "Etiuedes"
 
  barony_cornish:0 "Lis"
+ 
  county_cornish:0 "[CHARACTER.Custom('EarldomCornish')]"
- earldom_cornish:0 "Yurleth"
  county_default_cornish:0 "Pendeuigeth"
+ 
  county_cornish_independent:0 "[CHARACTER.Custom('CornishIndepCounty')]"
  independent_county_cornish:0 "Terneth"
+ dependent_county_cornish:0 "$county_default_cornish$"
+ 
  duchy_feudalclan_cornish:0 "[CHARACTER.Custom('DuchyCornish')]"
  duchy_default_cornish:0 "Toguisoceth"
+ 
  duchy_feudalclan_cornish_independent:0 "[CHARACTER.Custom('CornishIndepDuchy')]"
  independent_duchy_cornish:0 "Ruifanaid"
+ dependent_duchy_cornish:0 "$duchy_default_cornish$"
+ 
  kingdom_cornish:0 "Brentyneth"
  empire_cornish:0 "Emperureth"
 
@@ -476,6 +566,7 @@
  duke_republic_female_cornish:0 "Leuuites"
  king_republic_male_cornish:0 "Primleuuit"
  king_republic_female_cornish:0 "Primleuuites"
+ 
  barony_republic_cornish:0 "Dinas"
  county_republic_cornish:0 "Sir"
  duchy_republic_cornish:0 "Gueryneth"
@@ -484,6 +575,17 @@
  duke_tribal_male_cornish:0 "Ruy"
  duke_tribal_female_cornish:0 "Ruifanes"
  duchy_tribal_cornish:0 "Ruifanaid" 
+ 
+ marquess_male_cornish:0 "Ardalur"
+ marquess_female_cornish:0 "Ardalures"
+ palatine_male_cornish:0 "Ternyurl"
+ palatine_female_cornish:0 "Ternyurles"
+ march_cornish:0 "Ternyurleth"
+ palatinate_cornish:0 "Ardal"
+ 
+ earl_male_cornish:0 "Yurl"
+ earl_female_cornish:0 "Yurles"
+ earldom_cornish:0 "Yurleth"
  
 ########################################################
 ### Frankish Culture Group 

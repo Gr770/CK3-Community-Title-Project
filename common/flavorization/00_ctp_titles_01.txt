@@ -1321,28 +1321,40 @@ duchy_tribal_anglo_saxon = {
 	governments = { tribal_government }
 	top_liege = no
 }
-#king_male_anglo_saxon_islam_independent = {  ##Commented out because no Female title, might cause some weird stuff
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = kingdom
-#	priority = 145
-#	cultures = { anglo_saxon }
-#	religions = { islam_religion }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
-#kingdom_anglo_saxon_islam_independent = {   ##Commented out because no Female title, might cause some weird stuff
-#	type = title
-#	tier = kingdom
-#	priority = 145
-#	cultures = { anglo_saxon }
-#	religions = { islam_religion }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#	only_independent = yes
-#}
+king_male_anglo_saxon_islam_independent = {  
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	cultures = { anglo_saxon }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+king_female_anglo_saxon_islam_independent = {  
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	cultures = { anglo_saxon }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_anglo_saxon_islam_independent = {
+	type = title
+	tier = kingdom
+	priority = 145
+	cultures = { anglo_saxon }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 
 ###############################################
 ## Scottish_culture ##
@@ -1602,6 +1614,50 @@ count_republic_female_scottish = {
 	only_holder = yes
 	top_liege = no
 }
+duke_republic_male_scottish = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { scottish }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_scottish = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { scottish }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+kingdom_republic_male_scottish = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { scottish }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+kingdom_republic_female_scottish = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { scottish }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
 barony_republic_scottish = {
 	type = title
 	tier = barony
@@ -1618,22 +1674,22 @@ county_republic_scottish = {
 	governments = { republic_government }
 	top_liege = no
 }
-#duchy_republic_scottish = {
-#	type = title
-#	tier = duchy
-#	priority = 123
-#	cultures = { scottish }
-#	governments = { republic_government }
-#	top_liege = no
-#}
-#kingdom_republic_scottish = {
-#	type = title
-#	tier = kingdom
-#	priority = 143
-#	cultures = { scottish }
-#	governments = { republic_government }
-#	top_liege = no
-#}
+duchy_republic_scottish = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { scottish }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_scottish = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { scottish }
+	governments = { republic_government }
+	top_liege = no
+}
 king_male_scottish_islam_independent = {
 	type = character
 	gender = male
