@@ -73,9 +73,11 @@
 
  county_feudalclan_gaelic:0 "[CHARACTER.Custom('EarldomGaelic')]"
  county_default_gaelic:0 "Mormaeracht"
- county_feudalclan_gaelic_independent:0 "Rígdacht"
+ county_feudalclan_gaelic_independent:0 "[CHARACTER.Custom('GaelicIndepCounty')]"
+ independent_county_gaelic:0 "Rígdacht"
  duchy_feudalclan_gaelic:0 "Ardtiarnas"
- duchy_feudalclan_gaelic_independent:0 "Rígdacht"
+ duchy_feudalclan_gaelic_independent:0 "[CHARACTER.Custom('GaelicIndepDuchy')]"
+ independent_duchy_gaelic:0 "Rígdacht"
  
  count_tribal_male_gaelic:0 "Ceann-cinnidh"
  count_tribal_female_gaelic:0 "Banceann-cinnidh"
@@ -110,7 +112,8 @@
  barony_english:0 "Barone"
  county_english:0 "Erldom"
  duchy_english:0 "Duche"
- duchy_english_independent:0 "Princepalte"
+ duchy_english_independent:0 "[CHARACTER.Custom('EnglishIndepDuchy')]"
+ independent_duchy_english:0 "Princepalte"
  kingdom_english:0 "Kingdom"
  empire_english:0 "Empire"
  
@@ -154,7 +157,8 @@
  barony_anglo_saxon:0 "Burh"
  county_feudalclan_anglo_saxon:0 "Scir"
  duchy_feudalclan_anglo_saxon:0 "Eorldom"
- duchy_feudalclan_anglo_saxon_independent:0 "Rice"
+ duchy_feudalclan_anglo_saxon_independent:0 "[CHARACTER.Custom('AngloSaxonIndepDuchy')]"
+ independent_duchy_anglo_saxon:0 "Rice"
  kingdom_anglo_saxon:0 "Rice"
  empire_anglo_saxon:0 "Brytenrice"
  
@@ -204,7 +208,8 @@
  barony_scottish:0 "Þeindom"
  county_scottish:0 "Erldom"
  duchy_scottish:0 "Duché"
- duchy_scottish_independent:0 "Principat"
+ duchy_scottish_independent:0 "[CHARACTER.Custom('ScottishIndepDuchy')]"
+ independent_duchy_scottish:0 "Principat"
  kingdom_scottish:0 "Kinrick"
  empire_scottish:0 "Empyre"
  
@@ -252,9 +257,11 @@
  county_pictish_cumbrian:0 "[CHARACTER.Custom('EarldomPictishCumbrian')]"
  earldom_pictish_cumbrian:0 "Yarlaith"
  county_default_pictish_cumbrian:0 "Mormairaith"
- county_pictish_cumbrian_independent:0 "Tiarnas"
+ county_pictish_cumbrian_independent:0 "[CHARACTER.Custom('PictishCumbrianIndepCounty')]"
+ independent_county_pictish_cumbrian:0 "Tiarnas"
  duchy_feudalclan_pictish_cumbrian:0 "Tuwissokaith"
- duchy_feudalclan_pictish_cumbrian_independent:0 "Rigaith"
+ duchy_feudalclan_pictish_cumbrian_independent:0 "[CHARACTER.Custom('PictishCumbrianIndepDuchy')]"
+ independent_duchy_pictish_cumbrian:0 "Rigaith"
  kingdom_pictish_cumbrian:0 "Breyenhinaith"
  empire_pictish_cumbrian:0 "Ambrodraith"
  
@@ -300,10 +307,11 @@
  title_prince_female_welsh_empire:0 "Etyuedes"
  
  barony_welsh:0 "Llis"
- county_welsh:0 "[CHARACTER.Custom('EarldomWelsh')]"
+ county_feudalclan_welsh:0 "[CHARACTER.Custom('EarldomWelsh')]"
  earldom_welsh:0 "Iarllaeth"
  county_default_welsh:0 "Swyt"
- county_feudalclan_welsh_independent:0 "Teyrnas"
+ county_feudalclan_welsh_independent:0 "[CHARACTER.Custom('WelshIndepCounty')]"
+ independent_county_welsh:0 "Teyrnas"
  duchy_feudalclan_welsh:0 "Tywyssogaeth"
  kingdom_welsh:0 "Brehinaeth"
  empire_welsh:0 "Amherodraeth"
@@ -355,7 +363,8 @@
  barony_breton:0 "Plou"
  county_breton:0 "Gloedicelez"
  duchy_breton:0 "Dugelez"
- duchy_breton_independent:0 "Toguisocelez"
+ duchy_breton_independent:0 "[CHARACTER.Custom('BretonIndepDuchy')]"
+ independent_duchy_breton:0 "Toguisocelez"
  kingdom_breton:0 "Roentelez"
  emprie_breton:0 "Impalazriez"
  
@@ -393,9 +402,11 @@
  county_cornish:0 "[CHARACTER.Custom('EarldomCornish')]"
  earldom_cornish:0 "Yurleth"
  county_default_cornish:0 "Pendeuigeth"
- county_cornish_independent:0 "Terneth"
+ county_cornish_independent:0 "[CHARACTER.Custom('CornishIndepCounty')]"
+ independent_county_cornish:0 "Terneth"
  duchy_feudalclan_cornish:0 "Toguisoceth"
- duchy_feudalclan_cornish_independent:0 "Ruifanaid"
+ duchy_feudalclan_cornish_independent:0 "[CHARACTER.Custom('CornishIndepDuchy')]"
+ independent_duchy_cornish:0 "Ruifanaid"
  kingdom_cornish:0 "Brentyneth"
  empire_cornish:0 "Emperureth"
 
@@ -447,7 +458,8 @@
  barony_frankish:0 "Burg"
  county_frankish:0 "Gawi"
  duchy_frankish:0 "Harjatogdōm"
- duchy_frankish_independent:0 "Rīkī"
+ duchy_frankish_independent:0 "[CHARACTER.Custom('FrankishIndepDuchy')]"
+ independent_duchy_frankish:0 "Rīkī"
  kingdom_frankish:0 "Rīkī"
  empire_frankish:0 "Kaisarrīkī"
  
@@ -474,7 +486,8 @@
  barony_french:0 "Fieus"
  county_french:0 "Contez"
  duchy_french:0 "Ducaz"
- duchy_french_independent:0 "Principaliz"
+ duchy_french_independent:0 "[CHARACTER.Custom('FrenchIndepDuchy')]"
+ independent_duchy_french:0 "Principaliz"
  kingdom_french:0 "Reialmes"
  empire_french:0 "Empires"
  
@@ -501,7 +514,8 @@
  barony_norman:0 "Baronie"
  county_norman:0 "Cuntez"
  duchy_norman:0 "Ducaz"
- duchy_norman_independent:0 "Principaliz"
+ duchy_norman_independent:0 "[CHARACTER.Custom('NormanIndepDuchy')]"
+ independent_duchy_norman:0 "Principaliz"
  kingdom_norman:0 "Regnes"
  empire_norman:0 "Empires"
  
@@ -528,14 +542,17 @@
  barony_occitan:0 "Vescomtat"
  county_occitan:0 "Comtat"
  duchy_occitan:0 "Ducat"
- duchy_occitan_independent:0 "Principat"
+ duchy_occitan_independent:0 "[CHARACTER.Custom('OccitanIndepDuchy')]"
+ independent_duchy_occitan:0 "Principat"
  kingdom_occitan:0 "Reialme"
  empire_occitan:0 "Impèri"
 
- ##Central_Germanic
+ ##Central_Germanic ##Why is this not with High German idk
  duke_feudalclan_male_central_germanic_independent:0 "Furisto"
  duke_feudalclan_female_central_germanic_independent:0 "Furistin"
- duchy_feudalclan_central_germanic_independent:0 "Furisttuom"
+ duchy_feudalclan_central_germanic_independent:0 "[CHARACTER.Custom('OldHighGermanIndepDuchy')]"
+ independent_duchy_high_german:0 "Furisttuom"
+ 
 
  ##Saxon##
  baron_male_saxon:0 "Hêrro"
@@ -551,7 +568,8 @@
  duchy_feudalclan_saxon:0 "Heritogdôm"
  duke_feudalclan_male_saxon_independent:0 "Furisto" ##Cause Old Saxon
  duke_feudalclan_female_saxon_independent:0 "Furistin" ##Cause Old Saxon
- duchy_feudalclan_saxon_independent:0 "Furistdôm"
+ duchy_feudalclan_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
+ independent_duchy_saxon:0 "Furistdôm"
  king_male_saxon:0 "Kuning"
  king_female_saxon:0 "Kuningin"
  kingdom_saxon:0 "Kuningrîki"
@@ -599,7 +617,8 @@
  duke_feudalclan_female_frisian:0 "Hertogen"
  duke_feudalclan_female_frisian_independent:0 "Forsten"
  duchy_feudalclan_frisian:0 "Hertogdôm"
- duchy_feudalclan_frisian_independent:0 "Forstdôm"
+ duchy_feudalclan_frisian_independent:0 "[CHARACTER.Custom('FrisianIndepDuchy')]"
+ independent_duchy_frisian:0 "Forstdôm"
  title_prince_male_frisian_kingdom:0 "Forsta"
  title_prince_female_frisian_kingdom:0 "Forsten"
  king_male_frisian:0 "Kening"
@@ -621,9 +640,10 @@
  duke_feudalclan_male_dutch:0 "Heritogo"
  duke_feudalclan_male_dutch_independent:0 "Furist"
  duke_feudalclan_female_dutch:0 "Heritogin"
-#duke_feudalclan_female_dutch_independent:0 "Furistin"
+ #duke_feudalclan_female_dutch_independent:0 "Furistin"
  duchy_feudalclan_dutch:0 "Heritogduom"
- duchy_feudalclan_dutch_independent:0 "Furistduom"
+ duchy_feudalclan_dutch_independent:0 "[CHARACTER.Custom('DutchIndepDuchy')]"
+ independent_duchy_dutch:0 "Furistduom"
  king_male_dutch:0 "Cuning"
  king_female_dutch:0 "Cuningin"
  kingdom_dutch:0 "Rîki"
@@ -826,7 +846,9 @@
  county_italian_independent:0 "Principato"
  duke_male_italian_independent:0 "Prencipe"
  duke_female_italian_independent:0 "Prencipessa"
- duchy_italian_independent:0 "Principato"
+ duchy_italian_independent:0 "[CHARACTER.Custom('DutchIndepDuchy')]"
+ duchy_italian:0 "Ducato"
+ independent_duchy_italian:0 "Principato"
  count_tribal_male_italian:0 "Capo"
  duke_tribal_male_italian:0 "Gran Capo"
  count_tribal_female_italian:0 "Capo"
@@ -847,7 +869,8 @@
  duchy_feudalclan_roman:0 "Ducatus"
  duke_feudalclan_male_roman_independent:0 "Princeps"
  duke_feudalclan_female_roman_independent:0 "Principissa"
- duchy_feudalclan_roman_independent:0 "Principatus"
+ duchy_feudalclan_roman_independent:0 "[CHARACTER.Custom('RomanIndepDuchy')]"
+ independent_duchy_roman:0 "Principatus"
  title_prince_male_roman_kingdom:0 "Princeps"
  title_prince_female_roman_kingdom:0 "Principissa"
  king_male_roman:0 "Rex"
@@ -876,6 +899,7 @@
  duke_tribal_male_roman:0 "Dux"
  duke_tribal_female_roman:0 "Ducissa"
  duchy_tribal_roman:0 "Magna Triba"
+ 
  ##Cisalpine##
  baron_male_cisalpine:0 "Baron"
  baron_female_cisalpine:0 "Baronessa"
@@ -891,7 +915,8 @@
  duchy_feudalclan_cisalpine:0 "Ducato"
  duke_feudalclan_male_cisalpine_independent:0 "Prencep"
  duke_feudalclan_female_cisalpine_independent:0 "Prencepessa"
- duchy_feudalclan_cisalpine_independent:0 "Prencepato"
+ duchy_feudalclan_cisalpine_independent:0 "[CHARACTER.Custom('CisalpineIndepDuchy')]"
+ independent_duchy_cisalpine:0 "Prencepato"
  title_prince_male_cisalpine_kingdom:0 "Prencep"
  title_prince_female_cisalpine_kingdom:0 "Prencepessa"
  king_male_cisalpine:0 "Rex"
@@ -917,7 +942,8 @@
  duchy_feudalclan_sardinian:0 "Ducatu"
  duke_feudalclan_male_sardinian_independent:0 "Judike"
  duke_feudalclan_female_sardinian_independent:0 "Judike"
- duchy_feudalclan_sardinian_independent:0 "Judicadu"
+ duchy_feudalclan_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepDuchy')]"
+ independent_duchy_sardinian:0 "Judicadu"
  title_prince_male_sardinian_kingdom:0 "Príncipi"
  title_prince_female_sardinian_kingdom:0 "Printzèsa"
  king_male_sardinian:0 "Rey"
@@ -928,6 +954,7 @@
  emperor_male_sardinian:0 "Imperatori"
  emperor_female_sardinian:0 "Imperatrice"
  empire_sardinian:0 "Imperu"
+ 
  ##Sicilian##
  baron_male_sicilian:0 "Baruni"
  baron_female_sicilian:0 "Barunissa"
@@ -943,7 +970,8 @@
  duchy_feudalclan_sicilian:0 "Ducatu"
  duke_feudalclan_male_sicilian_independent:0 "Principi"
  duke_feudalclan_female_sicilian_independent:0 "Principissa"
- duchy_feudalclan_sicilian_independent:0 "Principatu"
+ duchy_feudalclan_sicilian_independent:0 "[CHARACTER.Custom('SicilianIndepDuchy')]"
+ independent_duchy_sicilian:0 "Principatu"
  title_prince_male_sicilian_kingdom:0 "Principi"
  title_prince_female_sicilian_kingdom:0 "Principissa"
  king_male_sicilian:0 "Re"
@@ -980,7 +1008,6 @@
  emperor_male_lombard:0 "Imperator"
  emperor_female_lombard:0 "Imperatrix"
  empire_lombard:0 "Imperium"
- 
  
  ### East Slavic ###
 
@@ -1084,7 +1111,7 @@
  count_tribal_female_ilmenian:0 "Vožgĭ"
  count_tribal_female_severian_volhynian:0 "Vožĭ"
  county_tribal_old_east_slavic:0 "Plemä"
- 
+
 
 ### North Germanic ###
 
@@ -1103,7 +1130,8 @@
  kingdom_north_germanic_group:0 "Ríki"
  duke_male_north_germanic_group_independent:0 "Konungr"
  duke_female_north_germanic_group_independent:0 "Dróttning"
- duchy_north_germanic_group_independent:0 "Ríki"
+ duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
+ independent_duchy_north_germanic:0 "Ríki"
  duke_male_north_germanic_group:0 "Jarl"
  duke_female_north_germanic_group:0 "Frú"
  duke_female_norse:0 "Freyja"
@@ -1147,7 +1175,8 @@
  queen_mother_finnish:0 "Kuningataräiti"
  duke_male_finnish_independent:0 "Kuningas"
  duke_female_finnish_independent:0 "Kuningatar"
- duchy_finnish_independent:0 "Kuningaskunta"
+ duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
+ independent_duchy_finnish:0 "Kuningaskunta"
  duke_feudal_male_finnish:0 "Herttua"
  duke_feudal_female_finnish:0 "Herttuatar"
  duchy_feudal_finnish:0 "Herttuakunta"
