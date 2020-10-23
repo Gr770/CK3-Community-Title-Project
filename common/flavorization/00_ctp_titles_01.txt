@@ -8718,6 +8718,16 @@ barony_latin_group = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+duke_feudalclan_female_latin_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 122
+	culture_groups = { latin_group } 
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 king_female_latin_group = {
 	type = character
 	gender = female
@@ -9026,23 +9036,23 @@ kingdom_republic_italian = {
 	governments = { republic_government }
 	top_liege = no
 }
-king_muslim_male_italian = {
+king_muslim_male_italian_cisalpine = {
 	type = character
 	gender = male
 	special = holder
 	tier = kingdom
 	priority = 145
-	cultures = { italian }
+	cultures = { italian cisalpine }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	religions = { islam_religion }
 	top_liege = no
 }
-kingdom_muslim_italian = {
+kingdom_muslim_italian_cisalpine = {
 	type = title
 	priority = 145
 	tier = kingdom
-	cultures = { italian }
+	cultures = { italian cisalpine }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	religions = { islam_religion }
@@ -9630,24 +9640,6 @@ duke_feudalclan_male_cisalpine = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_feudalclan_female_cisalpine = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { cisalpine } 
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_cisalpine = {
-	type = title
-	priority = 123
-	tier = duchy
-	cultures = { cisalpine }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
 duke_feudalclan_male_cisalpine_independent = {
 	type = character
 	gender = male
@@ -9964,6 +9956,29 @@ empire_feudalclan_sardinian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+king_muslim_male_sardinian_sicilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	cultures = { sardinian sicilian }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	religions = { islam_religion }
+	top_liege = no
+}
+kingdom_muslim_sardinian_sicilian = {
+	type = title
+	priority = 145
+	tier = kingdom
+	cultures = { sardinian sicilian }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	religions = { islam_religion }
+	top_liege = no
+}
+
 ###############################################
 ## Sicilian
 
