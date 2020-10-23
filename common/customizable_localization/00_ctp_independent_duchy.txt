@@ -207,20 +207,6 @@ VisigothicIndepDuchy = {
 		localization_key = independent_duchy_visigothic
 	}
 }
-
-AragoneseIndepDuchy = {
-	type = character
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_kingdom
-		}
-		localization_key = dependent_duchy_aragonese
-	}
-	text = {
-		fallback = yes
-		localization_key = independent_duchy_aragonese
-	}
-}
 AsturleoneseIndepDuchy = {
 	type = character
 	text = {
@@ -232,6 +218,19 @@ AsturleoneseIndepDuchy = {
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_asturleonese
+	}
+}
+AragoneseIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_aragonese
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_aragonese
 	}
 }
 NorthGermanicIndepDuchy = {
