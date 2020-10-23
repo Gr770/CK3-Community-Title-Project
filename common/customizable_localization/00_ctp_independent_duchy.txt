@@ -148,7 +148,7 @@ BasqueIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_french
+		localization_key = dependent_duchy_basque
 	}
 	text = {
 		fallback = yes
@@ -161,7 +161,7 @@ CastilianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_frankish
+		localization_key = dependent_duchy_castilian
 	}
 	text = {
 		fallback = yes
@@ -174,20 +174,20 @@ CatalanIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_frankish
+		localization_key = dependent_duchy_catalan
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_catalan
 	}
 }
-PortugeseIndepDuchy = {
+PortGalicianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_french
+		localization_key = dependent_duchy_portugese
 	}
 	text = {
 		fallback = yes
@@ -200,37 +200,38 @@ VisigothicIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_frankish
+		localization_key = dependent_duchy_visigothic
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_visigothic
 	}
 }
-GalicianIndepDuchy = {
-	type = character
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_kingdom
-		}
-		localization_key = duchy_frankish
-	}
-	text = {
-		fallback = yes
-		localization_key = independent_duchy_galician
-	}
-}
+
 AragoneseIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_frankish
+		localization_key = dependent_duchy_aragonese
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_aragonese
+	}
+}
+AsturleoneseIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_asturleonese
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_asturleonese
 	}
 }
 NorthGermanicIndepDuchy = {
