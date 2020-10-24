@@ -9773,6 +9773,36 @@ baron_female_sardinian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_sardinian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sardinian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_male_sardinian_holder = { #for judgedoms
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sardinian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_sardinian_holder = { #for judgedoms
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sardinian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 count_feudalclan_male_sardinian = {
 	type = character
 	gender = male
@@ -9807,29 +9837,31 @@ count_feudalclan_male_sardinian_independent = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 113
+	priority = 114
 	cultures = { sardinian } 
-	governments = { feudal_government clan_government }
+	governments = { feudal_government republic_government clan_government }
 	top_liege = no
 	only_independent = yes
+	only_holder = yes
 }
 count_feudalclan_female_sardinian_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
-	priority = 113
+	priority = 114
 	cultures = { sardinian } 
-	governments = { feudal_government clan_government }
+	governments = { feudal_government republic_government clan_government }
 	top_liege = no
 	only_independent = yes
+	only_holder = yes
 }
 county_feudalclan_sardinian_independent = {
 	type = title
-	priority = 113
+	priority = 114
 	tier = county
 	cultures = { sardinian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government republic_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -9986,6 +10018,36 @@ empire_feudalclan_sardinian = {
 	tier = empire
 	cultures = { sardinian }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_male_republic_sardinian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sardinian } 
+	governments = { republic_government}
+	top_liege = no
+	only_holder = yes
+}
+baron_female_republic_sardinian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sardinian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_sardinian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sardinian }
+	governments = { republic_government }
 	top_liege = no
 }
 king_muslim_male_sardinian_sicilian = {

@@ -1558,9 +1558,18 @@
  empire_cisalpine:0 "Imperio"
  
  ##Sardinian##
- baron_male_sardinian:0 "Baròni"
- baron_female_sardinian:0 "Barònissa"
- barony_sardinian:0 "Baronia"
+ baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
+ baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
+ barony_sardinian:0 "[CHARACTER.Custom('BaronySardinianFeudal')]"
+ baron_male_sardinian_holder:0 "[CHARACTER.Custom('BaronMaleSardinianHolder')]"
+ baron_female_sardinian_holder:0 "[CHARACTER.Custom('BaronFemaleSardinianHolder')]"
+ baron_blank:0 ""
+ baron_male_sardinian_default:0 "Baròni"
+ baron_female_sardinian_default:0 "Barònissa"
+ curadore_sardinian:0 "Curadore"
+ curadoria_sardinian:0 "Curadoria"
+ barony_feudal_sardinian_default:0 "Baronia"
+ 
  count_feudalclan_male_sardinian:0 "Conti"
  count_feudalclan_female_sardinian:0 "Contissa"
  county_feudalclan_sardinian:0 "Contadu"
@@ -1585,6 +1594,12 @@
  empire_sardinian:0 "Imperu"
  king_muslim_male_sardinian_sicilian:0 "Sultanu"
  kingdom_muslim_sardinian_sicilian:0 "Sultanatu"
+ 
+ baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianCity')]"
+ baron_city_sardinian_default:0 "Major"
+ baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianCity')]"
+ barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianCity')]"
+ barony_city_sardinian_default:0 "Comune"
  
  ##Sicilian##
  baron_male_sicilian:0 "Baruni"
