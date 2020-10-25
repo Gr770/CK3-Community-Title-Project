@@ -940,7 +940,7 @@ DukeFemaleCatalan = {
 		localization_key = palatine_female_catalan
 	}
 	text = {
-		localization_key = duke_default_female_occitan
+		localization_key = duke_default_female_catalan
 		fallback = yes
 	}
 }
@@ -950,7 +950,7 @@ DuchyCatalan = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_castilian
+		localization_key = march_catalan
 	}
 	text = {
 		trigger = {
@@ -974,7 +974,7 @@ DukeMalePortGalician = {
 				}
 			}
 		}
-		localization_key = marquess_male_portgalician
+		localization_key = marquess_male_portugese
 	}
 	text = {
 		trigger = {
@@ -985,10 +985,10 @@ DukeMalePortGalician = {
 				}
 			}
 		}
-		localization_key = palatine_male_portgalician
+		localization_key = palatine_male_portugese
 	}
 	text = {
-		localization_key = duke_default_male_portgalician
+		localization_key = duke_default_male_portugese
 		fallback = yes
 	}
 }
@@ -1003,7 +1003,7 @@ DukeFemalePortGalician = {
 				}
 			}
 		}
-		localization_key = marquess_female_portgalician
+		localization_key = marquess_female_portugese
 	}
 	text = {
 		trigger = {
@@ -1014,10 +1014,10 @@ DukeFemalePortGalician = {
 				}
 			}
 		}
-		localization_key = palatine_female_portgalician
+		localization_key = palatine_female_portugese
 	}
 	text = {
-		localization_key = duke_default_female_portgalician
+		localization_key = duke_default_female_portugese
 		fallback = yes
 	}
 }
@@ -1027,16 +1027,93 @@ DuchyPortGalician = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_castilian
+		localization_key = march_portugese
 	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_portgalician
+		localization_key = palatinate_portugese
 	}
 	text = {
-		localization_key = duchy_default_portgalician
+		localization_key = duchy_default_portugese
+		fallback = yes
+	}
+}
+DukeMaleVisigothic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_visigothic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_visigothic
+	}
+	text = {
+		localization_key = duke_default_male_visigothic
+		fallback = yes
+	}
+}
+DukeFemaleVisigothic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_visigothic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_visigothic
+	}
+	text = {
+		localization_key = duke_default_female_visigothic
+		fallback = yes
+	}
+}
+DuchyVisigothic = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_visigothic
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_visigothic
+	}
+	text = {
+		localization_key = duchy_default_visigothic
 		fallback = yes
 	}
 }
@@ -1051,7 +1128,7 @@ DukeMaleAsturleonese = {
 				}
 			}
 		}
-		localization_key = marquess_male_castilian
+		localization_key = marquess_male_asturleonese
 	}
 	text = {
 		trigger = {
@@ -1065,7 +1142,7 @@ DukeMaleAsturleonese = {
 		localization_key = palatine_male_asturleonese
 	}
 	text = {
-		localization_key = duke_default_male_castilian
+		localization_key = duke_default_male_asturleonese
 		fallback = yes
 	}
 }
@@ -1080,7 +1157,7 @@ DukeFemaleAsturleonese = {
 				}
 			}
 		}
-		localization_key = marquess_female_castilian
+		localization_key = marquess_female_asturleonese
 	}
 	text = {
 		trigger = {
@@ -1094,7 +1171,7 @@ DukeFemaleAsturleonese = {
 		localization_key = palatine_female_asturleonese
 	}
 	text = {
-		localization_key = duke_default_female_castilian
+		localization_key = duke_default_female_asturleonese
 		fallback = yes
 	}
 }
@@ -1104,13 +1181,13 @@ DuchyAsturleonese = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_castilian
+		localization_key = march_asturleonese
 	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_castilian
+		localization_key = palatinate_asturleonese
 	}
 	text = {
 		localization_key = duchy_default_asturleonese
@@ -1128,7 +1205,7 @@ DukeMaleAragonese = {
 				}
 			}
 		}
-		localization_key = marquess_male_portgalician
+		localization_key = marquess_male_aragonese
 	}
 	text = {
 		trigger = {
@@ -1139,10 +1216,10 @@ DukeMaleAragonese = {
 				}
 			}
 		}
-		localization_key = palatine_male_portgalician
+		localization_key = palatine_male_aragonese
 	}
 	text = {
-		localization_key = duke_default_male_catalan
+		localization_key = duke_default_male_aragonese
 		fallback = yes
 	}
 }
@@ -1157,7 +1234,7 @@ DukeFemaleAragonese = {
 				}
 			}
 		}
-		localization_key = marquess_female_portgalician
+		localization_key = marquess_female_aragonese
 	}
 	text = {
 		trigger = {
@@ -1168,7 +1245,7 @@ DukeFemaleAragonese = {
 				}
 			}
 		}
-		localization_key = palatine_female_portgalician
+		localization_key = palatine_female_aragonese
 	}
 	text = {
 		localization_key = duke_default_female_aragonese
@@ -1181,13 +1258,13 @@ DuchyAragonese = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_castilian
+		localization_key = march_aragonese
 	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_portgalician
+		localization_key = palatinate_aragonese
 	}
 	text = {
 		localization_key = duchy_default_aragonese
@@ -1513,7 +1590,7 @@ DukeMaleItalian = {
 				}
 			}
 		}
-		localization_key = marquess_male_italian
+		localization_key = marquess_male_italian_cisalpine
 	}
 	text = {
 		trigger = {
@@ -1524,7 +1601,7 @@ DukeMaleItalian = {
 				}
 			}
 		}
-		localization_key = palatine_male_italian
+		localization_key = palatine_male_italian_cisalpine
 	}
 	text = {
 		localization_key = duke_default_male_italian
@@ -1542,7 +1619,7 @@ DukeFemaleItalian = {
 				}
 			}
 		}
-		localization_key = marquess_female_italian
+		localization_key = marquess_female_latin_group
 	}
 	text = {
 		trigger = {
@@ -1553,29 +1630,118 @@ DukeFemaleItalian = {
 				}
 			}
 		}
-		localization_key = palatine_female_italian
+		localization_key = palatine_female_latin_group
 	}
 	text = {
-		localization_key = duke_default_female_italaian
+		localization_key = duke_default_female_italian
 		fallback = yes
 	}
 }
-DuchyItalian = {
+DuchyItalianCisalpine = {
 	type = character
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
 		}
-		localization_key = march_italian
+		localization_key = march_latin_group
 	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
-		localization_key = palatinate_italian
+		localization_key = palatinate_italian_cisalpine
 	}
 	text = {
-		localization_key = duchy_default_italian
+		localization_key = duchy_default_italian_cisalpine
+		fallback = yes
+	}
+}
+DukeMaleRoman = { ##Unusually set but should work
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = duke_tribal_male_roman ##"Dux"
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_roman
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy ##Is the holder not spouse
+		}
+		localization_key = duke_feudalclan_roman_holder
+	}
+	text = {
+		localization_key = duke_default_male_roman
+		fallback = yes
+	}
+}
+DukeFemaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = duke_tribal_female_roman ##"Ducissa"
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_roman
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy ##Is the holder not spouse
+		}
+		localization_key = duke_feudalclan_roman_holder
+	}
+	text = {
+		localization_key = duke_default_female_roman
+		fallback = yes
+	}
+}
+DuchyRoman = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_roman
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_roman
+	}
+	text = {
+		localization_key = duchy_default_roman
 		fallback = yes
 	}
 }
@@ -1608,7 +1774,7 @@ DukeMaleCisalpine = {
 		fallback = yes
 	}
 }
-DukeFemaleCisalpine = {
+DukeFemaleLatinGroup = {
 	type = character
 	text = {
 		trigger = {
@@ -1619,7 +1785,7 @@ DukeFemaleCisalpine = {
 				}
 			}
 		}
-		localization_key = marquess_female_italian
+		localization_key = marquess_female_latin_group
 	}
 	text = {
 		trigger = {
@@ -1630,10 +1796,58 @@ DukeFemaleCisalpine = {
 				}
 			}
 		}
-		localization_key = palatine_female_italian
+		localization_key = palatine_female_latin_group
 	}
 	text = {
-		localization_key = duke_default_female_cisalpine
+		localization_key = duke_default_female_latin_group
+		fallback = yes
+	}
+}
+DukeMaleSardinianSicilian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_sardinian_sicilian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_sardinian_sicilian
+	}
+	text = {
+		localization_key = duke_default_male_cisalpine
+		fallback = yes
+	}
+}
+DuchySardinianSicilian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_latin_group
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_sardinian_sicilian
+	}
+	text = {
+		localization_key = duchy_default_sardinian_sicilian
 		fallback = yes
 	}
 }
