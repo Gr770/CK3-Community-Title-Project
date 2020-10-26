@@ -1,0 +1,15 @@
+KingMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission #only islam
+			}
+		}
+		localization_key = sultan_male_irish
+	}
+	text = {
+		localization_key = kingdom_default_male_irish
+		fallback = yes
+	}
+}
