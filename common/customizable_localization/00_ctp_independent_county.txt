@@ -76,3 +76,24 @@ FinnishTribalIndepCounty = {
 		localization_key = independent_county_tribal_finnish
 	}
 }
+SardinianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_government = feudal_government
+		}
+		localization_key = dependent_county_sardinian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_government = republic_government
+		}
+		localization_key = dependent_county_republic_sardinian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_sardinian
+	}
+}
