@@ -1248,7 +1248,11 @@
 
  barony_north_germanic_group:0 "Borg"
  duchy_north_germanic_group:0 "Jarldómr"
- duchy_north_germanic_group_independent:0 "Ríki"
+ 
+ duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
+ independent_duchy_north_germanic:0 "Ríki"
+ dependent_duchy_north_germanic_group:0 "$duchy_north_germanic_group$"
+ 
  kingdom_north_germanic_group:0 "Ríki"
  empire_north_germanic_group:0 "Veldi"
  
@@ -1276,6 +1280,10 @@
  emperor_female_norse_norwegian:0 "Keisari"
  county_norse_norwegian:0 "Fylki"
  
+ county_norse_norwegian_independent:0 "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
+ independent_county_norse_norwegian:0 "Fylki"
+ dependent_county_norse_norwegian:0 "$county_norse_norwegian$"
+ 
 ########################################################
 ## Swedish and Danish
 
@@ -1294,8 +1302,16 @@
  title_prince_male_swedish_danish_kingdom:0 "Aðlingr"
  emperor_male_swedish_danish:0 "Késari"
  emperor_female_swedish_danish:0 "Késarynja"
+ 
  county_swedish:0 "Landskap"
+ county_swedish_independent:0 "[CHARACTER.Custom('SwedishIndepCounty')]"
+ independent_county_swedish:0 "Landskap"
+ dependent_county_swedish:0 "$county_swedish$"
+ 
  county_danish:0 "Sýsla"
+ county_danish_independent:0 "[CHARACTER.Custom('DanishIndepCounty')]"
+ independent_county_danish:0 "Sýsla"
+ dependent_county_danish:0 "$county_danish$"
  
 ########################################################
 ###  Central Germanic Culture Group

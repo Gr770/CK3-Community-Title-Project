@@ -7145,11 +7145,20 @@ emperor_female_norse_norwegian = {
 }
 county_norse_norwegian = {
 	type = title
-	tier = barony
-	priority = 103
+	tier = county
+	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { norse norwegian }
 	top_liege = no
+}
+county_norse_norwegian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+	only_independent = yes
 }
 ###############################################
 ## Swedish and Danish
@@ -7311,19 +7320,37 @@ emperor_female_swedish_danish = {
 }
 county_swedish = {
 	type = title
-	tier = barony
-	priority = 103
+	tier = county
+	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { swedish }
 	top_liege = no
 }
 county_danish = {
 	type = title
-	tier = barony
-	priority = 103
+	tier = county
+	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { danish }
 	top_liege = no
+}
+county_swedish_independent = {
+	type = title
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish }
+	top_liege = no
+	only_independent = yes
+}
+county_danish_independent = {
+	type = title
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { danish }
+	top_liege = no
+	only_independent = yes
 }
 ###############################################
 ## End of North_Germanic_culture_group ##
