@@ -718,7 +718,7 @@
  ## Marquess_male same as French
  marquess_female_norman:0 "Marchise"
  ## Palatine male same as French
- ## Palatine (f) same as French
+ ## Palatine female same as French
  ## March same as French
  palatinate_norman:0 "Palatinat"
  
@@ -959,7 +959,7 @@
  palatinate_catalan:0 "Llochtinença"
  
 ########################################################
-## Portuguese 
+## Portuguese and Galician
 
  baron_male_portugese:0 "Sennor"
  baron_female_portugese:0 "Sennor"
@@ -1241,6 +1241,61 @@
  palatine_female_aragonese:0 "Palatina"
  march_aragonese:0 "Marca"
  palatinate_aragonese:0 "Palatinado"
+
+########################################################
+###  North Germanic Culture Group
+########################################################
+
+ barony_north_germanic_group:0 "Borg"
+ duchy_north_germanic_group:0 "Jarldómr"
+ duchy_north_germanic_group_independent:0 "Ríki"
+ kingdom_north_germanic_group:0 "Ríki"
+ empire_north_germanic_group:0 "Veldi"
+ 
+########################################################
+## Norse and Norwegian
+
+ baron_male_norse:0 "Hersir"
+ baron_male_norwegian:0 "Lendrmaðr"
+ baron_female_norse:0 "Freyja" 
+ baron_female_norwegian:0 "Lendrkona"
+ count_male_norse_norwegian:0 "Hǫfðingi"
+ count_female_norse:0 "Freyja"
+ count_female_norwegian:0 "Frú"
+ count_male_norse_norwegian_independent:0 "Fylkiskonungr"
+ count_female_norse_norwegian_independent:0 "Fylkisdróttning"
+ duke_male_norse_norwegian:0 "Jarl"
+ duke_female_norse:0 "Freyja"
+ duke_female_norwegian:0 "Frú"
+ duke_male_norse_norwegian_independent:0 "Konungr"
+ duke_female_norse_norwegian_independent:0 "Dróttning"
+ king_male_norse_norwegian:0 "Þjóðkonungr"
+ king_female_norse_norwegian:0 "Þjóðdróttning"
+ title_prince_male_norse_norwegian_kingdom:0 "Ǫðlingr"
+ emperor_male_norse_norwegian:0 "Keisari"
+ emperor_female_norse_norwegian:0 "Keisari"
+ county_norse_norwegian:0 "Fylki"
+ 
+########################################################
+## Swedish and Danish
+
+ baron_male_swedish_danish:0 "Hersir"
+ baron_female_swedish_danish:0 "Frú"
+ count_male_swedish_danish:0 "Hafðingi"
+ count_female_swedish_danish:0 "Frú"
+ count_male_swedish_danish_independent:0 "Fylkiskunungr"
+ count_female_swedish_danish_independent:0 "Fylkisdróttning"
+ duke_male_swedish_danish:0 "Jarl"
+ duke_female_swedish_danish:0 "Frú"
+ duke_male_swedish_danish_independent:0 "Kunungr"
+ duke_female_swedish_danish_independent:0 "Dróttning"
+ king_male_swedish_danish:0 "Þjúðkunungr"
+ king_female_swedish_danish:0 "Þjúðdróttning"
+ title_prince_male_swedish_danish_kingdom:0 "Aðlingr"
+ emperor_male_swedish_danish:0 "Késari"
+ emperor_female_swedish_danish:0 "Késarynja"
+ county_swedish:0 "Landskap"
+ county_danish:0 "Sýsla"
  
 ########################################################
 ###  Central Germanic Culture Group
@@ -1763,54 +1818,6 @@
  count_tribal_female_ilmenian:0 "Vožgĭ"
  count_tribal_female_severian_volhynian:0 "Vožĭ"
  county_tribal_old_east_slavic:0 "Plemä"
-
-
-### North Germanic ###
-
-# Feudal / Tribal 
-
- emperor_male_norse:0 "Þjóðkonungr"
- emperor_female_norse:0 "Þjóðdróttning"
- empire_norse:0 "Veldi"
- emperor_male_swedish:0 "Késari"
- emperor_male_norwegian:0 "Keisari"
- emperor_female_swedish:0 "Késarynja"
- empire_swedish:0 "Késarríki"
- empire_norwegian:0 "Keisarríki"
- king_male_north_germanic_group:0 "Konungr"
- king_female_north_germanic_group:0 "Dróttning"
- kingdom_north_germanic_group:0 "Ríki"
- duke_male_north_germanic_group_independent:0 "Konungr"
- duke_female_north_germanic_group_independent:0 "Dróttning"
- duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
- dependent_duchy_north_germanic_group:0 "$duchy_north_germanic_group$"
- independent_duchy_north_germanic:0 "Ríki"
- duke_male_north_germanic_group:0 "Jarl"
- duke_female_north_germanic_group:0 "Frú"
- duke_female_norse:0 "Freyja"
- duchy_north_germanic_group:0 "Jarldómr"
- count_feudal_male_north_germanic_group_independent:0 "Dróttinn"
- count_feudal_female_north_germanic_group_independent:0 "Dróttning"
- county_feudal_north_germanic_group_independent:0 "Fylki"
- count_tribal_male_north_germanic_group_independent:0 "Fylkiskonungr"
- count_tribal_female_north_germanic_group_independent:0 "Fylkisdróttning"
- county_tribal_north_germanic_group_independent:0 "Fylki"
- baron_feudal_male_norse:0 "Hersir"
- baron_male_norwegian:0 "Lendrmaðr"
- baron_feudal_female_norse:0 "Freyja"
- baron_female_northmen:0 "Frú"
- baron_female_norwegian:0 "Lendrkona"
- barony_norse:0 "Herað"
- count_male_norse:0 "Höfðingi"
- count_female_norse:0 "Freyja"
- count_female_northmen:0 "Frú"
- county_swedish:0 "Landskap"
- county_danish:0 "Sýsla"
- county_norwegian:0 "Fylki"
- county_norse:0 "Fylki"
- baron_republic_male_north_germanic_group:0 "Hauldr"
- barony_republic_north_germanic_group:0 "Borg"
- count_republic_male_north_germanic_group:0 "Hauldr"
  
  ###Balto-Finnic###
  king_male_finnish:0 "Kuningas"
