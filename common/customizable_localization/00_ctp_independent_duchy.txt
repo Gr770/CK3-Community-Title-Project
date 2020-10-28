@@ -406,22 +406,11 @@ NubianIndepDuchy = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
-			OR = {
-				has_government = feudal_government
-				has_government = clan_government
-			}
 		}
-		localization_key = duchy_default_feudalclan_ethiopian
-	}
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_kingdom
-			has_government = tribal_government
-		}
-		localization_key = duchy_default_tribal_ethiopian
+		localization_key = duchy_default_nubian
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_ethiopian
+		localization_key = independent_duchy_nubian
 	}
 }

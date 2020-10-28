@@ -3556,7 +3556,7 @@ baron_male_nubian = {
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 baron_female_nubian = {
@@ -3576,7 +3576,7 @@ baron_female_holder_nubian = {
 	tier = barony
 	priority = 104
 	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_holder = yes
 }
@@ -3585,7 +3585,7 @@ barony_nubian = {
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 count_feudalclan_male_nubian = {
@@ -3673,7 +3673,7 @@ duke_feudalclan_male_nubian_independent = {
 	tier = duchy
 	priority = 125
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -3684,7 +3684,7 @@ duke_feudalclan_female_nubian_independent = {
 	tier = duchy
 	priority = 126
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -3693,7 +3693,7 @@ duchy_feudalclan_nubian_independent = {
 	tier = duchy
 	priority = 125
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -3729,28 +3729,28 @@ emperor_male_nubian = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
+	tier = empire
 	priority = 153
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 emperor_female_nubian = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
+	tier = empire
 	priority = 153
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 empire_nubian = {
 	type = title
-	tier = kingdom
+	tier = empire
 	priority = 153
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_male_nubian = {
