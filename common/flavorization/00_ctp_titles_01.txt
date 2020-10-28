@@ -6902,133 +6902,23 @@ duchy_tribal_aragonese = {
 ## End of Iberian_culture_group ##
 ###############################################
 
-###########################################################
+################################################
 ## North_Germanic_culture_group ##
 ###############################################
-## Have to be rearranged in the future ##
-
-emperor_male_norse = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
-	top_liege = no
-}
-emperor_female_norse = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
-	top_liege = no
-}
-empire_norse = {
+barony_north_germanic_group = {
 	type = title
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
-	top_liege = no
-}
-emperor_male_swedish = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish }
-	top_liege = no
-}
-emperor_male_norwegian = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norwegian }
-	top_liege = no
-}
-emperor_female_swedish = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish norwegian }
-	top_liege = no
-}
-empire_swedish = {
-	type = title
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish }
-	top_liege = no
-}
-empire_norwegian = {
-	type = title
-	tier = empire
-	priority = 153
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norwegian }
-	top_liege = no
-}
-king_male_north_germanic_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 143
+	tier = barony
+	priority = 102
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
-king_female_north_germanic_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
-	top_liege = no
-}
-kingdom_north_germanic_group = {
+duchy_north_germanic_group = {
 	type = title
-	tier = kingdom
-	priority = 143
-	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
-	top_liege = no
-}
-duke_male_north_germanic_group_independent = {
-	type = character
-	gender = male
-	special = holder
 	tier = duchy
-	priority = 124
+	priority = 122
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { north_germanic_group }
-	only_independent = yes
-	top_liege = no
-}
-duke_female_north_germanic_group_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 124
-	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
-	only_independent = yes
 	top_liege = no
 }
 duchy_north_germanic_group_independent = {
@@ -7040,114 +6930,33 @@ duchy_north_germanic_group_independent = {
 	only_independent = yes
 	top_liege = no
 }
-duke_male_north_germanic_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 122
-	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
-	top_liege = no
-}
-duke_female_north_germanic_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 122
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish norwegian }
-	top_liege = no
-}
-duke_female_norse = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
-	top_liege = no
-}
-duchy_north_germanic_group = {
+kingdom_north_germanic_group = {
 	type = title
-	tier = duchy
-	priority = 122
+	tier = kingdom
+	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
-#count_feudal_male_north_germanic_group_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = county
-#	priority = 113
-#	governments = { feudal_government clan_government }
-#	culture_groups = { north_germanic_group }
-#	only_independent = yes
-#	top_liege = no
-#}
-#count_feudal_female_north_germanic_group_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = county
-#	priority = 113
-#	governments = { feudal_government clan_government }
-#	culture_groups = { north_germanic_group }
-#	only_independent = yes
-#	top_liege = no
-#}
-#county_feudal_north_germanic_group_independent = {
-#	type = title
-#	tier = county
-#	priority = 113
-#	governments = { feudal_government clan_government }
-#	culture_groups = { north_germanic_group }
-#	only_independent = yes
-#	top_liege = no
-#}
-count_tribal_male_north_germanic_group_independent = { ##I leave this against our general practice because it needs factual revising.
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	governments = { tribal_government }
-	culture_groups = { north_germanic_group }
-	only_independent = yes
-	top_liege = no
-}
-count_tribal_female_north_germanic_group_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 113
-	governments = { tribal_government }
-	culture_groups = { north_germanic_group }
-	only_independent = yes
-	top_liege = no
-}
-county_tribal_north_germanic_group_independent = {
+empire_north_germanic_group = {
 	type = title
-	tier = county
-	priority = 113
-	governments = { tribal_government }
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { north_germanic_group }
-	only_independent = yes
 	top_liege = no
 }
-baron_feudal_male_norse = {
+#######################################################
+## Norse and Norwegian
+
+baron_male_norse = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse swedish danish }
+	culture_groups = { norse }
 	top_liege = no
 }
 baron_male_norwegian = {
@@ -7157,27 +6966,17 @@ baron_male_norwegian = {
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norwegian }
+	culture_groups = { norwegian }
 	top_liege = no
 }
-baron_feudal_female_norse = {
+baron_female_norse = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
-	top_liege = no
-}
-baron_female_northmen = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish }
+	culture_groups = { norse }
 	top_liege = no
 }
 baron_female_norwegian = {
@@ -7187,25 +6986,17 @@ baron_female_norwegian = {
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norwegian }
+	culture_groups = { norwegian }
 	top_liege = no
 }
-barony_norse = { ##is to be renamed?
-	type = title
-	tier = barony
-	priority = 103
-	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
-	top_liege = no
-}
-count_male_norse = {
+count_male_norse_norwegian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	culture_groups = { north_germanic_group }
+	culture_groups = { norse norwegian }
 	top_liege = no
 }
 count_female_norse = {
@@ -7215,25 +7006,316 @@ count_female_norse = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
+	culture_groups = { norse }
 	top_liege = no
 }
-count_female_northmen = {
+count_female_norwegian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish norwegian }
+	culture_groups = { norwegian }
 	top_liege = no
 }
-county_norse = {
+count_male_norse_norwegian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	only_independent = yes
+	top_liege = no
+}
+count_female_norse_norwegian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	only_independent = yes
+	top_liege = no
+}
+duke_male_norse_norwegian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+duke_female_norse = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse }
+	top_liege = no
+}
+duke_female_norwegian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norwegian }
+	top_liege = no
+}
+duke_male_norse_norwegian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	only_independent = yes
+	top_liege = no
+}
+duke_female_norse_norwegian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	only_independent = yes
+	top_liege = no
+}
+king_male_norse_norwegian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+king_female_norse_norwegian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+title_prince_male_norse_norwegian_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 131
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+emperor_male_norse_norwegian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+emperor_female_norse_norwegian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+county_norse_norwegian = {
 	type = title
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse }
+	culture_groups = { norse norwegian }
+	top_liege = no
+}
+county_norse_norwegian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { norse norwegian }
+	top_liege = no
+	only_independent = yes
+}
+###############################################
+## Swedish and Danish
+
+baron_male_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+baron_female_swedish_danish = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+count_male_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+count_female_swedish_danish = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+
+count_male_swedish_danish_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	only_independent = yes
+	top_liege = no
+}
+count_female_swedish_danish_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	only_independent = yes
+	top_liege = no
+}
+duke_male_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+duke_female_swedish_danish = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+duke_male_swedish_danish_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	only_independent = yes
+	top_liege = no
+}
+duke_female_swedish_danish_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	only_independent = yes
+	top_liege = no
+}
+king_male_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+king_female_swedish_danish = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+title_prince_male_swedish_danish_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 131
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+emperor_male_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	culture_groups = { swedish danish }
+	top_liege = no
+}
+emperor_female_swedish_danish = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	culture_groups = { swedish danish }
 	top_liege = no
 }
 county_swedish = {
@@ -7241,7 +7323,7 @@ county_swedish = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish }
+	culture_groups = { swedish }
 	top_liege = no
 }
 county_danish = {
@@ -7249,48 +7331,27 @@ county_danish = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { danish }
+	culture_groups = { danish }
 	top_liege = no
 }
-county_norwegian = {
+county_swedish_independent = {
 	type = title
 	tier = county
-	priority = 113
+	priority = 114
 	governments = { feudal_government clan_government tribal_government }
-	cultures = { norwegian }
+	culture_groups = { swedish }
 	top_liege = no
+	only_independent = yes
 }
-baron_republic_male_north_germanic_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 103
-	governments = { republic_government }
-	culture_groups = { north_germanic_group }
-	only_holder = yes
-	top_liege = no
-}
-barony_republic_north_germanic_group = {
+county_danish_independent = {
 	type = title
-	tier = barony
-	priority = 103
-	governments = { republic_government }
-	culture_groups = { north_germanic_group }
-	top_liege = no
-}
-count_republic_male_north_germanic_group = {
-	type = character
-	gender = male
-	special = holder
 	tier = county
-	priority = 113
-	governments = { republic_government }
-	culture_groups = { north_germanic_group }
-	only_holder = yes
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { danish }
 	top_liege = no
+	only_independent = yes
 }
-
 ###############################################
 ## End of North_Germanic_culture_group ##
 ###############################################
@@ -7935,9 +7996,9 @@ empire_saxon = {
 #	only_holder = yes
 #}
 
-###############################################
-##   Franconian, Bavarian, Swabian cultures  ##
-##
+##################################################
+##   Franconian, Bavarian and Swabian cultures  ##
+
 baron_male_old_high_german = {
 	type = character
 	gender = male
@@ -8776,7 +8837,7 @@ baron_male_italian = {
 }
 baron_female_italian_cisalpine = {
 	type = character
-	gender = male
+	gender = female
 	special = holder
 	tier = barony
 	priority = 103
@@ -8925,16 +8986,6 @@ baron_republic_male_italian = {
 	cultures = { italian }
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
-}
-baron_female_italian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { italian }
-	governments = { feudal_government tribal_government }
 	top_liege = no
 }
 baron_republic_female_italian = {
