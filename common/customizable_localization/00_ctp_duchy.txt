@@ -2237,3 +2237,34 @@ DuchyRus = {
 		fallback = yes
 	}
 }
+DukeNubian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_nubian
+	}
+	text = {
+		localization_key = duke_default_nubian
+		fallback = yes
+	}
+}
+DuchyNubian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_nubian
+	}
+	text = {
+		localization_key = duchy_default_nubian
+		fallback = yes
+	}
+}
