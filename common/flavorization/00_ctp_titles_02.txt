@@ -3717,6 +3717,17 @@ king_female_nubian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+king_female_nubian_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { nubian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 kingdom_nubian = {
 	type = title
 	tier = kingdom
@@ -3744,6 +3755,17 @@ emperor_female_nubian = {
 	cultures = { nubian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
+}
+emperor_female_nubian_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { nubian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
 }
 empire_nubian = {
 	type = title
