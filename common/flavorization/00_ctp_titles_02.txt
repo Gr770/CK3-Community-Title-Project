@@ -3682,11 +3682,23 @@ duke_feudalclan_female_nubian_independent = {
 	gender = female
 	special = holder
 	tier = duchy
+	priority = 125
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_nubian_holder_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
 	priority = 126
 	cultures = { nubian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
+	only_holder = yes
 }
 duchy_feudalclan_nubian_independent = {
 	type = title
