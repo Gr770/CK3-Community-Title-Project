@@ -1,15 +1,315 @@
-KingMaleIrish = {
+KingMaleGoidelic = {
 	type = character
 	text = {
 		trigger = {
 			root.faith = {
-				has_doctrine = tenet_struggle_submission #only islam
+				has_doctrine = tenet_struggle_submission
 			}
 		}
-		localization_key = sultan_male_irish
+		localization_key = sultan_male_goidelic
 	}
 	text = {
-		localization_key = kingdom_default_male_irish
+		localization_key = king_default_male_goidelic
+		fallback = yes
+	}
+}
+KingFemaleGoidelic = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_goidelic
+	}
+	text = {
+		localization_key = king_default_female_goidelic
+		fallback = yes
+	}
+}
+KingdomGoidelic = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_goidelic
+	}
+	text = {
+		localization_key = kingdom_default_goidelic
+		fallback = yes
+	}
+}
+KingMaleEnglish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_english
+	}
+	text = {
+		localization_key = king_default_male_english
+		fallback = yes
+	}
+}
+KingFemaleEnglish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submissio
+			}
+		}
+		localization_key = sultan_female_english
+	}
+	text = {
+		localization_key = king_default_female_english
+		fallback = yes
+	}
+}
+KingdomEnglish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_english
+	}
+	text = {
+		localization_key = kingdom_default_english
+		fallback = yes
+	}
+}
+KingMaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_anglo
+	}
+	text = {
+		localization_key = king_default_male_anglo
+		fallback = yes
+	}
+}
+KingFemaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_anglo
+	}
+	text = {
+		localization_key = king_default_female_anglo
+		fallback = yes
+	}
+}
+KingdomAnglo = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_anglo
+	}
+	text = {
+		localization_key = kingdom_default_anglo
+		fallback = yes
+	}
+}
+KingMaleScottish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_scottish
+	}
+	text = {
+		localization_key = king_default_male_scottish
+		fallback = yes
+	}
+}
+KingFemaleScottish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_scottish
+	}
+	text = {
+		localization_key = king_default_female_scottish
+		fallback = yes
+	}
+}
+KingdomScottish = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_scottish
+	}
+	text = {
+		localization_key = kingdom_default_scottish
+		fallback = yes
+	}
+}
+KingMaleWelsh = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_welsh
+	}
+	text = {
+		localization_key = king_default_male_welsh
+		fallback = yes
+	}
+}
+KingFemaleWelsh = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_welsh
+	}
+	text = {
+		localization_key = king_default_female_welsh
+		fallback = yes
+	}
+}
+KingdomWelsh = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_welsh
+	}
+	text = {
+		localization_key = kingdom_default_welsh
+		fallback = yes
+	}
+}
+KingMaleCastillian= {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_castillian
+	}
+	text = {
+		localization_key = king_default_male_castillian
+		fallback = yes
+	}
+}
+KingFemaleCastillian = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_castillian
+	}
+	text = {
+		localization_key = king_default_female_castillian
+		fallback = yes
+	}
+}
+KingdomCastillian = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_castillian
+	}
+	text = {
+		localization_key = kingdom_default_castillian
+		fallback = yes
+	}
+}
+KingMaleCatalan= {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_catalan
+	}
+	text = {
+		localization_key = king_default_male_catalan
+		fallback = yes
+	}
+}
+KingFemaleCatalan = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_catalan
+	}
+	text = {
+		localization_key = king_default_female_catalan
+		fallback = yes
+	}
+}
+KingdomCatalan = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_catalan
+	}
+	text = {
+		localization_key = kingdom_default_catalan
 		fallback = yes
 	}
 }
