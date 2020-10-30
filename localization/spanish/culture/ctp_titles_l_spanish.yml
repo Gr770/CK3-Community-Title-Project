@@ -718,7 +718,7 @@
  ## Marquess_male same as French
  marquess_female_norman:0 "Marchise"
  ## Palatine male same as French
- ## Palatine (f) same as French
+ ## Palatine female same as French
  ## March same as French
  palatinate_norman:0 "Palatinat"
  
@@ -857,7 +857,7 @@
  empire_castilian:0 "Imperio"
 
  baron_republic_male_castilian:0 "Merino"
- baron_republic_male_castilian:0 "Merina"
+ baron_republic_female_castilian:0 "Merina"
  count_republic_male_castilian:0 "Regidor"
  count_republic_female_castilian:0 "Regidor"
  duke_republic_male_castilian:0 "Jurado"
@@ -927,7 +927,7 @@
  empire_catalan:0 "Imperi"
 
  baron_republic_male_catalan:0 "Cònsol"
- baron_republic_male_catalan:0 "Cònsol"
+ baron_republic_female_catalan:0 "Cònsol"
  count_republic_male_catalan:0 "Paer"
  count_republic_female_catalan:0 "Paera"
  duke_republic_male_catalan:0 "Conseller"
@@ -959,7 +959,7 @@
  palatinate_catalan:0 "Llochtinença"
  
 ########################################################
-## Portuguese 
+## Portuguese and Galician
 
  baron_male_portugese:0 "Sennor"
  baron_female_portugese:0 "Sennor"
@@ -998,7 +998,7 @@
  empire_portugese:0 "Emperio"
 
  baron_republic_male_portugese:0 "Vereador"
- baron_republic_male_portugese:0 "Vereadora"
+ baron_republic_female_portugese:0 "Vereadora"
  count_republic_male_portugese:0 "Moordomo"
  count_republic_female_portugese:0 "Moordomo"
  duke_republic_male_portugese:0 "Tenente"
@@ -1069,7 +1069,7 @@
  empire_visigothic:0 "Imperio"
 
  baron_republic_male_visigothic:0 "Maiorinus"
- baron_republic_male_visigothic:0 "Maiorina"
+ baron_republic_female_visigothic:0 "Maiorina"
  count_republic_male_visigothic:0 "Judex"
  count_republic_female_visigothic:0 "Judecissa"
  duke_republic_male_visigothic:0 "Magnus Judex"
@@ -1140,7 +1140,7 @@
  empire_asturleonese:0 "Imperiu"
 
  baron_republic_male_asturleonese:0 "Merín"
- baron_republic_male_asturleonese:0 "Merina"
+ baron_republic_female_asturleonese:0 "Merina"
  count_republic_male_asturleonese:0 "Merín Mayor"
  count_republic_female_asturleonese:0 "Marina Mayor"
  duke_republic_male_asturleonese:0 "Xurau"
@@ -1211,7 +1211,7 @@
  empire_aragonese:0 "Imperio"
 
  baron_republic_male_aragonese:0 "Zalmedina"
- baron_republic_male_aragonese:0 "Zalmedina"
+ baron_republic_female_aragonese:0 "Zalmedina"
  count_republic_male_aragonese:0 "Receptor"
  count_republic_female_aragonese:0 "Receptora"
  duke_republic_male_aragonese:0 "Precurador"
@@ -1241,6 +1241,77 @@
  palatine_female_aragonese:0 "Palatina"
  march_aragonese:0 "Marca"
  palatinate_aragonese:0 "Palatinado"
+
+########################################################
+###  North Germanic Culture Group
+########################################################
+
+ barony_north_germanic_group:0 "Borg"
+ duchy_north_germanic_group:0 "Jarldómr"
+ 
+ duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
+ independent_duchy_north_germanic:0 "Ríki"
+ dependent_duchy_north_germanic_group:0 "$duchy_north_germanic_group$"
+ 
+ kingdom_north_germanic_group:0 "Ríki"
+ empire_north_germanic_group:0 "Veldi"
+ 
+########################################################
+## Norse and Norwegian
+
+ baron_male_norse:0 "Hersir"
+ baron_male_norwegian:0 "Lendrmaðr"
+ baron_female_norse:0 "Freyja" 
+ baron_female_norwegian:0 "Lendrkona"
+ count_male_norse_norwegian:0 "Hǫfðingi"
+ count_female_norse:0 "Freyja"
+ count_female_norwegian:0 "Frú"
+ count_male_norse_norwegian_independent:0 "Fylkiskonungr"
+ count_female_norse_norwegian_independent:0 "Fylkisdróttning"
+ duke_male_norse_norwegian:0 "Jarl"
+ duke_female_norse:0 "Freyja"
+ duke_female_norwegian:0 "Frú"
+ duke_male_norse_norwegian_independent:0 "Konungr"
+ duke_female_norse_norwegian_independent:0 "Dróttning"
+ king_male_norse_norwegian:0 "Þjóðkonungr"
+ king_female_norse_norwegian:0 "Þjóðdróttning"
+ title_prince_male_norse_norwegian_kingdom:0 "Ǫðlingr"
+ emperor_male_norse_norwegian:0 "Keisari"
+ emperor_female_norse_norwegian:0 "Keisari"
+ county_norse_norwegian:0 "Fylki"
+ 
+ county_norse_norwegian_independent:0 "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
+ independent_county_norse_norwegian:0 "Fylki"
+ dependent_county_norse_norwegian:0 "$county_norse_norwegian$"
+ 
+########################################################
+## Swedish and Danish
+
+ baron_male_swedish_danish:0 "Hersir"
+ baron_female_swedish_danish:0 "Frú"
+ count_male_swedish_danish:0 "Hafðingi"
+ count_female_swedish_danish:0 "Frú"
+ count_male_swedish_danish_independent:0 "Fylkiskunungr"
+ count_female_swedish_danish_independent:0 "Fylkisdróttning"
+ duke_male_swedish_danish:0 "Jarl"
+ duke_female_swedish_danish:0 "Frú"
+ duke_male_swedish_danish_independent:0 "Kunungr"
+ duke_female_swedish_danish_independent:0 "Dróttning"
+ king_male_swedish_danish:0 "Þjúðkunungr"
+ king_female_swedish_danish:0 "Þjúðdróttning"
+ title_prince_male_swedish_danish_kingdom:0 "Aðlingr"
+ emperor_male_swedish_danish:0 "Késari"
+ emperor_female_swedish_danish:0 "Késarynja"
+ 
+ county_swedish:0 "Landskap"
+ county_swedish_independent:0 "[CHARACTER.Custom('SwedishIndepCounty')]"
+ independent_county_swedish:0 "Landskap"
+ dependent_county_swedish:0 "$county_swedish$"
+ 
+ county_danish:0 "Sýsla"
+ county_danish_independent:0 "[CHARACTER.Custom('DanishIndepCounty')]"
+ independent_county_danish:0 "Sýsla"
+ dependent_county_danish:0 "$county_danish$"
  
 ########################################################
 ###  Central Germanic Culture Group
@@ -1451,7 +1522,7 @@
  count_feudalclan_female_italian:0 "Contessa"
  county_feudalclan_italian:0 "Contea"
  baron_male_italian:0 "Barone"
- baron_female_italian:0 "Baronessa"
+ baron_female_italian_cisalpine:0 "Baronessa"
  baron_republic_male_italian:0 "Podestà"
  baron_republic_female_italian:0 "Podestà"
  barony_republic_italian:0 "Comune"
@@ -1762,54 +1833,6 @@
  count_tribal_female_ilmenian:0 "Vožgĭ"
  count_tribal_female_severian_volhynian:0 "Vožĭ"
  county_tribal_old_east_slavic:0 "Plemä"
-
-
-### North Germanic ###
-
-# Feudal / Tribal 
-
- emperor_male_norse:0 "Þjóðkonungr"
- emperor_female_norse:0 "Þjóðdróttning"
- empire_norse:0 "Veldi"
- emperor_male_swedish:0 "Késari"
- emperor_male_norwegian:0 "Keisari"
- emperor_female_swedish:0 "Késarynja"
- empire_swedish:0 "Késarríki"
- empire_norwegian:0 "Keisarríki"
- king_male_north_germanic_group:0 "Konungr"
- king_female_north_germanic_group:0 "Dróttning"
- kingdom_north_germanic_group:0 "Ríki"
- duke_male_north_germanic_group_independent:0 "Konungr"
- duke_female_north_germanic_group_independent:0 "Dróttning"
- duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
- dependent_duchy_north_germanic_group:0 "$duchy_north_germanic_group$"
- independent_duchy_north_germanic:0 "Ríki"
- duke_male_north_germanic_group:0 "Jarl"
- duke_female_north_germanic_group:0 "Frú"
- duke_female_norse:0 "Freyja"
- duchy_north_germanic_group:0 "Jarldómr"
- count_feudal_male_north_germanic_group_independent:0 "Dróttinn"
- count_feudal_female_north_germanic_group_independent:0 "Dróttning"
- county_feudal_north_germanic_group_independent:0 "Fylki"
- count_tribal_male_north_germanic_group_independent:0 "Fylkiskonungr"
- count_tribal_female_north_germanic_group_independent:0 "Fylkisdróttning"
- county_tribal_north_germanic_group_independent:0 "Fylki"
- baron_feudal_male_norse:0 "Hersir"
- baron_male_norwegian:0 "Lendrmaðr"
- baron_feudal_female_norse:0 "Freyja"
- baron_female_northmen:0 "Frú"
- baron_female_norwegian:0 "Lendrkona"
- barony_norse:0 "Herað"
- count_male_norse:0 "Höfðingi"
- count_female_norse:0 "Freyja"
- count_female_northmen:0 "Frú"
- county_swedish:0 "Landskap"
- county_danish:0 "Sýsla"
- county_norwegian:0 "Fylki"
- county_norse:0 "Fylki"
- baron_republic_male_north_germanic_group:0 "Hauldr"
- barony_republic_north_germanic_group:0 "Borg"
- count_republic_male_north_germanic_group:0 "Hauldr"
  
  ###Balto-Finnic###
  king_male_finnish:0 "Kuningas"
@@ -2042,11 +2065,13 @@ county_republic_vlach:0 "Județ"
 duke_feudalclan_male_vlach:0 "[CHARACTER.Custom('DukeMaleVlach')]"
 marquess_male_vlach:0 "Margrav"
 palatine_male_vlach:0 "Principe Palatin"
-duke_default_male_vlach:0 "[CHARACTER.Custom('DukeFemaleVlach')]"
+duke_default_male_vlach:0 "Ban"
+
+duke_feudalclan_female_vlach:0 "[CHARACTER.Custom('DukeFemaleVlach')]"
 marquess_female_vlach:0 "Margravină"
 palatine_female_vlach:0 "Principesă Palatină"
-duke_default_female_vlach:0 "Ban"
-duke_feudalclan_female_vlach:0 "Băneasă"
+duke_default_female_vlach:0 "Băneasă"
+
 duchy_feudalclan_vlach:0 "[CHARACTER.Custom('DuchyVlach')]"
 march_vlach:0 "Marcă"
 palatinate_vlach:0 "Palatinat"
@@ -2119,6 +2144,63 @@ emperor_female_bulgarian:0 "Carica"
 empire_bulgarian:0 "Carstvo" 
 title_prince_male_bulgarian_empire:0 "Carevišt"
 title_prince_female_bulgarian_empire:0 "Carevna"
+
+## West Slavic Group ##
+
+## Pommeranian ##
+baron_male_pommeranian:0 "Gardnik"
+baron_female_pommeranian:0 "Gardninô"
+barony_pommeranian:0 "Gardzëszcze"
+
+count_feudalclan_male_pommeranian:0 "Żupan"
+count_feudalclan_female_pommeranian:0 "Żupani"
+county_feudalclan_pommeranian:0 "Żupa"
+
+duke_feudalclan_male_pommeranian:0 "[CHARACTER.Custom('DukeMalePomm')]"
+duke_feudalclan_female_pommeranian:0 "[CHARACTER.Custom('DukeFemalePomm')]"
+duchy_feudalclan_pommeranian:0 "[CHARACTER.Custom('DuchyPomm')]"
+marquess_male_pommeranian:0 "Margraf"
+marquess_female_pommeranian:0 "Margrafka"
+march_pommeranian:0 "Marchiô"
+palatine_male_pommeranian:0 "Palatin"
+palatine_female_pommeranian:0 "Palatinka"
+palatinate_pommeranian:0 "Palatynat"
+duke_default_male_pommeranian:0 "Ksążã"
+duke_default_female_pommeranian:0 "Ksãżnô"
+duchy_default_pommeranian:0 "Ksãżstwò"
+
+king_male_pommeranian:0 "Król"
+king_female_pommeranian:0 "Królowô"
+kingdom_pommeranian:0 "Królestwò"
+
+emperor_male_pommeranian:0 "Césôrz"
+emperor_female_pommeranian:0 "Césôrka"
+empire_pommeranian:0 "Césôrzewiónka"
+
+title_prince_male_pommeranian:0 "Królewicz"
+title_prince_female_pommeranian:0 "Królewiónka"
+title_prince_empire_male_pommeranian:0 "Césôrezwicz"
+title_prince_empire_female_pommeranian:0 "Césôrzewiónka"
+
+baron_male_republic_pommeranian:0 "Stôrosta"
+baron_female_republic_pommeranian:0 "Stôroscëna"
+barony_republic_pommeranian:0 "Gard"
+count_male_republic_pommeranian:0 "Bùrméster"
+count_female_republic_pommeranian:0 "Bùrmésterka"
+county_republic_pommeranian:0 "Miasto"
+duchy_republic_pommeranian:0 "Zemia"
+kingdom_republic_pommeranian:0 "Repùblika"
+
+count_male_tribal_pommeranian:0 "Wódz"
+count_female_tribal_pommeranian:0 "Wòdzënô"
+county_tribal_pommeranian:0 "Plemiã"
+duke_male_tribal_pommeranian:0 "Wòjewòda"
+duke_female_tribal_pommeranian:0 "Wòjewòdzënô"
+duchy_tribal_pommeranian:0 "Wiôldżé Plemiã"
+
+king_male_pommeranian_muslim:0 "Sułtan"
+king_female_pommeranian_muslim:0 "Sułtanka"
+kingdom_pommeranian_muslim:0 "Sułtanat"
 
 ## Magyar Group ##
 
@@ -2200,3 +2282,107 @@ king_female_hungarian_muslim:0 "Szultána"
 kingdom_hungarian_muslim:0 "Szultánság"
 count_tribal_male_hungarian:0 "Törzsfőnök"
 count_tribal_female_hungarian:0 "Törzsfőnökasszony"
+
+########################################################
+### East African Culture Group 
+########################################################
+########################################################
+## Ethiopian Culture
+###tribal in feudalclan for now
+
+baron_male_ethiopian:0 "Balabbat"
+baron_female_ethiopian:0 "Wäyzäró"
+baron_female_holder_ethiopian:0 "Balabbat"
+barony_ethiopian:0 "Dästa"
+
+count_feudalclan_male_ethiopian:0 "Śeyum"
+count_feudalclan_female_ethiopian:0 "Wäyzäró"
+count_feudalclan_female_holder_ethiopian:0 "Śeyum"
+county_feudalclan_ethiopian:0 "Nagit"
+
+duke_feudalclan_male_ethiopian:0 "Nagāśi"
+duke_feudalclan_female_ethiopian:0 "Nagāśit"
+duchy_feudalclan_ethiopian:0 "Hagar"
+
+duke_feudalclan_male_ethiopian_independent:0 "Masfən"
+duke_feudalclan_female_ethiopian_independent:0 "Səfanit"
+duchy_feudalclan_ethiopian_independent:0 "[CHARACTER.Custom('EthiopianIndepDuchy')]"
+duchy_default_ethiopian:0 "$duchy_feudalclan_ethiopian$"
+independent_duchy_ethiopian:0 "Səfnat"
+
+king_male_ethiopian:0 "Nəguś"
+king_female_ethiopian:0 "Qäññ Ba'āltiḥat"
+king_female_holder_ethiopian:0 "Nəgist"
+kingdom_ethiopian:0 "Mängistä"
+
+emperor_male_ethiopian:0 "Nəgusa Nägäst"
+emperor_female_ethiopian:0 "Qäññ Ba'āltiḥat"
+emperor_female_holder_ethiopian:0 "Nígəstä Nəgəstât"
+empire_ethiopian:0 "Mängistä"
+
+title_prince_male_ethiopian:0 "Abētō"
+title_prince_female_ethiopian:0 "Lə'əlt"
+title_prince_male_ethiopian_empire:0 "Abētō"
+title_prince_female_ethiopian_empire:0 "Lə'əlt"
+
+baron_male_republic_ethiopian:0 "Käntiba"
+barony_republic_ethiopian:0 "Hagarit"
+
+########################################################
+## Nubian Culture
+
+baron_male_nubian:0 "Ŋod"
+baron_female_nubian:0 "Eitt"
+baron_female_holder_nubian:0 "Ŋod"
+barony_nubian:0 "Ŋodkane"
+
+count_feudalclan_male_nubian:0 "Samet"
+count_female_nubian:0 "Eitt"
+count_feudalclan_female_holder_nubian:0 "Samet"
+county_feudalclan_nubian:0 "Samett"
+
+duke_feudalclan_male_nubian:0 "[CHARACTER.Custom('DukeNubian')]"
+marquess_male_nubian:0 "Seudŋod"
+palatine_nubian:0 "Ŋokŋod"
+duke_default_nubian:0 "Soŋoj"
+duke_female_nubian:0 "Eitt"
+duke_feudalclan_female_holder_nubian:0 "[CHARACTER.Custom('DukeNubian')]"
+duchy_feudalclan_nubian:0 "[CHARACTER.Custom('DuchyNubian')]"
+march_nubian:0 "Seud"
+palatinate_nubian:0 "Ŋokkane"
+duchy_default_nubian:0 "Soŋojj"
+
+duke_feudalclan_male_nubian_independent:0 "Ourou"
+duke_feudalclan_female_nubian_independent:0 "Ŋonnen"
+duke_feudalclan_female_nubian_holder_independent:0 "Ŋonn"
+duchy_feudalclan_nubian_independent:0 "[CHARACTER.Custom('NubianIndepDuchy')]"
+duchy_default_nubian_independent:0 "$duchy_default_nubian$"
+independent_duchy_nubian:0 "Ourkane"
+
+king_male_nubian:0 "Ourou"
+king_female_nubian:0 "Ŋonnen"
+king_female_nubian_holder:0 "Ŋonn"
+kingdom_nubian:0 "Ourkane"
+
+emperor_male_nubian:0 "Ourougouna Ourou"
+emperor_female_nubian:0 "Ŋonnengouna Ŋonnen"
+emperor_female_nubian_holder:0 "Ŋonngouna Ŋonn"
+empire_nubian:0 "Ourkane Our"
+
+title_prince_male_nubian:0 "Pour"
+title_prince_female_nubian:0 "Ŋonnas"
+title_prince_male_nubian_empire:0 "Pour"
+title_prince_female_nubian_empire:0 "Ŋonnas"
+title_queen_mother_nubian:0 "Ŋonnen"
+title_queen_mother_nubian_empire:0 "Ŋonnengouna Ŋonnen"
+
+baron_male_republic_nubian:0 "Daukatt"
+baron_female_republic_nubian:0 "Daukatt"
+barony_republic_nubian:0 "Dipp"
+
+count_male_tribal_nubian:0 "Ouran"
+count_female_tribal_holder_nubian:0 "Ouran"
+county_tribal_nubian:0 "Jer"
+duke_male_tribal_nubian:0 "Ouranudauel"
+duke_female_tribal_holder_nubian:0 "Ouranudauel"
+duchy_tribal_nubian:0 "Jerudauel"
