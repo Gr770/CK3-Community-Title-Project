@@ -375,3 +375,42 @@ SicilianIndepDuchy = {
 		localization_key = independent_duchy_sicilian
 	}
 }
+EthiopianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_ethiopian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_ethiopian
+	}
+}
+EthiopianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_ethiopian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_ethiopian
+	}
+}
+NubianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_nubian_independent
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_nubian
+	}
+}
