@@ -1271,6 +1271,160 @@ DuchyAragonese = {
 		fallback = yes
 	}
 }
+DukeMaleFinnish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_finnish
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_finnish
+	}
+	text = {
+		localization_key = duke_default_male_finnish
+		fallback = yes
+	}
+}
+DukeFemaleFinnish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_finnish
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_finnish
+	}
+	text = {
+		localization_key = duke_default_female_finnish
+		fallback = yes
+	}
+}
+DuchyFinnish = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_finnish
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_finnish
+	}
+	text = {
+		localization_key = duchy_default_finnish
+		fallback = yes
+	}
+}
+DukeMaleEstonian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_estonian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_estonian
+	}
+	text = {
+		localization_key = duke_default_male_estonian
+		fallback = yes
+	}
+}
+DukeFemaleEstonian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_estonian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_estonian
+	}
+	text = {
+		localization_key = duke_default_female_estonian
+		fallback = yes
+	}
+}
+DuchyEstonian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_estonian
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_estonian
+	}
+	text = {
+		localization_key = duchy_default_estonian
+		fallback = yes
+	}
+}
 DukeMaleCenGerman = {
 	type = character
 	text = {
@@ -1851,83 +2005,7 @@ DuchySardinianSicilian = {
 		fallback = yes
 	}
 }
-DukeMaleFinnish = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
-		}
-		localization_key = marquess_male_finnish
-	}
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
-		}
-		localization_key = palatine_male_finnish
-	}
-	text = {
-		localization_key = duke_default_male_finnish
-		fallback = yes
-	}
-}
-DukeFemaleFinnish = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
-		}
-		localization_key = marquess_female_finnish
-	}
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
-		}
-		localization_key = palatine_female_finnish
-	}
-	text = {
-		localization_key = duke_default_female_finnish
-		fallback = yes
-	}
-}
-DuchyFinnish = {
-	type = character
-	text = {
-		trigger = {
-			vassal_contract_has_flag = has_march_contract
-		}
-		localization_key = march_finnish
-	}
-	text = {
-		trigger = {
-			vassal_contract_has_flag = has_palatinate_contract
-		}
-		localization_key = palatinate_finnish
-	}
-	text = {
-		localization_key = duchy_default_finnish
-		fallback = yes
-	}
-}
+
 DukeMaleSerbian = {
 	type = character
 	text = {

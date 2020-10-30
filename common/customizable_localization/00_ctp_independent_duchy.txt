@@ -251,11 +251,50 @@ FinnishIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_feudal_finnish
+		localization_key = dependent_duchy_finnish
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_finnish
+	}
+}
+EstonianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_estonian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_estonian
+	}
+}
+KarelianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_karelian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_karelian
+	}
+}
+VepsianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_vepsian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_vepsian
 	}
 }
 SaxonIndepDuchy = {
