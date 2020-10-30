@@ -250,6 +250,83 @@ DuchyAngloSaxon = {
 		fallback = yes
 	}
 }
+DukeMaleOldSaxon = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_old_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_old_saxon
+	}
+	text = {
+		localization_key = duke_default_male_old_saxon
+		fallback = yes
+	}
+}
+DukeFemaleOldSaxon = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_old_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_old_saxon
+	}
+	text = {
+		localization_key = duke_default_female_old_saxon
+		fallback = yes
+	}
+}
+DuchyOldSaxon = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_old_saxon
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_old_saxon
+	}
+	text = {
+		localization_key = duchy_default_old_saxon
+		fallback = yes
+	}
+}
 DukeMalePictish = {
 	type = character
 	text = {
@@ -1425,83 +1502,6 @@ DuchyEstonian = {
 		fallback = yes
 	}
 }
-DukeMaleCenGerman = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
-		}
-		localization_key = marquess_male_old_high_german
-	}
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
-		}
-		localization_key = palatine_male_old_high_german
-	}
-	text = {
-		localization_key = duke_default_male_old_high_german
-		fallback = yes
-	}
-}
-DukeFemaleCenGerman = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
-		}
-		localization_key = marquess_female_old_high_german
-	}
-	text = {
-		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
-		}
-		localization_key = palatine_female_old_high_german
-	}
-	text = {
-		localization_key = duke_default_female_old_high_german
-		fallback = yes
-	}
-}
-DuchyCenGerman = {
-	type = character
-	text = {
-		trigger = {
-			vassal_contract_has_flag = has_march_contract
-		}
-		localization_key = march_old_high_german
-	}
-	text = {
-		trigger = {
-			vassal_contract_has_flag = has_palatinate_contract
-		}
-		localization_key = palatinate_old_high_german
-	}
-	text = {
-		localization_key = duchy_default_old_high_german
-		fallback = yes
-	}
-}
 DukeMaleSaxon = {
 	type = character
 	text = {
@@ -1579,6 +1579,84 @@ DuchySaxon = {
 		fallback = yes
 	}
 }
+DukeMaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_middle_high_german
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_middle_high_german
+	}
+	text = {
+		localization_key = duke_default_male_middle_high_german
+		fallback = yes
+	}
+}
+DukeFemaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_middle_high_german
+	}
+	text = {
+		localization_key = duke_default_female_middle_high_german
+		fallback = yes
+	}
+}
+DuchyMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_middle_high_german
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_middle_high_german
+	}
+	text = {
+		localization_key = duchy_default_middle_high_german
+		fallback = yes
+	}
+}
+
 DukeMaleFrisian = {
 	type = character
 	text = {
