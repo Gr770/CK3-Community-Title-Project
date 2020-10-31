@@ -254,6 +254,8 @@
  
  count_male_old_saxon:0 "Grâvio"
  count_female_old_saxon:0 "Grâvin"
+ count_male_old_saxon_independent:0 "Furisto"
+ count_female_old_saxon_independent:0 "Furistin"
  
  duke_male_old_saxon:0 "[CHARACTER.Custom('DukeMaleOldSaxon')]"
  duke_default_male_old_saxon:0 "Heritogo"
@@ -270,6 +272,10 @@
  
  barony_old_saxon:0 "Hêrskepi"
  county_old_saxon:0 "Gô"
+ 
+ county_old_saxon_independent:0 "[CHARACTER.Custom('OldSaxonIndepCounty')]"
+ independent_county_old_saxon:0 "Furistdôm"
+ dependent_county_old_saxon:0 "$county_old_saxon$"
  
  duchy_old_saxon:0 "[CHARACTER.Custom('DuchyOldSaxon')]"
  duchy_default_old_saxon:0 "Heritogdôm"
@@ -1547,6 +1553,9 @@
  count_male_saxon:0 "Grêve"
  count_female_saxon:0 "Grêvinne"
  
+ count_male_saxon_independent:0 "Vrîgrêve"
+ count_female_saxon_independent:0 "Vrîgrêvinne"
+ 
  duke_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
  duke_default_male_saxon:0 "Hertoch"
  
@@ -1562,6 +1571,10 @@
  
  barony_saxon:0 "Hêrschop"
  county_saxon:0 "Grêveschop"
+ 
+ county_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepCounty')]"
+ independent_county_saxon:0 "Vrîgrêveschop"
+ dependent_county_saxon:0 "$county_saxon$"
  
  duchy_saxon:0 "[CHARACTER.Custom('DuchySaxon')]"
  duchy_default_saxon:0 "Hertochdôm"
@@ -1593,6 +1606,9 @@
  count_male_middle_high_german:0 "Grâve"
  count_female_middle_high_german:0 "Grâvin"
  
+ count_male_middle_high_german_independent:0 "Vrîgrâve"
+ count_female_middle_high_german_independent:0 "Vrîgrâvin"
+ 
  duke_male_middle_high_german:0 "[CHARACTER.Custom('DukeMaleMiddleHighGerman')]"
  duke_default_male_middle_high_german:0 "Herzoge"
  
@@ -1608,6 +1624,10 @@
  
  barony_middle_high_german:0 "Hêrschaft"
  county_middle_high_german:0 "Grâveschaft"
+ 
+ county_middle_high_german_independent:0 "[CHARACTER.Custom('MiddleHighGermanIndepCounty')]"
+ independent_county_middle_high_german:0 "Vrîgrâveschaft"
+ dependent_county_middle_high_german:0 "$county_middle_high_german$"
  
  duchy_middle_high_german:0 "[CHARACTER.Custom('DuchyMiddleHighGerman')]"
  duchy_default_middle_high_german:0 "Herzogentuom"
@@ -1638,7 +1658,8 @@
  
  count_male_frisian:0 "Grêva"
  count_female_frisian:0 "Grêven"
- 
+ count_male_frisian_independent:0 "Forsta"
+ count_female_frisian_independent:0 "Forsten"
  duke_male_frisian:0 "[CHARACTER.Custom('DukeMaleFrisian')]"
  duke_default_male_frisian:0 "Hertoga"
  
@@ -1654,6 +1675,10 @@
  
  barony_frisian:0 "Hêrskipi"
  county_frisian:0 "Gâ"
+ 
+ county_frisian_independent:0 "[CHARACTER.Custom('FrisianIndepCounty')]"
+ independent_county_frisian:0 "Forstdôm"
+ dependent_county_frisian:0 "$county_frisian$"
  
  duchy_frisian:0 "[CHARACTER.Custom('DuchyFrisian')]"
  duchy_default_frisian:0 "Hertogdôm"
@@ -1677,7 +1702,7 @@
  palatinate_frisian:0 "Palas"
 
 #########################################################
-## Dutch (Middle Dutch) ##To be Added
+## Dutch (Middle Dutch) ##To be Changed
 
  baron_male_dutch:0 "Hêrro"
  baron_female_dutch:0 "Frûa"
@@ -1685,13 +1710,16 @@
  count_male_dutch:0 "Grâvio"
  count_female_dutch:0 "Grâvin"
  
+ count_male_dutch_independent:0 "Furist"
+ count_female_dutch_independent:0 "Furistin"
+ 
  duke_male_dutch:0 "[CHARACTER.Custom('DukeMaleDutch')]"
  duke_default_male_dutch:0 "Heritogo"
  
  duke_female_dutch:0 "[CHARACTER.Custom('DukeFemaleDutch')]"
  duke_default_female_dutch:0 "Heritogin"
  
- duke_male_dutch_independent:0 "Furisto" 
+ duke_male_dutch_independent:0 "Furist" 
  duke_female_dutch_independent:0 "Furistin"
  king_male_dutch:0 "Kuning"
  king_female_dutch:0 "Kuningin"
@@ -1700,6 +1728,10 @@
  
  barony_dutch:0 "Hêrskepi"
  county_dutch:0 "Gô"
+ 
+ county_dutch_independent:0 "[CHARACTER.Custom('DutchIndepCounty')]"
+ independent_county_dutch:"Furistduom"
+ dependent_county_dutch:"$county_dutch$"
  
  duchy_dutch:0 "[CHARACTER.Custom('DuchyDutch')]"
  duchy_default_dutch:0 "Heritogdôm"
