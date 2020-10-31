@@ -1981,11 +1981,9 @@
 ## Sardinian Culture
 
  baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
- baron_male_sardinian_holder:0 "[CHARACTER.Custom('BaronMaleSardinianHolder')]"
  baron_male_sardinian_default:0 "Baròni"
  
  baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
- baron_female_sardinian_holder:0 "[CHARACTER.Custom('BaronFemaleSardinianHolder')]"
  baron_female_sardinian_default:0 "Barònissa"
  
  count_male_sardinian:0 "Conti"
@@ -2009,7 +2007,7 @@
  title_prince_male_sardinian_empire:0 "Príncipi"
  title_prince_female_sardinian_empire:0 "Printzèsa"
  
- barony_sardinian:0 "[CHARACTER.Custom('BaronySardinianFeudal')]"
+ barony_sardinian:0 "[CHARACTER.Custom('BaronySardinian')]"
  barony_feudal_sardinian_default:0 "Baronia"
  
  county_sardinian:0 "Contadu"
@@ -2023,7 +2021,16 @@
  
  kingdom_sardinian:0 "Rennu"
  empire_sardinian:0 "Imperu"
-
+ 
+ baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianRepublic')]"
+ baron_default_republic_male_sardinian:0 "Major"
+ 
+ baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianRepublic')]"
+ baron_default_republic_female_sardinian:0 "Major"
+ 
+ barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianRepublic')]" 
+ barony_default_republic_sardinian:0 "City" ## Have to add in future
+ 
  marquess_male_sardinian:0 "Markgrâvio"
  marquess_female_sardinian:0 "Markgrâvin"
  palatine_male_sardinian:0 "Palencgrâvio"
@@ -2039,18 +2046,12 @@
  judicatu_sardinian:0 [CHARACTER.Custom('SardinianIndepCounty')]
  judicatu_independent:0 "Judicatu"
  judicatu_feudal_dependent:0 "$county_sardinian$" 
- judicatu_republic_dependent:0 "City" ##Have to add this in future
+ judicatu_republic_dependent:0 "Grand City" ##Have to add this in future
  
  ### Have to be checked
- 
- baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianCity')]"
- baron_city_sardinian_default:0 "Major"
- 
- baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianCity')]"
- barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianCity')]" 
  curadore_sardinian:0 "Curadore"
- curadoria_sardinian:0 "Curadoria"
  baron_blank:0 ""
+ curadoria_sardinian:0 "Curadoria"
  
 ########################################################
 ## Sicilian Culture
