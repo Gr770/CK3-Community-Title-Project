@@ -1811,6 +1811,73 @@ DuchyDutch = {
 		fallback = yes
 	}
 }
+DukeMaleArmenian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_armenian
+	}
+	text = {
+		localization_key = duke_default_male_armenian
+		fallback = yes
+	}
+}
+DukeFemaleArmenian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_armenian
+	}
+	text = {
+		localization_key = duke_default_female_armenian
+		fallback = yes
+	}
+}
+DukeFemaleHolderArmenian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_armenian
+	}
+	text = {
+		localization_key = duke_default_holder_female_armenian
+		fallback = yes
+	}
+}
+DuchyArmenian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_armenian
+	}
+	text = {
+		localization_key = duchy_default_armenian
+		fallback = yes
+	}
+}
 DukeMaleItalian = {
 	type = character
 	text = {
