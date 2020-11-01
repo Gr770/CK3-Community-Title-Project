@@ -248,8 +248,56 @@
  
 ###########################################################
 ### Old Saxon 
-### This is combined with Saxon 
 
+ baron_male_old_saxon:0 "Hêrro"
+ baron_female_old_saxon:0 "Frûa"
+ 
+ count_male_old_saxon:0 "Grâvio"
+ count_female_old_saxon:0 "Grâvin"
+ count_male_old_saxon_independent:0 "Furisto"
+ count_female_old_saxon_independent:0 "Furistin"
+ 
+ duke_male_old_saxon:0 "[CHARACTER.Custom('DukeMaleOldSaxon')]"
+ duke_default_male_old_saxon:0 "Heritogo"
+ 
+ duke_female_old_saxon:0 "[CHARACTER.Custom('DukeFemaleOldSaxon')]"
+ duke_default_female_old_saxon:0 "Heritogin"
+ 
+ duke_male_old_saxon_independent:0 "Furisto" 
+ duke_female_old_saxon_independent:0 "Furistin"
+ king_male_old_saxon:0 "Kuning"
+ king_female_old_saxon:0 "Kuningin"
+ emperor_male_old_saxon:0 "Kêsur"
+ emperor_female_old_saxon:0 "Kêsurin"
+ 
+ barony_old_saxon:0 "Hêrskepi"
+ county_old_saxon:0 "Gô"
+ 
+ county_old_saxon_independent:0 "[CHARACTER.Custom('OldSaxonIndepCounty')]"
+ independent_county_old_saxon:0 "Furistdôm"
+ dependent_county_old_saxon:0 "$county_old_saxon$"
+ 
+ duchy_old_saxon:0 "[CHARACTER.Custom('DuchyOldSaxon')]"
+ duchy_default_old_saxon:0 "Heritogdôm"
+ 
+ duchy_old_saxon_independent:0 "[CHARACTER.Custom('OldSaxonIndepDuchy')]"
+ dependent_duchy_old_saxon:0 "$duchy_default_old_saxon$"
+ independent_duchy_old_saxon:0 "Furistdôm"
+ 
+ kingdom_old_saxon:0 "Kuningrîki"
+ empire_old_saxon:0 "Kêsurdôm"
+ 
+ baron_republic_male_old_saxon:0 "Skuldhêtio"
+ baron_republic_female_old_saxon:0 "Skuldhêtio"
+ barony_republic_old_saxon:0 "Burg"
+ 
+ marquess_male_old_saxon:0 "Markgrâvio"
+ marquess_female_old_saxon:0 "Markgrâvin"
+ palatine_male_old_saxon:0 "Palencgrâvio"
+ palatine_female_old_saxon:0 "Palencgrâvin"
+ march_old_saxon:0 "Marka"
+ palatinate_old_saxon:0 "Palencea"
+ 
 ###########################################################
 ## Scottish 
 
@@ -283,12 +331,12 @@
  kingdom_scottish:0 "Kinrick"
  empire_scottish:0 "Empyre"
  
- baron_republic_male_scottish:0 "Prouost"
- baron_republic_female_scottish:0 "Prouost"
- count_republic_male_scottish:0 "Lord Prouost"
- count_republic_female_scottish:0 "Ledie Prouost"
- duke_republic_male_scottish:0 "Gouernour"
- duke_republic_female_scottish:0 "Gouerneresse"
+ baron_republic_male_scottish:0 "Provost"
+ baron_republic_female_scottish:0 "Provost"
+ count_republic_male_scottish:0 "Lord Provost"
+ count_republic_female_scottish:0 "Ledie Provost"
+ duke_republic_male_scottish:0 "Governour"
+ duke_republic_female_scottish:0 "Governeresse"
  kingdom_republic_male_scottish:0 "Consule"
  kingdom_republic_female_scottish:0 "Consulesse"
  
@@ -1314,181 +1362,397 @@
  dependent_county_danish:0 "$county_danish$"
  
 ########################################################
+###  Balto-Finnic Culture Group
+########################################################
+
+########################################################
+## Finnish Culture
+
+ baron_male_finnish:0 "Vapaaherra"
+ baron_female_finnish:0 "Vapaaherratar"
+ count_feudalclan_male_finnish:0 "Kreivi"
+ count_feudalclan_female_finnish:0 "Kreivitär"
+ 
+ duke_feudalclan_male_finnish:0 "[CHARACTER.Custom('DukeMaleFinnish')]"
+ duke_default_male_finnish:0 "Herttua"
+ 
+ duke_feudalclan_female_finnish:0 "[CHARACTER.Custom('DukeFemaleFinnish')]"
+ duke_default_female_finnish:0 "Herttuatar"
+ 
+ duke_feudalclan_male_finnish_independent:0 "Ruhtinas"
+ duke_feudalclan_female_finnish_independent:0 "Ruhtinatar"
+ 
+ king_male_finnish:0 "Kuningas"
+ king_female_finnish:0 "Kuningatar"
+ emperor_male_finnish:0 "Keisari"
+ emperor_female_finnish:0 "Keisarinna"
+ 
+ barony_finnish:0 "Vapaaherrakunta"
+ county_feudalclan_finnish:0 "Kreivikunta"
+ 
+ duchy_feudalclan_finnish:0 "[CHARACTER.Custom('DuchyFinnish')]"
+ duchy_default_finnish:0 "Herttuakunta"
+ 
+ duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
+ independent_duchy_finnish:0 "Ruhtinaskunta"
+ dependent_duchy_finnish:0 "$duchy_default_finnish$"
+ 
+ kingdom_finnish:0 "Kuningaskunta"
+ empire_finnish:0 "Keisarikunta"
+ 
+ count_tribal_finnish:0 "Heimopäällikkö"
+ count_tribal_finnish:0 "Heimopäällikkö"
+ duke_tribal_finnish:0 "Suurheimopäällikkö"
+ duke_tribal_finnish:0 "Suurheimopäällikkö"
+ 
+ county_tribal_finnish:0 "Heimo"
+ duchy_tribal_finnish:0 "Suurheimo"
+ 
+ marquess_male_finnish:0 "Markiisi"
+ marquess_female_finnish:0 "Markiisitar"
+ palatine_male_finnish:0 "Palatsikreivi"
+ palatine_female_finnish:0 "Palatsikreivitär"
+ march_finnish:0 "Markiisikunta"
+ palatinate_finnish:0 "Palatsikreivikunta"
+ 
+########################################################
+## Estonian Culture
+
+ baron_male_estonian:0 "Parun"
+ baron_female_estonian:0 "Paruness"
+ count_feudalclan_male_estonian:0 "Krahv"
+ count_feudalclan_female_estonian:0 "Krahvinna"
+ 
+ duke_feudalclan_male_estonian:0 "[CHARACTER.Custom('DukeMaleEstonian')]"
+ duke_default_male_estonian:0 "Hertsog"
+ 
+ duke_feudalclan_female_estonian:0 "[CHARACTER.Custom('DukeFemaleEstonian')]"
+ duke_default_female_estonian:0 "Hertsoginna"
+ 
+ duke_feudalclan_male_estonian_independent:0 "Vürst"
+ duke_feudalclan_female_estonian_independent:0 "Vürstinna"
+ 
+ king_male_estonian:0 "Kuningas"
+ king_female_estonian:0 "Kuninganna"
+ emperor_male_estonian:0 "Keiser"
+ emperor_female_estonian:0 "Keisrinna"
+ 
+ barony_estonian:0 "Parunkond"
+ county_feudalclan_estonian:0 "Krahvkond"
+ 
+ duchy_feudalclan_estonian:0 "[CHARACTER.Custom('DuchyEstonian')]"
+ duchy_default_estonian:0 "Hertsogiriik"
+ 
+ duchy_estonian_independent:0 "[CHARACTER.Custom('EstonianIndepDuchy')]"
+ independent_duchy_estonian:0 "Vürstiriik"
+ dependent_duchy_estonian:0 "$duchy_default_estonian$"
+ 
+ kingdom_estonian:0 "Kuningriik" 
+ empire_estonian:0 "Keisririik"
+
+ count_tribal_estonian:0 "Hõimuvanem"
+ count_tribal_estonian:0 "Hõimuvanem"
+ duke_tribal_estonian:0 "Hõimkonnavanem"
+ duke_tribal_estonian:0 "Hõimkonnavanem"
+ 
+ county_tribal_estonian:0 "Hõim "
+ duchy_tribal_estonian:0 "Hõimkond"
+ 
+ marquess_male_estonian:0 "Markkrahv"
+ marquess_female_estonian:0 "Markkrahvinna"
+ palatine_male_estonian:0 "Pfaltskrahv"
+ palatine_female_estonian:0 "Pfaltskrahvinna"
+ march_estonian:0 "Markkrahvkond"
+ palatinate_estonian:0 "Pfaltskrahvkond"
+ 
+########################################################
+## Karelian Culture
+
+ baron_male_karelian:0 "Ižändä"
+ baron_female_karelian:0 "Emändä"
+ count_feudalclan_male_karelian:0 "Kreivi"
+ count_feudalclan_female_karelian:0 "Kreivinaine"
+ 
+ duke_feudalclan_male_karelian:0 "Gertsogu"
+ duke_feudalclan_female_karelian:0 "Gertsogunaine"
+ 
+ duke_feudalclan_male_karelian_independent:0 "Ruhtinas"
+ duke_feudalclan_female_karelian_independent:0 "Ruhtinasnaine"
+ 
+ king_male_karelian:0 "Kuningas"
+ king_female_karelian:0 "Kuningasnaine"
+ emperor_male_karelian:0 "Keisari"
+ emperor_female_karelian:0 "Keisarinna"
+ 
+ barony_karelian:0 "Ižändäkundu"
+ county_feudalclan_karelian:0 "Kreivikundu"
+ duchy_feudalclan_karelian:0 "Gertsogukundu"
+ 
+ duchy_karelian_independent:0 "[CHARACTER.Custom('KarelianIndepDuchy')]"
+ independent_duchy_karelian:0 "Ruhtinaskundu"
+ dependent_duchy_karelian:0 "$duchy_feudalclan_karelian$"
+ 
+ kingdom_karelian:0 "Kuningaskundu"
+ empire_karelian:0 "Keisarikundu"
+
+ count_tribal_karelian:0 "Heimopiälikkö"
+ count_tribal_karelian:0 "Heimopiälikkö"
+ duke_tribal_karelian:0 "Šuuriheimopiälikkö"
+ duke_tribal_karelian:0 "Šuuriheimopiälikkö"
+ 
+ county_tribal_karelian:0 "Heimo"
+ duchy_tribal_karelian:0 "Šuuriheimo"
+
+########################################################
+## Vepsian Culture
+
+ baron_male_vepsian:0 "Ižand"
+ baron_female_vepsian:0 "Emänd"
+ count_feudalclan_male_vepsian:0 "Graf"
+ count_feudalclan_female_vepsian:0 "Grafnaine"
+ 
+ duke_feudalclan_male_vepsian:0 "Gercog"
+ duke_feudalclan_female_vepsian:0 "Gercognaine"
+ 
+ duke_feudalclan_male_vepsian_independent:0 "Ruhtinaz"
+ duke_feudalclan_female_vepsian_independent:0 "Ruhtinaznaine"
+ 
+ king_male_vepsian:0 "Kunigaz"
+ king_female_vepsian:0 "Kunigaznaine"
+ emperor_male_vepsian:0 "Keisri"
+ emperor_female_vepsian:0 "Keisrinaine"
+ 
+ barony_vepsian:0 "Ižandkund"
+ county_feudalclan_vepsian:0 "Grafkund"
+ duchy_feudalclan_vepsian:0 "Gercogkund"
+ 
+ duchy_vepsian_independent:0 "[CHARACTER.Custom('VepsianIndepDuchy')]"
+ independent_duchy_vepsian:0 "Ruhtinazkund"
+ dependent_duchy_vepsian:0 "$duchy_feudalclan_vepsian$"
+ 
+ kingdom_vepsian:0 "Kunigahuz" 
+ empire_vepsian:0 "Keisrikund"
+
+ count_tribal_vepsian:0 "Heimpälik"
+ count_tribal_vepsian:0 "Heimpälik"
+ duke_tribal_vepsian:0 "Sur' Heimpälik"
+ duke_tribal_vepsian:0 "Sur' Heimpälik"
+ 
+ county_tribal_vepsian:0 "Heim"
+ duchy_tribal_vepsian:0 "Sur' Heim"
+ 
+########################################################
 ###  Central Germanic Culture Group
 ########################################################
 
- ##Saxon##
- baron_male_saxon:0 "Hêrro"
- baron_female_saxon:0 "Frûa"
- barony_saxon:0 "Gibûrida"
+########################################################
+## Saxon Culture (Middle Low German)
+ baron_male_saxon:0 "Vrîhêre"
+ baron_female_saxon:0 "Vrîvrouwe"
  
- count_feudalclan_male_saxon:0 "Grâvio"
- count_feudalclan_female_saxon:0 "Grâvin"
- county_feudalclan_saxon:0 "Gô"
+ count_male_saxon:0 "Grêve"
+ count_female_saxon:0 "Grêvinne"
  
- duke_feudalclan_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
- marquess_male_saxon:0 "Markgrâvio"
- palatine_male_saxon:0 "Palencgrâvio"
- duke_default_male_saxon:0 "Heritogo"
+ count_male_saxon_independent:0 "Vrîgrêve"
+ count_female_saxon_independent:0 "Vrîgrêvinne"
  
- duke_feudalclan_female_saxon:0 "[CHARACTER.Custom('DukeFemaleSaxon')]"
- marquess_female_saxon:0 "Markgrâvin"
- palatine_female_saxon:0 "Palencgrâvin"
- duke_default_female_saxon:0 "Heritogin"
+ duke_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
+ duke_default_male_saxon:0 "Hertoch"
  
- duchy_feudalclan_saxon:0 "[CHARACTER.Custom('DuchySaxon')]"
- march_saxon:0 "Marka"
- palatinate_saxon:0 "Palencea"
- duchy_default_saxon:0 "Heritogdôm"
+ duke_female_saxon:0 "[CHARACTER.Custom('DukeFemaleSaxon')]"
+ duke_default_female_saxon:0 "Hertôginne"
  
- duke_feudalclan_male_saxon_independent:0 "Furisto" ##Cause Old Saxon
- duke_feudalclan_female_saxon_independent:0 "Furistin" ##Cause Old Saxon
- duchy_feudalclan_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
- dependent_duchy_feudalclan_saxon:0 "$duchy_default_saxon$"
- independent_duchy_saxon:0 "Furistdôm"
+ duke_male_saxon_independent:0 "Vorste" 
+ duke_female_saxon_independent:0 "Vorstinne"
+ king_male_saxon:0 "Konink"
+ king_female_saxon:0 "Koninginne"
+ emperor_male_saxon:0 "Keiser"
+ emperor_female_saxon:0 "Keiserinne"
  
- king_male_saxon:0 "Kuning"
- king_female_saxon:0 "Kuningin"
- kingdom_saxon:0 "Kuningrîki"
+ barony_saxon:0 "Hêrschop"
+ county_saxon:0 "Grêveschop"
  
- emperor_male_saxon:0 "Kêsur"
- emperor_female_saxon:0 "Kêsurin"
- empire_saxon:0 "Kêsurdôm"
+ county_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepCounty')]"
+ independent_county_saxon:0 "Vrîgrêveschop"
+ dependent_county_saxon:0 "$county_saxon$"
  
- baron_republic_male_saxon:0 "Skuldhêtio"
- baron_republic_female_saxon:0 "Skuldhêtio"
+ duchy_saxon:0 "[CHARACTER.Custom('DuchySaxon')]"
+ duchy_default_saxon:0 "Hertochdôm"
  
-#Old High German (Franconian, Swabian, and Bavarian)
- baron_male_old_high_german:0 "Hêriro"
- baron_female_old_high_german:0 "Frouwa"
- barony_old_high_german:0 "Gibûrida"
+ duchy_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
+ dependent_duchy_saxon:0 "$duchy_default_saxon$"
+ independent_duchy_saxon:0 "Vorstendôm"
  
- count_feudalclan_male_old_high_german:0 "Grâfeo"
- count_feudalclan_female_old_high_german:0 "Grâfin"
- county_feudalclan_old_high_german:0 "Gouwi"
+ kingdom_saxon:0 "Koninkrîke"
+ empire_saxon:0 "Keiserrîke"
  
- duke_feudalclan_male_old_high_german:0 "[CHARACTER.Custom('DukeMaleCenGerman')]"
- marquess_male_old_high_german:0 "Marchgrâfio"
- palatine_male_old_high_german:0 "Pfalinzgrâfio"
- duke_default_male_old_high_german:0 "Herizogo"
+ baron_republic_male_saxon:0 "Schulthête"
+ baron_republic_female_saxon:0 "Schulthêtinne"
+ barony_republic_saxon:0 "Stat"
  
- duke_feudalclan_female_old_high_german:0 "[CHARACTER.Custom('DukeFemaleCenGerman')]"
- marquess_female_old_high_german:0 "Marchgrâfin"
- palatine_female_old_high_german:0 "Pfalinzgrâfin"
- duke_default_female_old_high_german:0 "Herizogin"
+ marquess_male_saxon:0 "Markgrêve"
+ marquess_female_saxon:0 "Markgrêvinne"
+ palatine_male_saxon:0 "Palanzgrêve"
+ palatine_female_saxon:0 "Palanzgrêvinne"
+ march_saxon:0 "Markgrêveschop"
+ palatinate_saxon:0 "Palanze"
  
- duchy_feudalclan_old_high_german:0 "[CHARACTER.Custom('DuchyCenGerman')]"
- march_old_high_german:0 "Marcha"
- palatinate_old_high_german:0 "Pfalinza"
- duchy_default_old_high_german:0 "Herizogtuom"
- 
- duke_feudalclan_male_central_germanic_independent:0 "Furisto"
- duke_feudalclan_female_central_germanic_independent:0 "Furistin"
- duchy_feudalclan_central_germanic_independent:0 "[CHARACTER.Custom('OldHighGermanIndepDuchy')]"
- duchy_dependent_old_high_german:0 "$duchy_default_old_high_german$"
- independent_duchy_high_german:0 "Furisttuom"
- 
- king_male_old_high_german:0 "Kuning"
- king_female_old_high_german:0 "Kuningin"
- kingdom_old_high_german:0 "Kuningrîhhi"
- 
- emperor_male_old_high_german:0 "Keisar"
- emperor_female_old_high_german:0 "Keisarin"
- empire_old_high_german:0 "Keisartuom"
- 
- baron_republic_male_old_high_german:0 "Sculdheizo"
- baron_republic_female_old_high_german:0 "Sculdheizo"
- barony_republic_old_high_german:0 "Burg"
- count_republic_male_old_high_german:0 "Burggrâfio"
- count_republic_female_old_high_german:0 "Burggrâfin"
+###########################################################
+## Franconian, Swabian, and Bavarian ( Middle High German )
 
-#Frisian
+ baron_male_middle_high_german:0 "Vrîherre"
+ baron_female_middle_high_german:0 "Vrîvrouwe"
+ 
+ count_male_middle_high_german:0 "Grâve"
+ count_female_middle_high_german:0 "Grâvin"
+ 
+ count_male_middle_high_german_independent:0 "Vrîgrâve"
+ count_female_middle_high_german_independent:0 "Vrîgrâvin"
+ 
+ duke_male_middle_high_german:0 "[CHARACTER.Custom('DukeMaleMiddleHighGerman')]"
+ duke_default_male_middle_high_german:0 "Herzoge"
+ 
+ duke_female_middle_high_german:0 "[CHARACTER.Custom('DukeFemaleMiddleHighGerman')]"
+ duke_default_female_middle_high_german:0 "Herzogin"
+ 
+ duke_male_middle_high_german_independent:0 "Vürste" 
+ duke_female_middle_high_german_independent:0 "Vürstin"
+ king_male_middle_high_german:0 "Künic"
+ king_female_middle_high_german:0 "Künigin"
+ emperor_male_middle_high_german:0 "Keiser"
+ emperor_female_middle_high_german:0 "Keiserin"
+ 
+ barony_middle_high_german:0 "Hêrschaft"
+ county_middle_high_german:0 "Grâveschaft"
+ 
+ county_middle_high_german_independent:0 "[CHARACTER.Custom('MiddleHighGermanIndepCounty')]"
+ independent_county_middle_high_german:0 "Vrîgrâveschaft"
+ dependent_county_middle_high_german:0 "$county_middle_high_german$"
+ 
+ duchy_middle_high_german:0 "[CHARACTER.Custom('DuchyMiddleHighGerman')]"
+ duchy_default_middle_high_german:0 "Herzogentuom"
+ 
+ duchy_middle_high_german_independent:0 "[CHARACTER.Custom('MiddleHighGermanIndepDuchy')]"
+ dependent_duchy_middle_high_german:0 "$duchy_default_middle_high_german$"
+ independent_duchy_middle_high_german:0 "Vürstentuom"
+ 
+ kingdom_middle_high_german:0 "Künicrîche"
+ empire_middle_high_german:0 "Keiserrîche"
+ 
+ baron_republic_male_middle_high_german:0 "Schultheize"
+ baron_republic_female_middle_high_german:0 "Schultheizin"
+ barony_republic_middle_high_german:0 "Stat"
+ 
+ marquess_male_middle_high_german:0 "Marcgrâve"
+ marquess_female_middle_high_german:0 "Marcgrâvin"
+ palatine_male_middle_high_german:0 "Pfalenzgrâve"
+ palatine_female_middle_high_german:0 "Pfalenzgrâvin"
+ march_middle_high_german:0 "Marcgrâveschaft"
+ palatinate_middle_high_german:0 "Pfalenz"
+
+#########################################################
+## Frisian
+
  baron_male_frisian:0 "Hêra"
  baron_female_frisian:0 "Frouwe"
- barony_frisian:0 "Dêl"
  
- count_feudalclan_male_frisian:0 "Grêva"
- count_feudalclan_female_frisian:0 "Grêven"
- county_feudalclan_frisian:0 "Gâ"
- 
- duke_feudalclan_male_frisian:0 "[CHARACTER.Custom('DukeMaleFrisian')]"
- marquess_male_frisian:0 "Merkgrêva"
- palatine_male_frisian:0 "Palasgrêva"
+ count_male_frisian:0 "Grêva"
+ count_female_frisian:0 "Grêven"
+ count_male_frisian_independent:0 "Forsta"
+ count_female_frisian_independent:0 "Forsten"
+ duke_male_frisian:0 "[CHARACTER.Custom('DukeMaleFrisian')]"
  duke_default_male_frisian:0 "Hertoga"
  
- duke_feudalclan_male_frisian:0 "[CHARACTER.Custom('DukeFemaleFrisian')]"
- marquess_female_frisian:0 "Merkgrêven"
- palatine_female_frisian:0 "Palasgrêven"
+ duke_female_frisian:0 "[CHARACTER.Custom('DukeFemaleFrisian')]"
  duke_default_female_frisian:0 "Hertogen"
  
- duchy_feudalclan_frisian:0 "[CHARACTER.Custom('DuchyFrisian')]"
- march_frisian:0 "Merk"
- palatinate_frisian:0 "Palas"
- duchy_default_frisian:0 "Hertogdôm"
- 
- duke_feudalclan_male_frisian_independent:0 "Forsta"
- duke_feudalclan_female_frisian_independent:0 "Forsten"
- duchy_feudalclan_frisian_independent:0 "[CHARACTER.Custom('FrisianIndepDuchy')]"
- independent_duchy_frisian:0 "Forstdôm"
- dependent_duchy_feudalclan_frisian:0 "$duchy_default_frisian$"
- 
- title_prince_male_frisian_kingdom:0 "Forsta"
- title_prince_female_frisian_kingdom:0 "Forsten"
- 
+ duke_male_frisian_independent:0 "Forsta" 
+ duke_female_frisian_independent:0 "Forsten"
  king_male_frisian:0 "Kening"
  king_female_frisian:0 "Keningen"
- kingdom_frisian:0 "Rîke"
- 
  emperor_male_frisian:0 "Kêser"
  emperor_female_frisian:0 "Kêseren"
+ 
+ barony_frisian:0 "Hêrskipi"
+ county_frisian:0 "Gâ"
+ 
+ county_frisian_independent:0 "[CHARACTER.Custom('FrisianIndepCounty')]"
+ independent_county_frisian:0 "Forstdôm"
+ dependent_county_frisian:0 "$county_frisian$"
+ 
+ duchy_frisian:0 "[CHARACTER.Custom('DuchyFrisian')]"
+ duchy_default_frisian:0 "Hertogdôm"
+ 
+ duchy_frisian_independent:0 "[CHARACTER.Custom('FrisianIndepDuchy')]"
+ dependent_duchy_frisian:0 "$duchy_default_frisian$"
+ independent_duchy_frisian:0 "Forstdôm"
+ 
+ kingdom_frisian:0 "Rîke"
  empire_frisian:0 "Kêserskip"
  
- baron_republic_male_frisian:0 "Sceltâta"
- baron_republic_female_frisian:0 "Sceltâta"
+ baron_republic_male_frisian:0 "Skeltâ"
+ baron_republic_female_frisian:0 "Skeltâ"
  barony_republic_frisian:0 "Burch"
+ 
+ marquess_male_frisian:0 "Merkgrêva"
+ marquess_female_frisian:0 "Merkgrêven"
+ palatine_male_frisian:0 "Palasgrêva"
+ palatine_female_frisian:0 "Palasgrêven"
+ march_frisian:0 "Merk"
+ palatinate_frisian:0 "Palas"
 
-#Dutch
- baron_republic_male_dutch:0 "Sculdhêtio"
- baron_republic_female_dutch:0 "Sculdhêtio"
+#########################################################
+## Dutch (Middle Dutch) ##To be Changed
+
+ baron_male_dutch:0 "Hêrro"
+ baron_female_dutch:0 "Frûa"
  
- count_feudalclan_male_dutch:0 "Grâfio"
- count_feudalclan_female_dutch:0 "Grâfin"
- county_feudalclan_dutch:0 "Gô"
+ count_male_dutch:0 "Grâvio"
+ count_female_dutch:0 "Grâvin"
  
- duke_feudalclan_male_dutch:0 "[CHARACTER.Custom('DukeMaleDutch')]"
- marquess_male_dutch:0 "Markgrâfio"
- palatine_male_dutch:0 "Palencgrâfio"
+ count_male_dutch_independent:0 "Furist"
+ count_female_dutch_independent:0 "Furistin"
+ 
+ duke_male_dutch:0 "[CHARACTER.Custom('DukeMaleDutch')]"
  duke_default_male_dutch:0 "Heritogo"
  
- duke_feudalclan_female_dutch:0 "[CHARACTER.Custom('DukeFemaleDutch')]"
- marquess_female_dutch:0 "Markgrâfin"
- palatine_female_dutch:0 "Palencgrâfin"
+ duke_female_dutch:0 "[CHARACTER.Custom('DukeFemaleDutch')]"
  duke_default_female_dutch:0 "Heritogin"
  
- duchy_feudalclan_dutch:0 "[CHARACTER.Custom('DuchyDutch')]"
+ duke_male_dutch_independent:0 "Furist" 
+ duke_female_dutch_independent:0 "Furistin"
+ king_male_dutch:0 "Kuning"
+ king_female_dutch:0 "Kuningin"
+ emperor_male_dutch:0 "Kêsur"
+ emperor_female_dutch:0 "Kêsurin"
+ 
+ barony_dutch:0 "Hêrskepi"
+ county_dutch:0 "Gô"
+ 
+ county_dutch_independent:0 "[CHARACTER.Custom('DutchIndepCounty')]"
+ independent_county_dutch:"Furistduom"
+ dependent_county_dutch:"$county_dutch$"
+ 
+ duchy_dutch:0 "[CHARACTER.Custom('DuchyDutch')]"
+ duchy_default_dutch:0 "Heritogdôm"
+ 
+ duchy_dutch_independent:0 "[CHARACTER.Custom('DutchIndepDuchy')]"
+ dependent_duchy_dutch:0 "$duchy_default_dutch$"
+ independent_duchy_dutch:0 "Furistdôm"
+ 
+ kingdom_dutch:0 "Kuningrîki"
+ empire_dutch:0 "Kêsurdôm"
+ 
+ baron_republic_male_dutch:0 "Skuldhêtio"
+ baron_republic_female_dutch:0 "Skuldhêtio"
+ barony_republic_dutch:0 "Burg"
+ 
+ marquess_male_dutch:0 "Markgrâvio"
+ marquess_female_dutch:0 "Markgrâvin"
+ palatine_male_dutch:0 "Palencgrâvio"
+ palatine_female_dutch:0 "Palencgrâvin"
  march_dutch:0 "Marka"
- palatinate_dutch:0 "Palenca"
- duchy_default_dutch:0 "Heritogduom"
- 
- duke_feudalclan_male_dutch_independent:0 "Furist"
- duke_feudalclan_female_dutch_independent:0 "Furistin"
- duchy_feudalclan_dutch_independent:0 "[CHARACTER.Custom('DutchIndepDuchy')]"
- dependent_duchy_feudalclan_dutch:0 "$duchy_default_dutch$"
- independent_duchy_dutch:0 "Furistduom"
- 
- king_male_dutch:0 "Cuning"
- king_female_dutch:0 "Cuningin"
- kingdom_dutch:0 "Rîki"
- 
- emperor_male_dutch:0 "Chêsur"
- emperor_female_dutch:0 "Chêsurin"
- empire_dutch:0 "Chêsurduom"
- 
- baron_male_dutch:0 "Hêrro"
- baron_female_dutch:0 "Frouwa"
- barony_dutch:0 "Gibûritha"
- count_republic_male_dutch:0 "Burggrâfio"
- count_republic_female_dutch:0 "Burggrâfin"
+ palatinate_dutch:0 "Palencea"
  
 ########################################################
 ###  Byzantine Culture Group
@@ -1497,6 +1761,7 @@
 ## Armenian Culture
  baron_male_armenian:0 "Azat"
  baron_female_armenian:0 "Azatakin"
+ barony_armenian:0 "Gawaṙ"
  
  count_male_armenian:0 "Naxarar"
  count_female_armenian:0 "Naxararowhi"
@@ -1528,242 +1793,312 @@
  
  baron_male_armenian_republic:0 "K῾ałak῾apet"
  barony_armenian_republic:0 "K῾ałak῾"
-
- ##Latin ##
-
- barony_latin_group:0 "Baronia"
- duke_feudalclan_female_latin_group:0 "[CHARACTER.Custom('DukeFemaleLatinGroup')]"
- duke_default_female_latin_group:0 "Duchissa"
- marquess_female_latin_group:0 "Marchesa"
- palatine_female_latin_group:0 "Palatina"
- march_latin_group:0 "Marca"
- king_female_latin_group:0 "Regina"
- emperor_female_latin_group:0 "Imperatrice"
- king_muslim_female_latin_group:0 "Sultana"
  
- ## Italian ##
- king_male_italian_sicilian:0 "Re"
- kingdom_italian_cisalpine:0 "Regno"
+########################################################
+###  Latin Culture Group
+########################################################
+########################################################
+## Italian Culture
+ baron_male_italian:0 "Barone"
+ baron_female_italian:0 "Baronessa"
+ count_feudalclan_male_italian:0 "Conte"
+ count_feudalclan_female_italian:0 "Contessa"
+ 
+ duke_feudalclan_male_italian:0 "[CHARACTER.Custom('DukeMaleItalian')]"
+ duke_default_male_italian:0 "Duca"
+ 
+ duke_feudalclan_female_italian:0 "[CHARACTER.Custom('DukeFemaleItalian')]"
+ duke_default_female_italian:0 "Duchessa"
+ 
+ duke_feudalclan_male_italian_independent:0 "Prencipe"
+ duke_feudalclan_female_italian_independent:0 "Prencipessa"
+ 
+ king_male_italian:0 "Re"
+ king_female_italian:0 "Re"
  title_prince_male_italian_kingdom:0 "Principe"
  title_prince_female_italian_kingdom:0 "Prencipessa"
  emperor_male_italian:0 "Imperatore"
- empire_italian:0 "Impero"
+ emperor_female_italian:0 "Imperatrice"
  title_prince_male_italian_empire:0 "Principe"
  title_prince_female_italian_empire:0 "Principessa"
- duke_feudalclan_male_italian:0 "[CHARACTER.Custom('DukeMaleItalian')]"
- marquess_male_italian_cisalpine:0 "Marchese"
- palatine_male_italian_cisalpine:0 "Palatino"
- duke_default_male_italian:0 "Duca"
- duke_feudalclan_female_italian:0 "[CHARACTER.Custom('DukeFemaleItalian')]"
- duke_default_female_italian:0 "Duchessa"
- count_feudalclan_male_italian:0 "Conte"
- count_feudalclan_female_italian:0 "Contessa"
+ 
+ barony_italian:0 "Baronia"
  county_feudalclan_italian:0 "Contea"
- baron_male_italian:0 "Barone"
- baron_female_italian_cisalpine:0 "Baronessa"
+ 
+ duchy_feudalclan_italian:0 "[CHARACTER.Custom('DuchyItalian')]"
+ duchy_default_italian:0 "Ducato"
+ 
+ duchy_feudalclan_italian_independent:0 "[CHARACTER.Custom('ItalianIndepDuchy')]"
+ dependent_duchy_italian:0 "$duchy_default_italian$"
+ independent_duchy_italian:0 "Principato"
+ 
+ kingdom_italian_cisalpine:0 "Regno"
+ empire_italian:0 "Impero"
+
  baron_republic_male_italian:0 "Podestà"
  baron_republic_female_italian:0 "Podestà"
- barony_republic_italian:0 "Comune"
  count_republic_male_italian:0 "Gonfaloniere"
  count_republic_female_italian:0 "Gonfaloniera"
- county_republic_italian:0 "Città"
  duke_republic_male_italian:0 "Rettore"
  duke_republic_female_italian:0 "Rettrice"
- duchy_republic_italian:0 "Repubblica"
  king_republic_male_italian:0 "Doge"
  king_republic_female_italian:0 "Doge"
+ 
+ barony_republic_italian:0 "Comune"
+ county_republic_italian:0 "Città"
+ duchy_republic_italian:0 "Repubblica"
  kingdom_republic_italian:0 "Serenissima Repubblica"
- king_muslim_male_italian_cisalpine:0 "Sultano"
- kingdom_muslim_italian_cisalpine:0 "Sultanato"
- count_male_italian_independent:0 "Prencipe"
- count_female_italian_independent:0 "Prencipessa"
- county_italian_independent:0 "Principato"
- duke_feudalclan_male_italian_independent:0 "Prencipe"
- duke_feudalclan_female_italian_independent:0 "Prencipessa"
- duchy_feudalclan_italian_independent:0 "[CHARACTER.Custom('ItalianIndepDuchy')]"
- duchy_default_italian_cisalpine:0 "$duchy_default_italian$"
- duchy_feudalclan_italian_cisalpine:0 "[CHARACTER.Custom('DuchyItalianCisalpine')]"
- palatinate_italian_cisalpine:0 "Palatinato"
- duchy_default_italian:0 "Ducato"
- independent_duchy_italian:0 "Principato"
+ 
  count_tribal_male_italian:0 "Capo"
  count_tribal_female_italian:0 "Capo"
- county_tribal_italian:0 "Tribo"
  duke_tribal_male_italian:0 "Gran Capo"
  duke_tribal_female_italian:0 "Gran Capo"
- duke_tribal_italian:0 "Gran Tribo" ##Place-holder-ish
+ county_tribal_italian:0 "Tribo"
+ duchy_tribal_italian:0 "Gran Tribo" ##Place-holder-ish
+ 
+ marquess_male_italian:0 "Marchese"
+ marquess_female_italian:0 "Marchesa"
+ palatine_male_italian:0 "Palatino"
+ palatine_female_italian:0 "Palatina"
+ march_italian:0 "Marca"
+ palatinate_italian:0 "Palatinato"
 
- ##Roman##
+########################################################
+##  Roman Culture
+
  baron_male_roman:0 "Baro"
  baron_female_roman:0 "Baronissa"
  count_feudalclan_male_roman:0 "Comes"
  count_feudalclan_female_roman:0 "Comitissa"
- county_feudalclan_roman:0 "Comitiatus"
- count_feudalclan_male_roman_independent:0 "Regulus"
+
+ сount_feudalclan_male_roman_independent:0 "Regulus"
  count_feudalclan_female_roman_independent:0 "Regula"
+ 
  duke_feudalclan_male_roman:0 "[CHARACTER.Custom('DukeMaleRoman')]"
- duke_feudalclan_female_roman:0 "[CHARACTER.Custom('DukeFemaleRoman')]"
  duke_feudalclan_roman_holder:0 "Proconsul"
  duke_default_male_roman:0 "Dominus"
+ 
+ duke_feudalclan_female_roman:0 "[CHARACTER.Custom('DukeFemaleRoman')]"
+ duke_feudalclan_roman_holder:0 "Proconsul"
  duke_default_female_roman:0 "Domina"
- palatine_male_roman:0 "Palatinus"
- palatine_female_roman:0 "Palatina"
- duchy_default_roman:0 "Provincia"
- march_roman:0 "Limes"
- palatinate_roman:0 "Palatinum"
+ 
  duke_feudalclan_male_roman_independent:0 "Princeps"
  duke_feudalclan_female_roman_independent:0 "Principissa"
- duchy_feudalclan_roman_independent:0 "[CHARACTER.Custom('RomanIndepDuchy')]"
- dependent_duchy_feudalclan_roman:0 "$duchy_default_roman$"
- independent_roman_duchy:0 "Principatus"
+ 
+ king_male_roman_sicilian:0 "Rex"
+ king_female_roman_sicilian:0 "Regina"
  title_prince_male_roman_kingdom:0 "Regis filius"
  title_prince_female_roman_kingdom:0 "Regis filia"
- king_male_roman:0 "Rex"
- kingdom_roman:0 "Regnum"
+ emperor_male_roman:0 "Imperator"
+ emperor_female_roman:0 "Imperatrix"
  title_prince_male_roman_empire:0 "Princeps"
  title_prince_female_roman_empire:0 "Principissa"
- emperor_male_roman:0 "Imperator"
- emperor_female_roman_holder:0 "Imperatrix"
- emperor_female_roman:0 "Augusta"
+ 
+ barony_roman:0 "Baronia"
+ county_feudalclan_roman:0 "Comitiatus"
+ 
+ duchy_feudalclan_roman:0 "[CHARACTER.Custom('DuchyRoman')]"
+ duchy_default_roman:0 "Provincia"
+ 
+ duchy_feudalclan_roman_independent:0 "[CHARACTER.Custom('RomanIndepDuchy')]"
+ dependent_duchy_roman:0 "$duchy_default_roman$"
+ independent_duchy_roman:0 "Principatus"
+ 
+ kingdom_roman_cisalpine:0 "Regnum"
  empire_roman:0 "Imperium"
+
  baron_republic_male_roman:0 "Aedilis"
  baron_republic_female_roman:0 "Aedilis"
- barony_republic_roman:0 "Oppidum"
  count_republic_male_roman:0 "Magister"
  count_republic_female_roman:0 "Magistra"
- county_republic_roman:0 "Urbs"
  duke_republic_male_roman:0 "Praefectus"
  duke_republic_female_roman:0 "Praefecta"
- duchy_republic_roman:0 "Respublica"
  king_republic_male_roman:0 "Consul"
  king_republic_female_roman:0 "Consul"
+ 
+ barony_republic_roman:0 "Oppidum"
+ county_republic_roman:0 "Urbs"
+ duchy_republic_roman:0 "Respublica"
  kingdom_republic_roman:0 "Magna Respublica"
+ 
  count_tribal_male_roman:0 "Tribunus"
  count_tribal_female_roman:0 "Tribuna"
- county_tribal_roman:0 "Tribus"
  duke_tribal_male_roman:0 "Dux"
  duke_tribal_female_roman:0 "Ducissa"
- duchy_tribal_roman:0 "Magna Tribus"
+ county_tribal_roman:0 "Tribus"
+ duchy_tribal_roman:0 "Magna Tribus" 
  
- ##Cisalpine##
+ marquess_male_roman:0 "$duke_tribal_male_roman$"
+ marquess_female_roman:0 "$duke_tribal_female_roman$"
+ palatine_male_roman:0 "Palatinus"
+ palatine_female_roman:0 "Palatina"
+ march_roman:0 "Limes"
+ palatinate_roman:0 "Palatinum"
+ 
+ 
+########################################################
+## Cisalpine Culture
+
  baron_male_cisalpine:0 "Baron"
  baron_female_cisalpine:0 "Baronessa"
- count_feudalclan_male_cisalpine:0 "Cont"
- count_feudalclan_female_cisalpine:0 "Contessa"
- county_feudalclan_cisalpine:0 "Contea"
- duke_feudalclan_male_cisalpine:0 "[CHARACTER.Custom('DukeMaleCisalpine')]"
+ 
+ count_male_cisalpine:0 "Cont"
+ count_female_cisalpine:0 "Contessa"
+
+ duke_male_cisalpine:0 "[CHARACTER.Custom('DukeMaleCisalpine')]"
  duke_default_male_cisalpine:0 "Dux"
- duke_feudalclan_male_cisalpine_independent:0 "Prencep"
- duke_feudalclan_female_cisalpine_independent:0 "Prencepessa"
- duchy_feudalclan_cisalpine_independent:0 "[CHARACTER.Custom('CisalpineIndepDuchy')]"
- independent_duchy_cisalpine:0 "Prencepato"
+ 
+ duke_female_cisalpine:0 "[CHARACTER.Custom('DukeFemaleCisalpine')]"
+ duke_default_female_cisalpine:0 "Duchissa"
+ 
+ duke_male_cisalpine_independent:0 "Prencep"
+ duke_female_cisalpine_independent:0 "Prencepessa"
+ 
+ king_male_cisalpine:0 "Rex"
+ king_female_cisalpine:0 "Regina"
  title_prince_male_cisalpine_kingdom:0 "Prencep"
  title_prince_female_cisalpine_kingdom:0 "Prencepessa"
- king_male_cisalpine:0 "Rex"
- title_prince_male_cisalpine_empire:0 "Prencep"
- title_prince_female_cisalpine_empire:0 "Prencepessa"
  emperor_male_cisalpine:0 "Imperator"
  emperor_female_cisalpine:0 "Imperatrice"
+ title_prince_male_cisalpine_empire:0 "Prencep"
+ title_prince_female_cisalpine_empire:0 "Prencepessa"
+
+ barony_cisalpine:0 "Baronia"
+ county_cisalpine:0 "Contea"
+ 
+ duchy_cisalpine:0 "[CHARACTER.Custom('DuchyCisalpine')]"
+ duchy_default_cisalpine:0 "Ducato"
+ 
+ duchy_cisalpine_independent:0 "[CHARACTER.Custom('CisalpineIndepDuchy')]"
+ independent_duchy_cisalpine:0 "Prencepato"
+ dependent_duchy_cisalpine:0 "$duchy_default_cisalpine$"
+ 
+ kingdom_cisalpine:0 "Regno"
  empire_cisalpine:0 "Imperio"
  
- ##Sardinian##
- baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
- baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
- barony_sardinian:0 "[CHARACTER.Custom('BaronySardinianFeudal')]"
- baron_male_sardinian_holder:0 "[CHARACTER.Custom('BaronMaleSardinianHolder')]"
- baron_female_sardinian_holder:0 "[CHARACTER.Custom('BaronFemaleSardinianHolder')]"
- baron_blank:0 ""
- baron_male_sardinian_default:0 "Baròni"
- baron_female_sardinian_default:0 "Barònissa"
- curadore_sardinian:0 "Curadore"
- curadoria_sardinian:0 "Curadoria"
- barony_feudal_sardinian_default:0 "Baronia"
+ #Marches and Palatinates same as Italian
  
- count_feudalclan_male_sardinian:0 "Conti"
- count_feudalclan_female_sardinian:0 "Contissa"
- county_feudalclan_sardinian:0 "Contadu"
- count_feudalclan_male_sardinian_independent:0 "Judike"
- count_feudalclan_female_sardinian_independent:0 "Judika"
- county_feudalclan_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepCounty')]"
- dependent_county_sardinian:0 "$county_feudalclan_sardinian$"
- dependent_county_republic_sardinian:0 "Grand City" #Placeholder
- independent_county_sardinian:0 "Judicatu"
- duke_feudalclan_male_sardinian:0 "Duca"
- duke_feudalclan_female_sardinian:0 "Duchissa"
- duchy_feudalclan_sardinian_sicilian:0 "[CHARACTER.Custom('DuchySardinianSicilian')]"
- duchy_default_sardinian_sicilian:0 "Ducatu"
- palatinate_sardinian_sicilian:0 "Palatinatu"
- duke_feudalclan_male_sardinian_independent:0 "Príncipi"
- duke_feudalclan_female_sardinian_independent:0 "Printzèsa"
- duchy_feudalclan_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepDuchy')]"
- independent_duchy_sardinian:0 "Principatu"
+###########################################################
+## Sardinian Culture
+
+ baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
+ baron_male_sardinian_default:0 "Baròni"
+ 
+ baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
+ baron_female_sardinian_default:0 "Barònissa"
+ 
+ count_male_sardinian:0 "Conti"
+ count_female_sardinian:0 "Contissa"
+ 
+ duke_male_sardinian:0 "[CHARACTER.Custom('DukeMaleSardinian')]"
+ duke_default_male_sardinian:0 "Duca"
+ 
+ duke_female_sardinian:0 "[CHARACTER.Custom('DukeFemaleSardinian')]"
+ duke_default_female_sardinian:0 "Duchissa"
+ 
+ duke_male_sardinian_independent:0 "Príncipi"
+ duke_female_sardinian_independent:0 "Printzèsa"
+ 
+ king_male_sardinian:0 "Rege"
+ king_female_sardinian:0 "Reína"
  title_prince_male_sardinian_kingdom:0 "Príncipi"
  title_prince_female_sardinian_kingdom:0 "Printzèsa"
- king_male_sardinian:0 "Rey"
- king_female_sardinian:0 "Reína"
- kingdom_sardinian:0 "Rennu"
- title_prince_male_sardinian_empire:0 "Príncipi"
- title_prince_female_sardinian_empire:0 "Printzèsa"
  emperor_male_sardinian:0 "Imperatori"
  emperor_female_sardinian:0 "Imperatrice"
+ title_prince_male_sardinian_empire:0 "Príncipi"
+ title_prince_female_sardinian_empire:0 "Printzèsa"
+ 
+ barony_sardinian:0 "[CHARACTER.Custom('BaronySardinian')]"
+ barony_feudal_sardinian_default:0 "Baronia"
+ 
+ county_sardinian:0 "Contadu"
+ 
+ duchy_sardinian:0 "[CHARACTER.Custom('DuchySardinian')]"
+ duchy_default_sardinian:0 "Ducatu"
+
+ duchy_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepDuchy')]"
+ independent_duchy_sardinian:0 "Principatu"
+ dependent_duchy_sardinian:0 "$duchy_default_sardinian$"
+ 
+ kingdom_sardinian:0 "Rennu"
  empire_sardinian:0 "Imperu"
- king_muslim_male_sardinian_sicilian:0 "Sultanu"
- kingdom_muslim_sardinian_sicilian:0 "Sultanatu"
  
- baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianCity')]"
- baron_city_sardinian_default:0 "Major"
- baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianCity')]"
- barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianCity')]"
- barony_city_sardinian_default:0 "Comune"
+ baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianRepublic')]"
+ baron_default_republic_male_sardinian:0 "Major"
  
- ##Sicilian##
+ baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianRepublic')]"
+ baron_default_republic_female_sardinian:0 "Major"
+ 
+ barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianRepublic')]" 
+ barony_default_republic_sardinian:0 "City" ## Have to add in future
+ 
+ marquess_male_sardinian:0 "Markgrâvio"
+ marquess_female_sardinian:0 "Markgrâvin"
+ palatine_male_sardinian:0 "Palencgrâvio"
+ palatine_female_sardinian:0 "Palencgrâvin"
+ march_sardinian:0 "Marka"
+ palatinate_sardinian:0 "Palencea" 
+  
+ judike_male_sardinian_holder:0 "Judike"
+ judike_male_sardinian:0 "$baron_blank$"
+ judike_female_sardinian_holder:0 "Judika"
+ judike_female_sardinian:0 "$baron_blank$"
+ 
+ judicatu_sardinian:0 "[CHARACTER.Custom('SardinianIndepCounty')]"
+ judicatu_independent:0 "Judicatu"
+ judicatu_feudal_dependent:0 "$county_sardinian$" 
+ judicatu_republic_dependent:0 "Grand City" ##Have to add this in future
+ 
+ ### Have to be checked
+ curadore_sardinian:0 "Curadore"
+ baron_blank:0 ""
+ curadoria_sardinian:0 "Curadoria"
+ 
+########################################################
+## Sicilian Culture
+
  baron_male_sicilian:0 "Baruni"
  baron_female_sicilian:0 "Barunissa"
- barony_sicilian:0 "Barunia"
- count_feudalclan_male_sicilian:0 "Conti"
- count_feudalclan_female_sicilian:0 "Contissa"
- county_feudalclan_sicilian:0 "Contadu"
- duke_feudalclan_male_sicilian:0 "Duca"
- duke_feudalclan_female_sicilian:0 "Duchissa"
- duke_feudalclan_male_sicilian_independent:0 "Principi"
- duke_feudalclan_female_sicilian_independent:0 "Principissa"
- duchy_feudalclan_sicilian_independent:0 "[CHARACTER.Custom('SicilianIndepDuchy')]"
- independent_duchy_sicilian:0 "Principatu"
+ 
+ count_male_sicilian:0 "Conti"
+ count_female_sicilian:0 "Contissa"
+
+ duke_male_sicilian:0 "[CHARACTER.Custom('DukeMaleSardinian')]"
+ ## Same as Sardinian
+ 
+ duke_female_sicilian:0 "[CHARACTER.Custom('DukeFemaleSardinian')]"
+ ## Same as Sardinian
+ 
+ duke_male_sicilian_independent:0 "Principi"
+ duke_female_sicilian_independent:0 "Principissa"
+ 
+ king_male_sicilian:0 "Re"
+ king_female_sicilian:0 "Regina"
  title_prince_male_sicilian_kingdom:0 "Principi"
  title_prince_female_sicilian_kingdom:0 "Principissa"
- kingdom_sicilian:0 "Regnu"
- title_prince_male_sicilian_empire:0 "Principi"
- title_prince_female_sicilian_empire:0 "Principissa"
  emperor_male_sicilian:0 "Imperaturi"
  emperor_female_sicilian:0 "Imperatrici"
- empire_sicilian:0 "Impèriu"
+ title_prince_male_sicilian_empire:0 "Principi"
+ title_prince_female_sicilian_empire:0 "Principissa"
+
+ barony_sicilian:0 "Barunia"
+ county_sicilian:0 "Contea"
  
- ##Lombard## ##Need to reset prio for these to work ##
- baron_male_lombard:0 "Baro"
- baron_female_lombard:0 "Baronissa"
- count_feudalclan_male_lombard:0 "Gastaldus"
- count_feudalclan_female_lombard:0 "Gastaldissa"
- county_feudalclan_lombard:0 "Gastaldia"
- count_feudalclan_male_lombard_independent:0 "Princeps"
- count_feudalclan_female_lombard_independent:0 "Principissa"
- county_feudalclan_lombard_independent:0 "Principatus"
- duke_feudalclan_male_lombard:0 "Dux"
- duke_feudalclan_female_lombard:0 "Ducissa"
- duchy_feudalclan_lombard:0 "Ducatus"
- duke_feudalclan_male_lombard_independent:0 "Princeps"
- duke_feudalclan_female_lombard_independent:0 "Principissa"
- duchy_feudalclan_lombard_independent:0 "Principatus"
- title_prince_male_lombard_kingdom:0 "Princeps"
- title_prince_female_lombard_kingdom:0 "Principissa"
- king_male_lombard:0 "Rex"
- kingdom_lombard:0 "Regnum"
- title_prince_male_lombard_empire:0 "Princeps"
- title_prince_female_lombard_empire:0 "Principissa"
- emperor_male_lombard:0 "Imperator"
- empire_lombard:0 "Imperium"
+ duchy_sicilian:0 "[CHARACTER.Custom('DuchySardinian')]"
+ ## Same as Sardinian
  
+ duchy_sicilian_independent:0 "[CHARACTER.Custom('SicilianIndepDuchy')]"
+ independent_duchy_sicilian:0 "Principatu"
+ dependent_duchy_sicilian:0 "$duchy_default_sicilian$"
  
- ### East Slavic ###
+ kingdom_sicilian:0 "Regnu"
+ empire_sicilian:0 "Imperio"
+ 
+ #Marches and Palatinates same as Sardinian
+ 
+########################################################
+###  East Slavic Culture Group
+########################################################
 
  baron_republic_male_east_slavic_group:0 "Starosta"
  baron_republic_female_east_slavic_group:0 "Starosta"
@@ -1872,60 +2207,6 @@
  count_tribal_female_severian_volhynian:0 "Vožĭ"
  county_tribal_old_east_slavic:0 "Plemä"
  
- ###Balto-Finnic###
- king_male_finnish:0 "Kuningas"
- 
- ###Finnish###
- emperor_male_finnish:0 "Keisari"
- emperor_female_finnish:0 "Keisarinna"
- empire_finnish:0 "Keisarikunta"
- kingdom_finnish:0 "Kuningaskunta"
- king_female_finnish:0 "Kuningatar"
- title_prince_male_finnish:0 "Prinssi"
- title_prince_male_finnish_empire:0 "Prinssi"
- title_prince_female_finnish:0 "Prinsessa"
- title_prince_female_finnish_empire:0 "Prinsessa"
- queen_mother_finnish:0 "Kuningataräiti"
- duke_male_finnish_independent:0 "Kuningas"
- duke_female_finnish_independent:0 "Kuningatar"
- duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
- independent_duchy_finnish:0 "Kuningaskunta"
- duke_feudal_male_finnish:0 "[CHARACTER.Custom('DukeMaleFinnish')]"
- marquess_male_finnish:0 "Markiisi"
- palatine_male_finnish:0 "Palatsikreivi"
- duke_default_male_finnish:0 "Herttua"
- duke_feudal_female_finnish:0 "[CHARACTER.Custom('DukeFemaleFinnish')]"
- marquess_female_finnish:0 "Markiisitar"
- palatine_female_finnish:0 "Palatsikreivitär"
- duke_default_female_finnish:0 "Herttuatar"
- duchy_feudal_finnish:0 "[CHARACTER.Custom('DuchyFinnish')]"
- march_finnish:0 "Markiisikunta"
- palatinate_finnish:0 "Palatsikreivikunta"
- duchy_default_finnish:0 "Herttuakunta"
- count_feudal_male_finnish:0 "Kreivi"
- count_feudal_female_finnish:0 "Kreivitär"
- county_feudal_finnish:0 "Kreivikunta"
- count_feudal_male_finnish_independent:0 "Ruhtinas"
- count_feudal_female_finnish_independent:0 "Ruhtinatar"
- county_feudal_finnish_independent:0 "Ruhtinaskunta"
- count_tribal_male_finnish_independent:0 "Kuningas"
- count_tribal_female_finnish_independent:0 "Kuningatar"
- county_tribal_finnish_independent:0 "Kuningaskunta"
- baron_male_finnish:0 "Vapaaherra"
- baron_female_finnish:0 "Vapaaherratar"
- barony_finnish:0 "Vapaaherrakunta"
- mayor_finnish:0 "Pormestari"
- city_finnish:0 "Kaupunki"
- king_muslim_male_finnish:0 "Sulttaani"
- king_muslim_female_finnish:0 "Sultana"
- kingdom_muslim_finnish:0 "Sulttaanikunta"
- duke_muslim_male_finnish:0 "Emiiri"
- duchy_muslim_finnish:0 "Emiirikunta"
- count_tribal_finnish:0 "Heimopäällikkö"
- county_tribal_finnish:0 "Heimo"
- duke_tribal_finnish:0 "Suurheimopäällikkö"
- duchy_tribal_finnish:0 "Suurheimo"
-
 ######################################################
 ### Dravidian Culture Group
 ######################################################
@@ -2364,7 +2645,7 @@ title_prince_male_ethiopian_empire:0 "Abētō"
 title_prince_female_ethiopian_empire:0 "Lə'əlt"
 
 baron_male_republic_ethiopian:0 "Käntiba"
-barony_republic_ethiopian:0 "Hagarit""
+barony_republic_ethiopian:0 "Hagarit"
 
 ########################################################
 ## Nubian Culture
