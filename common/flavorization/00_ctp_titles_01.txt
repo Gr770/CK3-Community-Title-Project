@@ -10883,29 +10883,38 @@ empire_sardinian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-### For Conditionals
-baron_male_sardinian_holder = { #for judgedoms
+baron_male_republic_sardinian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
-	priority = 104
+	priority = 103
 	cultures = { sardinian } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	governments = { republic_government }
 	only_holder = yes
+	top_liege = no
 }
-baron_female_sardinian_holder = { #for judgedoms
+baron_female_republic_sardinian = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
-	priority = 104
+	priority = 103
 	cultures = { sardinian } 
-	governments = { feudal_government clan_government tribal_government }
+	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
 }
+barony_republic_sardinian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sardinian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+### For Conditionals
 judike_male_sardinian_holder = {
 	type = character
 	gender = male
@@ -11175,6 +11184,7 @@ empire_sicilian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+
 ###############################################
 ## Lombard
 
