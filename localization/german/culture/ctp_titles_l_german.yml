@@ -1549,53 +1549,70 @@
 ## Saxon Culture (Middle Low German)
  baron_male_saxon:0 "Vrîhêre"
  baron_female_saxon:0 "Vrîvrouwe"
+ barony_saxon:0 "Hêrschop"
  
  count_male_saxon:0 "Grêve"
  count_female_saxon:0 "Grêvinne"
+ county_saxon:0 "Grêveschop"
  
  count_male_saxon_independent:0 "Vrîgrêve"
  count_female_saxon_independent:0 "Vrîgrêvinne"
- 
- duke_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
- duke_default_male_saxon:0 "Hertoch"
- 
- duke_female_saxon:0 "[CHARACTER.Custom('DukeFemaleSaxon')]"
- duke_default_female_saxon:0 "Hertôginne"
- 
- duke_male_saxon_independent:0 "Vorste" 
- duke_female_saxon_independent:0 "Vorstinne"
- king_male_saxon:0 "Konink"
- king_female_saxon:0 "Koninginne"
- emperor_male_saxon:0 "Keiser"
- emperor_female_saxon:0 "Keiserinne"
- 
- barony_saxon:0 "Hêrschop"
- county_saxon:0 "Grêveschop"
- 
  county_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepCounty')]"
  independent_county_saxon:0 "Vrîgrêveschop"
  dependent_county_saxon:0 "$county_saxon$"
  
+ duke_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
+ duke_female_saxon:0 "[CHARACTER.Custom('DukeFemaleSaxon')]"
  duchy_saxon:0 "[CHARACTER.Custom('DuchySaxon')]"
- duchy_default_saxon:0 "Hertochdôm"
- 
- duchy_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
- dependent_duchy_saxon:0 "$duchy_default_saxon$"
- independent_duchy_saxon:0 "Vorstendôm"
- 
- kingdom_saxon:0 "Koninkrîke"
- empire_saxon:0 "Keiserrîke"
- 
- baron_republic_male_saxon:0 "Schulthête"
- baron_republic_female_saxon:0 "Schulthêtinne"
- barony_republic_saxon:0 "Stat"
- 
  marquess_male_saxon:0 "Markgrêve"
  marquess_female_saxon:0 "Markgrêvinne"
  palatine_male_saxon:0 "Palanzgrêve"
  palatine_female_saxon:0 "Palanzgrêvinne"
  march_saxon:0 "Markgrêveschop"
- palatinate_saxon:0 "Palanze"
+ palatinate_saxon:0 "Palanzgrêveschop"
+ duke_default_male_saxon:0 "Hertoch"
+ duke_default_female_saxon:0 "Hertôginne"
+ duchy_default_saxon:0 "Hertochdôm"
+ 
+ duke_male_saxon_independent:0 "Vorste" 
+ duke_female_saxon_independent:0 "Vorstinne"
+ duchy_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
+ dependent_duchy_saxon:0 "$duchy_default_saxon$"
+ independent_duchy_saxon:0 "Vorstendôm"
+ 
+ king_male_saxon:0 "[CHARACTER.Custom('KingMaleSaxon')]"
+ king_female_saxon:0 "[CHARACTER.Custom('KingFemaleSaxon')]"
+ kingdom_saxon:0 "[CHARACTER.Custom('KingdomSaxon')]"
+ sultan_male_saxon:0 "Soldân"
+ sultan_female_saxon:0 "Soldâninne"
+ sultanate_saxon:0 "Soldanîe"
+ king_default_male_saxon:0 "Konink"
+ king_default_female_saxon:0 "Koninginne"
+ kingdom_default_saxon:0 "Koninkrîke"
+ 
+ emperor_male_saxon:0 "Keiser"
+ emperor_female_saxon:0 "Keiserinne"
+ empire_saxon:0 "Keiserrîke"
+ 
+ title_prince_male_saxon:0 "Prinse"
+ title_prince_female_saxon:0 "Prinsesse"
+ title_prince_male_empire_saxon:0 "$title_prince_male_saxon$"
+ title_prince_female_empire_saxon:0 "$title_prince_female_saxon$"
+ queen_mother_saxon:0 "Koninginnemôder"
+ empress_mother_saxon:0 "Keiserinnemôder"
+ 
+ baron_republic_male_saxon:0 "Schulthête"
+ baron_republic_female_saxon:0 "Schulthêtinne"
+ barony_republic_saxon:0 "Stat"
+ count_republic_male_saxon:0 "Vôget"
+ count_republic_female_saxon:0 "Vôgetinne"
+ county_republic_saxon:0 "Vrîe Stat"
+ duke_republic_male_saxon:0 "Lantvôget"
+ duke_republic_female_saxon:0 "Lantvôgetinne"
+ duchy_republic_saxon:0 "Stêdebunt"
+ king_republic_male_saxon:0 "Ôlderman"
+ king_republic_female_saxon:0 "Ôlderman"
+ kingdom_republic_saxon:0 "Stêdehanse"
  
 ###########################################################
 ## Franconian, Swabian, and Bavarian ( Middle High German )
