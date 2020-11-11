@@ -2031,6 +2031,37 @@ DuchyGreek = {
 		fallback = yes
 	}
 }
+DukeGeorgian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_georgian
+	}
+	text = {
+		localization_key = duke_default_georgian
+		fallback = yes
+	}
+}
+DuchyGeorgian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_georgian
+	}
+	text = {
+		localization_key = duchy_default_georgian
+		fallback = yes
+	}
+}
 DukeMaleItalian = {
 	type = character
 	text = {
