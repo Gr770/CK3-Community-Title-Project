@@ -286,6 +286,20 @@ CouncilPositionChancellor = {
 		}
 		localization_key = councillor_chancellor_georgian
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:assyrian
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_assyrian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:assyrian
+			is_male = no
+		}
+		localization_key = councillor_chancellor_assyrian_female
+	}
 ##################################################
 ### Latin
 ##################################################
@@ -822,12 +836,7 @@ CouncilPositionSteward = {
 		}
 		localization_key = councillor_steward_georgian
 	}
-	text = {
-		trigger = {
-			liege.culture = culture:assyrian
-		}
-		localization_key = councillor_steward_assyrian
-	}
+	
 ##################################################
 ### Latin
 ##################################################
@@ -1894,6 +1903,20 @@ CouncilPositionSpymaster = {
 			liege.culture = culture:georgian
 		}
 		localization_key = councillor_spymaster_georgian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:assyrian
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_assyrian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:assyrian
+			is_male = no
+		}
+		localization_key = councillor_spymaster_assyrian_female
 	}
 ##################################################
 ### Latin
