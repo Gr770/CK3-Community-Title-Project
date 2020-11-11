@@ -190,6 +190,54 @@ KingdomScottish = {
 		localization_key = kingdom_default_scottish
 	}
 }
+KingMaleWelsh = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_welsh
+	}
+}
+KingFemaleWelsh = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_welsh
+	}
+}
+KingdomWelsh = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_welsh
+	}
+}
 KingMaleSaxon = {
 	type = character
 	text = {
