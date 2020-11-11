@@ -116,6 +116,12 @@ CouncilPositionChancellor = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:frankish
+		}
+		localization_key = councillor_chancellor_frankish
+	}	
+	text = {
+		trigger = {
 			liege.culture = culture:french
 		}
 		localization_key = councillor_chancellor_french
@@ -646,15 +652,35 @@ CouncilPositionSteward = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:frankish
+		}
+		localization_key = councillor_steward_frankish
+	}	
+	text = {
+		trigger = {
 			liege.culture = culture:french
 		}
 		localization_key = councillor_steward_french
 	}	
 	text = {
 		trigger = {
+			is_male = yes
 			liege.culture = culture:norman
 		}
-		localization_key = councillor_steward_norman
+		localization_key = councillor_male_steward_norman
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:norman
+		}
+		localization_key = councillor_female_steward_norman
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:occitan
+		}
+		localization_key = councillor_steward_occitan
 	}	
 ##################################################
 ### Iberian
@@ -1185,6 +1211,12 @@ CouncilPositionMarshal = {
 ##################################################
 ### Frankish
 ##################################################
+	text = {
+		trigger = {
+			liege.culture = culture:frankish
+		}
+		localization_key = councillor_marshal_frankish
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:french
@@ -1751,9 +1783,27 @@ CouncilPositionSpymaster = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:frankish
+		}
+		localization_key = councillor_spymaster_frankish
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:french
 		}
 		localization_key = councillor_spymaster_french
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:norman
+		}
+		localization_key = councillor_spymaster_norman
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:occitan
+		}
+		localization_key = councillor_spymaster_occitan
 	}
 ##################################################
 ### Iberian

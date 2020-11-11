@@ -643,178 +643,192 @@
 
  baron_male_frankish:0 "Barō"
  baron_female_frankish:0 "Frawjō"
+ barony_frankish:0 "Burg"
  
  count_male_frankish:0 "Grāfijō"
  count_female_frankish_holder:0 "Grāfijini"
  count_female_frankish:0 "Grāfijiniwīf"
+ county_frankish:0 "Gawi"
  
  duke_male_frankish:0 "Harjatogō"
  duke_female_frankish_holder:0 "Harjatogini"
  duke_female_frankish:0 "Harjatoginiwīf"
+ duchy_frankish:0 "Harjatogdōm"
  
  duke_male_frankish_independent:0 "Kuning"
  duke_female_frankish_independent_holder:0 "Kwāni"
  duke_female_frankish_independent:0 "Kuningaswīf"
- 
- king_male_frankish:0 "Kuning"
- king_female_frankish_holder:0 "Kwāni"
- king_female_frankish:0 "Kuningaswīf"
- title_prince_male_frankish_kingdom:0 "Aþuling"
- title_prince_female_frankish_kingdom:0 "Kuningasdohter"
- emperor_male_frankish:0 "Kaisar"
- emperor_female_frankish_holder:0 "Kaisarini"
- emperor_female_frankish:0 "Kaisariniwīf"
- title_prince_male_frankish_empire:0 "Aþuling"
- title_prince_female_frankish_empire:0 "Kuningasdohter"
- 
- barony_frankish:0 "Burg"
- county_frankish:0 "Gawi"
- duchy_frankish:0 "Harjatogdōm"
- 
  duchy_frankish_independent:0 "[CHARACTER.Custom('FrankishIndepDuchy')]"
  independent_duchy_frankish:0 "Rīkī"
  dependent_duchy_frankish:0 "$duchy_frankish$"
  
+ king_male_frankish:0 "Kuning"
+ king_female_frankish_holder:0 "Kwāni"
+ king_female_frankish:0 "Kuningaswīf"
  kingdom_frankish:0 "Rīkī"
+ 
+ emperor_male_frankish:0 "Kaisar"
+ emperor_female_frankish_holder:0 "Kaisarini"
+ emperor_female_frankish:0 "Kaisariniwīf"
  empire_frankish:0 "Kaisarrīkī"
+ 
+ title_prince_male_frankish_kingdom:0 "Aþuling"
+ title_prince_female_frankish_kingdom:0 "Kuningasdohter"
+ title_prince_male_frankish_empire:0 "Aþuling"
+ title_prince_female_frankish_empire:0 "Kuningasdohter"
  
 ########################################################
 ## French
 
  baron_male_french:0 "Viscuens"
  baron_female_french:0 "Viscontesse"
+ barony_french:0 "Fieus"
  
  count_male_french:0 "Cuens"
  count_female_french:0 "Cuenesse"
- 
- duke_male_french:0 "[CHARACTER.Custom('DukeMaleFrench')]"
- duke_default_male_french:0 "Dus"
- duke_female_french:0 "[CHARACTER.Custom('DukeFemaleFrench')]"
- duke_default_female_french:0 "Dusesse"
- 
- duke_male_french_independent:0 "Princes"
- duke_female_french_independent:0 "Princesse"
- 
- king_male_french:0 "Rois"
- king_female_french:0 "Reine"
- title_prince_male_french_kingdom:0 "Princes"
- title_prince_female_french_kingdom:0 "Princesse"
- emperor_male_french:0 "Emperere"
- emperor_female_french:0 "Empereriz"
- title_prince_male_french_empire:0 "Princes"
- title_prince_female_french_empire:0 "Princesse"
- 
- barony_french:0 "Fieus"
  county_french:0 "Contez"
  
+ duke_male_french:0 "[CHARACTER.Custom('DukeMaleFrench')]"
+ duke_female_french:0 "[CHARACTER.Custom('DukeFemaleFrench')]"
  duchy_french:0 "[CHARACTER.Custom('DuchyFrench')]"
- duchy_default_french:0 "Ducaz"
- 
- duchy_french_independent:0 "[CHARACTER.Custom('FrenchIndepDuchy')]"
- independent_duchy_french:0 "Principaliz"
- dependent_duchy_french:0 "$duchy_default_french$"
- 
- kingdom_french:0 "Reialmes"
- empire_french:0 "Empires"
- 
  marquess_male_french:0 "Marchis"
  marquess_female_french:0 "Marchisse"
  palatine_male_french:0 "Palatins"
  palatine_female_french:0 "Palatine"
  march_french:0 "Marche"
  palatinate_french:0 "Palais"
+ duke_default_male_french:0 "Dus"
+ duke_default_female_french:0 "Dusesse"
+ duchy_default_french:0 "Ducaz"
+ 
+ duke_male_french_independent:0 "Princes"
+ duke_female_french_independent:0 "Princesse"
+ duchy_french_independent:0 "[CHARACTER.Custom('FrenchIndepDuchy')]"
+ independent_duchy_french:0 "Principaliz"
+ dependent_duchy_french:0 "$duchy_default_french$"
+ 
+ king_male_french:0 "Rois"
+ king_female_french:0 "Reine"
+ kingdom_french:0 "Reialmes"
+ 
+ emperor_male_french:0 "Emperere"
+ emperor_female_french:0 "Empereriz"
+ empire_french:0 "Empires"
+ 
+ title_prince_male_french_kingdom:0 "Princes"
+ title_prince_female_french_kingdom:0 "Princesse"
+ title_prince_male_french_empire:0 "Princes"
+ title_prince_female_french_empire:0 "Princesse"
+ queen_mother_french:0 "Reine Mere"
+ empress_mother_french:0 "Empereriz Mere"
+ 
+ baron_republic_male_french:0 "Maistre Cité"
+ baron_republic_female_french:0 "Maistresse Cité"
+ barony_republic_french:0 "Cité"
+ county_republic_french:0 "Capitol"
  
 ########################################################
 ### Norman
 
  baron_male_norman:0 "Ber"
  baron_female_norman:0 "Baronne"
+ barony_norman:0 "Baronie"
  
  count_male_norman:0 "Cuens"
  count_female_norman:0 "Contesse"
+ county_norman:0 "Cuntez"
  
  duke_male_norman:0 "[CHARACTER.Custom('DukeMaleFrench')]"
- ## Same default name as French
  duke_female_norman:0 "[CHARACTER.Custom('DukeFemaleNorman')]"
- ## Same default name as French
+ duchy_norman:0 "[CHARACTER.Custom('DuchyNorman')]"
+ marquess_female_norman:0 "Marchise"
+ palatinate_norman:0 "Palatinat"
+ ## Same names as French
  
  duke_male_norman_independent:0 "Princes"
  duke_female_norman_independent:0 "Princesse"
- 
- king_male_norman:0 "Reis"
- king_female_norman:0 "Reigne"
- title_prince_male_norman_kingdom:0 "Princes"
- title_prince_female_norman_kingdom:0 "Princesse"
- emperor_male_norman:0 "Empérere"
- emperor_female_norman:0 "Emperesse"
- title_prince_male_norman_empire:0 "Princes"
- title_prince_female_norman_empire:0 "Princesse"
- 
- barony_norman:0 "Baronie"
- county_norman:0 "Cuntez"
- 
- duchy_norman:0 "[CHARACTER.Custom('DuchyNorman')]"
- ## Same default as French
- 
  duchy_norman_independent:0 "[CHARACTER.Custom('NormanIndepDuchy')]"
  independent_duchy_norman:0 "Principaliz"
  dependent_duchy_norman:0 "$duchy_default_french$"
  
+ king_male_norman:0 "Reis"
+ king_female_norman:0 "Reigne"
  kingdom_norman:0 "Regnes"
+ 
+ emperor_male_norman:0 "Empérere"
+ emperor_female_norman:0 "Emperesse"
  empire_norman:0 "Empires"
  
- ## Marquess_male same as French
- marquess_female_norman:0 "Marchise"
- ## Palatine male same as French
- ## Palatine female same as French
- ## March same as French
- palatinate_norman:0 "Palatinat"
+ title_prince_male_norman_kingdom:0 "Princes"
+ title_prince_female_norman_kingdom:0 "Princesse"
+ title_prince_male_norman_empire:0 "Princes"
+ title_prince_female_norman_empire:0 "Princesse"
+ queen_mother_norman:0 "Reigne Mere"
+ empress_mother_norman:0 "Emperesse Mere"
  
+ baron_republic_male_norman:0 "Maire"
+ baron_republic_female_norman:0 "Mairesse"
+ barony_republic_norman:0 "Cité"
+ count_republic_male_norman:0 "Prévôt"
+ county_republic_norman:0 "Capitol"
+
 ########################################################
 ### Occitan
 
  baron_male_occitan:0 "Vescoms"
  baron_female_occitan:0 "Vescomtessa"
+ barony_occitan:0 "Vescomtat"
  
  count_male_occitan:0 "Coms"
  count_female_occitan:0 "Comtessa"
- 
- duke_male_occitan:0 "[CHARACTER.Custom('DukeMaleOccitan')]"
- duke_default_male_occitan:0 "Ducs"
- duke_female_occitan:0 "[CHARACTER.Custom('DukeFemaleOccitan')]"
- duke_default_female_occitan:0 "Duquessa"
- 
- duke_male_occitan_independent:0 "Princes"
- duke_female_occitan_independent:0 "Princessa"
- 
- king_male_occitan:0 "Reis"
- king_female_occitan:0 "Reina"
- title_prince_male_occitan_kingdom:0 "Princes"
- title_prince_female_occitan_kingdom:0 "Princessa"
- emperor_male_occitan:0 "Emperador"
- emperor_female_occitan:0 "Emperairitz"
- title_prince_male_occitan_empire:0 "Princes"
- title_prince_female_occitan_empire:0 "Princessa"
- 
- barony_occitan:0 "Vescomtat"
  county_occitan:0 "Comtat"
  
+ duke_male_occitan:0 "[CHARACTER.Custom('DukeMaleOccitan')]"
+ duke_female_occitan:0 "[CHARACTER.Custom('DukeFemaleOccitan')]"
  duchy_occitan:0 "[CHARACTER.Custom('DuchyOccitan')]"
- duchy_default_occitan:0 "Ducat"
- 
- duchy_occitan_independent:0 "[CHARACTER.Custom('OccitanIndepDuchy')]"
- independent_duchy_occitan:0 "Principat"
- dependent_duchy_occitan:0 "$duchy_default_occitan$"
- 
- kingdom_occitan:0 "Reialme"
- empire_occitan:0 "Impèri"
- 
  marquess_male_occitan:0 "Marques"
  marquess_female_occitan:0 "Marquesa"
  palatine_male_occitan:0 "Palazin"
  palatine_female_occitan:0 "Palazina"
  march_occitan:0 "Marca"
  palatinate_occitan:0 "Palazinat"
+ duke_default_male_occitan:0 "Ducs"
+ duke_default_female_occitan:0 "Duquessa"
+ duchy_default_occitan:0 "Ducat"
+ 
+ duke_male_occitan_independent:0 "Princes"
+ duke_female_occitan_independent:0 "Princessa"
+ duchy_occitan_independent:0 "[CHARACTER.Custom('OccitanIndepDuchy')]"
+ independent_duchy_occitan:0 "Principat"
+ dependent_duchy_occitan:0 "$duchy_default_occitan$"
+ 
+ king_male_occitan:0 "Reis"
+ king_female_occitan:0 "Reina"
+ kingdom_occitan:0 "Reialme"
+ 
+ emperor_male_occitan:0 "Emperador"
+ emperor_female_occitan:0 "Emperairitz"
+ empire_occitan:0 "Impèri"
+ 
+ title_prince_male_occitan_kingdom:0 "Princes"
+ title_prince_female_occitan_kingdom:0 "Princessa"
+ title_prince_male_occitan_empire:0 "Princes"
+ title_prince_female_occitan_empire:0 "Princessa"
+ queen_mother_occitan:0 "Reina Maire"
+ empress_mother_occitan:0 "Emperairitz Maire"
+ 
+ baron_republic_male_occitan:0 "Consol"
+ baron_republic_female_occitan:0 "Consol"
+ barony_republic_occitan:0 "Ciutat"
+ count_republic_male_occitan:0 "Capitol"
+ count_republic_female_occitan:0 "Capitol"
+ county_republic_occitan:0 "Capitoli"
+ duke_republic_male_occitan:0 "Jurat"
+ duke_republic_female_occitan:0 "Jurada"
+ duchy_republic_occitan:0 "Counselh"
+ king_republic_male_occitan:0 "Consistorial"
+ king_republic_female_occitan:0 "Consistorial"
+ kingdom_republic_occitan:0 "Counselh Generau"
 
 ########################################################
 ### Iberian Culture Group
