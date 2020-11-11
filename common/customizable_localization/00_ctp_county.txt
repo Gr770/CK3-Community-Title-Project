@@ -1,4 +1,4 @@
-﻿EarlMaleIrish = {
+﻿CountMaleIrish = {
 	type = character
 	text = {
 		trigger = {
@@ -18,7 +18,7 @@
 		fallback = yes
 	}
 }
-EarlFemaleIrish = {
+CountFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
@@ -38,7 +38,7 @@ EarlFemaleIrish = {
 		fallback = yes
 	}
 }
-EarldomIrish = {
+CountyIrish = {
 	type = character
 	text = {
 		trigger = {
@@ -58,7 +58,7 @@ EarldomIrish = {
 		fallback = yes
 	}
 }
-EarlMaleGaelic = {
+CountMaleGaelic = {
 	type = character
 	text = {
 		trigger = {
@@ -78,7 +78,7 @@ EarlMaleGaelic = {
 		fallback = yes
 	}
 }
-EarlFemaleGaelic = {
+CountFemaleGaelic = {
 	type = character
 	text = {
 		trigger = {
@@ -98,7 +98,7 @@ EarlFemaleGaelic = {
 		fallback = yes
 	}
 }
-EarlFemaleGaelicHolder = {
+CountFemaleGaelicHolder = {
 	type = character
 	text = {
 		trigger = {
@@ -118,7 +118,7 @@ EarlFemaleGaelicHolder = {
 		fallback = yes
 	}
 }
-EarldomGaelic = {
+CountyGaelic = {
 	type = character
 	text = {
 		trigger = {
@@ -138,7 +138,7 @@ EarldomGaelic = {
 		fallback = yes
 	}
 }
-EarlMalePictishCumbrian = {
+CountMalePictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -154,11 +154,17 @@ EarlMalePictishCumbrian = {
 		localization_key = earl_male_pictish_cumbrian
 	}
 	text = {
-		localization_key = count_default_male_pictish_cumbrian
+		trigger = {
+			root.culture = culture:pictish
+		}
+		localization_key = count_default_male_pictish
+	}
+	text = {
+		localization_key = count_default_male_cumbrian
 		fallback = yes
 	}
 }
-EarlFemalePictishCumbrian = {
+CountFemalePictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -174,11 +180,17 @@ EarlFemalePictishCumbrian = {
 		localization_key = earl_female_pictish_cumbrian
 	}
 	text = {
-		localization_key = count_default_female_pictish_cumbrian
+		trigger = {
+			root.culture = culture:pictish
+		}
+		localization_key = count_default_female_pictish
+	}
+	text = {
+		localization_key = count_default_female_cumbrian
 		fallback = yes
 	}
 }
-EarldomPictishCumbrian = {
+CountyPictishCumbrian = {
 	type = character
 	text = {
 		trigger = {
@@ -194,11 +206,17 @@ EarldomPictishCumbrian = {
 		localization_key = earldom_pictish_cumbrian
 	}
 	text = {
-		localization_key = county_default_pictish_cumbrian
+		trigger = {
+			root.culture = culture:pictish
+		}
+		localization_key = county_default_pictish
+	}
+	text = {
+		localization_key = county_default_cumbrian
 		fallback = yes
 	}
 }
-EarlMaleWelsh = {
+CountMaleWelsh = {
 	type = character
 	text = {
 		trigger = {
@@ -218,7 +236,7 @@ EarlMaleWelsh = {
 		fallback = yes
 	}
 }
-EarlFemaleWelsh = {
+CountFemaleWelsh = {
 	type = character
 	text = {
 		trigger = {
@@ -238,7 +256,7 @@ EarlFemaleWelsh = {
 		fallback = yes
 	}
 }
-EarldomWelsh = {
+CountyWelsh = {
 	type = character
 	text = {
 		trigger = {
@@ -258,7 +276,7 @@ EarldomWelsh = {
 		fallback = yes
 	}
 }
-EarlMaleCornish = {
+CountMaleCornish = {
 	type = character
 	text = {
 		trigger = {
@@ -278,7 +296,7 @@ EarlMaleCornish = {
 		fallback = yes
 	}
 }
-EarlFemaleCornish = {
+CountFemaleCornish = {
 	type = character
 	text = {
 		trigger = {
@@ -298,7 +316,7 @@ EarlFemaleCornish = {
 		fallback = yes
 	}
 }
-EarldomCornish = {
+CountyCornish = {
 	type = character
 	text = {
 		trigger = {
