@@ -1026,6 +1026,25 @@ empire_georgian = {
 	governments = { republic_government feudal_government clan_government tribal_government }
 	top_liege = no
 }
+title_prince_georgian = {
+	type = character
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_georgian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 149
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 baron_republic_georgian = {
 	type = character
 	special = holder
