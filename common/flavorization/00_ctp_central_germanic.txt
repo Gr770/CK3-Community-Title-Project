@@ -595,7 +595,66 @@ empire_middle_high_german = {
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
-
+title_prince_male_middle_high_german = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_middle_high_german = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_empire_middle_high_german = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_empire_middle_high_german = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_middle_high_german = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_middle_high_german = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { franconian swabian bavarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 baron_republic_male_middle_high_german = {
 	type = character
 	gender = male
@@ -626,7 +685,96 @@ barony_republic_middle_high_german = {
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
-
+count_republic_male_middle_high_german = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures= { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_female_middle_high_german = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_middle_high_german = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+}
+duke_republic_male_middle_high_german = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	cultures= { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_female_middle_high_german = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_middle_high_german = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+}
+king_republic_male_middle_high_german = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	cultures= { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_female_middle_high_german = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_republic_middle_high_german = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+}
 
 ###############################################
 ## Frisian Culture (Old Dutch)
