@@ -338,3 +338,48 @@ EarlMaleNorse = {
 		fallback = yes
 	}
 }
+CountMaleGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_count_male_greek
+	}
+	text = {
+		localization_key = count_default_male_greek
+		fallback = yes
+	}
+}
+CountFemaleGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_count_female_greek
+	}
+	text = {
+		localization_key = count_default_female_greek
+		fallback = yes
+	}
+}
+CountyGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_county_greek
+	}
+	text = {
+		localization_key = county_default_greek
+		fallback = yes
+	}
+}
