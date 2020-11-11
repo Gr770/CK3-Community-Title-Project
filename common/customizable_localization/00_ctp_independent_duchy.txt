@@ -362,6 +362,25 @@ DutchIndepDuchy = {
 		localization_key = independent_duchy_dutch
 	}
 }
+GreekIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = byzantine_dependent_duchy_greek
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_greek
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_greek
+	}
+}
 ItalianIndepDuchy = {
 	type = character
 	text = {

@@ -1,0 +1,69 @@
+KingMaleGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_king_male_greek
+	}
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_greek
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_greek
+	}
+}
+KingFemaleGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_king_female_greek
+	}
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_greek
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_greek
+	}
+}
+KingdomGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_kingdom_greek
+	}
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_greek
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_greek
+	}
+}
