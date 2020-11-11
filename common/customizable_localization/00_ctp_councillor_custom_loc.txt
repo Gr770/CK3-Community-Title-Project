@@ -196,23 +196,39 @@ CouncilPositionChancellor = {
 ##################################################	
 	text = {
 		trigger = {
+			is_male = yes
 			OR = {
 				liege.culture = culture:saxon
-				liege.culture = culture:old_saxon
-				liege.culture = culture:dutch
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
-		localization_key = councillor_chancellor_saxon_dutch
+		localization_key = councillor_chancellor_male_cen_german
 	}
 	text = {
 		trigger = {
+			is_male = no
+			liege.culture = culture:saxon
+		}
+		localization_key = councillor_chancellor_female_saxon
+	}
+	text = {
+		trigger = {
+			is_male = no
 			OR = {
 				liege.culture = culture:bavarian
 				liege.culture = culture:franconian
 				liege.culture = culture:swabian
 			}
 		}
-		localization_key = councillor_chancellor_old_high_german ## Franconians, Swabians and Bavarians all spoke Old High German (c) Urkaun
+		localization_key = councillor_chancellor_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:dutch
+		}
+		localization_key = councillor_chancellor_dutch
 	}
 	text = {
 		trigger = {
@@ -728,13 +744,22 @@ CouncilPositionSteward = {
 ##################################################	
 	text = {
 		trigger = {
+			is_male = yes
 			OR = {
 				liege.culture = culture:saxon
-				liege.culture = culture:old_saxon
-				liege.culture = culture:dutch
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
-		localization_key = councillor_steward_saxon_dutch
+		localization_key = councillor_steward_male_cen_german
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:saxon
+		}
+		localization_key = councillor_steward_female_saxon
 	}
 	text = {
 		trigger = {
@@ -743,8 +768,15 @@ CouncilPositionSteward = {
 				liege.culture = culture:franconian
 				liege.culture = culture:swabian
 			}
+			is_male = no
 		}
-		localization_key = councillor_steward_old_high_german
+		localization_key = councillor_steward_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:dutch
+		}
+		localization_key = councillor_steward_dutch
 	}
 	text = {
 		trigger = {
@@ -1230,23 +1262,45 @@ CouncilPositionMarshal = {
 ##################################################	
 	text = {
 		trigger = {
+			is_male = yes
 			OR = {
-				liege.culture = culture:swabian
 				liege.culture = culture:bavarian
 				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
-		localization_key = councillor_marshal_old_high_german
+		localization_key = councillor_marshal_male_middle_high_german
 	}
 	text = {
 		trigger = {
+			is_male = yes
+			liege.culture = culture:saxon
+		}
+		localization_key = councillor_marshal_male_saxon
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:saxon
+		}
+		localization_key = councillor_marshal_female_saxon
+	}
+	text = {
+		trigger = {
+			is_male = no
 			OR = {
-				liege.culture = culture:saxon
-				liege.culture = culture:old_saxon	
-				liege.culture = culture:dutch
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
-		localization_key = councillor_marshal_saxon_dutch
+		localization_key = councillor_marshal_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:dutch
+		}
+		localization_key = councillor_marshal_dutch
 	}
 	text = {
 		trigger = {
@@ -1785,28 +1839,38 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			OR = {
-				liege.culture = culture:saxon
-				liege.culture = culture:old_saxon
 				liege.culture = culture:swabian
 				liege.culture = culture:bavarian
 				liege.culture = culture:franconian
 			}
 			is_male = yes
 		}
-		localization_key = councillor_spymaster_central_germanic_group_male
+		localization_key = councillor_spymaster_middle_high_german_male
 	}
 	text = {
 		trigger = {
 			OR = {
-				liege.culture = culture:saxon
-				liege.culture = culture:old_saxon
 				liege.culture = culture:swabian
 				liege.culture = culture:bavarian
 				liege.culture = culture:franconian
 			}
 			is_male = no
 		}
-		localization_key = councillor_spymaster_central_germanic_group_female
+		localization_key = councillor_spymaster_middle_high_german_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:saxon
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_saxon_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:saxon
+			is_male = no
+		}
+		localization_key = councillor_spymaster_saxon_female
 	}
 	text = {
 		trigger = {
@@ -1825,16 +1889,8 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege.culture = culture:dutch
-			is_male = yes
 		}
-		localization_key = councillor_spymaster_dutch_male
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:dutch
-			is_male = no
-		}
-		localization_key = councillor_spymaster_dutch_female
+		localization_key = councillor_spymaster_dutch
 	}
 ##################################################
 ### Arabic
