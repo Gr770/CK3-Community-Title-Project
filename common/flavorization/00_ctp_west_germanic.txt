@@ -115,7 +115,7 @@ title_prince_male_english_kingdom = {
 	gender = male
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { english }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -125,7 +125,7 @@ title_prince_female_english_kingdom = {
 	gender = female
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { english }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -155,9 +155,9 @@ title_prince_male_english_empire = {
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 150
 	cultures = { english }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_female_english_empire = {
@@ -165,9 +165,9 @@ title_prince_female_english_empire = {
 	gender = female
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 150
 	cultures = { english }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 barony_english = {
@@ -339,40 +339,6 @@ kingdom_republic_english = {
 	governments = { republic_government }
 	top_liege = no
 }
-king_male_english_islam_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { english }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-	top_liege = no
-}
-king_female_english_islam_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { english }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-	top_liege = no
-}
-kingdom_english_islam_independent = {
-	type = title
-	tier = kingdom
-	priority = 145
-	cultures = { english }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-	top_liege = no
-}
 ##########################################
 ## Anglo_saxon_culture ##
 ##
@@ -483,7 +449,7 @@ title_prince_male_anglo_saxon_kingdom = {
 	gender = male
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { anglo_saxon }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -493,7 +459,7 @@ title_prince_female_anglo_saxon_kingdom = {
 	gender = female
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { anglo_saxon }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -523,9 +489,9 @@ title_prince_male_anglo_saxon_empire = {
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 150
 	cultures = { anglo_saxon }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_female_anglo_saxon_empire = {
@@ -533,9 +499,9 @@ title_prince_female_anglo_saxon_empire = {
 	gender = female
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 150
 	cultures = { anglo_saxon }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 barony_anglo_saxon = {
@@ -762,40 +728,6 @@ duchy_tribal_anglo_saxon = {
 	cultures = { anglo_saxon }
 	governments = { tribal_government }
 	top_liege = no
-}
-king_male_anglo_saxon_islam_independent = {  
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { anglo_saxon }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-king_female_anglo_saxon_islam_independent = {  
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { anglo_saxon }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_anglo_saxon_islam_independent = {
-	type = title
-	tier = kingdom
-	priority = 145
-	cultures = { anglo_saxon }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
 }
 ################################################
 ## Old Saxon Culture (Old Low German)
@@ -1033,6 +965,52 @@ barony_republic_old_saxon = {
 	cultures = { old_saxon }
 	top_liege = no
 }
+count_republic_male_old_saxon = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { old_saxon }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_female_old_saxon = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { old_saxon }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_old_saxon = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { old_saxon }
+	top_liege = no
+}
+duchy_republic_old_saxon = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	cultures = { old_saxon }
+	top_liege = no
+}
+kingdom_republic_old_saxon = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	cultures = { old_saxon }
+	top_liege = no
+}
 ###############################################
 ## Scottish_culture ##
 ##
@@ -1143,7 +1121,7 @@ title_prince_male_scottish_kingdom = {
 	gender = male
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { scottish }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -1153,7 +1131,7 @@ title_prince_female_scottish_kingdom = {
 	gender = female
 	special = ruler_child
 	tier = kingdom
-	priority = 131
+	priority = 130
 	cultures = { scottish }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -1182,20 +1160,20 @@ title_prince_male_scottish_empire = {
 	type = character
 	gender = male
 	special = ruler_child
-	tier = kingdom
-	priority = 132
+	tier = empire
+	priority = 150
 	cultures = { scottish }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_female_scottish_empire = {
 	type = character
 	gender = female
 	special = ruler_child
-	tier = kingdom
-	priority = 132
+	tier = empire
+	priority = 150
 	cultures = { scottish }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 barony_scottish = {
@@ -1366,40 +1344,6 @@ kingdom_republic_scottish = {
 	cultures = { scottish }
 	governments = { republic_government }
 	top_liege = no
-}
-king_male_scottish_islam_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { scottish }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-king_female_scottish_islam_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 145
-	cultures = { scottish }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_scottish_islam_independent = {
-	type = title
-	tier = kingdom
-	priority = 145
-	cultures = { scottish }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
 }
 ###############################################
 ## End of West_German_culture_group ##
