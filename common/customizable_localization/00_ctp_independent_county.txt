@@ -29,8 +29,16 @@ PictishCumbrianIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
+			root.culture = culture:pictish
 		}
-		localization_key = dependent_county_pictish_cumbrian
+		localization_key = dependent_county_pictish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			root.culture = culture:cumbrian
+		}
+		localization_key = dependent_county_cumbrian
 	}
 	text = {
 		fallback = yes
