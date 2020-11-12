@@ -2541,74 +2541,172 @@
  title_prince_male_tamil:0 "Ilavarasan"
  title_prince_female_tamil:0 "Ilavarasi"
 
+######################################################
+### Arabic Culture Group
+######################################################
 
-### Arabic ###
-
- barony_feudalclan_arabic_group:0 "Liwa'"
- count_feudalclan_male_arabic_group:0 "Wali"
- county_feudalclan_arabic_group:0 "Qada"
- duke_feudalclan_male_arabic_group:0 "Emir"
- duke_feudalclan_female_arabic_group:0 "Amirah"
- duchy_feudalclan_arabic_group:0 "Imarah"
- king_feudalclan_male_arabic_group:0 "Malik"
- king_feudalclan_female_arabic_group:0 "Malikah"
- kingdom_feudalclan_arabic_group:0 "Mamlakah" 
-
- #Maghrebi
- king_feudalclan_male_maghrebi:0 "Mawla"
- king_feudalclan_female_maghrebi:0 "Mawla" 
-
- #Sultan 
- king_feudalclan_male_arabic_group_sunni:0 "Sultan"
- king_feudalclan_female_arabic_group_sunni:0 "Sultana"
- kingdom_feudalclan_arabic_group_sunni:0 "Sultanate"
- emperor_feudalclan_male_arabic_group:0 "Imbiratur"
- emperor_feudalclan_female_arabic_group:0 "Imbiraturah"
+ baron_feudalclan_male_arabic_group:0 "ʿĀmil"
+ baron_feudalclan_female_arabic_group:0 "ʿĀmilah"
+ baron_feudalclan_female_arabic_group_holder:0 "$baron_feudalclan_male_arabic_group$"
+ barony_feudalclan_arabic_group:0 "Ḍayʿah"
+ 
+ count_feudalclan_male_arabic_group:0 "Wālī"
+ count_feudalclan_female_arabic_group:0 "Wāliyah"
+ count_feudalclan_female_arabic_group_holder:0 "$count_feudalclan_male_arabic_group$"
+ county_feudalclan_arabic_group:0 "Liwāʿ"
+ 
+ count_feudalclan_male_arabic_group_independent:0 "$duke_default_arabic$"
+ count_feudalclan_female_arabic_group_independent:0 "$duke_feudalclan_female_arabic_group$"
+ count_feudalclan_female_arabic_group_holder_independent:0 "$duke_default_arabic$"
+ count_feudalclan_male_arabic_group_independent_christian:0 "$count_feudalclan_male_arabic_group$"
+ count_feudalclan_female_arabic_group_independent_christian:0 "$count_feudalclan_female_arabic_group$"
+ count_feudalclan_female_arabic_group_holder_independent_christian:0 "$count_feudalclan_male_arabic_group$"
+ county_feudalclan_arabic_group_independent:0 "$duchy_arabic$"
+ county_feudalclan_arabic_group_independent_christian:0 "$county_feudalclan_arabic_group$"
+ 
+ duke_feudalclan_male_arabic_group:0 "[CHARACTER.Custom('DukeArabic')]"
+ duke_feudalclan_female_arabic_group:0 "Amīrah"
+ duke_feudalclan_female_arabic_group_christian:0 "Dūqah"
+ duke_feudalclan_female_arabic_group_holder:0 "[CHARACTER.Custom('DukeArabic')]"
+ duchy_feudalclan_arabic_group:0 "[CHARACTER.Custom('DuchyArabic')]"
+ marquess_arabic:0 "Ṣāhib al-Thaghr"
+ palatine_arabic:0 "Amīr al-Umarāʾ"
+ palatine_christian_arabic:0 "Dūq al-Umarāʾ"
+ duke_christian_arabic:0 "Dūq"
+ duke_default_arabic:0 "Amīr"
+ march_arabic:0 "Thaghr"
+ duchy_christian_arabic:0 "Ard a Dūq"
+ duchy_arabic:0 "ʾImārah"
+ 
+ king_feudalclan_male_arabic_group:0 "[CHARACTER.Custom('KingArabic')]"
+ king_feudalclan_female_arabic_group:0 "[CHARACTER.Custom('KingFemaleArabic')]"
+ king_feudalclan_female_arabic_group_holder:0 "[CHARACTER.Custom('KingArabic')]"
+ kingdom_feudalclan_arabic_group:0 "[CHARACTER.Custom('KingdomArabic')]"
+ sultan_male_arabic:0 "Sulṭān"
+ king_christian_arabic:0 "Rāy"
+ king_default_male_arabic:0 "Malīk"
+ sultan_female_arabic:0 "Sulṭānah"
+ king_female_christian_arabic:0 "Rāyah"
+ king_default_female_arabic:0 "Malikah"
+ sultanate_arabic:0 "Salṭanah"
+ kingdom_christian_arabic:0 "Ard a Rāy"
+ kingdom_default_arabic:0 "Mamlakah"
+ 
+ emperor_feudalclan_male_arabic_group:0 "Malik al-Mulūk"
+ emperor_feudalclan_female_arabic_group:0 "Malikat al-Malikāt"
+ emperor_feudalclan_female_arabic_group_holder:0 "$emperor_feudalclan_male_arabic_group$"
  empire_feudalclan_arabic_group:0 "Mulk"
+ emperor_feudalclan_male_arabic_group_christian:0 "Imbiratur"
+ emperor_feudalclan_female_arabic_group_christian:0 "Imbiraturah"
+ emperor_feudalclan_female_arabic_group_holder_christian:0 "$emperor_feudalclan_male_arabic_group_christian$"
+ 
+ title_prince_male_arabic_group:0 "Amīr"
+ title_prince_female_arabic_group:0 "Amīrah"
+ title_prince_male_arabic_group_empire:0 "Amīr"
+ title_prince_female_arabic_group_empire:0 "Amīrah"
+ 
+ baron_republic_arabic_group:0 "Raʾīs"
+ barony_republic_arabic_group:0 "Madinah"
+ count_republic_arabic_group:0 "Raʾīs"
+ county_republic_arabic_group:0 "Madinat Kubrā"
+ duke_republic_arabic_group:0 "Raʾīs al-Ruʾasāʾ"
+ duchy_republic_arabic_group:0 "Dawlah"
+ king_republic_arabic_group:0 "Raʾīs al-Dawlah"
+ kingdom_republic_arabic_group:0 "Dawlah"
+ 
+ count_tribal_male_arabic_group:0 "Shaykh"
+ count_tribal_female_arabic_group:0 "Shaykhah"
+ count_tribal_female_arabic_group_holder:0 "$count_tribal_male_arabic_group$"
+ county_tribal_arabic_group:0 "ʿAshīrah"
+ duke_tribal_male_arabic_group:0 "Shaykh"
+ duke_tribal_female_arabic_group:0 "Shaykhah"
+ duke_tribal_female_arabic_group_holder:0 "$duke_tribal_male_arabic_group$"
+ duchy_tribal_arabic_group:0 "Qabīlah"
+ 
+##Maghrebi##
 
+ king_maghrebi:0 "Mawla"
 
+##Andalusian##
+
+ county_feudalclan_andalusian_independent:0 "Ṭāʾifah"
+ 
+ duchy_feudalclan_andalusian_independent:0 "Ṭāʾifah"
+
+ title_prince_male_andalusian_christian:0 "ʾFānt"
+ title_prince_female_andalusian_christian:0 "ʾFāntah"
+ title_prince_male_andalusian_christian_empire:0 "ʾFānt"
+ title_prince_female_andalusian_christian_empire:0 "ʾFāntah"
 
 ##Egyptian_Coptic##
 
  baron_feudalclan_male_egyptian_coptic:0 "Amira"
- baron_feudalclan_female_egyptian_coptic:0 "Amirissa"
+ baron_feudalclan_female_egyptian_coptic:0 "Sunzugos"
+ baron_feudalclan_female_egyptian_coptic_holder:0 "Amirissa"
  barony_feudalclan_egyptian_coptic:0 "Kastron'"
+ 
  count_feudalclan_male_egyptian_coptic:0 "Nomarkhês"
- count_feudalclan_female_egyptian_coptic:0 "Nomarkhissa"
+ count_feudalclan_female_egyptian_coptic:0 "Sunzugos"
+ count_feudalclan_female_egyptian_coptic_holder:0 "Nomarkhissa"
  county_feudalclan_egyptian_coptic:0 "Nomos"
- duke_feudalclan_male_egyptian_coptic:0 "Əparkhos"
- duke_feudalclan_female_egyptian_coptic:0 "Əparkhissa"
- duchy_feudalclan_egyptian_coptic:0 "Əparkhia"
- king_feudalclan_male_egyptian_coptic:0 "Rrō"
- king_feudalclan_female_egyptian_coptic:0 "Rrō"
+ 
+ duke_feudalclan_male_egyptian_coptic:0 "[CHARACTER.Custom('DukeMaleCoptic')]"
+ duke_feudalclan_female_egyptian_coptic:0 "Sunzugos"
+ duke_feudalclan_female_egyptian_coptic_holder:0 "[CHARACTER.Custom('DukeFemaleCoptic')]"
+ duchy_feudalclan_egyptian_coptic:0 "[CHARACTER.Custom('DuchyCoptic')]"
+ marquess_coptic:0 "Təšə"
+ palatine_male_coptic:0 "Koməs"
+ duke_default_male_coptic:0 "Əparkhos"
+ palatine_female_coptic:0 "Komissa"
+ duke_default_female_coptic:0 "Əparkhissa"
+ march_coptic:0 "Manpôrj"
+ palatinate_coptic:0 "Pallatinaton"
+ duchy_default_coptic:0 "Əparkhia"
+ 
+ duke_feudalclan_male_egyptian_coptic_independent:0 "Priggipos"
+ duke_feudalclan_female_egyptian_coptic_independent:0 "Sunzugos"
+ duke_feudalclan_female_egyptian_coptic_holder_independent:0 "Priggipissa"
+ duchy_feudalclan_egyptian_coptic_independent:0 "Priggipaton"
+ 
+ king_feudalclan_male_egyptian_coptic:0 "Rro"
+ king_feudalclan_female_egyptian_coptic:0 "Sunzugos"
+ king_feudalclan_female_egyptian_coptic_holder:0 "Rrō"
  kingdom_feudalclan_egyptian_coptic:0 "Mntrro"
+ 
  emperor_feudalclan_male_egyptian_coptic:0 "Autokratôr"
- emperor_feudalclan_female_egyptian_coptic:0 "Autokratəira"
+ emperor_feudalclan_female_egyptian_coptic:0 "Sunzugos"
+ emperor_feudalclan_female_egyptian_coptic_holder:0 "Autokratəira"
  empire_feudalclan_egyptian_coptic:0 "Autokratôria"
 
+ title_prince_male_eqyptian_coptic:0 "Priggipos"
+ title_prince_female_eqyptian_coptic:0 "Priggipissa"
+ title_prince_male_eqyptian_coptic_empire:0 "Kaisar"
+ title_prince_female_eqyptian_coptic_empire:0 "Kaisarissa"
+ title_queen_mother_eqyptian_coptic:0 "Rro Maau"
+ title_queen_mother_eqyptian_coptic_empire:0 "Rro Maau"
+ 
+ ##South_Slavic##
+ 
+ #croatian
 
-##South_Slavic##
-
-#croatian
-
-baron_feudalclan_male_croatian:0 "Barun"
-baron_feudalclan_female_croatian:0 "Barunica" 
-count_feudalclan_male_croatian:0 "Župan"
-count_feudalclan_male_croatian_independent:0 "Knez"  
-count_feudalclan_female_croatian:0 "Županka"   
-count_feudalclan_female_croatian_independent:0 "Kneginja"  
-county_feudalclan_croatian_independent:0 "Kneževina"  
-county_feudalclan_croatian:0 "Župa"
-duke_feudalclan_male_croatian:0 "Ban"  
-duke_feudalclan_male_croatian_independent:0 "Knez"  
-duke_feudalclan_female_croatian:0 "Banica" 
-duchy_feudalclan_croatian:0 "Banovina"  
-duke_feudalclan_female_croatian_independent:0 "Kneginja"   
-duchy_feudalclan_croatian_independent:0 "Kneževina"  
-king_feudalclan_male_croatian:0 "Kralj"  
-king_feudalclan_female_croatian:0 "Kraljica" 
-emperor_feudalclan_male_croatian:0 "Car" 
-emperor_feudalclan_female_croatian:0 "Carica"  
+ baron_feudalclan_male_croatian:0 "Barun"
+ baron_feudalclan_female_croatian:0 "Barunica" 
+ count_feudalclan_male_croatian:0 "Župan"
+ count_feudalclan_male_croatian_independent:0 "Knez"  
+ count_feudalclan_female_croatian:0 "Županka"   
+ count_feudalclan_female_croatian_independent:0 "Kneginja"  
+ county_feudalclan_croatian_independent:0 "Kneževina"  
+ county_feudalclan_croatian:0 "Župa"
+ duke_feudalclan_male_croatian:0 "Ban"  
+ duke_feudalclan_male_croatian_independent:0 "Knez"  
+ duke_feudalclan_female_croatian:0 "Banica" 
+ duchy_feudalclan_croatian:0 "Banovina"  
+ duke_feudalclan_female_croatian_independent:0 "Kneginja"   
+ duchy_feudalclan_croatian_independent:0 "Kneževina"  
+ king_feudalclan_male_croatian:0 "Kralj"  
+ king_feudalclan_female_croatian:0 "Kraljica" 
+ emperor_feudalclan_male_croatian:0 "Car" 
+ emperor_feudalclan_female_croatian:0 "Carica"  
 
 #bosnian and serbian
 

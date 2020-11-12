@@ -1811,6 +1811,152 @@ DuchyDutch = {
 		fallback = yes
 	}
 }
+DukeArabic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_arabic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+			NOT = {
+				has_religion = religion:christian_religion
+			}
+		}
+		localization_key = palatine_arabic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+			has_religion = religion:christian_religion
+		}
+		localization_key = palatine_christian_arabic
+	}
+	text = {
+		trigger = {
+			has_religion = religion:christian_religion
+		}
+		localization_key = duke_christian_arabic
+	}
+	text = {
+		localization_key = duke_default_arabic
+		fallback = yes
+	}
+}
+DuchyArabic = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_arabic
+	}
+	text = {
+		trigger = {
+			has_religion = religion:christian_religion
+		}
+		localization_key = duchy_christian_arabic
+	}
+	text = {
+		localization_key = duchy_arabic
+		fallback = yes
+	}
+}
+DukeMaleCoptic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_coptic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_coptic
+	}
+	text = {
+		localization_key = duke_default_male_coptic
+		fallback = yes
+	}
+}
+DukeFemaleCoptic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_coptic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_coptic
+	}
+	text = {
+		localization_key = duke_default_female_coptic
+		fallback = yes
+	}
+}
+DuchyCoptic = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_coptic
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_coptic
+	}
+	text = {
+		localization_key = duchy_default_coptic
+		fallback = yes
+	}
+}
 DukeMaleArmenian = {
 	type = character
 	text = {
