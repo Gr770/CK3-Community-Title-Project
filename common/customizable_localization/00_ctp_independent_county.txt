@@ -11,6 +11,19 @@
 		localization_key = independent_county_gaelic
 	}
 }
+OldSaxonIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = dependent_county_old_saxon
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_old_saxon
+	}
+}
 PictishCumbrianIndepCounty = {
 	type = character
 	text = {
@@ -89,30 +102,56 @@ DanishIndepCounty = {
 		localization_key = independent_county_danish
 	}
 }
-FinnishFeudalIndepCounty = {
+SaxonIndepCounty = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_feudal_finnish
+		localization_key = dependent_county_saxon
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_feudal_finnish
+		localization_key = independent_county_saxon
 	}
 }
-FinnishTribalIndepCounty = {
+MiddleHighGermanIndepCounty = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_tribal_finnish
+		localization_key = dependent_county_middle_high_german
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_tribal_finnish
+		localization_key = independent_county_middle_high_german
+	}
+}
+FrisianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = dependent_county_frisian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_frisian
+	}
+}
+DutchIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = dependent_county_dutch
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_dutch
 	}
 }
 SardinianIndepCounty = {
@@ -122,17 +161,17 @@ SardinianIndepCounty = {
 			highest_held_title_tier >= tier_duchy
 			has_government = feudal_government
 		}
-		localization_key = dependent_county_sardinian
+		localization_key = judicatu_feudalclan_dependent
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 			has_government = republic_government
 		}
-		localization_key = dependent_county_republic_sardinian
+		localization_key = judicatu_republic_dependent
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_sardinian
+		localization_key = judicatu_independent
 	}
 }
