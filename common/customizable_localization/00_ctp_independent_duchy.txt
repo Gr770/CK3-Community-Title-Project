@@ -472,6 +472,70 @@ SicilianIndepDuchy = {
 		localization_key = independent_duchy_sicilian
 	}
 }
+CroatianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = dependent_byzantine_duchy_croatian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_croatian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_croatian
+	}
+}
+SerbianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = dependent_byzantine_duchy_serbian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_serbian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_serbian
+	}
+}
+VlachIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_vlach
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_vlach
+	}
+}
+BulgarianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_bulgarian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_bulgarian
+	}
+}
 EthiopianIndepDuchy = {
 	type = character
 	text = {

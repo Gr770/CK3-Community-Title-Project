@@ -2623,7 +2623,91 @@ DuchySardinian = {
 		fallback = yes
 	}
 }
-
+DukeMaleCroatian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_male_croatian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_male_croatian
+	}
+	text = {
+		localization_key = duke_default_male_croatian
+		fallback = yes
+	}
+}
+DukeFemaleCroatian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_march_contract
+				}
+			}
+		}
+		localization_key = marquess_female_croatian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				root.primary_spouse = {
+					vassal_contract_has_flag = has_palatinate_contract
+				}
+			}
+		}
+		localization_key = palatine_female_croatian
+	}
+	text = {
+		localization_key = duke_default_female_croatian
+		fallback = yes
+	}
+}
+DuchyCroatian = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_croatian
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_croatian
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_duchy_croatian
+	}
+	text = {
+		localization_key = duchy_default_croatian
+		fallback = yes
+	}
+}
 DukeMaleSerbian = {
 	type = character
 	text = {
@@ -2695,6 +2779,14 @@ DuchySerbian = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_serbian
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_duchy_serbian
 	}
 	text = {
 		localization_key = duchy_default_serbian
