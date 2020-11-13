@@ -163,3 +163,49 @@ BaronyCroatian = {
 		fallback = yes
 	}
 }
+BaronMaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_serbian
+	}
+	text = {
+		localization_key = baron_default_male_serbian
+		fallback = yes
+	}
+}
+
+BaronFemaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_serbian
+	}
+	text = {
+		localization_key = baron_default_female_serbian
+		fallback = yes
+	}
+}
+BaronySerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_serbian
+	}
+	text = {
+		localization_key = barony_default_serbian
+		fallback = yes
+	}
+}

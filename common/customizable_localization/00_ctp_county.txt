@@ -446,3 +446,48 @@ CountyCroatian = {
 		fallback = yes
 	}
 }
+CountMaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_count_male_serbian
+	}
+	text = {
+		localization_key = count_default_male_serbian
+		fallback = yes
+	}
+}
+CountFemaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_count_female_serbian
+	}
+	text = {
+		localization_key = count_default_female_serbian
+		fallback = yes
+	}
+}
+CountySerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_county_serbian
+	}
+	text = {
+		localization_key = county_default_serbian
+		fallback = yes
+	}
+}

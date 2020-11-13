@@ -620,3 +620,84 @@ KingdomCroatian = {
 		localization_key = kingdom_default_croatian
 	}
 }
+KingMaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_king_male_serbian
+	}
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_serbian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_serbian
+	}
+}
+KingFemaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_king_female_serbian
+	}
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_serbian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_serbian
+	}
+}
+KingdomSerbian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_serbian
+	}
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_serbian
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_serbian
+	}
+}
