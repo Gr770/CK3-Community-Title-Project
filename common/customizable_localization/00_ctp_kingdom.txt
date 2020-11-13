@@ -901,12 +901,15 @@ KingMaleCroatian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
+		}
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
 		}
 		localization_key = byzantine_king_male_croatian
 	}
@@ -919,14 +922,17 @@ KingFemaleCroatian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_king_female_croatian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		fallback = yes
@@ -937,14 +943,17 @@ KingdomCroatian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_kingdom_croatian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		fallback = yes
@@ -955,14 +964,17 @@ KingMaleSerbian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_king_male_serbian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		trigger = {
@@ -992,14 +1004,17 @@ KingFemaleSerbian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_king_female_serbian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		trigger = {
@@ -1029,14 +1044,17 @@ KingdomSerbian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_kingdom_serbian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		trigger = {
@@ -1134,14 +1152,17 @@ KingMaleBulgarian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_king_male_bulgarian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		fallback = yes
@@ -1152,14 +1173,17 @@ KingFemaleBulgarian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_king_female_bulgarian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		fallback = yes
@@ -1170,14 +1194,17 @@ KingdomBulgarian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_faith = faith:orthodox
-				root.top_liege = {
-					has_primary_title = title:e_byzantium
-				}
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
 			}
 		}
-		localization_key = byzantine_kingdom_bulgarian
+		localization_key = byzantine_king_male_croatian
+	}
+	text = {
+		trigger = {
+			has_faith = faith:orthodox
+		}
+		localization_key = byzantine_king_male_croatian
 	}
 	text = {
 		fallback = yes
