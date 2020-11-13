@@ -390,6 +390,20 @@ CouncilPositionChancellor = {
 		}
 		localization_key = councillor_chancellor_vlach_female
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:bulgarian
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_bulgarian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:bulgarian
+			is_male = no
+		}
+		localization_key = councillor_chancellor_bulgarian_female
+	}
 ##################################################
 ### Western Slavic
 ##################################################
@@ -963,6 +977,20 @@ CouncilPositionSteward = {
 		}
 		localization_key = councillor_steward_vlach_female
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:bulgarian
+			is_male = yes
+		}
+		localization_key = councillor_steward_bulgarian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:bulgarian
+			is_male = no
+		}
+		localization_key = councillor_steward_bulgarian_female
+	}
 ##################################################
 ### Western Slavic
 ##################################################
@@ -1485,6 +1513,12 @@ CouncilPositionMarshal = {
 			is_male = no
 		}
 		localization_key = councillor_marshal_vlach_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:bulgarian
+		}
+		localization_key = councillor_marshal_bulgarian
 	}
 ##################################################
 ### Western Slavic
