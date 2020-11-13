@@ -510,6 +510,19 @@ SerbianIndepDuchy = {
 		localization_key = independent_duchy_serbian
 	}
 }
+VlachIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = dependent_duchy_vlach
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_vlach
+	}
+}
 EthiopianIndepDuchy = {
 	type = character
 	text = {

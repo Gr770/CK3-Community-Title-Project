@@ -221,3 +221,16 @@ SerbianIndepCounty = {
 		localization_key = independent_county_serbian
 	}
 }
+VlachIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = dependent_county_vlach
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_vlach
+	}
+}

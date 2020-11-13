@@ -2858,89 +2858,76 @@
  
 # Vlach (Rumîn)
 
-#   Barony - Feudal/Clan
-baron_feudalclan_female_vlach:0 "Castelană"
-baron_feudalclan_male_vlach:0 "Castelan"
-barony_feudalclan_vlach:0 "Cetate"
+ baron_male_vlach:0 "Castelană"
+ baron_female_vlach:0 "Castelan"
+ barony_vlach:0 "Cetate"
 
-#   Barony - Republic
-baron_republic_male_vlach:0 "Șoltuz"
-baron_republic_female_vlach:0 "Șoltuză"
-barony_republic_vlach:0 "Oraș"
+ count_feudalclan_male_vlach:0 "Pîrcălab"
+ count_feudalclan_female_vlach:0 "Pîrcălabă"
+ county_feudalclan_vlach:0 "Ținut"
 
-#   County - Feudal/Clan
-count_feudalclan_male_vlach:0 "Pîrcălab"
-count_feudalclan_female_vlach:0 "Pîrcălabă"
-county_feudalclan_vlach:0 "Ținut"
+ count_feudalclan_male_vlach_independent:0 "Cneaz"
+ count_feudalclan_female_vlach_independent:0 "Cnează"
+ county_feudalclan_vlach_independent:0 "[CHARACTER.Custom('VlachIndepCounty')]"
+ dependent_county_vlach:0 "$county_feudalclan_vlach$"
+ independent_county_vlach:0 "Cnezat"
 
-#   County - Feudal/Clan - Independent
-count_feudalclan_male_vlach_independent:0 "Cneaz"
-count_feudalclan_female_vlach_independent:0 "Cnează"
-county_feudalclan_vlach_independent:0 "Cnezat"
+ duke_feudalclan_male_vlach:0 "[CHARACTER.Custom('DukeMaleVlach')]"
+ duke_feudalclan_female_vlach:0 "[CHARACTER.Custom('DukeFemaleVlach')]"
+ duchy_feudalclan_vlach:0 "[CHARACTER.Custom('DuchyVlach')]"
+ marquess_male_vlach:0 "Margrav"
+ palatine_male_vlach:0 "Principe Palatin"
+ marquess_female_vlach:0 "Margravină"
+ palatine_female_vlach:0 "Principesă Palatină"
+ march_vlach:0 "Marcă"
+ palatinate_vlach:0 "Palatinat"
+ duke_default_male_vlach:0 "Ban"
+ duke_default_female_vlach:0 "Băneasă"
+ duchy_default_vlach:0 "Banat"
+ 
+ duke_feudalclan_male_vlach_independent:0 "Voievod"
+ duke_feudalclan_female_vlach_independent:0 "Voievoadă"
+ duchy_feudalclan_vlach_independent:0 "[CHARACTER.Custom('VlachIndepDuchy')]"
+ dependent_duchy_vlach:0 "$duchy_default_vlach$"
+ duchy_default_vlach:0 "Voievodat"
 
-#   County - Tribal
-count_tribal_male_vlach:0 "Cneaz"
-count_tribal_female_vlach:0 "Cnează"
-county_tribal_vlach:0 "Cnezat"
+ king_male_vlach:0 "[CHARACTER.Custom('KingMaleVlach')]"
+ king_female_vlach:0 "[CHARACTER.Custom('KingFemaleVlach')]"
+ kingdom_vlach:0 "[CHARACTER.Custom('KingdomVlach')]"
+ sultan_male_vlach:0 "Sultan"
+ sultan_female_vlach:0 "Sultană"
+ sultanate_vlach:0 "Sultanat"
+ king_default_male_vlach:0 "Domn"
+ king_default_female_vlach:0 "Doamnă"
+ kingdom_default_vlach:0 "Țeară"
 
-#   County - Republic
-count_republic_male_vlach:0 "Jude"
-count_republic_female_vlach:0 "Judeasă"
-county_republic_vlach:0 "Județ"
+ empire_vlach:0 "Imperiu"
+ emperor_male_vlach:0 "Împărat"
+ emperor_female_vlach:0 "Împărăteasă"
 
-#   Duchy - Feudal/Clan
-duke_feudalclan_male_vlach:0 "[CHARACTER.Custom('DukeMaleVlach')]"
-marquess_male_vlach:0 "Margrav"
-palatine_male_vlach:0 "Principe Palatin"
-duke_default_male_vlach:0 "Ban"
-
-duke_feudalclan_female_vlach:0 "[CHARACTER.Custom('DukeFemaleVlach')]"
-marquess_female_vlach:0 "Margravină"
-palatine_female_vlach:0 "Principesă Palatină"
-duke_default_female_vlach:0 "Băneasă"
-
-duchy_feudalclan_vlach:0 "[CHARACTER.Custom('DuchyVlach')]"
-march_vlach:0 "Marcă"
-palatinate_vlach:0 "Palatinat"
-duchy_default_vlach:0 "Banat"
-
-#   Duchy - Feudal/Clan - Independent
-duke_feudalclan_male_vlach_independent:0 "Voievod"
-duke_feudalclan_female_vlach_independent:0 "Voievoadă"
-duchy_feudalclan_vlach_independent:0 "Voievodat"
-
-#   Duchy - Tribal
-duke_tribal_male_vlach:0 "Voievod"
-duke_tribal_female_vlach:0 "Voievoadă"
-duchy_tribal_vlach:0 "Voievodat"
-
-#   Duchy - Republic
-duchy_republic_vlach:0 "Republică"
-
-#   Kingdom
-king_male_vlach:0 "Domn"
-king_female_vlach:0 "Doamnă"
-kingdom_vlach:0 "Țeară" # Modern form of the word: Țară. Real examples: Țeara Rumânească, Țeara Moldovei
-
-#   Kingdom - Republic
-kingdom_republic_vlach:0 "Mare Republică"
-
-#   Kingdom - Muslim
-king_male_vlach_muslim:0 "Sultan"
-king_female_vlach_muslim:0 "Sultană"
-kingdom_vlach_muslim:0 "Sultanat"
-
-#   Empire
-empire_vlach:0 "Imperiu"
-emperor_male_vlach:0 "Împărat"
-emperor_female_vlach:0 "Împărăteasă"
-
-#   Titles
-title_prince_male_vlach:0 "Prinț"
-title_prince_female_vlach:0 "Prințesă"
-title_prince_male_vlach_empire:0 "Prinț"
-title_prince_female_vlach_empire:0 "Prințesă"
-
+ title_prince_male_vlach:0 "Prinț"
+ title_prince_female_vlach:0 "Prințesă"
+ title_prince_male_vlach_empire:0 "Prinț"
+ title_prince_female_vlach_empire:0 "Prințesă"
+ queen_mother_vlach:0 "Doamnă Mamă"
+ empress_mother_vlach:0 "Împărăteasă Mamă"
+ 
+ baron_republic_male_vlach:0 "Șoltuz"
+ baron_republic_female_vlach:0 "Șoltuză"
+ barony_republic_vlach:0 "Oraș"
+ count_republic_male_vlach:0 "Jude"
+ count_republic_female_vlach:0 "Judeasă"
+ county_republic_vlach:0 "Județ"
+ duchy_republic_vlach:0 "Republică"
+ kingdom_republic_vlach:0 "Mare Republică"
+ 
+ count_tribal_male_vlach:0 "Cneaz"
+ count_tribal_female_vlach:0 "Cnează"
+ county_tribal_vlach:0 "Cnezat"
+ duke_tribal_male_vlach:0 "Voievod"
+ duke_tribal_female_vlach:0 "Voievoadă"
+ duchy_tribal_vlach:0 "Voievodat"
+ 
 ##bulgarian
 baron_feudalclan_male_bulgarian:0 "Bolyarin"
 baron_feudalclan_female_bulgarian:0 "Bolyarinya" 
