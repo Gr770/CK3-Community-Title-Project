@@ -234,3 +234,22 @@ VlachIndepCounty = {
 		localization_key = independent_county_vlach
 	}
 }
+BulgarianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = dependent_byzantine_county_bulgarian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = dependent_county_bulgarian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_bulgarian
+	}
+}

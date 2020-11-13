@@ -1130,3 +1130,57 @@ KingdomVlach = {
 		localization_key = kingdom_default_vlach
 	}
 }
+KingMaleBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_king_male_bulgarian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_bulgarian
+	}
+}
+KingFemaleBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_king_female_bulgarian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_bulgarian
+	}
+}
+KingdomBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					has_primary_title = title:e_byzantium
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_bulgarian
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_bulgarian
+	}
+}
