@@ -31,14 +31,14 @@ PictishCumbrianIndepCounty = {
 			highest_held_title_tier >= tier_duchy
 			root.culture = culture:pictish
 		}
-		localization_key = dependent_county_pictish
+		localization_key = county_default_pictish
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 			root.culture = culture:cumbrian
 		}
-		localization_key = dependent_county_cumbrian
+		localization_key = county_default_cumbrian
 	}
 	text = {
 		fallback = yes
@@ -51,7 +51,7 @@ WelshIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_welsh
+		localization_key = county_default_welsh
 	}
 	text = {
 		fallback = yes
@@ -64,7 +64,7 @@ CornishIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_cornish
+		localization_key = county_default_cornish
 	}
 	text = {
 		fallback = yes
