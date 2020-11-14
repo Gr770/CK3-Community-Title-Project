@@ -336,7 +336,7 @@ CountyCornish = {
 		fallback = yes
 	}
 }
-EarlMaleNorse = {
+CountMaleNorse = {
 	type = character
 	text = {
 		trigger = {
@@ -349,10 +349,130 @@ EarlMaleNorse = {
 				}
 			}
 		}
-		localization_key = earl_male_north_germanic
+		localization_key = duke_male_north_germanic_group
 	}
 	text = {
-		localization_key = count_default_male_north_germanic
+		localization_key = count_default_male_norse_norwegian
+		fallback = yes
+	}
+}
+CountFemaleNorse = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_female_north_germanic_group
+	}
+	text = {
+		localization_key = count_default_female_norse_norwegian
+		fallback = yes
+	}
+}
+CountyNorse = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_north_germanic_group
+	}
+	text = {
+		localization_key = county_default_norse_norwegian
+		fallback = yes
+	}
+}
+CountMaleSwedish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_male_north_germanic_group
+	}
+	text = {
+		localization_key = count_default_male_swedish_danish:
+		fallback = yes
+	}
+}
+CountFemaleSwedish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_female_north_germanic_group
+	}
+	text = {
+		localization_key = count_default_female_swedish_danish:
+		fallback = yes
+	}
+}
+CountySwedish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_north_germanic_group
+	}
+	text = {
+		localization_key = county_default_swedish
+		fallback = yes
+	}
+}
+CountyDanish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_north_germanic_group
+	}
+	text = {
+		localization_key = county_default_danish
 		fallback = yes
 	}
 }
