@@ -9,10 +9,13 @@
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -35,10 +38,13 @@ KingFemaleGoidelic = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -77,10 +83,13 @@ KingMaleEnglish = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -103,10 +112,13 @@ KingFemaleEnglish = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -145,10 +157,13 @@ KingMaleAngloSaxon = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -171,10 +186,13 @@ KingFemaleAngloSaxon = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -213,10 +231,13 @@ KingMaleScottish = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -239,10 +260,13 @@ KingFemaleScottish = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -281,10 +305,13 @@ KingMaleWelsh = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -307,10 +334,13 @@ KingFemaleWelsh = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -349,10 +379,13 @@ KingMaleBasque = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -375,10 +408,13 @@ KingFemaleBasque = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -410,20 +446,21 @@ KingMaleCastillian = {
 	type = character
 	text = {
 		trigger = {
-			is_independent_ruler = yes
-			root.faith = {
-				has_doctrine = tenet_struggle_submission
-			}
-		}
-		localization_key = sultan_male_castillian
-	}
-	text = {
-		trigger = {
-			exists = primary_spouse
-			root.primary_spouse = {
-				is_independent_ruler = yes
-				root.faith = {
-					has_doctrine = tenet_struggle_submission
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
 				}
 			}
 		}
@@ -438,20 +475,21 @@ KingFemaleCastillian = {
 	type = character
 	text = {
 		trigger = {
-			is_independent_ruler = yes
-			root.faith = {
-				has_doctrine = tenet_struggle_submission
-			}
-		}
-		localization_key = sultan_female_castillian
-	}
-	text = {
-		trigger = {
-			exists = primary_spouse
-			root.primary_spouse = {
-				is_independent_ruler = yes
-				root.faith = {
-					has_doctrine = tenet_struggle_submission
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
 				}
 			}
 		}
@@ -489,10 +527,13 @@ KingMaleSaxon = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -515,10 +556,13 @@ KingFemaleSaxon = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -557,10 +601,13 @@ KingMaleMiddleHighGerman = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -583,10 +630,13 @@ KingFemaleMiddleHighGerman = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -625,10 +675,13 @@ KingMaleDutch = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -651,10 +704,13 @@ KingFemaleDutch = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -701,10 +757,13 @@ KingMaleArmenian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -727,10 +786,13 @@ KingFemaleArmenian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -777,10 +839,13 @@ KingMaleGreek = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -811,10 +876,13 @@ KingFemaleGreek = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -869,10 +937,13 @@ KingMaleAssyrian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -895,10 +966,13 @@ KingFemaleAssyrian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -931,9 +1005,19 @@ KingMaleCroatian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
@@ -949,9 +1033,19 @@ KingFemaleCroatian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
@@ -985,9 +1079,19 @@ KingMaleSerbian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
@@ -1002,10 +1106,13 @@ KingMaleSerbian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -1022,9 +1129,19 @@ KingFemaleSerbian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
@@ -1039,10 +1156,13 @@ KingFemaleSerbian = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -1092,10 +1212,13 @@ KingMaleVlach = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -1118,10 +1241,13 @@ KingFemaleVlach = {
 						has_doctrine = tenet_struggle_submission
 					}
 				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						root.faith = {
+							has_doctrine = tenet_struggle_submission
+						}
 					}
 				}
 			}
@@ -1154,9 +1280,19 @@ KingMaleBulgarian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
@@ -1172,9 +1308,19 @@ KingFemaleBulgarian = {
 	text = {
 		trigger = {
 			OR = {
-				has_faith = faith:orthodox
 				root.top_liege = {
 					has_primary_title = title:e_byzantium
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
 				}
 			}
 		}
