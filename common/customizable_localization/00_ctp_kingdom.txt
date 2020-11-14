@@ -54,19 +54,9 @@ KingdomGoidelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_goidelic
@@ -132,19 +122,9 @@ KingdomEnglish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_english
@@ -210,19 +190,9 @@ KingdomAngloSaxon = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_anglo_saxon
@@ -288,19 +258,9 @@ KingdomScottish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_scottish
@@ -366,6 +326,22 @@ KingdomWelsh = {
 	type = character
 	text = {
 		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_welsh
+	}
+}
+KingMaleBasque = {
+	type = character
+	text = {
+		trigger = {
 			OR = {
 				AND = {
 					is_independent_ruler = yes
@@ -381,11 +357,125 @@ KingdomWelsh = {
 				}
 			}
 		}
-		localization_key = sultanate_welsh
+		localization_key = sultan_male_basque
 	}
 	text = {
 		fallback = yes
-		localization_key = kingdom_default_welsh
+		localization_key = king_default_male_basque
+	}
+}
+KingFemaleBasque = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				root.primary_spouse = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_basque
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_basque
+	}
+}
+KingdomBasque = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_basque
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_basque
+	}
+}
+KingMaleCastillian = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_male_castillian
+	}
+	text = {
+		trigger = {
+			exists = spouse
+			root.primary_spouse = {
+				is_independent_ruler = yes
+				root.faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_male_castillian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_castillian
+	}
+}
+KingFemaleCastillian = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_castillian
+	}
+	text = {
+		trigger = {
+			exists = spouse
+			root.primary_spouse = {
+				is_independent_ruler = yes
+				root.faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_female_castillian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_castillian
+	}
+}
+KingdomCastillian = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_castillian
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_castillian
 	}
 }
 KingMaleSaxon = {
@@ -444,19 +534,9 @@ KingdomSaxon = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_saxon
@@ -522,19 +602,9 @@ KingdomMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_middle_high_german
@@ -600,19 +670,9 @@ KingdomDutch = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_dutch
@@ -686,19 +746,9 @@ KingdomArmenian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_armenian
@@ -788,19 +838,9 @@ KingdomGreek = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_greek
@@ -874,19 +914,9 @@ KingdomAssyrian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_assyrian
@@ -1039,19 +1069,9 @@ KingdomSerbian = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				root.primary_spouse = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_serbian

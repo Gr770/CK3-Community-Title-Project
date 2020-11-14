@@ -788,124 +788,129 @@
    king_republic_occitan:0 "Consistorial"
    kingdom_republic_occitan:0 "Counselh Generau"
 ########################################################
-### Iberian Culture Group
+ Iberian Culture Group
 ########################################################
-
+  Basque
 ########################################################
-## Basque
- baron_male_basque:0 "Baron"
- baron_female_basque:0 "Baronesa"
+   baron_male_basque:0 "Jauna"
+   baron_female_basque:0 "Andrea"
+   barony_basque:0 "Jaurerri"
+   
+   count_feudalclan_male_basque:0 "Konde"
+   count_feudalclan_female_basque:0 "Kondesa"
+   county_feudalclan_basque:0 "Konderri"
+   
+   duke_feudalclan_male_basque:0 "[CHARACTER.Custom('DukeMaleBasque')]"
+   duke_feudalclan_female_basque:0 "[CHARACTER.Custom('DukeFemaleBasque')]"
+   duchy_feudalclan_basque:0 "[CHARACTER.Custom('DuchyBasque')]"
+   marquess_male_basque:0 "Markes"
+   marquess_female_basque:0 "Markesa"
+   march_basque:0 "Marka"
+   palatine_male_basque:0 "Palatino"
+   palatine_female_basque:0 "Palatina" 
+   palatinate_basque:0 "Palatinatua"
+   duke_default_male_basque:0 "Duke"
+   duke_default_female_basque:0 "Dukesa"
+   duchy_default_basque:0 "Dukerria"
  
- count_male_basque:0 "Konde"
- count_female_basque:0 "Kondesa"
- 
- duke_male_basque:0 "[CHARACTER.Custom('DukeMaleBasque')]"
- duke_default_male_basque:0 "Duke"
- duke_female_basque:0 "[CHARACTER.Custom('DukeFemaleBasque')]"
- duke_default_female_basque:0 "Dukesa"
- 
- duke_male_basque_independent:0 "Printze"
- duke_female_basque_independent:0 "Printzesa"
- 
- king_male_basque:0 "Errege"
- king_female_basque:0 "Erregina"
- title_prince_male_basque_kingdom:0 "Printze"
- title_prince_female_basque_kingdom:0 "Printzesa"
- emperor_male_basque:0 "Enperadorea"
- emperor_female_basque:0 "Enperatriz"
- title_prince_male_basque_empire:0 "Printze"
- title_prince_female_basque_empire:0 "Printzesa"
- 
- barony_basque:0 "Baronia"
- county_basque:0 "Eskualdeko"
- 
- duchy_basque:0 "[CHARACTER.Custom('DuchyBasque')]"
- duchy_default_basque:0 "Dukerria"
- 
- duchy_basque_independent:0 "[CHARACTER.Custom('BasqueIndepDuchy')]"
- independent_duchy_basque:0 "Printzerria"
- dependent_duchy_basque:0 "$duchy_default_basque$"
- 
- kingdom_basque:0 "Erresuma"
- empire_basque:0 "Inperio"
- 
- marquess_male_basque:0 "Markes"
- marquess_female_basque:0 "Markesa"
- palatine_male_basque:0 "Palatino"
- palatine_female_basque:0 "Palatina"
- march_basque:0 "Market"
- palatinate_basque:0 "Palatinatua"
-
+   duke_feudalclan_male_basque_independent:0 "Printze"
+   duke_feudalclan_female_basque_independent:0 "Printzesa"
+   duchy_feudalclan_basque_independent:0 "[CHARACTER.Custom('BasqueIndepDuchy')]"
+   independent_duchy_basque:0 "Printzerria"
+   
+   king_male_basque:0 "[CHARACTER.Custom('KingMaleBasque')]"
+   king_female_basque:0 "[CHARACTER.Custom('KingFemaleBasque')]"
+   kingdom_basque:0 "[CHARACTER.Custom('KingdomBasque')]"
+   sultan_male_basque:0 "Sultan"
+   sultan_female_basque:0 "Sultana"
+   sultanate_basque:0 "Sultanerri"
+   king_default_male_basque:0 "Errege"
+   king_default_female_basque:0 "Erregina"
+   kingdom_default_basque:0 "Erresuma"
+   
+   emperor_male_basque:0 "Enperadorea"
+   emperor_female_basque:0 "Enperatriz"
+   empire_basque:0 "Inperio"
+   
+   title_prince_male_basque:0 "Printze"
+   title_prince_female_basque:0 "Printzesa"
+   title_prince_male_basque_empire:0 "$title_prince_male_basque$"
+   title_prince_female_basque_empire:0 "$title_prince_female_basque$"
+   
+   baron_republic_basque:0 "Alkatea"
+   barony_republic_basque:0 "Hiria"
+   
+   count_tribal_basque:0 "Buruzagi"
+   county_tribal_basque:0 "Oste"
+   duke_tribal_basque:0 "Buruzagi"
+   duchy_tribal_basque:0 "Herri"
 ########################################################
-## Castilian 
+  Castilian 
+########################################################
+   baron_male_castilian:0 "Señor"
+   baron_female_castilian:0 "Señora"
+   barony_castilian:0 "Señorio"
+   
+   count_feudalclan_male_castilian:0 "Conde"
+   count_feudalclan_female_castilian:0 "Condesa"
+   county_feudalclan_castilian:0 "Condado"
+ 
+   duke_feudalclan_male_castilian:0 "[CHARACTER.Custom('DukeMaleCastilian')]"
+   duke_feudalclan_female_castilian:0 "[CHARACTER.Custom('DukeFemaleCastilian')]"
+   duchy_feudalclan_castilian:0 "[CHARACTER.Custom('DuchyCastilian')]"
+   marquess_male_castilian:0 "Marqués"
+   marquess_female_castilian:0 "Marquesa"
+   march_castilian:0 "Marca"
+   palatine_male_castilian:0 "Adelantado"
+   palatine_female_castilian:0 "Adelantada"
+   palatinate_castilian:0 "Adelantamiento"
+   duke_default_male_castilian:0 "Duque"
+   duke_default_female_castilian:0 "Duquesa"
+   duchy_default_castilian:0 "Ducado"
+   
+   duke_feudalclan_male_castilian_independent:0 "Príncipe"
+   duke_feudalclan_female_castilian_independent:0 "Princesa" 
+   duchy_feudalclan_castilian_independent:0 "[CHARACTER.Custom('CastilianIndepDuchy')]"
+   independent_duchy_castilian:0 "Principado"
+   
+   king_male_castilian:0 "[CHARACTER.Custom('KingMaleCastillian')]"
+   king_female_castilian:0 "[CHARACTER.Custom('KingFemaleCastillian')]"
+   kingdom_castilian:0 "[CHARACTER.Custom('KingdomCastillian')]"
+   sultan_male_castillian:0 "Sultan"
+   sultan_female_castillian:0 "Sultana"
+   sultanate_castillian:0 "Sultanato"
+   king_default_male_castillian:0 "Rey"
+   king_default_female_castillian:0 "Reina"
+   kingdom_default_castillian:0 "Reino"
 
- baron_male_castilian:0 "Señor"
- baron_female_castilian:0 "Señora"
- count_feudalclan_male_castilian:0 "Conde"
- count_feudalclan_female_castilian:0 "Condesa"
+   emperor_female_castilian:0 "Emperador"
+   emperor_male_castilian:0 "Emperatriz"
+   empire_castilian:0 "Imperio"
+   
+   title_prince_male_castilian:0 "Infante"
+   title_prince_female_castilian:0 "Infanta"
+   title_prince_male_castilian_empire:0 "$title_prince_male_castilian$"
+   title_prince_female_castilian_empire:0 "$title_prince_female_castilian$"
  
- duke_feudalclan_male_castilian:0 "[CHARACTER.Custom('DukeMaleCastilian')]"
- duke_default_male_castilian:0 "Duque"
+   baron_republic_male_castilian:0 "Merino"
+   baron_republic_female_castilian:0 "Merina"
+   barony_republic_castilian:0 "Cibdad"
+   count_republic_male_castilian:0 "Regidor"
+   count_republic_female_castilian:0 "Regidor"
+   county_republic_castilian:0 "Concejo"  
+   duke_republic_male_castilian:0 "Jurado"
+   duke_republic_female_castilian:0 "Jurada"
+   duchy_republic_castilian:0 "Hermandad"
+   king_republic_male_castilian:0 "Procurador"
+   king_republic_female_castilian:0 "Procuradora"
+   kingdom_republic_castilian:0 "Comunería"
  
- duke_feudalclan_female_castilian:0 "[CHARACTER.Custom('DukeFemaleCastilian')]"
- duke_default_female_castilian:0 "Duquesa"
- 
- duke_feudalclan_male_castilian_independent:0 "Príncipe"
- duke_feudalclan_female_castilian_independent:0 "Princesa" 
- 
- king_male_castilian:0 "Rey"
- king_female_castilian:0 "Reina"
- title_prince_male_castilian_kingdom:0 "Infante"
- title_prince_female_castilian_kingdom:0 "Infanta"
- emperor_female_castilian:0 "Emperador"
- emperor_male_castilian:0 "Emperatriz"
- title_prince_male_castilian_empire:0 "Infante"
- title_prince_female_castilian_empire:0 "Infanta"
- 
- barony_castilian:0 "Señorio"
- county_feudalclan_castilian:0 "Condado"
- 
- duchy_feudalclan_castilian:0 "[CHARACTER.Custom('DuchyCastilian')]"
- duchy_default_castilian:0 "Ducado"
- 
- duchy_feudalclan_castilian_independent:0 "[CHARACTER.Custom('CastilianIndepDuchy')]"
- independent_duchy_castilian:0 "Principado"
- dependent_duchy_castilian:0 "$duchy_default_castilian$"
- 
- kingdom_castilian:0 "Reino"
- empire_castilian:0 "Imperio"
-
- baron_republic_male_castilian:0 "Merino"
- baron_republic_female_castilian:0 "Merina"
- count_republic_male_castilian:0 "Regidor"
- count_republic_female_castilian:0 "Regidor"
- duke_republic_male_castilian:0 "Jurado"
- duke_republic_female_castilian:0 "Jurada"
- king_republic_male_castilian:0 "Procurador"
- king_republic_female_castilian:0 "Procuradora"
- 
- barony_republic_castilian:0 "Cibdad"
- county_republic_castilian:0 "Concejo" 
- duchy_republic_castilian:0 "Hermandad"
- kingdom_republic_castilian:0 "Comunería"
- 
- king_male_castilian_islam_independent:0 "Sultan"
- king_female_castilian_islam_independent:0 "Sultana"
- kingdom_castilian_islam_independent:0 "Sultanato"
- 
- count_tribal_male_castilian:0 "Cabdiello"
- count_tribal_female_castilian:0 "Cabdiello"
- duke_tribal_male_castilian:0 "Gran Cabdiello"
- duke_tribal_female_castilian:0 "Gran Cabdiello"
- county_tribal_castilian:0 "Hueste"
- duchy_tribal_castilian:0 "Pueblo"
- 
- marquess_male_castilian:0 "Marqués"
- marquess_female_castilian:0 "Marquesa"
- palatine_male_castilian:0 "Adelantado"
- palatine_female_castilian:0 "Adelantada"
- march_castilian:0 "Marca"
- palatinate_castilian:0 "Adelantamiento"
+   count_tribal_male_castilian:0 "Cabdiello"
+   count_tribal_female_castilian:0 "Cabdiello"
+   duke_tribal_male_castilian:0 "Gran Cabdiello"
+   duke_tribal_female_castilian:0 "Gran Cabdiello"
+   county_tribal_castilian:0 "Hueste"
+   duchy_tribal_castilian:0 "Pueblo" 
 ########################################################
 ## Catalan
 
