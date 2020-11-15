@@ -1547,7 +1547,6 @@
  duke_female_saxon_independent:0 "Vorstinne"
  duchy_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
  dependent_duchy_saxon:0 "$duchy_default_saxon$"
- independent_duchy_saxon:0 "Vorstendôm"
  
  king_male_saxon:0 "[CHARACTER.Custom('KingMaleSaxon')]"
  king_female_saxon:0 "[CHARACTER.Custom('KingFemaleSaxon')]"
@@ -1573,9 +1572,17 @@
  baron_republic_male_saxon:0 "Schulthête"
  baron_republic_female_saxon:0 "Schulthêtinne"
  barony_republic_saxon:0 "Stat"
- count_republic_male_saxon:0 "Vôget"
- count_republic_female_saxon:0 "Vôgetinne"
- county_republic_saxon:0 "Vrîe Stat"
+ 
+ count_republic_male_saxon:0 "[CHARACTER.Custom('FreeMayorMaleSaxon')]"
+ count_republic_female_saxon:0 "[CHARACTER.Custom('FreeMayorFemaleSaxon')]"
+ county_republic_saxon:0 "[CHARACTER.Custom('FreeCitySaxon')]"
+ free_mayor_male_saxon:0 "Rîkesvôget"
+ free_mayor_female_saxon:0 "Rîkesvôgetinne"
+ free_city_saxon:0 "Rîkesstat"
+ count_republic_default_male_saxon:0 "Vôget"
+ count_republic_default_female_saxon:0 "Vôgetinne"
+ county_republic_default_saxon:0 "Vrîe Stat"
+ 
  duke_republic_male_saxon:0 "Lantvôget"
  duke_republic_female_saxon:0 "Lantvôgetinne"
  duchy_republic_saxon:0 "Stêdebunt"

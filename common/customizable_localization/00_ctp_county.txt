@@ -476,6 +476,51 @@ CountyDanish = {
 		fallback = yes
 	}
 }
+FreeMayorMaleSaxon = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_male_saxon
+	}
+	text = {
+		localization_key = count_republic_default_male_saxon
+		fallback = yes
+	}
+}
+FreeMayorFemaleSaxon = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_female_saxon
+	}
+	text = {
+		localization_key = count_republic_default_female_saxon
+		fallback = yes
+	}
+}
+FreeCitySaxon = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_city_saxon
+	}
+	text = {
+		localization_key = county_republic_default_saxon
+		fallback = yes
+	}
+}
 CountMaleGreek = {
 	type = character
 	text = {
