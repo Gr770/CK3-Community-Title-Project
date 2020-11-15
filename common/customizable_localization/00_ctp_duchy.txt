@@ -1773,28 +1773,14 @@ DukeMaleSaxon = {
 	text = {
 		trigger = {
 			OR = {
-				AND = {
-					root.liege = {
-						has_primary_title = title:e_hre 
-					}
-					OR = {
-						has_realm_law = crown_authority_2
-						has_realm_law = crown_authority_3
-					}
-				}
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
 						OR = {
-							AND = {
-								liege = {
-									has_primary_title = title:e_hre 
-								}
-								OR = {
-									has_realm_law = crown_authority_2
-									has_realm_law = crown_authority_3
-								}
-							}
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
 							liege.primary_title = {
 								any_elector = {
 									this = root
@@ -1855,28 +1841,14 @@ DukeFemaleSaxon = {
 	text = {
 		trigger = {
 			OR = {
-				AND = {
-					root.liege = {
-						has_primary_title = title:e_hre 
-					}
-					OR = {
-						has_realm_law = crown_authority_2
-						has_realm_law = crown_authority_3
-					}
-				}
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
 						OR = {
-							AND = {
-								liege = {
-									has_primary_title = title:e_hre 
-								}
-								OR = {
-									has_realm_law = crown_authority_2
-									has_realm_law = crown_authority_3
-								}
-							}
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
 							liege.primary_title = {
 								any_elector = {
 									this = root
@@ -1920,9 +1892,6 @@ DuchySaxon = {
 	}
 	text = {
 		trigger = {
-			root.liege = {
-				has_primary_title = title:e_hre 
-			}
 			OR = {
 				has_realm_law = crown_authority_2
 				has_realm_law = crown_authority_3
@@ -1978,28 +1947,14 @@ DukeMaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			OR = {
-				AND = {
-					root.liege = {
-						has_primary_title = title:e_hre
-					}
-					OR = {
-						has_realm_law = crown_authority_2
-						has_realm_law = crown_authority_3
-					}
-				}
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
 						OR = {
-							AND = {
-								liege = {
-									has_primary_title = title:e_hre
-								}
-								OR = {
-									has_realm_law = crown_authority_2
-									has_realm_law = crown_authority_3
-								}
-							}
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
 							liege.primary_title = {
 								any_elector = {
 									this = root
@@ -2060,28 +2015,14 @@ DukeFemaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			OR = {
-				AND = {
-					root.liege = {
-						has_primary_title = title:e_hre
-					}
-					OR = {
-						has_realm_law = crown_authority_2
-						has_realm_law = crown_authority_3
-					}
-				}
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
 						OR = {
-							AND = {
-								liege = {
-									has_primary_title = title:e_hre
-								}
-								OR = {
-									has_realm_law = crown_authority_2
-									has_realm_law = crown_authority_3
-								}
-							}
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
 							liege.primary_title = {
 								any_elector = {
 									this = root
@@ -2125,9 +2066,6 @@ DuchyMiddleHighGerman = {
 	}
 	text = {
 		trigger = {
-			root.liege = {
-				has_primary_title = title:e_hre
-			}
 			OR = {
 				has_realm_law = crown_authority_2
 				has_realm_law = crown_authority_3
