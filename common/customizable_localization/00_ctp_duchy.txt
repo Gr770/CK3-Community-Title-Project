@@ -1771,6 +1771,43 @@ DukeMaleSaxon = {
 		localization_key = palatine_male_saxon
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					root.liege = {
+						has_primary_title = e_hre
+					}
+					OR = {
+						has_realm_law = crown_authority_2
+						has_realm_law = crown_authority_3
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						OR = {
+							AND = {
+								liege = {
+									has_primary_title = e_hre
+								}
+								OR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+							liege.primary_title = {
+								any_elector = {
+									this = root
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
+	}
+	text = {
 		localization_key = duke_default_male_saxon
 		fallback = yes
 	}
@@ -1816,12 +1853,59 @@ DukeFemaleSaxon = {
 		localization_key = palatine_female_saxon
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					root.liege = {
+						has_primary_title = e_hre
+					}
+					OR = {
+						has_realm_law = crown_authority_2
+						has_realm_law = crown_authority_3
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						OR = {
+							AND = {
+								liege = {
+									has_primary_title = e_hre
+								}
+								OR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+							liege.primary_title = {
+								any_elector = {
+									this = root
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
+	}
+	text = {
 		localization_key = duke_default_female_saxon
 		fallback = yes
 	}
 }
 DuchySaxon = {
 	type = character
+	text = {
+		trigger = {
+			root.liege.primary_title = {
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_saxon
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -1833,6 +1917,18 @@ DuchySaxon = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_saxon
+	}
+	text = {
+		trigger = {
+			root.liege = {
+				has_primary_title = e_hre
+			}
+			OR = {
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
+			}
+		}
+		localization_key = independent_duchy_saxon
 	}
 	text = {
 		localization_key = duchy_default_saxon
@@ -1880,6 +1976,43 @@ DukeMaleMiddleHighGerman = {
 		localization_key = palatine_male_middle_high_german
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					root.liege = {
+						has_primary_title = e_hre
+					}
+					OR = {
+						has_realm_law = crown_authority_2
+						has_realm_law = crown_authority_3
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						OR = {
+							AND = {
+								liege = {
+									has_primary_title = e_hre
+								}
+								OR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+							liege.primary_title = {
+								any_elector = {
+									this = root
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
+	}
+	text = {
 		localization_key = duke_default_male_middle_high_german
 		fallback = yes
 	}
@@ -1925,12 +2058,59 @@ DukeFemaleMiddleHighGerman = {
 		localization_key = palatine_female_middle_high_german
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					root.liege = {
+						has_primary_title = e_hre
+					}
+					OR = {
+						has_realm_law = crown_authority_2
+						has_realm_law = crown_authority_3
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						OR = {
+							AND = {
+								liege = {
+									has_primary_title = e_hre
+								}
+								OR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+							liege.primary_title = {
+								any_elector = {
+									this = root
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
+	}
+	text = {
 		localization_key = duke_default_female_middle_high_german
 		fallback = yes
 	}
 }
 DuchyMiddleHighGerman = {
 	type = character
+	text = {
+		trigger = {
+			root.liege.primary_title = {
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_middle_high_german
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -1942,6 +2122,18 @@ DuchyMiddleHighGerman = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_middle_high_german
+	}
+	text = {
+		trigger = {
+			root.liege = {
+				has_primary_title = e_hre
+			}
+			OR = {
+				has_realm_law = crown_authority_2
+				has_realm_law = crown_authority_3
+			}
+		}
+		localization_key = independent_duchy_middle_high_german
 	}
 	text = {
 		localization_key = duchy_default_middle_high_german

@@ -1516,6 +1516,10 @@
 
 ########################################################
 ## Saxon Culture (Middle Low German)
+ kurfurst_male_saxon:0 "Kôrvorste"
+ kurfurst_female_saxon:0 "Kôrvorstinne"
+ kurfurstdom_saxon:0 "Kôrvorstendôm"
+ 
  baron_male_saxon:0 "Vrîhêre"
  baron_female_saxon:0 "Vrîvrouwe"
  barony_saxon:0 "Hêrschop"
@@ -1533,8 +1537,6 @@
  duke_male_saxon:0 "[CHARACTER.Custom('DukeMaleSaxon')]"
  duke_female_saxon:0 "[CHARACTER.Custom('DukeFemaleSaxon')]"
  duchy_saxon:0 "[CHARACTER.Custom('DuchySaxon')]"
- kurfurst_male_saxon:0 "Kôrvorste"
- kurfurst_female_saxon:0 "Kôrvorstinne"
  marquess_male_saxon:0 "Markgrêve"
  marquess_female_saxon:0 "Markgrêvinne"
  palatine_male_saxon:0 "Palanzgrêve"
@@ -1548,7 +1550,7 @@
  duke_male_saxon_independent:0 "Vorste" 
  duke_female_saxon_independent:0 "Vorstinne"
  duchy_saxon_independent:0 "[CHARACTER.Custom('SaxonIndepDuchy')]"
- dependent_duchy_saxon:0 "$duchy_default_saxon$"
+ independent_duchy_saxon:0 "Vorstendôm"
  
  king_male_saxon:0 "[CHARACTER.Custom('KingMaleSaxon')]"
  king_female_saxon:0 "[CHARACTER.Custom('KingFemaleSaxon')]"
@@ -1594,6 +1596,9 @@
  
 ###########################################################
 ## Franconian, Swabian, and Bavarian ( Middle High German )
+ kurfurst_male_middle_high_german:0 "Kurvürste"
+ kurfurst_female_middle_high_german:0 "Kurvürstin"
+ kurfurstdom_middle_high_german:0 "Kurvürstentuom
 
  baron_male_middle_high_german:0 "Vrîherre"
  baron_female_middle_high_german:0 "Vrîvrouwe"
@@ -1612,8 +1617,6 @@
  duke_male_middle_high_german:0 "[CHARACTER.Custom('DukeMaleMiddleHighGerman')]"
  duchy_middle_high_german:0 "[CHARACTER.Custom('DuchyMiddleHighGerman')]"
  duke_female_middle_high_german:0 "[CHARACTER.Custom('DukeFemaleMiddleHighGerman')]"
- kurfurst_male_middle_high_german:0 "Kurvürste"
- kurfurst_female_middle_high_german:0 "Kurvürstin"
  marquess_male_middle_high_german:0 "Marcgrâve"
  marquess_female_middle_high_german:0 "Marcgrâvin"
  palatine_male_middle_high_german:0 "Pfalenzgrâve"
@@ -1627,7 +1630,6 @@
  duke_male_middle_high_german_independent:0 "Vürste" 
  duke_female_middle_high_german_independent:0 "Vürstin"
  duchy_middle_high_german_independent:0 "[CHARACTER.Custom('MiddleHighGermanIndepDuchy')]"
- dependent_duchy_middle_high_german:0 "$duchy_default_middle_high_german$"
  independent_duchy_middle_high_german:0 "Vürstentuom"
  
  king_male_middle_high_german:0 "[CHARACTER.Custom('KingMaleMiddleHighGerman')]"
