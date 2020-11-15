@@ -1313,185 +1313,203 @@
 
    baron_republic_swedish_danish:0 "Hølðr"
 ########################################################
-###  Balto-Finnic Culture Group
+ Balto-Finnic Culture Group
 ########################################################
-
+  Finnish Culture
 ########################################################
-## Finnish Culture
-
- baron_male_finnish:0 "Vapaaherra"
- baron_female_finnish:0 "Vapaaherratar"
- count_feudalclan_male_finnish:0 "Kreivi"
- count_feudalclan_female_finnish:0 "Kreivitär"
+   baron_male_finnish:0 "Vapaaherra"
+   baron_female_finnish:0 "Vapaaherratar"
+   barony_finnish:0 "Vapaaherrakunta"
+   count_feudalclan_male_finnish:0 "Kreivi"
+   count_feudalclan_female_finnish:0 "Kreivitär"
+   county_feudalclan_finnish:0 "Kreivikunta"
  
- duke_feudalclan_male_finnish:0 "[CHARACTER.Custom('DukeMaleFinnish')]"
- duke_default_male_finnish:0 "Herttua"
+   duke_feudalclan_male_finnish:0 "[CHARACTER.Custom('DukeMaleFinnish')]"
+   duke_feudalclan_female_finnish:0 "[CHARACTER.Custom('DukeFemaleFinnish')]"
+   duchy_feudalclan_finnish:0 "[CHARACTER.Custom('DuchyFinnish')]"
+   marquess_male_finnish:0 "Markiisi"
+   marquess_female_finnish:0 "Markiisitar"
+   march_finnish:0 "Markiisikunta"
+   palatine_male_finnish:0 "Palatsikreivi"
+   palatine_female_finnish:0 "Palatsikreivitär"
+   palatinate_finnish:0 "Palatsikreivikunta"
+   duke_default_male_finnish:0 "Herttua"
+   duke_default_female_finnish:0 "Herttuatar"
+   duchy_default_finnish:0 "Herttuakunta"
  
- duke_feudalclan_female_finnish:0 "[CHARACTER.Custom('DukeFemaleFinnish')]"
- duke_default_female_finnish:0 "Herttuatar"
+   duke_feudalclan_male_finnish_independent:0 "Ruhtinas"
+   duke_feudalclan_female_finnish_independent:0 "Ruhtinatar"
+   duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
+   independent_duchy_finnish:0 "Ruhtinaskunta"
  
- duke_feudalclan_male_finnish_independent:0 "Ruhtinas"
- duke_feudalclan_female_finnish_independent:0 "Ruhtinatar"
+   king_male_finnish:0 "[CHARACTER.Custom('KingMaleFinnish')]"
+   king_female_finnish:0 "[CHARACTER.Custom('KingFemaleFinnish')]"
+   kingdom_finnish:0 "[CHARACTER.Custom('KingdomFinnish')]"
+   sultan_finnish:0 "Sulttaani"
+   sultanate_finnish:0 "Sulttaanikunta"
+   king_default_male_finnish:0 "Kuningas"
+   king_default_female_finnish:0 "Kuningatar"
+   kingdom_default_finnish:0 "Kuningaskunta"
+   
+   emperor_male_finnish:0 "Keisari"
+   emperor_female_finnish:0 "Keisarinna"
+   empire_finnish:0 "Keisarikunta"
+   
+   title_prince_male_finnish:0 "Prinssi"
+   title_prince_female_finnish:0 "Prinsessa"
+   title_prince_male_finnish_empire:0 "$title_prince_male_finnish$"
+   title_prince_female_finnish_empire:0 "$title_prince_female_finnish$"
+   queen_mother_finnish:0 "Kuningataräiti"
  
- king_male_finnish:0 "Kuningas"
- king_female_finnish:0 "Kuningatar"
- emperor_male_finnish:0 "Keisari"
- emperor_female_finnish:0 "Keisarinna"
- 
- barony_finnish:0 "Vapaaherrakunta"
- county_feudalclan_finnish:0 "Kreivikunta"
- 
- duchy_feudalclan_finnish:0 "[CHARACTER.Custom('DuchyFinnish')]"
- duchy_default_finnish:0 "Herttuakunta"
- 
- duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
- independent_duchy_finnish:0 "Ruhtinaskunta"
- dependent_duchy_finnish:0 "$duchy_default_finnish$"
- 
- kingdom_finnish:0 "Kuningaskunta"
- empire_finnish:0 "Keisarikunta"
- 
- count_tribal_finnish:0 "Heimopäällikkö"
- count_tribal_finnish:0 "Heimopäällikkö"
- duke_tribal_finnish:0 "Suurheimopäällikkö"
- duke_tribal_finnish:0 "Suurheimopäällikkö"
- 
- county_tribal_finnish:0 "Heimo"
- duchy_tribal_finnish:0 "Suurheimo"
- 
- marquess_male_finnish:0 "Markiisi"
- marquess_female_finnish:0 "Markiisitar"
- palatine_male_finnish:0 "Palatsikreivi"
- palatine_female_finnish:0 "Palatsikreivitär"
- march_finnish:0 "Markiisikunta"
- palatinate_finnish:0 "Palatsikreivikunta"
- 
+   baron_republic_finnish:0 "Pormestari"
+   barony_republic_finnish:0 "Kaupunki"
+   
+   count_tribal_finnish:0 "Heimopäällikkö"
+   county_tribal_finnish:0 "Heimo"
+   duke_tribal_finnish:0 "Suurheimopäällikkö"
+   duchy_tribal_finnish:0 "Suurheimo"
 ########################################################
-## Estonian Culture
-
- baron_male_estonian:0 "Parun"
- baron_female_estonian:0 "Paruness"
- count_feudalclan_male_estonian:0 "Krahv"
- count_feudalclan_female_estonian:0 "Krahvinna"
- 
- duke_feudalclan_male_estonian:0 "[CHARACTER.Custom('DukeMaleEstonian')]"
- duke_default_male_estonian:0 "Hertsog"
- 
- duke_feudalclan_female_estonian:0 "[CHARACTER.Custom('DukeFemaleEstonian')]"
- duke_default_female_estonian:0 "Hertsoginna"
- 
- duke_feudalclan_male_estonian_independent:0 "Vürst"
- duke_feudalclan_female_estonian_independent:0 "Vürstinna"
- 
- king_male_estonian:0 "Kuningas"
- king_female_estonian:0 "Kuninganna"
- emperor_male_estonian:0 "Keiser"
- emperor_female_estonian:0 "Keisrinna"
- 
- barony_estonian:0 "Parunkond"
- county_feudalclan_estonian:0 "Krahvkond"
- 
- duchy_feudalclan_estonian:0 "[CHARACTER.Custom('DuchyEstonian')]"
- duchy_default_estonian:0 "Hertsogiriik"
- 
- duchy_estonian_independent:0 "[CHARACTER.Custom('EstonianIndepDuchy')]"
- independent_duchy_estonian:0 "Vürstiriik"
- dependent_duchy_estonian:0 "$duchy_default_estonian$"
- 
- kingdom_estonian:0 "Kuningriik" 
- empire_estonian:0 "Keisririik"
-
- count_tribal_estonian:0 "Hõimuvanem"
- count_tribal_estonian:0 "Hõimuvanem"
- duke_tribal_estonian:0 "Hõimkonnavanem"
- duke_tribal_estonian:0 "Hõimkonnavanem"
- 
- county_tribal_estonian:0 "Hõim "
- duchy_tribal_estonian:0 "Hõimkond"
- 
- marquess_male_estonian:0 "Markkrahv"
- marquess_female_estonian:0 "Markkrahvinna"
- palatine_male_estonian:0 "Pfaltskrahv"
- palatine_female_estonian:0 "Pfaltskrahvinna"
- march_estonian:0 "Markkrahvkond"
- palatinate_estonian:0 "Pfaltskrahvkond"
- 
+  Estonian Culture
 ########################################################
-## Karelian Culture
+   baron_male_estonian:0 "Parun"
+   baron_female_estonian:0 "Paruness"
+   barony_estonian:0 "Parunkond"
+   
+   count_feudalclan_male_estonian:0 "Krahv"
+   count_feudalclan_female_estonian:0 "Krahvinna"
+   county_feudalclan_estonian:0 "Krahvkond"
+ 
+   duke_feudalclan_male_estonian:0 "[CHARACTER.Custom('DukeMaleEstonian')]"
+   duke_feudalclan_female_estonian:0 "[CHARACTER.Custom('DukeFemaleEstonian')]"
+   duchy_feudalclan_estonian:0 "[CHARACTER.Custom('DuchyEstonian')]"
+   marquess_male_estonian:0 "Markkrahv"
+   marquess_female_estonian:0 "Markkrahvinna"
+   march_estonian:0 "Markkrahvkond"
+   palatine_male_estonian:0 "Pfaltskrahv"
+   palatine_female_estonian:0 "Pfaltskrahvinna"
+   palatinate_estonian:0 "Pfaltskrahvkond"
+   duke_default_male_estonian:0 "Hertsog"
+   duke_default_female_estonian:0 "Hertsoginna"
+   duchy_default_estonian:0 "Hertsogiriik"
+ 
+   duke_feudalclan_male_estonian_independent:0 "Vürst"
+   duke_feudalclan_female_estonian_independent:0 "Vürstinna"
+   duchy_estonian_independent:0 "[CHARACTER.Custom('EstonianIndepDuchy')]"
+   independent_duchy_estonian:0 "Vürstiriik"
+ 
+   king_male_estonian:0 "[CHARACTER.Custom('KingMaleEstonian')]"
+   king_female_estonian:0 "[CHARACTER.Custom('KingFemaleEstonian')]"
+   kingdom_estonian:0 "[CHARACTER.Custom('KingdomEstonian')]"
+   sultan_male_estonian:0 "Sultan"
+   sultan_female_estonian:0 "Sultaana"
+   sultan_female_holder_estonian:0 "Sultani Naine"
+   sultanate_estonian:0 "Sultanaat"
+   king_default_male_estonian:0 "Kuningas"
+   king_default_female_finnish:0 "Kuninganna"
+   kingdom_default_estonian:0 "Kuningriik"
+   
+   emperor_male_estonian:0 "Keiser"
+   emperor_female_estonian:0 "Keisrinna"
+   empire_estonian:0 "Keisririik"
+   
+   title_prince_male_estonian:0 "Prints"
+   title_prince_female_estonian:0 "Printsess"
+   title_prince_male_estonian_empire:0 "$title_prince_male_estonian$"
+   title_prince_female_estonian_empire:0 "$title_prince_female_estonian"
+   
+   baron_republic_estonian:0 "Linnapea"
+   barony_estonian:0 "Linn"
+   count_republic_estonian:0 "Linnapea"
+   county_estonian:0 "Linn"
+   duke_republic_estonian:0 "Linnriigi Valitseja"
+   duchy_estonian:0 "Linnriik"
+   king_republic_estonian:0 "Vabariigi Valitseja"
+   kingdom_estonian:0 "Vabariik"
 
- baron_male_karelian:0 "Ižändä"
- baron_female_karelian:0 "Emändä"
- count_feudalclan_male_karelian:0 "Kreivi"
- count_feudalclan_female_karelian:0 "Kreivinaine"
- 
- duke_feudalclan_male_karelian:0 "Gertsogu"
- duke_feudalclan_female_karelian:0 "Gertsogunaine"
- 
- duke_feudalclan_male_karelian_independent:0 "Ruhtinas"
- duke_feudalclan_female_karelian_independent:0 "Ruhtinasnaine"
- 
- king_male_karelian:0 "Kuningas"
- king_female_karelian:0 "Kuningasnaine"
- emperor_male_karelian:0 "Keisari"
- emperor_female_karelian:0 "Keisarinna"
- 
- barony_karelian:0 "Ižändäkundu"
- county_feudalclan_karelian:0 "Kreivikundu"
- duchy_feudalclan_karelian:0 "Gertsogukundu"
- 
- duchy_karelian_independent:0 "[CHARACTER.Custom('KarelianIndepDuchy')]"
- independent_duchy_karelian:0 "Ruhtinaskundu"
- dependent_duchy_karelian:0 "$duchy_feudalclan_karelian$"
- 
- kingdom_karelian:0 "Kuningaskundu"
- empire_karelian:0 "Keisarikundu"
-
- count_tribal_karelian:0 "Heimopiälikkö"
- count_tribal_karelian:0 "Heimopiälikkö"
- duke_tribal_karelian:0 "Šuuriheimopiälikkö"
- duke_tribal_karelian:0 "Šuuriheimopiälikkö"
- 
- county_tribal_karelian:0 "Heimo"
- duchy_tribal_karelian:0 "Šuuriheimo"
-
+   count_tribal_estonian:0 "Hõimuvanem"
+   county_tribal_estonian:0 "Hõim "
+   duke_tribal_estonian:0 "Hõimkonnavanem"
+   duchy_tribal_estonian:0 "Hõimkond"
 ########################################################
-## Vepsian Culture
+  Karelian Culture
+########################################################
+   baron_male_karelian:0 "Ižändä"
+   baron_female_karelian:0 "Emändä"
+   barony_karelian:0 "Ižändäkundu"
+   
+   count_feudalclan_male_karelian:0 "Kreivi"
+   count_feudalclan_female_karelian:0 "Kreivinaine"
+   county_feudalclan_karelian:0 "Kreivikundu"
+ 
+   duke_feudalclan_male_karelian:0 "Gertsogu"
+   duke_feudalclan_female_karelian:0 "Gertsogunaine"
+   duchy_feudalclan_karelian:0 "Gertsogukundu"
+   
+   duke_feudalclan_male_karelian_independent:0 "Ruhtinas"
+   duke_feudalclan_female_karelian_independent:0 "Ruhtinasnaine"
+   duchy_karelian_independent:0 "[CHARACTER.Custom('KarelianIndepDuchy')]"
+   independent_duchy_karelian:0 "Ruhtinaskundu"
+ 
+   king_male_karelian:0 "Kuningas"
+   king_female_karelian:0 "Kuningasnaine"
+   kingdom_karelian:0 "Kuningaskundu"
+   
+   emperor_male_karelian:0 "Keisari"
+   emperor_female_karelian:0 "Keisarinna"
+   empire_karelian:0 "Keisarikundu"
+   
+   title_prince_male_karelian:0 "Prinssu"
+   title_prince_female_karelian:0 "Prinsessu"
+   title_prince_male_karelian_empire:0 "$title_prince_male_karelian$"
+   title_prince_female_karelian_empire:0 "$title_prince_female_karelian$"
+   
+   baron_republic_karelian:0 "Linnunhoidai"
+   barony_republic_karelian:0 "Linnu"
 
- baron_male_vepsian:0 "Ižand"
- baron_female_vepsian:0 "Emänd"
- count_feudalclan_male_vepsian:0 "Graf"
- count_feudalclan_female_vepsian:0 "Grafnaine"
+   count_tribal_karelian:0 "Heimopiälikkö"
+   county_tribal_karelian:0 "Heimo"
+   duke_tribal_karelian:0 "Šuuriheimopiälikkö"
+   duchy_tribal_karelian:0 "Šuuriheimo"
+########################################################
+  Vepsian Culture
+########################################################
+   baron_male_vepsian:0 "Ižand"
+   baron_female_vepsian:0 "Emänd"
+   barony_vepsian:0 "Ižandkund"
+   
+   count_feudalclan_male_vepsian:0 "Graf"
+   count_feudalclan_female_vepsian:0 "Grafnaine"
+   county_feudalclan_vepsian:0 "Grafkund"
  
- duke_feudalclan_male_vepsian:0 "Gercog"
- duke_feudalclan_female_vepsian:0 "Gercognaine"
+   duke_feudalclan_male_vepsian:0 "Gercog"
+   duke_feudalclan_female_vepsian:0 "Gercognaine"
+   duchy_feudalclan_vepsian:0 "Gercogkund"
  
- duke_feudalclan_male_vepsian_independent:0 "Ruhtinaz"
- duke_feudalclan_female_vepsian_independent:0 "Ruhtinaznaine"
+   duke_feudalclan_male_vepsian_independent:0 "Ruhtinaz"
+   duke_feudalclan_female_vepsian_independent:0 "Ruhtinaznaine"
+   duchy_vepsian_independent:0 "[CHARACTER.Custom('VepsianIndepDuchy')]"
+   independent_duchy_vepsian:0 "Ruhtinazkund"
  
- king_male_vepsian:0 "Kunigaz"
- king_female_vepsian:0 "Kunigaznaine"
- emperor_male_vepsian:0 "Keisri"
- emperor_female_vepsian:0 "Keisrinaine"
- 
- barony_vepsian:0 "Ižandkund"
- county_feudalclan_vepsian:0 "Grafkund"
- duchy_feudalclan_vepsian:0 "Gercogkund"
- 
- duchy_vepsian_independent:0 "[CHARACTER.Custom('VepsianIndepDuchy')]"
- independent_duchy_vepsian:0 "Ruhtinazkund"
- dependent_duchy_vepsian:0 "$duchy_feudalclan_vepsian$"
- 
- kingdom_vepsian:0 "Kunigahuz" 
- empire_vepsian:0 "Keisrikund"
+   king_male_vepsian:0 "Kunigaz"
+   king_female_vepsian:0 "Kunigaznaine"
+   kingdom_vepsian:0 "Kunigahuz" 
+   
+   emperor_male_vepsian:0 "Keisri"
+   emperor_female_vepsian:0 "Keisrinaine"
+   empire_vepsian:0 "Keisrikund"
+   
+   title_prince_male_vepsian:0 "Princ"
+   title_prince_female_vepsian:0 "Princess"
+   title_prince_male_vepsian_empire:0 "$title_prince_male_vepsian$"
+   title_prince_female_vepsian_empire:0 "$title_prince_female_vepsian$"
+   
+   baron_republic_vepsian:0 "Lidnan Pämezʿ"
+   barony_republic_vepsian:0 "Lidn"
 
- count_tribal_vepsian:0 "Heimpälik"
- count_tribal_vepsian:0 "Heimpälik"
- duke_tribal_vepsian:0 "Sur' Heimpälik"
- duke_tribal_vepsian:0 "Sur' Heimpälik"
- 
- county_tribal_vepsian:0 "Heim"
- duchy_tribal_vepsian:0 "Sur' Heim"
- 
+   count_tribal_vepsian:0 "Heimpälik"
+   county_tribal_vepsian:0 "Heim"
+   duke_tribal_vepsian:0 "Sur' Heimpälik"
+   duchy_tribal_vepsian:0 "Sur' Heim"
 ########################################################
 ###  Central Germanic Culture Group
 ########################################################
