@@ -1775,7 +1775,7 @@ DukeMaleSaxon = {
 			OR = {
 				AND = {
 					root.liege = {
-						has_primary_title = e_hre
+						has_primary_title = title:e_hre 
 					}
 					OR = {
 						has_realm_law = crown_authority_2
@@ -1788,7 +1788,7 @@ DukeMaleSaxon = {
 						OR = {
 							AND = {
 								liege = {
-									has_primary_title = e_hre
+									has_primary_title = title:e_hre 
 								}
 								OR = {
 									has_realm_law = crown_authority_2
@@ -1857,7 +1857,7 @@ DukeFemaleSaxon = {
 			OR = {
 				AND = {
 					root.liege = {
-						has_primary_title = e_hre
+						has_primary_title = title:e_hre 
 					}
 					OR = {
 						has_realm_law = crown_authority_2
@@ -1870,7 +1870,7 @@ DukeFemaleSaxon = {
 						OR = {
 							AND = {
 								liege = {
-									has_primary_title = e_hre
+									has_primary_title = title:e_hre 
 								}
 								OR = {
 									has_realm_law = crown_authority_2
@@ -1921,7 +1921,7 @@ DuchySaxon = {
 	text = {
 		trigger = {
 			root.liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre 
 			}
 			OR = {
 				has_realm_law = crown_authority_2
@@ -1980,7 +1980,7 @@ DukeMaleMiddleHighGerman = {
 			OR = {
 				AND = {
 					root.liege = {
-						has_primary_title = e_hre
+						has_primary_title = title:e_hre
 					}
 					OR = {
 						has_realm_law = crown_authority_2
@@ -1993,7 +1993,7 @@ DukeMaleMiddleHighGerman = {
 						OR = {
 							AND = {
 								liege = {
-									has_primary_title = e_hre
+									has_primary_title = title:e_hre
 								}
 								OR = {
 									has_realm_law = crown_authority_2
@@ -2062,7 +2062,7 @@ DukeFemaleMiddleHighGerman = {
 			OR = {
 				AND = {
 					root.liege = {
-						has_primary_title = e_hre
+						has_primary_title = title:e_hre
 					}
 					OR = {
 						has_realm_law = crown_authority_2
@@ -2075,7 +2075,7 @@ DukeFemaleMiddleHighGerman = {
 						OR = {
 							AND = {
 								liege = {
-									has_primary_title = e_hre
+									has_primary_title = title:e_hre
 								}
 								OR = {
 									has_realm_law = crown_authority_2
@@ -2126,7 +2126,7 @@ DuchyMiddleHighGerman = {
 	text = {
 		trigger = {
 			root.liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 			}
 			OR = {
 				has_realm_law = crown_authority_2
@@ -2140,7 +2140,6 @@ DuchyMiddleHighGerman = {
 		fallback = yes
 	}
 }
-
 DukeMaleFrisian = {
 	type = character
 	text = {
