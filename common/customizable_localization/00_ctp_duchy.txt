@@ -1744,6 +1744,17 @@ DukeMaleSaxon = {
 	}
 	text = {
 		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -1781,11 +1792,6 @@ DukeMaleSaxon = {
 						OR = {
 							has_realm_law = crown_authority_2
 							has_realm_law = crown_authority_3
-							liege.primary_title = {
-								any_elector = {
-									this = root
-								}
-							}
 						}
 					}
 				}
@@ -1809,6 +1815,17 @@ DukeFemaleSaxon = {
 			}
 		}
 		localization_key = kurfurst_female_saxon
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
 	}
 	text = {
 		trigger = {
@@ -1849,11 +1866,6 @@ DukeFemaleSaxon = {
 						OR = {
 							has_realm_law = crown_authority_2
 							has_realm_law = crown_authority_3
-							liege.primary_title = {
-								any_elector = {
-									this = root
-								}
-							}
 						}
 					}
 				}
@@ -1918,6 +1930,17 @@ DukeMaleMiddleHighGerman = {
 	}
 	text = {
 		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -1955,11 +1978,6 @@ DukeMaleMiddleHighGerman = {
 						OR = {
 							has_realm_law = crown_authority_2
 							has_realm_law = crown_authority_3
-							liege.primary_title = {
-								any_elector = {
-									this = root
-								}
-							}
 						}
 					}
 				}
@@ -1983,6 +2001,17 @@ DukeFemaleMiddleHighGerman = {
 			}
 		}
 		localization_key = kurfurst_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
 	}
 	text = {
 		trigger = {
@@ -2023,11 +2052,6 @@ DukeFemaleMiddleHighGerman = {
 						OR = {
 							has_realm_law = crown_authority_2
 							has_realm_law = crown_authority_3
-							liege.primary_title = {
-								any_elector = {
-									this = root
-								}
-							}
 						}
 					}
 				}
