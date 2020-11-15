@@ -521,6 +521,51 @@ FreeCitySaxon = {
 		fallback = yes
 	}
 }
+FreeMayorMaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_male_middle_high_german
+	}
+	text = {
+		localization_key = count_republic_default_male_middle_high_german
+		fallback = yes
+	}
+}
+FreeMayorFemaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_female_middle_high_german
+	}
+	text = {
+		localization_key = count_republic_default_female_middle_high_german
+		fallback = yes
+	}
+}
+FreeCityMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = 
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_city_middle_high_german
+	}
+	text = {
+		localization_key = county_republic_default_middle_high_german
+		fallback = yes
+	}
+}
 CountMaleGreek = {
 	type = character
 	text = {

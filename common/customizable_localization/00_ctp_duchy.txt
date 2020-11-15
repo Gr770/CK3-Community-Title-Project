@@ -1734,6 +1734,17 @@ DukeMaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+			root.liege.primary_title = {
+				any_elector = root
+			}
+		}
+		localization_key = kurfurst_male_saxon
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -1767,6 +1778,17 @@ DukeMaleSaxon = {
 }
 DukeFemaleSaxon = {
 	type = character
+	text = {
+		trigger = {
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+			root.liege.primary_title = {
+				any_elector = root
+			}
+		}
+		localization_key = kurfurst_female_saxon
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -1823,6 +1845,17 @@ DukeMaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+			root.liege.primary_title = {
+				any_elector = root
+			}
+		}
+		localization_key = kurfurst_male_middle_high_german
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -1856,6 +1889,17 @@ DukeMaleMiddleHighGerman = {
 }
 DukeFemaleMiddleHighGerman = {
 	type = character
+	text = {
+		trigger = {
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+			root.liege.primary_title = {
+				any_elector = root
+			}
+		}
+		localization_key = kurfurst_female_middle_high_german
+	}
 	text = {
 		trigger = {
 			OR = {
