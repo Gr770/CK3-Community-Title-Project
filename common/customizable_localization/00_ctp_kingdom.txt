@@ -1261,6 +1261,25 @@ KingArabic = {
 		trigger = {
 			OR = {
 				AND = {
+					is_landed = yes
+					has_culture = culture:andalusian
+					has_religion = religion:christianity_religion
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_culture = culture:andalusian
+						has_religion = religion:christianity_religion
+					}
+				}
+			}
+		}
+		localization_key = king_christian_andalusian
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
 					is_independent_ruler = yes
 					root.faith = {
 						has_doctrine = tenet_struggle_submission
@@ -1280,9 +1299,17 @@ KingArabic = {
 		localization_key = sultan_arabic
 	}
 	text = {
+		fallback = yes
+		localization_key = king_default_arabic
+	}
+}
+KingFemaleArabic = {
+	type = character
+	text = {
 		trigger = {
 			OR = {
 				AND = {
+					is_landed = yes
 					has_culture = culture:andalusian
 					has_religion = religion:christianity_religion
 				}
@@ -1295,15 +1322,8 @@ KingArabic = {
 				}
 			}
 		}
-		localization_key = king_christian_andalusian
+		localization_key = king_female_christian_andalusian
 	}
-	text = {
-		fallback = yes
-		localization_key = king_default_arabic
-	}
-}
-KingFemaleArabic = {
-	type = character
 	text = {
 		trigger = {
 			OR = {
@@ -1327,24 +1347,6 @@ KingFemaleArabic = {
 		localization_key = sultan_female_arabic
 	}
 	text = {
-		trigger = {
-			OR = {
-				AND = {
-					has_culture = culture:andalusian
-					has_religion = religion:christianity_religion
-				}
-				AND = {
-					exists = primary_spouse
-					root.primary_spouse = {
-						has_culture = culture:andalusian
-						has_religion = religion:christianity_religion
-					}
-				}
-			}
-		}
-		localization_key = king_female_christian_andalusian
-	}
-	text = {
 		fallback = yes
 		localization_key = king_default_female_arabic
 	}
@@ -1353,19 +1355,19 @@ KingdomArabic = {
 	type = character
 	text = {
 		trigger = {
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
+		}
+		localization_key = kingdom_christian_andalusian
+	}
+	text = {
+		trigger = {
 			is_independent_ruler = yes
 			root.faith = {
 				has_doctrine = tenet_struggle_submission
 			}
 		}
 		localization_key = sultanate_arabic
-	}
-	text = {
-		trigger = {
-			has_culture = culture:andalusian
-			has_religion = religion:christianity_religion
-		}
-		localization_key = kingdom_christian_andalusian
 	}
 	text = {
 		fallback = yes
