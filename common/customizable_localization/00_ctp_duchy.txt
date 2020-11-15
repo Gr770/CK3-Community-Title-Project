@@ -1734,12 +1734,15 @@ DukeMaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			root.primary_title = {
+				save_scope_as = elective_title
+			}
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
 			root.liege.primary_title = {
 				any_elector = {
-					primary_title = scope:root.primary_title
+					has_primary_title = scope:elective_title
 				}
 			}
 		}
@@ -1782,12 +1785,15 @@ DukeFemaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			root.primary_title = {
+				save_scope_as = elective_title
+			}
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
 			root.liege.primary_title = {
 				any_elector = {
-					primary_title = scope:root.primary_title
+					has_primary_title = scope:elective_title
 				}
 			}
 		}
@@ -1849,12 +1855,15 @@ DukeMaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			root.primary_title = {
+				save_scope_as = elective_title
+			}
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
 			root.liege.primary_title = {
 				any_elector = {
-					primary_title = scope:root.primary_title
+					has_primary_title = scope:elective_title
 				}
 			}
 		}
@@ -1897,12 +1906,15 @@ DukeFemaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			root.primary_title = {
+				save_scope_as = elective_title
+			}
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
 			root.liege.primary_title = {
 				any_elector = {
-					primary_title = scope:root.primary_title
+					has_primary_title = scope:elective_title
 				}
 			}
 		}
