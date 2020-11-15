@@ -2611,19 +2611,22 @@ DukeArabic = {
 	text = {
 		trigger = {
 			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					has_culture = culture:andalusian
+					vassal_contract_has_flag = has_palatinate_contract
+					has_religion = religion:christianity_religion
+				}
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						has_culture = culture:andalusian
 						vassal_contract_has_flag = has_palatinate_contract
+						has_religion = religion:christianity_religion
 					}
 				}
 			}
-			NOT = {
-				has_religion = religion:christiany_religion
-			}
 		}
-		localization_key = palatine_arabic
+		localization_key = palatine_christian_arabic
 	}
 	text = {
 		trigger = {
@@ -2636,12 +2639,15 @@ DukeArabic = {
 					}
 				}
 			}
-			has_religion = religion:christiany_religion
+			NOT = {
+				has_religion = religion:christianity_religion
+			}
 		}
-		localization_key = palatine_christian_arabic
+		localization_key = palatine_arabic
 	}
 	text = {
 		trigger = {
+			has_culture = culture:andalusian
 			has_religion = religion:christiany_religion
 		}
 		localization_key = duke_christian_arabic
@@ -2661,6 +2667,7 @@ DuchyArabic = {
 	}
 	text = {
 		trigger = {
+			has_culture = culture:andalusian
 			has_religion = religion:christiany_religion
 		}
 		localization_key = duchy_christian_arabic
