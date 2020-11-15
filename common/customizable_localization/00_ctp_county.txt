@@ -521,6 +521,280 @@ FreeCitySaxon = {
 		fallback = yes
 	}
 }
+CountMaleSaxon = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_male_saxon
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
+	}
+	text = {
+		localization_key = count_default_male_saxon
+		fallback = yes
+	}
+}
+CountFemaleSaxon = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_female_saxon
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
+	}
+	text = {
+		localization_key = count_default_female_saxon
+		fallback = yes
+	}
+}
+CountySaxon = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_saxon
+	}
+	text = {
+		trigger = {
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_saxon
+	}
+	text = {
+		localization_key = county_default_saxon
+		fallback = yes
+	}
+}
 FreeMayorMaleMiddleHighGerman = {
 	type = character
 	text = {
@@ -563,6 +837,280 @@ FreeCityMiddleHighGerman = {
 	}
 	text = {
 		localization_key = county_republic_default_middle_high_german
+		fallback = yes
+	}
+}
+CountMaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_male_middle_high_german
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
+	}
+	text = {
+		localization_key = count_default_male_middle_high_german
+		fallback = yes
+	}
+}
+CountFemaleMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
+	}
+	text = {
+		localization_key = count_default_female_middle_high_german
+		fallback = yes
+	}
+}
+CountyMiddleHighGerman = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_middle_high_german
+	}
+	text = {
+		trigger = {
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_middle_high_german
+	}
+	text = {
+		localization_key = county_default_middle_high_german
 		fallback = yes
 	}
 }
