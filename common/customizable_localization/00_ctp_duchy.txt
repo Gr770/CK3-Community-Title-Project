@@ -4,8 +4,11 @@
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -22,8 +25,11 @@ DukeFemaleIrish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -53,8 +59,11 @@ DukeMaleGaelic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -71,8 +80,11 @@ DukeFemaleGaelic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -102,8 +114,11 @@ DukeMaleEnglish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -113,8 +128,11 @@ DukeMaleEnglish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -131,8 +149,11 @@ DukeFemaleEnglish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -142,8 +163,11 @@ DukeFemaleEnglish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -179,8 +203,11 @@ DukeMaleAngloSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -190,8 +217,11 @@ DukeMaleAngloSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -208,8 +238,11 @@ DukeFemaleAngloSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -219,8 +252,11 @@ DukeFemaleAngloSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -256,8 +292,11 @@ DukeMaleOldSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -267,8 +306,11 @@ DukeMaleOldSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -285,8 +327,11 @@ DukeFemaleOldSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -296,8 +341,11 @@ DukeFemaleOldSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -333,8 +381,11 @@ DukeMalePictish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -344,8 +395,11 @@ DukeMalePictish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -362,8 +416,11 @@ DukeFemalePictish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -373,8 +430,11 @@ DukeFemalePictish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -410,8 +470,11 @@ DukeMaleWelsh = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -421,8 +484,11 @@ DukeMaleWelsh = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -439,8 +505,11 @@ DukeFemaleWelsh = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -450,8 +519,11 @@ DukeFemaleWelsh = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -487,8 +559,11 @@ DukeMaleBreton = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -505,8 +580,11 @@ DukeFemaleBreton = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -536,8 +614,11 @@ DukeMaleCornish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -547,8 +628,11 @@ DukeMaleCornish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -565,8 +649,11 @@ DukeFemaleCornish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -576,8 +663,11 @@ DukeFemaleCornish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -613,8 +703,11 @@ DukeMaleFrench = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -624,8 +717,11 @@ DukeMaleFrench = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -642,8 +738,11 @@ DukeFemaleFrench = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -653,8 +752,11 @@ DukeFemaleFrench = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -690,8 +792,11 @@ DukeFemaleNorman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -701,8 +806,11 @@ DukeFemaleNorman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -738,8 +846,11 @@ DukeMaleOccitan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -749,8 +860,11 @@ DukeMaleOccitan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -767,8 +881,11 @@ DukeFemaleOccitan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -778,8 +895,11 @@ DukeFemaleOccitan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -815,8 +935,11 @@ DukeMaleBasque = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -826,8 +949,11 @@ DukeMaleBasque = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -844,8 +970,11 @@ DukeFemaleBasque = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -855,8 +984,11 @@ DukeFemaleBasque = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -892,8 +1024,11 @@ DukeMaleCastilian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -903,8 +1038,11 @@ DukeMaleCastilian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -921,8 +1059,11 @@ DukeFemaleCastilian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -932,8 +1073,11 @@ DukeFemaleCastilian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -969,8 +1113,11 @@ DukeMaleCatalan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -980,8 +1127,11 @@ DukeMaleCatalan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -998,8 +1148,11 @@ DukeFemaleCatalan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1009,8 +1162,11 @@ DukeFemaleCatalan = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1046,8 +1202,11 @@ DukeMalePortGalician = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1057,8 +1216,11 @@ DukeMalePortGalician = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1075,8 +1237,11 @@ DukeFemalePortGalician = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1086,8 +1251,11 @@ DukeFemalePortGalician = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1123,8 +1291,11 @@ DukeMaleVisigothic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1134,8 +1305,11 @@ DukeMaleVisigothic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1152,8 +1326,11 @@ DukeFemaleVisigothic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1163,8 +1340,11 @@ DukeFemaleVisigothic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1200,8 +1380,11 @@ DukeMaleAsturleonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1211,8 +1394,11 @@ DukeMaleAsturleonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1229,8 +1415,11 @@ DukeFemaleAsturleonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1240,8 +1429,11 @@ DukeFemaleAsturleonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1277,8 +1469,11 @@ DukeMaleAragonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1288,8 +1483,11 @@ DukeMaleAragonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1306,8 +1504,11 @@ DukeFemaleAragonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1317,8 +1518,11 @@ DukeFemaleAragonese = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1354,8 +1558,11 @@ DukeMaleFinnish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1365,8 +1572,11 @@ DukeMaleFinnish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1383,8 +1593,11 @@ DukeFemaleFinnish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1394,8 +1607,11 @@ DukeFemaleFinnish = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1431,8 +1647,11 @@ DukeMaleEstonian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1442,8 +1661,11 @@ DukeMaleEstonian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1460,8 +1682,11 @@ DukeFemaleEstonian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1471,8 +1696,11 @@ DukeFemaleEstonian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1506,10 +1734,37 @@ DukeMaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_male_saxon
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1519,12 +1774,93 @@ DukeMaleSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
 		localization_key = palatine_male_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_saxon_independent
 	}
 	text = {
 		localization_key = duke_default_male_saxon
@@ -1535,10 +1871,37 @@ DukeFemaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_female_saxon
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1548,12 +1911,93 @@ DukeFemaleSaxon = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
 		localization_key = palatine_female_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_saxon_independent
 	}
 	text = {
 		localization_key = duke_default_female_saxon
@@ -1562,6 +2006,18 @@ DukeFemaleSaxon = {
 }
 DuchySaxon = {
 	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_saxon
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -1575,6 +2031,43 @@ DuchySaxon = {
 		localization_key = palatinate_saxon
 	}
 	text = {
+		trigger = {
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_saxon
+	}
+	text = {
 		localization_key = duchy_default_saxon
 		fallback = yes
 	}
@@ -1583,10 +2076,37 @@ DukeMaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_male_middle_high_german
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1596,12 +2116,93 @@ DukeMaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
 		localization_key = palatine_male_middle_high_german
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_male_middle_high_german_independent
 	}
 	text = {
 		localization_key = duke_default_male_middle_high_german
@@ -1612,10 +2213,37 @@ DukeFemaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse.liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root.primary_spouse
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1625,12 +2253,93 @@ DukeFemaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
 		localization_key = palatine_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_female_middle_high_german_independent
 	}
 	text = {
 		localization_key = duke_default_female_middle_high_german
@@ -1639,6 +2348,18 @@ DukeFemaleMiddleHighGerman = {
 }
 DuchyMiddleHighGerman = {
 	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_middle_high_german
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -1652,19 +2373,58 @@ DuchyMiddleHighGerman = {
 		localization_key = palatinate_middle_high_german
 	}
 	text = {
+		trigger = {
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_middle_high_german
+	}
+	text = {
 		localization_key = duchy_default_middle_high_german
 		fallback = yes
 	}
 }
-
 DukeMaleFrisian = {
 	type = character
 	text = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1674,8 +2434,11 @@ DukeMaleFrisian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1692,8 +2455,11 @@ DukeFemaleFrisian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1703,8 +2469,11 @@ DukeFemaleFrisian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1740,8 +2509,11 @@ DukeMaleDutch = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1751,8 +2523,11 @@ DukeMaleDutch = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1769,8 +2544,11 @@ DukeFemaleDutch = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1780,8 +2558,11 @@ DukeFemaleDutch = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1817,8 +2598,11 @@ DukeArabic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1827,32 +2611,44 @@ DukeArabic = {
 	text = {
 		trigger = {
 			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
+				AND = {
+					has_culture = culture:andalusian
 					vassal_contract_has_flag = has_palatinate_contract
+					has_religion = religion:christianity_religion
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_culture = culture:andalusian
+						vassal_contract_has_flag = has_palatinate_contract
+						has_religion = religion:christianity_religion
+					}
+				}
+			}
+		}
+		localization_key = palatine_christian_arabic
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 			NOT = {
-				has_religion = religion:christian_religion
+				has_religion = religion:christianity_religion
 			}
 		}
 		localization_key = palatine_arabic
 	}
 	text = {
 		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
-			has_religion = religion:christian_religion
-		}
-		localization_key = palatine_christian_arabic
-	}
-	text = {
-		trigger = {
-			has_religion = religion:christian_religion
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
 		}
 		localization_key = duke_christian_arabic
 	}
@@ -1871,7 +2667,8 @@ DuchyArabic = {
 	}
 	text = {
 		trigger = {
-			has_religion = religion:christian_religion
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
 		}
 		localization_key = duchy_christian_arabic
 	}
@@ -1886,8 +2683,11 @@ DukeMaleCoptic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1897,8 +2697,11 @@ DukeMaleCoptic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1915,8 +2718,11 @@ DukeFemaleCoptic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1926,8 +2732,11 @@ DukeFemaleCoptic = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -1963,8 +2772,11 @@ DukeMaleArmenian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1981,8 +2793,11 @@ DukeFemaleArmenian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -1999,8 +2814,11 @@ DukeFemaleHolderArmenian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2033,8 +2851,11 @@ DukeMaleGreek = {
 			}
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2044,8 +2865,11 @@ DukeMaleGreek = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2055,8 +2879,11 @@ DukeMaleGreek = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2084,8 +2911,11 @@ DukeFemaleGreek = {
 			}
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2095,8 +2925,11 @@ DukeFemaleGreek = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2106,8 +2939,11 @@ DukeFemaleGreek = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2133,34 +2969,19 @@ DuchyGreek = {
 			root.top_liege = {
 				has_primary_title = title:e_byzantium
 			}
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
+			vassal_contract_has_flag = has_march_contract
 		}
 		localization_key = byzantine_march_greek
 	}
 	text = {
 		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
+			vassal_contract_has_flag = has_march_contract
 		}
 		localization_key = march_greek
 	}
 	text = {
 		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
+			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_greek
 	}
@@ -2183,8 +3004,11 @@ DukeGeorgian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2214,8 +3038,11 @@ DukeMaleAssyrian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2225,8 +3052,11 @@ DukeMaleAssyrian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2251,8 +3081,11 @@ DukeFemaleAssyrian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2262,8 +3095,11 @@ DukeFemaleAssyrian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2278,23 +3114,13 @@ DuchyAssyrian = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
-				}
-			}
+			vassal_contract_has_flag = has_march_contract
 		}
 		localization_key = march_assyrian
 	}
 	text = {
 		trigger = {
-			OR = {
-				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
-				}
-			}
+			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_assyrian
 	}
@@ -2309,8 +3135,11 @@ DukeMaleItalian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2320,8 +3149,11 @@ DukeMaleItalian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2338,8 +3170,11 @@ DukeFemaleItalian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2349,8 +3184,11 @@ DukeFemaleItalian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2386,8 +3224,11 @@ DukeMaleRoman = { ##Unusually set but should work
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2397,8 +3238,11 @@ DukeMaleRoman = { ##Unusually set but should work
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2421,8 +3265,11 @@ DukeFemaleRoman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2432,8 +3279,11 @@ DukeFemaleRoman = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2475,8 +3325,11 @@ DukeMaleCisalpine = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2486,8 +3339,11 @@ DukeMaleCisalpine = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2504,8 +3360,11 @@ DukeFemaleCisalpine = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2515,8 +3374,11 @@ DukeFemaleCisalpine = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2552,8 +3414,11 @@ DukeMaleSardinian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2563,8 +3428,11 @@ DukeMaleSardinian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2581,8 +3449,11 @@ DukeFemaleSardinian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2592,8 +3463,11 @@ DukeFemaleSardinian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2629,8 +3503,11 @@ DukeMaleCroatian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2640,8 +3517,11 @@ DukeMaleCroatian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2658,8 +3538,11 @@ DukeFemaleCroatian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2669,8 +3552,11 @@ DukeFemaleCroatian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2714,8 +3600,11 @@ DukeMaleSerbian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2725,8 +3614,11 @@ DukeMaleSerbian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2743,8 +3635,11 @@ DukeFemaleSerbian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2754,8 +3649,11 @@ DukeFemaleSerbian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2799,8 +3697,11 @@ DukeMaleVlach = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2810,8 +3711,11 @@ DukeMaleVlach = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2828,8 +3732,11 @@ DukeFemaleVlach = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2839,8 +3746,11 @@ DukeFemaleVlach = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2876,8 +3786,11 @@ DukeMaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2887,8 +3800,11 @@ DukeMaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2905,8 +3821,11 @@ DukeFemaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2916,8 +3835,11 @@ DukeFemaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2934,8 +3856,11 @@ DukeConFemaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -2945,8 +3870,11 @@ DukeConFemaleHung = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}
@@ -2982,8 +3910,11 @@ DukeMaleRus = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -3000,8 +3931,11 @@ DukeFemaleRus = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -3031,8 +3965,11 @@ DukeNubian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
 				}
 			}
 		}
@@ -3042,8 +3979,11 @@ DukeNubian = {
 		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_palatinate_contract
-				root.primary_spouse = {
-					vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
 				}
 			}
 		}

@@ -28,7 +28,15 @@ baron_female_pictish_cumbrian = {
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
-count_male_pictish_cumbrian = {
+barony_pictish_cumbrian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_pictish_cumbrian = {
 	type = character
 	gender = male
 	special = holder
@@ -38,7 +46,7 @@ count_male_pictish_cumbrian = {
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
-count_female_pictish_cumbrian = {
+count_feudalclan_female_pictish_cumbrian = {
 	type = character
 	gender = female
 	special = holder
@@ -48,7 +56,15 @@ count_female_pictish_cumbrian = {
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
-count_male_pictish_cumbrian_independent = {
+county_feudalclan_pictish_cumbrian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_pictish_cumbrian_independent = {
 	type = character
 	gender = male
 	special = holder
@@ -59,7 +75,7 @@ count_male_pictish_cumbrian_independent = {
 	top_liege = no
 	only_independent = yes
 }
-count_female_pictish_cumbrian_independent = {
+count_feudalclan_female_pictish_cumbrian_independent = {
 	type = character
 	gender = female
 	special = holder
@@ -67,6 +83,15 @@ count_female_pictish_cumbrian_independent = {
 	priority = 114
 	cultures = { pictish cumbrian }
 	governments = { feudal_government tribal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_pictish_cumbrian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -90,7 +115,14 @@ duke_feudalclan_female_pictish_cumbrian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-
+duchy_feudalclan_pictish_cumbrian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_pictish_cumbrian_independent = {
 	type = character
 	gender = male
@@ -106,6 +138,15 @@ duke_feudalclan_female_pictish_cumbrian_independent = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_pictish_cumbrian_independent = {
+	type = title
 	tier = duchy
 	priority = 124
 	cultures = { pictish cumbrian }
@@ -133,22 +174,10 @@ king_female_pictish_cumbrian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_pictish_cumbrian_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
+kingdom_pictish_cumbrian = {
+	type = title
 	tier = kingdom
-	priority = 130
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_pictish_cumbrian_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
+	priority = 143
 	cultures = { pictish cumbrian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -173,7 +202,34 @@ emperor_female_pictish_cumbrian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
+empire_pictish_cumbrian = {
+	type = title
+	tier = empire
+	priority = 153
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_pictish_cumbrian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_pictish_cumbrian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_pictish_cumbrian_empire = {
 	type = character
 	gender = male
@@ -190,65 +246,6 @@ title_prince_female_pictish_cumbrian_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-barony_pictish_cumbrian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_pictish_cumbrian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_pictish_cumbrian_independent = {
-	type = title
-	tier = county
-	priority = 114
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_feudalclan_pictish_cumbrian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-
-duchy_feudalclan_pictish_cumbrian_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_pictish_cumbrian = {
-	type = title
-	tier = kingdom
-	priority = 143
-	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_pictish_cumbrian = {
-	type = title
-	tier = empire
-	priority = 153
 	cultures = { pictish cumbrian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
@@ -275,6 +272,14 @@ baron_republic_female_pictish_cumbrian = {
 	top_liege = no
 	only_holder = yes
 }
+barony_republic_pictish_cumbrian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { pictish cumbrian }
+	governments = { republic_government }
+	top_liege = no
+}
 count_republic_male_pictish_cumbrian = {
 	type = character
 	gender = male
@@ -296,6 +301,14 @@ count_republic_female_pictish_cumbrian = {
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
+}
+county_republic_pictish_cumbrian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { pictish cumbrian }
+	governments = { republic_government }
+	top_liege = no
 }
 duke_republic_male_pictish_cumbrian = {
 	type = character
@@ -319,6 +332,14 @@ duke_republic_female_pictish_cumbrian = {
 	top_liege = no
 	only_holder = yes
 }
+duchy_republic_pictish_cumbrian = { 
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { pictish cumbrian }
+	governments = { republic_government }
+	top_liege = no
+}
 king_republic_male_pictish_cumbrian = {
 	type = character
 	gender = male
@@ -340,30 +361,6 @@ king_republic_female_pictish_cumbrian = {
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
-}
-barony_republic_pictish_cumbrian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { pictish cumbrian }
-	governments = { republic_government }
-	top_liege = no
-}
-county_republic_pictish_cumbrian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { pictish cumbrian }
-	governments = { republic_government }
-	top_liege = no
-}
-duchy_republic_pictish_cumbrian = { 
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { pictish cumbrian }
-	governments = { republic_government }
-	top_liege = no
 }
 kingdom_republic_pictish_cumbrian = { 
 	type = title
@@ -424,6 +421,14 @@ baron_female_welsh = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_welsh = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_feudalclan_male_welsh = {
 	type = character
 	gender = male
@@ -438,6 +443,14 @@ count_feudalclan_female_welsh = {
 	type = character
 	gender = female
 	special = holder
+	priority = 113
+	tier = county
+	cultures = { welsh }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_welsh = {
+	type = title
 	priority = 113
 	tier = county
 	cultures = { welsh }
@@ -466,6 +479,15 @@ count_feudalclan_female_welsh_independent = {
 	only_independent = yes
 	top_liege = no
 }
+county_feudalclan_welsh_independent = {
+	type = title
+	priority = 114
+	tier = county
+	cultures = { welsh }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_welsh = {
 	type = character
 	gender = male
@@ -480,6 +502,14 @@ duke_feudalclan_female_welsh = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { welsh }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_welsh = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { welsh }
@@ -506,22 +536,10 @@ king_female_welsh = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_welsh_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
+kingdom_welsh = {
+	type = title
+	priority = 143
 	tier = kingdom
-	priority = 130
-	cultures = { welsh }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_welsh_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
 	cultures = { welsh }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -546,6 +564,34 @@ emperor_female_welsh = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+empire_welsh = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_welsh = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_welsh = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_welsh_empire = {
 	type = character
 	gender = male
@@ -562,55 +608,6 @@ title_prince_female_welsh_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { welsh }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-barony_welsh = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { welsh }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_feudalclan_welsh = {
-	type = title
-	priority = 113
-	tier = county
-	cultures = { welsh }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-county_feudalclan_welsh_independent = {
-	type = title
-	priority = 114
-	tier = county
-	cultures = { welsh }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_feudalclan_welsh = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { welsh }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-kingdom_welsh = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { welsh }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_welsh = {
-	type = title
-	priority = 153
-	tier = empire
 	cultures = { welsh }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
@@ -637,6 +634,14 @@ baron_republic_female_welsh = {
 	only_holder = yes
 	top_liege = no
 }
+barony_republic_welsh = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { welsh }
+	governments = { republic_government }
+	top_liege = no
+}
 count_republic_male_welsh = {
 	type = character
 	gender = male
@@ -657,6 +662,14 @@ count_republic_female_welsh = {
 	cultures = { welsh }
 	governments = { republic_government }
 	only_holder = yes
+	top_liege = no
+}
+county_republic_welsh = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { welsh }
+	governments = { republic_government }
 	top_liege = no
 }
 duke_republic_male_welsh = {
@@ -681,6 +694,14 @@ duke_republic_female_welsh = {
 	only_holder = yes
 	top_liege = no
 }
+duchy_republic_welsh = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { welsh }
+	governments = { republic_government }
+	top_liege = no
+}
 king_republic_male_welsh = {
 	type = character
 	gender = male
@@ -701,30 +722,6 @@ king_republic_female_welsh = {
 	cultures = { welsh }
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
-}
-barony_republic_welsh = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { welsh }
-	governments = { republic_government }
-	top_liege = no
-}
-county_republic_welsh = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { welsh }
-	governments = { republic_government }
-	top_liege = no
-}
-duchy_republic_welsh = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { welsh }
-	governments = { republic_government }
 	top_liege = no
 }
 kingdom_republic_welsh = {
@@ -755,6 +752,14 @@ count_tribal_female_welsh = {
 	governments = { tribal_government }
 	top_liege = no
 }
+county_tribal_welsh = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { welsh }
+	governments = { tribal_government }
+	top_liege = no
+}
 duke_tribal_male_welsh = {
 	type = character
 	gender = male
@@ -775,14 +780,6 @@ duke_tribal_female_welsh = {
 	governments = { tribal_government }
 	top_liege = no
 }
-county_tribal_welsh = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { welsh }
-	governments = { tribal_government }
-	top_liege = no
-}
 duchy_tribal_welsh = {
 	type = title
 	tier = duchy
@@ -793,7 +790,6 @@ duchy_tribal_welsh = {
 }
 ####################
 ## Breton_culture ##
-
 baron_male_breton = {
 	type = character
 	gender = male
@@ -814,7 +810,15 @@ baron_female_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_male_breton = {
+barony_breton = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_breton = {
 	type = character
 	gender = male
 	special = holder
@@ -824,7 +828,7 @@ count_male_breton = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_female_breton = {
+count_feudalclan_female_breton = {
 	type = character
 	gender = female
 	special = holder
@@ -832,6 +836,14 @@ count_female_breton = {
 	tier = county
 	cultures = { breton }
 	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_breton = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 duke_male_breton = {
@@ -854,10 +866,27 @@ duke_female_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+duchy_breton = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 duke_male_breton_independent = {
 	type = character
 	gender = male
 	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duchy_breton_independent = {
+	type = title
 	priority = 124
 	tier = duchy
 	cultures = { breton }
@@ -896,22 +925,10 @@ king_female_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_breton_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
+kingdom_breton = {
+	type = title
+	priority = 143
 	tier = kingdom
-	priority = 130
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_breton_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
 	cultures = { breton }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -936,6 +953,34 @@ emperor_female_breton = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+empire_breton = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_breton = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_breton = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_breton_empire = {
 	type = character
 	gender = male
@@ -952,55 +997,6 @@ title_prince_female_breton_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-barony_breton = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_breton = {
-	type = title
-	priority = 113
-	tier = county
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_breton = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_breton_independent = {
-	type = title
-	priority = 124
-	tier = duchy
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
-	top_liege = no
-}
-kingdom_breton = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_breton = {
-	type = title
-	priority = 153
-	tier = empire
 	cultures = { breton }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
@@ -1116,7 +1112,15 @@ baron_female_cornish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_male_cornish = {
+barony_cornish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_cornish = {
 	type = character
 	gender = male
 	special = holder
@@ -1126,7 +1130,7 @@ count_male_cornish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_female_cornish = {
+coun_feudalclant_female_cornish = {
 	type = character
 	gender = female
 	special = holder
@@ -1136,7 +1140,15 @@ count_female_cornish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_male_cornish_independent = {
+county_feudalclan_cornish = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { cornish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_cornish_independent = {
 	type = character
 	gender = male
 	special = holder
@@ -1147,10 +1159,19 @@ count_male_cornish_independent = {
 	top_liege = no
 	only_independent = yes
 }
-count_female_cornish_independent = {
+count_feudalclan_female_cornish_independent = {
 	type = character
 	gender = female
 	special = holder
+	priority = 114
+	tier = county
+	cultures = { cornish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_cornish_independent = {
+	type = title
 	priority = 114
 	tier = county
 	cultures = { cornish }
@@ -1172,6 +1193,14 @@ duke_feudalclan_female_cornish = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { cornish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_cornish = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { cornish }
@@ -1200,6 +1229,15 @@ duke_feudalclan_female_cornish_independent = {
 	only_independent = yes
 	top_liege = no
 }
+duchy_feudalclan_cornish_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { cornish }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
 king_male_cornish = {
 	type = character
 	gender = male
@@ -1220,22 +1258,10 @@ king_female_cornish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_cornish_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
+kingdom_cornish = {
+	type = title
+	priority = 143
 	tier = kingdom
-	priority = 130
-	cultures = { cornish }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_cornish_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
 	cultures = { cornish }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -1260,6 +1286,34 @@ emperor_female_cornish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+empire_cornish = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_cornish = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_cornish = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_cornish_empire = {
 	type = character
 	gender = male
@@ -1276,64 +1330,6 @@ title_prince_female_cornish_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { cornish }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-barony_cornish = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { cornish }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_cornish = {
-	type = title
-	priority = 113
-	tier = county
-	cultures = { cornish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-county_cornish_independent = {
-	type = title
-	priority = 114
-	tier = county
-	cultures = { cornish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_feudalclan_cornish = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { cornish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_cornish_independent = {
-	type = title
-	priority = 124
-	tier = duchy
-	cultures = { cornish }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-	top_liege = no
-}
-kingdom_cornish = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { cornish }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_cornish = {
-	type = title
-	priority = 153
-	tier = empire
 	cultures = { cornish }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
@@ -1360,6 +1356,14 @@ baron_republic_female_cornish = {
 	only_holder = yes
 	top_liege = no
 }
+barony_republic_cornish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { cornish }
+	governments = { republic_government }
+	top_liege = no
+}
 count_republic_male_cornish = {
 	type = character
 	gender = male
@@ -1380,6 +1384,14 @@ count_republic_female_cornish = {
 	cultures = { cornish }
 	governments = { republic_government }
 	only_holder = yes
+	top_liege = no
+}
+county_republic_cornish = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { cornish }
+	governments = { republic_government }
 	top_liege = no
 }
 duke_republic_male_cornish = {
@@ -1404,6 +1416,14 @@ duke_republic_female_cornish = {
 	only_holder = yes
 	top_liege = no
 }
+duchy_republic_cornish = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { cornish }
+	governments = { republic_government }
+	top_liege = no
+}
 king_republic_male_cornish = {
 	type = character
 	gender = male
@@ -1424,30 +1444,6 @@ king_republic_female_cornish = {
 	cultures = { cornish }
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
-}
-barony_republic_cornish = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { cornish }
-	governments = { republic_government }
-	top_liege = no
-}
-county_republic_cornish = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { cornish }
-	governments = { republic_government }
-	top_liege = no
-}
-duchy_republic_cornish = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { cornish }
-	governments = { republic_government }
 	top_liege = no
 }
 kingdom_republic_cornish = {

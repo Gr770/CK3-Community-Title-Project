@@ -4,7 +4,7 @@
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_gaelic
+		localization_key = county_default_gaelic
 	}
 	text = {
 		fallback = yes
@@ -17,7 +17,7 @@ OldSaxonIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_old_saxon
+		localization_key = county_old_saxon
 	}
 	text = {
 		fallback = yes
@@ -31,14 +31,14 @@ PictishCumbrianIndepCounty = {
 			highest_held_title_tier >= tier_duchy
 			root.culture = culture:pictish
 		}
-		localization_key = dependent_county_pictish
+		localization_key = county_default_pictish
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 			root.culture = culture:cumbrian
 		}
-		localization_key = dependent_county_cumbrian
+		localization_key = county_default_cumbrian
 	}
 	text = {
 		fallback = yes
@@ -51,7 +51,7 @@ WelshIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_welsh
+		localization_key = county_default_welsh
 	}
 	text = {
 		fallback = yes
@@ -64,7 +64,7 @@ CornishIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_cornish
+		localization_key = county_default_cornish
 	}
 	text = {
 		fallback = yes
@@ -76,12 +76,30 @@ NorseNorwegianIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = dependent_county_norse_norwegian
+		localization_key = county_default_norse_norwegian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_culture = culture:swedish
+		}
+		localization_key = county_default_swedish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_culture = culture:danish
+		}
+		localization_key = county_default_danish
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_norse_norwegian
+		localization_key = kingdom_north_germanic_group
 	}
 }
 SwedishIndepCounty = {
