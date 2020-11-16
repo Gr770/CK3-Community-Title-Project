@@ -1,4 +1,50 @@
-﻿BaronMaleSardinian = {
+﻿BaronMaleItalian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_italian
+	}
+	text = {
+		localization_key = baron_default_male_italian
+		fallback = yes
+	}
+}
+
+BaronFemaleItalian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_italian
+	}
+	text = {
+		localization_key = baron_default_female_italian
+		fallback = yes
+	}
+}
+BaronyItalian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_italian
+	}
+	text = {
+		localization_key = barony_default_italian
+		fallback = yes
+	}
+}
+BaronMaleSardinian = {
 	type = character
 	text = {
 		trigger = {

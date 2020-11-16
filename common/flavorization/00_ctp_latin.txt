@@ -110,26 +110,6 @@ king_female_italian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_italian_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 131
-	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_italian_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 131
-	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
 emperor_male_italian = {
 	type = character
 	gender = male
@@ -150,14 +130,34 @@ emperor_female_italian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_italian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_italian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { italian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_italian_empire = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 149
 	cultures = { italian  }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_female_italian_empire = {
@@ -165,9 +165,31 @@ title_prince_female_italian_empire = {
 	gender = female
 	special = ruler_child
 	tier = empire
-	priority = 132
+	priority = 149
 	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_italian_byzantine_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { italian }
+	titles = { e_byzantium }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_italian_byzantine_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { italian }
+	titles = { e_byzantium }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 barony_italian = {

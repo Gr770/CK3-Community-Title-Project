@@ -412,6 +412,13 @@ ItalianIndepDuchy = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
+			has_primary_title = e_byzantium
+		}
+		localization_key = byzantine_duchy_italian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_italian
 	}
