@@ -480,6 +480,7 @@ FreeMayorMaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -495,6 +496,7 @@ FreeMayorFemaleSaxon = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -510,6 +512,7 @@ FreeCitySaxon = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -538,10 +541,13 @@ CountMaleSaxon = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -551,6 +557,7 @@ CountMaleSaxon = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -587,6 +594,7 @@ CountMaleSaxon = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -647,10 +655,13 @@ CountFemaleSaxon = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -660,6 +671,7 @@ CountFemaleSaxon = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -696,6 +708,7 @@ CountFemaleSaxon = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -755,6 +768,7 @@ CountySaxon = {
 	}
 	text = {
 		trigger = {
+			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
 			}
@@ -799,6 +813,7 @@ FreeMayorMaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -814,6 +829,7 @@ FreeMayorFemaleMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -829,6 +845,7 @@ FreeCityMiddleHighGerman = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
 			}
@@ -857,10 +874,13 @@ CountMaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -870,6 +890,7 @@ CountMaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -906,6 +927,7 @@ CountMaleMiddleHighGerman = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -966,10 +988,13 @@ CountFemaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -979,6 +1004,7 @@ CountFemaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -1015,6 +1041,7 @@ CountFemaleMiddleHighGerman = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -1074,6 +1101,7 @@ CountyMiddleHighGerman = {
 	}
 	text = {
 		trigger = {
+			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
 			}
