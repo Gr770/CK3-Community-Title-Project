@@ -1747,10 +1747,13 @@ DukeMaleSaxon = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -1788,6 +1791,7 @@ DukeMaleSaxon = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -1824,6 +1828,7 @@ DukeMaleSaxon = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -1884,10 +1889,13 @@ DukeFemaleSaxon = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -1925,6 +1933,7 @@ DukeFemaleSaxon = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -1961,6 +1970,7 @@ DukeFemaleSaxon = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -2032,6 +2042,7 @@ DuchySaxon = {
 	}
 	text = {
 		trigger = {
+			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
 			}
@@ -2089,10 +2100,13 @@ DukeMaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -2130,6 +2144,7 @@ DukeMaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -2166,6 +2181,7 @@ DukeMaleMiddleHighGerman = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -2226,10 +2242,13 @@ DukeFemaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			exists = primary_spouse
-			root.primary_spouse.liege.primary_title = {
-				has_title_law = princely_elective_succession_law
-				any_elector = {
-					this = root.primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
 				}
 			}
 		}
@@ -2267,6 +2286,7 @@ DukeFemaleMiddleHighGerman = {
 		trigger = {
 			OR = {
 				AND = {
+					exists = liege
 					liege.primary_title = {
 						has_title_law = princely_elective_succession_law
 					}
@@ -2303,6 +2323,7 @@ DukeFemaleMiddleHighGerman = {
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
+						exists = liege
 						liege.primary_title = {
 							has_title_law = princely_elective_succession_law
 						}
@@ -2374,6 +2395,7 @@ DuchyMiddleHighGerman = {
 	}
 	text = {
 		trigger = {
+			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
 			}
