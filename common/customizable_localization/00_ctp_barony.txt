@@ -44,8 +44,62 @@ BaronyItalian = {
 		fallback = yes
 	}
 }
+BaronMaleCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_italian
+	}
+	text = {
+		localization_key = baron_default_male_cisalpine
+		fallback = yes
+	}
+}
+
+BaronFemaleCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_italian
+	}
+	text = {
+		localization_key = baron_default_female_cisalpine
+		fallback = yes
+	}
+}
+BaronyCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_italian
+	}
+	text = {
+		localization_key = barony_default_cisalpine
+		fallback = yes
+	}
+}
 BaronMaleSardinian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_sardinian
+	}
 	text = {
 		trigger = {
 			holds_landed_title = yes
@@ -76,6 +130,14 @@ BaronFemaleSardinian = {
 	type = character
 	text = {
 		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_sardinian
+	}
+	text = {
+		trigger = {
 			holds_landed_title = yes
 			root.top_liege = {
 				highest_held_title_tier = tier_county
@@ -101,6 +163,14 @@ BaronFemaleSardinian = {
 }
 BaronySardinian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_sardinian
+	}
 	text = {
 		trigger = {
 			root.top_liege = {

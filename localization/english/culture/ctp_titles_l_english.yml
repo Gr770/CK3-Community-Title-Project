@@ -2220,7 +2220,7 @@
    baron_female_italian:0 "[CHARACTER.Custom('BaronFemaleItalian')]"
    barony_italian:0 "[CHARACTER.Custom('BaronyItalian')]"
    byzantine_baron_male_italian:0 "Comes"
-   byzantine_baron_female_italian:0 "Comtissa"
+   byzantine_baron_female_italian:0 "Comtessa"
    byzantine_barony_italian:0 "Bando"
    baron_default_male_italian:0 "Barone"
    baron_default_female_italian:0 "Baronessa"
@@ -2246,7 +2246,7 @@
    palatine_female_italian:0 "Palatina"
    palatinate_italian:0 "Palatinato"
    byzantine_duke_male_italian:0 "Stratego"
-   byzantine_duke_female_italian:0 "Strategissa"
+   byzantine_duke_female_italian:0 "Strategessa"
    byzantine_duchy_italian:0 "Thema"
    duke_default_male_italian:0 "Duca"
    duke_default_female_italian:0 "Duchessa"
@@ -2264,7 +2264,7 @@
  
    king_male_italian:0 "[CHARACTER.Custom('ItalianIndepDuchy')]"
    king_female_italian:0 "[CHARACTER.Custom('ItalianIndepDuchy')]"
-   kingdom_italian_cisalpine:0 "[CHARACTER.Custom('ItalianIndepDuchy')]" ####CHECK####
+   kingdom_italian:0 "[CHARACTER.Custom('ItalianIndepDuchy')]"
    byzantine_king_male_italian:0 "Esarco"
    byzantine_king_female_italian:0 "Esarca"
    byzantine_kingdom_italian:0 "Esarcato"
@@ -2285,6 +2285,8 @@
    title_prince_female_italian_empire:0 "$title_prince_female_italian$"
    title_prince_male_italian_byzantine_empire:0 "Cesare"
    title_prince_female_italian_byzantine_empire:0 "Cesara"
+   queen_mother_italian:0 "Regina Madre"
+   empress_mother_italian:0 "Imperatrice Madre"
 
    baron_republic_male_italian:0 "Podestà"
    baron_republic_female_italian:0 "Podestà"
@@ -2304,198 +2306,219 @@
    county_tribal_italian:0 "Tribo"
    duke_tribal_male_italian:0 "Gran Capo"
    duke_tribal_female_italian:0 "Gran Capo"
-   duchy_tribal_italian:0 "Gran Tribo" ##Place-holder-ish
+   duchy_tribal_italian:0 "Gran Tribo"
 ########################################################
-##  Roman Culture
-
- baron_male_roman:0 "Baro"
- baron_female_roman:0 "Baronissa"
- count_feudalclan_male_roman:0 "Comes"
- count_feudalclan_female_roman:0 "Comitissa"
-
- сount_feudalclan_male_roman_independent:0 "Regulus"
- count_feudalclan_female_roman_independent:0 "Regula"
- 
- duke_feudalclan_male_roman:0 "[CHARACTER.Custom('DukeMaleRoman')]"
- duke_feudalclan_roman_holder:0 "Proconsul"
- duke_default_male_roman:0 "Dominus"
- 
- duke_feudalclan_female_roman:0 "[CHARACTER.Custom('DukeFemaleRoman')]"
- duke_feudalclan_roman_holder:0 "Proconsul"
- duke_default_female_roman:0 "Domina"
- 
- duke_feudalclan_male_roman_independent:0 "Princeps"
- duke_feudalclan_female_roman_independent:0 "Principissa"
- 
- king_male_roman_sicilian:0 "Rex"
- king_female_roman_sicilian:0 "Regina"
- title_prince_male_roman_kingdom:0 "Regis filius"
- title_prince_female_roman_kingdom:0 "Regis filia"
- emperor_male_roman:0 "Imperator"
- emperor_female_roman:0 "Imperatrix"
- title_prince_male_roman_empire:0 "Princeps"
- title_prince_female_roman_empire:0 "Principissa"
- 
- barony_roman:0 "Baronia"
- county_feudalclan_roman:0 "Comitiatus"
- 
- duchy_feudalclan_roman:0 "[CHARACTER.Custom('DuchyRoman')]"
- duchy_default_roman:0 "Provincia"
- 
- duchy_feudalclan_roman_independent:0 "[CHARACTER.Custom('RomanIndepDuchy')]"
- dependent_duchy_roman:0 "$duchy_default_roman$"
- independent_duchy_roman:0 "Principatus"
- 
- kingdom_roman_cisalpine:0 "Regnum"
- empire_roman:0 "Imperium"
-
- baron_republic_male_roman:0 "Aedilis"
- baron_republic_female_roman:0 "Aedilis"
- count_republic_male_roman:0 "Magister"
- count_republic_female_roman:0 "Magistra"
- duke_republic_male_roman:0 "Praefectus"
- duke_republic_female_roman:0 "Praefecta"
- king_republic_male_roman:0 "Consul"
- king_republic_female_roman:0 "Consul"
- 
- barony_republic_roman:0 "Oppidum"
- county_republic_roman:0 "Urbs"
- duchy_republic_roman:0 "Respublica"
- kingdom_republic_roman:0 "Magna Respublica"
- 
- count_tribal_male_roman:0 "Tribunus"
- count_tribal_female_roman:0 "Tribuna"
- duke_tribal_male_roman:0 "Dux"
- duke_tribal_female_roman:0 "Ducissa"
- county_tribal_roman:0 "Tribus"
- duchy_tribal_roman:0 "Magna Tribus" 
- 
- marquess_male_roman:0 "$duke_tribal_male_roman$"
- marquess_female_roman:0 "$duke_tribal_female_roman$"
- palatine_male_roman:0 "Palatinus"
- palatine_female_roman:0 "Palatina"
- march_roman:0 "Limes"
- palatinate_roman:0 "Palatinum"
- 
- 
+  #Roman Culture
 ########################################################
-## Cisalpine Culture
+   baron_male_roman:0 "Baro"
+   baron_female_roman:0 "Baronissa"
+   barony_roman:0 "Baronia"
+   
+   count_feudalclan_male_roman:0 "Comes"
+   count_feudalclan_female_roman:0 "Comitissa"
+   county_feudalclan_roman:0 "Comitiatus"
 
- baron_male_cisalpine:0 "Baron"
- baron_female_cisalpine:0 "Baronessa"
+   сount_feudalclan_male_roman_independent:0 "Regulus"
+   count_feudalclan_female_roman_independent:0 "Regula"
  
- count_male_cisalpine:0 "Cont"
- count_female_cisalpine:0 "Contessa"
+   duke_feudalclan_male_roman:0 "[CHARACTER.Custom('DukeMaleRoman')]"
+   duke_feudalclan_female_roman:0 "[CHARACTER.Custom('DukeFemaleRoman')]"
+   duchy_feudalclan_roman:0 "[CHARACTER.Custom('DuchyRoman')]"
+   march_roman:0 "Limes"
+   palatine_male_roman:0 "Palatinus"
+   palatine_female_roman:0 "Palatina"
+   palatinate_roman:0 "Palatinum"
+   duke_feudalclan_roman_holder:0 "Proconsul"
+   duke_default_male_roman:0 "Dominus"
+   duke_default_female_roman:0 "Domina"
+   duchy_default_roman:0 "Provincia"
+ 
+   duke_feudalclan_male_roman_independent:0 "Princeps"
+   duke_feudalclan_female_roman_independent:0 "Principissa"
+   duchy_feudalclan_roman_independent:0 "[CHARACTER.Custom('RomanIndepDuchy')]"
+   independent_duchy_roman:0 "Principatus"
+ 
+   king_male_roman:0 "Rex"
+   king_female_roman:0 "Regina"
+   kingdom_roman:0 "Regnum"
+   
+   emperor_male_roman:0 "Imperator"
+   emperor_female_roman:0 "Imperatrix"
+   emperor_female_roman_holder:0 "Augusta"
+   empire_roman:0 "Imperium"
+   
+   title_prince_male_roman:0 "Regis filius"
+   title_prince_female_roman:0 "Regis filia" 
+   title_prince_male_roman_empire:0 "Princeps Iuventutis"
+   title_prince_female_roman_empire:0 "Principissa Iuventutis"
 
- duke_male_cisalpine:0 "[CHARACTER.Custom('DukeMaleCisalpine')]"
- duke_default_male_cisalpine:0 "Dux"
+   baron_republic_male_roman:0 "Aedilis"
+   baron_republic_female_roman:0 "Aedilis"
+   barony_republic_roman:0 "Oppidum"
+   count_republic_male_roman:0 "Magister"
+   count_republic_female_roman:0 "Magistra"
+   county_republic_roman:0 "Urbs"
+   duke_republic_male_roman:0 "Praefectus"
+   duke_republic_female_roman:0 "Praefecta"
+   duchy_republic_roman:0 "Respublica"
+   king_republic_male_roman:0 "Consul"
+   king_republic_female_roman:0 "Consul"
+   kingdom_republic_roman:0 "Magna Respublica"
  
- duke_female_cisalpine:0 "[CHARACTER.Custom('DukeFemaleCisalpine')]"
- duke_default_female_cisalpine:0 "Duchissa"
+   count_tribal_male_roman:0 "Tribunus"
+   count_tribal_female_roman:0 "Tribuna"
+   county_tribal_roman:0 "Tribus"
+   duke_tribal_male_roman:0 "Dux"
+   duke_tribal_female_roman:0 "Ducissa"
+   duchy_tribal_roman:0 "Magna Tribus"   
+########################################################
+  #Cisalpine Culture
+########################################################
+   baron_male_cisalpine:0 "[CHARACTER.Custom('BaronMaleCisalpine')]"
+   baron_female_cisalpine:0 "[CHARACTER.Custom('BaronFemaleCisalpine')]"
+   barony_cisalpine:0 "[CHARACTER.Custom('BaronyCisalpine')]"
+   baron_default_male_cisalpine:0 "Baron"
+   baron_default_female_cisalpine:0 "Baronessa"
+   barony_default_cisalpine:0 "Baronia"
  
- duke_male_cisalpine_independent:0 "Prencep"
- duke_female_cisalpine_independent:0 "Prencepessa"
+   count_male_cisalpine:0 "[CHARACTER.Custom('CountyMaleCisalpine')]"
+   count_female_cisalpine:0 "[CHARACTER.Custom('CountyFemaleCisalpine')]"
+   county_cisalpine:0 "[CHARACTER.Custom('CountyCisalpine')]"
+   count_default_male_cisalpine:0 "Cont"
+   count_default_female_cisalpine:0 "Contessa"
+   county_default_cisalpine:0 "Contea"
+   
+   duke_male_cisalpine:0 "[CHARACTER.Custom('DukeMaleCisalpine')]"
+   duke_female_cisalpine:0 "[CHARACTER.Custom('DukeFemaleCisalpine')]"
+   duchy_cisalpine:0 "[CHARACTER.Custom('DuchyCisalpine')]"
+   duke_default_male_cisalpine:0 "Dux"
+   duke_default_female_cisalpine:0 "Duchissa"
+   duchy_default_cisalpine:0 "Ducato"
+   #Marches and Palatinates same as Italian
+   
+   kurfurst_male_cisalpine:0 "Prencep Elettore"
+   kurfurst_female_cisalpine:0 "Prencepessa Elettrice"
+   kurfurstdom_male_cisalpine:0 "Prencep Elettorato"
+   kurfurstdom_female_cisalpine:0 "Prencepessa Elettorato"
+   
+   duke_male_cisalpine_independent:0 "Prencep"
+   duke_female_cisalpine_independent:0 "Prencepessa"
+   duchy_cisalpine_independent:0 "[CHARACTER.Custom('CisalpineIndepDuchy')]"
+   independent_duchy_cisalpine:0 "Prencepato"
  
- king_male_cisalpine:0 "Rex"
- king_female_cisalpine:0 "Regina"
- title_prince_male_cisalpine_kingdom:0 "Prencep"
- title_prince_female_cisalpine_kingdom:0 "Prencepessa"
- emperor_male_cisalpine:0 "Imperator"
- emperor_female_cisalpine:0 "Imperatrice"
- title_prince_male_cisalpine_empire:0 "Prencep"
- title_prince_female_cisalpine_empire:0 "Prencepessa"
-
- barony_cisalpine:0 "Baronia"
- county_cisalpine:0 "Contea"
- 
- duchy_cisalpine:0 "[CHARACTER.Custom('DuchyCisalpine')]"
- duchy_default_cisalpine:0 "Ducato"
- 
- duchy_cisalpine_independent:0 "[CHARACTER.Custom('CisalpineIndepDuchy')]"
- independent_duchy_cisalpine:0 "Prencepato"
- dependent_duchy_cisalpine:0 "$duchy_default_cisalpine$"
- 
- kingdom_cisalpine:0 "Regno"
- empire_cisalpine:0 "Imperio"
- 
- #Marches and Palatinates same as Italian
- 
+   king_male_cisalpine:0 "[CHARACTER.Custom('KingMaleCisalpine')]"
+   king_female_cisalpine:0 "[CHARACTER.Custom('KingFemaleCisalpine')]"
+   kingdom_cisalpine:0 "[CHARACTER.Custom('KingdomCisalpine')]"
+   king_default_male_cisalpine:0 "Rex"
+   king_default_female_cisalpine:0 "Regina"
+   kingdom_default_cisalpine:0 "Regno"
+   #Sultanates match Italian
+   
+   emperor_male_cisalpine:0 "Imperator"
+   emperor_female_cisalpine:0 "Imperatrice"
+   empire_cisalpine:0 "Imperio"
+   
+   title_prince_male_cisalpine:0 "Prencep"
+   title_prince_female_cisalpine:0 "Prencepessa"
+   title_prince_male_cisalpine_empire:0 "$title_prince_male_cisalpine$"
+   title_prince_female_cisalpine_empire:0 "$title_prince_female_cisalpine$"
+   title_prince_male_cisalpine_byzantine_empire:0 "Cesare"
+   title_prince_female_cisalpine_byzantine_empire:0 "Cesara"
+   queen_mother_cisalpine:0 "Regina Mader"
+   empress_mother_cisalpine:0 "Imperatrice Mader"
+   
+   #Temporary use of italian-byzantine titles
 ###########################################################
-## Sardinian Culture
+  #Sardinian Culture
+###########################################################
+   baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
+   baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
+   barony_sardinian:0 "[CHARACTER.Custom('BaronySardinian')]"
+   byzantine_baron_male_sardinian:0 "Comti"
+   byzantine_baron_female_sardinian:0 "Comtissa"
+   byzantine_barony_sardinian:0 "Bandu"
+   baron_male_sardinian_default:0 "Baròni"
+   baron_female_sardinian_default:0 "Barònissa"
+   barony_feudal_sardinian_default:0 "Baronia"
+ 
+   count_male_sardinian:0 "[CHARACTER.Custom('CountyMaleSardinian')]"
+   count_female_sardinian:0 "[CHARACTER.Custom('CountyFemaleSardinian')]"
+   county_sardinian:0 "[CHARACTER.Custom('CountySardinian')]"
+   byzantine_count_male_sardinian:0 "Pretori"
+   byzantine_count_female_sardinian:0 "Pretora"
+   byzantine_county_sardinian:0 "Pretoru"
+   count_default_male_sardinian:0 "Conti"
+   count_default_female_sardinian:0 "Contissa"
+   county_default_sardinian:0 "Contadu"
+ 
+   judike_male_sardinian_holder:0 "Judike"
+   judike_male_sardinian:0 "$ctp_blank$"
+   judike_female_sardinian_holder:0 "Judika"
+   judike_female_sardinian:0 "$ctp_blank$"
+   judicatu_sardinian:0 "[CHARACTER.Custom('SardinianIndepCounty')]"
+   judicatu_independent:0 "Judicatu"
+   judicatu_republic_dependent:0 "Grand City" ##Have to add this in future
+ 
+   duke_male_sardinian:0 "[CHARACTER.Custom('DukeMaleSardinian')]"
+   duke_female_sardinian:0 "[CHARACTER.Custom('DukeFemaleSardinian')]"
+   duchy_sardinian:0 "[CHARACTER.Custom('DuchySardinian')]"
+   marquess_male_sardinian:0 "Marchesi"
+   marquess_female_sardinian:0 "Marchesa"
+   march_sardinian:0 "Marca"
+   palatine_male_sardinian:0 "Palatinu"
+   palatine_female_sardinian:0 "Palatina"
+   palatinate_sardinian:0 "Palatinatu"
+   byzantine_duke_male_sardinian:0 "Strategi"
+   byzantine_duke_female_sardinian:0 "Strategissa"
+   byzantine_duchy_sardinian:0 "Themu"
+   duke_default_male_sardinian:0 "Duca"
+   duke_default_female_sardinian:0 "Duchissa"
+   duchy_default_sardinian:0 "Ducatu"
+ 
+   kurfurst_male_sardinian:0 "Príncipi Elettori"
+   kurfurst_female_sardinian:0 "Printzèsa Elettrice"
+   kurfurstdom_male_sardinian:0 "Príncipi Elettoratu"
+   kurfurstdom_female_sardinian:0 "Printzèsa Elettoratu"
+ 
+   duke_male_sardinian_independent:0 "Príncipi"
+   duke_female_sardinian_independent:0 "Printzèsa"
+   duchy_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepDuchy')]"
+   independent_duchy_sardinian:0 "Principatu"
+ 
+   king_male_sardinian:0 "[CHARACTER.Custom('KingMaleSardinian')]"
+   king_female_sardinian:0 "[CHARACTER.Custom('KingFemaleSardinian')]"
+   kingdom_sardinian:0 "[CHARACTER.Custom('KingdomSardinian')]"
+   byzantine_king_male_sardinian:0 "Esarci"
+   byzantine_king_female_sardinian:0 "Esarca"
+   byzantine_kingdom_sardinian:0 "Esarcatu"
+   sultan_male_sardinian:0 "Sultanu"
+   sultan_female_sardinian:0 "Sultana"
+   sultanate_sardinian:0 "Sultanatu"
+   king_default_male_sardinian:0 "Rege"
+   king_default_female_sardinian:0 "Reína"
+   kingdom_default_sardinian:0 "Rennu"
+ 
+   emperor_male_sardinian:0 "Imperatori"
+   emperor_female_sardinian:0 "Imperatrice"
+   empire_sardinian:0 "Imperu"
+ 
+   title_prince_male_sardinian:0 "Príncipi"
+   title_prince_female_sardinian:0 "Printzèsa"
+   title_prince_male_sardinian_empire:0 "$title_prince_male_sardinian$"
+   title_prince_female_sardinian_empire:0 "$title_prince_female_sardinian$"
+   title_prince_male_sardinian_byzantine_empire:0 "Casari"
+   title_prince_female_sardinian_byzantine_empire:0 "Casara"
 
- baron_male_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinian')]"
- baron_male_sardinian_default:0 "Baròni"
+   baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianRepublic')]"
+   baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianRepublic')]"
+   barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianRepublic')]" 
+   baron_default_republic_male_sardinian:0 "Major"
+   baron_default_republic_female_sardinian:0 "Major"
+   barony_default_republic_sardinian:0 "City" ## Have to add in future
  
- baron_female_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinian')]"
- baron_female_sardinian_default:0 "Barònissa"
- 
- count_male_sardinian:0 "Conti"
- count_female_sardinian:0 "Contissa"
- 
- duke_male_sardinian:0 "[CHARACTER.Custom('DukeMaleSardinian')]"
- duke_default_male_sardinian:0 "Duca"
- 
- duke_female_sardinian:0 "[CHARACTER.Custom('DukeFemaleSardinian')]"
- duke_default_female_sardinian:0 "Duchissa"
- 
- duke_male_sardinian_independent:0 "Príncipi"
- duke_female_sardinian_independent:0 "Printzèsa"
- 
- king_male_sardinian:0 "Rege"
- king_female_sardinian:0 "Reína"
- title_prince_male_sardinian_kingdom:0 "Príncipi"
- title_prince_female_sardinian_kingdom:0 "Printzèsa"
- emperor_male_sardinian:0 "Imperatori"
- emperor_female_sardinian:0 "Imperatrice"
- title_prince_male_sardinian_empire:0 "Príncipi"
- title_prince_female_sardinian_empire:0 "Printzèsa"
- 
- barony_sardinian:0 "[CHARACTER.Custom('BaronySardinian')]"
- barony_feudal_sardinian_default:0 "Baronia"
- 
- county_sardinian:0 "Contadu"
- 
- duchy_sardinian:0 "[CHARACTER.Custom('DuchySardinian')]"
- duchy_default_sardinian:0 "Ducatu"
-
- duchy_sardinian_independent:0 "[CHARACTER.Custom('SardinianIndepDuchy')]"
- independent_duchy_sardinian:0 "Principatu"
- dependent_duchy_sardinian:0 "$duchy_default_sardinian$"
- 
- kingdom_sardinian:0 "Rennu"
- empire_sardinian:0 "Imperu"
- 
- baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianRepublic')]"
- baron_default_republic_male_sardinian:0 "Major"
- 
- baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianRepublic')]"
- baron_default_republic_female_sardinian:0 "Major"
- 
- barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianRepublic')]" 
- barony_default_republic_sardinian:0 "City" ## Have to add in future
- 
- marquess_male_sardinian:0 "Markgrâvio"
- marquess_female_sardinian:0 "Markgrâvin"
- palatine_male_sardinian:0 "Palencgrâvio"
- palatine_female_sardinian:0 "Palencgrâvin"
- march_sardinian:0 "Marka"
- palatinate_sardinian:0 "Palencea" 
-  
- judike_male_sardinian_holder:0 "Judike"
- judike_male_sardinian:0 "$baron_blank$"
- judike_female_sardinian_holder:0 "Judika"
- judike_female_sardinian:0 "$baron_blank$"
- 
- judicatu_sardinian:0 "[CHARACTER.Custom('SardinianIndepCounty')]"
- judicatu_independent:0 "Judicatu"
- judicatu_feudal_dependent:0 "$county_sardinian$" 
- judicatu_republic_dependent:0 "Grand City" ##Have to add this in future
- 
- ### Have to be checked
- curadore_sardinian:0 "Curadore"
- baron_blank:0 ""
- curadoria_sardinian:0 "Curadoria"
- 
+   curadore_sardinian:0 "Curadore"
+   ctp_blank:0 ""
+   curadoria_sardinian:0 "Curadoria"
 ########################################################
 ## Sicilian Culture
 
