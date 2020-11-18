@@ -2485,7 +2485,7 @@
    palatinate_sardinian:0 "Palatinatu"
    byzantine_duke_male_sardinian:0 "Strategi"
    byzantine_duke_female_sardinian:0 "Strategissa"
-   byzantine_duchy_sardinian:0 "Themu"
+   byzantine_duchy_sardinian:0 "Thema"
    duke_default_male_sardinian:0 "Duca"
    duke_default_female_sardinian:0 "Duchissa"
    duchy_default_sardinian:0 "Ducatu"
@@ -2523,7 +2523,9 @@
    title_prince_female_sardinian_empire:0 "$title_prince_female_sardinian$"
    title_prince_male_sardinian_byzantine_empire:0 "Casari"
    title_prince_female_sardinian_byzantine_empire:0 "Casara"
-
+   queen_mother_sardinian:0 "Reína Madre"
+   empress_mother_sardinian:0 "Imperatrice Madre"
+   
    baron_male_republic_sardinian:0 "[CHARACTER.Custom('BaronMaleSardinianRepublic')]"
    baron_female_republic_sardinian:0 "[CHARACTER.Custom('BaronFemaleSardinianRepublic')]"
    barony_republic_sardinian:0 "[CHARACTER.Custom('BaronySardinianRepublic')]" 
@@ -2535,47 +2537,54 @@
    ctp_blank:0 ""
    curadoria_sardinian:0 "Curadoria"
 ########################################################
-## Sicilian Culture
-
- baron_male_sicilian:0 "Baruni"
- baron_female_sicilian:0 "Barunissa"
+  #Sicilian Culture
+########################################################
+   baron_male_sicilian:0 "[CHARACTER.Custom('BaronMaleSicilian')]"
+   baron_female_sicilian:0 "[CHARACTER.Custom('BaronFemaleSicilian')]"
+   barony_sicilian:0 "[CHARACTER.Custom('BaronySicilian')]"
+   baron_male_sicilian_default:0 "Baruni"
+   baron_female_sicilian_default:0 "Barunissa"
+   barony_feudal_sicilian_default:0 "Barunia"
  
- count_male_sicilian:0 "Conti"
- count_female_sicilian:0 "Contissa"
-
- duke_male_sicilian:0 "[CHARACTER.Custom('DukeMaleSardinian')]"
- ## Same as Sardinian
+   count_male_sicilian:0 "[CHARACTER.Custom('CountyMaleSicilian')]"
+   count_female_sicilian:0 "[CHARACTER.Custom('CountyFemaleSicilian')]"
+   county_sicilian:0 "[CHARACTER.Custom('CountySicilian')]"
+   count_default_male_sicilian:0 "Conti"
+   count_default_female_sicilian:0 "Contissa"
+   county_default_sicilian:0 "Contea"
+   
+   duke_male_sicilian:0 "[CHARACTER.Custom('DukeMaleSicilian')]"
+   duke_female_sicilian:0 "[CHARACTER.Custom('DukeFemaleSicilian')]"
+   duchy_sicilian:0 "[CHARACTER.Custom('DuchySicilian')]"
+   #Marches and Palatinates same as Sardinian
  
- duke_female_sicilian:0 "[CHARACTER.Custom('DukeFemaleSardinian')]"
- ## Same as Sardinian
+   kurfurst_male_sicilian:0 "Principi Eletturi"
+   kurfurst_female_sicilian:0 "Principissa Elettrici"
+   kurfurstdom_male_sicilian:0 "Principi Elettoratu"
+   kurfurstdom_female_sicilian:0 "Principissa Elettoratu"
  
- duke_male_sicilian_independent:0 "Principi"
- duke_female_sicilian_independent:0 "Principissa"
- 
- king_male_sicilian:0 "Re"
- king_female_sicilian:0 "Regina"
- title_prince_male_sicilian_kingdom:0 "Principi"
- title_prince_female_sicilian_kingdom:0 "Principissa"
- emperor_male_sicilian:0 "Imperaturi"
- emperor_female_sicilian:0 "Imperatrici"
- title_prince_male_sicilian_empire:0 "Principi"
- title_prince_female_sicilian_empire:0 "Principissa"
-
- barony_sicilian:0 "Barunia"
- county_sicilian:0 "Contea"
- 
- duchy_sicilian:0 "[CHARACTER.Custom('DuchySardinian')]"
- ## Same as Sardinian
- 
- duchy_sicilian_independent:0 "[CHARACTER.Custom('SicilianIndepDuchy')]"
- independent_duchy_sicilian:0 "Principatu"
- dependent_duchy_sicilian:0 "$duchy_default_sicilian$"
- 
- kingdom_sicilian:0 "Regnu"
- empire_sicilian:0 "Imperio"
- 
- #Marches and Palatinates same as Sardinian
- 
+   duke_male_sicilian_independent:0 "Principi"
+   duke_female_sicilian_independent:0 "Principissa"
+   duchy_sicilian_independent:0 "[CHARACTER.Custom('SicilianIndepDuchy')]"
+   independent_duchy_sicilian:0 "Principatu"
+   
+   king_male_sicilian:0 "[CHARACTER.Custom('KingMaleSicilian')]"
+   king_female_sicilian:0 "[CHARACTER.Custom('KingFemaleSicilian')]"
+   kingdom_sicilian:0 "[CHARACTER.Custom('KingdomSicilian')]"
+   king_default_male_sicilian:0 "Re"
+   king_default_female_sicilian:0 "Regina"
+   kingdom_default_sicilian:0 "Regnu"
+   
+   emperor_male_sicilian:0 "Imperaturi"
+   emperor_female_sicilian:0 "Imperatrici"
+   empire_sicilian:0 "Imperio"
+   
+   title_prince_male_sicilian_kingdom:0 "Principi"
+   title_prince_female_sicilian_kingdom:0 "Principissa"
+   title_prince_male_sicilian_empire:0 "Principi"
+   title_prince_female_sicilian_empire:0 "Principissa"
+   queen_mother_sicilian:0 "Regina Madri"
+   empress_mother_sicilian:0 "Imperatrici Madri"
 ########################################################
 ###  East Slavic Culture Group
 ########################################################

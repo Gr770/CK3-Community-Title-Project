@@ -1337,7 +1337,7 @@ title_prince_male_sardinian_byzantine_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { sardinian } 
+	cultures = { sardinian sicilian } 
 	titles = { e_byzantium }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
@@ -1348,8 +1348,28 @@ title_prince_female_sardinian_byzantine_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { sardinian }
+	cultures = { sardinian sicilian }
 	titles = { e_byzantium }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_sardinian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { sardinian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_sardinian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { sardinian } 
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -1463,6 +1483,14 @@ baron_female_sicilian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_sicilian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sicilian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_male_sicilian = {
 	type = character
 	gender = male
@@ -1483,6 +1511,14 @@ count_female_sicilian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+county_sicilian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { sicilian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 duke_male_sicilian = {
 	type = character
 	gender = male
@@ -1500,6 +1536,14 @@ duke_female_sicilian = {
 	tier = duchy
 	priority = 123
 	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_sicilian = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { sicilian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -1525,25 +1569,14 @@ duke_female_sicilian_independent = {
 	top_liege = no
 	only_independent = yes
 }
-title_prince_male_sicilian_kingdom = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 131
-	cultures = { sicilian } 
+duchy_sicilian_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { sicilian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-}
-title_prince_female_sicilian_kingdom = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 131
-	cultures = { sicilian } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	only_independent = yes
 }
 king_male_sicilian = {
 	type = character
@@ -1565,24 +1598,12 @@ king_female_sicilian = {
 	governments = { feudal_government clan_government tribal_government}
 	top_liege = no
 }
-title_prince_male_sicilian_empire = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = empire
-	priority = 132
-	cultures = { sicilian } 
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_sicilian_empire = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = empire
-	priority = 132
-	cultures = { sicilian } 
-	governments = { feudal_government clan_government tribal_government }
+kingdom_sicilian = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { sicilian }
+	governments = { feudal_government clan_government tribal_government}
 	top_liege = no
 }
 emperor_male_sicilian = {
@@ -1605,47 +1626,6 @@ emperor_female_sicilian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-barony_sicilian = {
-	type = title
-	priority = 103
-	tier = barony
-	cultures = { sicilian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_sicilian = {
-	type = title
-	priority = 113
-	tier = county
-	cultures = { sicilian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_sicilian = {
-	type = title
-	priority = 123
-	tier = duchy
-	cultures = { sicilian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_sicilian_independent = {
-	type = title
-	priority = 124
-	tier = duchy
-	cultures = { sicilian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_sicilian = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { sicilian }
-	governments = { feudal_government clan_government tribal_government}
-	top_liege = no
-}
 empire_sicilian = {
 	type = title
 	priority = 153
@@ -1654,7 +1634,66 @@ empire_sicilian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
+title_prince_male_sicilian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_sicilian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_sicilian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 149
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_sicilian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 149
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_sicilian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_sicilian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { sicilian } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 ###############################################
 ## Lombard
 

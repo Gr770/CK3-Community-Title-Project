@@ -233,6 +233,52 @@ BaronySardinianRepublic = {
 		fallback = yes
 	}
 }
+BaronMaleSicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_sardinian
+	}
+	text = {
+		localization_key = baron_male_sicilian_default
+		fallback = yes
+	}
+}
+
+BaronFemaleSicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_sardinian
+	}
+	text = {
+		localization_key = baron_female_sicilian_default
+		fallback = yes
+	}
+}
+BaronySicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_sardinian
+	}
+	text = {
+		localization_key = barony_feudal_sicilian_default
+		fallback = yes
+	}
+}
 BaronMaleCroatian = {
 	type = character
 	text = {
