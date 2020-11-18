@@ -97,9 +97,9 @@
  
    count_tribal_male_gaelic:0 "Ceann-cinnidh"
    count_tribal_female_gaelic:0 "Banceann-cinnidh"
+   county_tribal_gaelic:0 "Cinneadh"
    duke_tribal_male_gaelic:0 "Rí" 
    duke_tribal_female_gaelic:0 "Rígan" 
-   county_tribal_gaelic:0 "Cinneadh"
    duchy_tribal_gaelic:0 "Rígdacht"
 ###########################################################
  #West Germanic Culture Group 
@@ -476,9 +476,9 @@
  
    count_tribal_male_welsh:0 "Pennaeth"
    count_tribal_female_welsh:0 "Pennaethes"
+   county_tribal_male_welsh:0 "Luidt"
    duke_tribal_male_welsh:0 "Rig"
    duke_tribal_female_welsh:0 "Riges"
-   county_tribal_male_welsh:0 "Luidt"
    duchy_tribal_male_welsh:0 "Gint" 
 #############################################################
   #Breton
@@ -840,9 +840,11 @@
    baron_republic_basque:0 "Alkatea"
    barony_republic_basque:0 "Hiria"
    
-   count_tribal_basque:0 "Buruzagi"
+   count_male_tribal_basque:0 "Buruzagi"
+   count_female_tribal_basque:0 "Buruzagi"
    county_tribal_basque:0 "Oste"
-   duke_tribal_basque:0 "Buruzagi"
+   duke_male_tribal_basque:0 "Buruzagi"
+   duke_female_tribal_basque:0 "Buruzagi"
    duchy_tribal_basque:0 "Herri"
 ########################################################
   #Castilian 
@@ -906,9 +908,11 @@
    king_republic_female_castilian:0 "Procuradora"
    kingdom_republic_castilian:0 "Comunería"
  
-   count_tribal_castilian:0 "Cabdiello"
-   duke_tribal_castilian:0 "Gran Cabdiello"
+   count_male_tribal_castilian:0 "Cabdiello"
+   count_female_tribal_castilian:0 "Cabdiella"
    county_tribal_castilian:0 "Hueste"
+   duke_male_tribal_castilian:0 "Gran Cabdiello"
+   duke_female_tribal_castilian:0 "Gran Cabdiella"
    duchy_tribal_castilian:0 "Pueblo" 
 ########################################################
   #Catalan
@@ -970,10 +974,11 @@
    king_republic_female_catalan:0 "Síndica"
    kingdom_republic_catalan:0 "Generalitat"
  
-   count_tribal_catalan:0 "Capitost"
+   count_male_tribal_catalan:0 "Capitost"
+   count_female_tribal_catalan:0 "Capitost"
+   county_tribal_catalan:0 "Host"
    duke_tribal_male_catalan:0 "Cabdill"
    duke_tribal_female_catalan:0 "Cabdella"
-   county_tribal_catalan:0 "Host"
    duchy_tribal_catalan:0 "Poble"
 ########################################################
   #Portuguese and Galician
@@ -1035,7 +1040,8 @@
    king_republic_portugese:0 "Almoxarife"
    kingdom_republic_portugese:0 "Almoxarifado"
  
-   count_tribal_portugese:0 "Coudel"
+   count_male_tribal_portugese:0 "Coudel"
+   count_female_tribal_portugese:0 "Coudel"
    county_tribal_portugese:0 "Tribo"
    duke_tribal_portugese:0 "Gran-coudel"
    duchy_tribal_portugese:0 "Povo"
@@ -1364,9 +1370,11 @@
    baron_republic_finnish:0 "Pormestari"
    barony_republic_finnish:0 "Kaupunki"
    
-   count_tribal_finnish:0 "Heimopäällikkö"
+   count_male_tribal_finnish:0 "Heimopäällikkö"
+   count_female_tribal_finnish:0 "Heimopäällikkö"
    county_tribal_finnish:0 "Heimo"
-   duke_tribal_finnish:0 "Suurheimopäällikkö"
+   duke_male_tribal_finnish:0 "Suurheimopäällikkö"
+   duke_female_tribal_finnish:0 "Suurheimopäällikkö"
    duchy_tribal_finnish:0 "Suurheimo"
 ########################################################
   #Estonian Culture
@@ -1394,7 +1402,7 @@
  
    duke_feudalclan_male_estonian_independent:0 "Vürst"
    duke_feudalclan_female_estonian_independent:0 "Vürstinna"
-   duchy_estonian_independent:0 "[CHARACTER.Custom('EstonianIndepDuchy')]"
+   duchy_feudalclan_estonian_independent:0 "[CHARACTER.Custom('EstonianIndepDuchy')]"
    independent_duchy_estonian:0 "Vürstiriik"
  
    king_male_estonian:0 "[CHARACTER.Custom('KingMaleEstonian')]"
@@ -1426,9 +1434,11 @@
    king_republic_estonian:0 "Vabariigi Valitseja"
    kingdom_estonian:0 "Vabariik"
 
-   count_tribal_estonian:0 "Hõimuvanem"
+   count_male_tribal_estonian:0 "Hõimuvanem"
+   count_female_tribal_estonian:0 "Hõimuvanem"
    county_tribal_estonian:0 "Hõim "
-   duke_tribal_estonian:0 "Hõimkonnavanem"
+   duke_male_tribal_estonian:0 "Hõimkonnavanem"
+   duke_female_tribal_estonian:0 "Hõimkonnavanem"
    duchy_tribal_estonian:0 "Hõimkond"
 ########################################################
   #Karelian Culture
@@ -1466,9 +1476,11 @@
    baron_republic_karelian:0 "Linnunhoidai"
    barony_republic_karelian:0 "Linnu"
 
-   count_tribal_karelian:0 "Heimopiälikkö"
+   count_male_tribal_karelian:0 "Heimopiälikkö"
+   count_female_tribal_karelian:0 "Heimopiälikkö"
    county_tribal_karelian:0 "Heimo"
-   duke_tribal_karelian:0 "Šuuriheimopiälikkö"
+   duke_male_tribal_karelian:0 "Šuuriheimopiälikkö"
+   duke_female_tribal_karelian:0 "Šuuriheimopiälikkö"
    duchy_tribal_karelian:0 "Šuuriheimo"
 ########################################################
   #Vepsian Culture
@@ -1506,9 +1518,11 @@
    baron_republic_vepsian:0 "Lidnan Pämezʿ"
    barony_republic_vepsian:0 "Lidn"
 
-   count_tribal_vepsian:0 "Heimpälik"
+   count_male_tribal_vepsian:0 "Heimpälik"
+   count_female_tribal_vepsian:0 "Heimpälik"
    county_tribal_vepsian:0 "Heim"
-   duke_tribal_vepsian:0 "Sur' Heimpälik"
+   duke_male_tribal_vepsian:0 "Surʿ Heimpälik"
+   duke_female_tribal_vepsian:0 "Surʿ Heimpälik"
    duchy_tribal_vepsian:0 "Sur' Heim"
 ########################################################
  #Central Germanic Culture Group
