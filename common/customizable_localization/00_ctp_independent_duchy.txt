@@ -342,7 +342,7 @@ FrisianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_frisian
+		localization_key = duchy_default_frisian
 	}
 	text = {
 		fallback = yes
@@ -355,7 +355,7 @@ DutchIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_dutch
+		localization_key = duchy_default_dutch
 	}
 	text = {
 		fallback = yes
@@ -368,13 +368,13 @@ GreekIndepDuchy = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = byzantine_dependent_duchy_greek
+		localization_key = byzantine_duchy_greek
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_greek
+		localization_key = duchy_default_greek
 	}
 	text = {
 		fallback = yes
@@ -387,7 +387,7 @@ GeorgianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_georgian
+		localization_key = duchy_default_georgian
 	}
 	text = {
 		fallback = yes
@@ -400,7 +400,7 @@ AssyrianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_assyrian
+		localization_key = duchy_default_assyrian
 	}
 	text = {
 		fallback = yes
@@ -409,6 +409,13 @@ AssyrianIndepDuchy = {
 }
 ItalianIndepDuchy = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+			has_primary_title = e_byzantium
+		}
+		localization_key = byzantine_duchy_italian
+	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
@@ -426,7 +433,7 @@ RomanIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_roman
+		localization_key = duchy_default_roman
 	}
 	text = {
 		fallback = yes
@@ -439,7 +446,7 @@ CisalpineIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_cisalpine
+		localization_key = duchy_default_cisalpine
 	}
 	text = {
 		fallback = yes
@@ -452,7 +459,7 @@ SardinianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_sardinian
+		localization_key = duchy_default_sardinian
 	}
 	text = {
 		fallback = yes
@@ -465,7 +472,7 @@ SicilianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_sicilian
+		localization_key = duchy_default_sardinian
 	}
 	text = {
 		fallback = yes
