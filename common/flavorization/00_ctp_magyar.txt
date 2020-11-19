@@ -2,226 +2,16 @@
 ##         Community Title Project         ##
 ##          Title Flavourisation           ##
 #############################################
-## None of this are cleaned
 ###############################################
 ## Magyar_group ##
 ###############################################
-
-count_male_magyar_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 20
-	culture_groups = { magyar_group }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-count_female_magyar_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 20
-	culture_groups = { magyar_group }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-#count_male_magyar_group_independent = {
-#	type = character
-#	gender = male
-#	special = holder
-#	priority = 21
-#	tier = county
-#	culture_groups = { magyar_group }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-#county_magyar_group_independent = {
-#	type = title
-#	priority = 21
-#	tier = county
-#	culture_groups = { magyar_group }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-duke_male_magyar_group_independent = {
-	type = character
-	gender = male
-	special = holder
-	priority = 29
-	tier = duchy
-	culture_groups = { magyar_group }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-}
-duchy_magyar_group_independent = {
-	type = title
-	priority = 29
-	tier = duchy
-	culture_groups = { magyar_group }
-	governments = { feudal_government clan_government }
-	only_independent = yes
-}
-county_tribal_magyar_group = {
-	type = title
-	tier = county
-	priority = 20
-	culture_groups = { magyar_group }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_male_magyar_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	culture_groups = { magyar_group }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_magyar_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	culture_groups = { magyar_group }
-	governments = { tribal_government }
-	top_liege = no
-}
-duchy_tribal_magyar_group = {
-	type = title
-	tier = duchy
-	priority = 28
-	culture_groups = { magyar_group }
-	governments = { tribal_government }
-	top_liege = no
-}
-
 ## Mogyer ##
-
-emperor_male_mogyer = {
-	type = character
-	gender = male
-	special = holder
-	priority = 102
-	tier = empire
-	cultures = { mogyer }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-emperor_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	priority = 102
-	tier = empire
-	cultures = { mogyer }
-	only_holder = yes
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-emperor_consort_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 102
-	cultures = { mogyer }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-empire_mogyer = {
-	type = title
-	priority = 102
-	tier = empire
-	cultures = { mogyer }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-king_male_mogyer = {
-	type = character
-	gender = male
-	special = holder
-	priority = 48
-	tier = kingdom
-	cultures = { mogyer }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	priority = 48
-	tier = kingdom
-	cultures = { mogyer }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-kingdom_mogyer = {
-	type = title
-	priority = 48
-	tier = kingdom
-	cultures = { mogyer }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-duke_male_mogyer = { 
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { mogyer  }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duke_female_mogyer = { 
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { mogyer }
-	only_holder = yes
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duke_consort_female_mogyer = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { mogyer }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_mogyer = { 
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { mogyer }
-	governments = { feudal_government clan_government  }
-	top_liege = no
-}
-county_mogyer = {
-	type = title
-	tier = county
-	priority = 20
-	cultures = { mogyer }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
 baron_male_mogyer = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { mogyer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -231,7 +21,7 @@ baron_female_mogyer = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { mogyer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -239,35 +29,208 @@ baron_female_mogyer = {
 barony_mogyer = { 
 	type = title
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { mogyer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-#count_female_mogyer_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	priority = 21
-#	tier = county
-#	cultures = { mogyer }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-duke_female_mogyer_independent = {
+count_feudalclan_male_mogyer = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_mogyer = {
 	type = character
 	gender = female
 	special = holder
-	priority = 29
+	tier = county
+	priority = 113
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_holder_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+county_feudalclan_mogyer = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_mogyer = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { mogyer  }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_mogyer = { 
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_holder_female_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	only_holder = yes
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_mogyer = { 
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { mogyer }
+	governments = { feudal_government clan_government  }
+	top_liege = no
+}
+duke_feudalclan_male_mogyer_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 125
 	tier = duchy
 	cultures = { mogyer }
 	governments = { feudal_government clan_government }
 	only_independent = yes
 }
+duke_feudalclan_female_mogyer_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 125
+	tier = duchy
+	cultures = { mogyer }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+}
+duchy_feudalclan_mogyer_independent = { 
+	type = title
+	tier = duchy
+	priority = 125
+	cultures = { mogyer }
+	governments = { feudal_government clan_government  }
+	top_liege = no
+}
+king_male_mogyer = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_mogyer = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_mogyer = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_holder_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	priority = 154
+	tier = empire
+	cultures = { mogyer }
+	only_holder = yes
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_mogyer = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { mogyer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_male_mogyer = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { mogyer }
+	governments = { republic_government }
+	top_liege = no
+}
+baron_republic_female_mogyer = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { mogyer }
+	governments = { republic_government }
+	top_liege = no
+}
 barony_republic_mogyer = { 
 	type = title
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { mogyer }
 	governments = { republic_government }
 	top_liege = no
@@ -277,7 +240,7 @@ count_tribal_male_mogyer = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 20
+	priority = 113
 	cultures = { mogyer }
 	governments = { tribal_government }
 	top_liege = no
@@ -287,165 +250,54 @@ count_tribal_female_mogyer = {
 	gender = female
 	special = holder
 	tier = county
-	priority = 20
+	priority = 113
 	cultures = { mogyer }
 	governments = { tribal_government }
 	top_liege = no
 }
-
-## Hungarian ##
-
-emperor_male_hungarian = {
-	type = character
-	gender = male
-	special = holder
-	priority = 102
-	tier = empire
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-emperor_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	priority = 102
-	tier = empire
-	cultures = { hungarian }
-	only_holder = yes
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-emperor_consort_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 102
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-empire_hungarian = {
-	type = title
-	priority = 102
-	tier = empire
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-king_male_hungarian = {
-	type = character
-	gender = male
-	special = holder
-	priority = 48
-	tier = kingdom
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	priority = 48
-	tier = kingdom
-	only_holder = yes
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_consort_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 48
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-kingdom_hungarian = {
-	type = title
-	priority = 48
-	tier = kingdom
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-title_prince_male_hungarian = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 40
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_hungarian = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 40
-	cultures = { hungarian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_hungarian = { 
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { hungarian  }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duke_female_hungarian = { 
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { hungarian }
-	only_holder = yes
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duke_consort_female_hungarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_hungarian = { 
-	type = title
-	tier = duchy
-	priority = 28
-	cultures = { hungarian }
-	governments = { feudal_government clan_government  }
-	top_liege = no
-}
-county_hungarian = {
+county_tribal_mogyer = {
 	type = title
 	tier = county
-	priority = 20
-	cultures = { hungarian }
-	governments = { feudal_government clan_government }
+	priority = 113
+	cultures = { mogyer }
+	governments = { tribal_government }
 	top_liege = no
 }
+duke_tribal_male_mogyer = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { mogyer  }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_mogyer = { 
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { mogyer }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_mogyer = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { mogyer }
+	governments = { tribal_government }
+	top_liege = no
+}
+## Hungarian ##
 baron_male_hungarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -455,7 +307,7 @@ baron_female_hungarian = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -463,37 +315,284 @@ baron_female_hungarian = {
 barony_hungarian = { 
 	type = title
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-#count_female_hungarian_independent = {
-#	type = character
-#	gender = female
-#	special = holder
-#	priority = 21
-#	tier = county
-#	cultures = { hungarian }
-#	governments = { feudal_government clan_government }
-#	only_independent = yes
-#}
-duke_female_hungarian_independent = {
+count_feudalclan_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_hungarian = {
 	type = character
 	gender = female
 	special = holder
-	priority = 29
+	tier = county
+	priority = 113
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_holder_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	only_holder = yes
+	top_liege = no
+}
+county_feudalclan_hungarian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_hungarian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_hungarian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+}
+count_feudalclan_female_holder_hungarian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 115
+	tier = county
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	only_holder = yes
+}
+county_feudalclan_hungarian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_male_hungarian = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian  }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_hungarian = { 
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_holder_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	only_holder = yes
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_hungarian = { 
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { feudal_government clan_government  }
+	top_liege = no
+}
+duke_feudalclan_male_hungarian_independent = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { hungarian  }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_hungarian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 125
 	tier = duchy
 	cultures = { hungarian }
 	governments = { feudal_government clan_government }
 	only_independent = yes
+}
+duchy_feudalclan_hungarian_independent = { 
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { hungarian }
+	governments = { feudal_government clan_government  }
+	top_liege = no
+	only_independent = yes
+}
+king_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_holder_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	only_holder = yes
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+kingdom_hungarian = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_holder_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	only_holder = yes
+	cultures = { hungarian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+empire_hungarian = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_hungarian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_hungarian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_hungarian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_hungarian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
 }
 baron_republic_male_hungarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -504,7 +603,7 @@ baron_republic_female_hungarian = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -513,7 +612,7 @@ baron_republic_female_hungarian = {
 barony_republic_hungarian = { 
 	type = title
 	tier = barony
-	priority = 7
+	priority = 103
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -523,7 +622,7 @@ count_republic_male_hungarian = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 20
+	priority = 113
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -534,7 +633,7 @@ count_republic_female_hungarian = {
 	gender = female
 	special = holder
 	tier = county
-	priority = 20
+	priority = 113
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -543,15 +642,37 @@ count_republic_female_hungarian = {
 county_republic_hungarian = { 
 	type = title
 	tier = county
-	priority = 20
+	priority = 113
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
 }
+duke_republic_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
 duchy_republic_hungarian = { 
 	type = title
 	tier = duchy
-	priority = 30
+	priority = 123
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
@@ -559,40 +680,9 @@ duchy_republic_hungarian = {
 kingdom_republic_hungarian = { 
 	type = title
 	tier = kingdom
-	priority = 45
+	priority = 143
 	cultures = { hungarian }
 	governments = { republic_government }
-	top_liege = no
-}
-king_male_hungarian_muslim = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 45
-	cultures = { hungarian }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_hungarian_muslim = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 45
-	cultures = { hungarian }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-kingdom_hungarian_muslim = { 
-	type = title
-	tier = kingdom
-	priority = 45
-	cultures = { hungarian }
-	religions = { islam_religion }
-	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 count_tribal_male_hungarian = {
@@ -600,7 +690,7 @@ count_tribal_male_hungarian = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 20
+	priority = 103
 	cultures = { hungarian }
 	governments = { tribal_government }
 	top_liege = no
@@ -610,12 +700,49 @@ count_tribal_female_hungarian = {
 	gender = female
 	special = holder
 	tier = county
-	priority = 20
+	priority = 103
 	cultures = { hungarian }
 	governments = { tribal_government }
 	top_liege = no
 }
-
+county_tribal_hungarian = { 
+	type = title
+	tier = county
+	priority = 113
+	cultures = { hungarian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_tribal_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_tribal_hungarian = { 
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { hungarian }
+	governments = { tribal_government }
+	top_liege = no
+}
 ###############################################
 ## End of Magyar_group ##
 ###############################################
