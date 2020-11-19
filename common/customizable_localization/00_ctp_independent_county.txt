@@ -501,3 +501,16 @@ OldEastSlavicIndepCounty = {
 		localization_key = independent_county_old_east_slavic
 	}
 }
+TamilIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_tamil
+	}
+}
