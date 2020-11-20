@@ -1673,7 +1673,21 @@ CouncilPositionMarshal = {
 			is_male = no
 		}
 		localization_key = councillor_marshal_welsh_female
-	}	
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:breton
+			is_male = yes
+		}
+		localization_key = councillor_marshal_breton_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:breton
+			is_male = no
+		}
+		localization_key = councillor_marshal_breton_female
+	}
 	text = {
 		trigger = {
 			liege.culture = culture:cornish
@@ -1712,6 +1726,12 @@ CouncilPositionMarshal = {
 ##################################################
 	text = {
 		trigger = {
+			liege.culture = culture:basque
+		}
+		localization_key = councillor_marshal_basque
+	}
+	text = {
+		trigger = {
 			OR = {
 				liege.culture = culture:castilian
 				liege.culture = culture:asturleonese
@@ -1743,6 +1763,20 @@ CouncilPositionMarshal = {
 		}
 		localization_key = councillor_marshal_portuguese_galician
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:visigothic
+			is_male = yes
+		}
+		localization_key = councillor_marshal_visigothic_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:visigothic
+			is_male = no
+		}
+		localization_key = councillor_marshal_visigothic_female
+	}
 ##################################################
 ### North Germanic
 ##################################################	
@@ -1769,7 +1803,55 @@ CouncilPositionMarshal = {
 	}
 ##################################################
 ### Central Germanic
-##################################################	
+##################################################
+	text = {
+		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				OR = {
+					has_culture = culture:bavarian
+					has_culture = culture:franconian
+					has_culture = culture:swabian
+				}
+			}
+			is_male = yes
+		}
+		localization_key = councillor_hre_marshal_mhg_male
+	}
+	text = {
+		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				OR = {
+					has_culture = culture:bavarian
+					has_culture = culture:franconian
+					has_culture = culture:swabian
+				}
+			}
+			is_male = no
+		}
+		localization_key = councillor_hre_marshal_mhg_female
+	}
+	text = {
+		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:saxon
+			}
+			is_male = yes
+		}
+		localization_key = councillor_hre_marshal_saxon_male
+	}
+	text = {
+		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:saxon
+			}
+			is_male = no
+		}
+		localization_key = councillor_hre_marshal_saxon_female
+	}
 	text = {
 		trigger = {
 			is_male = yes
@@ -1808,6 +1890,15 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:dutch
+			}
+		}
+		localization_key = councillor_hre_marshal_dutch
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:dutch
 		}
 		localization_key = councillor_marshal_dutch
@@ -1824,11 +1915,22 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege.culture_group = culture_group:arabic_group
+			is_male = yes
 			NOT = {
 				liege.culture = culture:egyptian
 			}
 		}
-		localization_key = councillor_marshal_arabic_group
+		localization_key = councillor_marshal_male_arabic_group
+	}
+	text = {
+		trigger = {
+			liege.culture_group = culture_group:arabic_group
+			is_male = no
+			NOT = {
+				liege.culture = culture:egyptian
+			}
+		}
+		localization_key = councillor_marshal_female_arabic_group
 	}
 	text = {
 		trigger = {
@@ -1849,11 +1951,22 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege.culture = culture:egyptian
+			is_male = yes
 			NOT = {
 				liege.faith = faith:coptic
 			}
 		}
-		localization_key = councillor_marshal_arabic_group  #Same as Above
+		localization_key = councillor_marshal_male_arabic_group  #Same as Above
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:egyptian
+			is_male = no
+			NOT = {
+				liege.faith = faith:coptic
+			}
+		}
+		localization_key = councillor_marshal_female_arabic_group  #Same as Above
 	}
 ##################################################
 ### Byzantine
@@ -1895,6 +2008,26 @@ CouncilPositionMarshal = {
 ##################################################
 	text = {
 		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:italian
+			}
+			is_male = yes
+		}
+		localization_key = councillor_hre_marshal_italian_male
+	}
+	text = {
+		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:italian
+			}
+			is_male = no
+		}
+		localization_key = councillor_hre_marshal_italian_female
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:italian
 			is_male = yes
 		}
@@ -1926,6 +2059,12 @@ CouncilPositionMarshal = {
 			liege.culture = culture:sardinian
 		}
 		localization_key = councillor_marshal_sardinian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_marshal_lombard
 	}
 ##################################################
 ### Southern Slavic
@@ -2119,6 +2258,12 @@ CouncilPositionMarshal = {
 		}
 		localization_key = councillor_marshal_telugu
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:kannada
+		}
+		localization_key = councillor_marshal_kannada
+	}
 ##################################################
 ### East African
 ##################################################	
@@ -2137,38 +2282,31 @@ CouncilPositionMarshal = {
 ##################################################
 ### Indo-Aryan
 ##################################################
+	
+	#to be added
+	
+##################################################
+### Iranian
+##################################################	
 	text = {
 		trigger = {
-			OR = {
-				liege.culture = culture:bengali
-				liege.culture = culture:assamese
-			}
+			liege.culture = culture:sogdian
+			is_male = yes
 		}
-		localization_key = councillor_marshal_bengali_assamese
+		localization_key = councillor_marshal_male_sogdian
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:oriya
+			liege.culture = culture:sogdian
+			is_male = yes
 		}
-		localization_key = councillor_marshal_oriya
+		localization_key = councillor_marshal_female_sogdian
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:hindustani
+			liege.culture = culture:tocharian
 		}
-		localization_key = councillor_marshal_hindustani
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:kashmiri
-		}
-		localization_key = councillor_marshal_kashmiri
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:sinhala
-		}
-		localization_key = councillor_marshal_sinhala
+		localization_key = councillor_marshal_tocharian
 	}
 ##################################################
 ### Default Fallback
