@@ -750,8 +750,16 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			liege.culture = culture:tocharian
+			is_male = yes
 		}
-		localization_key = councillor_chancellor_tocharian
+		localization_key = councillor_chancellor_tocharian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:tocharian
+			is_male = no
+		}
+		localization_key = councillor_chancellor_tocharian_female
 	}
 ##################################################
 ### Default Fallback
@@ -1585,16 +1593,8 @@ CouncilPositionSteward = {
 	text = {
 		trigger = {
 			liege.culture = culture:tocharian
-			is_male = yes
 		}
-		localization_key = councillor_steward_tocharian_male
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:tocharian
-			is_male = no
-		}
-		localization_key = councillor_steward_tocharian_female
+		localization_key = councillor_steward_tocharian
 	}
 ##################################################
 ### Default Fallback
