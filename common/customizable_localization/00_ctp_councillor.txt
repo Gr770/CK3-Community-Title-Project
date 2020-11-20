@@ -90,6 +90,20 @@ CouncilPositionChancellor = {
 	}	
 	text = {
 		trigger = {
+			liege.culture = culture:breton
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_breton_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:breton
+			is_male = no
+		}
+		localization_key = councillor_chancellor_breton_female
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:cornish
 			is_male = yes
 		}
@@ -239,7 +253,27 @@ CouncilPositionChancellor = {
 	}
 ##################################################
 ### Central Germanic
-##################################################	
+##################################################
+	text = {
+		trigger = {
+			is_male = yes
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:saxon
+			}
+		}
+		localization_key = councillor_hre_chancellor_male_saxon
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:saxon
+			}
+		}
+		localization_key = councillor_hre_chancellor_female_saxon
+	}
 	text = {
 		trigger = {
 			is_male = yes
@@ -253,6 +287,34 @@ CouncilPositionChancellor = {
 			liege.culture = culture:saxon
 		}
 		localization_key = councillor_chancellor_female_saxon
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			liege = {
+				has_primary_title = e_hre
+				OR = {
+					has_culture = culture:bavarian
+					has_culture = culture:franconian
+					has_culture = culture:swabian
+				}
+			}
+		}
+		localization_key = councillor_hre_chancellor_male_mhg
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege = {
+				has_primary_title = e_hre
+				OR = {
+					has_culture = culture:bavarian
+					has_culture = culture:franconian
+					has_culture = culture:swabian
+				}
+			}
+		}
+		localization_key = councillor_hre_chancellor_female_mhg
 	}
 	text = {
 		trigger = {
@@ -278,6 +340,15 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:dutch
+			}
+		}
+		localization_key = councillor_hre_chancellor_dutch
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:dutch
 		}
 		localization_key = councillor_chancellor_dutch
@@ -293,22 +364,51 @@ CouncilPositionChancellor = {
 ##################################################	
 	text = {
 		trigger = {
+			is_male = yes
+			liege.culture_group = culture_group:arabic_group
+			NOT = {
+				liege.culture = culture:egyptian
+				liege.culture = culture:andalusian
+			}
+		}
+		localization_key = councillor_chancellor_male_arabic_group
+	}
+	text = {
+		trigger = {
+			is_male = no
 			liege.culture_group = culture_group:arabic_group
 			NOT = {
 				liege.culture = culture:egyptian
 			}
 		}
-		localization_key = councillor_chancellor_arabic_group
+		localization_key = councillor_chancellor_female_arabic_group
 	}
 	text = {
 		trigger = {
+			is_male = yes
 			liege.culture = culture:egyptian
 			NOT = {
 				liege.faith = faith:coptic
 			}
 		}
-		localization_key = councillor_chancellor_arabic_group
+		localization_key = councillor_chancellor_male_arabic_group
 	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:egyptian
+			NOT = {
+				liege.faith = faith:coptic
+			}
+		}
+		localization_key = councillor_chancellor_female_arabic_group
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			liege.culture = culture:andalusian
+		}
+		localization_key = councillor_chancellor_male_andalusian
 	### Coptic Conditional Below
 	text = {
 		trigger = {
@@ -375,6 +475,26 @@ CouncilPositionChancellor = {
 ##################################################
 	text = {
 		trigger = {
+			is_male = yes
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:italian
+			}
+		}
+		localization_key = councillor_hre_chancellor_male_italian
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege = {
+				has_primary_title = e_hre
+				has_culture = culture:italian
+			}
+		}
+		localization_key = councillor_hre_chancellor_female_italian
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:italian
 			is_male = yes
 		}
@@ -400,6 +520,13 @@ CouncilPositionChancellor = {
 			is_male = no
 		}
 		localization_key = councillor_chancellor_roman_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+			is_male = no
+		}
+		localization_key = councillor_chancellor_lombard
 	}
 ##################################################
 ### South Slavic
@@ -575,15 +702,12 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:telugu
+			OR = {
+				liege.culture = culture:telugu
+				liege.culture = culture:kannada
+			}
 		}
-		localization_key = councillor_chancellor_telugu
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:kannada
-		}
-		localization_key = councillor_chancellor_kannada
+		localization_key = councillor_chancellor_telugu_kannada
 	}
 ##################################################
 ### East African
@@ -603,7 +727,47 @@ CouncilPositionChancellor = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-### Indo-Aryan on hold, need some clarifications
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:rajput
+				liege.culture = culture:sindhi
+			}
+		}
+		localization_key = councillor_chancellor_indo_aryan_one
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:punjabi
+				liege.culture = culture:marathi
+				liege.culture = culture:nepali
+			}
+		}
+		localization_key = councillor_chancellor_indo_aryan_two
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_chancellor_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_chancellor_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_chancellor_sinhala
+	}
 ##################################################
 ### Iranian
 ##################################################
