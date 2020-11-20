@@ -260,7 +260,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 		}
@@ -270,7 +270,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 		}
@@ -279,24 +279,14 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			is_male = yes
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 		}
 		localization_key = councillor_chancellor_male_saxon
 	}
 	text = {
 		trigger = {
 			is_male = no
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 		}
 		localization_key = councillor_chancellor_female_saxon
 	}
@@ -304,7 +294,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -318,7 +308,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -331,15 +321,10 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			is_male = yes
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
 		localization_key = councillor_chancellor_male_mhg
@@ -347,15 +332,10 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			is_male = no
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
 		localization_key = councillor_chancellor_female_mhg
@@ -363,7 +343,7 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:dutch
 			}
 		}
@@ -371,12 +351,7 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:dutch
-			}
+			liege.culture = culture:dutch
 		}
 		localization_key = councillor_chancellor_dutch
 	}
@@ -505,7 +480,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 		}
@@ -515,7 +490,7 @@ CouncilPositionChancellor = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 		}
@@ -523,24 +498,14 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = yes
 		}
 		localization_key = councillor_chancellor_italian_male
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = no
 		}
 		localization_key = councillor_chancellor_italian_female
@@ -1089,7 +1054,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 		}
@@ -1099,7 +1064,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 		}
@@ -1108,24 +1073,14 @@ CouncilPositionSteward = {
 	text = {
 		trigger = {
 			is_male = yes
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 		}
 		localization_key = councillor_steward_saxon_male
 	}
 	text = {
 		trigger = {
 			is_male = no
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 		}
 		localization_key = councillor_steward_saxon_female
 	}
@@ -1133,7 +1088,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -1147,7 +1102,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -1159,15 +1114,10 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 			is_male = yes
 		}
@@ -1175,15 +1125,10 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 			is_male = no
 		}
@@ -1192,7 +1137,7 @@ CouncilPositionSteward = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:dutch
 			}
 		}
@@ -1200,11 +1145,7 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:dutch
+			liege.culture = culture:dutch
 			}
 		}
 		localization_key = councillor_steward_dutch
@@ -1345,7 +1286,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = yes
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 		}
@@ -1355,7 +1296,7 @@ CouncilPositionSteward = {
 		trigger = {
 			is_male = no
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 		}
@@ -1363,24 +1304,14 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = yes
 		}
 		localization_key = councillor_steward_italian_male
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = no
 		}
 		localization_key = councillor_steward_italian_female
@@ -1881,7 +1812,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -1895,7 +1826,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -1909,7 +1840,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 			is_male = yes
@@ -1919,7 +1850,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 			is_male = no
@@ -1929,55 +1860,35 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			is_male = yes
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
 		localization_key = councillor_marshal_male_middle_high_german
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:saxon
 			is_male = yes
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
 		}
 		localization_key = councillor_marshal_male_saxon
 	}
 	text = {
 		trigger = {
 			is_male = no
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 		}
 		localization_key = councillor_marshal_female_saxon
 	}
 	text = {
 		trigger = {
 			is_male = no
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 		}
 		localization_key = councillor_marshal_female_middle_high_german
@@ -1985,7 +1896,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:dutch
 			}
 		}
@@ -1993,12 +1904,7 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:dutch
-			}
+			liege.culture = culture:dutch
 		}
 		localization_key = councillor_marshal_dutch
 	}
@@ -2108,7 +2014,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 			is_male = yes
@@ -2118,7 +2024,7 @@ CouncilPositionMarshal = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 			is_male = no
@@ -2127,24 +2033,14 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = yes
 		}
 		localization_key = councillor_marshal_italian_male
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = no
 		}
 		localization_key = councillor_marshal_italian_female
@@ -2655,7 +2551,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -2669,7 +2565,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				OR = {
 					has_culture = culture:bavarian
 					has_culture = culture:franconian
@@ -2682,15 +2578,10 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 			is_male = yes
 		}
@@ -2698,15 +2589,10 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-				NOT = {
-					has_primary_title = e_hre
-				}
+			OR = {
+				liege.culture = culture:bavarian
+				liege.culture = culture:franconian
+				liege.culture = culture:swabian
 			}
 			is_male = no
 		}
@@ -2715,7 +2601,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 			is_male = yes
@@ -2725,7 +2611,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
 			is_male = no
@@ -2734,24 +2620,14 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 			is_male = yes
 		}
 		localization_key = councillor_spymaster_saxon_male
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:saxon
-			}
+			liege.culture = culture:saxon
 			is_male = no
 		}
 		localization_key = councillor_spymaster_saxon_female
@@ -2884,7 +2760,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 			is_male = yes
@@ -2894,7 +2770,7 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege = {
-				has_primary_title = e_hre
+				has_primary_title = title:e_hre
 				has_culture = culture:italian
 			}
 			is_male = no
@@ -2903,24 +2779,14 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = yes
 		}
 		localization_key = councillor_spymaster_italian_male
 	}
 	text = {
 		trigger = {
-			liege = {
-				NOT = {
-					has_primary_title = e_hre
-				}
-				has_culture = culture:italian
-			}
+			liege.culture = culture:italian
 			is_male = no
 		}
 		localization_key = councillor_spymaster_italian_female
