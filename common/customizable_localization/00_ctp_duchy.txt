@@ -5363,6 +5363,82 @@ DuchyVlach = {
 		fallback = yes
 	}
 }
+DukeMaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_male_mogyer
+	}
+	text = {
+		localization_key = duke_default_male_mogyer
+		fallback = yes
+	}
+}
+DukeFemaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_mogyer
+	}
+	text = {
+		localization_key = duke_default_female_mogyer
+		fallback = yes
+	}
+}
+DukeHolderFemaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_holder_mogyer
+	}
+	text = {
+		localization_key = duke_holder_default_female_mogyer
+		fallback = yes
+	}
+}
+DuchyMogyer = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_mogyer
+	}
+	text = {
+		localization_key = duchy_default_mogyer
+		fallback = yes
+	}
+}
 DukeMaleHung = {
 	type = character
 	text = {
@@ -5433,7 +5509,7 @@ DukeFemaleHung = {
 		fallback = yes
 	}
 }
-DukeConFemaleHung = {
+DukeHolderFemaleHung = {
 	type = character
 	text = {
 		trigger = {
@@ -5447,7 +5523,7 @@ DukeConFemaleHung = {
 				}
 			}
 		}
-		localization_key = marquess_female_hung
+		localization_key = marquess_female_holder_hung
 	}
 	text = {
 		trigger = {
@@ -5461,10 +5537,10 @@ DukeConFemaleHung = {
 				}
 			}
 		}
-		localization_key = palatine_female_hung
+		localization_key = palatine_female_holder_hung
 	}
 	text = {
-		localization_key = duke_con_default_female_hung
+		localization_key = duke_holder_default_female_hung
 		fallback = yes
 	}
 }

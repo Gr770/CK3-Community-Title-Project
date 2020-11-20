@@ -485,13 +485,13 @@ CroatianIndepDuchy = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = dependent_byzantine_duchy_croatian
+		localization_key = byzantine_duchy_croatian
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_croatian
+		localization_key = duchy_default_croatian
 	}
 	text = {
 		fallback = yes
@@ -504,13 +504,13 @@ SerbianIndepDuchy = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = dependent_byzantine_duchy_serbian
+		localization_key = byzantine_duchy_serbian
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_serbian
+		localization_key = duchy_default_serbian
 	}
 	text = {
 		fallback = yes
@@ -523,7 +523,7 @@ VlachIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_vlach
+		localization_key = duchy_default_vlach
 	}
 	text = {
 		fallback = yes
@@ -536,11 +536,50 @@ BulgarianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = dependent_duchy_bulgarian
+		localization_key = duchy_bulgarian
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_bulgarian
+	}
+}
+MogyerIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_mogyer
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_mogyer
+	}
+}
+HungIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_hung
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_hung
+	}
+}
+TamilIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_tamil
 	}
 }
 EthiopianIndepDuchy = {
@@ -562,7 +601,7 @@ EthiopianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_default_ethiopian
+		localization_key = duchy_feudalclan_ethiopian
 	}
 	text = {
 		fallback = yes
@@ -575,7 +614,7 @@ NubianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_default_nubian_independent
+		localization_key = duchy_default_nubian
 	}
 	text = {
 		fallback = yes

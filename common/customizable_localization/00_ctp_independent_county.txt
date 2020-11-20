@@ -207,13 +207,13 @@ CroatianIndepCounty = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = dependent_byzantine_county_croatian
+		localization_key = byzantine_county_croatian
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_croatian
+		localization_key = county_default_croatian
 	}
 	text = {
 		fallback = yes
@@ -226,13 +226,13 @@ SerbianIndepCounty = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = dependent_byzantine_county_serbian
+		localization_key = byzantine_county_serbian
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_serbian
+		localization_key = county_default_serbian
 	}
 	text = {
 		fallback = yes
@@ -245,7 +245,7 @@ VlachIndepCounty = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_vlach
+		localization_key = county_feudalclan_vlach
 	}
 	text = {
 		fallback = yes
@@ -258,16 +258,273 @@ BulgarianIndepCounty = {
 		trigger = {
 			has_primary_title = title:e_byzantium
 		}
-		localization_key = dependent_byzantine_county_bulgarian
+		localization_key = byzantine_county_bulgarian
 	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_bulgarian
+		localization_key = county_default_bulgarian
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_county_bulgarian
+	}
+}
+HungIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_hungarian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_hung
+	}
+}
+RusIndepCountMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judge_rus
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = c_cagliari
+					has_primary_title = c_arborea
+					has_primary_title = c_gallura
+					has_primary_title = c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_male_rus
+	}
+}
+RusIndepCountFemale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judge_rus
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = c_cagliari
+					has_primary_title = c_arborea
+					has_primary_title = c_gallura
+					has_primary_title = c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_rus
+	}
+}
+RusIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_russian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judgedom_rus
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_rus
+	}
+}
+IlmenianIndepCountMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judge_old_east_slavic
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = c_cagliari
+					has_primary_title = c_arborea
+					has_primary_title = c_gallura
+					has_primary_title = c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_male_ilmenian
+	}
+}
+OldEastSlavicIndepCountMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judge_old_east_slavic
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = c_cagliari
+					has_primary_title = c_arborea
+					has_primary_title = c_gallura
+					has_primary_title = c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_male_old_east_slavic
+	}
+}
+OldEastSlavicIndepCountFemale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judge_old_east_slavic
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = c_cagliari
+					has_primary_title = c_arborea
+					has_primary_title = c_gallura
+					has_primary_title = c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_old_east_slavic
+	}
+}
+OldEastSlavicIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_culture = culture:ilmenian
+		}
+		localization_key = county_feudalclan_ilmenian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			OR = {
+				has_culture = culture:severian
+				has_culture = culture:volhynian
+			}
+		}
+		localization_key = county_feudalclan_severian_volhynian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = c_cagliari
+				has_primary_title = c_arborea
+				has_primary_title = c_gallura
+				has_primary_title = c_logudoro
+			}
+		}
+		localization_key = judgedom_old_east_slavic
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_old_east_slavic
+	}
+}
+TamilIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_tamil
 	}
 }
