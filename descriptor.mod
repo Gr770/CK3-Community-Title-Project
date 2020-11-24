@@ -1,4 +1,4 @@
-version="1.1.1"
+version="1.2"
 tags={
 	"Historical"
 	"Culture"
@@ -6,6 +6,6 @@ tags={
 }
 name="Community Title Project"
 picture="thumbnail.png"
-supported_version="1.1.3"
+supported_version="1.2.1"
 path="mod/CTP"
 remote_file_id="2216919487"
