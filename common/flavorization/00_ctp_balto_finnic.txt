@@ -29,6 +29,14 @@ baron_female_finnish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_finnish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_feudalclan_male_finnish = {
 	type = character
 	gender = male
@@ -49,6 +57,14 @@ count_feudalclan_female_finnish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+county_feudalclan_finnish = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_finnish = {
 	type = character
 	gender = male
@@ -63,6 +79,14 @@ duke_feudalclan_female_finnish = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_finnish = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { finnish }
@@ -91,6 +115,15 @@ duke_feudalclan_female_finnish_independent = {
 	only_independent = yes
 	top_liege = no
 }
+duchy_feudalclan_finnish_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 king_male_finnish = {
 	type = character
 	gender = male
@@ -105,6 +138,14 @@ king_female_finnish = {
 	type = character
 	gender = female
 	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_finnish = {
+	type = title
 	priority = 143
 	tier = kingdom
 	cultures = { finnish }
@@ -131,88 +172,6 @@ emperor_female_finnish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-#title_prince_male_finnish = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { finnish }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_finnish = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { finnish }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_male_finnish_empire = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { finnish }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_finnish_empire = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { finnish }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-barony_finnish = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { finnish }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_feudalclan_finnish = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { finnish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_finnish = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { finnish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_finnish_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { finnish }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_finnish = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { finnish }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
 empire_finnish = {
 	type = title
 	priority = 153
@@ -221,41 +180,90 @@ empire_finnish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-count_tribal_male_finnish = {
+title_prince_male_finnish = {
 	type = character
 	gender = male
-	special = holder
-	tier = county
-	priority = 113
+	special = ruler_child
+	tier = kingdom
+	priority = 130
 	cultures = { finnish }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_tribal_female_finnish = {
+title_prince_female_finnish = {
 	type = character
 	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_finnish_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_finnish_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_finnish = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_republic_finnish = {
+	type = character
 	special = holder
+	tier = barony
+	priority = 103
+	cultures = { finnish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_finnish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { finnish }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_tribal_finnish = {
+	type = character
+	special = holder
+	gender = male
 	tier = county
 	priority = 113
 	cultures = { finnish }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_tribal_male_finnish = {
+count_female_tribal_finnish = {
 	type = character
-	tier = duchy
-	gender = male
-	priority = 123
-	cultures = { finnish }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_finnish = {
-	type = character
-	tier = duchy
-	gender = male
-	priority = 123
+	special = holder
+	gender = female
+	tier = county
+	priority = 113
 	cultures = { finnish }
 	governments = { tribal_government }
 	top_liege = no
@@ -264,6 +272,26 @@ county_tribal_finnish = {
 	type = title
 	tier = county
 	priority = 113
+	cultures = { finnish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_male_tribal_finnish = {
+	type = character
+	special = holder
+	gender = male
+	tier = duchy
+	priority = 123
+	cultures = { finnish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_female_tribal_finnish = {
+	type = character
+	special = holder
+	gender = female
+	tier = duchy
+	priority = 123
 	cultures = { finnish }
 	governments = { tribal_government }
 	top_liege = no
@@ -299,6 +327,14 @@ baron_female_estonian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_estonian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_feudalclan_male_estonian = {
 	type = character
 	gender = male
@@ -319,6 +355,14 @@ count_feudalclan_female_estonian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+county_feudalclan_estonian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { estonian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_estonian = {
 	type = character
 	gender = male
@@ -333,6 +377,14 @@ duke_feudalclan_female_estonian = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { estonian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_estonian = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { estonian }
@@ -361,6 +413,15 @@ duke_feudalclan_female_estonian_independent = {
 	only_independent = yes
 	top_liege = no
 }
+duchy_feudalclan_estonian_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { estonian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 king_male_estonian = {
 	type = character
 	gender = male
@@ -375,6 +436,14 @@ king_female_estonian = {
 	type = character
 	gender = female
 	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_estonian = {
+	type = title
 	priority = 143
 	tier = kingdom
 	cultures = { estonian }
@@ -401,88 +470,6 @@ emperor_female_estonian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-#title_prince_male_estonian = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { estonian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_estonian = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { estonian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_male_estonian_empire = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { estonian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_estonian_empire = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { estonian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-barony_estonian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { estonian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_feudalclan_estonian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { estonian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_estonian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { estonian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_estonian_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { estonian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_estonian = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { estonian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
 empire_estonian = {
 	type = title
 	priority = 153
@@ -491,41 +478,134 @@ empire_estonian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-count_tribal_male_estonian = {
+title_prince_male_estonian = {
 	type = character
 	gender = male
-	special = holder
-	tier = county
-	priority = 113
+	special = ruler_child
+	tier = kingdom
+	priority = 130
 	cultures = { estonian }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_tribal_female_estonian = {
+title_prince_female_estonian = {
 	type = character
 	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_estonian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_estonian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_estonian = {
+	type = character
 	special = holder
+	tier = barony
+	priority = 103
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_estonian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_estonian = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_estonian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_estonian = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_estonian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_estonian = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_estonian = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { estonian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_tribal_estonian = {
+	type = character
+	special = holder
+	gender = male
 	tier = county
 	priority = 113
 	cultures = { estonian }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_tribal_male_estonian = {
+count_female_tribal_estonian = {
 	type = character
-	tier = duchy
-	gender = male
-	priority = 123
-	cultures = { estonian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_estonian = {
-	type = character
-	tier = duchy
-	gender = male
-	priority = 123
+	special = holder
+	gender = female
+	tier = county
+	priority = 113
 	cultures = { estonian }
 	governments = { tribal_government }
 	top_liege = no
@@ -534,6 +614,26 @@ county_tribal_estonian = {
 	type = title
 	tier = county
 	priority = 113
+	cultures = { estonian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_male_tribal_estonian = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 123
+	cultures = { estonian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_female_tribal_estonian = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 123
 	cultures = { estonian }
 	governments = { tribal_government }
 	top_liege = no
@@ -569,6 +669,14 @@ baron_female_karelian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_karelian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_feudalclan_male_karelian = {
 	type = character
 	gender = male
@@ -589,6 +697,14 @@ count_feudalclan_female_karelian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+county_feudalclan_karelian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_karelian = {
 	type = character
 	gender = male
@@ -603,6 +719,14 @@ duke_feudalclan_female_karelian = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_karelian = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { karelian }
@@ -631,6 +755,15 @@ duke_feudalclan_female_karelian_independent = {
 	only_independent = yes
 	top_liege = no
 }
+duchy_feudalclan_karelian_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 king_male_karelian = {
 	type = character
 	gender = male
@@ -645,6 +778,14 @@ king_female_karelian = {
 	type = character
 	gender = female
 	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_karelian = {
+	type = title
 	priority = 143
 	tier = kingdom
 	cultures = { karelian }
@@ -671,88 +812,6 @@ emperor_female_karelian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-#title_prince_male_karelian = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { karelian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_karelian = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { karelian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_male_karelian_empire = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { karelian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_karelian_empire = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { karelian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-barony_karelian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { karelian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_feudalclan_karelian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { karelian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_karelian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { karelian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_karelian_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { karelian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_karelian = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { karelian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
 empire_karelian = {
 	type = title
 	priority = 153
@@ -761,41 +820,79 @@ empire_karelian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-count_tribal_male_karelian = {
+title_prince_male_karelian = {
 	type = character
 	gender = male
-	special = holder
-	tier = county
-	priority = 113
+	special = ruler_child
+	tier = kingdom
+	priority = 130
 	cultures = { karelian }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_tribal_female_karelian = {
+title_prince_female_karelian = {
 	type = character
 	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_karelian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_karelian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_karelian = {
+	type = character
 	special = holder
+	tier = barony
+	priority = 103
+	cultures = { karelian }
+	governments = { tribal_government }
+	top_liege = no
+}
+barony_republic_karelian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { karelian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_male_tribal_karelian = {
+	type = character
+	special = holder
+	gender = male
 	tier = county
 	priority = 113
 	cultures = { karelian }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_tribal_male_karelian = {
+count_female_tribal_karelian = {
 	type = character
-	tier = duchy
-	gender = male
-	priority = 123
-	cultures = { karelian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_karelian = {
-	type = character
-	tier = duchy
-	gender = male
-	priority = 123
+	special = holder
+	gender = female
+	tier = county
+	priority = 113
 	cultures = { karelian }
 	governments = { tribal_government }
 	top_liege = no
@@ -804,6 +901,26 @@ county_tribal_karelian = {
 	type = title
 	tier = county
 	priority = 113
+	cultures = { karelian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_male_tribal_karelian = {
+	type = character
+	special = holder
+	gender = male
+	tier = duchy
+	priority = 123
+	cultures = { karelian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_female_tribal_karelian = {
+	type = character
+	special = holder
+	gender = female
+	tier = duchy
+	priority = 123
 	cultures = { karelian }
 	governments = { tribal_government }
 	top_liege = no
@@ -839,6 +956,14 @@ baron_female_vepsian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_vepsian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { vepsian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_feudalclan_male_vepsian = {
 	type = character
 	gender = male
@@ -859,6 +984,14 @@ count_feudalclan_female_vepsian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+county_feudalclan_vepsian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_feudalclan_male_vepsian = {
 	type = character
 	gender = male
@@ -873,6 +1006,14 @@ duke_feudalclan_female_vepsian = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_vepsian = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { vepsian }
@@ -901,6 +1042,15 @@ duke_feudalclan_female_vepsian_independent = {
 	only_independent = yes
 	top_liege = no
 }
+duchy_feudalclan_vepsian_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 king_male_vepsian = {
 	type = character
 	gender = male
@@ -915,6 +1065,14 @@ king_female_vepsian = {
 	type = character
 	gender = female
 	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { vepsian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_vepsian = {
+	type = title
 	priority = 143
 	tier = kingdom
 	cultures = { vepsian }
@@ -941,88 +1099,6 @@ emperor_female_vepsian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-#title_prince_male_vepsian = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { vepsian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_vepsian = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = kingdom
-#	priority = 131
-#	cultures = { vepsian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_male_vepsian_empire = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { vepsian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-#title_prince_female_vepsian_empire = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	tier = empire
-#	priority = 132
-#	cultures = { vepsian }
-#	governments = { feudal_government clan_government }
-#	top_liege = no
-#}
-barony_vepsian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { vepsian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_feudalclan_vepsian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { vepsian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_vepsian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { vepsian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-}
-duchy_feudalclan_vepsian_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { vepsian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-}
-kingdom_vepsian = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { vepsian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
 empire_vepsian = {
 	type = title
 	priority = 153
@@ -1031,41 +1107,79 @@ empire_vepsian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-count_tribal_male_vepsian = {
+title_prince_male_vepsian = {
 	type = character
 	gender = male
-	special = holder
-	tier = county
-	priority = 113
+	special = ruler_child
+	tier = kingdom
+	priority = 130
 	cultures = { vepsian }
-	governments = { tribal_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_tribal_female_vepsian = {
+title_prince_female_vepsian = {
 	type = character
 	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { vepsian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_vepsian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { vepsian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_vepsian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { vepsian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_vepsian = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { vepsian }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_republic_vepsian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { vepsian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_tribal_vepsian = {
+	type = character
 	special = holder
 	tier = county
+	gender = male
 	priority = 113
 	cultures = { vepsian }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_tribal_male_vepsian = {
+count_female_tribal_vepsian = {
 	type = character
-	tier = duchy
-	gender = male
-	priority = 123
-	cultures = { vepsian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_vepsian = {
-	type = character
-	tier = duchy
-	gender = male
-	priority = 123
+	special = holder
+	tier = county
+	gender = female
+	priority = 113
 	cultures = { vepsian }
 	governments = { tribal_government }
 	top_liege = no
@@ -1074,6 +1188,26 @@ county_tribal_vepsian = {
 	type = title
 	tier = county
 	priority = 113
+	cultures = { vepsian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_male_tribal_vepsian = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 123
+	cultures = { vepsian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_female_tribal_vepsian = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 123
 	cultures = { vepsian }
 	governments = { tribal_government }
 	top_liege = no

@@ -1,5 +1,105 @@
-﻿BaronMaleSardinian = {
+﻿BaronMaleItalian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_italian
+	}
+	text = {
+		localization_key = baron_default_male_italian
+		fallback = yes
+	}
+}
+
+BaronFemaleItalian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_italian
+	}
+	text = {
+		localization_key = baron_default_female_italian
+		fallback = yes
+	}
+}
+BaronyItalian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_italian
+	}
+	text = {
+		localization_key = barony_default_italian
+		fallback = yes
+	}
+}
+BaronMaleCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_italian
+	}
+	text = {
+		localization_key = baron_default_male_cisalpine
+		fallback = yes
+	}
+}
+
+BaronFemaleCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_italian
+	}
+	text = {
+		localization_key = baron_default_female_cisalpine
+		fallback = yes
+	}
+}
+BaronyCisalpine = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_italian
+	}
+	text = {
+		localization_key = barony_default_cisalpine
+		fallback = yes
+	}
+}
+BaronMaleSardinian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_sardinian
+	}
 	text = {
 		trigger = {
 			holds_landed_title = yes
@@ -30,6 +130,14 @@ BaronFemaleSardinian = {
 	type = character
 	text = {
 		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_sardinian
+	}
+	text = {
+		trigger = {
 			holds_landed_title = yes
 			root.top_liege = {
 				highest_held_title_tier = tier_county
@@ -55,6 +163,14 @@ BaronFemaleSardinian = {
 }
 BaronySardinian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_sardinian
+	}
 	text = {
 		trigger = {
 			root.top_liege = {
@@ -114,6 +230,190 @@ BaronySardinianRepublic = {
 	}
 	text = {
 		localization_key = barony_default_republic_sardinian
+		fallback = yes
+	}
+}
+BaronMaleSicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_sardinian
+	}
+	text = {
+		localization_key = baron_male_sicilian_default
+		fallback = yes
+	}
+}
+
+BaronFemaleSicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_sardinian
+	}
+	text = {
+		localization_key = baron_female_sicilian_default
+		fallback = yes
+	}
+}
+BaronySicilian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_sardinian
+	}
+	text = {
+		localization_key = barony_feudal_sicilian_default
+		fallback = yes
+	}
+}
+BaronMaleCroatian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_croatian
+	}
+	text = {
+		localization_key = baron_default_male_croatian
+		fallback = yes
+	}
+}
+
+BaronFemaleCroatian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_croatian
+	}
+	text = {
+		localization_key = baron_default_female_croatian
+		fallback = yes
+	}
+}
+BaronyCroatian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_croatian
+	}
+	text = {
+		localization_key = barony_default_croatian
+		fallback = yes
+	}
+}
+BaronMaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_serbian
+	}
+	text = {
+		localization_key = baron_default_male_serbian
+		fallback = yes
+	}
+}
+
+BaronFemaleSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_serbian
+	}
+	text = {
+		localization_key = baron_default_female_serbian
+		fallback = yes
+	}
+}
+BaronySerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_serbian
+	}
+	text = {
+		localization_key = barony_default_serbian
+		fallback = yes
+	}
+}
+BaronMaleBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_male_bulgarian
+	}
+	text = {
+		localization_key = baron_default_male_bulgarian
+		fallback = yes
+	}
+}
+
+BaronFemaleBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_baron_female_bulgarian
+	}
+	text = {
+		localization_key = baron_default_female_bulgarian
+		fallback = yes
+	}
+}
+BaronyBulgarian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_barony_bulgarian
+	}
+	text = {
+		localization_key = barony_default_bulgarian
 		fallback = yes
 	}
 }
