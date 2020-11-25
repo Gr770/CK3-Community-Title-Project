@@ -184,6 +184,12 @@ SardinianIndepCounty = {
 	type = character
 	text = {
 		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = byzantine_county_sardinian
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_duchy
 			has_government = feudal_government
 		}
