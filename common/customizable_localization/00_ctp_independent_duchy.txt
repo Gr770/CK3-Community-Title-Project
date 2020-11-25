@@ -411,8 +411,7 @@ ItalianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			highest_held_title_tier >= tier_kingdom
-			has_primary_title = e_byzantium
+			has_primary_title = title:e_byzantium
 		}
 		localization_key = byzantine_duchy_italian
 	}
@@ -444,6 +443,12 @@ CisalpineIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = byzantine_duchy_italian
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_cisalpine
@@ -457,6 +462,12 @@ SardinianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = byzantine_duchy_sardinian
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_sardinian
@@ -468,6 +479,12 @@ SardinianIndepDuchy = {
 }
 SicilianIndepDuchy = {
 	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:e_byzantium
+		}
+		localization_key = byzantine_duchy_sardinian
+	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
