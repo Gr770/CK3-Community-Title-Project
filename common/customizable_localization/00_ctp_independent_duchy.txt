@@ -599,6 +599,32 @@ TamilIndepDuchy = {
 		localization_key = independent_duchy_tamil
 	}
 }
+TeluguIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_telugu
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_telugu
+	}
+}
+KannadaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_kannada
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kannada
+	}
+}
 EthiopianIndepDuchy = {
 	type = character
 	text = {
