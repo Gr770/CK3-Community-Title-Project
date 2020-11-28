@@ -363,12 +363,12 @@ baron_female_anglo_saxon = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_anglo_saxon = {
+barony_feudalclan_anglo_saxon = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { anglo_saxon }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_anglo_saxon = {
@@ -672,6 +672,14 @@ kingdom_republic_anglo_saxon = {
 	priority = 143
 	cultures = { anglo_saxon }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_anglo_saxon = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { anglo_saxon }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_tribal_male_anglo_saxon = {

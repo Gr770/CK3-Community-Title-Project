@@ -5,11 +5,11 @@
 ################################################
 ## North_Germanic_culture_group ##
 ###############################################
-barony_north_germanic_group = {
+barony_feudalclan_north_germanic_group = {
 	type = title
 	tier = barony
 	priority = 102
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
@@ -113,6 +113,14 @@ barony_republic_north_germanic_group = {
 	tier = barony
 	priority = 102
 	governments = { republic_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
+barony_tribal_north_germanic_group = {
+	type = title
+	tier = barony
+	priority = 102
+	governments = { tribal_government }
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
