@@ -1053,3 +1053,452 @@ duchy_tribal_polish = {
 	governments = { tribal_government }
 	top_liege = no
 }
+## Polabian ##
+baron_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_feudalclan_polabian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_polabian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_polabian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_male_polabian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_polabian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_polabian_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_polabian = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_polabian = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_polabian_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_polabian_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_male_polabian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_polabian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_polabian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_polabian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+duke_mother_polabian_independent = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	priority = 121
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+queen_mother_polabian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_polabian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { polabian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_male_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_republic_polabian = {
+	type = character
+	special = holder
+	gender = female
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_polabian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+count_female_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_polabian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_male_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_female_republic_polabian = {
+	type = character
+	special = holder
+	gender = female
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_polabian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+}
+king_male_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 143
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_republic_polabian = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 143
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_republic_polabian = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { polabian }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_polabian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_polabian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_polabian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_polabian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_polabian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polabian }
+	governments = { tribal_government }
+	top_liege = no
+}
