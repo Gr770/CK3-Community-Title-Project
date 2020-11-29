@@ -2,23 +2,11 @@
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					father = {
-						is_independent_ruler = yes
-						root.faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
 				}
-				AND = {
-					mother = {
-						is_independent_ruler = yes
-						root.faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
-				} 
 			}
 		}
 		localization_key = sultan_prince_male_pom
@@ -32,23 +20,11 @@ PrincessPom = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					father = {
-						is_independent_ruler = yes
-						faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
 				}
-				AND = {
-					mother = {
-						is_independent_ruler = yes
-						faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
-				} 
 			}
 		}
 		localization_key = sultan_prince_female_pom
