@@ -1502,3 +1502,317 @@ duchy_tribal_polabian = {
 	governments = { tribal_government }
 	top_liege = no
 }
+## Slovien ##
+baron_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_feudalclan_slovien = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_slovien = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_slovien = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_slovien_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_slovien_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_slovien_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { slovien }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_slovien = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_slovien = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_slovien = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_slovien = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_slovien_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_slovien_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_slovien = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_slovien = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { slovien }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_slovien = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_slovien = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_slovien = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_slovien = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_slovien = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_slovien = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_slovien = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { slovien }
+	governments = { tribal_government }
+	top_liege = no
+}
