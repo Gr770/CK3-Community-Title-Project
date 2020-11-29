@@ -672,3 +672,384 @@ duchy_tribal_czech = {
 	governments = { tribal_government }
 	top_liege = no
 }
+## Polish ##
+baron_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_feudalclan_polish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_polish = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_polish = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+king_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_holder_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_polish = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_holder_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 154
+	tier = empire
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_polish = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_polish = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_polish = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_polish_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_polish_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_polish = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_polish = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { polish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_polish = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_polish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_republic_polish = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+count_female_republic_polish = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_polish = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_polish = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_polish = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+}
+king_male_republic_polish = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 143
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_republic_polish = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 143
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_republic_polish = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_polish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_polish = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_polish = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_polish = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_polish = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { polish }
+	governments = { tribal_government }
+	top_liege = no
+}
