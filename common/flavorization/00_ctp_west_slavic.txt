@@ -5,7 +5,7 @@
 ###############################################
 ## West_slavic_culture_group ##
 ###############################################
-## Pommeranian_culture ##
+## Pommeranian ##
 ##
 
 baron_male_pommeranian = {
@@ -348,4 +348,327 @@ duchy_tribal_pommeranian = {
 	governments = { tribal_government }
 	top_liege = no
 }
-ki
+## Czech ##
+baron_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_feudalclan_czech = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_czech = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_czech = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_czech_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_czech_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_czech_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { czech }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_czech = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_czech = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_czech = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_czech = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_czech_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_czech_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_czech = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_czech = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { czech }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_czech = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_czech = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_czech = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { czech }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_tribal_czech = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_czech = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_czech = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_czech = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_czech = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { czech }
+	governments = { tribal_government }
+	top_liege = no
+}
