@@ -893,9 +893,21 @@ empress_mother_polish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_polish = {
+baron_male_republic_polish = {
 	type = character
 	special = holder
+	gender = male
+	tier = barony
+	priority = 103
+	cultures = { polish }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_republic_polish = {
+	type = character
+	special = holder
+	gender = female
 	tier = barony
 	priority = 103
 	cultures = { polish }
