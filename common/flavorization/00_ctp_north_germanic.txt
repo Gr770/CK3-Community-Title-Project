@@ -265,6 +265,26 @@ title_prince_male_norse_norwegian_empire = {
 	cultures = { norse norwegian }
 	top_liege = no
 }
+title_prince_female_norse_norwegian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+title_prince_female_norse_norwegian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { norse norwegian }
+	top_liege = no
+}
 baron_republic_norse_norwegian = {
 	type = character
 	special = holder
@@ -274,6 +294,24 @@ baron_republic_norse_norwegian = {
 	cultures = { norse norwegian }
 	top_liege = no
 	only_holder = yes
+}
+count_republic_norse_norwegian = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_norse_norwegian  = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { norse norwegian }
+	top_liege = no
 }
 ###############################################
 ## Swedish and Danish
@@ -405,6 +443,26 @@ title_prince_male_swedish_danish_empire = {
 	cultures = { swedish danish }
 	top_liege = no
 }
+title_prince_female_swedish_danish = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { swedish danish }
+	top_liege = no
+}
+title_prince_female_swedish_danish_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { swedish danish }
+	top_liege = no
+}
 baron_republic_swedish_danish = {
 	type = character
 	special = holder
@@ -414,6 +472,24 @@ baron_republic_swedish_danish = {
 	cultures = { swedish danish }
 	top_liege = no
 	only_holder = yes
+}
+count_republic_swedish_danish = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { swedish danish }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_swedish_danish  = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	cultures = { swedish danish }
+	top_liege = no
 }
 ###############################################
 ## End of North_Germanic_culture_group ##

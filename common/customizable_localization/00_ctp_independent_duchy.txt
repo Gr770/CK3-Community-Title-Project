@@ -263,6 +263,13 @@ FinnishIndepDuchy = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
+			has_government = tribal_government
+		}
+		localization_key = duchy_tribal_finnish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_finnish
 	}

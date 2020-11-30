@@ -1302,8 +1302,12 @@
    
    title_prince_male_norse_norwegian:0 "Ǫðlingr"
    title_prince_male_norse_norwegian_empire:0 "$title_prince_male_norse_norwegian$"
-
+   title_prince_female_norse_norwegian:0 "Konungsdóttir"
+   title_prince_female_norse_norwegian_empire:0 "Kęisaradóttir"
+   
    baron_republic_norse_norwegian:0 "Hǫlðr"
+   count_republic_norse_norwegian:0 "Kaupstaðarstjóri"
+   county_republic_norse_norwegian:0 "Kaupstaðr"
 ########################################################
   #Swedish and Danish
 ########################################################
@@ -1329,20 +1333,29 @@
  
    title_prince_male_swedish_danish:0 "Øðlingr"
    title_prince_male_swedish_danish_empire:0 "$title_prince_male_swedish_danish$"
-
+   title_prince_female_swedish_danish:0 "Kunungsdóttir"
+   title_prince_female_swedish_danish_empire:0 "Késaradóttir"
+   
    baron_republic_swedish_danish:0 "Hølðr"
+   count_republic_swedish_danish:0 "Kǿpstaðarstjúri"
+   county_republic_swedish_danish:0 "Kǿpstaðr"
 ########################################################
  #Balto-Finnic Culture Group
 ########################################################
   #Finnish Culture
 ########################################################
-   baron_male_finnish:0 "Vapaaherra"
-   baron_female_finnish:0 "Vapaaherratar"
-   barony_feudalclan_finnish:0 "Vapaaherrakunta"
+   baron_male_finnish:0 "Isäntä"
+   baron_female_finnish:0 "Emäntä"
+   barony_feudalclan_finnish:0 "Linna"
    
-   count_feudalclan_male_finnish:0 "Kreivi"
-   count_feudalclan_female_finnish:0 "Kreivitär"
-   county_feudalclan_finnish:0 "Kreivikunta"
+   count_feudalclan_male_finnish:0 "Maapäällikkö"
+   count_feudalclan_female_finnish:0 "Maapäällikkö"
+   county_feudalclan_finnish:0 "Maakunta"
+   
+   count_feudalclan_male_finnish_independent:0 "Ruhtinas"
+   count_feudalclan_female_finnish_independent:0 "Ruhtinatar"
+   county_feudalclan_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepCounty')]"
+   independent_county_finnish:0 "Ruhtinaskunta"
  
    duke_feudalclan_male_finnish:0 "[CHARACTER.Custom('DukeMaleFinnish')]"
    duke_feudalclan_female_finnish:0 "[CHARACTER.Custom('DukeFemaleFinnish')]"
@@ -1353,14 +1366,14 @@
    palatine_male_finnish:0 "Palatsikreivi"
    palatine_female_finnish:0 "Palatsikreivitär"
    palatinate_finnish:0 "Palatsikreivikunta"
-   duke_default_male_finnish:0 "Herttua"
-   duke_default_female_finnish:0 "Herttuatar"
-   duchy_default_finnish:0 "Herttuakunta"
+   duke_default_male_finnish:0 "Jaarli"
+   duke_default_female_finnish:0 "Jaarlitar"
+   duchy_default_finnish:0 "Jaarlikunta"
  
-   duke_feudalclan_male_finnish_independent:0 "Ruhtinas"
-   duke_feudalclan_female_finnish_independent:0 "Ruhtinatar"
+   duke_male_finnish_independent:0 "Kuningas"
+   duke_female_finnish_independent:0 "Kuningatar"
    duchy_finnish_independent:0 "[CHARACTER.Custom('FinnishIndepDuchy')]"
-   independent_duchy_finnish:0 "Ruhtinaskunta"
+   independent_duchy_finnish:0 "Kuningaskunta"
  
    king_male_finnish:0 "[CHARACTER.Custom('KingMaleFinnish')]"
    king_female_finnish:0 "[CHARACTER.Custom('KingFemaleFinnish')]"
@@ -1375,14 +1388,16 @@
    emperor_female_finnish:0 "Keisarinna"
    empire_finnish:0 "Keisarikunta"
    
-   title_prince_male_finnish:0 "Prinssi"
-   title_prince_female_finnish:0 "Prinsessa"
-   title_prince_male_finnish_empire:0 "$title_prince_male_finnish$"
-   title_prince_female_finnish_empire:0 "$title_prince_female_finnish$"
+   title_prince_male_finnish:0 "Kuninkaanpoika"
+   title_prince_female_finnish:0 "Kuninkaantytär"
+   title_prince_male_finnish_empire:0 "Keisarinpoika"
+   title_prince_female_finnish_empire:0 "Keisarintytär"
    queen_mother_finnish:0 "Kuningataräiti"
  
-   baron_republic_finnish:0 "Pormestari"
-   barony_republic_finnish:0 "Kaupunki"
+   baron_republic_finnish:0 "Kylänjohtaja"
+   barony_republic_finnish:0 "Kylä"
+   county_republic_finnish:0 "Kaupunginjohtaja"
+   barony_tribal_finnish:0 "Kaupunki"
    
    barony_tribal_finnish:0 "Heimo"
    count_male_tribal_finnish:0 "Heimopäällikkö"
