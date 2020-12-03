@@ -1,0 +1,34 @@
+﻿CTPFullName = {
+	type = character
+	text = {
+		trigger = {
+			is_lowborn = yes
+		}
+		localization_key = Full_Name_Lowborn
+	}
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+			is_landed = no
+			NOR = {
+				root.father = {
+					is_landed = yes
+				}
+				root.mother = {
+					is_landed = yes
+				}
+			}
+		}
+		localization_key = Full_Name_Welsh_Unlanded
+	}
+	text = {
+		trigger = {
+			has_culture = culture:welsh
+		}
+		localization_key = Full_Name_Welsh
+	}
+	text = {
+		fallback = yes
+		localization_key = Full_Name_Default
+	}
+}
