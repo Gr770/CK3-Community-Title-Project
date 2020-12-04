@@ -2,7 +2,69 @@
 	type = character
 	text = {
 		trigger = {
+			is_landed = no
+			has_nickname = yes
+			exists = primary_spouse
+			root.primary_spouse = {
+				is_landed = yes
+				has_culture = culture:hungarian
+			}
+		}
+		localization_key = Full_Name_Hungarian_Spouse_Nick
+	}
+	text = {
+		trigger = {
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				is_landed = yes
+				has_culture = culture:hungarian
+			}
+		}
+		localization_key = Full_Name_Hungarian_Spouse
+	}
+	text = {
+		trigger = {
+			is_alive = no
+		}
+		localization_key = Full_Name_Default
+	}
+	text = {
+		trigger = {
 			is_lowborn = yes
+			has_culture_group = culture_group:magyar_group
+			has_nickname = yes
+			NOT = {
+				exists = primary_spouse
+				root.primary_spouse = {
+					is_landed = yes
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Magyar_Group_Nick
+	}
+	text = {
+		trigger = {
+			is_lowborn = yes
+			has_culture_group = culture_group:magyar_group
+			NOT = {
+				exists = primary_spouse
+				root.primary_spouse = {
+					is_landed = yes
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Magyar_Group
+	}
+	text = {
+		trigger = {
+			is_lowborn = yes
+			NOT = {
+				exists = primary_spouse
+				root.primary_spouse = {
+					is_landed = yes
+				}
+			}
 		}
 		localization_key = Full_Name_Lowborn
 	}
@@ -17,6 +79,12 @@
 				root.mother = {
 					is_landed = yes
 				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_landed = yes
+					}
+				}
 			}
 		}
 		localization_key = Full_Name_Welsh_Unlanded
@@ -26,6 +94,165 @@
 			has_culture = culture:welsh
 		}
 		localization_key = Full_Name_Welsh
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			is_male = yes
+			has_nickname = yes
+			root.father = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Nick_Male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			is_male = yes
+			highest_held_title_tier < tier_kingdom
+			root.father = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			has_nickname = yes
+			root.father = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Nick_Female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			root.father = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			is_male = yes
+			has_nickname = yes
+			root.mother = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Nick_Male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			is_male = yes
+			highest_held_title_tier < tier_kingdom
+			root.mother = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Male
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			has_nickname = yes
+			root.mother = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Nick_Female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			highest_held_title_tier < tier_kingdom
+			root.mother = {
+				highest_held_title_tier >= tier_kingdom
+			}
+		}
+		localization_key = Full_Name_Hungarian_Prince_Female
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			is_landed = no
+			has_nickname = yes
+		}
+		localization_key = Full_Name_Hungarian_Unlanded_Nick
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hungarian
+			is_landed = no
+		}
+		localization_key = Full_Name_Hungarian_Unlanded
+	}
+	text = {
+		trigger = {
+			has_culture = culture:mogyer
+			is_landed = no
+			has_nickname = yes
+			NOR = {
+				root.father = {
+					is_landed = yes
+				}
+				root.mother = {
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Magyar_Group_Nick
+	}
+	text = {
+		trigger = {
+			has_culture = culture:mogyer 
+			is_landed = no
+			NOR = {
+				root.father = {
+					is_landed = yes
+				}
+				root.mother = {
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Magyar_Group
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:magyar_group
+			has_nickname = yes
+		}
+		localization_key = Full_Name_Magyar_Group_Nick
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:magyar_group
+		}
+		localization_key = Full_Name_Magyar_Group
 	}
 	text = {
 		fallback = yes
