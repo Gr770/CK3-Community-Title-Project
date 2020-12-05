@@ -1007,9 +1007,12 @@
    baron_female_catalan:0 "Vescomtessa"
    barony_feudalclan_catalan:0 "Vescomtat"
    
-   count_feudalclan_male_catalan:0 "Comte"
-   count_feudalclan_female_catalan:0 "Comtessa"
-   county_feudalclan_catalan:0 "Comtat"
+   count_feudalclan_male_catalan:0 "[CHARACTER.Custom('CountMaleCatalan')]"
+   count_feudalclan_female_catalan:0 "[CHARACTER.Custom('CountFemaleCatalan')]"
+   county_feudalclan_catalan:0 "[CHARACTER.Custom('CountyCatalan')]"
+   count_default_male_catalan:0 "Comte"
+   count_default_female_catalan:0 "Comtessa"
+   county_default_catalan:0 "Comtat"
  
    duke_feudalclan_male_catalan:0 "[CHARACTER.Custom('DukeMaleCatalan')]"
    duke_feudalclan_female_catalan:0 "[CHARACTER.Custom('DukeFemaleCatalan')]"
@@ -1028,6 +1031,11 @@
    duke_feudalclan_female_catalan_independent:0 "Princesa" 
    duchy_feudalclan_catalan_independent:0 "[CHARACTER.Custom('CatalanIndepDuchy')]"
    independent_duchy_catalan:0 "Principat"
+   
+   kurfurst_male_catalan:0 "Príncep Elector"
+   kurfurst_female_catalan:0 "Princesa Electora"
+   kurfurstdom_catalan_male:0 "Príncep Electorat"
+   kurfurstdom_catalan_female:0 "Princesa Electorat"
  
    king_male_catalan:0 "[CHARACTER.Custom('KingMaleCatalan')]"
    king_female_catalan:0 "[CHARACTER.Custom('KingFemaleCatalan')]"
@@ -1047,7 +1055,9 @@
    title_prince_female_catalan:0 "Infanta"
    title_prince_male_catalan_empire:0 "$title_prince_male_catalan$"
    title_prince_female_catalan_empire:0 "$title_prince_female_catalan$"
- 
+   queen_mother_catalan:0 "[CHARACTER.Custom('QueenMCatalan')]"
+   queen_mother_catalan_empire:0 "$emperor_female_catalan$"
+   
    baron_republic_catalan:0 "Cònsol"
    barony_republic_catalan:0 "Ciutat"
    count_republic_male_catalan:0 "Paer"
