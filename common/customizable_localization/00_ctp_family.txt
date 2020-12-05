@@ -1,0 +1,117 @@
+﻿PrincePom = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_pom
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_pom
+	}
+}
+PrincessPom = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_pom
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_pom
+	}
+}
+QueenMPom = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_pom
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_pom
+	}
+}
+QueenMCzech = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_czech
+	}
+	text = {
+		fallback = yes
+		localization_key =  kingdom_default_czech
+	}
+}
+PrincePolish = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_polish
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_polish
+	}
+}
+PrincessPolish = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_polish
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_polish
+	}
+}
+QueenMPolish = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_polish
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_polish
+	}
+}
