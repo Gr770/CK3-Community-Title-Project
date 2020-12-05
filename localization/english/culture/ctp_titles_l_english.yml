@@ -698,9 +698,12 @@
    baron_female_french:0 "Viscontesse"
    barony_french:0 "Fieus"
  
-   count_male_french:0 "Cuens"
-   count_female_french:0 "Cuenesse"
-   county_french:0 "Contez"
+   count_male_french:0 "[CHARACTER.Custom('CountMaleFrench')]"
+   count_female_french:0 "[CHARACTER.Custom('CountFemaleFrench')]"
+   county_french:0 "[CHARACTER.Custom('CountMaleFrench')]"
+   count_default_male_french:0 "Cuens"
+   count_default_female_french:0 "Cuenesse"
+   county_default_french:0 "Contez"
  
    duke_male_french:0 "[CHARACTER.Custom('DukeMaleFrench')]"
    duke_female_french:0 "[CHARACTER.Custom('DukeFemaleFrench')]"
@@ -719,6 +722,11 @@
    duke_female_french_independent:0 "Princesse"
    duchy_french_independent:0 "[CHARACTER.Custom('FrenchIndepDuchy')]"
    independent_duchy_french:0 "Principaliz"
+   
+   kurfurst_male_french:0 "Princes Electere"
+   kurfurst_female_french:0 "Princesse Electeriz"
+   kurfurstdom_french_male:0 "Princes Electeres"
+   kurfurstdom_french_female:0 "Princesse Electeres"
  
    king_male_french:0 "Rois"
    king_female_french:0 "Reine"
