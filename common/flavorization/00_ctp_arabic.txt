@@ -6,7 +6,7 @@
 ## Arabic_culture_group ##
 ###############################################
 
-baron_feudalclan_male_arabic_group = {
+baron_male_arabic_group = {
 	type = character
 	gender = male
 	special = holder 
@@ -16,7 +16,7 @@ baron_feudalclan_male_arabic_group = {
 	culture_groups = { arabic_group }
 	top_liege = no
 }
-baron_feudalclan_female_arabic_group = {
+baron_female_arabic_group = {
 	type = character
 	gender = female
 	special = holder 
@@ -26,7 +26,7 @@ baron_feudalclan_female_arabic_group = {
 	culture_groups = { arabic_group }
 	top_liege = no
 }
-baron_feudalclan_female_arabic_group_holder = {
+baron_female_arabic_group_holder = {
 	type = character
 	gender = female
 	special = holder 
@@ -37,7 +37,7 @@ baron_feudalclan_female_arabic_group_holder = {
 	only_holder = yes
 	top_liege = no
 }
-baron_feudalclan_male_andalusian_christian = {
+baron_male_andalusian_christian = {
 	type = character
 	gender = male
 	special = holder 
@@ -48,7 +48,7 @@ baron_feudalclan_male_andalusian_christian = {
 	religions = { christianity_religion }
 	top_liege = no
 }
-baron_feudalclan_female_andalusian_christian = {
+baron_female_andalusian_christian = {
 	type = character
 	gender = female
 	special = holder 
@@ -59,7 +59,7 @@ baron_feudalclan_female_andalusian_christian = {
 	religions = { christianity_religion }
 	top_liege = no
 }
-baron_feudalclan_female_andalusian_christian_holder = {
+baron_female_andalusian_christian_holder = {
 	type = character
 	gender = female
 	special = holder 
@@ -75,7 +75,7 @@ barony_feudalclan_arabic_group = {
 	type = title
 	tier = barony
 	priority = 102
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	culture_groups = { arabic_group }
 	top_liege = no
 }
@@ -561,6 +561,14 @@ kingdom_republic_arabic_group = {
 	tier = kingdom
 	priority = 142
 	governments = { republic_government }
+	culture_groups = { arabic_group }
+	top_liege = no
+}
+barony_tribal_arabic_group = {
+	type = title
+	tier = barony
+	priority = 102
+	governments = { tribal_government }
 	culture_groups = { arabic_group }
 	top_liege = no
 }

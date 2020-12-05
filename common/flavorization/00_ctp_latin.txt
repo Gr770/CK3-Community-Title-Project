@@ -27,12 +27,12 @@ baron_female_italian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_italian = {
+barony_feudalclan_italian = {
 	type = title
 	tier = county
 	priority = 103
 	cultures = { italian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_italian = {
@@ -380,6 +380,14 @@ kingdom_republic_italian = {
 	governments = { republic_government }
 	top_liege = no
 }
+barony_tribal_italian = {
+	type = title
+	tier = county
+	priority = 103
+	cultures = { italian }
+	governments = { tribal_government }
+	top_liege = no
+}
 count_tribal_male_italian = {
 	type = character
 	gender = male
@@ -458,12 +466,12 @@ baron_female_roman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_roman = {
+barony_feudalclan_roman = {
 	type = title
 	priority = 103
 	tier = barony
 	cultures = { roman }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_roman = {
@@ -804,6 +812,14 @@ kingdom_republic_roman = {
 	cultures = { roman }
 	governments = { republic_government }
 	only_holder = yes
+	top_liege = no
+}
+barony_tribal_roman = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { roman }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_tribal_male_roman = {

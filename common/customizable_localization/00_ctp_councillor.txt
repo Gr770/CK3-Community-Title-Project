@@ -2482,17 +2482,21 @@ CouncilPositionSpymaster = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
-			is_male = yes
+			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
 		}
-		localization_key = councillor_spymaster_north_germanic_group_male
+		localization_key = councillor_spymaster_norse_norwegian
 	}
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
-			is_male = no
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:danish
+			}
 		}
-		localization_key = councillor_spymaster_north_germanic_group_female
+		localization_key = councillor_spymaster_swedish_danish
 	}
 ##################################################
 ### Balto-Finnic
