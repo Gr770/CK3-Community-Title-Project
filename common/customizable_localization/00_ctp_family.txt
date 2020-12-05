@@ -79,6 +79,21 @@ QueenMAngloSaxon = {
 		localization_key =  king_default_female_anglo_saxon
 	}
 }
+QueenMScottish = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_scottish
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_scottish
+	}
+}
 PrincePom = {
 	type = character
 	text = {

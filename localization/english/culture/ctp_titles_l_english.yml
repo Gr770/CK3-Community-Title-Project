@@ -312,13 +312,19 @@
    baron_female_scottish:0 "Lady"
    barony_scottish:0 "Þeindom"
  
-   count_male_scottish:0 "Erle"
-   count_female_scottish:0 "Cuntesse"
-   county_scottish:0 "Erldom"
+   count_male_scottish:0 "[CHARACTER.Custom('CountMaleScottish')]"
+   count_female_scottish:0 "[CHARACTER.Custom('CountFemaleScottish')]"
+   county_scottish:0 "[CHARACTER.Custom('CountyScottish')]"
+   count_default_male_scottish:0 "Erle"
+   count_default_female_scottish:0 "Cuntesse"
+   county_default_scottish:0 "Erldom"
  
-   duke_male_scottish:0 "Duc"
-   duke_female_scottish:0 "Duchess"
-   duchy_scottish:0 "Duché"
+   duke_male_scottish:0 "[CHARACTER.Custom('DukeMaleScottish')]"
+   duke_female_scottish:0 "[CHARACTER.Custom('DukeFemaleScottish')]"
+   duchy_scottish:0 "[CHARACTER.Custom('DuchyScottish')]"
+   duke_default_male_scottish:0 "Duc"
+   duke_default_female_scottish:0 "Duchess"
+   duchy_default_scottish:0 "Duché"
  
    duke_male_scottish_independent:0 "Prince"
    duke_female_scottish_independent:0 "Princesse"
@@ -343,7 +349,9 @@
    title_prince_female_scottish:0 "Princes"
    title_prince_male_scottish_empire:0 "$title_prince_male_scottish$"
    title_prince_female_scottish_empire:0 "$title_prince_female_scottish$"
-
+   queen_mother_scottish:0 "[CHARACTER.Custom('QueenMScottish')]"
+   queen_mother_scottish_empire:0 "$emperor_female_scottish$"
+   
    baron_republic_male_scottish:0 "Provost"
    baron_republic_female_scottish:0 "Provost"
    barony_republic_scottish:0 "Ceté"
