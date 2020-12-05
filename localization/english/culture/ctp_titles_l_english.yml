@@ -754,9 +754,12 @@
    baron_female_norman:0 "Baronne"
    barony_norman:0 "Baronie"
  
-   count_male_norman:0 "Cuens"
-   count_female_norman:0 "Contesse"
-   county_norman:0 "Cuntez"
+   count_male_norman:0 "[CHARACTER.Custom('CountMaleNorman')]"
+   count_female_norman:0 "[CHARACTER.Custom('CountFemaleNorman')]"
+   county_norman:0 "[CHARACTER.Custom('CountyNorman')]"
+   count_default_male_norman:0 "Cuens"
+   count_default_female_norman:0 "Contesse"
+   county_default_norman:0 "Cuntez"
  
    duke_male_norman:0 "[CHARACTER.Custom('DukeMaleFrench')]"
    duke_female_norman:0 "[CHARACTER.Custom('DukeFemaleNorman')]"
@@ -769,6 +772,11 @@
    duke_female_norman_independent:0 "Princesse"
    duchy_norman_independent:0 "[CHARACTER.Custom('NormanIndepDuchy')]"
    independent_duchy_norman:0 "Principaliz"
+   
+   kurfurst_male_norman:0 "Princes Electeur"
+   kurfurst_female_norman:0 "Princesse Electeur"
+   kurfurstdom_norman_male:0 "Princes Electeures"
+   kurfurstdom_norman_female:0 "Princesse Electeures"
  
    king_male_norman:0 "Reis"
    king_female_norman:0 "Reigne"
