@@ -1,4 +1,55 @@
-﻿PrincePom = {
+﻿PrinceGoidelic = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_goidelic
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_goidelic
+	}
+}
+PrincessGoidelic = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_goidelic
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_goidelic
+	}
+}
+QueenMGoidelic = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_goidelic
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_goidelic
+	}
+}
+PrincePom = {
 	type = character
 	text = {
 		trigger = {
