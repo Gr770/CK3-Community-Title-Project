@@ -1307,9 +1307,12 @@
    baron_female_aragonese:0 "Baronessa"
    barony_feudalclan_aragonese:0 "Baronia"
    
-   count_feudalclan_male_aragonese:0 "Comte"
-   count_feudalclan_female_aragonese:0 "Comtessa"
-   county_feudalclan_aragonese:0 "Contado"
+   count_feudalclan_male_aragonese:0 "[CHARACTER.Custom('CountMaleAragonese')]"
+   count_feudalclan_female_aragonese:0 "[CHARACTER.Custom('CountFemaleAragonese')]"
+   county_feudalclan_aragonese:0 "[CHARACTER.Custom('CountyAragonese')]"
+   count_default_male_aragonese:0 "Comte"
+   count_default_female_aragonese:0 "Comtessa"
+   county_default_aragonese:0 "Contado"
  
    duke_feudalclan_male_aragonese:0 "[CHARACTER.Custom('DukeMaleAragonese')]"
    duke_feudalclan_female_aragonese:0 "[CHARACTER.Custom('DukeFemaleAragonese')]"
@@ -1328,6 +1331,11 @@
    duke_feudalclan_female_aragonese_independent:0 "Princesa"
    duchy_feudalclan_aragonese_independent:0 "[CHARACTER.Custom('AragoneseIndepDuchy')]"
    independent_duchy_aragonese:0 "Principado"
+   
+   kurfurst_male_aragonese:0 "Princep Elector"
+   kurfurst_female_aragonese:0 "Princesa Electora"
+   kurfurstdom_aragonese_male:0 "Princep Electorato"
+   kurfurstdom_aragonese_female:0 "Princesa Electorato"
  
    king_male_aragonese:0 "[CHARACTER.Custom('KingMaleAragonese')]"
    king_female_aragonese:0 "[CHARACTER.Custom('KingFemaleAragonese')]"
@@ -1347,7 +1355,9 @@
    title_prince_female_aragonese:0 "Ifanta"
    title_prince_male_aragonese_empire:0 "$title_prince_male_aragonese$"
    title_prince_female_aragonese_empire:0 "$title_prince_female_aragonese$"
- 
+   queen_mother_aragonese:0 "[CHARACTER.Custom('QueenMAragonese')]"
+   queen_mother_aragonese_empire:0 "$emperor_female_aragonese$"
+   
    baron_republic_aragonese:0 "Zalmedina"
    barony_republic_aragonese:0 "Ciudat"
    count_republic_male_aragonese:0 "Receptor"
