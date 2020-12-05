@@ -1229,10 +1229,13 @@
    baron_female_asturleonese:0 "Señora"
    barony_feudalclan_asturleonese:0 "Señoriu"
    
-   count_feudalclan_male_asturleonese:0 "Conde"
-   count_feudalclan_female_asturleonese:0 "Condesa"
-   county_feudalclan_asturleonese:0 "Condáu"
- 
+   count_feudalclan_male_asturleonese:0 "[CHARACTER.Custom('CountMaleAsturleonese')]"
+   count_feudalclan_female_asturleonese:0 "[CHARACTER.Custom('CountFemaleAsturleonese')]"
+   county_feudalclan_asturleonese:0 "[CHARACTER.Custom('CountyAsturleonese')]"
+   count_default_male_asturleonese:0 "Conde"
+   count_default_female_asturleonese:0 "Condesa"
+   county_default_asturleonese:0 "Condáu"
+   
    duke_feudalclan_male_asturleonese:0 "[CHARACTER.Custom('DukeMaleAsturleonese')]"
    duke_feudalclan_female_asturleonese:0 "[CHARACTER.Custom('DukeFemaleAsturleonese')]"
    duchy_feudalclan_asturleonese:0 "[CHARACTER.Custom('DuchyAsturleonese')]"
@@ -1250,6 +1253,11 @@
    duke_feudalclan_female_asturleonese_independent:0 "Princesa" 
    duchy_feudalclan_asturleonese_independent:0 "[CHARACTER.Custom('AsturleoneseIndepDuchy')]"
    independent_duchy_asturleonese:0 "Principat"
+   
+   kurfurst_male_asturleonese:0 "Príncipe Elector"
+   kurfurst_female_asturleonese:0 "Princesa Electora"
+   kurfurstdom_asturleonese_male:0 "Príncipe Electorat"
+   kurfurstdom_asturleonese_female:0 "Princesa Electorat"
  
    king_male_asturleonese:0 "[CHARACTER.Custom('KingMaleAsturleonese')]"
    king_female_asturleonese:0 "[CHARACTER.Custom('KingFemaleAsturleonese')]"
@@ -1269,7 +1277,9 @@
    title_prince_female_asturleonese:0 "Infanta"
    title_prince_male_asturleonese_empire:0 "$title_prince_male_asturleonese$"
    title_prince_female_asturleonese_empire:0 "$title_prince_female_asturleonese$"
-
+   queen_mother_asturleonese:0 "[CHARACTER.Custom('QueenMAsturleonese')]"
+   queen_mother_asturleonese_empire:0 "$emperor_female_asturleonese$"
+   
    baron_republic_male_asturleonese:0 "Merín"
    baron_republic_female_asturleonese:0 "Merina"
    barony_republic_asturleonese:0 "Ciudá"
