@@ -757,6 +757,37 @@ duchy_feudalclan_polish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+duke_feudalclan_male_polish_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_female_polish_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_feudalclan_polish_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { polish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 king_male_polish = {
 	type = character
 	gender = male
