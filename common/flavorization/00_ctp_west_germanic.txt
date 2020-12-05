@@ -534,6 +534,68 @@ empire_anglo_saxon = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_anglo_saxon_county = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = county
+	priority = 110
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+title_prince_female_anglo_saxon_county = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = county
+	priority = 110
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+title_prince_male_anglo_saxon_duchy = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 120
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+title_prince_female_anglo_saxon_duchy = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 120
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+title_prince_male_anglo_saxon_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_anglo_saxon_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 title_prince_male_anglo_saxon = {
 	type = character
 	gender = male
@@ -568,6 +630,37 @@ title_prince_female_anglo_saxon_empire = {
 	type = character
 	gender = female
 	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_anglo_saxon_independent = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	priority = 121
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+queen_mother_anglo_saxon = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { anglo_saxon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_anglo_saxon_empire = {
+	type = character
+	gender = female
+	special = queen_mother
 	tier = empire
 	priority = 150
 	cultures = { anglo_saxon }

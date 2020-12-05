@@ -203,10 +203,9 @@
    duke_default_female_anglo_saxon:0 "Eorlen"
    duchy_default_anglo_saxon:0 "Eorldóm"
  
-   duke_feudalclan_male_anglo_saxon_independent:0 "Cyning" 
-   duke_feudalclan_female_anglo_saxon_independent:0 "Cwén" 
+   duke_feudalclan_male_anglo_saxon_independent:0 "[CHARACTER.Custom('KingMaleAngloSaxon')]"
+   duke_feudalclan_female_anglo_saxon_independent:0 "[CHARACTER.Custom('KingFemaleAngloSaxon')]" 
    duchy_feudalclan_anglo_saxon_independent:0 "[CHARACTER.Custom('AngloSaxonIndepDuchy')]"
-   independent_duchy_anglo_saxon:0 "Ríce"
  
    king_male_anglo_saxon:0 "[CHARACTER.Custom('KingMaleAngloSaxon')]"
    king_female_anglo_saxon:0 "[CHARACTER.Custom('KingFemaleAngloSaxon')]"
@@ -222,11 +221,20 @@
    emperor_female_anglo_saxon:0 "Brytenwealden"
    empire_anglo_saxon:0 "Brytenríce"
  
+   title_prince_male_anglo_saxon_county:0 "$title_prince_male_anglo_saxon_duchy$"
+   title_prince_female_anglo_saxon_county:0 "$title_prince_female_anglo_saxon$"
+   title_prince_male_anglo_saxon_duchy:0 "Hláford"
+   title_prince_female_anglo_saxon_duchy:0 "$title_prince_female_anglo_saxon$"
+   title_prince_male_anglo_saxon_duchy_independent:0 "$title_prince_male_anglo_saxon$"
+   title_prince_female_anglo_saxon_duchy_independent:0 "$title_prince_female_anglo_saxon$"
    title_prince_male_anglo_saxon:0 "Æþeling"
    title_prince_female_anglo_saxon:0 "Hlǽfdíge"
    title_prince_male_anglo_saxon_empire:0 "$title_prince_male_anglo_saxon$"
    title_prince_female_anglo_saxon_empire:0 "$title_prince_female_anglo_saxon$"
-
+   queen_mother_anglo_saxon_independent:0 "[CHARACTER.Custom('QueenMAngloSaxon')]"
+   queen_mother_anglo_saxon:0 "[CHARACTER.Custom('QueenMAngloSaxon')]"
+   queen_mother_anglo_saxon_empire:0 "$emperor_female_anglo_saxon$"
+   
    baron_republic_male_anglo_saxon:0 "Geréfa"
    baron_republic_female_anglo_saxon:0 "Geréfen"
    barony_republic_anglo_saxon:0 "Tún"
