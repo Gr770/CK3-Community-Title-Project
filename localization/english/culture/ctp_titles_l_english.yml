@@ -1084,12 +1084,15 @@
    baron_female_portugese:0 "Sennor"
    barony_feudalclan_portugese:0 "Sennorio"
    
-   count_feudalclan_male_portugese:0 "Conde"
-   count_feudalclan_female_portugese:0 "Condesa"
-   county_feudalclan_portugese:0 "Condado"
+   count_feudalclan_male_portugese:0 "[CHARACTER.Custom('CountMalePort')]"
+   count_feudalclan_female_portugese:0 "[CHARACTER.Custom('CountFemalePort')]"
+   county_feudalclan_portugese:0 "[CHARACTER.Custom('CountyPort')]"
+   count_default_male_portugese:0 "Conde"
+   count_default_female_portugese:0 "Condesa"
+   county_default_portugese:0 "Condado"
  
    duke_feudalclan_male_portugese:0 "[CHARACTER.Custom('DukeMalePortGalician')]"
-   duke_feudalclan_female_portugese:0 "[CHARACTER.Custom('DukeFemalePortGalician')]"
+   duke_feudalclan_female_portugese:0 "[CHARACTER.Custom('CountFemalePort')]"
    duchy_feudalclan_portugese:0 "[CHARACTER.Custom('DuchyPortGalician')]"
    marquess_male_portugese:0 "Marques"
    marquess_female_portugese:0 "Marquesa"
@@ -1105,6 +1108,11 @@
    duke_feudalclan_female_portugese_independent:0 "Princesa" 
    duchy_feudalclan_portugese_independent:0 "[CHARACTER.Custom('PortGalicianIndepDuchy')]"
    independent_duchy_portugese:0 "Principado"
+   
+   kurfurst_male_portugese:0 "Principe Eleitor"
+   kurfurst_female_portugese:0 "Princesa Eleitora"
+   kurfurstdom_portugese_male:0 "Principe Eleitorado"
+   kurfurstdom_portugese_female:0 "Princesa Eleitorado"
  
    king_male_portugese:0 "[CHARACTER.Custom('KingMalePortugese')]"
    king_female_portugese:0 "[CHARACTER.Custom('KingFemalePortugese')]"
@@ -1124,7 +1132,9 @@
    title_prince_female_portugese:0 "Infanta"
    title_prince_male_portugese_empire:0 "$title_prince_male_portugese$"
    title_prince_female_portugese_empire:0 "$title_prince_female_portugese$"
-   queen_mother_portugese:0 "Raỹa-mãy"
+   queen_mother_portugese:0 "[CHARACTER.Custom('KingdomPortugese')]"
+   sultan_m_portugese:0 "Sultana-mãy"
+   queen_m_portugese:0 "Raỹa-mãy"
    empress_mother_portugese:0 "Empreatriz-mãy"
  
    baron_republic_male_portugese:0 "Vereador"
