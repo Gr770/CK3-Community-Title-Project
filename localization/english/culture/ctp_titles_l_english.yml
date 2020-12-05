@@ -805,9 +805,12 @@
    baron_female_occitan:0 "Vescomtessa"
    barony_occitan:0 "Vescomtat"
  
-   count_male_occitan:0 "Coms"
-   count_female_occitan:0 "Comtessa"
-   county_occitan:0 "Comtat"
+   count_male_occitan:0 "[CHARACTER.Custom('CountMaleOccitan')]"
+   count_female_occitan:0 "[CHARACTER.Custom('CountFemaleOccitan')]"
+   county_occitan:0 "[CHARACTER.Custom('CountyOccitan')]"
+   count_default_male_occitan:0 "Coms"
+   count_default_female_occitan:0 "Comtessa"
+   county_default_occitan:0 "Comtat"
  
    duke_male_occitan:0 "[CHARACTER.Custom('DukeMaleOccitan')]"
    duke_female_occitan:0 "[CHARACTER.Custom('DukeFemaleOccitan')]"
@@ -826,6 +829,11 @@
    duke_female_occitan_independent:0 "Princessa"
    duchy_occitan_independent:0 "[CHARACTER.Custom('OccitanIndepDuchy')]"
    independent_duchy_occitan:0 "Principat"
+   
+   kurfurst_male_occitan:0 "Princes Elector"
+   kurfurst_female_occitan:0 "Princessa Electritz"
+   kurfurstdom_occitan_male:0 "Princes Electorat"
+   kurfurstdom_occitan_female:0 "Princessa Electorat"
  
    king_male_occitan:0 "Reis"
    king_female_occitan:0 "Reina"
