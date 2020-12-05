@@ -250,6 +250,26 @@ title_prince_female_pictish_cumbrian_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+queen_mother_pictish_cumbrian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_pictish_cumbrian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { pictish cumbrian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 baron_republic_male_pictish_cumbrian = {
 	type = character
 	gender = male
@@ -606,6 +626,26 @@ title_prince_female_welsh_empire = {
 	type = character
 	gender = female
 	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_welsh = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { welsh }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_welsh_empire = {
+	type = character
+	gender = female
+	special = queen_mother
 	tier = empire
 	priority = 150
 	cultures = { welsh }
@@ -1009,6 +1049,26 @@ title_prince_female_breton_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+queen_mother_breton = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_breton_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { breton }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 baron_republic_male_breton = {
 	type = character
 	gender = male
@@ -1061,12 +1121,64 @@ count_republic_female_breton = {
 	only_holder = yes
 	top_liege = no
 }
+county_republic_breton = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { breton }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_breton = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { breton } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_republic_female_breton = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { breton }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
 duchy_republic_breton = {
 	type = title
 	tier = duchy
 	priority = 123
 	cultures = { breton }
 	governments = { republic_government }
+	top_liege = no
+}
+king_republic_male_breton = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { breton } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+king_republic_female_breton = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { breton }
+	governments = { republic_government }
+	only_holder = yes
 	top_liege = no
 }
 kingdom_republic_breton = {
@@ -1336,6 +1448,26 @@ title_prince_female_cornish_empire = {
 	type = character
 	gender = female
 	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_cornish = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { cornish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_cornish_empire = {
+	type = character
+	gender = female
+	special = queen_mother
 	tier = empire
 	priority = 150
 	cultures = { cornish }
