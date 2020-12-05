@@ -116,9 +116,12 @@
    baron_female_english:0 "Barounesse"
    barony_english:0 "Barone"
  
-   count_male_english:0 "Erl"
-   count_female_english:0 "Cuntesse"
-   county_english:0 "Erldom"
+   count_male_english:0 "[CHARACTER.Custom('CountMaleEnglish')]"
+   count_female_english:0 "[CHARACTER.Custom('CountFemaleEnglish')]"
+   county_english:0 "[CHARACTER.Custom('CountyEnglish')]"
+   count_default_male_english:0 "Erl"
+   count_default_female_english:0 "Cuntesse"
+   county_default_english:0 "Erldom"
  
    duke_male_english:0 "[CHARACTER.Custom('DukeMaleEnglish')]"
    duke_female_english:0 "[CHARACTER.Custom('DukeFemaleEnglish')]"
@@ -132,6 +135,11 @@
    duke_default_male_english:0 "Duc"
    duke_default_female_english:0 "Duchesse"
    duchy_default_english:0 "Duche"
+   
+   kurfurst_male_english:0 "Prince Electour"
+   kurfurst_female_english:0 "Princesse Electour"
+   kurfurstdom_english_male:0 "Prince Electourat"
+   kurfurstdom_english_female:0 "Princesse Electourat"
  
    duke_male_english_independent:0 "Prince"
    duke_female_english_independent:0 "Princesse"
@@ -156,7 +164,9 @@
    title_prince_female_english:0 "Princesse"
    title_prince_male_english_empire:0 "$title_prince_male_english$"
    title_prince_female_english_empire:0 "$title_prince_female_english$"
- 
+   queen_mother_english:0 "[CHARACTER.Custom('QueenMEnglish')]"
+   queen_mother_english_empire:0 "$emperor_female_english$"
+   
    baron_republic_male_english:0 "Maire"
    baron_republic_female_english:0 "Mairesse"
    barony_republic_english:0 "Cite"
