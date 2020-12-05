@@ -928,9 +928,12 @@
    baron_female_castilian:0 "Señora"
    barony_feudalclan_castilian:0 "Señorio"
    
-   count_feudalclan_male_castilian:0 "Conde"
-   count_feudalclan_female_castilian:0 "Condesa"
-   county_feudalclan_castilian:0 "Condado"
+   count_feudalclan_male_castilian:0 "[CHARACTER.Custom('CountMaleCastillian')]"
+   count_feudalclan_female_castilian:0 "[CHARACTER.Custom('CountFemaleCastillian')]"
+   county_feudalclan_castilian:0 "[CHARACTER.Custom('CountyCastillian')]"
+   count_default_male_castilian:0 "Conde"
+   count_default_female_castilian:0 "Condesa"
+   county_default_castillian:0 "Condado"
  
    duke_feudalclan_male_castilian:0 "[CHARACTER.Custom('DukeMaleCastilian')]"
    duke_feudalclan_female_castilian:0 "[CHARACTER.Custom('DukeFemaleCastilian')]"
@@ -950,6 +953,11 @@
    duchy_feudalclan_castilian_independent:0 "[CHARACTER.Custom('CastilianIndepDuchy')]"
    independent_duchy_castilian:0 "Principado"
    
+   kurfurst_male_castillian:0 "Príncipe Elector"
+   kurfurst_female_castillian:0 "Princesa Electora"
+   kurfurstdom_castilian_male:0 "Príncipe Electorado"
+   kurfurstdom_castilian_female:0 "Princesa Electorado"
+   
    king_male_castilian:0 "[CHARACTER.Custom('KingMaleCastillian')]"
    king_female_castilian:0 "[CHARACTER.Custom('KingFemaleCastillian')]"
    kingdom_castilian:0 "[CHARACTER.Custom('KingdomCastillian')]"
@@ -968,7 +976,9 @@
    title_prince_female_castilian:0 "Infanta"
    title_prince_male_castilian_empire:0 "$title_prince_male_castilian$"
    title_prince_female_castilian_empire:0 "$title_prince_female_castilian$"
-   queen_mother_castilian:0 "Reina Madre"
+   queen_mother_castilian:0 "[CHARACTER.Custom('QueenMCastillian')]"
+   queen_m_castillian:0 "Reina Madre"
+   sultan_m_castillian:0 "Sultana Madre"
    empress_mother_castilian:0 "Emperatriz Madre"
  
    baron_republic_male_castilian:0 "Merino"
