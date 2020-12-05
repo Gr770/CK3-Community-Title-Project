@@ -169,6 +169,21 @@ QueenMPort = {
 		localization_key =  queen_m_portugese
 	}
 }
+QueenMVisigothic = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_visigothic
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_visigothic
+	}
+}
 PrincePom = {
 	type = character
 	text = {
