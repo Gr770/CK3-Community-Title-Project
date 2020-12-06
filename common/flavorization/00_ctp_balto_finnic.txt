@@ -833,6 +833,37 @@ county_feudalclan_karelian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+count_feudalclan_male_karelian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_karelian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_karelian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_karelian = {
 	type = character
 	gender = male
@@ -868,7 +899,7 @@ duke_feudalclan_male_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
@@ -879,7 +910,7 @@ duke_feudalclan_female_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
@@ -888,7 +919,7 @@ duchy_feudalclan_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -948,6 +979,26 @@ empire_karelian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_karelian_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_karelian_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_karelian = {
 	type = character
 	gender = male
@@ -982,6 +1033,36 @@ title_prince_female_karelian_empire = {
 	type = character
 	gender = female
 	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_karelian_duchy_independent = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_karelian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_karelian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
 	tier = empire
 	priority = 150
 	cultures = { karelian }

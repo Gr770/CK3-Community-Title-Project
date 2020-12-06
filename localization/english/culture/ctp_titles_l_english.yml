@@ -1629,18 +1629,22 @@
    baron_female_karelian:0 "Emändä"
    barony_feudalclan_karelian:0 "Ižändäkundu"
    
-   count_feudalclan_male_karelian:0 "Kreivi"
-   count_feudalclan_female_karelian:0 "Kreivinaine"
+   count_feudalclan_male_karelian:0 "Muapiälikkö"
+   count_feudalclan_female_karelian:0 "Muapiälikkö"
    county_feudalclan_karelian:0 "Kreivikundu"
- 
-   duke_feudalclan_male_karelian:0 "Gertsogu"
-   duke_feudalclan_female_karelian:0 "Gertsogunaine"
-   duchy_feudalclan_karelian:0 "Gertsogukundu"
    
-   duke_feudalclan_male_karelian_independent:0 "Ruhtinas"
-   duke_feudalclan_female_karelian_independent:0 "Ruhtinasnaine"
+   count_feudalclan_male_karelian_independent:0 "Ruhtinas"
+   count_feudalclan_female_karelian_independent:0 "Ruhtinasnaine"
+   county_feudalclan_karelian_independent:0 "[CHARACTER.Custom('KarelianIndepCounty')]"
+   independent_county_karelian:0 "Ruhtinaskundu"
+ 
+   duke_feudalclan_male_karelian:0 "Jaarli"
+   duke_feudalclan_female_karelian:0 "Jaarlinaine"
+   duchy_feudalclan_karelian:0 "Jaarlikundu"
+   
+   duke_feudalclan_male_karelian_independent:0 "$king_male_karelian$"
+   duke_feudalclan_female_karelian_independent:0 "$king_female_karelian$"
    duchy_karelian_independent:0 "[CHARACTER.Custom('KarelianIndepDuchy')]"
-   independent_duchy_karelian:0 "Ruhtinaskundu"
  
    king_male_karelian:0 "Kuningas"
    king_female_karelian:0 "Kuningasnaine"
@@ -1650,10 +1654,15 @@
    emperor_female_karelian:0 "Keisarinna"
    empire_karelian:0 "Keisarikundu"
    
+   title_prince_male_karelian_duchy_independent:0 "$title_prince_male_karelian$"
+   title_prince_female_karelian_duchy_independent:0 "$title_prince_female_karelian$"
    title_prince_male_karelian:0 "Prinssu"
    title_prince_female_karelian:0 "Prinsessu"
    title_prince_male_karelian_empire:0 "$title_prince_male_karelian$"
    title_prince_female_karelian_empire:0 "$title_prince_female_karelian$"
+   queen_mother_karelian_duchy_independent:0 "$king_female_karelian$"
+   queen_mother_karelian:0 "$king_female_karelian$"
+   queen_mother_karelian_empire:0 "$emperor_female_karelian$'
    
    baron_republic_karelian:0 "Linnunhoidai"
    barony_republic_karelian:0 "Linnu"
