@@ -1386,16 +1386,28 @@
   count_female_north_germanic_group_independent:0 "Dróttning"
   county_north_germanic_group_independent:0 "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
   
-  duke_male_north_germanic_group:0 "Jarl"
-  duke_female_north_germanic_group:0 "Jarlynja"
+  duke_male_north_germanic_group:0 "[CHARACTER.Custom('DukeMaleNorth')]"
+  duke_female_north_germanic_group:0 "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
   duchy_north_germanic_group:0 "Jarldómr"
+  duke_default_male_north:0 "Jarl"
+  duke_default_female_north:0 "Jarlynja"
   
-  duke_female_north_germanic_group_independent:0 "Dróttning"
+  duke_female_north_germanic_group_independent:0 "$king_female_north_germanic_group$"
   duchy_north_germanic_group_independent:0 "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
   
+  king_female_north_germanic_group:0 "Dróttning"
   kingdom_north_germanic_group:0 "Ríki"
   
   empire_north_germanic_group:0 "Vęldi"
+  
+  norse_heir_male:0 "Arfi"
+  norse_heir_female:0 "Arfa"
+  title_prince_male_north_germanic_group_duchy:0 "[CHARACTER.Custom('PrinceDNorse')]"
+  title_prince_female_north_germanic_group_duchy:0 "[CHARACTER.Custom('PrincessDNorse')]"
+  prince_d_male_north:0 "Erlingr"
+  prince_d_female_north:0 "Jarlsdóttir"
+  queen_mother_north_germanic_group_duchy_independent:0 "$king_female_north_germanic_group$"
+  queen_mother_north_germanic_group_kingdom:0 "$king_female_north_germanic_group$"
   
   barony_republic_north_germanic_group:0 "Staðr"
   
@@ -1415,18 +1427,23 @@
    count_default_female_norse_norwegian:0 "Hǫfuðkona"
    county_default_norse_norwegian:0 "Fylki"
    
-   duke_male_norse_norwegian_independent:0 "Konungr"
+   duke_male_norse_norwegian_independent:0 "$king_male_norse_norwegian$"
    
    king_male_norse_norwegian:0 "Konungr"
-   king_female_norse_norwegian:0 "Dróttning"
    
    emperor_male_norse_norwegian:0 "Kęisari"
    emperor_female_norse_norwegian:0 "Kęisarynja"
    
-   title_prince_male_norse_norwegian:0 "Ǫðlingr"
-   title_prince_male_norse_norwegian_empire:0 "$title_prince_male_norse_norwegian$"
-   title_prince_female_norse_norwegian:0 "Konungsdóttir"
-   title_prince_female_norse_norwegian_empire:0 "Kęisaradóttir"
+   title_prince_male_norse_norwegian_duchy_independent:0 "[CHARACTER.Custom('PrinceNor')]"
+   title_prince_female_norse_norwegian_duchy_independent:0 "[CHARACTER.Custom('PrincessKNor')]"
+   title_prince_male_norse_norwegian:0 "[CHARACTER.Custom('PrinceNor')]"
+   title_prince_male_norse_norwegian_empire:0 "[CHARACTER.Custom('PrinceNor')]"
+   title_prince_female_norse_norwegian:0 "[CHARACTER.Custom('PrincessKNor')]"
+   title_prince_female_norse_norwegian_empire:0 "[CHARACTER.Custom('PrincessENor')]"
+   queen_mother_norse_norwegian_empire:0 "$emperor_female_norse_norwegian$"
+   prince_male_nor:0 "Ǫðlingr"
+   prince_k_female_nor:0 "Konungsdóttir"
+   prince_e_female_nor:0 "Kęisaradóttir"
    
    baron_republic_norse_norwegian:0 "Hǫlðr"
    count_republic_norse_norwegian:0 "Kaupstaðarstjóri"
@@ -1446,18 +1463,23 @@
    county_default_swedish:0 "Landskapr"
    county_default_danish:0 "Sýsla"
  
-   duke_male_swedish_danish_independent:0 "Kunungr"
+   duke_male_swedish_danish_independent:0 "$king_male_swedish_danish$"
 
-   king_male_swedish_danish:0 "Kunungr"
-   king_female_swedish_danish:0 "Dróttning"
+   king_male_swedish_danish:0 "Kunungr""
    
    emperor_male_swedish_danish:0 "Késari"
    emperor_female_swedish_danish:0 "Késarynja"
  
-   title_prince_male_swedish_danish:0 "Øðlingr"
-   title_prince_male_swedish_danish_empire:0 "$title_prince_male_swedish_danish$"
-   title_prince_female_swedish_danish:0 "Kunungsdóttir"
-   title_prince_female_swedish_danish_empire:0 "Késaradóttir"
+   title_prince_male_swedish_danishn_duchy_independent:0 "[CHARACTER.Custom('PrinceSweDan')]"
+   title_prince_female_swedish_danish_duchy_independent:0 "[CHARACTER.Custom('PrincessKSweDan')]"
+   title_prince_male_swedish_danish:0 "[CHARACTER.Custom('PrinceSweDan')]"
+   title_prince_male_swedish_danish_empire:0 "[CHARACTER.Custom('PrinceSweDan')]"
+   title_prince_female_swedish_danish:0 "[CHARACTER.Custom('PrincessKSweDan')]"
+   title_prince_female_swedish_danish_empire:0 "[CHARACTER.Custom('PrincessESweDan')]"
+   queen_mother_swedish_danish_empire:0 "$emperor_female_swedish_danish$"
+   prince_male_swe_dan:0 "Øðlingr"
+   prince_k_female_swe_dan:0 "Kunungsdóttir"
+   prince_e_female_swe_dan:0 "Késaradóttir"
    
    baron_republic_swedish_danish:0 "Hølðr"
    count_republic_swedish_danish:0 "Kǿpstaðarstjúri"

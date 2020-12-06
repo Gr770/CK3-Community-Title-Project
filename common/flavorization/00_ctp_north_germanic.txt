@@ -92,6 +92,16 @@ duchy_north_germanic_group_independent = {
 	only_independent = yes
 	top_liege = no
 }
+king_female_north_germanic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 142
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
 kingdom_north_germanic_group = {
 	type = title
 	tier = kingdom
@@ -105,6 +115,47 @@ empire_north_germanic_group = {
 	tier = empire
 	priority = 152
 	governments = { feudal_government clan_government tribal_government republic_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
+title_prince_male_north_germanic_group_duchy = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 120
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
+title_prince_female_north_germanic_group_duchy = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 120
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
+queen_mother_north_germanic_group_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+	only_independent = yes
+}
+queen_mother_north_germanic_group_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	governments = { feudal_government clan_government tribal_government }
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
@@ -215,16 +266,6 @@ king_male_norse_norwegian = {
 	cultures = { norse norwegian }
 	top_liege = no
 }
-king_female_norse_norwegian = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 142
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse norwegian }
-	top_liege = no
-}
 emperor_male_norse_norwegian = {
 	type = character
 	gender = male
@@ -244,6 +285,28 @@ emperor_female_norse_norwegian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { norse norwegian }
 	top_liege = no
+}
+title_prince_male_norse_norwegian_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_norse_norwegian_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_independent = yes
 }
 title_prince_male_norse_norwegian = {
 	type = character
@@ -276,6 +339,16 @@ title_prince_female_norse_norwegian = {
 	top_liege = no
 }
 title_prince_female_norse_norwegian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+queen_mother_norse_norwegian_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -392,17 +465,7 @@ king_male_swedish_danish = {
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { swedish danish }
 	top_liege = no
-}
-king_female_swedish_danish = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 142
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish danish }
-	top_liege = no
-}
+}}
 emperor_male_swedish_danish = {
 	type = character
 	gender = male
@@ -422,6 +485,28 @@ emperor_female_swedish_danish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { swedish danish }
 	top_liege = no
+}
+title_prince_male_swedish_danishn_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { swedish danish }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_swedish_danish_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { swedish danish }
+	top_liege = no
+	only_independent = yes
 }
 title_prince_male_swedish_danish = {
 	type = character
@@ -454,6 +539,16 @@ title_prince_female_swedish_danish = {
 	top_liege = no
 }
 title_prince_female_swedish_danish_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { swedish danish }
+	top_liege = no
+}
+queen_mother_swedish_danish_empire = {
 	type = character
 	gender = female
 	special = ruler_child
