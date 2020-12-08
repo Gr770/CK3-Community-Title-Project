@@ -378,6 +378,19 @@ DutchIndepDuchy = {
 		localization_key = independent_duchy_dutch
 	}
 }
+AndalusianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_arabic_group
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_andalusian
+	}
+}
 GreekIndepDuchy = {
 	type = character
 	text = {

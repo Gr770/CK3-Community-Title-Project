@@ -5783,7 +5783,7 @@ DuchyDutch = {
 		fallback = yes
 	}
 }
-DukeArabic = {
+DukeMaleArabic = {
 	type = character
 	text = {
 		trigger = {
@@ -5797,7 +5797,7 @@ DukeArabic = {
 				}
 			}
 		}
-		localization_key = marquess_arabic_group
+		localization_key = marquess_male_arabic_group
 	}
 	text = {
 		trigger = {
@@ -5817,7 +5817,7 @@ DukeArabic = {
 				}
 			}
 		}
-		localization_key = palatine_christian_andulusian
+		localization_key = palatine_male_christian_andulusian
 	}
 	text = {
 		trigger = {
@@ -5834,17 +5834,82 @@ DukeArabic = {
 				has_religion = religion:christianity_religion
 			}
 		}
-		localization_key = palatine_arabic_group
+		localization_key = palatine_male_arabic_group
 	}
 	text = {
 		trigger = {
 			has_culture = culture:andalusian
 			has_religion = religion:christianity_religion
 		}
-		localization_key = duke_christian_andulusian
+		localization_key = duke_christian_male_andulusian
 	}
 	text = {
-		localization_key = duke_default_arabic_group
+		localization_key = duke_default_male_arabic_group
+		fallback = yes
+	}
+}
+DukeFemaleArabic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_arabic_group
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					has_culture = culture:andalusian
+					vassal_contract_has_flag = has_palatinate_contract
+					has_religion = religion:christianity_religion
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_culture = culture:andalusian
+						vassal_contract_has_flag = has_palatinate_contract
+						has_religion = religion:christianity_religion
+					}
+				}
+			}
+		}
+		localization_key = palatine_female_christian_andulusian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+			NOT = {
+				has_religion = religion:christianity_religion
+			}
+		}
+		localization_key = palatine_female_arabic_group
+	}
+	text = {
+		trigger = {
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
+		}
+		localization_key = duke_christian_female_andulusian
+	}
+	text = {
+		localization_key = duke_default_female_arabic_group
 		fallback = yes
 	}
 }

@@ -466,6 +466,42 @@ QueenMEstonian = {
 		localization_key =  king_default_female_estonian
 	}
 }
+QueenMArabic = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_arabic
+	}
+	text = {
+		trigger = {
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
+		}
+		localization_key = king_female_christian_andalusian
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_arabic
+	}
+}
+EmpressMArabic = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = culture:andalusian
+			has_religion = religion:christianity_religion
+		}
+		localization_key = emperor_feudalclan_female_andalusian_christian
+	}
+	text = {
+		fallback = yes
+		localization_key =  emperor_feudalclan_female_arabic_group
+	}
+}
 PrincePom = {
 	type = character
 	text = {
