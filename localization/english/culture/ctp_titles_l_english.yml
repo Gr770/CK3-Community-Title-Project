@@ -2369,7 +2369,7 @@
    title_prince_georgian_empire:0 "$title_prince_georgian$"
    queen_mother_georgian:0 $king_female_georgian$"
    queen_mother_georgian_empire:0 "$emperor_female_georgian$"
- 
+
    baron_republic_georgian:0 "Amirtamira"
    barony_republic_georgian:0 "Kalaki"
 ######################################################## 
@@ -2382,7 +2382,7 @@
    count_male_assyrian:0 "Qōmēsā"
    count_female_assyrian:0 "Qōmēṭīsā"
    county_assyrian:0 "Qōmēṭaṭōnā"
- 
+   
    duke_male_assyrian:0 "[CHARACTER.Custom('DukeMaleAssyrian')]"
    duke_female_assyrian:0 "[CHARACTER.Custom('DukeFemaleAssyrian')]"
    duchy_assyrian:0 "[CHARACTER.Custom('DuchyAssyrian')]"
@@ -2419,11 +2419,17 @@
    emperor_female_assyrian:0 "Malkəṯā d-Malkāṯā"
    empire_assyrian:0 "Rēš Malkūṯā"
  
-   title_prince_male_assyrian:0 "Bar Malkā"
-   title_prince_female_assyrian:0 "Baṯ Malkā"
-   title_prince_male_assyrian_empire:0 "$title_prince_male_assyrian$"
-   title_prince_female_assyrian_empire:0 "$title_prince_female_assyrian$"
+   title_prince_male_assyrian:0 "[CHARACTER.Custom('PrinceAssyrian')]"
+   title_prince_female_assyrian:0 "[CHARACTER.Custom('PrincessAssyrian')]"
+   title_prince_male_assyrian_empire:0 "$prince_default_male_assyrian$"
+   title_prince_female_assyrian_empire:0 "$prince_default_female_assyrian$"
    title_prince_male_assyrian_byzantine_empire:0 "Qēsarā"
+   sultan_prince_male_assyrian:0 "Bar Šulṭānā"
+   sultan_prince_female_assyrian:0 "Baṯ Šulṭānā"
+   prince_default_male_assyrian:0 "Bar Malkā"
+   prince_default_female_assyrian:0 "Baṯ Malkā"
+   queen_mother_assyrian:0 "[CHARACTER.Custom('QueenMAssyrian')]"
+   queen_mother_assyrian_empire:0 "$emperor_female_assyrian$"
  
    baron_republic_male_assyrian:0 "Raḇ Qrīṯā"
    baron_republic_female_assyrian:0 "Rabbā Qrīṯā"
