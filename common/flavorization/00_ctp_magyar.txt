@@ -519,6 +519,17 @@ baron_male_hungarian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+baron_female_holder_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_hungarian = {
 	type = character
 	gender = female
@@ -764,6 +775,28 @@ empire_hungarian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_hungarian_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_hungarian_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { hungarian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 title_prince_male_hungarian = {
 	type = character
 	gender = male
@@ -913,6 +946,28 @@ duchy_republic_hungarian = {
 	cultures = { hungarian }
 	governments = { republic_government }
 	top_liege = no
+}
+king_republic_male_hungarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { hungarian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_female_hungarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { hungarian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
 }
 kingdom_republic_hungarian = { 
 	type = title

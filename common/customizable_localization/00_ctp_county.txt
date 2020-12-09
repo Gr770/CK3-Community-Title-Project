@@ -6892,3 +6892,380 @@ CountySlovien = {
 		fallback = yes
 	}
 }
+FreeMayorMaleHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_male_hungarian
+	}
+	text = {
+		localization_key = count_republic_default_male_hungarian
+		fallback = yes
+	}
+}
+FreeMayorFemaleHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_mayor_female_hungarian
+	}
+	text = {
+		localization_key = count_republic_default_female_hungarian
+		fallback = yes
+	}
+}
+FreeCityHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_primary_title = title:e_hre
+			}
+		}
+		localization_key = free_city_hungarian
+	}
+	text = {
+		localization_key = county_republic_default_hungarian
+		fallback = yes
+	}
+}
+CountMaleHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_hungarian
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = title_prince_male_hungarian
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = liege
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						exists = liege
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = title_prince_male_hungarian
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = count_feudalclan_male_hungarian_independent
+	}
+	text = {
+		localization_key = count_default_male_hungarian
+		fallback = yes
+	}
+}
+CountFemaleHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = hre_prince_female_hungarian
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+				}
+				OR = {
+					AND = {
+						has_realm_law = crown_authority_1
+						liege = {
+							NOR = {
+								has_realm_law = crown_authority_1
+								has_realm_law = crown_authority_2
+								has_realm_law = crown_authority_3
+							}
+						}
+					}
+					AND = {
+						has_realm_law = crown_authority_2
+						liege = {
+							NOR = {
+								has_realm_law = crown_authority_2
+								has_realm_law = crown_authority_3
+							}
+						}
+					}
+					AND = {
+						has_realm_law = crown_authority_3
+						liege = {
+							NOT = {
+								has_realm_law = crown_authority_3
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = hre_prince_female_hungarian
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = count_feudalclan_male_hungarian_independent
+	}
+	text = {
+		localization_key = count_default_female_hungarian
+		fallback = yes
+	}
+}
+CountFemaleHolderHung = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_hungarian
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = title_prince_female_hungarian
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = count_feudalclan_female_holder_hungarian_independent
+	}
+	text = {
+		localization_key = count_default_male_hungarian
+		fallback = yes
+	}
+}
+CountyHung = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_hungarian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = hre_princedom_hungarian
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = independent_county_hung
+	}
+	text = {
+		localization_key = county_default_hungarian
+		fallback = yes
+	}
+}

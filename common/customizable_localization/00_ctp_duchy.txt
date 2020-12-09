@@ -9668,6 +9668,33 @@ DukeMaleHung = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_hungarian
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = title_prince_male_hungarian
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -9695,12 +9722,36 @@ DukeMaleHung = {
 		localization_key = palatine_male_hung
 	}
 	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = title_prince_male_hungarian
+	}
+	text = {
 		localization_key = duke_default_male_hung
 		fallback = yes
 	}
 }
 DukeFemaleHung = {
 	type = character
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = hre_prince_female_hungarian
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -9730,12 +9781,33 @@ DukeFemaleHung = {
 		localization_key = palatine_female_hung
 	}
 	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = hre_prince_female_hungarian
+	}
+	text = {
 		localization_key = duke_default_female_hung
 		fallback = yes
 	}
 }
 DukeHolderFemaleHung = {
 	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_hungarian
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -9765,12 +9837,34 @@ DukeHolderFemaleHung = {
 		localization_key = palatine_female_holder_hung
 	}
 	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+		}
+		localization_key = title_prince_female_hungarian
+	}
+	text = {
 		localization_key = duke_holder_default_female_hung
 		fallback = yes
 	}
 }
 DuchyHung = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_hungarian
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
