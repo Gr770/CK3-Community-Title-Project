@@ -553,6 +553,44 @@ QueenMArmenian = {
 		localization_key =  king_default_female_armenian
 	}
 }
+QueenMGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_greek
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_greek
+	}
+}
+EmpressMGreek = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_emperor_female_greek
+	}
+	text = {
+		fallback = yes
+		localization_key =  emperor_female_greek
+	}
+}
 PrincePom = {
 	type = character
 	text = {

@@ -215,6 +215,26 @@ title_prince_female_armenian_byzantine_empire = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+queen_mother_armenian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { armenian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_armenian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 149
+	cultures = { armenian }
+	governments = { feudal_government clan_government tribal_government republic_government}
+	top_liege = no
+}
 baron_male_armenian_republic = {
 	type = character
 	gender = male
@@ -490,7 +510,7 @@ title_prince_female_greek_byzantine_empire = {
 	titles = { e_byzantium }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-queen_mother_armenian = {
+queen_mother_greek = {
 	type = character
 	gender = female
 	special = queen_mother
@@ -500,7 +520,7 @@ queen_mother_armenian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-queen_mother_armenian_empire = {
+queen_mother_greek_empire = {
 	type = character
 	gender = female
 	special = queen_mother
