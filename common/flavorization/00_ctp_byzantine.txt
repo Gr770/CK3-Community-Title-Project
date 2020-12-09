@@ -457,7 +457,7 @@ title_prince_male_greek_empire = {
 	tier = empire
 	priority = 149
 	cultures = { greek }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_female_greek_empire = {
@@ -467,7 +467,7 @@ title_prince_female_greek_empire = {
 	tier = empire
 	priority = 149
 	cultures = { greek }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_male_greek_byzantine_empire = {
@@ -478,7 +478,7 @@ title_prince_male_greek_byzantine_empire = {
 	priority = 150
 	cultures = { greek }
 	titles = { e_byzantium }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government tribal_government republic_government }
 }
 title_prince_female_greek_byzantine_empire = {
 	type = character
@@ -488,7 +488,27 @@ title_prince_female_greek_byzantine_empire = {
 	priority = 150
 	cultures = { greek }
 	titles = { e_byzantium }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+queen_mother_armenian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { greek }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_armenian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 149
+	cultures = { greek }
+	governments = { feudal_government clan_government tribal_government republic_government}
+	top_liege = no
 }
 baron_republic_male_greek = {
 	type = character
