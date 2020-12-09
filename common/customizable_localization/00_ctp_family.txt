@@ -734,6 +734,59 @@ QueenMSicilian = {
 		localization_key =  king_default_female_sicilian
 	}
 }
+QueenMCroatian = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_croatian
+	}
+}
+QueenMSerbian = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_serbian
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_serbian
+	}
+}
+QueenMVlach = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_vlach
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_vlach
+	}
+}
 PrincePom = {
 	type = character
 	text = {
