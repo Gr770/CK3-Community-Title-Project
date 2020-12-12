@@ -984,3 +984,53 @@ QueenMRussian = {
 		fallback = yes
 		localization_key =  queen_mother_default_russian
 }
+PrinceTamil = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_tamil
+	}
+}
+PrincessTamil = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_tamil
+	}
+}
+QueenMTamil= {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_tamil
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_tamil
+}
