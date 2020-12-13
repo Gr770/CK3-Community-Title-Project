@@ -211,20 +211,10 @@ CouncilPositionChancellor = {
 	text = {
 		trigger = {
 			OR = {
-				liege.culture = culture:norse
-				liege.culture = culture:norwegian
+				liege.culture_group = culture_group:north_germanic_group
 			}
 		}
-		localization_key = councillor_chancellor_norse_norwegian
-	}
-	text = {
-		trigger = {
-			OR = {
-				liege.culture = culture:swedish
-				liege.culture = culture:danish
-			}
-		}
-		localization_key = councillor_chancellor_swedish_danish
+		localization_key = councillor_chancellor_north_germanic_group
 	}
 ##################################################
 ### Balto-Finnic
@@ -707,10 +697,17 @@ CouncilPositionChancellor = {
 		trigger = {
 			OR = {
 				liege.culture = culture:telugu
+			}
+		}
+		localization_key = councillor_chancellor_telugu
+	}
+	text = {
+		trigger = {
+			OR = {
 				liege.culture = culture:kannada
 			}
 		}
-		localization_key = councillor_chancellor_telugu_kannada
+		localization_key = councillor_chancellor_kannada
 	}
 ##################################################
 ### East African
@@ -1018,19 +1015,21 @@ CouncilPositionSteward = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture = culture:norse
+			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
 		}
-		localization_key = councillor_steward_norse
+		localization_key = councillor_steward_norse_norwegian
 	}
 	text = {
 		trigger = {
 			OR = {
 				liege.culture = culture:swedish
-				liege.culture = culture:norwegian
 				liege.culture = culture:danish
 			}
 		}
-		localization_key = councillor_steward_swedish_norwegian_danish
+		localization_key = councillor_steward_swedish_danish
 	}
 ##################################################
 ### Balto-Finnic
