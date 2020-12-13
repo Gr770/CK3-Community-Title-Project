@@ -693,12 +693,15 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				liege.culture = culture:telugu
-				liege.culture = culture:kannada
-			}
+			liege.culture = culture:telugu
 		}
-		localization_key = councillor_chancellor_telugu_kannada
+		localization_key = councillor_chancellor_telugu
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kannada
+		}
+		localization_key = councillor_chancellor_kannada
 	}
 ##################################################
 ### East African

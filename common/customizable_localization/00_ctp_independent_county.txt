@@ -128,6 +128,32 @@ DanishIndepCounty = {
 		localization_key = independent_county_danish
 	}
 }
+FinnishIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_finnish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_finnish
+	}
+}
+KarelianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_karelian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_karelian
+	}
+}
 SaxonIndepCounty = {
 	type = character
 	text = {
@@ -275,6 +301,19 @@ BulgarianIndepCounty = {
 	text = {
 		fallback = yes
 		localization_key = independent_county_bulgarian
+	}
+}
+MogyerIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_mogyer
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_mogyer
 	}
 }
 HungIndepCounty = {

@@ -33,8 +33,17 @@ AngloSaxonIndepDuchy = {
 		localization_key = duchy_default_anglo_saxon
 	}
 	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_anglo_saxon
+	}
+	text = {
 		fallback = yes
-		localization_key = independent_duchy_anglo_saxon
+		localization_key = kingdom_default_anglo_saxon
 	}
 }
 OldSaxonIndepDuchy = {
@@ -263,6 +272,13 @@ FinnishIndepDuchy = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
+			has_government = tribal_government
+		}
+		localization_key = duchy_tribal_finnish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_finnish
 	}
@@ -294,7 +310,7 @@ KarelianIndepDuchy = {
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_karelian
+		localization_key = kingdom_karelian
 	}
 }
 VepsianIndepDuchy = {
@@ -360,6 +376,19 @@ DutchIndepDuchy = {
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_dutch
+	}
+}
+AndalusianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_arabic_group
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_andalusian
 	}
 }
 GreekIndepDuchy = {
