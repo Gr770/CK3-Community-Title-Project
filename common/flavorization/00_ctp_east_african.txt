@@ -341,12 +341,12 @@ baron_female_holder_nubian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_nubian = {
+barony_feudalclan_nubian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_nubian = {
@@ -636,6 +636,14 @@ barony_republic_nubian = {
 	priority = 103
 	cultures = { nubian }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_nubian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { nubian }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_male_tribal_nubian = {
