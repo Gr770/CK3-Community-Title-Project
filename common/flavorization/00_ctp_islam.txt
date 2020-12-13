@@ -1,0 +1,112 @@
+﻿#############################################
+##         Community Title Project         ##
+##          Title Flavourisation           ##
+#############################################
+###############################################
+## Islam Religions ##
+###############################################
+###############################################
+## Islam Generic##
+###############################################
+caliph_ctp = {
+	type = character
+	special = holder
+	priority = 500
+	titles = { d_sunni d_shiite }
+	top_liege = no
+}
+caliphate_ctp = {
+	type = title
+	priority = 500
+	titles = { d_sunni d_shiite }
+	top_liege = no
+}
+baron_theocracy_islam_religion = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 200
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+barony_theocracy_islam_religion = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 200
+	holding = church_holding
+	religions = { islam_religion }
+}
+count_theocracy_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 210
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+county_theocracy_islam_religion = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 210
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+duke_theocracy_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 220
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+duchy_theocracy_islam_religion = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 220
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+king_theocracy_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 240
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+kingdom_theocracy_islam_religion = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 240
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+emperor_theocracy_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 250
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+empire_theocracy_islam_religion = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 250
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
