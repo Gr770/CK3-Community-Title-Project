@@ -560,3 +560,16 @@ KannadaIndepCounty = {
 		localization_key = independent_county_kannada
 	}
 }
+BengaliIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_bengali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_bengali
+	}
+}
