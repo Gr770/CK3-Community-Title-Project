@@ -163,7 +163,7 @@ QueenMBengali = {
 	}
 	text = {
 		fallback = yes
-		localization_key =  queen_mother__default_bengali
+		localization_key =  queen_mother_default_bengali
 	}
 }
 PrinceOriya = {
@@ -214,6 +214,57 @@ QueenMOriya = {
 	}
 	text = {
 		fallback = yes
-		localization_key =  queen_mother__default_oriya
+		localization_key =  queen_mother_default_oriya
+	}
+}
+PrinceAssamese = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_assamese
+	}
+}
+PrincessAssamese = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_assamese
+	}
+}
+QueenMAssamese = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key =  queen_mother_default_assamese
 	}
 }

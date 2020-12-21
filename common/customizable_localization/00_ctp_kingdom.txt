@@ -3556,3 +3556,106 @@ KingdomOriya = {
 		localization_key = kingdom_default_oriya
 	}
 }
+KingMaleAssamese = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_assamese
+	}
+}
+KingFemaleAssamese = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_assamese
+	}
+}
+KingFemaleHolderAssamese = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_holder_assamese
+	}
+}
+KingdomAssamese = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_assamese
+	}
+}
