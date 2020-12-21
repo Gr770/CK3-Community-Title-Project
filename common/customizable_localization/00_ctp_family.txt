@@ -589,3 +589,54 @@ QueenMKashmiri = {
 		localization_key =  queen_mother_default_kashmiri
 	}
 }
+PrinceSinhala = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_sinhala
+	}
+}
+PrincessSinhala = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_sinhala
+	}
+}
+QueenMSinhala = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key =  empress_mother_sinhala
+	}
+}

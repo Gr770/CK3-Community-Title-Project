@@ -846,3 +846,16 @@ KashmiriIndepDuchy = {
 		localization_key = independent_duchy_kashmiri
 	}
 }
+SinhalaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_sinhala
+	}
+}
