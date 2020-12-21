@@ -807,3 +807,16 @@ RajputIndepDuchy = {
 		localization_key = independent_duchy_rajput
 	}
 }
+SindhiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_sindhi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_sindhi
+	}
+}

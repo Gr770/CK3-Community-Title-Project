@@ -2722,18 +2722,6 @@ duke_male_sindhi_independent = {
 	top_liege = no
 	only_independent = yes
 }
-duke_female_sindhi_independent_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 125
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { sindhi }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
-}
 duke_female_sindhi_independent = {
 	type = character
 	gender = female
@@ -2764,17 +2752,6 @@ king_female_sindhi = {
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { sindhi }
 	top_liege = no
-}
-king_female_sindhi_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { sindhi }
-	top_liege = no
-	only_holder = yes
 }
 emperor_male_sindhi = {
 	type = character
@@ -2899,6 +2876,15 @@ title_prince_female_sindhi_empire = {
 	priority = 150
 	cultures = { sindhi }
 	governments = { feudal_government clan_government tribal_government republic_government }
+}
+queen_mother_sindhi = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { sindhi }
+	governments = { feudal_government clan_government tribal_government }
 }
 baron_republic_male_sindhi = {
 	type = character
