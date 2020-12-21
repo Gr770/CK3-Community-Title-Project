@@ -573,3 +573,16 @@ BengaliIndepCounty = {
 		localization_key = independent_county_bengali
 	}
 }
+OriyaIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_oriya
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_oriya
+	}
+}
