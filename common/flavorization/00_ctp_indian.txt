@@ -1396,21 +1396,27 @@ title_prince_female_hindustani_empire = {
 	cultures = { hindustani }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-baron_republic_male_hindustani = {
+queen_mother_hindustani = {
 	type = character
-	special = holder
-	gender = male
-	tier = barony
-	priority = 103
-	governments = { republic_government }
-	cultures = { hindustani }
-	top_liege = no
-	only_holder = yes
-}
-baron_republic_female_hindustani = {
-	type = character
-	special = holder
 	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { hindustani }
+	governments = { feudal_government clan_government tribal_government }
+}
+empress_mother_hindustani = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { hindustani }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+baron_republic_hindustani = {
+	type = character
+	special = holder
 	tier = barony
 	priority = 103
 	governments = { republic_government }
@@ -1440,10 +1446,9 @@ count_republic_female_hindustani = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_male_hindustani = {
+duke_republic_hindustani = {
 	type = character
 	special = holder
-	gender = male
 	tier = duchy
 	priority = 123
 	governments = { republic_government }
@@ -1451,32 +1456,9 @@ duke_republic_male_hindustani = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_female_hindustani = {
+king_republic_hindustani = {
 	type = character
 	special = holder
-	gender = female
-	tier = duchy
-	priority = 123
-	governments = { republic_government }
-	cultures = { hindustani }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_male_hindustani = {
-	type = character
-	special = holder
-	gender = male
-	tier = kingdom
-	priority = 143
-	governments = { republic_government }
-	cultures = { hindustani }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_female_hindustani = {
-	type = character
-	special = holder
-	gender = female
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }

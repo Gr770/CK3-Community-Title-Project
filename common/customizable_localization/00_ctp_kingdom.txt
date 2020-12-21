@@ -3659,3 +3659,106 @@ KingdomAssamese = {
 		localization_key = kingdom_default_assamese
 	}
 }
+KingMaleHindustani = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_hindustani
+	}
+}
+KingFemaleHindustani = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_hindustani
+	}
+}
+KingFemaleHolderHindustani = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_holder_hindustani
+	}
+}
+KingdomHindustani = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_hindustani
+	}
+}

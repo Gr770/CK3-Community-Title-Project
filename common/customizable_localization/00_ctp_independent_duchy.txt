@@ -755,3 +755,16 @@ AssameseIndepDuchy = {
 		localization_key = independent_duchy_oriya
 	}
 }
+HindustaniIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_hindustani
+	}
+}

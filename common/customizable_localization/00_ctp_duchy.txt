@@ -7181,3 +7181,86 @@ DuchyAssamese = {
 		fallback = yes
 	}
 }
+DukeMaleHindustani = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_hindustani
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_hindustani
+	}
+	text = {
+		localization_key = duke_default_male_hindustani
+		fallback = yes
+	}
+}
+DukeFemaleHindustani = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_hindustani
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_hindustani
+	}
+	text = {
+		localization_key = duke_default_female_hindustani
+		fallback = yes
+	}
+}
+DuchyHindustani = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_hindustani
+	}
+	text = {
+		localization_key = duchy_default_hindustani
+		fallback = yes
+	}
+}
