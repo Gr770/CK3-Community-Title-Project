@@ -488,3 +488,55 @@ QueenMSindhi = {
 		localization_key =  queen_mother_default_sindhi
 	}
 }
+PrinceMarathi = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_male_marathi
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_marathi
+	}
+}
+PrincessMarathi = {
+	type = character
+	text = {
+		trigger = {
+			any_parent = {
+				is_independent_ruler = yes
+				faith = {
+					has_doctrine = tenet_struggle_submission
+				}
+			}
+		}
+		localization_key = sultan_prince_female_marathi
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_marathi
+	}
+}
+QueenMMarathi = {
+	type = character
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_marathi
+	}
+	text = {
+		fallback = yes
+		localization_key =  queen_mother_default_marathi
+	}
+}	}
+}

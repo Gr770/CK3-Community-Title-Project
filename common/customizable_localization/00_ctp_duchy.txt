@@ -7596,3 +7596,86 @@ DuchySindhi = {
 		fallback = yes
 	}
 }
+DukeMaleMarathi = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_marathi
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_marathi
+	}
+	text = {
+		localization_key = duke_default_male_marathi
+		fallback = yes
+	}
+}
+DukeFemaleMarathi = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_marathi
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_marathi
+	}
+	text = {
+		localization_key = duke_default_female_marathi
+		fallback = yes
+	}
+}
+DuchyMarathi = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_marathi
+	}
+	text = {
+		localization_key = duchy_default_marathi
+		fallback = yes
+	}
+}
