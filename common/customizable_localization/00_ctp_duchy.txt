@@ -7845,3 +7845,86 @@ DuchySinhala = {
 		fallback = yes
 	}
 }
+DukeMaleNepali = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_nepali
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_nepali
+	}
+	text = {
+		localization_key = duke_default_male_nepali
+		fallback = yes
+	}
+}
+DukeFemaleNepali = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_nepali
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_nepali
+	}
+	text = {
+		localization_key = duke_default_female_nepali
+		fallback = yes
+	}
+}
+DuchyNepali = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_nepali
+	}
+	text = {
+		localization_key = duchy_default_nepali
+		fallback = yes
+	}
+}

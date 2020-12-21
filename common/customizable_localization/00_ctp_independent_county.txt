@@ -703,3 +703,16 @@ SinhalaIndepCounty = {
 		localization_key = independent_county_sinhala
 	}
 }
+NepaliIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_nepali
+	}
+}

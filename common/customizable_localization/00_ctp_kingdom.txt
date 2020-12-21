@@ -4454,3 +4454,106 @@ KingdomSinhala = {
 		localization_key = kingdom_default_sinhala
 	}
 }
+KingMaleNepali = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_nepali
+	}
+}
+KingFemaleNepali = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_nepali
+	}
+}
+KingFemaleHolderNepali = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_holder_nepali
+	}
+}
+KingdomNepali = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_nepali
+	}
+}
