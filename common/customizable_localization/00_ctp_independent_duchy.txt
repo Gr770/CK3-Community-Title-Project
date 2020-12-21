@@ -833,3 +833,16 @@ MarathiIndepDuchy = {
 		localization_key = independent_duchy_marathi
 	}
 }
+KashmiriIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_kashmiri
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kashmiri
+	}
+}
