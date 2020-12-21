@@ -2148,22 +2148,28 @@ title_prince_female_punjabi_empire = {
 	cultures = { punjabi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-baron_republic_male_punjabi = {
+queen_mother_punjabi = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { punjabi }
+	governments = { feudal_government clan_government tribal_government }
+}
+empress_mother_punjabi = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { punjabi }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+baron_republic_punjabi = {
 	type = character
 	special = holder
 	gender = male
-	tier = barony
-	priority = 103
-	governments = { republic_government }
-	cultures = { punjabi }
-	top_liege = no
-	only_holder = yes
-}
-baron_republic_female_punjabi = {
-	type = character
-	special = holder
-	gender = female
-	tier = barony
 	priority = 103
 	governments = { republic_government }
 	cultures = { punjabi }
@@ -2192,10 +2198,9 @@ count_republic_female_punjabi = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_male_punjabi = {
+duke_republic_punjabi = {
 	type = character
 	special = holder
-	gender = male
 	tier = duchy
 	priority = 123
 	governments = { republic_government }
@@ -2203,32 +2208,9 @@ duke_republic_male_punjabi = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_female_punjabi = {
+king_republic_punjabi = {
 	type = character
 	special = holder
-	gender = female
-	tier = duchy
-	priority = 123
-	governments = { republic_government }
-	cultures = { punjabi }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_male_punjabi = {
-	type = character
-	special = holder
-	gender = male
-	tier = kingdom
-	priority = 143
-	governments = { republic_government }
-	cultures = { punjabi }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_female_punjabi = {
-	type = character
-	special = holder
-	gender = female
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }

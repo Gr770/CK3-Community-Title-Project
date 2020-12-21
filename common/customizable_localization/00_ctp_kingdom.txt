@@ -3865,3 +3865,106 @@ KingdomGujarati = {
 		localization_key = kingdom_default_gujarati
 	}
 }
+KingMalePunjabi = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_punjabi
+	}
+}
+KingFemalePunjabi = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_punjabi
+	}
+}
+KingFemaleHolderPunjabi = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_holder_punjabi
+	}
+}
+KingdomPunjabi = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_punjabi
+	}
+}
