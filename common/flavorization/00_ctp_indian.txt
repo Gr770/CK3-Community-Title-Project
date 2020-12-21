@@ -2524,21 +2524,27 @@ title_prince_female_rajput_empire = {
 	cultures = { rajput }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-baron_republic_male_rajput = {
+queen_mother_rajput = {
 	type = character
-	special = holder
-	gender = male
-	tier = barony
-	priority = 103
-	governments = { republic_government }
-	cultures = { rajput }
-	top_liege = no
-	only_holder = yes
-}
-baron_republic_female_rajput = {
-	type = character
-	special = holder
 	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { rajput }
+	governments = { feudal_government clan_government tribal_government }
+}
+empress_mother_rajput = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { rajput }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+baron_republic_rajput = {
+	type = character
+	special = holder
 	tier = barony
 	priority = 103
 	governments = { republic_government }
@@ -2568,10 +2574,9 @@ count_republic_female_rajput = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_male_rajput = {
+duke_republic_rajput = {
 	type = character
 	special = holder
-	gender = male
 	tier = duchy
 	priority = 123
 	governments = { republic_government }
@@ -2579,32 +2584,9 @@ duke_republic_male_rajput = {
 	top_liege = no
 	only_holder = yes
 }
-duke_republic_female_rajput = {
+king_republic_rajput = {
 	type = character
 	special = holder
-	gender = female
-	tier = duchy
-	priority = 123
-	governments = { republic_government }
-	cultures = { rajput }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_male_rajput = {
-	type = character
-	special = holder
-	gender = male
-	tier = kingdom
-	priority = 143
-	governments = { republic_government }
-	cultures = { rajput }
-	top_liege = no
-	only_holder = yes
-}
-king_republic_female_rajput = {
-	type = character
-	special = holder
-	gender = female
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
