@@ -721,9 +721,52 @@ CouncilPositionChancellor = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-
-## To be added 
-
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:rajput
+				liege.culture = culture:sindhi
+			}
+		}
+		localization_key = councillor_chancellor_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_chancellor_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_chancellor_punjabi
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:marathi
+				liege.culture = culture:nepali
+			}
+		}
+		localization_key = councillor_chancellor_marathi_nepali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_chancellor_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_chancellor_sinhala
+	}
 ##################################################
 ### Iranian
 ##################################################
@@ -1533,9 +1576,69 @@ CouncilPositionSteward = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-
-## To be added 
-
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:marathi
+			}
+		}
+		localization_key = councillor_steward_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_steward_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_steward_punjabi
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_steward_female_rajput
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_steward_male_rajput
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_steward_female_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_steward_male_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_steward_sinhala
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:nepali
+		}
+		localization_key = councillor_steward_nepali
+	}
 ##################################################
 ### Iranian
 ##################################################
@@ -2244,9 +2347,89 @@ CouncilPositionMarshal = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-	
-	#to be added
-	
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_marshal_female_punjabi
+	}
+	text = {
+		trigger = {
+			is_male = no
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:nepali
+			}
+		}
+		localization_key = councillor_marshal_female_bengali
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:nepali
+				liege.culture = culture:punjabi
+			}
+		}
+		localization_key = councillor_marshal_male_bengali
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_marshal_female_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_marshal_male_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:hindustani
+		}
+		localization_key = councillor_marshal_hindustani
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_marshal_rajput
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_marshal_female_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_marshal_male_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_marshal_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_marshal_sinhala
+	}
 ##################################################
 ### Iranian
 ##################################################	
@@ -2947,9 +3130,55 @@ CouncilPositionSpymaster = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-	
-	#to be added
-	
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:rajput
+				liege.culture = culture:sindhi
+			}
+		}
+		localization_key = councillor_spymaster_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_spymaster_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_spymaster_punjabi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_spymaster_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_spymaster_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_spymaster_sinhala
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:nepali
+		}
+		localization_key = councillor_spymaster_nepali
+	}
 ##################################################
 ### Iranian
 ##################################################	
