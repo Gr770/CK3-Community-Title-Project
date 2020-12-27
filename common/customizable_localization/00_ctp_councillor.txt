@@ -1675,7 +1675,9 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:french
+			OR = {
+				liege.culture = culture:french
+			}
 		}
 		localization_key = councillor_marshal_french
 	}
