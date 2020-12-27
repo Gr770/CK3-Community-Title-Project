@@ -1014,7 +1014,7 @@ KingFemaleEstonian = {
 	}
 	text = {
 		fallback = yes
-		localization_key = king_default_female_finnish
+		localization_key = king_default_female_estonian
 	}
 }
 KingdomEstonian = {
@@ -1255,7 +1255,7 @@ KingdomDutch = {
 		localization_key = kingdom_default_dutch
 	}
 }
-KingArabic = {
+KingMaleArabic = {
 	type = character
 	text = {
 		trigger = {
@@ -1299,14 +1299,56 @@ KingArabic = {
 		localization_key = sultan_arabic
 	}
 	text = {
+		fallback = yes
+		localization_key = king_default_male_arabic
+	}
+}
+KingFemaleHolderArabic = {
+	type = character
+	text = {
 		trigger = {
-			has_culture = culture:maghrebi
+			OR = {
+				AND = {
+					is_landed = yes
+					has_culture = culture:andalusian
+					has_religion = religion:christianity_religion
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_culture = culture:andalusian
+						has_religion = religion:christianity_religion
+					}
+				}
+			}
 		}
-		localization_key = king_maghrebi
+		localization_key = king_female_christian_andalusian
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_arabic
 	}
 	text = {
 		fallback = yes
-		localization_key = king_default_arabic
+		localization_key = king_default_female_holder_arabic
 	}
 }
 KingFemaleArabic = {
