@@ -658,38 +658,35 @@
 ########################################################
    baron_male_frankish:0 "Barō"
    baron_female_frankish:0 "Frawjō"
-   barony_frankish:0 "Burg"
+   barony_frankish:0 "Hundarad"
  
-   count_male_frankish:0 "Grāfijō"
-   count_female_frankish_holder:0 "Grāfijini"
-   count_female_frankish:0 "Grāfijiniwīf"
+   count_male_frankish:0 "Grâfijô"
+   count_female_frankish:0 "Grâfijini"
    county_frankish:0 "Gawi"
  
    duke_male_frankish:0 "Harjatogō"
-   duke_female_frankish_holder:0 "Harjatogini"
-   duke_female_frankish:0 "Harjatoginiwīf"
+   duke_female_frankish:0 "Harjatogini"
    duchy_frankish:0 "Harjatogdōm"
  
-   duke_male_frankish_independent:0 "Kuning"
-   duke_female_frankish_independent_holder:0 "Kwāni"
-   duke_female_frankish_independent:0 "Kuningaswīf"
+   duke_male_frankish_independent:0 "$king_male_frankish$"
+   duke_female_frankish_independent:0 "$king_female_frankish$"
    duchy_frankish_independent:0 "[CHARACTER.Custom('FrankishIndepDuchy')]"
    independent_duchy_frankish:0 "Rīkī"
  
    king_male_frankish:0 "Kuning"
-   king_female_frankish_holder:0 "Kwāni"
-   king_female_frankish:0 "Kuningaswīf"
+   king_female_frankish:0 "Kwāni"
    kingdom_frankish:0 "Rīkī"
  
    emperor_male_frankish:0 "Kaisar"
-   emperor_female_frankish_holder:0 "Kaisarini"
-   emperor_female_frankish:0 "Kaisariniwīf"
+   emperor_female_frankish:0 "Kaisarini"
    empire_frankish:0 "Kaisarrīkī"
  
    title_prince_male_frankish:0 "Aþuling"
    title_prince_female_frankish:0 "Kuningasdohter"
    title_prince_male_frankish_empire:0 "$title_prince_male_frankish$"
    title_prince_female_frankish_empire:0 "Kaisarasdohter"
+   queen_mother_frankish:0 "$king_female_frankish$"
+   empress_mother_frankish:0 "$emperor_female_frankish$"
    
    baron_republic_frankish:0 "Skuldhaitijō"
    barony_republic_frankish:0 "Stadi"
@@ -745,15 +742,20 @@
    queen_mother_french:0 "Reine Mere"
    empress_mother_french:0 "Empereriz Mere"
  
-   baron_republic_male_french:0 "Maistre Cité"
-   baron_republic_female_french:0 "Maistresse Cité"
-   barony_republic_french:0 "Cité"
-   county_republic_french:0 "Capitol"
+   baron_republic_male_french:0 "Maire"
+   baron_republic_female_french:0 "Mairesse"
+   barony_republic_french:0 "Vile"
+   count_republic_french:0 "Prevoz"
+   county_republic_french:0 "Comune"
+   duke_republic_french:0 "Baillis"
+   duchy_republic_french:0 "Balliage"
+   king_republic_french:0 "Consul"
+   kingdom_republic_french:0 "Republique"
 ########################################################
   #Norman
 ########################################################
    baron_male_norman:0 "Ber"
-   baron_female_norman:0 "Baronne"
+   baron_female_norman:0 "Barone"
    barony_norman:0 "Baronie"
  
    count_male_norman:0 "[CHARACTER.Custom('CountMaleNorman')]"
@@ -784,7 +786,7 @@
    king_female_norman:0 "Reigne"
    kingdom_norman:0 "Regnes"
  
-   emperor_male_norman:0 "Empérere"
+   emperor_male_norman:0 "Emperere"
    emperor_female_norman:0 "Emperesse"
    empire_norman:0 "Empires"
  
@@ -797,9 +799,13 @@
  
    baron_republic_male_norman:0 "Maire"
    baron_republic_female_norman:0 "Mairesse"
-   barony_republic_norman:0 "Cité"
-   count_republic_norman:0 "Prévôt"
-   county_republic_norman:0 "Capitol"
+   barony_republic_norman:0 "Vile"
+   count_republic_norman:0 "Prevoz"
+   county_republic_norman:0 "Comune"
+   duke_republic_norman:0 "Baillis"
+   duchy_republic_norman:0 "Balliage"
+   king_republic_norman:0 "Consul"
+   kingdom_republic_norman:0 "Republique"
 ########################################################
   #Occitan
 ########################################################
