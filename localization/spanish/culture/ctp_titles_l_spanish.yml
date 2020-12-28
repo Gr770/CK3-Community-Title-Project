@@ -2405,6 +2405,59 @@
    baron_republic_georgian:0 "Amirtamira"
    barony_republic_georgian:0 "Kalaki"
 ######################################################## 
+  #Alan
+########################################################
+   baron_male_alan:0 "Wæzdan"
+   baron_female_alan:0 "Æfsinæ"
+   barony_feudalclan_alan:0 "Galwan"
+   
+   count_male_alan:0 "Xucaw"
+   count_female_alan:0 "Us-xucaw"
+   county_alan:0 "Xucawad"
+   
+   count_male_alan_independent:0 "$duke_male_alan$"
+   count_female_alan_independent:0 "$duke_female_alan$"
+   county_alan_independent:0 "[CHARACTER.Custom('AlanIndepCounty')]"
+   
+   duke_male_alan:0 "[CHARACTER.Custom('DukeMaleAlan')]"
+   duke_female_alan:0 "[CHARACTER.Custom('DukeFemaleAlan')]"
+   duchy_alan:0 "[CHARACTER.Custom('DuchyAlan')]"
+   marquess_male_alan:0 "Arænty Xucaw"
+   marquess_female_alan:0 "Arænty Us-xucaw"
+   march_alan:0 "Aræn"
+   palatine_male_alan:0 "Ærdary Xucaw"
+   palatine_female_alan:0 "Ærdary Us-xucaw"
+   duke_default_male_alan:0 "Ærdar"
+   duke_default_female_alan:0 "Æxsinæ"
+   duchy_default_alan:0 "Ærdarad"
+   
+   king_male_alan:0 "[CHARACTER.Custom('KingMaleAlan')]"
+   king_female_alan:0 "[CHARACTER.Custom('KingFemaleAlan')]"
+   kingdom_alan:0 "[CHARACTER.Custom('KingdomAlan')]"
+   sultan_male_alan:0 "Xuyndædžer"
+   sultan_female_alan:0 "Us-xuyndædžer"
+   sultanate_alan:0 "Xuyndædžerad"
+   king_default_male_alan:0 "Sax"
+   king_default_female_alan:0 "Us-sax"
+   kingdom_default_alan:0 "Saxad"
+   
+   emperor_male_alan:0 "Padcax"
+   emperor_female_alan:0 "Us-padcax"
+   empire_alan:0 "Padcaxad"
+   
+   title_prince_alan:0 "$ctp_blank$"
+   queen_mother_alan:0 "$ctp_blank$"
+   title_prince_alan_empire:0 "$ctp_blank$"
+   queen_mother_alan_empire:0 "$ctp_blank$"
+   
+   baron_male_republic_alan:0 "Xistær"
+   baron_female_republic_alan:0 "Us-xistær"
+   barony_republic_alan:0 "Kalak"
+   count_republic_alan:0 "Kalakyxucaw"
+   county_republic_alan:0 "Kalakyston"
+   
+   barony_tribal_alan:0 "Qæw"
+######################################################## 
   #Assyrian
 ########################################################
    baron_male_assyrian:0 "Mārā"
@@ -2425,9 +2478,11 @@
    palatine_female_assyrian:0 "Palaṭīnāytā"
    palatinate_assyrian:0 "Palaṭīnāyūṯā"
    byzantine_duke_male_assyrian:0"ʿEsṭrāṭēḡā"
-   duke_default_male_assyrian:0 "Hepparḵā"
-   duke_default_female_assyrian:0 "Hepparḵəṯā"
-   duchy_default_assyrian:0 "Hepparḵūṯā"
+   byzantine_duke_female_assyrian:0 "ʾEsṭrāṭēḡīsā"
+   byzantine_duchy_assyrian:0 "ʾEsṭrāṭēḡūṯā"
+   duke_default_male_assyrian:0 "ʾAmīrā"
+   duke_default_female_assyrian:0 "ʾAmīrtā"
+   duchy_default_assyrian:0 "ʾAmīrūṯā"
  
    duke_male_assyrian_independent:0 "Malkōnā"
    duke_female_assyrian_independent:0 "Malkəṯōnītā"
@@ -2439,6 +2494,8 @@
    king_female_assyrian:0 "[CHARACTER.Custom('DuchyAssyrian')]"
    kingdom_assyrian:0 "[CHARACTER.Custom('DuchyAssyrian')]"
    byzantine_king_male_assyrian:0 "ʾEksarkā"
+   byzantine_king_female_assyrian:0 "ʾEksarkīsā"
+   byzantine_kingdom_assyrian:0 "ʾEksarkūṯā"
    sultan_male_assyrian:0 "Šulṭānā"
    sultan_female_assyrian:0 "Šulṭānīṯā"
    sultanate_assyrian:0 "Šulṭānūṯā"
@@ -2449,6 +2506,7 @@
    emperor_male_assyrian:0 "Malkā d-Malkē"
    byzantine_emperor_male_assyrian:0 "Basīliyūsā"
    emperor_female_assyrian:0 "Malkəṯā d-Malkāṯā"
+   byzantine_emperor_female_assyrian:0 "Basīlīsā"
    empire_assyrian:0 "Rēš Malkūṯā"
  
    title_prince_male_assyrian:0 "[CHARACTER.Custom('PrinceAssyrian')]"
@@ -2456,12 +2514,13 @@
    title_prince_male_assyrian_empire:0 "$prince_default_male_assyrian$"
    title_prince_female_assyrian_empire:0 "$prince_default_female_assyrian$"
    title_prince_male_assyrian_byzantine_empire:0 "Qēsarā"
+   title_prince_female_assyrian_byzantine_empire:0 "Qēsarīsā"
    sultan_prince_male_assyrian:0 "Bar Šulṭānā"
    sultan_prince_female_assyrian:0 "Baṯ Šulṭānā"
    prince_default_male_assyrian:0 "Bar Malkā"
    prince_default_female_assyrian:0 "Baṯ Malkā"
    queen_mother_assyrian:0 "[CHARACTER.Custom('QueenMAssyrian')]"
-   queen_mother_assyrian_empire:0 "$emperor_female_assyrian$"
+   queen_mother_assyrian_empire:0 "[CHARACTER.Custom('EmpressMAssyrian')]"
  
    baron_republic_male_assyrian:0 "Raḇ Qrīṯā"
    baron_republic_female_assyrian:0 "Rabbā Qrīṯā"

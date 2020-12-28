@@ -462,6 +462,12 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_chancellor_alan
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:assyrian
 			is_male = yes
 		}
@@ -1314,6 +1320,12 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_steward_alan
+	}
+	text = {
+		trigger = {
 			is_male = yes
 			liege.culture = culture:assyrian
 		}
@@ -2087,6 +2099,19 @@ CouncilPositionMarshal = {
 			liege.culture = culture:georgian
 		}
 		localization_key = councillor_marshal_georgian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:alan
+			is_male = no
+		}
+		localization_key = councillor_marshal_alan_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_marshal_alan_male
 	}
 	text = {
 		trigger = {
@@ -2912,6 +2937,12 @@ CouncilPositionSpymaster = {
 			liege.culture = culture:georgian
 		}
 		localization_key = councillor_spymaster_georgian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_spymaster_alan
 	}
 	text = {
 		trigger = {

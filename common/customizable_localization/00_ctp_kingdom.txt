@@ -1602,6 +1602,80 @@ KingdomGreek = {
 		localization_key = kingdom_default_greek
 	}
 }
+KingMaleAlan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_alan
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_alan
+	}
+}
+KingFemaleAlan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_alan
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_alan
+	}
+}
+KingdomAlan = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_alan
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_alan
+	}
+}
 KingMaleAssyrian = {
 	type = character
 	text = {
@@ -1643,6 +1717,14 @@ KingFemaleAssyrian = {
 	type = character
 	text = {
 		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_king_female_assyrian
+	}
+	text = {
+		trigger = {
 			OR = {
 				AND = {
 					is_independent_ruler = yes
@@ -1670,6 +1752,14 @@ KingFemaleAssyrian = {
 }
 KingdomAssyrian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_kingdom_assyrian
+	}
 	text = {
 		trigger = {
 			is_independent_ruler = yes

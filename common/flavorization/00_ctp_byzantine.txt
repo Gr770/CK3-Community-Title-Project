@@ -1134,6 +1134,269 @@ barony_republic_georgian= {
 	top_liege = no
 }
 ###############################################
+## Alan ##
+###############################################
+baron_male_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_feudalclan_alan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_male_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_alan = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_alan_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_alan_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+county_alan_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_alan = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_male_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_alan = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_alan = {
+	type = title
+	tier = empire
+	priority = 153
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_alan = {
+	type = character
+	special = ruler_child
+	tier = kingdom 
+	priority = 1 #temp will be blank for now
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_alan = {
+	type = character
+	special = queen_mother
+	tier = kingdom
+	priority = 1 #temp will be blank for now
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_alan_empire = {
+	type = character
+	special = ruler_child
+	tier = empire
+	priority = 1 #temp will be blank for now
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_alan_empire = {
+	type = character
+	special = queen_mother
+	tier = empire
+	priority = 1 #temp will be blank for now
+	cultures = { alan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_male_republic_alan = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { republic_government }
+	top_liege = no
+}
+baron_female_republic_alan = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_republic_alan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_alan = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 113
+	cultures = { alan }
+	governments = { republic_government }
+	top_liege = no
+}
+county_republic_alan = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { alan }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_alan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { alan }
+	governments = { tribal_government }
+	top_liege = no
+}
+###############################################
 ## Assyrian ##
 ###############################################
 baron_male_assyrian = {
@@ -1294,7 +1557,18 @@ byzantine_emperor_male_assyrian = {
 	gender = male
 	special = holder
 	tier = empire
-	priority = 153
+	priority = 154
+	cultures = { assyrian }
+	titles = { e_byzantium }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+byzantine_emperor_female_assyrian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
 	cultures = { assyrian }
 	titles = { e_byzantium }
 	governments = { republic_government feudal_government clan_government tribal_government }
@@ -1381,6 +1655,16 @@ queen_mother_assyrian_empire = {
 title_prince_male_assyrian_byzantine_empire = {
 	type = character
 	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { assyrian }
+	titles = { e_byzantium }
+	governments = { feudal_government clan_government tribal_government }
+}
+title_prince_female_assyrian_byzantine_empire = {
+	type = character
+	gender = female
 	special = ruler_child
 	tier = empire
 	priority = 150
