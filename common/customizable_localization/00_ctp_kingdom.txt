@@ -1717,6 +1717,14 @@ KingFemaleAssyrian = {
 	type = character
 	text = {
 		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_king_female_assyrian
+	}
+	text = {
+		trigger = {
 			OR = {
 				AND = {
 					is_independent_ruler = yes
@@ -1744,6 +1752,14 @@ KingFemaleAssyrian = {
 }
 KingdomAssyrian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_kingdom_assyrian
+	}
 	text = {
 		trigger = {
 			is_independent_ruler = yes

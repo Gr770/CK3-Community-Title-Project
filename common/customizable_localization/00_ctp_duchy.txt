@@ -6519,6 +6519,14 @@ DukeFemaleAssyrian = {
 		localization_key = palatine_female_assyrian
 	}
 	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_duke_female_assyrian
+	}
+	text = {
 		localization_key = duke_default_female_assyrian
 		fallback = yes
 	}
@@ -6536,6 +6544,14 @@ DuchyAssyrian = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_assyrian
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_primary_title = title:e_byzantium
+			}
+		}
+		localization_key = byzantine_duchy_assyrian
 	}
 	text = {
 		localization_key = duchy_default_assyrian
