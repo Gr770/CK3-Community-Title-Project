@@ -141,6 +141,19 @@ FinnishIndepCounty = {
 		localization_key = independent_county_finnish
 	}
 }
+SamiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_sami
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_sami
+	}
+}
 KarelianIndepCounty = {
 	type = character
 	text = {

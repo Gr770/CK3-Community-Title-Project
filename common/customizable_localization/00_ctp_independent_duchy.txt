@@ -287,6 +287,19 @@ FinnishIndepDuchy = {
 		localization_key = independent_duchy_finnish
 	}
 }
+SamiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_sami
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_sami
+	}
+}
 EstonianIndepDuchy = {
 	type = character
 	text = {
