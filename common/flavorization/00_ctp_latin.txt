@@ -1168,6 +1168,25 @@ empress_mother_cisalpine = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+baron_republic_cisalpine = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sardinian } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_cisalpine = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sardinian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
 ###############################################
 ## Sardinian Culture
 
