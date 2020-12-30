@@ -1427,7 +1427,10 @@ KingMaleArmenian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_armenian
@@ -1509,7 +1512,10 @@ KingMaleGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_greek
@@ -1546,7 +1552,10 @@ KingFemaleGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_greek
@@ -1583,7 +1592,10 @@ KingdomGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_greek
@@ -1681,7 +1693,10 @@ KingMaleAssyrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_assyrian
@@ -1718,7 +1733,10 @@ KingFemaleAssyrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_assyrian
@@ -1755,7 +1773,10 @@ KingdomAssyrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_assyrian
@@ -1779,7 +1800,10 @@ KingMaleItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_italian
@@ -1816,7 +1840,10 @@ KingFemaleItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_italian
@@ -1853,7 +1880,10 @@ KingdomItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_italian
@@ -1872,12 +1902,122 @@ KingdomItalian = {
 		localization_key = kingdom_default_italian
 	}
 }
+KingMaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_king_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_roman
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_roman
+	}
+}
+KingFemaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_king_female
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_roman
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_roman
+	}
+}
+KingdomRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_kingdom
+	}
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_roman
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_roman
+	}
+}
 KingMaleCisalpine = {
 	type = character
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_italian
@@ -1914,7 +2054,10 @@ KingFemaleCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_italian
@@ -1951,7 +2094,10 @@ KingdomCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_italian
@@ -1975,7 +2121,10 @@ KingMaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_sardinian
@@ -2012,7 +2161,10 @@ KingFemaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_sardinian
@@ -2049,7 +2201,10 @@ KingdomSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_sardinian
@@ -2073,7 +2228,10 @@ KingMaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_male_sardinian
@@ -2110,7 +2268,10 @@ KingFemaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_king_female_sardinian
@@ -2147,7 +2308,10 @@ KingdomSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_kingdom_sardinian
@@ -2172,7 +2336,10 @@ KingMaleCroatian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2200,7 +2367,10 @@ KingFemaleCroatian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2229,7 +2399,10 @@ KingdomCroatian = {
 			OR = {
 				has_faith = faith:orthodox
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 			}
 		}
@@ -2246,7 +2419,10 @@ KingMaleSerbian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2296,7 +2472,10 @@ KingFemaleSerbian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2347,7 +2526,10 @@ KingdomSerbian = {
 			OR = {
 				has_faith = faith:orthodox
 				root.top_liege = {
+					OR = {
 					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 				}
 			}
 		}
@@ -2447,7 +2629,10 @@ KingMaleBulgarian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2475,7 +2660,10 @@ KingFemaleBulgarian = {
 		trigger = {
 			OR = {
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2504,7 +2692,10 @@ KingdomBulgarian = {
 			OR = {
 				has_faith = faith:orthodox
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 			}
 		}
@@ -2595,7 +2786,10 @@ KingMaleCzech = {
 		trigger = {
 			OR = {
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2645,7 +2839,10 @@ KingFemaleCzech = {
 		trigger = {
 			OR = {
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 				AND = {
 					has_faith = faith:orthodox
@@ -2696,7 +2893,10 @@ KingdomCzech = {
 			OR = {
 				has_faith = faith:orthodox
 				root.top_liege = {
-					has_primary_title = title:e_byzantium
+					OR = {
+						has_primary_title = title:e_byzantium
+						has_primary_title = title:e_roman_empire
+					}
 				}
 			}
 		}

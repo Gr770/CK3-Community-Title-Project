@@ -631,7 +631,27 @@ emperor_female_roman = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_roman_holder = {
+empire_roman = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { roman }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+true_roman_emperor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { roman }
+	only_holder = yes
+	titles = { e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+true_roman_empress = {
 	type = character
 	gender = female
 	special = holder
@@ -639,14 +659,7 @@ emperor_female_roman_holder = {
 	priority = 154
 	cultures = { roman } 
 	only_holder = yes
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-empire_roman = {
-	type = title
-	priority = 153
-	tier = empire
-	cultures = { roman }
+	titles = { e_roman_empire }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -687,6 +700,28 @@ title_prince_female_roman_empire = {
 	tier = empire
 	priority = 150
 	cultures = { roman } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_the_roman_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 151
+	cultures = { roman } 
+	titles = { e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_the_roman_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 151
+	cultures = { roman }
+	titles = { e_roman_empire }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }

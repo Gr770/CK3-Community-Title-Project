@@ -4546,7 +4546,10 @@ CountMaleGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_greek
@@ -4561,7 +4564,10 @@ CountFemaleGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_greek
@@ -4576,7 +4582,10 @@ CountyGreek = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_greek
@@ -4618,7 +4627,10 @@ CountMaleItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_italian
@@ -4740,7 +4752,10 @@ CountFemaleItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_italian
@@ -4865,7 +4880,10 @@ CountyItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_italian
@@ -4914,6 +4932,343 @@ CountyItalian = {
 		fallback = yes
 	}
 }
+CountMaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = very_shameful_roman_male
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_male_roman_independent
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_count_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = liege
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						exists = liege
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_male_roman_independent
+	}
+	text = {
+		localization_key = count_default_male_roman
+		fallback = yes
+	}
+}
+CountFemaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = very_shameful_roman_female
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_female_roman_independent
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_count_female
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = liege
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						exists = liege
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_female_roman_independent
+	}
+	text = {
+		localization_key = count_default_female_roman
+		fallback = yes
+	}
+}
+CountyRoman = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			is_male = yes
+			is_independent_ruler = no
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = very_shameful_roman_mas
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			is_male = no
+			is_independent_ruler = no
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = very_shameful_roman_fem
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_county
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_roman
+	}
+	text = {
+		localization_key = county_default_roman
+		fallback = yes
+	}
+}
 CountMaleCisalpine = {
 	type = character
 	text = {
@@ -4946,7 +5301,10 @@ CountMaleCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_italian
@@ -5068,7 +5426,10 @@ CountFemaleCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_italian
@@ -5193,7 +5554,10 @@ CountyCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_italian
@@ -5274,7 +5638,10 @@ CountMaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_sardinian
@@ -5396,7 +5763,10 @@ CountFemaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_sardinian
@@ -5519,7 +5889,10 @@ CountySardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_sardinian
@@ -5600,7 +5973,10 @@ CountMaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_sicilian
@@ -5722,7 +6098,10 @@ CountFemaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_sicilian
@@ -5847,7 +6226,10 @@ CountySicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_sicilian
@@ -5901,7 +6283,10 @@ CountMaleCroatian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_croatian
@@ -5916,7 +6301,10 @@ CountFemaleCroatian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_croatian
@@ -5931,7 +6319,10 @@ CountyCroatian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_croatian
@@ -5946,7 +6337,10 @@ CountMaleSerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_serbian
@@ -5961,7 +6355,10 @@ CountFemaleSerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_serbian
@@ -5976,7 +6373,10 @@ CountySerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_serbian
@@ -5991,7 +6391,10 @@ CountMaleBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_male_bulgarian
@@ -6006,7 +6409,10 @@ CountFemaleBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_count_female_bulgarian
@@ -6021,7 +6427,10 @@ CountyBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_county_bulgarian
