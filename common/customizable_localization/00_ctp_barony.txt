@@ -368,6 +368,61 @@ BaronySicilian = {
 		fallback = yes
 	}
 }
+BaronMaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_baron_male_lombard
+	}
+	text = {
+		localization_key = baron_male_lombard_default
+		fallback = yes
+	}
+}
+
+BaronFemaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_baron_female_lombard
+	}
+	text = {
+		localization_key = baron_female_lombard_default
+		fallback = yes
+	}
+}
+BaronyLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_barony_lombard
+	}
+	text = {
+		localization_key = barony_feudal_lombard_default
+		fallback = yes
+	}
+}
 BaronMaleCroatian = {
 	type = character
 	text = {
