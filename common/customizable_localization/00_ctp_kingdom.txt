@@ -2330,6 +2330,113 @@ KingdomSicilian = {
 		localization_key = kingdom_default_sicilian
 	}
 }
+KingMaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_king_male_lombard
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_lombard
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_lombard
+	}
+}
+KingFemaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_king_female_lombard
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_lombard
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_lombard
+	}
+}
+KingdomLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_lombard
+	}
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_lombard
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_lombard
+	}
+}
 KingMaleCroatian = {
 	type = character
 	text = {

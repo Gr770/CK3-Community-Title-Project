@@ -2985,12 +2985,21 @@
    
    duke_male_lombard_independent:0 "Princeps"
    duke_female_lombard_independent:0 "Principissa"
-   duchy_lombard_independent
+   duchy_lombard_independent:0 "[CHARACTER.Custom('LombardIndepDuchy')]"
    independent_duchy_lombard:0 "Principatus"
    
-   king_male_lombard
-   king_female_lombard
-   kingdom_lombard
+   king_male_lombard:0 "[CHARACTER.Custom('KingMaleLombard')]"
+   king_female_lombard:0 "[CHARACTER.Custom('KingFemaleLombard')]"
+   kingdom_lombard:0 "[CHARACTER.Custom('KingdomLombard')]"
+   byzantine_king_male_lombard
+   byzantine_king_female_lombard
+   byzantine_kingdom_lombard
+   sultan_male_lombard:0 "Sultanus"
+   sultan_female_lombard:0 "Sultana"
+   sultanate_lombard:0 "Sultanatus"
+   king_default_male_lombard:0 "Rex"
+   king_default_female_lombard:0 "Regina"
+   kingdom_default_lombard:0 "Regnum"
    
    emperor_male_lombard:0 "Imperator"
    emperor_female_lombard:0 "Imperatrix"
@@ -3002,7 +3011,7 @@
    title_prince_female_lombard_empire:0 "$title_prince_female_lombard$"
    title_prince_male_lombard_roman_empire:0 "Caesar"
    title_prince_female_lombard_roman_empire:0 "Caesarissa"
-   queen_mother_lombard
+   queen_mother_lombard:0 "[CHARACTER.Custom('QueenMLombard')]"
    empress_mother_lombard:0 "$emperor_female_lombard$"
    
    baron_republic_lombard:0 "Locopositus"
