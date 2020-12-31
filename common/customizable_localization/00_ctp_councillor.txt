@@ -531,6 +531,18 @@ CouncilPositionChancellor = {
 		}
 		localization_key = councillor_chancellor_roman_female
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:sardinian
+		}
+		localization_key = councillor_chancellor_sardinian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_chancellor_lombard
+	}
 ##################################################
 ### South Slavic
 ##################################################
@@ -1389,6 +1401,12 @@ CouncilPositionSteward = {
 		}
 		localization_key = councillor_steward_roman_female
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_steward_lombard
+	}
 ##################################################
 ### South Slavic
 ##################################################
@@ -2175,6 +2193,12 @@ CouncilPositionMarshal = {
 			liege.culture = culture:sardinian
 		}
 		localization_key = councillor_marshal_sardinian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_marshal_lombard
 	}
 ##################################################
 ### Southern Slavic
@@ -3008,6 +3032,12 @@ CouncilPositionSpymaster = {
 			is_male = no
 		}
 		localization_key = councillor_spymaster_roman_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_spymaster_lombard
 	}
 ##################################################
 ### Southern Slavic
