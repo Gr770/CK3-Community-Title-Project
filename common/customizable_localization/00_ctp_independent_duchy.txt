@@ -408,7 +408,10 @@ GreekIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_greek
 	}
@@ -440,6 +443,15 @@ AssyrianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = byzantine_duchy_assyrian
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_assyrian
@@ -453,7 +465,10 @@ ItalianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_italian
 	}
@@ -472,6 +487,15 @@ RomanIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = surpreme_roman_duchy
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_roman
@@ -485,7 +509,10 @@ CisalpineIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_italian
 	}
@@ -504,7 +531,10 @@ SardinianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_sardinian
 	}
@@ -523,7 +553,10 @@ SicilianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_sardinian
 	}
@@ -538,11 +571,36 @@ SicilianIndepDuchy = {
 		localization_key = independent_duchy_sicilian
 	}
 }
+LombardIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = byzantine_duchy_lombard
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_lombard
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_lombard
+	}
+}
 CroatianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_croatian
 	}
@@ -561,7 +619,10 @@ SerbianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_serbian
 	}

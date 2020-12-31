@@ -566,7 +566,10 @@ QueenMGreek = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -580,8 +583,11 @@ EmpressMGreek = {
 	type = character
 	text = {
 		trigger = {
-			root.top_liege = {
-				has_primary_title = title:e_byzantium
+			any_child = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_emperor_female_greek
@@ -647,7 +653,10 @@ EmpressMAssyrian = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -670,7 +679,10 @@ QueenMItalian = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -693,7 +705,10 @@ QueenMCisalpine = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -716,7 +731,10 @@ QueenMSardinian = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -739,7 +757,10 @@ QueenMSicilian = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -749,12 +770,41 @@ QueenMSicilian = {
 		localization_key =  king_default_female_sicilian
 	}
 }
+QueenMLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultan_female_lombard
+	}
+	text = {
+		trigger = {
+			any_child = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key =  king_default_female_lombard
+	}
+}
 QueenMCroatian = {
 	type = character
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
@@ -777,7 +827,10 @@ QueenMSerbian = {
 	text = {
 		trigger = {
 			any_child = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = ctp_blank
