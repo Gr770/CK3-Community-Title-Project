@@ -2868,6 +2868,15 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
+			liege = {
+				has_primary_title = title:e_hre
+				has_culture = culture:dutch
+			}
+		}
+		localization_key = councillor_spymaster_hre_dutch
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:dutch
 		}
 		localization_key = councillor_spymaster_dutch
