@@ -741,6 +741,19 @@ HungIndepDuchy = {
 		localization_key = independent_duchy_hung
 	}
 }
+AkanIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_akan
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_akan
+	}
+}
 TamilIndepDuchy = {
 	type = character
 	text = {
