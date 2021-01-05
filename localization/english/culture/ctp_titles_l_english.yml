@@ -4607,11 +4607,11 @@
   #Kannada
 ######################################################
    baron_male_kannada: "Gāuḍa"
-   baron_female_kannada: "Gāuḍa"
+   baron_female_kannada: "Gāuḍi"
    barony_kannada: "Khampaṇa"
    
    count_male_kannada: "Nāḍgāuḍa"
-   count_female_kannada: "Nāḍgāuḍa"
+   count_female_kannada: "Nāḍgāuḍi"
    county_kannada: "Nāḍ"
    
    count_male_kannada_independent: "Nṛpa"
@@ -4708,6 +4708,8 @@
 
    baron_republic_ethiopian: "Käntiba"
    barony_republic_ethiopian: "Hagarit"
+   
+   duchy_tribal_ethiopian: "Angadä"
 ########################################################
   #Nubian Culture
 ########################################################
@@ -4759,13 +4761,34 @@
    baron_female_republic_nubian: "Daukatt"
    barony_republic_nubian: "Dipp"
 
-   barony_tribal_nubian: "$county_tribal_nubian$"
+   barony_tribal_nubian: "Erk"
    count_male_tribal_nubian: "Ouran"
    count_female_tribal_holder_nubian: "Ouran"
    county_tribal_nubian: "Jer"
    duke_male_tribal_nubian: "Ouranudauel"
    duke_female_tribal_holder_nubian: "Ouranudauel"
    duchy_tribal_nubian: "Jerudauel"
+########################################################
+  #Welayta Culture
+########################################################
+   count_male_welayta: "Gódàà"
+   county_welayta: "Gódààtettaa"
+   
+   duke_male_welayta_independent: "Motalami"
+   duke_female_welayta_independent: "Kawiya"
+   duke_female_welayta_holder_independent: "$duke_male_welayta_independent$"
+   
+   king_male_welayta: "Kawó"
+   king_female_welayta: "Abéntá"
+   king_female_welayta_holder: "Kawiya"
+   kingdom_welayta: "Kawótettaa"
+   
+   emperor_male_welayta: "Kaatíntá"
+   emperor_female_welayta: "$king_female_welayta$"
+   emperor_female_welayta_holder: "$emperor_male_welayta$"
+   
+   queen_mother_welayta: "$king_female_welayta$"
+   empress_mother_welayta: "$king_female_welayta$"
 ########################################################
   #Daju Culture
 ########################################################
@@ -4796,6 +4819,11 @@
    emperor_male_daju: "Ɓónnò"
    emperor_female_daju: "Ùré-ɓónnò"
    empire_daju: "Ɓóndìgé"
+   
+   queen_mother_daju: "$king_female_daju$"
+   empress_mother_daju: "$emperor_female_daju$"
+   
+   barony_republic_daju: "Héllé"
 ########################################################
  #Indo-Aryan
 ########################################################
