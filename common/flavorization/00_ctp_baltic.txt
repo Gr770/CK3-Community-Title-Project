@@ -2,910 +2,836 @@
 ##         Community Title Project         ##
 ##          Title Flavourisation           ##
 #############################################
-## None of this are cleaned
 ###############################################
-## East African ##
-###############################################
-
-###############################################
-## Ethiopian ##
+## Baltic_culture_group ##
 ###############################################
 
-#tribal is temporary
-baron_male_ethiopian = {
+###############################################
+#Latgalian
+
+baron_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_ethiopian = {
+baron_female_latgalian = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_holder_ethiopian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 104
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-barony_ethiopian = {
+barony_latgalian = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_male_ethiopian = {
+count_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { ethiopian }
+	tier = county
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_female_ethiopian = {
+count_female_latgalian = {
 	type = character
 	gender = female
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_feudalclan_female_holder_ethiopian = {
-	type = character
-	gender = female
-	special = holder
 	tier = county
-	priority = 114
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_holder = yes
 }
-county_feudalclan_ethiopian = {
+county_latgalian = {
 	type = title
-	tier = county
 	priority = 113
-	cultures = { ethiopian }
+	tier = county
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_male_ethiopian = {
+duke_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_female_ethiopian = {
+duke_female_latgalian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_feudalclan_ethiopian = {
+duchy_latgalian = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_male_ethiopian_independent = {
+king_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { ethiopian }
+	priority = 143
+	tier = kingdom
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-duke_feudalclan_female_ethiopian_independent = {
+king_female_latgalian = {
 	type = character
 	gender = female
 	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { ethiopian }
+	priority = 143
+	tier = kingdom
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-duchy_feudalclan_ethiopian_independent = {
+kingdom_latgalian = {
 	type = title
-	tier = duchy
-	priority = 124
-	cultures = { ethiopian }
+	priority = 143
+	tier = kingdom
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-king_male_ethiopian = {
+emperor_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_ethiopian = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_holder_ethiopian = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 144
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-kingdom_ethiopian = {
-	type = title
-	tier = kingdom
-	priority = 143
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-emperor_male_ethiopian = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 143
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government republic_government tribal_government }
-	top_liege = no
-}
-emperor_female_ethiopian = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
 	priority = 153
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government republic_government tribal_government }
-	top_liege = no
-}
-emperor_female_holder_ethiopian = {
-	type = character
-	gender = female
-	special = holder
 	tier = empire
-	priority = 154
-	cultures = { ethiopian }
-	governments = { feudal_government clan_government republic_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-empire_ethiopian = {
-	type = title
-	tier = empire
-	priority = 153
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_male_ethiopian = {
+emperor_female_latgalian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { latgalian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_latgalian = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { latgalian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_latgalian = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_female_ethiopian = {
+title_prince_female_latgalian = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_ethiopian_empire = {
+title_prince_male_latgalian_empire = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_female_ethiopian_empire = {
+title_prince_female_latgalian_empire = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-queen_mother_ethiopian = {
+queen_mother_latgalian ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_ethiopian = {
+empress_mother_latgalian ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_ethiopian = {
+baron_republic_latgalian = {
 	type = character
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_ethiopian = {
+barony_republic_latgalian = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { ethiopian }
+	cultures = { latgalian }
 	governments = { republic_government }
 	top_liege = no
 }
+###############################################
+#Lithuanian
 
+baron_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_lithuanian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_feudalclan_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+county_feudalclan_lithuanian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_feudalclan_lithuanian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+king_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_lithuanian = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_lithuanian = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_lithuanian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_lithuanian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_lithuanian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_lithuanian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_lithuanian ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_lithuanian ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { lithuanian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_lithuanian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_tribal_male_lithuanian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_lithuanian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_lithuanian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { lithuanian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_lithuanian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { lithuanian }
+	governments = { tribal_government }
+	top_liege = no
+}
 ###############################################
-## Nubian ##
-###############################################
+#Prussian
 
-baron_male_nubian = {
+baron_male_prussian = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_nubian = {
+baron_female_prussian = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_holder_nubian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 104
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-barony_feudalclan_nubian = {
+barony_prussian = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_male_nubian = {
+count_feudalclan_male_prussian = {
 	type = character
 	gender = male
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { nubian }
+	tier = county
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_female_nubian = {
+count_feudalclan_female_prussian = {
 	type = character
 	gender = female
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { nubian }
+	tier = county
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_feudalclan_female_holder_nubian = {
-	type = character
-	gender = female
-	special = holder
+county_feudalclan_prussian = {
+	type = title
+	priority = 113
 	tier = county
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_feudalclan_male_prussian_independent = {
+	type = character
+	gender = male
+	special = holder
 	priority = 114
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_holder = yes
-}
-county_feudalclan_nubian = {
-	type = title
 	tier = county
-	priority = 113
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
 	top_liege = no
+	only_independent = yes
 }
-duke_feudalclan_male_nubian = {
+count_feudalclan_female_prussian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_prussian_independent = {
+	type = title
+	priority = 114
+	tier = county
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_feudalclan_male_prussian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_female_nubian = {
+duke_feudalclan_female_prussian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_feudalclan_female_holder_nubian = {
-	type = character
-	gender = female
-	special = holder
+duchy_feudalclan_prussian = {
+	type = title
 	tier = duchy
+	priority = 123
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_feudalclan_male_prussian_independent = {
+	type = character
+	gender = male
+	special = holder
 	priority = 124
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_holder = yes
-}
-duchy_feudalclan_nubian = {
-	type = title
 	tier = duchy
-	priority = 123
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government }
+	only_independent = yes
 	top_liege = no
 }
-duke_feudalclan_male_nubian_independent = {
+duke_feudalclan_female_prussian_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+duchy_feudalclan_prussian_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { prussian }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+king_male_prussian = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
-	priority = 125
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	priority = 143
+	tier = kingdom
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-duke_feudalclan_female_nubian_independent = {
+king_female_prussian = {
 	type = character
 	gender = female
 	special = holder
-	tier = duchy
-	priority = 125
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	priority = 143
+	tier = kingdom
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-duke_feudalclan_female_nubian_holder_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 126
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
-}
-duchy_feudalclan_nubian_independent = {
+kingdom_prussian = {
 	type = title
-	tier = duchy
-	priority = 125
-	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	priority = 143
+	tier = kingdom
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-king_male_nubian = {
+emperor_male_prussian = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	priority = 153
+	tier = empire
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-king_female_nubian = {
+emperor_female_prussian = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
+	priority = 153
+	tier = empire
+	cultures = { prussian }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-king_female_nubian_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 144
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-kingdom_nubian = {
+empire_prussian = {
 	type = title
-	tier = kingdom
-	priority = 143
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-emperor_male_nubian = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
 	priority = 153
-	cultures = { nubian }
+	tier = empire
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_nubian = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-emperor_female_nubian_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-	only_holder = yes
-}
-empire_nubian = {
-	type = title
-	tier = empire
-	priority = 153
-	cultures = { nubian }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-title_prince_male_nubian = {
+title_prince_male_prussian = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_female_nubian = {
+title_prince_female_prussian = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_nubian_empire = {
+title_prince_male_prussian_empire = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_female_nubian_empire = {
+title_prince_female_prussian_empire = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-queen_mother_nubian = {
+queen_mother_prussian ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_nubian = {
+empress_mother_prussian ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_male_republic_nubian = {
+baron_republic_prussian = {
 	type = character
-	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
 }
-baron_female_republic_nubian = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { nubian }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-barony_republic_nubian = {
+barony_republic_prussian = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_nubian = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { nubian }
-	governments = { tribal_government }
-	top_liege = no
-}
-count_male_tribal_nubian = {
+count_tribal_male_prussian = {
 	type = character
 	gender = male
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { nubian }
+	tier = county
+	cultures = { prussian }
 	governments = { tribal_government }
 	top_liege = no
 }
-count_female_tribal_holder_nubian = {
+count_tribal_female_prussian = {
 	type = character
 	gender = female
 	special = holder
-	tier = county
-	priority = 114
-	cultures = { nubian }
-	governments = { tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-county_tribal_nubian = {
-	type = title
-	tier = county
 	priority = 113
-	cultures = { nubian }
+	tier = county
+	cultures = { prussian }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_male_tribal_nubian = {
+county_tribal_prussian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { prussian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_prussian = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
 	priority = 123
-	cultures = { nubian }
+	tier = duchy
+	cultures = { prussian }
 	governments = { tribal_government }
 	top_liege = no
 }
-duke_female_tribal_holder_nubian = {
+duke_tribal_female_prussian = {
 	type = character
 	gender = female
 	special = holder
+	priority = 123
 	tier = duchy
-	priority = 124
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { tribal_government }
 	top_liege = no
-	only_holder = yes
 }
-duchy_tribal_nubian = {
+duchy_tribal_prussian = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { nubian }
+	cultures = { prussian }
 	governments = { tribal_government }
-	top_liege = no
-}
-###############################################
-## Daju ##
-###############################################
-baron_male_daju = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-baron_female_daju = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-barony_daju = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_male_daju = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_female_daju = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-county_daju = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_male_daju_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 114
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-count_female_daju_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 114
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-county_daju_independent = {
-	type = title
-	tier = county
-	priority = 114
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_male_daju = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_female_daju = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_daju = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_daju_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_female_daju_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_daju_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-king_male_daju = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_daju = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-kingdom_daju = {
-	type = title
-	tier = kingdom
-	priority = 143
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-emperor_male_daju = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-emperor_female_daju = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-empire_daju = {
-	type = title
-	tier = empire
-	priority = 153
-	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }

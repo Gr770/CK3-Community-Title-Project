@@ -741,17 +741,56 @@ HungIndepDuchy = {
 		localization_key = independent_duchy_hung
 	}
 }
-AkanIndepDuchy = {
+PrussianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_akan
+    localization_key = duchy_feudalclan_prussian
 	}
 	text = {
 		fallback = yes
-		localization_key = kingdom_akan
+		localization_key = independent_land_prussian
+	}
+}
+AkanIndepDuchy = {
+  type = character
+  text = {
+	  trigger = {
+			 highest_held_title_tier >= tier_kingdom
+	  }
+	  localization_key = duchy_akan
+	}
+  text = {
+	  fallback = yes
+	  localization_key = kingdom_akan
+    }
+}
+HausaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_hausa
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_hausa
+	}
+}
+HanIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_han
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_han
 	}
 }
 TamilIndepDuchy = {
@@ -799,19 +838,6 @@ EthiopianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_default_ethiopian
-	}
-	text = {
-		fallback = yes
-		localization_key = independent_duchy_ethiopian
-	}
-}
-EthiopianIndepDuchy = {
-	type = character
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_kingdom
-		}
 		localization_key = duchy_feudalclan_ethiopian
 	}
 	text = {
@@ -830,6 +856,19 @@ NubianIndepDuchy = {
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_nubian
+	}
+}
+DajuIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_daju
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_daju
 	}
 }
 BengaliIndepDuchy = {
