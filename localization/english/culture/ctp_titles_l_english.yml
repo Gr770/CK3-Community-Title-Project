@@ -4130,6 +4130,113 @@
    count_tribal_female_severian_volhynian:0 "Vožĭ"
    county_tribal_old_east_slavic:0 "Plemä"
 ######################################################
+ #Central African Culture Group
+######################################################
+  #Kanuri
+######################################################
+   baron_male_kanuri: "Cíyàmà Gàná"
+   baron_female_kanuri: "Cíyàmà Gàná"
+   
+   count_male_kanuri: "Cíyàmà Kúrà"
+   count_female_kanuri: "Cíyàmà Kúrà"
+   
+   count_male_kanuri_independent: "$king_male_kanuri$"
+   count_female_holder_kanuri_independent: "$king_female_holder_kanuri$"
+   count_female_kanuri_independent: "$king_female_kanuri$"
+   county_kanuri_independent: "$kingdom_kanuri$"
+   
+   duke_male_kanuri_independent: "$king_male_kanuri$"
+   duke_female_holder_kanuri_independent: "$king_female_holder_kanuri$"
+   duke_female_kanuri_independent: "$king_female_kanuri$"
+   duchy_kanuri_independent: "$kingdom_kanuri$"
+   
+   king_male_kanuri: "Mâì"
+   king_female_holder_kanuri: "Mâì"
+   king_female_kanuri: "Gúmsù"
+   kingdom_kanuri: "Kèrmâi"
+   
+   title_prince_male_kanuri: "Mâinà"
+   title_prince_female_kanuri: "Mâiràm"
+   queen_mother_kanuri: "Makkíra"
+   
+   baron_republic_kanuri: "Màigàɽí"
+######################################################
+  #Hausa
+######################################################
+   baron_male_hausa: "Ùbangidā"
+   baron_female_hausa: "Uwar̃gidā"
+   barony_feudalclan_hausa: "Gidā"
+   
+   count_male_hausa: "Magā̀jī"
+   count_female_hausa: "Magājìyā"
+   county_hausa: "Magā̀jinta"
+   
+   duke_male_hausa: "Másaraucī"
+   duke_female_hausa: "Másaráucia"
+   duchy_hausa: "Masarautā"
+   
+   duke_male_hausa_independent: "$king_male_hausa$"
+   duke_female_holder_hausa_independent: "$king_female_holder_hausa$"
+   duke_female_hausa_independent: "$king_female_hausa$"
+   duchy_hausa_independent: "[CHARACTER.Custom('HausaIndepDuchy')]"
+   
+   king_male_hausa: "Sarkī"
+   king_female_holder_hausa: "Sarkánya"
+   king_female_hausa: "Saraunìyā"
+   kingdom_hausa: "Sàrautā̀"
+   
+   emperor_male_hausa: "Sarkin Sàràkai"
+   emperor_female_holder_hausa: "Sarkányar Sárakúna"
+   emperor_female_hausa: "Saraunìyar̃ Saraunìyai"
+   
+   title_prince_male_hausa: "Yàr̃īmà"
+   title_prince_female_hausa: "Gimbiya"
+   title_prince_male_hausa_empire: "$title_prince_male_hausa$"
+   title_prince_female_hausa_empire: "$title_prince_female_hausa$"
+   queen_mother_hausa: "$king_female_hausa$"
+   empress_mother_hausa: "$emperor_female_hausa$"
+   
+   baron_republic_hausa: "Màigàrī"
+   barony_republic_hausa: "Gàrī"
+   
+   barony_tribal_hausa: "Ḳauye"
+######################################################
+  #Nupe
+######################################################
+   baron_male_nupe: "Emitso"
+   baron_female_nupe: "$baron_male_nupe$"
+   barony_nupe: "Èfù"
+   
+   count_male_nupe: "Zhìtsu"
+   count_female_nupe: "$count_male_nupe$"
+   county_nupe: "Ezhì"
+   
+   duke_male_nupe: "Gítsu"
+   duke_female_nupe: "$duke_male_nupe$"
+   
+   duke_male_nupe_independent: "$king_male_nupe$"
+   duke_female_nupe_independent: "$king_female_nupe$"
+   duchy_nupe_independent: "$kingdom_nupe$"
+   
+   king_male_nupe: "Etsu"
+   king_female_nupe: "Mãgajìya"
+   kingdom_nupe: "Sã̀rǒta"
+   
+   emperor_male_nupe: "Etsu Nupe"
+   emperor_female_nupe: "Mãgajìya Nupe"
+   
+   title_prince_male_nupe: "Gítsu"
+   title_prince_female_nupe: "$title_prince_male_nupe$"
+   title_prince_male_nupe_empire: "$title_prince_male_nupe$"
+   title_prince_female_nupe_empire: "$title_prince_male_nupe$"
+   queen_mother_nupe: "$king_female_nupe$"
+   empress_mother_nupe: "$emperor_female_nupe$"
+   
+   baron_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+   barony_republic_hausa: "Tunga"
+   count_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+   county_republic_hausa: "Ezhì"
+######################################################
  #Chinese Culture Group
 ######################################################
   #Han

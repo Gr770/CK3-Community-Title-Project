@@ -754,6 +754,19 @@ PrussianIndepDuchy = {
 		localization_key = independent_land_prussian
 	}
 }
+HausaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_hausa
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_hausa
+	}
+}
 HanIndepDuchy = {
 	type = character
 	text = {
