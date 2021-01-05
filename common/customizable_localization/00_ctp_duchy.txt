@@ -10896,6 +10896,40 @@ DuchyRus = {
 		fallback = yes
 	}
 }
+DukeMaleBurmese = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_burmese
+	}
+	text = {
+		localization_key = duke_default_male_burmese
+		fallback = yes
+	}
+}
+DuchyBurmese = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_burmese
+	}
+	text = {
+		localization_key = duchy_default_burmese
+		fallback = yes
+	}
+}
 DukeMaleHan = {
 	type = character
 	text = {
