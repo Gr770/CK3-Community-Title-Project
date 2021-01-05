@@ -747,12 +747,25 @@ PrussianIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_feudalclan_prussian
+    localization_key = duchy_feudalclan_prussian
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_land_prussian
 	}
+}
+AkanIndepDuchy = {
+  type = character
+  text = {
+	  trigger = {
+			 highest_held_title_tier >= tier_kingdom
+	  }
+	  localization_key = duchy_akan
+	}
+  text = {
+	  fallback = yes
+	  localization_key = kingdom_akan
+    }
 }
 HausaIndepDuchy = {
 	type = character
