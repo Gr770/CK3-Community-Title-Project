@@ -4287,9 +4287,9 @@
    queen_mother_nupe: "$king_female_nupe$"
    empress_mother_nupe: "$emperor_female_nupe$"
    
-   baron_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+   baron_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
    barony_republic_hausa: "Tunga"
-   count_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+   count_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
    county_republic_hausa: "Ezhì"
 ######################################################
  #Chinese Culture Group
@@ -4362,43 +4362,71 @@
 ######################################################
   #Akan
 ######################################################
-   baron_male_akan:0 "Owúrà"
-   baron_female_akan:0 "Awuráa"
-   barony_akan:0 "Asàsé"
+   baron_male_akan: "Owúrà"
+   baron_female_akan: "Awuráa"
+   barony_akan: "Asàsé"
    
-   count_male_akan:0 "Ohéne"
-   count_female_akan:0 "Ohémmaa"
-   county_akan:0 "Ahenni"
+   count_male_akan: "Ohéne"
+   count_female_akan: "Ohémmaa"
+   county_akan: "Ahenni"
    
-   duke_male_akan:0 "Omã́ṅhéne"
-   duke_female_akan:0 "Omã́ṅhémmaa"
-   duchy_akan:0 "Omãṅ"
+   duke_male_akan: "Omã́ṅhéne"
+   duke_female_akan: "Omã́ṅhémmaa"
+   duchy_akan: "Omãṅ"
    
-   duke_male_akan_independent:0 "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
-   duke_female_akan_independent:0 "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
-   duke_male_akan_independent_holder:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
-   duke_female_akan_independent_holder:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
-   duchy_akan_independent:0 "[CHARACTER.Custom('AkanIndepDuchy')]"
+   duke_male_akan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
+   duke_female_akan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
+   duke_male_akan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
+   duke_female_akan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
+   duchy_akan_independent: "[CHARACTER.Custom('AkanIndepDuchy')]"
    
-   king_male_akan:0 "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
-   king_female_akan:0 "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
-   king_male_akan_holder:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
-   king_female_akan_holder:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
-   kingdom_akan:0 "Ahemmáṅ"
+   king_male_akan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
+   king_female_akan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
+   king_male_akan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hene"
+   king_female_akan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]hemmaa"
+   kingdom_akan: "Ahemmáṅ"
    
-   emperor_male_akan:0 "Ohempoṅ"
-   emperor_female_akan:0 "Ohémmaa"
-   empire_akan:0 "Ahempoṅ"
+   emperor_male_akan: "Ohempoṅ"
+   emperor_female_akan: "Ohémmaa"
+   empire_akan: "Ahempoṅ"
    
-   title_prince_male_akan:0 "Ohéneba"
-   title_prince_female_akan:0 "Ohenebábea"
-   title_prince_male_akan_empire:0 "$title_prince_male_akan$"
-   title_prince_female_akan_empire:0 "$title_prince_female_akan$"
-   queen_mother_akan:0 "$emperor_female_akan$"
-   empress_mother_akan:0 "$emperor_female_akan$"
+   title_prince_male_akan: "Ohéneba"
+   title_prince_female_akan: "Ohenebábea"
+   title_prince_male_akan_empire: "$title_prince_male_akan$"
+   title_prince_female_akan_empire: "$title_prince_female_akan$"
+   queen_mother_akan: "$emperor_female_akan$"
+   empress_mother_akan: "$emperor_female_akan$"
    
-   baron_republic_akan:0 "Odekŭrow"
-   barony_republic_akan:0 "Kŭrow"
+   baron_republic_akan: "Odekŭrow"
+   barony_republic_akan: "Kŭrow"
+######################################################
+  #Kru
+######################################################
+   count_male_kru: "Oranhba"
+   king_female_kru: "Gide"
+   kingdom_kru: "Dible"
+######################################################
+  #Guan
+######################################################
+   baron_male_guan: "Enyenpe"
+   
+   count_male_guan: "Ewura"
+   
+   duke_male_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   duke_female_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   duke_male_guan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   duke_female_guan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   
+   king_male_guan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   king_female_guan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   king_male_guan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   king_female_guan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+
+   emperor_male_guan: "Gbinipewura"
+   emperor_female_guan: "Gbinipewura"
+   
+   queen_mother_guan: "Ewurache"
+   empress_mother_guan: "$queen_mother_guan$"
 ######################################################
  #Dravidian Culture Group
 ######################################################
