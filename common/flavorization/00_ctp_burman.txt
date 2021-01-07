@@ -1,0 +1,278 @@
+﻿#############################################
+##         Community Title Project         ##
+##          Title Flavourisation           ##
+#############################################
+###############################################
+## Burman Culture Group ##
+###############################################
+## Burmese ##
+baron_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { burmese }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { burmese }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_burmese = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_burmese = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_burmese_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duchy_burmese_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+king_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_holder_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_burmese = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_burmese = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_burmese = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_burmese ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_burmese ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+###############################################
+## Mon ##
+baron_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_mon = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_mon = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_mon = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_mon = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_mon ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_republic_mon = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { mon }
+	governments = { republic_government }
+	top_liege = no
+}

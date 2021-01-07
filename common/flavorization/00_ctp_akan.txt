@@ -1,11 +1,10 @@
-#############################################
+﻿#############################################
 ##         Community Title Project         ##
 ##          Title Flavourisation           ##
 #############################################
 #############################################
 ## Akan_culture_group ##
 #############################################
-
 baron_male_akan = {
 	type = character
 	gender = male
@@ -300,5 +299,187 @@ barony_republic_akan = {
 	priority = 103
 	cultures = { akan }
 	governments = { republic_government }
+	top_liege = no
+}
+#############################################
+## Kru_culture_group ##
+#############################################
+count_male_kru = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { kru }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_kru = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { kru }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_kru = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { kru }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+#############################################
+## Guan_culture_group ##
+#############################################
+baron_male_guan = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_guan = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_guan_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_guan_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_guan_independent_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
+duke_female_guan_independent_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
+king_male_guan = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_guan = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_male_guan_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_guan_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+emperor_male_guan = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { guan }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_guan = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { guan }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_guan = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 140
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_guan = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { guan }
+	governments = { republic_government feudal_government clan_government tribal_government }
 	top_liege = no
 }
