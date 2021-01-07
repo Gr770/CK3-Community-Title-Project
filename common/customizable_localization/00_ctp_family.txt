@@ -219,14 +219,20 @@ PrinceDNorse = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -243,14 +249,20 @@ PrincessDNorse = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -267,14 +279,20 @@ PrinceNor = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -291,14 +309,20 @@ PrincessENor = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -315,14 +339,20 @@ PrincessKNor = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -339,14 +369,20 @@ PrinceSweDan = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -363,14 +399,20 @@ PrincessESweDan = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -387,14 +429,20 @@ PrincessKSweDan = {
 	text = {
 		trigger = {
 			OR = {
-				root.father = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = father
+					root.father = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
-				root.mother = {
-					any_heir = {
-						this = root
+				AND = {
+					exists = mother
+					root.mother = {
+						any_heir = {
+							this = root
+						}
 					}
 				}
 			}
@@ -1051,6 +1099,7 @@ QueenMRussian = {
 	text = {
 		fallback = yes
 		localization_key =  queen_mother_default_russian
+	}
 }
 PrinceTamil= {
 	type = character

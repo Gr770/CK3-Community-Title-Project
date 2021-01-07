@@ -1392,10 +1392,10 @@
   
   count_male_north_germanic_group_independent: "Dróttinn"
   count_female_north_germanic_group_independent: "Dróttning"
-  county_north_germanic_group_independent: "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
+  county_north_germanic_group_independent: "[CHARACTER.Custom('NorthGermanicIndepCounty')]"
   
   duke_male_north_germanic_group: "[CHARACTER.Custom('DukeMaleNorth')]"
-  duke_female_north_germanic_group: "[CHARACTER.Custom('NorseNorwegianIndepCounty')]"
+  duke_female_north_germanic_group: "[CHARACTER.Custom('DukeFemaleNorth')]"
   duchy_north_germanic_group: "Jarldómr"
   duke_default_male_north: "Jarl"
   duke_default_female_north: "Jarlynja"
@@ -2050,8 +2050,8 @@
    baron_female_butr: "Takuratit"
    barony_butr: "Taddart"
    
-   count_male_butr: "Amɣar"
-   count_female_butr: "Tamɣart"
+   count_male_butr: "Amğar"
+   count_female_butr: "Tamğart"
    
    duke_male_butr: "Amir"
    duke_female_butr: "Tamirt"
@@ -2068,7 +2068,7 @@
    title_prince_male_butr: "Ajeldun"
    queen_mother_butr: "$king_female_butr$"
    
-   baron_republic_butr: "Amɣiwan"
+   baron_republic_butr: "Amğiwan"
    barony_republic_butr: "Tamdint"
 ######################################################
   #Baranis
@@ -2077,8 +2077,8 @@
    baron_female_baranis: "Takuratit"
    barony_baranis: "Taddart"
    
-   count_male_baranis: "Amɣar"
-   count_female_baranis: "Tamɣart"
+   count_male_baranis: "Amğar"
+   count_female_baranis: "Tamğart"
    
    duke_male_baranis: "Amir"
    duke_female_baranis: "Tamirt"
@@ -2095,7 +2095,7 @@
    title_prince_male_baranis: "Ageldun"
    queen_mother_baranis: "$king_female_baranis$"
    
-   baron_republic_baranis: "Amɣiwan"
+   baron_republic_baranis: "Amğiwan"
    barony_republic_baranis: "Tamdint"
 ######################################################
  #Arabic Culture Group
@@ -2159,11 +2159,11 @@
   king_default_female_holder_arabic: "Ḥurrat al-Malika"
   kingdom_default_arabic: "Mamlaka"
  
-  emperor_feudalclan_male_arabic_group: "Malik al-Mulūk"
-  emperor_feudalclan_female_arabic_group: "Malikat al-Malikāt"
-  empire_feudalclan_arabic_group: "Mulk"
-  emperor_feudalclan_male_andalusian_christian: "ʿInbiraṭūr"
-  emperor_feudalclan_female_andalusian_christian: "ʿInbirāṭūra"
+  emperor_male_arabic_group: "Malik al-Mulūk"
+  emperor_female_arabic_group: "Malikat al-Malikāt"
+  empire_arabic_group: "Mulk"
+  emperor_male_andalusian_christian: "ʿInbiraṭūr"
+  emperor_female_andalusian_christian: "ʿInbirāṭūra"
  
   title_prince_male_arabic_group: "ʿAmīr"
   title_prince_female_arabic_group: "ʿAmīra"
@@ -2182,7 +2182,7 @@
   count_republic_male_arabic_group: "Raʿīs"
   count_republic_female_arabic_group: "Raʿīsa"
   county_republic_arabic_group: "Madinat Kubrā"
-  duke_republic_male_arabic_group: "Raʿīs al-Ruʿasāʾ"
+  duke_republic_male_arabic_group: "Raʿīs al-Ruʿasāʿ"
   duke_republic_female_arabic_group: "Raʿīsat al-Ruʿasāʾ"
   duchy_republic_arabic_group: "Dawla"
   king_republic_male_arabic_group: "Raʿīs al-Dawlah"
@@ -3046,9 +3046,9 @@
    king_male_lombard: "[CHARACTER.Custom('KingMaleLombard')]"
    king_female_lombard: "[CHARACTER.Custom('KingFemaleLombard')]"
    kingdom_lombard: "[CHARACTER.Custom('KingdomLombard')]"
-   byzantine_king_male_lombard
-   byzantine_king_female_lombard
-   byzantine_kingdom_lombard
+   byzantine_king_male_lombard: "Exarchus"
+   byzantine_king_female_lombard: "Exarchissa"
+   byzantine_kingdom_lombard: "Exarchatus"
    sultan_male_lombard: "Sultanus"
    sultan_female_lombard: "Sultana"
    sultanate_lombard: "Sultanatus"
@@ -3541,7 +3541,7 @@
    duke_feudalclan_male_polish_independent: "Książę"
    duke_feudalclan_female_polish_independent: "Księżna"
    duchy_feudalclan_polish_independent: "[CHARACTER.Custom('PolishIndepDuchy')]"
-   independent_duchy_polish: "Księstwo
+   independent_duchy_polish: "Księstwo"
 
    kurfurst_male_polish: "Książę Elektor"
    kurfurst_female_polish: "Księżna Elektor"
@@ -3654,7 +3654,7 @@
    count_tribal_female_polabian: "Widźă"
    county_tribal_polabian: "Plimą"
    duke_tribal_male_polabian: "Wilťă Widz"
-   duke_tribal_female_polabian: "Wilťă Widźă
+   duke_tribal_female_polabian: "Wilťă Widźă"
    duchy_tribal_polabian: "Wilťă Plimą"
 ######################################################
   #Slovien
@@ -3930,7 +3930,7 @@
    empire_latgalian: "Keizariste"
    
    title_prince_male_latgalian: "Princs"
-   title_prince_female_latgalian "Priniene"
+   title_prince_female_latgalian: "Priniene"
    title_prince_male_latgalian_empire: "$title_prince_male_latgalian$"
    title_prince_female_latgalian_empire: "$title_prince_female_latgalian$"
    queen_mother_latgalian: "$king_female_latgalian$"
@@ -4802,23 +4802,23 @@
    
    count_male_daju_independent: "$duke_male_daju$"
    count_female_daju_independent: "$duke_female_daju$"
-   county_daju_independent:: "[CHARACTER.Custom('DajuIndepCounty')]"
+   county_daju_independent: "[CHARACTER.Custom('DajuIndepCounty')]"
    
-   duke_male_daju: "Ɓùgé"
+   duke_male_daju: "Bùgé"
    duke_female_daju: "Ùré-bùgé"
-   duchy_daju: "Ɓùgédìgé"
+   duchy_daju: "Bùgédìgé"
    
    duke_male_daju_independent: "$king_male_daju$"
    duke_female_daju_independent: "$king_female_daju$"
    duchy_daju_independent: "[CHARACTER.Custom('DajuIndepDuchy')]"
    
-   king_male_daju: "Ɓùgúr"
-   king_female_daju: "Ùré-ɓùgúr"
-   kingdom_daju: "Ɓùgúrdìgé"
+   king_male_daju: "Bùgúr"
+   king_female_daju: "Ùré-bùgúr"
+   kingdom_daju: "Bùgúrdìgé"
    
-   emperor_male_daju: "Ɓónnò"
-   emperor_female_daju: "Ùré-ɓónnò"
-   empire_daju: "Ɓóndìgé"
+   emperor_male_daju: "Bónnò"
+   emperor_female_daju: "Ùré-bónnò"
+   empire_daju: "Bóndìgé"
    
    queen_mother_daju: "$king_female_daju$"
    empress_mother_daju: "$emperor_female_daju$"
