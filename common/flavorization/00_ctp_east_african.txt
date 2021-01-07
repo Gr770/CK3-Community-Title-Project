@@ -115,7 +115,7 @@ duchy_feudalclan_ethiopian = {
 	tier = duchy
 	priority = 123
 	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 duke_feudalclan_male_ethiopian_independent = {
@@ -305,11 +305,17 @@ barony_republic_ethiopian = {
 	governments = { republic_government }
 	top_liege = no
 }
-
+duchy_tribal_ethiopian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { ethiopian }
+	governments = { tribal_government }
+	top_liege = no
+}
 ###############################################
 ## Nubian ##
 ###############################################
-
 baron_male_nubian = {
 	type = character
 	gender = male
@@ -702,5 +708,383 @@ duchy_tribal_nubian = {
 	priority = 123
 	cultures = { nubian }
 	governments = { tribal_government }
+	top_liege = no
+}
+###############################################
+## Welayta ##
+###############################################
+count_male_welayta = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_welayta = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_welayta_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_welayta_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_welayta_holder_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
+king_male_welayta = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_welayta = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_welayta_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_welayta = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_welayta = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_welayta = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_welayta_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
+}
+queen_mother_welayta = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_welayta = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+###############################################
+## Daju ##
+###############################################
+baron_male_daju = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_daju = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_daju = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_daju = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_daju = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_daju = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_daju_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_daju_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+county_daju_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_daju = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_daju = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_daju = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_daju_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_daju_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_daju_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_daju = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_daju = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_daju = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_daju = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_daju = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empire_daju = {
+	type = title
+	tier = empire
+	priority = 153
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_daju = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_daju = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { daju }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+barony_republic_daju = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	governments = { republic_government }
 	top_liege = no
 }

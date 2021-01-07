@@ -631,7 +631,27 @@ emperor_female_roman = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_roman_holder = {
+empire_roman = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { roman }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+true_roman_emperor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { roman }
+	only_holder = yes
+	titles = { e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+true_roman_empress = {
 	type = character
 	gender = female
 	special = holder
@@ -639,14 +659,7 @@ emperor_female_roman_holder = {
 	priority = 154
 	cultures = { roman } 
 	only_holder = yes
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-empire_roman = {
-	type = title
-	priority = 153
-	tier = empire
-	cultures = { roman }
+	titles = { e_roman_empire }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -687,6 +700,28 @@ title_prince_female_roman_empire = {
 	tier = empire
 	priority = 150
 	cultures = { roman } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_the_roman_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 151
+	cultures = { roman } 
+	titles = { e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_the_roman_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 151
+	cultures = { roman }
+	titles = { e_roman_empire }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -1132,6 +1167,25 @@ empress_mother_cisalpine = {
 	cultures = { cisalpine } 
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
+}
+baron_republic_cisalpine = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sardinian } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+barony_republic_cisalpine = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sardinian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
 }
 ###############################################
 ## Sardinian Culture
@@ -1713,8 +1767,279 @@ empress_mother_sicilian = {
 ###############################################
 ## Lombard
 
-## To be Added 
-
+baron_male_lombard = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_lombard = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { lombard }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_lombard = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_lombard = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { lombard }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_lombard = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_lombard = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { lombard }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_lombard_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { lombard } 
+	only_independent = yes
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_lombard_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { lombard }
+	only_independent = yes
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_lombard_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { lombard }
+	only_independent = yes
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_male_lombard = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_lombard = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { lombard }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_lombard = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { lombard } 
+	governments = { feudal_government republic_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	cultures = { lombard } 
+	governments = { feudal_government republic_government clan_government tribal_government }
+	top_liege = no
+}
+empire_lombard = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { lombard }
+	governments = { feudal_government republic_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_lombard = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_lombard = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_lombard_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 149
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_lombard_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 149
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_lombard_roman_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { lombard }
+	titles = { e_byzantium e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_lombard_roman_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { lombard } 
+	titles = { e_byzantium e_roman_empire }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_lombard = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_lombard = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { lombard } 
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_lombard = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lombard } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_lombard = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { lombard } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
 ###############################################
 ## End of Latin_culture_group ##
 ###############################################
