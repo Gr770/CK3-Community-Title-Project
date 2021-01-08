@@ -65,6 +65,37 @@ county_feudalclan_finnish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+count_feudalclan_male_finnish_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+count_feudalclan_female_finnish_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+county_feudalclan_finnish_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { finnish }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_finnish = {
 	type = character
 	gender = male
@@ -93,34 +124,34 @@ duchy_feudalclan_finnish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_feudalclan_male_finnish_independent = {
+duke_male_finnish_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 124
 	cultures = { finnish }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
-duke_feudalclan_female_finnish_independent = {
+duke_female_finnish_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 124
 	cultures = { finnish }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
-duchy_feudalclan_finnish_independent = {
+duchy_finnish_independent = {
 	type = title
 	tier = duchy
 	priority = 124
 	cultures = { finnish }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -180,6 +211,28 @@ empire_finnish = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_finnish_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+title_prince_female_finnish_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 title_prince_male_finnish = {
 	type = character
 	gender = male
@@ -220,6 +273,17 @@ title_prince_female_finnish_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+queen_mother_finnish_duchy_independent = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	priority = 121
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 queen_mother_finnish = {
 	type = character
 	gender = female
@@ -228,6 +292,16 @@ queen_mother_finnish = {
 	priority = 130
 	cultures = { finnish }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_finnish_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { finnish }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 baron_republic_finnish = {
@@ -312,6 +386,215 @@ duchy_tribal_finnish = {
 	governments = { tribal_government }
 	top_liege = no
 }
+
+###############################################
+## Sami  Culture
+
+baron_male_sami = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_sami = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_sami = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_sami = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_sami = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_sami = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_sami_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_sami_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+county_sami_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_sami = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_sami = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_sami = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_sami_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_sami_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_sami_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_sami = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_sami = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_sami = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_sami = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_sami = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_sami = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { sami }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+
 ###############################################
 ## Estonian  Culture
 
@@ -526,6 +809,26 @@ title_prince_female_estonian_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+queen_mother_estonian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_estonian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { estonian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 baron_republic_estonian = {
 	type = character
 	special = holder
@@ -721,6 +1024,37 @@ county_feudalclan_karelian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+count_feudalclan_male_karelian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_karelian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_karelian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { karelian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_karelian = {
 	type = character
 	gender = male
@@ -756,7 +1090,7 @@ duke_feudalclan_male_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
@@ -767,7 +1101,7 @@ duke_feudalclan_female_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
 }
@@ -776,7 +1110,7 @@ duchy_feudalclan_karelian_independent = {
 	tier = duchy
 	priority = 124
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -836,6 +1170,26 @@ empire_karelian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_karelian_duchy_independent = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_karelian_duchy_independent = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 title_prince_male_karelian = {
 	type = character
 	gender = male
@@ -870,6 +1224,36 @@ title_prince_female_karelian_empire = {
 	type = character
 	gender = female
 	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_karelian_duchy_independent = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	priority = 121
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_karelian = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { karelian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_karelian_empire = {
+	type = character
+	gender = female
+	special = queen_mother
 	tier = empire
 	priority = 150
 	cultures = { karelian }

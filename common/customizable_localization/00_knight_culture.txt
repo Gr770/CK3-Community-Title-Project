@@ -77,6 +77,12 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_frankish
+	}
+	text = {
+		trigger = {
 			OR = {
 				has_culture = culture:french
 				has_culture = culture:norman
@@ -239,6 +245,12 @@ KnightCulture = {
 	}
 	text = {
 		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_alan
+	}
+	text = {
+		trigger = {
 			has_culture = culture:assyrian
 		}
 		localization_key = knight_assyrian
@@ -276,12 +288,12 @@ KnightCulture = {
 		}
 		localization_key = knight_sicilian
 	}
-#	text = {
-#		trigger = {
-#			has_culture = culture:lombard
-#		}
-#		localization_key = knight_lombard
-#	}
+	text = {
+		trigger = {
+			has_culture = culture:lombard
+		}
+		localization_key = knight_lombard
+	}
 #####################################
 ## South Slavic group
 #####################################
@@ -443,9 +455,59 @@ KnightCulture = {
 		}
 		localization_key = knight_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################
@@ -526,7 +588,7 @@ KnightCultureNoTooltip = {
 				has_culture = culture:pictish	
 			}
 		}
-		localization_key = knight_no_tooltip_cumbrian
+		localization_key = knight_no_tooltip_cumbrian_pictish
 	}
 	text = {
 		trigger = {
@@ -537,6 +599,12 @@ KnightCultureNoTooltip = {
 #####################################
 ## Frankish group
 #####################################
+	text = {
+		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_no_tooltip_frankish
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -701,6 +769,12 @@ KnightCultureNoTooltip = {
 	}
 	text = {
 		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_no_tooltip_alan
+	}
+	text = {
+		trigger = {
 			has_culture = culture:assyrian
 		}
 		localization_key = knight_no_tooltip_assyrian
@@ -755,7 +829,7 @@ KnightCultureNoTooltip = {
 				has_culture = culture:bulgarian ##For consistency
 			}
 		}
-		localization_key = knight_no_tooltip_south_slavic
+		localization_key = knight_no_tooltip_south_slavic_group
 	}
 
 	text = {
@@ -905,9 +979,59 @@ KnightCultureNoTooltip = {
 		}
 		localization_key = knight_no_tooltip_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_no_tooltip_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_no_tooltip_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_no_tooltip_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_no_tooltip_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_no_tooltip_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_no_tooltip_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_no_tooltip_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################
@@ -999,6 +1123,12 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 ## Frankish group
 #####################################
+	text = {
+		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_lower_frankish
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -1160,6 +1290,12 @@ KnightCultureNoTooltipLowercase = {
 			has_culture = culture:georgian
 		}
 		localization_key = knight_lower_georgian
+	}
+	text = {
+		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_lower_alan
 	}
 	text = {
 		trigger = {
@@ -1367,9 +1503,59 @@ KnightCultureNoTooltipLowercase = {
 		}
 		localization_key = knight_lower_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_lower_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_lower_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_lower_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_lower_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_lower_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_lower_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_lower_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################
@@ -1461,6 +1647,12 @@ KnightCulturePlural = {
 #####################################
 ## Frankish group
 #####################################
+	text = {
+		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_plural_frankish
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -1622,6 +1814,12 @@ KnightCulturePlural = {
 			has_culture = culture:georgian
 		}
 		localization_key = knight_plural_georgian
+	}
+	text = {
+		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_plural_alan
 	}
 	text = {
 		trigger = {
@@ -1829,9 +2027,59 @@ KnightCulturePlural = {
 		}
 		localization_key = knight_plural_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_plural_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_plural_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_plural_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_plural_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_plural_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_plural_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_plural_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################
@@ -1923,6 +2171,12 @@ KnightCulturePluralNoTooltip = {
 #####################################
 ## Frankish group
 #####################################
+	text = {
+		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_plural_no_tooltip_frankish
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -2084,6 +2338,12 @@ KnightCulturePluralNoTooltip = {
 			has_culture = culture:georgian
 		}
 		localization_key = knight_plural_no_tooltip_georgian
+	}
+	text = {
+		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_plural_no_tooltip_alan
 	}
 	text = {
 		trigger = {
@@ -2291,9 +2551,59 @@ KnightCulturePluralNoTooltip = {
 		}
 		localization_key = knight_plural_no_tooltip_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_plural_no_tooltip_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_plural_no_tooltip_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_plural_no_tooltip_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_plural_no_tooltip_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_plural_no_tooltip_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_plural_no_tooltip_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_plural_no_tooltip_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################
@@ -2374,7 +2684,7 @@ KnightCulturePluralNoTooltipLowercase = {
 				has_culture = culture:pictish	
 			}
 		}
-		localization_key = knight_plural_lower_cumbrian
+		localization_key = knight_plural_lower_cumbrian_pictish
 	}
 	text = {
 		trigger = {
@@ -2385,6 +2695,12 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 ## Frankish group
 #####################################
+	text = {
+		trigger = {
+			has_culture = culture:frankish
+		}
+		localization_key = knight_plural_lower_frankish
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -2549,9 +2865,15 @@ KnightCulturePluralNoTooltipLowercase = {
 	}
 	text = {
 		trigger = {
+			has_culture = culture:alan
+		}
+		localization_key = knight_plural_lower_alan
+	}
+	text = {
+		trigger = {
 			has_culture = culture:assyrian
 		}
-		localization_key = knight_plural_lower_assyrian
+		localization_key = knight_plural_lower_alan
 	}
 #####################################
 ## Latin group
@@ -2753,9 +3075,59 @@ KnightCulturePluralNoTooltipLowercase = {
 		}
 		localization_key = knight_plural_lower_ethiopian
 	}
+	text = {
+		trigger = {
+			has_culture = culture:nubian
+		}
+		localization_key = knight_plural_lower_nubian
+	}
 #####################################
-## Indo-Aryan group - to be added
+## Indo-Aryan group
 #####################################
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:bengali
+				has_culture = culture:oriya
+				has_culture = culture:assamese
+				has_culture = culture:gujarati
+				has_culture = culture:rajput
+				has_culture = culture:sindhi
+				has_culture = culture:marathi
+			}
+		}
+		localization_key = knight_plural_lower_indoaryan
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = knight_plural_lower_hindustani
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = knight_plural_lower_punjabi
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = knight_plural_lower_kashmiri
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = knight_plural_lower_sinhala
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = knight_plural_lower_nepali
+	}
 #####################################
 ## Mongolic group
 #####################################

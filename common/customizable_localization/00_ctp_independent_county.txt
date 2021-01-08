@@ -71,7 +71,7 @@ CornishIndepCounty = {
 		localization_key = independent_county_cornish
 	}
 }
-NorseNorwegianIndepCounty = {
+NorthGermanicIndepCounty = {
 	type = character
 	text = {
 		trigger = {
@@ -102,30 +102,43 @@ NorseNorwegianIndepCounty = {
 		localization_key = kingdom_north_germanic_group
 	}
 }
-SwedishIndepCounty = {
+FinnishIndepCounty = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_swedish
+		localization_key = county_feudalclan_finnish
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_swedish
+		localization_key = independent_county_finnish
 	}
 }
-DanishIndepCounty = {
+SamiIndepCounty = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = dependent_county_danish
+		localization_key = county_sami
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_danish
+		localization_key = kingdom_sami
+	}
+}
+KarelianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_karelian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_karelian
 	}
 }
 SaxonIndepCounty = {
@@ -178,6 +191,19 @@ DutchIndepCounty = {
 	text = {
 		fallback = yes
 		localization_key = independent_county_dutch
+	}
+}
+AlanIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_alan
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_default_alan
 	}
 }
 SardinianIndepCounty = {
@@ -277,7 +303,33 @@ BulgarianIndepCounty = {
 		localization_key = independent_county_bulgarian
 	}
 }
+MogyerIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_mogyer
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_mogyer
+	}
+}
 HungIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_prussian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_hung
+	}
+}
+PrussianIndepCounty = {
 	type = character
 	text = {
 		trigger = {
@@ -287,7 +339,7 @@ HungIndepCounty = {
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_county_hung
+		localization_key = independent_land_prussian
 	}
 }
 RusIndepCountMale = {
@@ -532,5 +584,200 @@ TamilIndepCounty = {
 	text = {
 		fallback = yes
 		localization_key = independent_county_tamil
+	}
+}
+TeluguIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_telugu
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_telugu
+	}
+}
+KannadaIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_kannada
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_kannada
+	}
+}
+DajuIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_daju
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_daju
+	}
+}
+BengaliIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_bengali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_bengali
+	}
+}
+OriyaIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_oriya
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_oriya
+	}
+}
+AssameseIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_assamese
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_assamese
+	}
+}
+HindustaniIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_hindustani
+	}
+}
+GujaratiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_gujarati
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_gujarati
+	}
+}
+PunjabiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_punjabi
+	}
+}
+RajputIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_rajput
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_rajput
+	}
+}
+SindhiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_sindhi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_sindhi
+	}
+}
+MarathiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_marathi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_marathi
+	}
+}
+KashmiriIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_kashmiri
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_kashmiri
+	}
+}
+SinhalaIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_sinhala
+	}
+}
+NepaliIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_nepali
 	}
 }
