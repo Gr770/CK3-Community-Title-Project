@@ -1474,6 +1474,28 @@ barony_republic_sardinian = {
 	top_liege = no
 	only_holder = yes
 }
+duke_male_republic_sardinian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sardinian } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_female_republic_sardinian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sardinian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
 ### For Conditionals
 judike_male_sardinian_holder = {
 	type = character
@@ -1763,6 +1785,76 @@ empress_mother_sicilian = {
 	cultures = { sicilian } 
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
+}
+baron_republic_sicilian = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_sicilian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sicilian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_sicilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_female_sicilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_sicilian = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { sicilian }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_male_sicilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_female_sicilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
 }
 ###############################################
 ## Lombard
