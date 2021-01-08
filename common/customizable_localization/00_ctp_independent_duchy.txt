@@ -33,8 +33,17 @@ AngloSaxonIndepDuchy = {
 		localization_key = duchy_default_anglo_saxon
 	}
 	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_anglo_saxon
+	}
+	text = {
 		fallback = yes
-		localization_key = independent_duchy_anglo_saxon
+		localization_key = kingdom_default_anglo_saxon
 	}
 }
 OldSaxonIndepDuchy = {
@@ -263,12 +272,32 @@ FinnishIndepDuchy = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
+			has_government = tribal_government
+		}
+		localization_key = duchy_tribal_finnish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_finnish
 	}
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_finnish
+	}
+}
+SamiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_sami
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_sami
 	}
 }
 EstonianIndepDuchy = {
@@ -294,7 +323,7 @@ KarelianIndepDuchy = {
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_karelian
+		localization_key = kingdom_karelian
 	}
 }
 VepsianIndepDuchy = {
@@ -362,11 +391,27 @@ DutchIndepDuchy = {
 		localization_key = independent_duchy_dutch
 	}
 }
+AndalusianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_arabic_group
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_andalusian
+	}
+}
 GreekIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_greek
 	}
@@ -398,6 +443,15 @@ AssyrianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = byzantine_duchy_assyrian
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_assyrian
@@ -411,7 +465,10 @@ ItalianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_italian
 	}
@@ -430,6 +487,15 @@ RomanIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = surpreme_roman_duchy
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_roman
@@ -443,7 +509,10 @@ CisalpineIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_italian
 	}
@@ -462,7 +531,10 @@ SardinianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_sardinian
 	}
@@ -481,7 +553,10 @@ SicilianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_sardinian
 	}
@@ -496,11 +571,36 @@ SicilianIndepDuchy = {
 		localization_key = independent_duchy_sicilian
 	}
 }
+LombardIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
+		}
+		localization_key = byzantine_duchy_lombard
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_lombard
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_lombard
+	}
+}
 CroatianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_croatian
 	}
@@ -519,7 +619,10 @@ SerbianIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
-			has_primary_title = title:e_byzantium
+			OR = {
+				has_primary_title = title:e_byzantium
+				has_primary_title = title:e_roman_empire
+			}
 		}
 		localization_key = byzantine_duchy_serbian
 	}
@@ -560,6 +663,58 @@ BulgarianIndepDuchy = {
 		localization_key = independent_duchy_bulgarian
 	}
 }
+CzechIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_czech
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_czech
+	}
+}
+PolishIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_polish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_polish
+	}
+}
+PolabianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_polabian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_polabian
+	}
+}
+SlovienIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_slovien
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_slovien
+	}
+}
 MogyerIndepDuchy = {
 	type = character
 	text = {
@@ -586,6 +741,71 @@ HungIndepDuchy = {
 		localization_key = independent_duchy_hung
 	}
 }
+PrussianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_feudalclan_prussian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_land_prussian
+	}
+}
+AkanIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_akan
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_akan
+    }
+}
+BurmeseIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_burmese
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_burmese
+    }
+}
+HausaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_hausa
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_hausa
+	}
+}
+HanIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_han
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_han
+	}
+}
 TamilIndepDuchy = {
 	type = character
 	text = {
@@ -599,17 +819,30 @@ TamilIndepDuchy = {
 		localization_key = independent_duchy_tamil
 	}
 }
-EthiopianIndepDuchy = {
+TeluguIndepDuchy = {
 	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_default_ethiopian
+		localization_key = duchy_telugu
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_ethiopian
+		localization_key = independent_duchy_telugu
+	}
+}
+KannadaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_kannada
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kannada
 	}
 }
 EthiopianIndepDuchy = {
@@ -636,5 +869,174 @@ NubianIndepDuchy = {
 	text = {
 		fallback = yes
 		localization_key = independent_duchy_nubian
+	}
+}
+DajuIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_daju
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_daju
+	}
+}
+BengaliIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_bengali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_bengali
+	}
+}
+OriyaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_oriya
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_oriya
+	}
+}
+AssameseIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_oriya
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_oriya
+	}
+}
+HindustaniIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_hindustani
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_hindustani
+	}
+}
+GujaratiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_gujarati
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_gujarati
+	}
+}
+PunjabiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_punjabi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_punjabi
+	}
+}
+RajputIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_rajput
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_rajput
+	}
+}
+SindhiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_sindhi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_sindhi
+	}
+}
+MarathiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_marathi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_marathi
+	}
+}
+KashmiriIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_kashmiri
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kashmiri
+	}
+}
+SinhalaIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_sinhala
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_sinhala
+	}
+}
+NepaliIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_nepali
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_nepali
 	}
 }

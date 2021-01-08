@@ -3,7 +3,10 @@
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_italian
@@ -13,13 +16,15 @@
 		fallback = yes
 	}
 }
-
 BaronFemaleItalian = {
 	type = character
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_italian
@@ -34,7 +39,10 @@ BaronyItalian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_italian
@@ -44,12 +52,69 @@ BaronyItalian = {
 		fallback = yes
 	}
 }
+BaronMaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_baron_male
+	}
+	text = {
+		localization_key = baron_default_male_roman
+		fallback = yes
+	}
+}
+BaronFemaleRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_baron_female
+	}
+	text = {
+		localization_key = baron_default_female_roman
+		fallback = yes
+	}
+}
+BaronyRoman = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = surpreme_roman_barony
+	}
+	text = {
+		localization_key = barony_default_roman
+		fallback = yes
+	}
+}
 BaronMaleCisalpine = {
 	type = character
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_italian
@@ -65,7 +130,10 @@ BaronFemaleCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_italian
@@ -80,7 +148,10 @@ BaronyCisalpine = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_italian
@@ -95,7 +166,10 @@ BaronMaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_sardinian
@@ -131,7 +205,10 @@ BaronFemaleSardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_sardinian
@@ -166,7 +243,10 @@ BaronySardinian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_sardinian
@@ -238,7 +318,10 @@ BaronMaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_sardinian
@@ -254,7 +337,10 @@ BaronFemaleSicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_sardinian
@@ -269,7 +355,10 @@ BaronySicilian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_sardinian
@@ -279,12 +368,70 @@ BaronySicilian = {
 		fallback = yes
 	}
 }
+BaronMaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_baron_male_lombard
+	}
+	text = {
+		localization_key = baron_male_lombard_default
+		fallback = yes
+	}
+}
+
+BaronFemaleLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_baron_female_lombard
+	}
+	text = {
+		localization_key = baron_female_lombard_default
+		fallback = yes
+	}
+}
+BaronyLombard = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_barony_lombard
+	}
+	text = {
+		localization_key = barony_feudal_lombard_default
+		fallback = yes
+	}
+}
 BaronMaleCroatian = {
 	type = character
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_croatian
@@ -300,7 +447,10 @@ BaronFemaleCroatian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_croatian
@@ -315,7 +465,10 @@ BaronyCroatian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_croatian
@@ -330,7 +483,10 @@ BaronMaleSerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_serbian
@@ -346,7 +502,10 @@ BaronFemaleSerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_serbian
@@ -361,7 +520,10 @@ BaronySerbian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_serbian
@@ -376,7 +538,10 @@ BaronMaleBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_male_bulgarian
@@ -392,7 +557,10 @@ BaronFemaleBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_baron_female_bulgarian
@@ -407,7 +575,10 @@ BaronyBulgarian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_primary_title = title:e_byzantium
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
 			}
 		}
 		localization_key = byzantine_barony_bulgarian
