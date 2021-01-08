@@ -2142,8 +2142,8 @@
   count_feudalclan_male_andalusian_christian: "Qūmis"
   count_feudalclan_female_andalusian_christian: "Qūmisa"
  
-  count_feudalclan_male_arabic_group_independent: "$duke_default_arabic_group$"
-  count_feudalclan_female_arabic_group_independent: "$duke_feudalclan_female_arabic_group$"
+  count_feudalclan_male_arabic_group_independent: "$duke_default_male_arabic_group$"
+  count_feudalclan_female_arabic_group_independent: "$duke_default_female_arabic_group$"
   county_feudalclan_arabic_group_independent: "$duchy_arabic_group$"
   county_feudalclan_andalusian_independent: "Ṭāʿifa"
   count_feudalclan_male_andalusian_independent_christian: "$count_feudalclan_male_andalusian_christian$"
@@ -2283,7 +2283,9 @@
  
    count_male_armenian: "Naxarar"
    count_female_armenian: "Naxararowhi"
-   county_armenian: "Naxararowtʿiwn"
+   county_armenian: "Nahang"
+   
+   county_armenian_independent: "Naxararowtʿiwn"
  
    duke_male_armenian: "[CHARACTER.Custom('DukeMaleArmenian')]"
    duke_female_armenian: "[CHARACTER.Custom('DukeFemaleArmenian')]"
@@ -2303,13 +2305,14 @@
    byzantine_king_male_armenian: "Yakhartsos"
    sultan_male_armenian: "Sowltʿan"
    sultan_female_armenian: "Sowltʿanowhi"
-   sultanate_armenian: "Sowltʿanowtʿiwn"
+   sultanate_armenian: "Sowlt῾anowt῾iwn"
    king_default_male_armenian: "Tʿagawor"
    king_default_female_armenian: "Tʿagowhi"
    kingdom_default_armenian: "Tʿagaworowtʿiwn"
  
    emperor_male_armenian: "Kaysr"
    emperor_female_armenian: "Kaysrowhi"
+   empire_armenian: "Kaysrowt῾iwn"
  
    title_prince_male_armenian: "[CHARACTER.Custom('PrinceArmenian')]"
    title_prince_female_armenian: "[CHARACTER.Custom('PrincessArmenian')]"
@@ -2452,27 +2455,42 @@
 ######################################################## 
   #Georgian
 ########################################################
-   baron_georgian: "Azni"
-   barony_georgian: "Uazno"
+   baron_male_georgian: "Aznauri"
+   baron_female_georgian: "Aznauri"
+   barony_georgian: "Mamuli"
  
-   count_georgian: "Khevistavi"
-   county_georgian: "Khevi"
+   count_male_georgian: "Didebuli"
+   count_female_georgian: "Didebuli"
+   county_georgian: "Dideba"
+   
+   count_male_georgian_independent: "$duke_georgian_independent$"
+   count_female_holder_georgian_independent: "$duke_georgian_independent$"
+   count_female_georgian_independent: "$duke_female_georgian$"
+   county_georgian_independent: "[CHARACTER.Custom('GeorgianIndepCounty')]"
  
-   duke_georgian: "[CHARACTER.Custom('DukeGeorgian')]"
+   duke_male_georgian: "[CHARACTER.Custom('DukeGeorgian')]"
+   duke_female_holder_georgian: "[CHARACTER.Custom('DukeGeorgian')]"
+   duke_female_georgian: "Banovani"
    duchy_georgian: "[CHARACTER.Custom('DuchyGeorgian')]"
    marquess_georgian: "Monapire"
    march_georgian: "Sanapiro"
    duke_default_georgian: "Eristavi"
    duchy_default_georgian: "Saeristavo"
  
-   duke_georgian_independent: "Mtavari"
+   duke_male_georgian_independent: "Mtavari"
+   duke_female_holder_georgian_independent: "Mtavari"
    duchy_georgian_independent: "[CHARACTER.Custom('GeorgianIndepDuchy')]"
    independent_duchy_georgian: "Samtavro"
  
-   king_male_georgian: "Mepe"
-   king_female_georgian: "Dedopali"
-   king_female_georgian_holder: "$king_male_georgian$"
-   kingdom_georgian: "Samepo"
+   king_male_georgian: "[CHARACTER.Custom('KingMaleGeorgian')]"
+   king_female_georgian: "[CHARACTER.Custom('KingFemaleGeorgian')]"
+   king_female_georgian_holder: "[CHARACTER.Custom('KingMaleGeorgian')]"
+   kingdom_georgian: "[CHARACTER.Custom('KingdomGeorgian')]"
+   sultan_georgian: "Sultano"
+   sultanate_georgian: "Sasultno"
+   king_default_male_georgian: "Mepe"
+   king_default_female_georgian: "Dedopali"
+   kingdom_default_georgian: "Samepo"
  
    emperor_male_georgian: "Mepeta-Mepe"
    emperor_female_georgian: "Dedopalta-Dedopali"
