@@ -225,6 +225,12 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:sami
+		}
+		localization_key = councillor_chancellor_sami
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:estonian
 		}
 		localization_key = councillor_chancellor_estonian
@@ -456,6 +462,12 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_chancellor_alan
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:assyrian
 			is_male = yes
 		}
@@ -518,6 +530,18 @@ CouncilPositionChancellor = {
 			is_male = no
 		}
 		localization_key = councillor_chancellor_roman_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sardinian
+		}
+		localization_key = councillor_chancellor_sardinian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_chancellor_lombard
 	}
 ##################################################
 ### South Slavic
@@ -693,12 +717,15 @@ CouncilPositionChancellor = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				liege.culture = culture:telugu
-				liege.culture = culture:kannada
-			}
+			liege.culture = culture:telugu
 		}
-		localization_key = councillor_chancellor_telugu_kannada
+		localization_key = councillor_chancellor_telugu
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kannada
+		}
+		localization_key = councillor_chancellor_kannada
 	}
 ##################################################
 ### East African
@@ -718,9 +745,52 @@ CouncilPositionChancellor = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-
-## To be added 
-
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:rajput
+				liege.culture = culture:sindhi
+			}
+		}
+		localization_key = councillor_chancellor_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_chancellor_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_chancellor_punjabi
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:marathi
+				liege.culture = culture:nepali
+			}
+		}
+		localization_key = councillor_chancellor_marathi_nepali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_chancellor_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_chancellor_sinhala
+	}
 ##################################################
 ### Iranian
 ##################################################
@@ -1006,9 +1076,21 @@ CouncilPositionSteward = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
+			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
 		}
-		localization_key = councillor_steward_north_germanic_group
+		localization_key = councillor_steward_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:danish
+			}
+		}
+		localization_key = councillor_steward_swedish_danish
 	}
 ##################################################
 ### Balto-Finnic
@@ -1018,6 +1100,12 @@ CouncilPositionSteward = {
 			liege.culture = culture:finnish
 		}
 		localization_key = councillor_steward_finnish
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sami
+		}
+		localization_key = councillor_steward_sami
 	}
 	text = {
 		trigger = {
@@ -1244,6 +1332,12 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_steward_alan
+	}
+	text = {
+		trigger = {
 			is_male = yes
 			liege.culture = culture:assyrian
 		}
@@ -1306,6 +1400,12 @@ CouncilPositionSteward = {
 			is_male = no
 		}
 		localization_key = councillor_steward_roman_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_steward_lombard
 	}
 ##################################################
 ### South Slavic
@@ -1518,9 +1618,69 @@ CouncilPositionSteward = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-
-## To be added 
-
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:marathi
+			}
+		}
+		localization_key = councillor_steward_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_steward_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_steward_punjabi
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_steward_female_rajput
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_steward_male_rajput
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_steward_female_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_steward_male_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_steward_sinhala
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:nepali
+		}
+		localization_key = councillor_steward_nepali
+	}
 ##################################################
 ### Iranian
 ##################################################
@@ -1660,7 +1820,9 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:french
+			OR = {
+				liege.culture = culture:french
+			}
 		}
 		localization_key = councillor_marshal_french
 	}
@@ -1743,6 +1905,12 @@ CouncilPositionMarshal = {
 			liege.culture = culture:finnish
 		}
 		localization_key = councillor_marshal_finnish
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sami
+		}
+		localization_key = councillor_marshal_sami
 	}
 	text = {
 		trigger = {
@@ -1952,6 +2120,19 @@ CouncilPositionMarshal = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+			is_male = no
+		}
+		localization_key = councillor_marshal_alan_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_marshal_alan_male
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:assyrian
 		}
 		localization_key = councillor_marshal_assyrian
@@ -2012,6 +2193,12 @@ CouncilPositionMarshal = {
 			liege.culture = culture:sardinian
 		}
 		localization_key = councillor_marshal_sardinian
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_marshal_lombard
 	}
 ##################################################
 ### Southern Slavic
@@ -2229,9 +2416,89 @@ CouncilPositionMarshal = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-	
-	#to be added
-	
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_marshal_female_punjabi
+	}
+	text = {
+		trigger = {
+			is_male = no
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:nepali
+			}
+		}
+		localization_key = councillor_marshal_female_bengali
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:gujarati
+				liege.culture = culture:sindhi
+				liege.culture = culture:nepali
+				liege.culture = culture:punjabi
+			}
+		}
+		localization_key = councillor_marshal_male_bengali
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_marshal_female_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_marshal_male_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:hindustani
+		}
+		localization_key = councillor_marshal_hindustani
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:rajput
+		}
+		localization_key = councillor_marshal_rajput
+	}
+	text = {
+		trigger = {
+			is_male = no
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_marshal_female_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_marshal_male_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_marshal_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_marshal_sinhala
+	}
 ##################################################
 ### Iranian
 ##################################################	
@@ -2487,6 +2754,12 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:sami
+		}
+		localization_key = councillor_spymaster_sami
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:estonian
 		}
 		localization_key = councillor_spymaster_estonian
@@ -2595,6 +2868,15 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
+			liege = {
+				has_primary_title = title:e_hre
+				has_culture = culture:dutch
+			}
+		}
+		localization_key = councillor_spymaster_hre_dutch
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:dutch
 		}
 		localization_key = councillor_spymaster_dutch
@@ -2691,6 +2973,12 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
+			liege.culture = culture:alan
+		}
+		localization_key = councillor_spymaster_alan
+	}
+	text = {
+		trigger = {
 			liege.culture = culture:assyrian
 			is_male = yes
 		}
@@ -2753,6 +3041,12 @@ CouncilPositionSpymaster = {
 			is_male = no
 		}
 		localization_key = councillor_spymaster_roman_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:lombard
+		}
+		localization_key = councillor_spymaster_lombard
 	}
 ##################################################
 ### Southern Slavic
@@ -2932,9 +3226,55 @@ CouncilPositionSpymaster = {
 ##################################################
 ### Indo-Aryan
 ##################################################
-	
-	#to be added
-	
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:bengali
+				liege.culture = culture:assamese
+				liege.culture = culture:hindustani
+				liege.culture = culture:gujarati
+				liege.culture = culture:rajput
+				liege.culture = culture:sindhi
+			}
+		}
+		localization_key = councillor_spymaster_bengali
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:oriya
+		}
+		localization_key = councillor_spymaster_oriya
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:punjabi
+		}
+		localization_key = councillor_spymaster_punjabi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:marathi
+		}
+		localization_key = councillor_spymaster_marathi
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:kashmiri
+		}
+		localization_key = councillor_spymaster_kashmiri
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:sinhala
+		}
+		localization_key = councillor_spymaster_sinhala
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:nepali
+		}
+		localization_key = councillor_spymaster_nepali
+	}
 ##################################################
 ### Iranian
 ##################################################	
