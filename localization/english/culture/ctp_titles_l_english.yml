@@ -3519,8 +3519,8 @@
    duke_feudalclan_male_czech: "[CHARACTER.Custom('DukeMaleCzech')]"
    duke_feudalclan_female_czech: "[CHARACTER.Custom('DukeFemaleCzech')]"
    duchy_feudalclan_czech: "[CHARACTER.Custom('DuchyCzech')]"
-   marquess_male_czech: "Markýz"
-   marquess_female_czech: "Markýza"
+   marquess_male_czech: "Markrabě"
+   marquess_female_czech: "Markraběnka"
    march_czech: "Marka"
    palatine_male_czech: "Palatin"
    palatine_female_czech: "Palatinka"
@@ -3581,14 +3581,14 @@
 ######################################################
    baron_male_polish: "Pan"
    baron_female_polish: "Pani"
-   barony_feudalclan_polish: "Gród"
+   barony_feudalclan_polish: "Opole"
    
    count_feudalclan_male_polish: "[CHARACTER.Custom('CountMalePolish')]"
    count_feudalclan_female_polish: "[CHARACTER.Custom('CountFemalePolish')]"
    county_feudalclan_polish: "[CHARACTER.Custom('CountyPolish')]"
    count_default_male_polish: "Żupan"
    count_default_female_polish: "Żupani"
-   county_default_polish: "Opole"
+   county_default_polish: "Żupa"
    
    duke_feudalclan_male_polish: "[CHARACTER.Custom('DukeMalePolish')]"
    duke_feudalclan_female_polish: "[CHARACTER.Custom('DukeFemalePolish')]"
@@ -3738,8 +3738,8 @@
    duke_feudalclan_male_slovien: "[CHARACTER.Custom('DukeMaleSlovien')]"
    duke_feudalclan_female_slovien: "[CHARACTER.Custom('DukeFemaleSlovien')]"
    duchy_feudalclan_slovien: "[CHARACTER.Custom('DuchySlovien')]"
-   marquess_male_slovien: "Markíz"
-   marquess_female_slovien: "Markíza"
+   marquess_male_slovien: "Markgróf"
+   marquess_female_slovien: "Markgrófka"
    march_slovien: "Marka"
    palatine_male_slovien: "Palatin"
    palatine_female_czech: "Palatinka"
@@ -4479,19 +4479,20 @@
    baron_male_guan: "Enyenpe"
    
    count_male_guan: "Ewura"
+   count_female_guan: "Ewurache"
    
    duke_male_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
-   duke_female_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   duke_female_guan_independent: "Ewurache"
    duke_male_guan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
-   duke_female_guan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   duke_female_guan_independent_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wurache"
    
    king_male_guan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
-   king_female_guan: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   king_female_guan: "Ewurache"
    king_male_guan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
-   king_female_guan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
+   king_female_guan_holder: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]wurache"
 
    emperor_male_guan: "Gbinipewura"
-   emperor_female_guan: "Gbinipewura"
+   emperor_female_guan: "Gbinipewurache"
    
    queen_mother_guan: "Ewurache"
    empress_mother_guan: "$queen_mother_guan$"
@@ -4782,17 +4783,17 @@
   #Nubian Culture
 ########################################################
    baron_male_nubian: "Ŋod"
-   baron_female_nubian: "Eitt"
+   baron_female_nubian: "Ŋodieitt"
    baron_female_holder_nubian: "Ŋod"
    barony_feudalclan_nubian: "Ŋodkane"
 
    count_feudalclan_male_nubian: "Samet"
-   count_female_nubian: "Eitt"
+   count_female_nubian: "Sametieitt"
    count_feudalclan_female_holder_nubian: "Samet"
    county_feudalclan_nubian: "Samett"
 
    duke_feudalclan_male_nubian: "[CHARACTER.Custom('DukeNubian')]"
-   duke_female_nubian: "Eitt"
+   duke_female_nubian: "Soŋojieitt"
    duke_feudalclan_female_holder_nubian: "[CHARACTER.Custom('DukeNubian')]"
    duchy_feudalclan_nubian: "[CHARACTER.Custom('DuchyNubian')]"
    marquess_nubian: "Seudŋod"
@@ -5766,14 +5767,37 @@
 ########################################################
   #Soninke
 ########################################################
+   baron_male_soninke: "Horo"
+   baron_female_soninke: "Horo"
+   
+   count_male_soninke: "Debegume"
+   count_female_holder_soninke: "$count_male_soninke$"
+   count_female_soninke: "Gume Yaqe"
+   county_soninke: "Gumaaxu"
+   
+   duke_male_soninke: "Ɲiiɲegume"
+   duke_female_soninke: "Ɲiiɲegume"
+   duchy_soninke: "Ɲiiɲe"
+   
    duke_male_soninke_independent: "$king_male_soninke$"
-   duchy_soninke_independent: "$kingdom_soninke$"
+   duke_female_holder_soninke_independent: "$king_female_holder_soninke$"
+   duke_female_soninke_independent: "$king_female_soninke$"
+   duchy_soninke_independent: "[CHARACTER.Custom('SoninkeIndepDuchy')]"
    
-   king_male_soninke: "Maghan"
-   kingdom_soninke: "Maghanaxu"
+   king_male_soninke: "Manga"
+   king_female_holder_soninke: "Manga"
+   king_female_soninke: "Manga Yaqe"
+   kingdom_soninke: "Mangaaxu"
    
-   emperor_male_soninke: "Tunka"
+   emperor_male_soninke: "Tunke"
+   emperor_female_holder_soninke: "Tunke"
+   emperor_female_soninke: "Tunke Yaqe"
    empire_soninke: "Tunkaaxu"
+   
+   queen_mother_soninke: "$king_female_soninke$"
+   empress_mother_soninke: "$emperor_female_soninke$"
+   
+   barony_republic_soninke: "Debe"
 ########################################################
   #Mossi
 ########################################################
@@ -5837,3 +5861,363 @@
    
    baron_republic_pulaar: "Jom Wuro"
    barony_republic_pulaar: "Wuro"
+########################################################
+  #Serer
+########################################################
+   baron_male_serer: "Yaal Bakh"
+   baron_female_serer: "Yaal Bakh"
+   barony_feudalclan_serer: "Mbind"
+   
+   count_male_serer: "Kubel"
+   count_female_serer: "Kubel"
+   county_feudalclan_serer: "Saax"
+   
+   count_male_serer_independent: "$duke_male_serer$"
+   count_female_serer_independent: "$duke_female_serer$"
+   
+   duke_male_serer: "Laman"
+   duke_female_serer: "Laman"
+   
+   duke_male_serer_independent: "$king_male_serer$"
+   duke_female_holder_serer_independent: "$king_male_serer$"
+   duke_female_serer_independent: "$king_female_serer$"
+   duchy_serer_independent: "$kingdom_serer$"
+   
+   king_male_serer: "Maad"
+   king_female_holder_serer: "$king_male_serer$"
+   king_female_serer: "Awo"
+   kingdom_serer: "Maat"
+   
+   emperor_male_serer: "Maad Ba'"
+   emperor_female_holder_serer: "Maad Ya'"
+   emperor_female_serer: "Awo"
+   
+   queen_mother_serer: "Lingeer"
+   empress_mother_serer: "$queen_mother_serer$"
+   
+   barony_republic_serer: "Teeru"
+   count_republic_serer: "Njaatigi"
+   
+   barony_tribal_serer: "Daland"
+   county_tribal_serer: "Xeet"
+########################################################
+  #Wolof
+########################################################
+   baron_male_wolof: "Boroom"
+   baron_female_wolof: "Boroom"
+   
+   count_male_wolof: "Garmi"
+   count_female_wolof: "Garmi"
+   
+   count_male_wolof_independent: "$duke_male_wolof$"
+   count_female_wolof_independent: "$duke_female_wolof$"
+   
+   duke_male_wolof: "Laamaan"
+   duke_female_wolof: "Laamaan"
+   
+   duke_male_wolof_independent: "$king_male_wolof$"
+   duke_female_holder_wolof_independent: "$king_male_wolof$"
+   duke_female_wolof_independent: "$king_female_wolof$"
+   duchy_wolof_independent: "$kingdom_wolof$"
+   
+   king_male_wolof: "Buur"
+   king_female_holder_wolof: "$king_male_wolof$"
+   king_female_wolof: "Awo"
+   kingdom_wolof: "Buuryuhan"
+   
+   emperor_male_wolof: "Buur Ba"
+   emperor_female_holder_wolof: "Buur Ya"
+   emperor_female_wolof: "Awo"
+   empire_wolof: "Nguur"
+   
+   queen_mother_wolof: "Lingeer"
+   empress_mother_wolof: "$queen_mother_wolof$"
+   
+   barony_republic_wolof: "Teeru"
+########################################################
+ #Somalian
+########################################################
+  #Somali
+########################################################
+   baron_male_somali: "Akil"
+   barony_somali: "Qalcad"
+   
+   count_male_somali: "Ugaas"
+   count_female_somali: "Ugaasad"
+   county_somali: "Qabiil"
+   
+   duke_male_somali: "Gerad"
+   duke_female_somali: "Geradad"
+   duchy_somali: "Saldanadda"
+   
+   king_male_somali: "[CHARACTER.Custom('KingMaleSomali')]"
+   king_female_somali: "[CHARACTER.Custom('KingFemaleSomali')]"
+   kingdom_somali: "Saldanadda"
+   sultan_male_somali: "Suldaan"
+   sultan_female_somali: "Suldaanad"
+   king_default_male_somali: "Ughaz"
+   king_default_female_somali: "Ughazad"
+   
+   emperor_male_somali: "Boqor"
+   emperor_female_somali: "Boqorad"
+   
+   title_prince_male_somali: "Amiir"
+   title_prince_female_somali: "Amiiraad"
+   title_prince_male_somali_empire: "$title_prince_male_somali$"
+   title_prince_female_somali_empire: "$title_prince_female_somali$"
+   queen_mother_somali: "[CHARACTER.Custom('QueenMSomali')]"
+   empress_mother_somali: "$emperor_female_somali$"
+########################################################
+  #Beja
+########################################################
+   baron_male_beja: "óo-Gawi Kína"
+   baron_female_holder_beja: "$baron_male_beja$"
+   baron_female_beja: "Kína"
+   
+   count_male_beja: "Hadaa'"
+   count_female_beja: "Hadaa't"
+   county_beja: "Hád'énda"
+   
+   duke_male_beja: "Takléel"
+   duke_female_beja: "Takléelt"
+   
+   duke_male_beja_independent: "Ámiir"
+   duke_female_beja_independent: "Ámiirt"
+   
+   king_male_beja: "[CHARACTER.Custom('KingMaleBeja')]"
+   king_female_beja: "[CHARACTER.Custom('KingFemaleBeja')]"
+   sultan_male_beja: "Sultáan"
+   sultan_female_beja: "Sultáant"
+   king_default_male_sbeja: "Malík"
+   king_default_female_beja: "Dagwáayt"
+   
+   emperor_male_beja: "ee-Málik Malík"
+   emperor_female_beja: "tee-Dágwaayt Dagwáayt"
+   
+   queen_mother_beja: "$king_female_beja$"
+   empress_mother_beja: "$emperor_female_beja$"
+########################################################
+  #Afar
+########################################################
+   king_male_afar: "Malik"
+   kingdom_afar: "Mulki"
+########################################################
+ #Tibetan
+########################################################
+  #Bodpa
+########################################################
+   baron_male_bodpa: "Ded Dpon"
+   baron_female_bodpa: "Dede Dpon"
+   barony_bodpa: "Dé"
+   
+   count_male_bodpa: "Stong Dpon"
+   count_female_bodpa: "Stong Dpon"
+   county_bodpa: "Tongdé"
+   
+   duke_male_bodpa: "[CHARACTER.Custom('DukeBodpa')]"
+   duke_female_bodpa: "[CHARACTER.Custom('DukeBodpa')]"
+   duchy_bodpa: "[CHARACTER.Custom('DuchyBodpa')]"
+   marquess_bodpa: "Makpön"
+   march_bodpa: "Khob Tongdé"
+   duke_default_bodpa: "Ru Dpon"
+   duchy_default_bodpa: "Ru"
+   
+   duchy_bodpa_independent: "[CHARACTER.Custom('DuchyBodpa')]"
+   independent_duchy_bodpa: "Rgyalphran"
+   
+   king_male_bodpa: "Rgyal Po"
+   king_female_bodpa: "Rgyal Mo"
+   kingdom_bodpa: "Rgyalkhab"
+   
+   emperor_male_bodpa: "Btsen Po"
+   emperor_female_bodpa: "Btsen Mo"
+   empire_bodpa: "Btsenkhab"
+   
+   queen_mother_bodpa: "$king_female_bodpa$"
+   empress_mother_bodpa: "$emperor_female_bodpa$"
+   
+   baron_republic_bodpa: "Tseje Raganpa"
+########################################################
+  #Zhangzhung
+########################################################
+   king_male_zhangzhung: "Wer Ro"
+########################################################
+ #Turkish (all grouped)
+########################################################
+  baron_male_turkish_group_one: "Ağa"
+  baron_male_turkish_group_two: "Saŋun"
+  
+  count_male_turkish_group_one: "Bek"
+  count_male_turkish_group_two: "Beg"
+  count_male_turkish_group_three: "Bäg"
+  count_male_avar: "Bayan"
+  count_male_karluk: "Bēg"
+  
+  count_female_turkish_group_one: "Beküm"
+  count_female_turkish_group_two: "Begüm"
+  count_female_turkish_group_three: "Bägum"
+  count_female_avar: "Bayanum"
+  count_female_karluk: "Bēgüm"
+  
+  county_turkish_group_one: "Bekliği"
+  county_turkish_group_two: "Begliği"
+  county_turkish_group_three: "Bägliği"
+  county_avar: "Bayanlïğï"
+  county_karluk: "Bēgliği"
+  
+  count_male_turkish_group_three_independent: "Irkin"
+  count_female_turkish_group_three_independent: "Irkinüm"
+  county_turkish_group_three_independent: "[CHARACTER.Custom('TurkishThreeIndepCounty')]"
+  independent_county_turkish_group_three: "Irkinliği"
+  
+  duke_male_turkish_group_one: "[CHARACTER.Custom('DukeMaleTurkishOne')]"
+  duke_female_turkish_group_one: "[CHARACTER.Custom('DukeFemaleTurkishOne')]"
+  palatine_turkish_group_one: "Beklerbeki"
+  duke_default_male_turkish_group_one: "Atabekliği"
+  duke_default_female_turkish_group_one: "Atabeküm"
+  duchy_turkish_group_one: "Atabekliği"
+  
+  duke_male_turkish_group_two: "Atabeg"
+  duke_female_turkish_group_two: "Atabegüm"
+  duchy_turkish_group_two: "Atabegliği"
+  
+  duke_male_turkish_group_three: "Eltäbir"
+  duke_female_turkish_group_three: "Eltäbirum"
+  duchy_turkish_group_three: "El"
+  
+  duke_male_avar: "[CHARACTER.Custom('DukeMaleAvar')]"
+  duke_female_avar: "[CHARACTER.Custom('DukeFemaleAvar')]"
+  duchy_avar: "[CHARACTER.Custom('DuchyAvar')]"
+  marquess_avar: "Qapğan"
+  march_avar: "Qapuğ"
+  duke_default_male_avar: "Atabayan"
+  duke_default_female_avar: "Atabayanum"
+  duchy_default_avar: "Atabayanlïğï"
+  
+  duke_male_karluk: "Atabēg"
+  duke_female_karluk: "Atabēgüm"
+  duchy_karluk: "Atabēgliği"
+  
+  duke_male_holder_khazar: "[CHARACTER.Custom('DukeMaleHolderKhazar')]"
+  duke_female_holder_khazar: "[CHARACTER.Custom('DukeFemaleHolderKhazar')]"
+  duke_male_khazar: "[CHARACTER.Custom('DukeMaleKhazar')]"
+  duke_female_khazar: "[CHARACTER.Custom('DukeFemaleKhazar')]"
+  duchy_khazar: "[CHARACTER.Custom('DukeFemaleKhazar')]"
+  marquess_khazar: "Qapğan"
+  march_khazar: "Qapuğ"
+  palatine_khazar: "Elteber"
+  palatinate_khazar: "Etleberliği"
+  duke_holder_male_khazar: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]-išad"
+  duke_holder_female_khazar: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]-išadum"
+  duke_default_male_khazar: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]-išad"
+  duke_default_female_khazar: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]-išadum"
+  duchy_default_khazar: "Išadlïğï"
+  
+  duke_male_khazar_independent: "$duke_male_turkish_group_two$"
+  duke_female_khazar_independent: "$duke_female_turkish_group_two$"
+  duchy_khazar_independent: "[CHARACTER.Custom('KhazarIndepDuchy')]"
+  
+  duke_male_turkish_group_three_independent: "Tegin"
+  duke_female_turkish_group_three_independent: "Tärim"
+  duchy_turkish_group_three_independent: "[CHARACTER.Custom('TurkishThreeIndepDuchy')]"
+  independent_duchy_turkish_group_three: "Teginliği"
+  
+  king_male_turkish_group_one: "[CHARACTER.Custom('KingMaleTurkishOne')]"
+  king_female_holder_turkish_group_one: "[CHARACTER.Custom('KingFemaleHolderTurkishOne')]"
+  king_female_turkish_group_one: "Hanïm"
+  kingdom_turkish_group_one: "[CHARACTER.Custom('KingdomTurkishOne')]"
+  sultan_turkish_group_one: "Sultân"
+  sultanate_turkish_group_one: "Sultânlïğï"
+  king_default_male_turkish_group_one: "Han"
+  kingdom_default_turkish_group_one: "Hanlïğï"
+  queen_mother_turkish_group_one: "$king_female_turkish_group_one$" 
+  
+  king_male_turkish_group_two: "[CHARACTER.Custom('DukeFemaleKhazar')]"
+  king_female_turkish_group_two
+  kingdom_turkish_group_two
+  sultan_male_turkish_group_two: "Soltan"
+  sultan_female_turkish_group_two: "Soltana"
+  sultanate_turkish_group_two: "Soltanlïğï"
+  king_default_male_turkish_group_two: "Qan"
+  king_default_female_turkish_group_two: "Qaton"
+  kingdom_default_turkish_group_two: "Qanlïğï"
+  queen_mother_turkish_group_two: "[CHARACTER.Custom('QueenMTurkishTwo')]"
+  
+  king_male_turkish_group_three: "Ïduqut"
+  king_female_turkish_group_three: "Ïduqutum"
+  kingdom_turkish_group_three: "Ïduqutliği"
+  queen_mother_turkish_group_three: "$king_female_turkish_group_three$"
+  
+  king_male_khazar: "[CHARACTER.Custom('KingMaleKhazar')]"
+  king_female_holder_khazar: "[CHARACTER.Custom('KingFemaleHolderKhazar')]"
+  king_female_khazar: "Qanum"
+  kingdom_khazar: "[CHARACTER.Custom('KingdomKhazar')]"
+  sultan_khazar: "Sultan"
+  sultanate_khazar: "Sultanlïğï"
+  queen_mother_khazar: "$king_female_khazar$"
+  
+  king_male_avar: "$king_default_male_turkish_group_two$""
+  kingdom_avar: "$kingdom_default_turkish_group_two$""
+  
+  king_male_karluk: "Xan"
+  king_female_karluk: "Xanïm"
+  kingdom_karluk: "Xanlïğï"
+  queen_mother_karluk: "$king_female_karluk$"
+  
+  king_male_kimek: "[CHARACTER.Custom('KingMaleKimek')]"
+  king_female_kimek: "[CHARACTER.Custom('KingFemaleKimek')]"
+  kingdom_kimek: "[CHARACTER.Custom('KingdomKimek')]"
+  queen_mother_kimek: "[CHARACTER.Custom('QueenMKimek')]"
+  
+  king_male_kirghiz: "Kan"
+  king_female_kirghiz: "Kanum"
+  kingdom_kirghiz: "Kanliği"
+  queen_mother_kirghiz: "$king_female_kirghiz$"
+  
+  king_male_uriankhai: "Toyon"
+  kingdom_uriankhai: "Doydu"
+  
+  emperor_male_turkish_group_one: "Hâkan"
+  emperor_male_turkish_group_two: "Qağan"
+  emperor_male_karluk: "Xağan"
+  emperor_male_kirghiz: "Kagan"
+  emperor_male_uriankhai: "Yraakhtaaghy"
+  emperor_male_chuvash: "Han"
+  
+  emperor_female_turkish_group_one: "Hatun"
+  emperor_female_turkish_group_two: "Qatun"
+  emperor_female_turkish_group_three: "Qan Qatuni"
+  emperor_female_karluk: "Xatïn"
+  emperor_female_kirghiz: "Katun"
+  emperor_female_uriankhai: "Yraakhtaaghylar"
+  
+  empire_turkish_group_one: "Hâkanlïğï"
+  empire_turkish_group_two: "Qağanlïğï"
+  empire_karluk: "Xağanlïğï"
+  empire_kirghiz: "Kaganliği"
+  
+  title_prince_male_turkish: "Şehzade"
+  title_prince_female_turkish: "Hatun"
+  title_prince_male_turkish_empire: "$title_prince_male_turkish$"
+  title_prince_female_turkish_empire: "$title_prince_female_turkish$"
+  title_prince_male_turkish_group_one_empire: "Tegin"
+  title_prince_male_uriankhai_empire: "Yraakhtaaghy Uola"
+  
+  empress_mother_turkish_group_one: "Valide Hatun"
+  empress_mother_turkish_group_two: "$emperor_female_turkish_group_two$"
+  empress_mother_turkish_group_three: "$emperor_female_turkish_group_three$"
+  empress_mother_karluk: "$emperor_female_karluk$"
+  empress_mother_kirghiz: "$emperor_female_kirghiz$"
+  empress_mother_uriankhai: "Ogdoobo Yraakhtaaghylar"
+  
+  baron_republic_male_turkish_group_one: "Aqsaqal"
+  baron_republic_female_turkish_group_one: "Aqsaç"
+  count_republic_male_turkish_group_one: "Aqsaqal Beg"
+  count_republic_female_turkish_group_one: "Aqsaç Begum"
+  baron_republic_male_khazar: "Babağuq"
+  baron_republic_female_khazar: "Anağuq"
+  count_republic_male_khazar: "Babağuq Tudun"
+  count_republic_female_khazar: "Anağuq Tudun"
+  baron_republic_avar: "Tudun"
+  baron_republic_male_chuvash: "Şurăsuhal"
+  baron_republic_female_chuvash: "Şurăśüś"
