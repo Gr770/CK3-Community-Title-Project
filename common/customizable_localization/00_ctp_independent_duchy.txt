@@ -1092,3 +1092,68 @@ TurkishThreeIndepDuchy = {
 		localization_key = independent_duchy_turkish_group_three
 	}
 }
+MordvinIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_mordvin
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_mordvin
+	}
+}
+AshkenaziIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_ashkenazi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_ashkenazi
+	}
+}
+SephardiIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_sephardi
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_sephardi
+	}
+}
+TocharianIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_default_tocharian
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_tocharian
+	}
+}
+KurdishIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_kurdish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kurdish
+	}
+}

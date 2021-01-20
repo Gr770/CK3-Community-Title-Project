@@ -807,3 +807,29 @@ TurkishThreeIndepCounty = {
 		localization_key = independent_county_turkish_group_three
 	}
 }
+MordvinIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_mordvin
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_mordvin
+	}
+}
+KurdishIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_kurdish
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_kurdish
+	}
+}
