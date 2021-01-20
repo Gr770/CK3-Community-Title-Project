@@ -5926,3 +5926,299 @@ KingdomKurdish = {
 		localization_key = kingdom_default_kurdish
 	}
 }
+KingMaleAfghan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_afghan
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_afghan
+	}
+}
+KingFemaleAfghan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_afghan
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_afghan
+	}
+}
+KingdomAfghan = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_afghan
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_afghan
+	}
+}
+KingMaleBaloch = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_baloch
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_baloch
+	}
+}
+KingFemaleBaloch = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_baloch
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_baloch
+	}
+}
+KingdomBaloch = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_baloch
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_baloch
+	}
+}
+KingMaleKhwarezmian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_khwarezmian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_khwarezmian
+	}
+}
+KingFemaleKhwarezmian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_khwarezmian
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_khwarezmian
+	}
+}
+KingdomKhwarezmian = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_khwarezmian
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_khwarezmian
+	}
+}
+KingMaleTajik = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_male_tajik
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_male_tajik
+	}
+}
+KingFemaleTajik = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					root.faith = {
+						has_doctrine = tenet_struggle_submission
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						faith = {
+							has_doctrine = tenet_struggle_submission
+						}
+					}
+				}
+			}
+		}
+		localization_key = sultan_female_tajik
+	}
+	text = {
+		fallback = yes
+		localization_key = king_default_female_tajik
+	}
+}
+KingdomTajik = {
+	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = yes
+			root.faith = {
+				has_doctrine = tenet_struggle_submission
+			}
+		}
+		localization_key = sultanate_tajik
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_default_tajik
+	}
+}

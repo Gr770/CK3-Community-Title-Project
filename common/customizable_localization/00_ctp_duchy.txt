@@ -12598,3 +12598,112 @@ DuchyTocharian = {
 		fallback = yes
 	}
 }
+DukeSaka = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_saka
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_saka
+	}
+	text = {
+		localization_key = duke_default_saka
+		fallback = yes
+	}
+}
+DuchySaka = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_saka
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_saka
+	}
+	text = {
+		localization_key = duchy_default_saka
+		fallback = yes
+	}
+}
+DukeMaleTajik = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_tajik
+	}
+	text = {
+		localization_key = duke_default_male_tajik
+		fallback = yes
+	}
+}
+DukeFemaleTajik = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_tajik
+	}
+	text = {
+		localization_key = duke_default_female_tajik
+		fallback = yes
+	}
+}
+DuchyTajik = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_tajik
+	}
+	text = {
+		localization_key = duchy_default_tajik
+		fallback = yes
+	}
+}
