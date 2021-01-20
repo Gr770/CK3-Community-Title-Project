@@ -53,7 +53,7 @@ window = {
 
 			blockoverride "header_text"
 			{
-				text = "[Localize(Concatenate( Regiment.GetOwner.Custom('ActualCulture'), Regiment.GetNameNoTooltip ))]"
+				text = "[Localize(Concatenate( Regiment.GetOwner.Custom('ctpCulture'), Regiment.GetNameNoTooltip ))]"
 				#text = "[Regiment.GetMAAType.GetBaseTypeName]"
 			}
 			
