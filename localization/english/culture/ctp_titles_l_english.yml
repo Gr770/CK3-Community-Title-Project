@@ -5819,15 +5819,30 @@
   #Songhai
 ########################################################
    baron_male_songhai: "Jineboro"
+   barony_songhai: "Tata"
    
    count_male_songhai: "Koy"
+   county_songhai: "Koytarey"
    
-   duke_male_songhai: "Bonkoyno"
+   duke_male_songhai: "Boŋkoyno"
+   duchy_songhai: "Boŋkoynitaray"
    
    king_male_songhai: "Dia"
+   kingdom_songhai: "Diatarey"
+   
+   emperor_male_songhai: "Sy"
+   empire_songhai: "Laamatarey"
    
    title_prince_male_songhai: "Koyize"
    title_prince_female_songhai: "Woykoyize"
+   
+   baron_republic_songhai: "Diyaw"
+   barony_republic_songhai: "Koyra"
+   count_republic_songhai: "Jinehun":
+   county_republic_songhai: "Koyra Beeri"
+   duchy_republic_songhai: "Gallu"
+   king_republic_songhai: "Koyra Farma"
+   kingdom_republic_songhai: "Gallu Beeri"
 ########################################################
  #Senegambian
 ########################################################
@@ -6818,3 +6833,104 @@
    baron_republic_tajik: "Šahrdār"
    barony_republic_tajik: "Šahr"
    county_republic_tajik: "Šahrestān"
+########################################################
+ #Guineian
+########################################################
+  #Malinke
+########################################################
+   baron_male_malinke: "Fari"
+   baron_female_malinke: "Fari"
+   barony_malinke: "Fariya"
+   
+   count_male_malinke: "Kafutigi"
+   count_female_malinke: "Kafutigi"
+   county_malinke: "Kafu"
+   
+   count_male_malinke_independent: "$duke_male_malinke$"
+   count_female_holder_malinke_independent: "$duke_female_holder_malinke$"
+   count_female_malinke_independent: "$duke_female_malinke$"
+   county_malinke_independent: "[CHARACTER.Custom('MalinkeIndepCounty')]"
+   
+   duke_male_malinke: "Fariba"
+   duke_female_holder_malinke: "Fariba"
+   duke_female_malinke: "Faribamuso"
+   duchy_malinke: "Faribaya"
+   
+   duke_male_malinke_independent: "$king_male_malinke$"
+   duke_female_malinke_independent: "$king_female_malinke$"
+   duchy_malinke_independent: "[CHARACTER.Custom('MalinkeIndepDuchy')]"
+   
+   king_male_malinke: "Mansa"
+   king_female_malinke: "Qasa"
+   kingdom_malinke: "Mansaya"
+   
+   empire_malinke: "Mansaya"
+   
+   title_prince_male_malinke: "Mansadiŋ"
+   title_prince_female_malinke: "Mansadiŋ"
+   queen_mother_malinke: "$king_female_malinke$"
+   
+   baron_republic_malinke: "Dugutigi"
+   barony_republic_malinke: "Dugu"
+   count_republic_malinke: "Kafutigi"
+   county_republic_malinke: "Kafu"
+########################################################
+  #Gur
+########################################################
+   count_male_gur_independent: "$king_male_gur$"
+   count_female_gur_independent: "$king_female_gur$"
+   county_gur_independent: "$kingdom_gur$"
+   
+   duke_male_gur_independent: "$king_male_gur$"
+   duke_female_gur_independent: "$king_female_gur$"
+   duchy_gur_independent: "$kingdom_gur$"
+   
+   king_male_gur: "Bádo"
+   king_female_gur: "Póbádo"
+   kingdom_gur: "Bali"
+########################################################
+ #Yoruba
+########################################################
+  #Yoruba
+########################################################
+   count_male_yoruba_independent: "$duke_male_yoruba$"
+   count_female_holder_yoruba_independent: "$duke_female_holder_yoruba$"
+   count_female_yoruba_independent: "$duke_female_yoruba$"
+   
+   duke_male_yoruba: "Ọba"
+   duke_female_holder_yoruba: "Ọba Obìnrin"
+   duke_female_yoruba: "Ayba"
+   
+   king_male_yoruba: "Ọọ̀ni"
+   king_female_yoruba: "Ọọ̀ni Obìnrin"
+   
+   queen_mother_yoruba: "$king_female_yoruba$"
+   
+   barony_republic_yoruba: "Elu"
+########################################################
+  #Igbo
+########################################################
+   count_male_igbo: "Òbi"
+   count_female_igbo: "Ọ̀mụ"
+   
+   count_male_igbo_independent: "$king_male_igbo$"
+   count_female_holder_igbo_independent: "$king_female_holder_igbo$"
+   count_female_igbo_independent: "$king_female_igbo$"
+   county_igbo_independent: "$kingdom_igbo$"
+   
+   duke_male_igbo_independent: "$king_male_igbo$"
+   duke_female_holder_igbo_independent: "$king_female_holder_igbo$"
+   duke_female_igbo_independent: "$king_female_igbo$"
+   duchy_igbo_independent: "$kingdom_igbo$"
+   
+   king_male_igbo: "Ezè"
+   king_female_holder_igbo: "Ezè Nwaàyì"
+   king_female_igbo: "Lọlọ"
+   kingdom_igbo: "Ànì Ezè"
+   
+   emperor_male_igbo: "Ata"
+   emperor_female_igbo: "Ata"
+   
+   title_prince_female_igbo: "Àda Èzè"
+   queen_mother_igbo: "Ọ̀mụ"
+   empress_mother_igbo: "$emperor_female_igbo$"

@@ -361,12 +361,28 @@ baron_male_songhai = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_songhai = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 count_male_songhai = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 113
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_songhai = {
+	type = title
+	priority = 113
+	tier = county
 	cultures = { songhai }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -381,6 +397,14 @@ duke_male_songhai = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+duchy_songhai = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 king_male_songhai = {
 	type = character
 	gender = male
@@ -389,6 +413,32 @@ king_male_songhai = {
 	tier = kingdom
 	cultures = { songhai }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_songhai = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_songhai = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = empire
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empire_songhai = {
+	type = title
+	priority = 143
+	tier = empire
+	cultures = { songhai }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 title_prince_male_songhai = {
@@ -409,5 +459,67 @@ title_prince_female_songhai = {
 	priority = 130
 	cultures = { songhai }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_republic_songhai = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { songhai }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_songhai = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { songhai }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_songhai = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { songhai }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_songhai = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { songhai }
+	governments = { republic_government }
+	top_liege = no
+}
+duchy_republic_songhai = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { songhai }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_songhai = {
+	type = character
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { songhai }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_republic_songhai = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { songhai }
+	governments = { republic_government }
 	top_liege = no
 }

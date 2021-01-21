@@ -846,3 +846,16 @@ AfghanIndepCounty = {
 		localization_key = independent_county_afghan
 	}
 }
+MalinkeIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_malinke
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_malinke
+	}
+}
