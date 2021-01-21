@@ -316,8 +316,95 @@ BulgarianIndepCounty = {
 		localization_key = independent_county_bulgarian
 	}
 }
+MogyerIndepCountMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_mogyer
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_male_mogyer
+	}
+}
+MogyerIndepCountFemale = {
+	type = character
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_mogyer
+	}
+}
+MogyerIndepCountFemaleHolder = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_mogyer
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_holder_mogyer
+	}
+}
 MogyerIndepCounty = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judgedom_mogyer
+	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
@@ -329,13 +416,100 @@ MogyerIndepCounty = {
 		localization_key = independent_county_mogyer
 	}
 }
+HungIndepCountMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_hung
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_male_hung
+	}
+}
+HungIndepCountFemale = {
+	type = character
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_hung
+	}
+}
+HungIndepCountFemaleHolder = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_hung
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_count_female_holder_hung
+	}
+}
 HungIndepCounty = {
 	type = character
 	text = {
 		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judgedom_hung
+	}
+	text = {
+		trigger = {
 			highest_held_title_tier >= tier_duchy
 		}
-		localization_key = county_feudalclan_prussian
+		localization_key = county_default_hungarian
 	}
 	text = {
 		fallback = yes
@@ -792,5 +966,70 @@ NepaliIndepCounty = {
 	text = {
 		fallback = yes
 		localization_key = independent_county_nepali
+	}
+}
+TurkishThreeIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_turkish_group_three
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_turkish_group_three
+	}
+}
+MordvinIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_mordvin
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_mordvin
+	}
+}
+KurdishIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_kurdish
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_kurdish
+	}
+}
+AfghanIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_afghan
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_afghan
+	}
+}
+MalinkeIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_malinke
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_malinke
 	}
 }

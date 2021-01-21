@@ -196,7 +196,27 @@ empire_russian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { russian }
 }
-title_prince_female_russian_duchy = {
+title_prince_male_russian_county = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = county
+	priority = 100
+	cultures = { russian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_russian_county = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = county
+	priority = 100
+	cultures = { russian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_russian_duchy = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -206,7 +226,7 @@ title_prince_female_russian_duchy = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_russian_duchy = {
+title_prince_female_russian_duchy = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -667,6 +687,26 @@ empire_severian_volhynian = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { severian volhynian }
+}
+title_prince_male_old_east_slavic_county = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = county 
+	priority = 100 ##Князь should not be княжич
+	cultures = { ilmenian severian volhynian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_old_east_slavic_county  = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = county 
+	priority = 100 ##Княгиня should not be княжна
+	cultures = { ilmenian severian volhynian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 }
 title_prince_male_old_east_slavic_duchy = {
 	type = character
