@@ -874,7 +874,7 @@ QueenMSerbian = {
 	}
 	text = {
 		trigger = {
-			any_child = {
+			top_liege = {
 				OR = {
 					has_primary_title = title:e_byzantium
 					has_primary_title = title:e_roman_empire
@@ -907,6 +907,26 @@ QueenMMogyer = {
 	type = character
 	text = {
 		trigger = {
+			top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			any_child = {
+				has_faith = faith:orthodox
+				is_landed = yes
+			} 
+		}
+		localization_key = despot_mother_mogyer
+	}
+	text = {
+		trigger = {
 			root.faith = {
 				has_doctrine = tenet_struggle_submission
 			}
@@ -920,6 +940,26 @@ QueenMMogyer = {
 }
 QueenMHung = {
 	type = character
+	text = {
+		trigger = {
+			top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			any_child = {
+				has_faith = faith:orthodox
+				is_landed = yes
+			} 
+		}
+		localization_key = byzantine_king_hung
+	}
 	text = {
 		trigger = {
 			root.faith = {

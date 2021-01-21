@@ -3398,6 +3398,30 @@ KingMaleMogyer = {
 	text = {
 		trigger = {
 			OR = {
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = byzantine_king_mogyer
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					is_independent_ruler = yes
 					root.faith = {
@@ -3424,6 +3448,30 @@ KingMaleMogyer = {
 }
 KingFemaleMogyer = {
 	type = character
+	text = {
+		trigger = {
+			OR = {
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = byzantine_king_mogyer
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -3455,6 +3503,20 @@ KingdomMogyer = {
 	type = character
 	text = {
 		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_mogyer
+	}
+	text = {
+		trigger = {
 			is_independent_ruler = yes
 			root.faith = {
 				has_doctrine = tenet_struggle_submission
@@ -3469,6 +3531,30 @@ KingdomMogyer = {
 }
 KingMaleHung = {
 	type = character
+	text = {
+		trigger = {
+			OR = {
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = byzantine_king_hung
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -3501,6 +3587,30 @@ KingFemaleHung = {
 	text = {
 		trigger = {
 			OR = {
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = byzantine_king_hung
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					is_independent_ruler = yes
 					root.faith = {
@@ -3530,6 +3640,30 @@ KingFemaleHolderHung = {
 	text = {
 		trigger = {
 			OR = {
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+				AND = {
+					has_faith = faith:orthodox
+					is_landed = yes
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_faith = faith:orthodox
+						is_landed = yes
+					}
+				}
+			}
+		}
+		localization_key = byzantine_king_hung
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					is_independent_ruler = yes
 					root.faith = {
@@ -3556,6 +3690,20 @@ KingFemaleHolderHung = {
 }
 KingdomHung = {
 	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:orthodox
+				root.top_liege = {
+					OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_hung
+	}
 	text = {
 		trigger = {
 			is_independent_ruler = yes
