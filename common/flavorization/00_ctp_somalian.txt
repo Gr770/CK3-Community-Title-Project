@@ -3,438 +3,375 @@
 ##          Title Flavourisation           ##
 #############################################
 ###############################################
-## Berver_culture_group ##
+## Somalian ##
 ###############################################
-## butr zaghawa_culture ##
-##
-baron_male_butr = {
+###############################################
+## Somali
+baron_male_somali = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_butr = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-barony_butr = {
+barony_somali = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_male_butr = {
+count_male_somali = {
 	type = character
 	gender = male
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { butr zaghawa }
+	priority = 113
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_female_butr = {
+count_female_somali = {
 	type = character
 	gender = female
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { butr zaghawa }
+	priority = 113
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_butr = {
+county_somali = {
 	type = title
 	tier = county
 	priority = 113
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+	only_independent = yes
 }
-duke_male_butr = {
+duke_male_somali = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_female_butr = {
+duke_female_somali = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_butr = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_butr_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_female_butr_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_butr_independent = {
+duchy_somali = {
 	type = title
 	tier = duchy
 	priority = 124
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-king_male_butr = {
+king_male_somali = {
 	type = character
 	gender = male
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_butr = {
+king_female_somali = {
 	type = character
 	gender = female
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-kingdom_butr = {
+kingdom_somali = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_male_butr = {
+emperor_male_somali = {
 	type = character
 	gender = male
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_butr = {
+emperor_female_somali = {
 	type = character
 	gender = female
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-empire_butr = {
-	type = title
-	priority = 153
-	tier = empire
-	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-title_prince_male_butr = {
+title_prince_male_somali = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-queen_mother_butr = {
+title_prince_female_somali = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { somali }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_somali_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { somali }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_somali_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { somali }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_somali = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { butr zaghawa }
+	cultures = { somali }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_butr = {
+empress_mother_somali = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { butr zaghawa }
-	governments = { republic_government feudal_government clan_government tribal_government }
-	top_liege = no
-}
-baron_republic_butr = {
-	type = character
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { butr zaghawa } 
-	governments = { republic_government }
-	only_holder = yes
-	top_liege = no
-}
-barony_republic_butr = {
-	type = title
-	tier = barony
-	priority = 153
-	cultures = { butr zaghawa }
-	governments = { republic_government }
+	cultures = { somali }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 ###############################################
-## Baranis culture ##
-##
-baron_male_baranis = {
+## Beja
+baron_male_beja = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_baranis = {
+baron_female_holder_beja = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { beja }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_beja = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_baranis = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_male_baranis = {
+count_male_beja = {
 	type = character
 	gender = male
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { baranis }
+	priority = 113
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_female_baranis = {
+count_female_beja = {
 	type = character
 	gender = female
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { baranis }
+	priority = 113
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_baranis = {
+county_beja = {
 	type = title
 	tier = county
 	priority = 113
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+	only_independent = yes
 }
-duke_male_baranis = {
+duke_male_beja = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_female_baranis = {
+duke_female_beja = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_baranis = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_baranis_independent = {
+duke_male_beja_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 124
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-duke_female_baranis_independent = {
+duke_female_beja_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 124
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-duchy_baranis_independent = {
-	type = title
-	tier = duchy
-	priority = 124
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-king_male_baranis = {
+king_male_beja = {
 	type = character
 	gender = male
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_baranis = {
+king_female_beja = {
 	type = character
 	gender = female
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-kingdom_baranis = {
-	type = title
-	priority = 143
-	tier = kingdom
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-emperor_male_baranis = {
+emperor_male_beja = {
 	type = character
 	gender = male
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_baranis = {
+emperor_female_beja = {
 	type = character
 	gender = female
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-empire_baranis = {
-	type = title
-	priority = 153
-	tier = empire
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-title_prince_male_baranis = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-queen_mother_baranis ={
+queen_mother_beja = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { baranis }
+	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_republic_baranis = {
+empress_mother_beja = {
 	type = character
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { baranis } 
-	governments = { republic_government }
-	only_holder = yes
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { beja }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-barony_republic_baranis = {
-	type = title
-	tier = barony
-	priority = 153
-	cultures = { baranis }
-	governments = { republic_government }
+###############################################
+## Afar
+king_male_afar = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { afar }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+}
+kingdom_afar = {
+	type = title
+	tier = kingdom
+	priority = 143
+	cultures = { afar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
 }

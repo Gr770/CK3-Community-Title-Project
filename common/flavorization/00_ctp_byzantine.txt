@@ -66,6 +66,15 @@ county_armenian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+county_armenian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { armenian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_male_armenian = {
 	type = character
 	gender = male
@@ -147,6 +156,14 @@ emperor_female_armenian = {
 	type = character
 	gender = female
 	special = holder
+	tier = empire
+	priority = 153
+	cultures = { armenian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_armenian = {
+	type = title
 	tier = empire
 	priority = 153
 	cultures = { armenian }
@@ -932,15 +949,25 @@ emperor_female_iconoclast = {
 ###############################################
 ## Georgian ##
 ###############################################
-baron_georgian = {
+baron_male_georgian = {
 	type = character
+	gender = male
 	special = holder
 	tier = barony
 	priority = 103
 	cultures = { georgian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_holder = yes
+}
+baron_female_georgian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 }
 barony_georgian= {
 	type = title
@@ -950,15 +977,25 @@ barony_georgian= {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_georgian = {
+count_male_georgian = {
 	type = character
+	gender = male
 	special = holder
 	tier = county
 	priority = 113
 	cultures = { georgian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_holder = yes
+}
+count_female_georgian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 }
 county_georgian = {
 	type = title
@@ -968,15 +1005,79 @@ county_georgian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_georgian = {
+count_male_georgian_independent = {
 	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_holder_georgian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 115
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_female_georgian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+county_georgian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_georgian = {
+	type = character
+	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
 	cultures = { georgian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+}
+duke_female_holder_georgian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 	only_holder = yes
+}
+duke_female_georgian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 }
 duchy_georgian = {
 	type = title
@@ -986,11 +1087,23 @@ duchy_georgian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_georgian_independent = {
+duke_male_georgian_independent = {
 	type = character
+	gender = male
 	special = holder
 	tier = duchy
-	priority = 123
+	priority = 125
+	cultures = { georgian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_holder_georgian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
 	cultures = { georgian }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
