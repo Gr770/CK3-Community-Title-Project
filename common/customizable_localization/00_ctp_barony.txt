@@ -1,4 +1,20 @@
-﻿BaronMaleItalian = {
+﻿BaronRepublicBasque = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_basque
+	}
+	text = {
+		localization_key = baron_default_republic_basque
+		fallback = yes
+	}
+}
+BaronMaleItalian = {
 	type = character
 	text = {
 		trigger = {
@@ -179,7 +195,13 @@ BaronMaleSardinian = {
 			holds_landed_title = yes
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadore_sardinian
@@ -189,7 +211,13 @@ BaronMaleSardinian = {
 			holds_landed_title = no
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = baron_blank
@@ -218,7 +246,13 @@ BaronFemaleSardinian = {
 			holds_landed_title = yes
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadore_sardinian
@@ -228,7 +262,13 @@ BaronFemaleSardinian = {
 			holds_landed_title = no
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = baron_blank
@@ -255,7 +295,13 @@ BaronySardinian = {
 		trigger = {
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadoria_sardinian
@@ -271,7 +317,13 @@ BaronMaleSardinianRepublic = {
 		trigger = {
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadore_sardinian
@@ -287,7 +339,13 @@ BaronFemaleSardinianRepublic = {
 		trigger = {
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadore_sardinian
@@ -303,7 +361,13 @@ BaronySardinianRepublic = {
 		trigger = {
 			root.top_liege = {
 				highest_held_title_tier = tier_county
-				has_culture = culture:sardinian
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
 			}
 		}
 		localization_key = curadoria_sardinian
@@ -331,7 +395,6 @@ BaronMaleSicilian = {
 		fallback = yes
 	}
 }
-
 BaronFemaleSicilian = {
 	type = character
 	text = {
@@ -441,7 +504,6 @@ BaronMaleCroatian = {
 		fallback = yes
 	}
 }
-
 BaronFemaleCroatian = {
 	type = character
 	text = {
@@ -585,6 +647,326 @@ BaronyBulgarian = {
 	}
 	text = {
 		localization_key = barony_default_bulgarian
+		fallback = yes
+	}
+}
+BaronMaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			holds_landed_title = yes
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_mogyer
+	}
+	text = {
+		trigger = {
+			holds_landed_title = no
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = baron_blank
+	}
+	text = {
+		localization_key = baron_male_mogyer_default
+		fallback = yes
+	}
+}
+
+BaronFemaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			holds_landed_title = yes
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_mogyer
+	}
+	text = {
+		trigger = {
+			holds_landed_title = no
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = baron_blank
+	}
+	text = {
+		localization_key = baron_female_mogyer_default
+		fallback = yes
+	}
+}
+BaronMaleMogyerRepublic = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_mogyer
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_male_mogyer
+	}
+	text = {
+		localization_key = baron_default_republic_male_mogyer
+		fallback = yes
+	}
+}
+BaronFemaleMogyerRepublic = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_mogyer
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_female_mogyer
+	}
+	text = {
+		localization_key = baron_default_republic_female_mogyer
+		fallback = yes
+	}
+}
+BaronMaleHung = {
+	type = character
+	text = {
+		trigger = {
+			holds_landed_title = yes
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_hung
+	}
+	text = {
+		trigger = {
+			holds_landed_title = no
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = baron_blank
+	}
+	text = {
+		localization_key = baron_male_hung_default
+		fallback = yes
+	}
+}
+BaronFemaleHung = {
+	type = character
+	text = {
+		trigger = {
+			holds_landed_title = yes
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_hung
+	}
+	text = {
+		trigger = {
+			holds_landed_title = no
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = baron_blank
+	}
+	text = {
+		localization_key = baron_female_hung_default
+		fallback = yes
+	}
+}
+BaronFemaleHolderHung = {
+	type = character
+	text = {
+		trigger = {
+			holds_landed_title = yes
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_hung
+	}
+	text = {
+		trigger = {
+			holds_landed_title = no
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = baron_blank
+	}
+	text = {
+		localization_key = baron_female_holder_hung_default
+		fallback = yes
+	}
+}
+BaronMaleHungRepublic = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_hung
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_male_hung
+	}
+	text = {
+		localization_key = baron_default_republic_male_hung
+		fallback = yes
+	}
+}
+BaronFemaleMogyerRepublic = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+					has_primary_title = title:c_tortoli
+				}
+			}
+		}
+		localization_key = curadore_hung
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_female_hung
+	}
+	text = {
+		localization_key = baron_default_republic_female_hung
 		fallback = yes
 	}
 }
