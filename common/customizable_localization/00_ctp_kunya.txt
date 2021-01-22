@@ -1,0 +1,70 @@
+﻿CTPKunya = {
+	type = character
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = yes
+			exists = primary_heir
+			root.primary_heir.mother = root
+		}	
+		localization_key = kunya_arabic_mother_landed
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			is_landed = yes
+			exists = primary_heir
+			root.primary_heir.father = root
+		}
+		localization_key = kunya_arabic_father_landed
+	}
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = primary_heir
+				primary_heir.mother = root
+			}
+		}	
+		localization_key = kunya_arabic_mother_unlanded
+	}
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = primary_heir
+				primary_heir.father = root
+			}
+		}	
+		localization_key = kunya_arabic_father_unlanded
+	}
+	text = {
+		fallback = yes
+		localization_key = kunya_blank
+	}
+}
+CTPPatronym = {
+	type = character
+	text = {
+		trigger = {
+			is_male = yes
+			exists = father
+		}
+		localization_key = pat_arabic_male
+	}
+	text = {
+		trigger = {
+			is_male = no
+			exists = father
+		}
+		localization_key = pat_arabic_female
+	}
+	text = {
+		fallback = yes
+		localization_key = kunya_blank
+	}
+}

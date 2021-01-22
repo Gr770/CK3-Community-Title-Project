@@ -3,7 +3,7 @@
 	text = {
 		trigger = {
 			is_landed = no
-			has_nickname = yes
+			has_any_nickname = yes
 			exists = primary_spouse
 			root.primary_spouse = {
 				is_landed = yes
@@ -25,6 +25,29 @@
 	}
 	text = {
 		trigger = {
+			is_landed = no
+			has_any_nickname = yes
+			exists = primary_spouse
+			root.primary_spouse = {
+				is_landed = yes
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = Full_Name_Arabic_Spouse_Nick
+	}
+	text = {
+		trigger = {
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				is_landed = yes
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = Full_Name_Arabic_Spouse
+	}
+	text = {
+		trigger = {
 			is_alive = no
 		}
 		localization_key = Full_Name_Default
@@ -33,7 +56,7 @@
 		trigger = {
 			is_lowborn = yes
 			has_culture_group = culture_group:magyar_group
-			has_nickname = yes
+			has_any_nickname = yes
 			NOT = {
 				exists = primary_spouse
 				root.primary_spouse = {
@@ -59,6 +82,33 @@
 	text = {
 		trigger = {
 			is_lowborn = yes
+			has_culture_group = culture_group:arabic_group
+			has_any_nickname = yes
+			NOT = {
+				exists = primary_spouse
+				root.primary_spouse = {
+					is_landed = yes
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Arabic_Nick
+	}
+	text = {
+		trigger = {
+			is_lowborn = yes
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				exists = primary_spouse
+				root.primary_spouse = {
+					is_landed = yes
+				}
+			}
+		}
+		localization_key = Full_Name_Lowborn_Arabic
+	}
+	text = {
+		trigger = {
+			is_lowborn = yes
 			NOT = {
 				exists = primary_spouse
 				root.primary_spouse = {
@@ -73,7 +123,7 @@
 			has_culture = culture:hungarian
 			highest_held_title_tier < tier_kingdom
 			is_male = yes
-			has_nickname = yes
+			has_any_nickname = yes
 			root.father = {
 				highest_held_title_tier >= tier_kingdom
 			}
@@ -93,9 +143,75 @@
 	}
 	text = {
 		trigger = {
+			has_culture_group = culture_group:arabic_group
+			highest_held_title_tier < tier_kingdom
+			is_male = yes
+			has_any_nickname = yes
+			OR = {
+				root.father = {
+					highest_held_title_tier >= tier_kingdom
+				}
+				root.mother = {
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+		}
+		localization_key = Full_Name_Arabic_Prince_Nick_Male
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			is_male = yes
+			highest_held_title_tier < tier_kingdom
+			OR = {
+				root.father = {
+					highest_held_title_tier >= tier_kingdom
+				}
+				root.mother = {
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+		}
+		localization_key = Full_Name_Arabic_Prince_Male
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			highest_held_title_tier < tier_kingdom
+			is_male = no
+			has_any_nickname = yes
+			OR = {
+				root.father = {
+					highest_held_title_tier >= tier_kingdom
+				}
+				root.mother = {
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+		}
+		localization_key = Full_Name_Arabic_Prince_Nick_Female
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			is_male = no
+			highest_held_title_tier < tier_kingdom
+			OR = {
+				root.father = {
+					highest_held_title_tier >= tier_kingdom
+				}
+				root.mother = {
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+		}
+		localization_key = Full_Name_Arabic_Prince_Female
+	}
+	text = {
+		trigger = {
 			has_culture = culture:hungarian
 			highest_held_title_tier < tier_kingdom
-			has_nickname = yes
+			has_any_nickname = yes
 			root.father = {
 				highest_held_title_tier >= tier_kingdom
 			}
@@ -117,7 +233,7 @@
 			has_culture = culture:hungarian
 			highest_held_title_tier < tier_kingdom
 			is_male = yes
-			has_nickname = yes
+			has_any_nickname = yes
 			root.mother = {
 				highest_held_title_tier >= tier_kingdom
 			}
@@ -139,7 +255,7 @@
 		trigger = {
 			has_culture = culture:hungarian
 			highest_held_title_tier < tier_kingdom
-			has_nickname = yes
+			has_any_nickname = yes
 			root.mother = {
 				highest_held_title_tier >= tier_kingdom
 			}
@@ -160,7 +276,7 @@
 		trigger = {
 			has_culture = culture:hungarian
 			is_landed = no
-			has_nickname = yes
+			has_any_nickname = yes
 		}
 		localization_key = Full_Name_Hungarian_Unlanded_Nick
 	}
@@ -173,9 +289,24 @@
 	}
 	text = {
 		trigger = {
+			has_culture_group = culture_group:arabic_group
+			is_landed = no
+			has_any_nickname = yes
+		}
+		localization_key = Full_Name_Arabic_Unlanded_Nick
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			is_landed = no
+		}
+		localization_key = Full_Name_Arabic_Unlanded
+	}
+	text = {
+		trigger = {
 			has_culture = culture:mogyer
 			is_landed = no
-			has_nickname = yes
+			has_any_nickname = yes
 			NOR = {
 				root.father = {
 					is_landed = yes
@@ -217,7 +348,7 @@
 	text = {
 		trigger = {
 			has_culture_group = culture_group:magyar_group
-			has_nickname = yes
+			has_any_nickname = yes
 		}
 		localization_key = Full_Name_Magyar_Group_Nick
 	}
@@ -226,6 +357,19 @@
 			has_culture_group = culture_group:magyar_group
 		}
 		localization_key = Full_Name_Magyar_Group
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			has_any_nickname = yes
+		}
+		localization_key = Full_Name_Arabic_Nick
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = Full_Name_Arabic
 	}
 	text = {
 		fallback = yes
