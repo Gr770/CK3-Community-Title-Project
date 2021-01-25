@@ -100,7 +100,7 @@ window = {
 								text_single = {
 									name = "men_at_arms_name"
 									layoutpolicy_horizontal = expanding
-									text = "[MenAtArmsType.GetName]"
+									text = "[Localize(Concatenate( 'default', MenAtArmsType.GetNameNoTooltip ))]"
 									default_format = "#high"
 								}
 
@@ -477,7 +477,7 @@ types MenAtArms
 
 			text_single = {
 				name = "title"
-				text = "[MenAtArmsType.GetName]"
+				text = "[Localize(Concatenate( 'default', MenAtArmsType.GetNameNoTooltip ))]"
 				using = Font_Size_Medium
 
 			}

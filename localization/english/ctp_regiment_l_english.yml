@@ -7,7 +7,6 @@
         english_ctp_culture:0 "english"
         anglo_saxon_ctp_culture:0 "anglo_saxon"
         old_saxon_ctp_culture:0 "old_saxon"
-		scottish_ctp_culture: "scottish"
         welsh_ctp_culture:0 "welsh"
         french_ctp_culture:0 "french"
         occitan_ctp_culture:0 "occitan"
@@ -41,7 +40,7 @@
     ########################################################
     ## Default
 
-        defaultlight_footmen:0 "Light Footmen"
+        defaultLight_Footmen:0 "Light_Footmen"
         defaultbowmen:0 "Bowmen"
         defaultlight_horsemen:0 "Light Horsemen"
         defaultpikemen_unit:0 "Pikemen"
@@ -53,8 +52,6 @@
         defaultmangonel:0 "Mangonels"
         defaulttrebuchet:0 "Trebuchets"
         defaultbombard:0 "Bombards"
-		
-		defaulthouse_guard: "House Guard"
         
         defaultwar_elephant:0 "War Elephants"
         defaultcamel_rider:0 "Camel Riders"
@@ -105,8 +102,6 @@
         irishmangonel:0 "$defaultmangonel$"
         irishtrebuchet:0 "$defaulttrebuchet$"
         irishbombard:0 "$defaultbombard$"
-		
-		irishhouse_guard: "$defaulthouse_guard$"
         
         irishwar_elephant:0 "Cathelifainti"
         irishcamel_rider:0 "$defaultcamel_rider$"
@@ -145,7 +140,7 @@
     ########################################################
     ## English
 
-        englishlight_footmen:0 "Pedaile"
+        englishlight_footmen:0 "$defaultlight_footmen$"
         englishbowmen:0 "Archers"
         englishlight_horsemen:0 "Horsmen"
         englishpikemen_unit:0 "Speremen"
@@ -157,15 +152,13 @@
         englishmangonel:0 "Mangeneles"
         englishtrebuchet:0 "Tripgets"
         englishbombard:0 "Bumbards"
-		
-		englishhouse_guard: "Retenauntes"
         
         englishwar_elephant:0 "Werre Olyphauntes"
-        englishcamel_rider:0 "Camail Riderne"
+        englishcamel_rider:0 "$defaultcamel_rider$"
         
         englishhuscarl:0 "$defaulthuscarl$"
         englishlandsknecht:0 "$defaultlandsknecht$"
-        englishlongbowmen:0 "Longbowemen"
+        englishlongbowmen:0 "$defaultlongbowmen$"
         englishgoedendag:0 "$defaultgoedendag$"
         englishgendarme:0 "$defaultgendarme$"
         englishchasseur:0 "$defaultchasseur$"
@@ -209,13 +202,11 @@
         anglo_saxonmangonel:0 "Weallbreceras"
         anglo_saxontrebuchet:0 "Mycele Weallbreceras"
         anglo_saxonbombard:0 "Scéotwǽpnu"
-		
-		anglo_saxonhouse_guard: "Híred"
         
         anglo_saxonwar_elephant:0 "$defaultwar_elephant$"
         anglo_saxoncamel_rider:0 "$defaultcamel_rider$"
         
-        anglo_saxonhuscarl:0 "Húscarlas"
+        anglo_saxonhuscarl:0 "$defaulthuscarl$"
         anglo_saxonlandsknecht:0 "$defaultlandsknecht$"
         anglo_saxonlongbowmen:0 "$defaultlongbowmen$"
         anglo_saxongoedendag:0 "$defaultgoedendag$"
@@ -260,13 +251,11 @@
         old_saxonmangonel:0 "Mangon"
         old_saxontrebuchet:0 "Blîden "
         old_saxonbombard:0 "Stênbuhsun"
-		
-		old_saxonhouse_guard: "Furistwahtâri"
         
         old_saxonwar_elephant:0 "Kamphelfande"
         old_saxoncamel_rider:0 "Olvundiorîdâri"
         
-        old_saxonhuscarl:0 "Lanzknehta"
+        old_saxonhuscarl:0 "$defaulthuscarl$"
         old_saxonlandsknecht:0 "$defaultlandsknecht$"
         old_saxonlongbowmen:0 "$defaultlongbowmen$"
         old_saxongoedendag:0 "$defaultgoedendag$"
@@ -296,57 +285,6 @@
         old_saxonzbrojnosh:0 "$defaultzbrojnosh$"
         old_saxonpalace_guards:0 "$defaultpalace_guards$"
         old_saxonchu_ko_nu:0 "$defaultchu_ko_nu$"
-	########################################################
-    ## scottish
-
-        scottishlight_footmen:0 "Rebaldaill "
-        scottishbowmen:0 "Archaris"
-        scottishlight_horsemen:0 "Horsmen"
-        scottishpikemen_unit:0 "Spermen"
-        scottisharmored_footmen:0 "Sergeandys"
-        scottisharmored_horsemen:0 "Chewalry"
-        scottishcrossbowmen:0 "Arblasters"
-        
-        scottishonager:0 "Onagris"
-        scottishmangonel:0 "Mangeneles"
-        scottishtrebuchet:0 "Tripgets "
-        scottishbombard:0 "Bombardis"
-		
-		scottishhouse_guard: "Hus Garde"
-        
-        scottishwar_elephant:0 "Werre Elephawntys "
-        scottishcamel_rider:0 "Camel Ridaris"
-        
-        scottishhuscarl:0 "$defaulthuscarl$"
-        scottishlandsknecht:0 "$defaultlandsknecht$"
-        scottishlongbowmen:0 "$defaultlongbowmen$"
-        scottishgoedendag:0 "$defaultgoedendag$"
-        scottishgendarme:0 "$defaultgendarme$"
-        scottishchasseur:0 "$defaultchasseur$"
-        scottishpicchieri:0 "$defaultpicchieri$"
-        scottishpraetorian:1 "$defaultpraetorian$"
-        scottishcaballero:0 "$defaultcaballero$"
-        scottishcataphract:0 "$defaultcataphract$"
-        scottishhobelar:0 "$defaulthobelar$"
-        scottishschiltron:0 "Schilthrum"
-        scottishmetsanvartija:0 "$defaultmetsanvartija$"
-        scottishhorse_archers:0 "$defaulthorse_archers$"
-        scottishmubarizun:0 "$defaultmubarizun$"
-        scottishayyar:0 "$defaultayyar$"
-        scottishdruzhina:0 "$defaultdruzhina$"
-        scottishhussar:1 "$defaulthussar$"
-        scottishhorn_warrior:0 "$defaulthorn_warrior$"
-        scottishbush_hunter:0 "$defaultbush_hunter$"
-        scottishshomer:0 "$defaultshomer$"
-        scottishkhandayat:0 "$defaultkhandayat$"
-        scottishmountaineer:0 "$defaultmountaineer$"
-        scottishsahel_horsemen:0 "$defaultsahel_horsemen$"
-        scottishguinea_warrior:0 "$defaultguinea_warrior$"
-        scottishsarawit:0 "$defaultsarawit$"
-        scottishabudrar:0 "$defaultabudrar$"
-        scottishzbrojnosh:0 "$defaultzbrojnosh$"
-        scottishpalace_guards:0 "$defaultpalace_guards$"
-        scottishchu_ko_nu:0 "$defaultchu_ko_nu$"
     ########################################################
     ## Welsh
 
@@ -362,15 +300,13 @@
         welshmangonel:0 "Magneleu"
         welshtrebuchet:0 "$defaulttrebuchet$"
         welshbombard:0 "$defaultbombard$"
-		
-		welshhouse_guard: "$defaulthouse_guard$"
         
         welshwar_elephant:0 "Rhyfeleliphantyeit"
         welshcamel_rider:0 "$defaultcamel_rider$"
         
         welshhuscarl:0 "$defaulthuscarl$"
         welshlandsknecht:0 "$defaultlandsknecht$"
-        welshlongbowmen:0 "Gwyr Bwau Hir"
+        welshlongbowmen:0 "$defaultlongbowmen$"
         welshgoedendag:0 "$defaultgoedendag$"
         welshgendarme:0 "$defaultgendarme$"
         welshchasseur:0 "$defaultchasseur$"
@@ -401,29 +337,27 @@
     ########################################################
     ## French
 
-        frenchlight_footmen:0 "Peon"
-        frenchbowmen:0 "Archier"
-        frenchlight_horsemen:0 "Chevalier Legier"
-        frenchpikemen_unit:0 "Picquier"
-        frencharmored_footmen:0 "Sergent"
-        frencharmored_horsemen:0 "Chevalier Armé"
-        frenchcrossbowmen:0 "Arbalestier"
+        frenchlight_footmen:0 "$defaultlight_footmen$"
+        frenchbowmen:0 "$defaultbowmen$"
+        frenchlight_horsemen:0 "$defaultlight_horsemen$"
+        frenchpikemen_unit:0 "$defaultpikemen_unit$"
+        frencharmored_footmen:0 "$defaultarmored_footmen$"
+        frencharmored_horsemen:0 "$defaultarmored_horsemen$"
+        frenchcrossbowmen:0 "$defaultcrossbowmen$"
         
-        frenchonager:0 "Onager"
-        frenchmangonel:0 "Mangonel"
-        frenchtrebuchet:0 "Trebuchet"
-        frenchbombard:0 "Bombarde"
-		
-		welshhouse_guard: "Guardes du Cors"
+        frenchonager:0 "$defaultonager$"
+        frenchmangonel:0 "$defaultmangonel$"
+        frenchtrebuchet:0 "$defaulttrebuchet$"
+        frenchbombard:0 "$defaultbombard$"
         
-        frenchwar_elephant:0 "Olifan"
-        frenchcamel_rider:0 "Chamelier"
+        frenchwar_elephant:0 "$defaultwar_elephant$"
+        frenchcamel_rider:0 "$defaultcamel_rider$"
         
         frenchhuscarl:0 "$defaulthuscarl$"
         frenchlandsknecht:0 "$defaultlandsknecht$"
         frenchlongbowmen:0 "$defaultlongbowmen$"
         frenchgoedendag:0 "$defaultgoedendag$"
-        frenchgendarme:0 "Genz d'arme"
+        frenchgendarme:0 "$defaultgendarme$"
         frenchchasseur:0 "$defaultchasseur$"
         frenchpicchieri:0 "$defaultpicchieri$"
         frenchpraetorian:1 "$defaultpraetorian$"
@@ -992,7 +926,7 @@
     ########################################################
     ## Franconian
 
-        franconianlight_footmen:0 "$defaultlight_footmen$"
+        franconianLight_Footmen:0 "$defaultlight_footmen$"
         franconianbowmen:0 "$defaultbowmen$"
         franconianlight_horsemen:0 "$defaultlight_horsemen$"
         franconianpikemen_unit:0 "$defaultpikemen_unit$"

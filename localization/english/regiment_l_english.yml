@@ -14,7 +14,7 @@
  MAA_SCREEN_DIFF:0 "$EFFECT_LIST_BULLET$[screen|E]: $VALUE|0+=$"
  MAA_COUNTERS_EFFECT:0 "$EFFECT_LIST_BULLET$Counters $TYPE|V$"
  MAA_COUNTERS_EFFECT_SHORT:0 "$TYPE|V$"
- MAA_COUNTERS_LABEL:0 ""
+ MAA_COUNTERS_LABEL:0 "[counters|E] these Types:\n[MenAtArmsType.GetCountersString]"
  MAA_COUNTER_SHORT_LIST:1 "$LIST$"
  MAA_COUNTER_NONE:0 "#weak None#!"
  MAA_TERRAIN_EFFECT_FORMAT:0 "$EFFECT_LIST_BULLET$In $TERRAIN_TYPE|V$: $LIST$"
@@ -47,18 +47,18 @@
  heavy_cavalry:2 "[heavy_cavalry|E]"
  pikemen:2 "[spearmen|E]"
  heavy_infantry:2 "[heavy_infantry|E]"
+ siege_weapon:2 "[siege_weapons|E]"
  
  #Base MaA
- #light_footmen:0 "Light Footmen"
+ light_footmen:0 "Light_Footmen"
  #bowmen:0 "Bowmen"
  #light_horsemen:0 "Light Horsemen"
  #pikemen_unit:0 "Pikemen"
- #armored_footmen:0 "Armored Footmen"
+ armored_footmen:0 "ArmoredFootmen"
  #armored_horsemen:0 "Armored Horsemen"
  #crossbowmen:0 "Crossbowmen"
 
  #Siege MaA
- siege_weapon:2 "[siege_weapons|E]"
  #onager:0 "Onagers"
  #mangonel:0 "Mangonels"
  #trebuchet:0 "Trebuchets"
