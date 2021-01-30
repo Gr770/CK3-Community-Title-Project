@@ -2,494 +2,455 @@
 ##         Community Title Project         ##
 ##          Title Flavourisation           ##
 #############################################
-#############################################
-## Akan_culture_group ##
-#############################################
-baron_male_akan = {
+###############################################
+## Israelite ##
+###############################################
+## ashkenazi ##
+baron_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_akan = {
+baron_female_ashkenazi = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_akan = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_male_akan = {
+count_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { akan }
+	tier = county
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_female_akan = {
+count_female_ashkenazi = {
 	type = character
 	gender = female
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { akan }
+	tier = county
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_akan = {
+county_ashkenazi = {
 	type = title
-	tier = county
 	priority = 113
-	cultures = { akan }
+	tier = county
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_male_akan = {
+duke_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_female_akan = {
+duke_female_ashkenazi = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_akan = {
+duchy_ashkenazi = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_male_akan_independent = {
+duke_male_ashkenazi_independent = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
 	priority = 124
-	cultures = { akan }
+	tier = duchy
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
+	top_liege = no
 }
-duke_female_akan_independent = {
+duke_female_ashkenazi_independent = {
 	type = character
 	gender = female
 	special = holder
-	tier = duchy
 	priority = 124
-	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_male_akan_independent_holder = {
-	type = character
-	gender = male
-	special = holder
 	tier = duchy
-	priority = 125
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
-	only_holder = yes
-}
-duke_female_akan_independent_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 125
-	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
-	only_holder = yes
 }
-duchy_akan_independent = {
+duchy_ashkenazi_independent = {
 	type = title
-	tier = duchy
 	priority = 124
-	cultures = { akan }
+	tier = duchy
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
+	top_liege = no
 }
-king_male_akan = {
+king_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
 	priority = 143
-	cultures = { akan }
+	tier = kingdom
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_akan = {
+king_female_ashkenazi = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
 	priority = 143
-	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_male_akan_holder = {
-	type = character
-	gender = male
-	special = holder
 	tier = kingdom
-	priority = 144
-	cultures = { akan }
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_holder = yes
 }
-king_female_akan_holder = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 144
-	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
-kingdom_akan = {
+kingdom_ashkenazi = {
 	type = title
-	tier = kingdom
 	priority = 143
-	cultures = { akan }
+	tier = kingdom
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_male_akan = {
+emperor_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
-	tier = empire
 	priority = 153
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	tier = empire
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_akan = {
+emperor_female_ashkenazi = {
 	type = character
 	gender = female
 	special = holder
-	tier = empire
 	priority = 153
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	tier = empire
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-empire_akan = {
+empire_ashkenazi = {
 	type = title
-	tier = empire
 	priority = 153
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	tier = empire
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_male_akan = {
+title_prince_male_ashkenazi = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = kingdom
-	priority = 140
-	cultures = { akan }
+	priority = 130
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_female_akan = {
+title_prince_female_ashkenazi = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = kingdom
-	priority = 140
-	cultures = { akan }
+	priority = 130
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_akan_empire = {
+title_prince_male_ashkenazi_empire = {
 	type = character
 	gender = male
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_female_akan_empire = {
+title_prince_female_ashkenazi_empire = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-queen_mother_akan = {
+queen_mother_ashkenazi ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
-	priority = 140
-	cultures = { akan }
+	priority = 130
+	cultures = { ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_akan = {
+empress_mother_ashkenazi ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { akan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	cultures = { ashkenazi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_akan = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { akan }
-	governments = { republic_government }
-	top_liege = no
-	only_holder = yes
-}
-barony_republic_akan = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { akan }
-	governments = { republic_government }
-	top_liege = no
-}
-#############################################
-## Kru_culture_group ##
-#############################################
-count_male_kru = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { kru }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-king_female_kru = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	cultures = { kru }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-kingdom_kru = {
-	type = title
-	tier = kingdom
-	priority = 143
-	cultures = { kru }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-#############################################
-## Guan_culture_group ##
-#############################################
-baron_male_guan = {
+###############################################
+## sephardi ##
+baron_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { guan }
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_male_guan = {
+baron_female_sephardi = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
-	tier = county
 	priority = 113
-	cultures = { guan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_female_guan = {
-	type = character
-	gender = female
-	special = holder
 	tier = county
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_sephardi = {
+	type = character
+	gender = female
+	special = holder
 	priority = 113
-	cultures = { guan }
+	tier = county
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_male_guan_independent = {
+county_sephardi = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
+	priority = 123
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_sephardi = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_sephardi = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_sephardi_independent = {
+	type = character
+	gender = male
+	special = holder
 	priority = 124
-	cultures = { guan }
+	tier = duchy
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
+	top_liege = no
 }
-duke_female_guan_independent = {
+duke_female_sephardi_independent = {
 	type = character
 	gender = female
 	special = holder
-	tier = duchy
 	priority = 124
-	cultures = { guan }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_male_guan_independent_holder = {
-	type = character
-	gender = male
-	special = holder
 	tier = duchy
-	priority = 125
-	cultures = { guan }
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
-	only_holder = yes
+	top_liege = no
 }
-duke_female_guan_independent_holder = {
-	type = character
-	gender = female
-	special = holder
+duchy_sephardi_independent = {
+	type = title
+	priority = 124
 	tier = duchy
-	priority = 125
-	cultures = { guan }
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
 	only_independent = yes
-	only_holder = yes
+	top_liege = no
 }
-king_male_guan = {
+king_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
 	priority = 143
-	cultures = { guan }
+	tier = kingdom
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_guan = {
+king_female_sephardi = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
 	priority = 143
-	cultures = { guan }
+	tier = kingdom
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_male_guan_holder = {
+kingdom_sephardi = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
-	priority = 144
-	cultures = { guan }
-	governments = { feudal_government clan_government tribal_government }
+	priority = 153
+	tier = empire
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
-	only_holder = yes
 }
-king_female_guan_holder = {
+emperor_female_sephardi = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
-	priority = 144
-	cultures = { guan }
-	governments = { feudal_government clan_government tribal_government }
+	priority = 153
+	tier = empire
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
-	only_holder = yes
 }
-emperor_male_guan = {
+empire_sephardi = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_sephardi = {
 	type = character
 	gender = male
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { guan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_female_guan = {
+title_prince_female_sephardi = {
 	type = character
 	gender = female
-	special = holder
-	tier = empire
-	priority = 153
-	cultures = { guan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-queen_mother_guan = {
+title_prince_male_sephardi_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_sephardi_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_sephardi ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
-	priority = 140
-	cultures = { guan }
+	priority = 130
+	cultures = { sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_guan = {
+empress_mother_sephardi ={
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { guan }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	cultures = { sephardi }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }

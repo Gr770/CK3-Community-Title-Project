@@ -1472,6 +1472,35 @@ barony_republic_sardinian = {
 	cultures = { sardinian }
 	governments = { republic_government }
 	top_liege = no
+}
+duchy_republic_sardinian = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { sardinian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_male_republic_sardinian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sardinian } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+duke_female_republic_sardinian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sardinian } 
+	governments = { republic_government }
+	top_liege = no
 	only_holder = yes
 }
 ### For Conditionals
@@ -1764,6 +1793,76 @@ empress_mother_sicilian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+baron_republic_sicilian = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_sicilian = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { sicilian }
+	governments = { republic_government }
+	top_liege = no
+}
+duke_republic_male_sicilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_female_sicilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_sicilian = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { sicilian }
+	governments = { republic_government }
+	top_liege = no
+}
+king_republic_male_sicilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_female_sicilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
 ###############################################
 ## Lombard
 
@@ -1987,7 +2086,7 @@ title_prince_male_lombard_roman_empire = {
 	cultures = { lombard }
 	titles = { e_byzantium e_roman_empire }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	top_liege = no 
 }
 title_prince_female_lombard_roman_empire = {
 	type = character
@@ -2020,8 +2119,9 @@ empress_mother_lombard = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_lombard = {
+baron_republic_male_lombard = {
 	type = character
+	gender = male
 	special = holder
 	tier = barony
 	priority = 103
@@ -2030,8 +2130,28 @@ baron_republic_lombard = {
 	top_liege = no
 	only_holder = yes
 }
-count_republic_lombard = {
+baron_republic_female_lombard = {
 	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { lombard } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_republic_lombard = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { lombard }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_male_lombard = {
+	type = character
+	gender = male
 	special = holder
 	tier = county
 	priority = 113
@@ -2039,6 +2159,41 @@ count_republic_lombard = {
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
+}
+count_republic_female_lombard = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { lombard } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_lombard = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { lombard }
+	governments = { republic_government }
+	top_liege = no
+}
+duchy_republic_lombard = {
+	type = title
+	priority = 123
+	tier = duchy
+	cultures = { lombard }
+	governments = { republic_government }
+	top_liege = no
+}
+kingdom_republic_lombard = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { lombard }
+	governments = { republic_government }
+	top_liege = no
 }
 ###############################################
 ## End of Latin_culture_group ##

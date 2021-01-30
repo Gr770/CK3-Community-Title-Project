@@ -6804,7 +6804,7 @@ CountMaleCzech = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_czech_independent
+		localization_key = furst_male_czech
 	}
 	text = {
 		trigger = {
@@ -6884,7 +6884,7 @@ CountMaleCzech = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_czech_independent
+		localization_key = furst_male_czech
 	}
 	text = {
 		localization_key = count_default_male_czech
@@ -6918,7 +6918,7 @@ CountFemaleCzech = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_czech_independent
+		localization_key = furst_female_czech
 	}
 	text = {
 		trigger = {
@@ -6998,7 +6998,7 @@ CountFemaleCzech = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_czech_independent
+		localization_key = furst_female_czech
 	}
 	text = {
 		localization_key = count_default_female_czech
@@ -7057,7 +7057,7 @@ CountyCzech = {
 				}
 			}
 		}
-		localization_key = independent_duchy_czech
+		localization_key = furstdom_czech
 	}
 	text = {
 		localization_key = county_default_czech
@@ -7638,8 +7638,149 @@ CountySlovien = {
 		fallback = yes
 	}
 }
+FreeMayorMaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_mogyer
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_male_mogyer
+	}
+	text = {
+		localization_key = count_republic_default_male_mogyer
+		fallback = yes
+	}
+}
+FreeMayorFemaleMogyer = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_mogyer
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_female_mogyer
+	}
+	text = {
+		localization_key = count_republic_default_female_mogyer
+		fallback = yes
+	}
+}
+FreeCityMogyer = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judgedom_mogyer
+	}
+	text = {
+		localization_key = county_republic_default_mogyer
+		fallback = yes
+	}
+}
 FreeMayorMaleHung = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_hung
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_male_hung
+	}
 	text = {
 		trigger = {
 			exists = liege
@@ -7658,6 +7799,42 @@ FreeMayorFemaleHung = {
 	type = character
 	text = {
 		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judge_hung
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_title_tier = tier_county
+				OR = {
+					has_primary_title = title:c_cagliari
+					has_primary_title = title:c_arborea
+					has_primary_title = title:c_gallura
+					has_primary_title = title:c_logudoro
+				}
+			}
+		}
+		localization_key = ctp_blank
+	}
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				has_government = republic_government
+			}
+		}
+		localization_key = perfecto_female_hung
+	}
+	text = {
+		trigger = {
 			exists = liege
 			root.liege = {
 				has_primary_title = title:e_hre
@@ -7672,6 +7849,18 @@ FreeMayorFemaleHung = {
 }
 FreeCityHung = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+			OR = {
+				has_primary_title = title:c_cagliari
+				has_primary_title = title:c_arborea
+				has_primary_title = title:c_gallura
+				has_primary_title = title:c_logudoro
+			}
+		}
+		localization_key = judgedom_hung
+	}
 	text = {
 		trigger = {
 			exists = liege

@@ -3,775 +3,714 @@
 ##          Title Flavourisation           ##
 #############################################
 ###############################################
-## Central_African_culture_group ##
+## Senegambian ##
 ###############################################
-## Kanuri_culture ##
-##
-
-baron_male_kanuri = {
+###############################################
+## Pulaar
+baron_male_pulaar = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_kanuri = {
+baron_female_pulaar = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_male_kanuri = {
-	type = character
-	gender = male
-	special = holder
-	priority = 113
-	tier = county
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_female_kanuri = {
+baron_female_holder_pulaar = {
 	type = character
 	gender = female
 	special = holder
-	priority = 113
-	tier = county
-	cultures = { kanuri }
+	tier = barony
+	priority = 104
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-}
-count_male_kanuri_independent = {
-	type = character
-	gender = male
-	special = holder
-	priority = 114
-	tier = county
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-count_female_holder_kanuri_independent = {
-	type = character
-	gender = female
-	special = holder
-	priority = 115
-	tier = county
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
 	only_holder = yes
 }
-count_female_kanuri_independent = {
+count_male_pulaar = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_pulaar = {
 	type = character
 	gender = female
 	special = holder
-	priority = 114
 	tier = county
-	cultures = { kanuri }
+	priority = 113
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
-county_kanuri_independent = {
-	type = title
+count_female_holder_pulaar = {
+	type = character
+	gender = female
+	special = holder
 	tier = county
 	priority = 114
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
+	only_holder = yes
 }
-duke_male_kanuri = {
+duke_male_pulaar = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_female_kanuri = {
+duke_female_holder_pulaar = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_female_pulaar = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_male_kanuri_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duke_female_holder_kanuri_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 125
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
-}
-duke_female_kanuri_independent = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 124
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-}
-duchy_kanuri_independent = {
+duchy_pulaar_independent = {
 	type = title
 	tier = duchy
 	priority = 124
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-king_male_kanuri = {
+king_male_pulaar = {
 	type = character
 	gender = male
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_holder_kanuri = {
+king_female_holder_pulaar = {
 	type = character
 	gender = female
 	special = holder
 	priority = 144
 	tier = kingdom
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_holder = yes
 }
-king_female_kanuri = {
+king_female_pulaar = {
 	type = character
 	gender = female
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-kingdom_kanuri = {
+kingdom_pulaar = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-title_prince_male_kanuri = {
+emperor_male_pulaar = {
 	type = character
 	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_female_kanuri = {
+emperor_female_pulaar = {
 	type = character
 	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-queen_mother_kanuri ={
+empire_pulaar = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_pulaar = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { kanuri }
+	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_republic_kanuri = {
+empress_mother_pulaar = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+baron_republic_pulaar = {
 	type = character
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { kanuri } 
+	cultures = { pulaar }
 	governments = { republic_government }
 	only_holder = yes
 	top_liege = no
 }
+barony_republic_pulaar = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { pulaar }
+	governments = { republic_government }
+	top_liege = no
+}
 ###############################################
-## Hausa_culture ##
-##
-
-baron_male_hausa = {
+## Serer
+baron_male_serer = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_hausa = {
+baron_female_serer = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_hausa = {
+barony_feudalclan_serer = {
 	type = title
-	tier = barony
+	tier = duchy
 	priority = 103
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_male_hausa = {
+count_male_serer = {
 	type = character
 	gender = male
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { hausa }
+	priority = 113
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_female_hausa = {
+count_female_serer = {
 	type = character
 	gender = female
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { hausa }
+	priority = 113
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_hausa = {
+county_feudalclan_serer = {
 	type = title
-	priority = 113
 	tier = county
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
+	priority = 113
+	cultures = { serer }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_male_hausa = {
+count_male_serer_independent = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { hausa }
+	tier = county
+	priority = 114
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-}
-duke_female_hausa = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duchy_hausa = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-duke_male_hausa_independent = {
-	type = character
-	gender = male
-	special = holder
-	priority = 124
-	tier = duchy
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
-	top_liege = no
 }
-duke_female_holder_hausa_independent = {
+count_female_serer_independent = {
 	type = character
 	gender = female
 	special = holder
-	priority = 125
-	tier = duchy
-	cultures = { hausa }
+	tier = county
+	priority = 114
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_serer = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { serer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_serer = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { serer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_serer_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { serer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_holder_serer_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { serer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
 	only_independent = yes
 	only_holder = yes
-	top_liege = no
 }
-duke_female_hausa_independent = {
+duke_female_serer_independent = {
 	type = character
 	gender = female
 	special = holder
-	priority = 124
 	tier = duchy
-	cultures = { hausa }
+	priority = 124
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
 	top_liege = no
+	only_independent = yes
 }
-duchy_hausa_independent = {
+duchy_serer_independent = {
 	type = title
-	priority = 124
 	tier = duchy
-	cultures = { hausa }
+	priority = 124
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
 	top_liege = no
+	only_independent = yes
 }
-king_male_hausa = {
+king_male_serer = {
 	type = character
 	gender = male
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_holder_hausa = {
+king_female_holder_serer = {
 	type = character
 	gender = female
 	special = holder
 	priority = 144
 	tier = kingdom
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_holder = yes
 }
-king_female_hausa = {
+king_female_serer = {
 	type = character
 	gender = female
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-kingdom_hausa = {
+kingdom_serer = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_male_hausa = {
+emperor_male_serer = {
 	type = character
 	gender = male
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_holder_hausa = {
+emperor_female_holder_serer = {
 	type = character
 	gender = female
 	special = holder
-	priority = 153
+	priority = 154
 	tier = empire
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 	only_holder = yes
 }
-emperor_female_hausa = {
+emperor_female_serer = {
 	type = character
 	gender = female
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_male_hausa = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_hausa = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_male_hausa_empire = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = empire
-	priority = 150
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-title_prince_female_hausa_empire = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = empire
-	priority = 150
-	cultures = { hausa }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-queen_mother_hausa ={
+queen_mother_serer = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_hausa ={
+empress_mother_serer = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { hausa }
+	cultures = { serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_hausa = {
-	type = character
-	special = holder
+barony_republic_serer = {
+	type = title
 	tier = barony
 	priority = 103
-	cultures = { hausa } 
+	cultures = { serer }
+	governments = { republic_government }
+	top_liege = no
+}
+count_republic_serer = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { serer }
 	governments = { republic_government }
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_hausa = {
+barony_tribal_serer = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { hausa }
-	governments = { republic_government }
+	cultures = { serer }
+	governments = { tribal_government }
 	top_liege = no
 }
-barony_tribal_hausa = {
+county_tribal_serer = {
 	type = title
-	tier = barony
-	priority = 103
-	cultures = { hausa }
+	tier = county
+	priority = 113
+	cultures = { serer }
 	governments = { tribal_government }
 	top_liege = no
 }
 ###############################################
-## Nupe_culture ##
-##
-
-baron_male_nupe = {
+## Wolof
+baron_male_wolof = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_nupe = {
+baron_female_wolof = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_nupe = {
-	type = title
-	tier = barony
-	priority = 103
-	cultures = { nupe }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-count_male_nupe = {
+count_male_wolof = {
 	type = character
 	gender = male
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { nupe }
+	priority = 113
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_female_nupe = {
+count_female_wolof = {
 	type = character
 	gender = female
 	special = holder
-	priority = 113
 	tier = county
-	cultures = { nupe }
+	priority = 113
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_nupe = {
-	type = title
-	priority = 113
+count_male_wolof_independent = {
+	type = character
+	gender = male
+	special = holder
 	tier = county
-	cultures = { nupe }
+	priority = 114
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+	only_independent = yes
 }
-duke_male_nupe = {
+count_female_wolof_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { wolof }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_wolof = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_female_nupe = {
+duke_female_wolof = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_male_nupe_independent = {
+duke_male_wolof_independent = {
 	type = character
 	gender = male
 	special = holder
-	priority = 124
 	tier = duchy
-	cultures = { hausa }
+	priority = 124
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
 	top_liege = no
+	only_independent = yes
 }
-duke_female_nupe_independent = {
+duke_female_holder_wolof_independent = {
 	type = character
 	gender = female
 	special = holder
-	priority = 124
 	tier = duchy
-	cultures = { nupe }
+	priority = 125
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
 	top_liege = no
+	only_independent = yes
+	only_holder = yes
 }
-duchy_nupe_independent = {
+duke_female_wolof_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { wolof }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_wolof_independent = {
 	type = title
-	priority = 124
 	tier = duchy
-	cultures = { nupe }
+	priority = 124
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
-	only_independent = yes
 	top_liege = no
+	only_independent = yes
 }
-king_male_nupe = {
+king_male_wolof = {
 	type = character
 	gender = male
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-king_female_nupe = {
+king_female_holder_wolof = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	cultures = { wolof }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_wolof = {
 	type = character
 	gender = female
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-kingdom_nupe = {
+kingdom_wolof = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-emperor_male_nupe = {
+emperor_male_wolof = {
 	type = character
 	gender = male
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-emperor_female_nupe = {
+emperor_female_holder_wolof = {
+	type = character
+	gender = female
+	special = holder
+	priority = 154
+	tier = empire
+	cultures = { wolof }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
+}
+emperor_female_wolof = {
 	type = character
 	gender = female
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_male_nupe = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { nupe }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_female_nupe = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = kingdom
-	priority = 130
-	cultures = { nupe }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-}
-title_prince_male_nupe_empire = {
-	type = character
-	gender = male
-	special = ruler_child
+empire_wolof = {
+	type = title
+	priority = 143
 	tier = empire
-	priority = 150
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-title_prince_female_nupe_empire = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = empire
-	priority = 150
-	cultures = { nupe }
-	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-}
-queen_mother_nupe ={
+queen_mother_wolof = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-empress_mother_nupe ={
+empress_mother_wolof = {
 	type = character
 	gender = female
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { nupe }
+	cultures = { wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_hausa = {
-	type = character
-	special = holder
-	tier = barony
-	priority = 103
-	cultures = { hausa } 
-	governments = { republic_government }
-	only_holder = yes
-	top_liege = no
-}
-barony_republic_hausa = {
+barony_republic_wolof = {
 	type = title
 	tier = barony
 	priority = 103
-	cultures = { hausa }
-	governments = { republic_government }
-	top_liege = no
-}
-count_republic_hausa = {
-	type = character
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { hausa } 
-	governments = { republic_government }
-	only_holder = yes
-	top_liege = no
-}
-county_republic_hausa = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { hausa }
+	cultures = { wolof }
 	governments = { republic_government }
 	top_liege = no
 }
