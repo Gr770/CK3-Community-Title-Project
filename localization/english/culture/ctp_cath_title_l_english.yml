@@ -19,12 +19,12 @@
   
   kurfurst_count_male_cath: "Electoris Episcopus"
   kurfurst_count_female_cath: "Electorix Episcopa"
-  kurfurstdom_county_cath: "Electoratus Episcopatus"
+  kurfurstdom_county_cath: "Electoratus Episcopalis"
   
   count_male_theo_cath_independent: "Princeps Episcopus"
   count_female_theo_cath_independent: "Principis Episcopa"
   county_theo_cath_independent: "[CHARACTER.Custom('IndepCountyCath')]"
-  independent_county_cath: "Principatus Episcopatus"
+  independent_county_cath: "Principatus Episcopalis"
   
   duke_male_theo_cath: "[CHARACTER.Custom('DukeMaleCath')]"
   duke_female_theo_cath: "[CHARACTER.Custom('DukeFemaleCath')]"
@@ -35,12 +35,12 @@
   
   kurfurst_duke_male_cath: "Electoris Archiepiscopus"
   kurfurst_duke_female_cath: "Electorix Archiepiscopa"
-  kurfurstdom_duchy_cath: "Electoratus Archiepiscopatus"
+  kurfurstdom_duchy_cath: "Electoratus Archiepiscopalis"
   
   duke_male_theo_cath_independent: "Princeps Archiepiscopus"
   duke_female_theo_cath_independent: "PrincipisArchiepiscopa"
   duchy_theo_cath_independent: "[CHARACTER.Custom('IndepDuchyCath')]"
-  independent_duchy_cath: "Principatus Archiepiscopatus"
+  independent_duchy_cath: "Principatus Archiepiscopalis"
   
   king_male_theo_cath: "Primas"
   king_female_theo_cath: "Primas"
@@ -95,9 +95,11 @@
   #AngloSaxon
 ########################################################
    pope_man_anglo_saxon: "Pápa"
+   
    count_male_theo_cath_anglo_saxon: "Biscop"
    count_female_theo_cath_anglo_saxon: "Biscop"
    county_theo_cath_anglo_saxon: "Biscopríce"
+   
    duke_male_theo_cath_anglo_saxon: "Ærcebiscop"
    duke_female_theo_cath_anglo_saxon: "Ærcebiscop"
    duchy_theo_cath_anglo_saxon: "Ærcebiscopríce"
@@ -105,17 +107,44 @@
   #OldSaxon
 ########################################################
    pope_man_old_saxon: "Bābes"
-   count_male_theo_cath_old_saxon: "Biscof"
-   count_female_theo_cath_old_saxon: "Biscofin"
-   county_theo_cath_old_saxon: "Bistuom"
-   duke_male_theo_cath_old_saxon: "Ersibiscof"
-   duke_female_theo_cath_old_saxon: "Ersibiscofin"
-   duchy_theo_cath_old_saxon: "Ersibistuom"
+   
+   count_male_theo_cath_old_saxon: "[CHARACTER.Custom('CountMaleCathOldSaxon')]"
+   count_female_theo_cath_old_saxon: "[CHARACTER.Custom('CountFemaleCathOldSaxon')]"
+   county_theo_cath_old_saxon: "[CHARACTER.Custom('CountyCathOldSaxon')]"
+   count_default_male_cath_old_saxon: "Biscof"
+   count_default_female_cath_old_saxon: "Biscofin"
+   county_default_cath_old_saxon: "Bistuom"
+   
+   kurfurst_count_male_cath_old_saxon: "Kôrvorstbiscof"
+   kurfurst_count_female_cath_old_saxon: "Kôrvorstbiscofin"
+   kurfurstdom_county_cath_old_saxon: "Kôrvorstbistuom"
+   
+   count_male_theo_cath_old_saxon_independent: "Vorstbiscof"
+   count_female_theo_cath_old_saxon_independent: "Vorstbiscofin"
+   county_theo_cath_old_saxon_independent: "[CHARACTER.Custom('IndepCountyCathOldSaxon')]"
+   independent_county_cath_old_saxon: "Vorstbistuom"
+   
+   duke_male_theo_cath_old_saxon: "[CHARACTER.Custom('DukeMaleCathOldSaxon')]"
+   duke_female_theo_cath_old_saxon: "[CHARACTER.Custom('DukeFemaleCathOldSaxon')]"
+   duchy_theo_cath_old_saxon: "[CHARACTER.Custom('DuchyCathOldSaxon')]"
+   duke_default_male_cath_old_saxon: "Ersibiscof"
+   duke_default_female_cath_old_saxon: "Ersibiscofin"
+   duchy_default_cath_old_saxon: "Ersibistuom"
+   
+   kurfurst_duke_male_cath_old_saxon: "Kôrvorstersibiscof"
+   kurfurst_duke_female_cath_old_saxon: "Kôrvorstersibiscofin"
+   kurfurstdom_duchy_cath_old_saxon: "Kôrvorstersibistoum"
+   
+   duke_male_theo_cath_old_saxon_independent: "Vorstersibiscof"
+   duke_female_theo_cath_old_saxon_independent: "Vorstersibiscofin"
+   duchy_theo_cath_old_saxon_independent: "[CHARACTER.Custom('IndepDuchyCathOldSaxon')]"
+   independent_duchy_cath_old_saxon: "Vorstersibistoum"
 ########################################################
   #Welsh
 ########################################################
    pope_man_bythonic: "Pap"
    pope_woman_bythonic: "Mam"
+   
    count_male_theo_cath_welsh: "Escyp"
    count_female_theo_cath_welsh: "Escypes"
    county_theo_cath_welsh: "Esgobaut"
@@ -137,31 +166,146 @@
    baron_male_theo_cath_french: "Archiprestres"
    baron_female_theo_cath_french: "Archiprestresse"
    barony_theo_cath_french: "Deienaz"
-   count_male_theo_cath_french: "Evesques"
-   count_female_theo_cath_french: "Evesquesse"
-   county_theo_cath_french: "Diocese"
-   duke_male_theo_cath_french: "Archevesques"
-   duke_female_theo_cath_french: "Archevesquesse"
-   duchy_theo_cath_french: "Archidiocese"
+   
+   count_male_theo_cath_french: "[CHARACTER.Custom('CountMaleCathFrench')]"
+   count_female_theo_cath_french: "[CHARACTER.Custom('CountFemaleCathFrench')]"
+   county_theo_cath_french: "[CHARACTER.Custom('CountyCathFrench')]"
+   count_default_male_cath_french: "Evesques"
+   count_default_female_cath_french: "Evesquesse"
+   county_default_cath_french: "Diocese"
+   
+   kurfurst_count_male_cath_french: "Princes Evesques Electere"
+   kurfurst_count_female_cath_french: "Princesse Evesquesse Electeriz"
+   kurfurstdom_county_cath_french: "Principaliz Episcopal Electeres"
+   
+   count_male_theo_cath_french_independent: "Princes Evesques"
+   count_female_theo_cath_french_independent: "Princesse Evesquesse"
+   county_theo_cath_french_independent: "[CHARACTER.Custom('IndepCountyCathFrench')]"
+   independent_county_cath_french: "Principaliz Episcopal"
+   
+   duke_male_theo_cath_french: "[CHARACTER.Custom('DukeMaleCathFrench')]"
+   duke_female_theo_cath_french: "[CHARACTER.Custom('DukeFemaleCathFrench')]"
+   duchy_theo_cath_french: "[CHARACTER.Custom('DuchyCathFrench')]"
+   duke_default_male_cath_french: "Archevesques"
+   duke_default_female_cath_french: "Archevesquesse"
+   duchy_default_cath_french: "Archidiocese"
+   
+   kurfurst_duke_male_cath_french: "Princes Archevesques Electere"
+   kurfurst_duke_female_cath_french: "Princesse Archevesquesse Electeriz"
+   kurfurstdom_duchy_cath_french: "Principaliz Archepiscopal Electeres"
+   
+   duke_male_theo_cath_french_independent: "Princes Archevesques"
+   duke_female_theo_cath_french_independent: "Princesse Archevesquesse"
+   duchy_theo_cath_french_independent: "[CHARACTER.Custom('IndepDuchyCathFrench')]"
+   independent_duchy_cath_french: "Principaliz Archepiscopal"
 ########################################################
   #Norman
 ########################################################
    baron_male_theo_cath_norman: "Arciprestres"
    baron_female_theo_cath_norman: "Arciprestresse"
    barony_theo_cath_norman: "Deenaz"
-   count_male_theo_cath_norman: "Evesques"
-   count_female_theo_cath_norman: "Evesquesse"
-   duke_male_theo_cath_norman: "Arcevesques"
-   duke_female_theo_cath_norman: "Arcevesquesse"
-   duchy_theo_cath_norman: "Arcidiocese"
+   
+   count_male_theo_cath_norman: "[CHARACTER.Custom('CountMaleCathNorman')]"
+   count_female_theo_cath_norman: "[CHARACTER.Custom('CountFemaleCathNorman')]"
+   county_theo_cath_norman: "[CHARACTER.Custom('CountyCathNorman')]"
+   count_default_male_cath_norman: "Evesques"
+   count_default_female_cath_norman: "Evesquesse"
+   county_default_cath_norman: "Diocese"
+   
+   kurfurst_count_male_cath_norman: "Princes Evesques Electeur"
+   kurfurst_count_female_cath_norman: "Princesse Evesquesse Electeur"
+   kurfurstdom_county_cath_norman: "Principaliz Episcopal Electeures"
+   
+   count_male_theo_cath_norman_independent: "Princes Evesques"
+   count_female_theo_cath_norman_independent: "Princesse Evesquesse"
+   county_theo_cath_norman_independent: "[CHARACTER.Custom('IndepCountyCathNorman')]"
+   independent_county_cath_norman: "Principaliz Episcopal"
+   
+   duke_male_theo_cath_norman: "[CHARACTER.Custom('DukeMaleCathNorman')]"
+   duke_female_theo_cath_norman: "[CHARACTER.Custom('DukeFemaleCathNorman')]"
+   duchy_theo_cath_norman: "[CHARACTER.Custom('DuchyCathNorman')]"
+   duke_default_male_cath_norman: "Arcevesques"
+   duke_default_female_cath_norman: "Arcevesquesse"
+   duchy_default_cath_norman: "Arcidiocese"
+   
+   kurfurst_duke_male_cath_norman: "Princes Arcevesques Electeur"
+   kurfurst_duke_female_cath_norman: "Princesse Arcevesquesse Electeur"
+   kurfurstdom_duchy_cath_norman: "Principaliz Arcepiscopal Electeures"
+   
+   duke_male_theo_cath_norman_independent: "Princes Arcevesques"
+   duke_female_theo_cath_norman_independent: "Princesse Arcevesquesse"
+   duchy_theo_cath_norman_independent: "[CHARACTER.Custom('IndepDuchyCathNorman')]"
+   independent_duchy_cath_norman: "Principaliz Arcepiscopal"
 ########################################################
   #Occitan
 ########################################################
    baron_male_theo_cath_occitan: "Arciprestres"
    baron_female_theo_cath_occitan: "Arciprestressa"
    barony_theo_cath_occitan: "Deganatz"
-   count_male_theo_cath_occitan: "Avesques"
-   count_female_theo_cath_occitan: "Avesquessa"
-   duke_male_theo_cath_occitan: "Arcavesques"
-   duke_female_theo_cath_occitan: "Arcavesquessa"
-   duchy_theo_cath_occitan: "Arcidiocese"
+   
+   count_male_theo_cath_occitan: "[CHARACTER.Custom('CountMaleCathOccitan')]"
+   count_female_theo_cath_occitan: "[CHARACTER.Custom('CountFemaleCathOccitan')]"
+   county_theo_cath_occitan: "[CHARACTER.Custom('CountyCathOccitan')]"
+   count_default_male_cath_occitan: "Avesques"
+   count_default_female_cath_occitan: "Avesquessa"
+   county_default_cath_occitan: "Diocese"
+   
+   kurfurst_count_male_cath_occitan: "Princes Avesques Elector"
+   kurfurst_count_female_cath_occitan: "Princessa Avesquessa Electritz"
+   kurfurstdom_county_cath_occitan: "Principat Episcopal Electorat"
+   
+   count_male_theo_cath_occitan_independent: "Princes Avesques"
+   count_female_theo_cath_occitan_independent: "Princessa Avesquessa"
+   county_theo_cath_occitan_independent: "[CHARACTER.Custom('IndepCountyCathOccitan')]"
+   independent_county_cath_occitan: "Principat Episcopal"
+   
+   duke_male_theo_cath_occitan: "[CHARACTER.Custom('DukeMaleCathOccitan')]"
+   duke_female_theo_cath_occitan: "[CHARACTER.Custom('DukeFemaleCathOccitan')]"
+   duchy_theo_cath_occitan: "[CHARACTER.Custom('DuchyCathOccitan')]"
+   duke_default_male_cath_occitan: "Arcavesques"
+   duke_default_female_cath_occitan: "Arcavesquessa"
+   duchy_default_cath_occitan: "Arcidiocese"
+   
+   kurfurst_duke_male_cath_occitan: "Princes Arcavesques Elector"
+   kurfurst_duke_female_cath_occitan: "Princessa Arcavesquessa Electritz"
+   kurfurstdom_duchy_cath_occitan: "Principat Arcepiscopal Electorat"
+   
+   duke_male_theo_cath_occitan_independent: "Princes Arcavesques"
+   duke_female_theo_cath_occitan_independent: "Princessa Arcavesquessa"
+   duchy_theo_cath_occitan_independent: "[CHARACTER.Custom('DuchyCathNorman')]"
+   independent_duchy_cath_occitan: "Principat Arcepiscopal"
+########################################################
+  #Basque
+########################################################
+   pope_man_basque: "Aita Santua"
+   pope_woman_basque: "Ama Santua"
+   
+   grand_master_male_catholic_basque: "Maisu Handia"
+   grand_master_female_catholic_basque: "Maistra Handia"
+   
+   baron_male_theo_cath_basque: "Artxidiakono"
+   barony_theo_cath_basque: "Artxidekanotza"
+   
+   count_male_theo_cath_basque: "[CHARACTER.Custom('CountMaleCathBasque')]"
+   county_theo_cath_basque: "[CHARACTER.Custom('CountyCathBasque')]"
+   count_default_male_cath_basque: "Apezpikua"
+   county_default_cath_basque: "Elizbarrutia"
+   
+   kurfurst_count_male_cath_basque: "Printze Apezpikua Hauteslearen"
+   kurfurstdom_county_cath_basque: "Gotzaindegi Printzea Hautetsiak"
+   
+   count_male_theo_cath_basque_independent: "Printze Apezpikua"
+   county_theo_cath_basque_independent: "[CHARACTER.Custom('IndepCountyCathBasque')]"
+   independent_county_cath_basque: "Gotzaindegi Printzea"
+   
+   duke_male_theo_cath_basque: "[CHARACTER.Custom('DukeMaleCathBasque')]"
+   duchy_theo_cath_basque: "[CHARACTER.Custom('DuchyCathBasque')]"
+   duke_default_male_cath_basque: "Artzapezpiku"
+   duchy_default_cath_basque: "Artzapezpikutza"
+   
+   kurfurst_duke_male_cath_basque: "Printze Artzapezpiku Hauteslearen"
+   kurfurstdom_duchy_cath_basque: "Artzapezpikutza Printzea Hautetsiak"
+   
+   duke_male_theo_cath_basque_independent: "Printze Artzapezpiku"
+   duchy_theo_cath_basque_independent: "[CHARACTER.Custom('IndepDuchyCathBasuqe')]"
+   independent_duchy_cath_basque: "Artzapezpikutza Printzea"

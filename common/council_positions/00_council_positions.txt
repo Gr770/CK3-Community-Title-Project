@@ -226,14 +226,14 @@ councillor_court_chaplain = {
 								scope:councillor_liege.culture = culture:english
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_male_theo_cath_english
+							desc = count_default_cath_english
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:english
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_male_theo_cath_english
+							desc = duke_default_cath_english
 						}
 						triggered_desc = {
 							trigger = {
@@ -260,14 +260,14 @@ councillor_court_chaplain = {
 											scope:councillor_liege.culture = culture:old_saxon
 											scope:councillor_liege.highest_held_title_tier = tier_county
 										}
-										desc = count_male_theo_cath_old_saxon
+										desc = count_default_male_cath_old_saxon
 									}
 									triggered_desc = {
 										trigger = {
 											scope:councillor_liege.culture = culture:old_saxon
 											scope:councillor_liege.highest_held_title_tier = tier_duchy
 										}
-										desc = duke_male_theo_cath_old_saxon
+										desc = duke_default_male_cath_old_saxon
 									}
 									triggered_desc = {
 										trigger = {
@@ -305,14 +305,14 @@ councillor_court_chaplain = {
 											scope:councillor_liege.culture = culture:french
 											scope:councillor_liege.highest_held_title_tier = tier_county
 										}
-										desc = count_male_theo_cath_french
+										desc = count_default_male_cath_french
 									}
 									triggered_desc = {
 										trigger = {
 											scope:councillor_liege.culture = culture:french
 											scope:councillor_liege.highest_held_title_tier = tier_duchy
 										}
-										desc = duke_male_theo_cath_french
+										desc = duke_default_male_cath_french
 									}
 									triggered_desc = {
 										trigger = {
@@ -326,14 +326,14 @@ councillor_court_chaplain = {
 											scope:councillor_liege.culture = culture:norman
 											scope:councillor_liege.highest_held_title_tier = tier_county
 										}
-										desc = count_male_theo_cath_norman
+										desc = count_default_male_cath_norman
 									}
 									triggered_desc = {
 										trigger = {
 											scope:councillor_liege.culture = culture:norman
 											scope:councillor_liege.highest_held_title_tier = tier_duchy
 										}
-										desc = duke_male_theo_cath_norman
+										desc = duke_default_male_cath_norman
 									}
 									triggered_desc = {
 										trigger = {
@@ -347,14 +347,35 @@ councillor_court_chaplain = {
 											scope:councillor_liege.culture = culture:occitan
 											scope:councillor_liege.highest_held_title_tier = tier_county
 										}
-										desc = count_male_theo_cath_occitan
+										desc = count_default_male_cath_occitan
 									}
 									triggered_desc = {
 										trigger = {
 											scope:councillor_liege.culture = culture:occitan
 											scope:councillor_liege.highest_held_title_tier = tier_duchy
 										}
-										desc = duke_male_theo_cath_occitan
+										desc = duke_default_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_basque
 									}
 									triggered_desc = {
 										trigger = {
@@ -366,13 +387,13 @@ councillor_court_chaplain = {
 										trigger = {
 											scope:councillor_liege.highest_held_title_tier = tier_county
 										}
-										desc = count_male_theo_cath
+										desc = count_default_male_cath
 									}
 									triggered_desc = {
 										trigger = {
 											scope:councillor_liege.highest_held_title_tier = tier_duchy
 										}
-										desc = duke_male_theo_cath
+										desc = duke_default_male_cath
 									}
 									triggered_desc = {
 										trigger = {
@@ -394,14 +415,14 @@ councillor_court_chaplain = {
 								scope:councillor_liege.culture = culture:old_saxon
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_female_theo_cath_old_saxon
+							desc = count_default_female_cath_old_saxon
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:old_saxon
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_female_theo_cath_old_saxon
+							desc = duke_default_female_cath_old_saxon
 						}
 						triggered_desc = {
 							trigger = {
@@ -439,14 +460,14 @@ councillor_court_chaplain = {
 								scope:councillor_liege.culture = culture:french
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_female_theo_cath_french
+							desc = count_default_female_cath_french
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:french
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_female_theo_cath_french
+							desc = duke_default_female_cath_french
 						}
 						triggered_desc = {
 							trigger = {
@@ -460,14 +481,14 @@ councillor_court_chaplain = {
 								scope:councillor_liege.culture = culture:norman
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_female_theo_cath_norman
+							desc = count_default_female_cath_norman
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:norman
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_female_theo_cath_norman
+							desc = duke_default_female_cath_norman
 						}
 						triggered_desc = {
 							trigger = {
@@ -481,14 +502,14 @@ councillor_court_chaplain = {
 								scope:councillor_liege.culture = culture:occitan
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_female_theo_cath_occitan
+							desc = count_default_female_cath_occitan
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.culture = culture:occitan
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_female_theo_cath_occitan
+							desc = duke_default_female_cath_occitan
 						}
 						triggered_desc = {
 							trigger = {
@@ -500,13 +521,13 @@ councillor_court_chaplain = {
 							trigger = {
 								scope:councillor_liege.highest_held_title_tier = tier_county
 							}
-							desc = count_female_theo_cath
+							desc = count_default_female_cath
 						}
 						triggered_desc = {
 							trigger = {
 								scope:councillor_liege.highest_held_title_tier = tier_duchy
 							}
-							desc = duke_female_theo
+							desc = duke_default_female_cath
 						}
 						triggered_desc = {
 							trigger = {

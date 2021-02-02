@@ -418,6 +418,7 @@ duke_male_theo_cath_english_independent = {
 	faiths = { catholic }
 	top_liege = no
 	only_holder = yes
+	only_independent = yes
 }
 duke_female_theo_cath_english_independent = {
 	type = character
@@ -430,6 +431,7 @@ duke_female_theo_cath_english_independent = {
 	faiths = { catholic }
 	top_liege = no
 	only_holder = yes
+	only_independent = yes
 }
 duchy_theo_cath_english_independent = {
 	type = title
@@ -439,6 +441,7 @@ duchy_theo_cath_english_independent = {
 	cultures = { english scottish }
 	faiths = { catholic }
 	top_liege = no
+	only_independent = yes
 }
 #anglo_saxon
 pope_man_anglo_saxon = {
@@ -561,6 +564,42 @@ county_theo_cath_old_saxon = {
 	faiths = { catholic }
 	top_liege = no
 }
+count_male_theo_cath_old_saxon_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_female_theo_cath_old_saxon_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_theo_cath_old_saxon_independent = {
+	type = title
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
 duke_male_theo_cath_old_saxon = {
 	type = character
 	gender = male
@@ -594,6 +633,42 @@ duchy_theo_cath_old_saxon = {
 	faiths = { catholic }
 	top_liege = no
 }
+duke_male_theo_cath_old_saxon_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_theo_cath_old_saxon_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duchy_theo_cath_old_saxon_independent = {
+	type = title
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { old_saxon }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
 #Welsh
 pope_man_bythonic = {
 	type = character
@@ -601,7 +676,7 @@ pope_man_bythonic = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	culture_groups = { bythonic_group }
+	culture_groups = { brythonic_group }
 	top_liege = no
 	only_holder = yes
 }
@@ -611,7 +686,7 @@ pope_woman_bythonic = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	culture_groups = { bythonic_group }
+	culture_groups = { brythonic_group }
 	top_liege = no
 	only_holder = yes
 }
@@ -741,7 +816,7 @@ baron_female_theo_cath_french = {
 	top_liege = no
 	only_holder = yes
 }
-barony_theo_cath_french  = {
+barony_theo_cath_french = {
 	type = title
 	tier = barony
 	priority = 203
@@ -750,7 +825,7 @@ barony_theo_cath_french  = {
 	faiths = { catholic }
 	top_liege = no
 }
-count_male_theo_cath_french  = {
+count_male_theo_cath_french = {
 	type = character
 	gender = male
 	special = holder
@@ -762,7 +837,7 @@ count_male_theo_cath_french  = {
 	top_liege = no
 	only_holder = yes
 }
-count_female_theo_cath_french  = {
+count_female_theo_cath_french = {
 	type = character
 	gender = female
 	special = holder
@@ -774,16 +849,52 @@ count_female_theo_cath_french  = {
 	top_liege = no
 	only_holder = yes
 }
-county_theo_cath_french  = {
+county_theo_cath_french = {
 	type = title
 	tier = county
 	priority = 213
 	governments = { theocracy_government }
-	cultures = { french norman occitan }
+	cultures = { french }
 	faiths = { catholic }
 	top_liege = no
 }
-duke_male_theo_cath_french  = {
+count_male_theo_cath_french_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_female_theo_cath_french_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_theo_cath_french_independent = {
+	type = title
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_theo_cath_french = {
 	type = character
 	gender = male
 	special = holder
@@ -795,7 +906,7 @@ duke_male_theo_cath_french  = {
 	top_liege = no
 	only_holder = yes
 }
-duke_female_theo_cath_french  = {
+duke_female_theo_cath_french = {
 	type = character
 	gender = female
 	special = holder
@@ -807,7 +918,7 @@ duke_female_theo_cath_french  = {
 	top_liege = no
 	only_holder = yes
 }
-duchy_theo_cath_french  = {
+duchy_theo_cath_french = {
 	type = title
 	tier = duchy
 	priority = 223
@@ -815,6 +926,42 @@ duchy_theo_cath_french  = {
 	cultures = { french }
 	faiths = { catholic }
 	top_liege = no
+}
+duke_male_theo_cath_french_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_theo_cath_french_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duchy_theo_cath_french_independent = {
+	type = title
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { french }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
 }
 #norman
 baron_male_theo_cath_norman = {
@@ -874,6 +1021,51 @@ count_female_theo_cath_norman  = {
 	top_liege = no
 	only_holder = yes
 }
+county_theo_cath_norman  = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+}
+count_male_theo_cath_norman_independent  = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_female_theo_cath_norman_independent  = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_theo_cath_norman_independent  = {
+	type = title
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
 duke_male_theo_cath_norman  = {
 	type = character
 	gender = male
@@ -906,6 +1098,42 @@ duchy_theo_cath_norman  = {
 	cultures = { norman }
 	faiths = { catholic }
 	top_liege = no
+}
+duke_male_theo_cath_norman_independent  = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_theo_cath_norman_independent  = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duchy_theo_cath_norman_independent  = {
+	type = title
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { norman }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
 }
 #occitan
 baron_male_theo_cath_occitan = {
@@ -965,6 +1193,51 @@ count_female_theo_cath_occitan  = {
 	top_liege = no
 	only_holder = yes
 }
+county_theo_cath_occitan  = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+}
+count_male_theo_cath_occitan_independent  = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_female_theo_cath_occitan_independent  = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_theo_cath_occitan_independent = {
+	type = title
+	tier = county
+	priority = 214vvv
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
 duke_male_theo_cath_occitan  = {
 	type = character
 	gender = male
@@ -997,4 +1270,194 @@ duchy_theo_cath_occitan  = {
 	cultures = { occitan }
 	faiths = { catholic }
 	top_liege = no
+}
+duke_male_theo_cath_occitan_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_theo_cath_occitan_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duchy_theo_cath_occitan_independent = {
+	type = title
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	cultures = { occitan }
+	faiths = { catholic }
+	top_liege = no
+	only_independent = yes
+}
+#basque
+pope_man_basque = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_papal_state }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+pope_woman_basque = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_papal_state }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+grand_master_male_catholic_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 301
+	governments = { holy_order_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+grand_master_female_catholic_basque = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 301
+	governments = { holy_order_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+baron_male_theo_cath_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 203
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+barony_theo_cath_basque = {
+	type = title
+	tier = barony
+	priority = 203
+	holding = church_holding
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+}
+count_male_theo_cath_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_cath_basque = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+}
+count_male_theo_cath_basque_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_theo_cath_basque_independent = {
+	type = title
+	tier = county
+	priority = 214
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_theo_cath_basque = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_cath_basque = {
+	type = title
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+}
+duke_male_theo_cath_basque_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duchy_theo_cath_basque_independent = {
+	type = title
+	tier = duchy
+	priority = 224
+	governments = { theocracy_government }
+	faiths = { catholic }
+	cultures = { basque }
+	top_liege = no
+	only_independent = yes
 }
