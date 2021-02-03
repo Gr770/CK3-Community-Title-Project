@@ -4031,53 +4031,59 @@
 ######################################################
   #Latgalian#
 ######################################################
-   baron_male_latgalian: "Barons"
-   baron_female_latgalian: "Baronese"
-   barony_latgalian: "Lauks"
+   baron_male_latgalian: "Vaļdinīks"
+   baron_female_latgalian: "Vaļdineice"
+   barony_feudalclan_latgalian: "Vaļsts"
    
-   count_male_latgalian: "Grāfs"
-   count_female_latgalian: "Grāfiene"
-   county_latgalian: "Grāfiste"
+   count_feudalclan_male_latgalian: "Kunigaits"
+   count_feudalclan_female_latgalian: "Kunigaitīne"
+   county_feudalclan_latgalian: "Kunigaitiste"
    
-   duke_male_latgalian: "Knazs"
-   duke_female_latgalian: "Knaziene"
-   duchy_latgalian: "Kunigaitija"
+   duke_male_latgalian: "Kungs"
+   duke_female_latgalian: "Kungīne"
+   duchy_latgalian: "Kungiste"
    
-   king_male_latgalian: "Koninš"
-   king_female_latgalian: "Kēniniene"
+   king_male_latgalian: "Kieneņš"
+   king_female_latgalian: "Kieniņīne"
    kingdom_latgalian: "Kieneste"
    
-   emperor_male_latgalian: "Keizars"
-   emperor_female_latgalian: "Keizariene"
-   empire_latgalian: "Keizariste"
+   emperor_male_latgalian: "Imperators"
+   emperor_female_latgalian: "Imperatore"
+   empire_latgalian: "Impereja"
    
    title_prince_male_latgalian: "Princs"
-   title_prince_female_latgalian: "Priniene"
+   title_prince_female_latgalian: "Princīne"
    title_prince_male_latgalian_empire: "$title_prince_male_latgalian$"
    title_prince_female_latgalian_empire: "$title_prince_female_latgalian$"
    queen_mother_latgalian: "$king_female_latgalian$"
    empress_mother_latgalian: "$emperor_female_latgalian$"
    
-   baron_republic_latgalian: "Mérs"
-   barony_republic_latgalian: "Mists"
+   baron_republic_male_latgalian: "Starosta"
+   baron_republic_female_latgalian: "Starostīne"
+   barony_republic_latgalian: "Mīsts"
+   
+   barony_tribal_latgalian: "Lauks"
+   count_tribal_male_latgalian: "Rieks"
+   count_tribal_female_latgalian: "Riekīne"
+   county_tribal_latgalian: "Zeme"
 ######################################################
   #Lithuanian#
 ######################################################
-   baron_male_lithuanian: "Ponas"
-   baron_female_lithuanian: "Ponai"
-   barony_lithuanian: "Laukas"
+   baron_male_lithuanian: "Viešpats"
+   baron_female_lithuanian: "Viešpatienė"
+   barony_feudalclan_lithuanian: "Valsčius"
    
-   count_feudalclan_male_lithuanian: "Grafas"
-   count_feudalclan_female_lithuanian: "Grafienė"
-   county_feudalclan_lithuanian: "Grafystė"
+   count_feudalclan_male_lithuanian: "Kunigaikštis"
+   count_feudalclan_female_lithuanian: "Kunigaikštienė"
+   county_feudalclan_lithuanian: "Kunigaikštystė"
    
-   duke_male_lithuanian: "Kunigaikštis"
-   duke_female_lithuanian: "Kunigaikštienė"
-   duchy_feudalclan_lithuanian: "Kunigaikštystė"
+   duke_male_lithuanian: "Kunigas"
+   duke_female_lithuanian: "Kunigienė"
+   duchy_lithuanian: "Kunigystė"
    
-   king_male_lithuanian: "Karalius"
-   king_female_lithuanian: "Karalienė"
-   kingdom_lithuanian: "Karalystė"
+   king_male_lithuanian: "Kunigų Kunigas"
+   king_female_lithuanian: "Kunigienių Kunigienė"
+   kingdom_lithuanian: "Didi Kunigystė"
    
    emperor_male_lithuanian: "Imperatorius"
    emperor_female_lithuanian: "Imperatorė"
@@ -4090,38 +4096,38 @@
    queen_mother_lithuanian: "$king_female_lithuanian$"
    empress_mother_lithuanian: "$emperor_female_lithuanian$"
    
-   baron_republic_male_lithuanian: "Meras"
-   baron_republic_female_lithuanian: "Merė"
+   baron_republic_male_lithuanian: "Seniūnas"
+   baron_republic_female_lithuanian: "Seniūnė"
    barony_republic_lithuanian: "Miestas"
    
-   count_tribal_male_lithuanian: "Kunigas"
-   count_tribal_female_lithuanian: "Kunigienė"
-   county_tribal_lithuanian: "Kunigystė"
-   duchy_tribal_lithuanian: "Tauta"
+   barony_tribal_lithuanian: "Laukas"
+   count_tribal_male_lithuanian: "Rikis"
+   count_tribal_female_lithuanian: "Rikienė"
+   county_tribal_lithuanian: "Žemė"
 ######################################################
   #Prussian#
 ######################################################
    baron_male_prussian: "Wītingis"
    baron_female_prussian: "Wītingini"
-   barony_prussian: "Laūks"
+   barony_feudalclan_prussian: "Wālsts"
    
    count_feudalclan_male_prussian: "Grēwi"
    count_feudalclan_female_prussian: "Grēwini"
    county_feudalclan_prussian: "Grēwista"
    
-   count_feudalclan_male_prussian_independent: "$king_male_prussian$"
-   count_feudalclan_female_prussian_independent: "$king_female_prussian$"
+   count_feudalclan_male_prussian_independent: "$duke_feudalclan_male_prussian_independent$"
+   count_feudalclan_female_prussian_independent: "$duke_feudalclan_female_prussian_independent$"
    county_feudalclan_prussian_independent: "[CHARACTER.Custom('PrussianIndepCounty')]"
    
    duke_feudalclan_male_prussian: "Ercōgs"
    duke_feudalclan_female_prussian: "Ercōgini"
    duchy_feudalclan_prussian: "Ercōgista"
    
-   duke_feudalclan_male_prussian_independent: "$king_male_prussian$"
-   duke_feudalclan_female_prussian_independent: "$king_female_prussian$"
+   duke_feudalclan_male_prussian_independent: "Firsts"
+   duke_feudalclan_female_prussian_independent: "Firstini"
    duchy_feudalclan_prussian_independent: "[CHARACTER.Custom('PrussianIndepDuchy')]"
    
-   independent_land_prussian: "Wālsts"
+   independent_land_prussian: "Firstista"
    
    king_male_prussian: "Kunnegs"
    king_female_prussian: "Kunnegini"
@@ -4138,14 +4144,16 @@
    queen_mother_prussian: "$king_female_prussian$"
    empress_mother_prussian: "$emperor_female_prussian$"
    
-   baron_republic_prussian: "Eptmanis"
+   baron_republic_male_prussian: "Eptmanis"
+   baron_republic_female_prussian: "Eptmanini"
    barony_republic_prussian: "Mēstan"
    
+   barony_tribal_prussian: "Laūks"
    count_tribal_male_prussian: "Rikīs"
-   count_tribal_female_prussian: "Rikīs"
+   count_tribal_female_prussian: "Rikini"
    county_tribal_prussian: "Pulka"
-   duke_tribal_male_prussian: "Gruntauktimmis"
-   duke_tribal_female_prussian: "Gruntauktimmis"
+   duke_tribal_male_prussian: "Kunegiks"
+   duke_tribal_female_prussian: "Kunegika"
    duchy_tribal_prussian: "Tāutā"
 ########################################################
  #East Slavic Culture Group
