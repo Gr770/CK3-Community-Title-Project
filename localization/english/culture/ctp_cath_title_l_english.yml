@@ -8,6 +8,7 @@
   
   baron_male_theo_cath: "Archipresbyter"
   baron_female_theo_cath: "Archipresbytera"
+  barony_hold_cath: "Dioecesis"
   barony_theo_cath: "Decanatus"
   
   count_male_theo_cath: "[CHARACTER.Custom('CountMaleCath')]"
@@ -62,6 +63,11 @@
 ########################################################
    pope_man_english: "Popa"
    
+   baron_male_theo_cath_english: "Archeprest"
+   baron_female_theo_cath_english: "Archeprest"
+   barony_hold_cath_english: "Byschopryke"
+   barony_theo_cath_english: "Archeprestryke"
+   
    count_male_theo_cath_english: "[CHARACTER.Custom('CountMaleCathEnglish')]"
    count_female_theo_cath_english: "[CHARACTER.Custom('CountFemaleCathEnglish')]"
    county_theo_cath_english: "[CHARACTER.Custom('CountyCathEnglish')]"
@@ -95,6 +101,11 @@
   #AngloSaxon
 ########################################################
    pope_man_anglo_saxon: "Pápa"
+   
+   baron_male_theo_cath_anglo_saxon: "Ærcepréost"
+   baron_female_theo_cath_anglo_saxon: "Ærcepréost"
+   barony_hold_cath_anglo_saxon: "Biscopríce"
+   barony_theo_cath_anglo_saxon: "Ærcepréostríce"
    
    count_male_theo_cath_anglo_saxon: "Biscop"
    count_female_theo_cath_anglo_saxon: "Biscop"
@@ -166,6 +177,7 @@
    baron_male_theo_cath_french: "Archiprestres"
    baron_female_theo_cath_french: "Archiprestresse"
    barony_theo_cath_french: "Deienaz"
+   barony_hold_cath_french: "Diocese"
    
    count_male_theo_cath_french: "[CHARACTER.Custom('CountMaleCathFrench')]"
    count_female_theo_cath_french: "[CHARACTER.Custom('CountFemaleCathFrench')]"
@@ -204,6 +216,7 @@
    baron_male_theo_cath_norman: "Arciprestres"
    baron_female_theo_cath_norman: "Arciprestresse"
    barony_theo_cath_norman: "Deenaz"
+   barony_hold_cath_norman: "Diocese"
    
    count_male_theo_cath_norman: "[CHARACTER.Custom('CountMaleCathNorman')]"
    count_female_theo_cath_norman: "[CHARACTER.Custom('CountFemaleCathNorman')]"
@@ -242,6 +255,7 @@
    baron_male_theo_cath_occitan: "Arciprestres"
    baron_female_theo_cath_occitan: "Arciprestressa"
    barony_theo_cath_occitan: "Deganatz"
+   barony_hold_cath_occitan: "Diocese"
    
    count_male_theo_cath_occitan: "[CHARACTER.Custom('CountMaleCathOccitan')]"
    count_female_theo_cath_occitan: "[CHARACTER.Custom('CountFemaleCathOccitan')]"
@@ -283,8 +297,9 @@
    grand_master_male_catholic_basque: "Maisu Handia"
    grand_master_female_catholic_basque: "Maistra Handia"
    
-   baron_male_theo_cath_basque: "Artxidiakono"
-   barony_theo_cath_basque: "Artxidekanotza"
+   baron_male_theo_cath_basque: "Artziprestea"
+   barony_theo_cath_basque: "Dekanotza"
+   barony_hold_cath_basque: "Elizbarrutia"
    
    count_male_theo_cath_basque: "[CHARACTER.Custom('CountMaleCathBasque')]"
    county_theo_cath_basque: "[CHARACTER.Custom('CountyCathBasque')]"
@@ -309,3 +324,91 @@
    duke_male_theo_cath_basque_independent: "Printze Artzapezpiku"
    duchy_theo_cath_basque_independent: "[CHARACTER.Custom('IndepDuchyCathBasuqe')]"
    independent_duchy_cath_basque: "Artzapezpikutza Printzerria"
+########################################################
+  #Castillian
+########################################################
+   pope_man_castillian: "Papa"
+   pope_woman_castillian: "Papesa"
+   grand_master_male_cath_castillian: "Maesse General"
+   grand_master_female_cath_castillian: "Maessa General"
+   
+   baron_male_theo_cath_castillian: "Arçopresbitero"
+   baron_female_theo_cath_castillian: "Arçopresbitera"
+   barony_theo_cath_castillian: "Arçopresbiterado"
+   barony_hold_cath_castillian: "Obispado"
+   
+   count_male_theo_cath_castillian: "[CHARACTER.Custom('CountMaleCathCastillian')]"
+   count_female_theo_cath_castillian: "[CHARACTER.Custom('CountFemaleCathCastillian')]"
+   county_theo_cath_castillian: "[CHARACTER.Custom('CountyCathCastillian')]"
+   count_default_male_cath_castillian: "Obispo"
+   count_default_female_cath_castillian: "Obispa"
+   county_default_cath_castillian: "Obispado"
+   
+   kurfurst_count_male_cath_castillian: "Príncipe Obispo Elector"
+   kurfurst_count_female_cath_castillian: "Princesa Obispa Electora"
+   kurfurstdom_county_cath_castillian: "Principado Eclesiastico Electorado"
+   
+   count_male_theo_cath_castillian_independent: "Príncipe Obispo"
+   count_female_theo_cath_castillian_independent: "Princesa Obispa"
+   county_theo_cath_castillian_independent: "[CHARACTER.Custom('IndepCountyCathCastillian')]"
+   independent_county_cath_castillian: "Principado Eclesiastico"
+   
+   duke_male_theo_cath_castillian: "[CHARACTER.Custom('DukeMaleCathCastillian')]"
+   duke_female_theo_cath_castillian: "[CHARACTER.Custom('DukeFemaleCathCastillian')]"
+   duchy_theo_cath_castillian: "[CHARACTER.Custom('DuchyCathCastillian')]"
+   duke_default_male_cath_castillian: "Arçobispo"
+   duke_default_female_cath_castillian: "Arçobispa"
+   duchy_default_cath_castillian: "Arçobispado"
+   
+   kurfurst_duke_male_cath_castillian: "Príncipe Arçobispo Elector"
+   kurfurst_duke_female_cath_castillian: "Princesa Arçobispa Electora"
+   kurfurstdom_duchy_cath_castillian: "Principado Arçeclesiastico Electorado"
+   
+   duke_male_theo_cath_castillian_independent: "Príncipe Arçobispo"
+   duke_female_theo_cath_castillian_independent: "Princesa Arçobispa"
+   duchy_theo_cath_castillian_independent: "[CHARACTER.Custom('IndepDuchyCathCastillian')]"
+   independent_duchy_cath_castillian: "Principado Arçeclesiastico"
+########################################################
+  #Catalan
+########################################################
+   pope_man_catalan: "Papa"
+   pope_woman_catalan: "Papessa"
+   grand_master_male_cath_catalan: "Mestre General"
+   grand_master_female_cath_catalan: "Mestressa General"
+   
+   baron_male_theo_cath_catalan: "Arqueprevere"
+   baron_female_theo_cath_catalan: "Arqueprevera"
+   barony_hold_cath_catalan: "Bisbat"
+   barony_theo_cath_catalan: "Arquepreverat"
+   
+   count_male_theo_cath_catalan: "[CHARACTER.Custom('CountMaleCathCatalan')]"
+   count_female_theo_cath_catalan: "[CHARACTER.Custom('CountFemaleCathCatalan')]"
+   county_theo_cath_catalan: "[CHARACTER.Custom('CountyCathCatalan')]"
+   count_default_male_cath_catalan: "Bisbe"
+   count_default_female_cath_catalan: "Bisbessa"
+   county_default_cath_catalan: "Bisbat"
+   
+   kurfurst_count_male_cath_catalan: "Princep Bisbe Elector"
+   kurfurst_count_female_cath_catalan: "Princesa Bisbessa Electora"
+   kurfurstdom_county_cath_catalan: "Principat Eclesiastic Electorat"
+   
+   count_male_theo_cath_catalan_independent: "Princep Bisbe"
+   count_female_theo_cath_catalan_independent: "Princesa Bisbessa"
+   county_theo_cath_catalan_independent: "[CHARACTER.Custom('IndepCountyCathCatalan')]"
+   independent_county_cath_catalan: "Principat Eclesiastic"
+   
+   duke_male_theo_cath_catalan: "[CHARACTER.Custom('DukeMaleCathCatalan')]"
+   duke_female_theo_cath_catalan: "[CHARACTER.Custom('DukeFemaleCathCatalan')]"
+   duchy_theo_cath_catalan: "[CHARACTER.Custom('DuchyCathCatalan')]"
+   duke_default_male_cath_catalan: "Arquebisbe"
+   duke_default_female_cath_catalan: "Arquebisbessa"
+   duchy_default_cath_catalan: "Arquebisbat"
+   
+   kurfurst_duke_male_cath_catalan: "Princep Arquebisbe Elector"
+   kurfurst_duke_female_cath_catalan: "Princesa Arquebisbessa Electora"
+   kurfurstdom_duchy_cath_catalan: "Principat Arçeclesiastico Electorat"
+   
+   duke_male_theo_cath_catalan_independent: "Princep Arquebisbe"
+   duke_female_theo_cath_catalan_independent: "Princesa Arquebisbessa"
+   duchy_theo_cath_catalan_independent: "[CHARACTER.Custom('IndepDuchyCathCatalan')]"
+   independent_duchy_cath_catalan: "Principat Arqueclesiastic"
