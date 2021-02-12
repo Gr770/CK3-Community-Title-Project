@@ -1,16 +1,16 @@
-﻿l_german:
+﻿l_english:
  knight_culture_player:0 "[GetPlayer.Custom( 'KnightCulture' )]"
  knight_culture_player_no_tooltip:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
- knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
+ knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
  
  knight_culture_player_plural:0 "[GetPlayer.Custom( 'KnightCulturePlural' )]"
  knight_culture_player_plural_no_tooltip:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
- knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
+ knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
  
- knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "$knight_culture_player_plural_no_tooltip_lowercase$"
- knight_culture_player_adjective_no_tooltip_lowercase:0 "militärisch" ##One of the contexts is actually inadequate!
+ knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "$knight_culture_player_no_tooltip_lowercase$s'" ##A hack because gaiscedachs' and fariss' not gaiscedaig's and farisayn's but only used once so... OK?
+ knight_culture_player_adjective_no_tooltip_lowercase:0 "$knight_culture_player_no_tooltip_lowercase$"
 
-## Flavorisations - note that for German, there will be no use of lowercase!
+## Flavorisations
 
 ## Irish and Gaelic
  knight_irish_gaelic:0 "[Concept( 'knight', '$knight_no_tooltip_irish_gaelic$' )|E]"
@@ -290,7 +290,7 @@
  knight_plural_georgian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_georgian$' )|E]"
  knight_plural_no_tooltip_georgian:0 "Mxedrebi"
  knight_plural_lower_georgian:0 "mxedrebi"
-   
+  
 ## Alan
  knight_alan:0 "[Concept( 'knight', '$knight_no_tooltip_alan$' )|E]"
  knight_no_tooltip_alan:0 "Bӕqӕtar"
@@ -596,15 +596,15 @@ knight_plural_lower_lombard:0 "caballarii"
  knight_plural_nepali:0 "[Concept( 'knight', '$knight_plural_no_tooltip_nepali$' )|E]"
  knight_plural_no_tooltip_nepali:0 "Rāuttarāya"
  knight_plural_lower_nepali:0 "rāuttarāya"
-
+ 
 ## Nubian
  knight_nubian:0 "[Concept( 'knight', '$knight_no_tooltip_nubian$' )|E]"
  knight_no_tooltip_nubian:0 "Diŋarel"
- knight_lower_nubian:0 "Diŋarel"
+ knight_lower_nubian:0 "diŋarel"
  
  knight_plural_nubian:0 "[Concept( 'knight', '$knight_plural_no_tooltip_nubian$' )|E]"
  knight_plural_no_tooltip_nubian:0 "Diŋareligou"
- knight_plural_lower_nubian:0 "Diŋareligou"
+ knight_plural_lower_nubian:0 "diŋareligou"
  
 ## daju
  knight_daju:0 "[Concept( 'knight', '$knight_no_tooltip_daju$' )|E]"
@@ -660,11 +660,11 @@ knight_plural_lower_lombard:0 "caballarii"
  knight_plural_no_tooltip_beja:0 "Amóodha"
  knight_plural_lower_beja:0 "amóodha"
  
- ## default
+## Default
  knight_default:0 "[Concept( 'knight', '$knight_no_tooltip_default$' )|E]"
- knight_no_tooltip_default:0 "Ritter"
- knight_lower_default:0 "Ritter"
+ knight_no_tooltip_default:0 "Knight"
+ knight_lower_default:0 "knight"
  
  knight_plural_default:0 "[Concept( 'knight', '$knight_plural_no_tooltip_default$' )|E]"
- knight_plural_no_tooltip_default:0 "Ritter"
- knight_plural_lower_default:0 "Ritter"
+ knight_plural_no_tooltip_default:0 "Knights"
+ knight_plural_lower_default:0 "knights"

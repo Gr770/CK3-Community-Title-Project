@@ -29,40 +29,40 @@ baron_female_latgalian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_latgalian = {
+barony_feudalclan_latgalian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { latgalian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_male_latgalian = {
+count_feudalclan_male_latgalian = {
 	type = character
 	gender = male
 	special = holder
 	priority = 113
 	tier = county
 	cultures = { latgalian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_female_latgalian = {
+count_feudalclan_female_latgalian = {
 	type = character
 	gender = female
 	special = holder
 	priority = 113
 	tier = county
 	cultures = { latgalian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
-county_latgalian = {
+county_feudalclan_latgalian = {
 	type = title
 	priority = 113
 	tier = county
 	cultures = { latgalian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 duke_male_latgalian = {
@@ -209,8 +209,20 @@ empress_mother_latgalian ={
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_latgalian = {
+baron_republic_male_latgalian = {
 	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { latgalian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_latgalian = {
+	type = character
+	gender = female
 	special = holder
 	tier = barony
 	priority = 103
@@ -225,6 +237,42 @@ barony_republic_latgalian = {
 	priority = 103
 	cultures = { latgalian }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_latgalian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_latgalian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_latgalian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_latgalian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
 	top_liege = no
 }
 ###############################################
@@ -250,12 +298,12 @@ baron_female_lithuanian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_lithuanian = {
+barony_feudalclan_lithuanian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { lithuanian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_lithuanian = {
@@ -306,12 +354,12 @@ duke_female_lithuanian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_feudalclan_lithuanian = {
+duchy_lithuanian = {
 	type = title
 	tier = duchy
 	priority = 123
 	cultures = { lithuanian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 king_male_lithuanian = {
@@ -460,6 +508,14 @@ barony_republic_lithuanian = {
 	governments = { republic_government }
 	top_liege = no
 }
+barony_tribal_lithuanian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { tribal_government }
+	top_liege = no
+}
 count_tribal_male_lithuanian = {
 	type = character
 	gender = male
@@ -488,14 +544,6 @@ county_tribal_lithuanian = {
 	governments = { tribal_government }
 	top_liege = no
 }
-duchy_tribal_lithuanian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { lithuanian }
-	governments = { tribal_government }
-	top_liege = no
-}
 ###############################################
 #Prussian
 
@@ -519,12 +567,12 @@ baron_female_prussian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_prussian = {
+barony_feudalclan_prussian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { prussian }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 count_feudalclan_male_prussian = {
@@ -761,8 +809,20 @@ empress_mother_prussian ={
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_prussian = {
+baron_republic_male_prussian = {
 	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { prussian }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_prussian = {
+	type = character
+	gender = female
 	special = holder
 	tier = barony
 	priority = 103
@@ -777,6 +837,14 @@ barony_republic_prussian = {
 	priority = 103
 	cultures = { prussian }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribal_prussian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { prussian }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_tribal_male_prussian = {
