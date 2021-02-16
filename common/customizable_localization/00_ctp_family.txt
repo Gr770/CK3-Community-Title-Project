@@ -1006,6 +1006,66 @@ PrincessArmenian = {
 		localization_key =  prince_default_female_armenian
 	}
 }
+PrinceBArmenian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = caeser_armenian_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  title_prince_male_armenian_empire
+	}
+}
+PrincessBArmenian = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = caeser_armenian_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  title_prince_female_armenian_empire
+	}
+}
 QueenMArmenian = {
 	type = character
 	text = {
@@ -1019,6 +1079,126 @@ QueenMArmenian = {
 	text = {
 		fallback = yes
 		localization_key =  king_default_female_armenian
+	}
+}
+PrinceGreek = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = primary_heir_greek_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_male_greek_default
+	}
+}
+PrincessGreek = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = primary_heir_greek_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_female_greek_default
+	}
+}
+PrinceBGreek = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = caeser_greek_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_male_greek_default
+	}
+}
+PrincessBGreek = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = caeser_greek_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_female_greek_default
 	}
 }
 QueenMGreek = {
@@ -1625,6 +1805,36 @@ QueenMRussian = {
 	text = {
 		fallback = yes
 		localization_key =  queen_mother_default_russian
+	}
+}
+PrinceBurman = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father
+					root.father = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						primary_heir = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+		localization_key = burman_primary_heir
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_burman
 	}
 }
 PrinceTamil= {

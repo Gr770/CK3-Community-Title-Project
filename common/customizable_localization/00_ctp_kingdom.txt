@@ -1680,12 +1680,37 @@ KingMaleArmenian = {
 		localization_key = sultan_male_armenian
 	}
 	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:k_armenian_principality
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:k_armenian_principality
+					}
+				}
+			}
+		}
+		localization_key = armenian_prince_ruler_male
+	}
+	text = {
 		fallback = yes
 		localization_key = king_default_male_armenian
 	}
 }
 KingFemaleArmenian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_king_female_armenian
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -1709,12 +1734,37 @@ KingFemaleArmenian = {
 		localization_key = sultan_female_armenian
 	}
 	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:k_armenian_principality
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:k_armenian_principality
+					}
+				}
+			}
+		}
+		localization_key = armenian_prince_ruler_female
+	}
+	text = {
 		fallback = yes
 		localization_key = king_default_female_armenian
 	}
 }
 KingdomArmenian = {
 	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				OR = {
+					has_primary_title = title:e_byzantium
+					has_primary_title = title:e_roman_empire
+				}
+			}
+		}
+		localization_key = byzantine_kingdom_armenian
+	}
 	text = {
 		trigger = {
 			is_independent_ruler = yes

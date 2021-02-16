@@ -2339,7 +2339,7 @@
 ########################################################
    baron_male_armenian: "Azat"
    baron_female_armenian: "Azatakin"
-   barony_armenian: "Gawar̄"
+   barony_castle_armenian: "Gawar̄"
  
    count_male_armenian: "Naxarar"
    count_female_armenian: "Naxararowhi"
@@ -2363,9 +2363,13 @@
    king_female_armenian: "[CHARACTER.Custom('KingFemaleArmenian')]"
    kingdom_armenian: "[CHARACTER.Custom('KingdomArmenian')]"
    byzantine_king_male_armenian: "Arkʿay"
+   byzantine_king_female_armenian: "Arkʿayowhi"
+   byzantine_kingdom_armenian: "Arkʿayowtʿiwn"
    sultan_male_armenian: "Sowltʿan"
    sultan_female_armenian: "Sowltʿanowhi"
    sultanate_armenian: "Sowltʿanowtʿiwn"
+   armenian_prince_ruler_male: "Išxanacʿ Išxan"
+   armenian_prince_ruler_female: "Išxanuheac῾ Išxanuhi"
    king_default_male_armenian: "Tʿagawor"
    king_default_female_armenian: "Tʿagowhi"
    kingdom_default_armenian: "Tʿagaworowtʿiwn"
@@ -2378,8 +2382,10 @@
    title_prince_female_armenian: "[CHARACTER.Custom('PrincessArmenian')]"
    title_prince_male_armenian_empire: "Kaysrazn"
    title_prince_female_armenian_empire: "Kaysrazndowstr"
-   title_prince_male_armenian_byzantine_empire: "Kesar"
-   title_prince_female_armenian_byzantine_empire: "Kesarissa"
+   title_prince_male_armenian_byzantine_empire: "[CHARACTER.Custom('PrinceBArmenian')]"
+   title_prince_female_armenian_byzantine_empire: "[CHARACTER.Custom('PrincessBArmenian')]"
+   caeser_armenian_male: "Kesar"
+   caeser_armenian_female: "Kesarissa"
    sultan_prince_male_armenian: "Sowltʿanazn"
    sultan_prince_female_armenian: "Sowltʿandowstr"
    prince_default_male_armenian: "Sepowh"
@@ -2388,14 +2394,16 @@
    queen_mother_armenian_empire: "$emperor_female_armenian$"
  
    baron_male_armenian_republic: "Kʿałakʿapet"
-   barony_armenian_republic: "Kʿałakʿ"
+   barony_armenian_city: "Kʿałakʿ"
    county_armenian_republic: "Šahastan"
+   
+   barony_tribe_armenian: "$barony_castle_armenian$"
 ########################################################
   #Greek
 ########################################################
    baron_male_greek: "Komis"
    baron_female_greek: "Komissa"
-   barony_feudalclan_greek: "Vandon"
+   barony_castle_greek: "Vandon"
  
    count_feudalclan_male_greek: "[CHARACTER.Custom('CountMaleGreek')]"
    count_feudalclan_female_greek: "[CHARACTER.Custom('CountFemaleGreek')]"
@@ -2450,18 +2458,24 @@
    byzantine_emperor_male_greek: "Vasilefs"
    byzantine_emperor_female_greek: "Vasilissa"
  
-   title_prince_male_greek: "Prinkips"
-   title_prince_female_greek: "Prinkipissa"
-   title_prince_male_greek_empire: "$title_prince_male_greek$"
-   title_prince_female_greek_empire: "$title_prince_female_greek$"
-   title_prince_male_greek_byzantine_empire: "Kesar"
-   title_prince_female_greek_byzantine_empire: "Kesarissa"
+   title_prince_male_greek: "[CHARACTER.Custom('PrinceGreek')]"
+   title_prince_female_greek: "[CHARACTER.Custom('PrincessGreek')]"
+   title_prince_male_greek_empire: "[CHARACTER.Custom('PrinceGreek')]"
+   title_prince_female_greek_empire: "[CHARACTER.Custom('PrincessGreek')]"
+   prince_male_greek_default: "Prinkips"
+   prince_female_greek_default: "Prinkipissa"
+   title_prince_male_greek_byzantine_empire: "[CHARACTER.Custom('PrinceBGreek')]"
+   title_prince_female_greek_byzantine_empire: "[CHARACTER.Custom('PrincessBGreek')]"
    queen_mother_greek: "[CHARACTER.Custom('QueenMGreek')]"
    queen_mother_greek_empire: "[CHARACTER.Custom('EmpressMGreek')]"
+   primary_heir_greek_male: "Klironomos"
+   primary_heir_greek_female: "Klironomi"
+   caeser_greek_male: "Kesar"
+   caeser_greek_female: "Kesarissa"
    
    baron_republic_male_greek: "Dimarchos"
    baron_republic_female_greek: "Dimarchissa"
-   barony_republic_greek: "Polis"
+   barony_city_greek: "Polis"
    count_republic_male_greek: "Archon"
    count_republic_female_greek: "Archontissa"
    county_republic_greek: "Archontia"
@@ -2472,7 +2486,7 @@
    king_republic_female_greek: "Ypatissa"
    kingdom_republic_greek: "Archipolitia"
  
-   barony_tribal_greek: "$county_tribal_greek$"
+   barony_tribe_greek: "$county_tribal_greek$"
    count_tribal_male_greek: "Phylarchos"
    count_tribal_female_greek: "Phylarchissa"
    county_tribal_greek: "Phyli"
@@ -4615,10 +4629,12 @@
    emperor_male_burmese: "Ekarāj"
    emperor_female_burmese: "Ekarī"
    
-   title_prince_male_burmese: "Maṅ Sā"
+   title_prince_male_burmese: "[CHARACTER.Custom('PrinceBurman')]"
    title_prince_female_burmese: "Maṅ Samī"
+   prince_default_male_burman: "Maṅ Sā"
    queen_mother_burmese: "$king_female_burmese$"
    empress_mother_burmese: "$emperor_female_burmese$"
+   burman_primary_heir: "İm-Rhiy-Maṅ"
 ######################################################
   #Mon
 ######################################################

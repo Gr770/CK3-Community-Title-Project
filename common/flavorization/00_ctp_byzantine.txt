@@ -30,12 +30,12 @@ baron_female_armenian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_armenian = {
+barony_castle_armenian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { armenian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_armenian = {
@@ -263,12 +263,12 @@ baron_male_armenian_republic = {
 	top_liege = no
 	only_holder = yes
 }
-barony_armenian_republic = {
+barony_armenian_city = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { armenian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 county_armenian_republic = {
@@ -277,6 +277,14 @@ county_armenian_republic = {
 	priority = 113
 	cultures = { armenian }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_armenian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { armenian }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -302,12 +310,12 @@ baron_female_greek = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_greek = {
+barony_castle_greek = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { greek }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_greek = {
@@ -577,12 +585,12 @@ baron_republic_female_greek = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_greek = {
+barony_city_greek = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { greek }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_greek = {
@@ -675,12 +683,12 @@ kingdom_republic_greek = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_greek = {
+barony_tribe_greek = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { greek }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_greek = {
