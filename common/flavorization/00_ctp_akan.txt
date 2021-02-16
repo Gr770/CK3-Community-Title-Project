@@ -25,12 +25,12 @@ baron_female_akan = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_akan = {
+barony_castle_akan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { akan }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_akan = {
@@ -293,12 +293,20 @@ baron_republic_akan = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_akan = {
+barony_city_akan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { akan }
-	governments = { republic_government }
+	holding = city_holding
+	top_liege = no
+}
+barony_tribe_akan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { akan }
+	holding = tribal_holding
 	top_liege = no
 }
 #############################################
