@@ -27,6 +27,8 @@
   sultan_prince_female_goidelic: "Ingen Sabdán"
   prince_default_male_goidelic: "Mac Ríg"
   prince_default_female_goidelic: "Ingen Ríg"
+  tanist_male_goidelic: "Tánaiste"
+  tanist_female_goidelic: "Bantánaiste"
   queen_mother_goidelic_group: "[CHARACTER.Custom('QueenMGoidelic')]"
   queen_mother_goidelic_group_empire: "$emperor_female_goidelic_group$"
 
@@ -45,8 +47,10 @@
 ########################################################### 
   #Irish
 ###########################################################
-   baron_male_irish: "Rí Tuaithe"
-   baron_female_irish: "Rígan Tuaithe"
+   baron_male_irish: "[CHARACTER.Custom('BaronMaleIrish')]"
+   baron_female_irish: "[CHARACTER.Custom('BaronFemaleIrish')]"
+   baron_default_male_irish: "Rí Tuaithe"
+   baron_default_female_irish: "Rígan Tuaithe"
  
    count_male_irish: "[CHARACTER.Custom('CountMaleIrish')]"
    count_female_irish: "[CHARACTER.Custom('CountFemaleIrish')]"
@@ -70,8 +74,10 @@
 ###########################################################
   #Gaelic Culture
 ###########################################################
-   baron_male_gaelic: "Taoiseach"
-   baron_female_gaelic: "Bantaoiseach"
+   baron_male_gaelic: "[CHARACTER.Custom('BaronMaleGaelic')]"
+   baron_female_gaelic: "[CHARACTER.Custom('BaronFemaleGaelic')]"
+   baron_default_male_gaelic: "Taoiseach"
+   baron_default_female_gaelic: "Bantaoiseach"
  
    count_feudalclan_male_gaelic: "[CHARACTER.Custom('CountMaleGaelic')]"
    count_feudalclan_female_gaelic_holder: "[CHARACTER.Custom('CountFemaleGaelicHolder')]"

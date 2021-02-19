@@ -1,4 +1,64 @@
-﻿BaronRepublicBasque = {
+﻿BaronMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_male_goidelic
+	}
+	text = {
+		localization_key = baron_default_male_irish
+		fallback = yes
+	}
+}
+BaronFemaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_female_goidelic
+	}
+	text = {
+		localization_key = baron_default_female_irish
+		fallback = yes
+	}
+}
+BaronMaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_male_goidelic
+	}
+	text = {
+		localization_key = baron_default_male_gaelic
+		fallback = yes
+	}
+}
+BaronFemaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_female_goidelic
+	}
+	text = {
+		localization_key = baron_default_female_gaelic
+		fallback = yes
+	}
+}
+BaronRepublicBasque = {
 	type = character
 	text = {
 		trigger = {
