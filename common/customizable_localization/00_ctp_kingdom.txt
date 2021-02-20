@@ -3793,6 +3793,36 @@ KingMaleRus = {
 		localization_key = sultan_male_rus
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					OR = {
+						has_faith = faith:catholic
+						has_faith = faith:cathar
+						has_faith = faith:waldensian
+						has_faith = faith:lollard
+						has_faith = faith:insular_celtic
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						OR = {
+							has_faith = faith:catholic
+							has_faith = faith:cathar
+							has_faith = faith:waldensian
+							has_faith = faith:lollard
+							has_faith = faith:insular_celtic
+						}
+					}
+				}
+			}
+		}
+		localization_key = karl_male_rus
+	}
+	text = {
 		fallback = yes
 		localization_key = king_default_male_rus
 	}
@@ -3822,6 +3852,36 @@ KingFemaleRus = {
 		localization_key = sultan_female_rus
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_independent_ruler = yes
+					OR = {
+						has_faith = faith:catholic
+						has_faith = faith:cathar
+						has_faith = faith:waldensian
+						has_faith = faith:lollard
+						has_faith = faith:insular_celtic
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						is_independent_ruler = yes
+						OR = {
+							has_faith = faith:catholic
+							has_faith = faith:cathar
+							has_faith = faith:waldensian
+							has_faith = faith:lollard
+							has_faith = faith:insular_celtic
+						}
+					}
+				}
+			}
+		}
+		localization_key = karl_female_rus
+	}
+	text = {
 		fallback = yes
 		localization_key = king_default_female_rus
 	}
@@ -3836,6 +3896,18 @@ KingdomRus = {
 			}
 		}
 		localization_key = sultanate_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:catholic
+				has_faith = faith:cathar
+				has_faith = faith:waldensian
+				has_faith = faith:lollard
+				has_faith = faith:insular_celtic
+			}
+		}
+		localization_key = karldom_rus
 	}
 	text = {
 		fallback = yes

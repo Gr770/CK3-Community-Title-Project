@@ -767,193 +767,6 @@ popeman_female_greek = {
 	cultures = { greek }
 	top_liege = no
 }
-
-###############################################
-## Generic Orthodox ##
-###############################################
-ecumenical_patriarch_ctp = {
-	type = character
-	gender = male
-	special = holder
-	priority = 500
-	titles = { k_orthodox d_iconoclast }
-	top_liege = no
-}
-ecumenical_matriarch_ctp = { #Good Luck
-	type = character
-	gender = female
-	special = holder
-	priority = 500
-	titles = { k_orthodox d_iconoclast }
-	top_liege = no
-}
-baron_male_orthodox = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 101
-	faiths = { orthodox }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-baron_female_orthodox = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 101
-	faiths = { orthodox }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-barony_orthodox = {
-	type = title
-	tier = barony
-	priority = 101
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-}
-count_male_orthodox = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 111
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-count_female_orthodox = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 121
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-duke_male_orthodox = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 121
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-duke_female_orthodox = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 121
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-duchy_orthodox = {
-	type = title
-	tier = duchy
-	priority = 121
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-}
-king_male_orthodox = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 141
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-kingdom_orthodox = {
-	type = title
-	tier = kingdom
-	priority = 141
-	faiths = { orthodox iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-}
-emperor_male_orthodox = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 151
-	faiths = { orthodox }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-empire_orthodox = {
-	type = title
-	tier = empire
-	priority = 151
-	faiths = { orthodox }
-	governments = { theocracy_government }
-	top_liege = no
-}
-###############################################
-## Generic iconoclast ##
-###############################################
-baron_male_iconoclast = {
-	type = character
-	gender = male
-	special = holder
-	tier = barony
-	priority = 101
-	faiths = { iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-baron_female_iconoclast = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 101
-	faiths = { iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-emperor_male_iconoclast = {
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 151
-	faiths = { iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
-emperor_female_iconoclast = {
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 151
-	faiths = { iconoclast }
-	governments = { theocracy_government }
-	top_liege = no
-	only_holder = yes
-}
 ###############################################
 ## Georgian ##
 ###############################################
@@ -977,12 +790,12 @@ baron_female_georgian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_georgian= {
+barony_castle_georgian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { georgian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_georgian = {
@@ -1254,12 +1067,38 @@ baron_republic_georgian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_georgian= {
+barony_city_georgian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { georgian }
+	holding = city_holding
+	top_liege = no
+}
+count_republic_georgian = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { georgian }
 	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_georgian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { georgian }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_georgian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { georgian }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -1285,12 +1124,12 @@ baron_female_alan = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_alan = {
+barony_castle_alan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { alan }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_alan = {
@@ -1492,12 +1331,12 @@ baron_female_republic_alan = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_republic_alan = {
+barony_city_alan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { alan }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_alan = {
@@ -1517,12 +1356,12 @@ county_republic_alan = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_alan = {
+barony_tribe_alan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { alan }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -1548,12 +1387,12 @@ baron_female_assyrian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_assyrian = {
+barony_castle_assyrian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { assyrian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_assyrian = {
@@ -1823,12 +1662,12 @@ baron_republic_female_assyrian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_assyrian = {
+barony_city_assyrian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { assyrian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_assyrian = {
@@ -1921,12 +1760,12 @@ kingdom_republic_assyrian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_assyrian = {
+barony_tribe_assyrian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { assyrian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_assyrian = {

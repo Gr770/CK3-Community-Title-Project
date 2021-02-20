@@ -6,12 +6,12 @@
 ###############################################
 ## East_Slavic_culture_group
 ###############################################
-barony_feudalclan_east_slavic_group = {
+barony_castle_east_slavic_group = {
 	type = title
 	tier = barony
 	priority = 103
 	culture_groups = { east_slavic_group }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 baron_republic_male_east_slavic_group = {
@@ -36,12 +36,12 @@ baron_republic_female_east_slavic_group = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_east_slavic_group = {
+barony_city_east_slavic_group = {
 	type = title
 	tier = barony
 	priority = 103
 	culture_groups = { east_slavic_group }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 ### Russian ###
@@ -365,12 +365,12 @@ duchy_republic_russian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_russian = {
+barony_tribe_russian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { russian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_russian = {
@@ -902,12 +902,12 @@ duchy_republic_old_east_slavic = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_old_east_slavic = {
+barony_tribe_old_east_slavic = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { severian volhynian ilmenian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_severian_volhynian = {

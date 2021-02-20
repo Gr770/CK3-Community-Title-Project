@@ -289,6 +289,38 @@ PrincessCornish = {
 		localization_key =  prince_default_female_cornish
 	}
 }
+PrinceFrench = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				has_primary_title = title:d_dauphine
+			}
+		}
+		localization_key = dolphin_male_french
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_french
+	}
+}
+PrincessFrench = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				has_primary_title = title:d_dauphine
+			}
+		}
+		localization_key = dolphin_female_french
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_french
+	}
+}
 QueenMBasque = {
 	type = character
 	text = {
@@ -1800,7 +1832,19 @@ QueenMRussian = {
 				has_doctrine = tenet_struggle_submission
 			}
 		}
-    localization_key = sultan_qm_russian
+		localization_key = sultan_qm_russian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:catholic
+				has_faith = faith:cathar
+				has_faith = faith:waldensian
+				has_faith = faith:lollard
+				has_faith = faith:insular_celtic
+			}
+		}
+		localization_key = karl_qm_rus
 	}
 	text = {
 		fallback = yes

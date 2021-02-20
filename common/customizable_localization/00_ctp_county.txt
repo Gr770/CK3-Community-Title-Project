@@ -1050,6 +1050,50 @@ CountMaleFrench = {
 		localization_key = duke_male_french_independent
 	}
 	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:c_viennois
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_male_french
+	}
+	text = {
 		localization_key = count_default_male_french
 		fallback = yes
 	}
@@ -1162,6 +1206,50 @@ CountFemaleFrench = {
 			}
 		}
 		localization_key = duke_female_french_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:c_viennois
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_female_french
 	}
 	text = {
 		localization_key = count_default_female_french

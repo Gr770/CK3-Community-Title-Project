@@ -670,7 +670,7 @@
 ########################################################
    baron_male_frankish: "Hairirô"
    baron_female_frankish: "Frawjô"
-   barony_frankish: "Hairskapi"
+   barony_castle_frankish: "Hairskapi"
  
    count_male_frankish: "Grâfijô"
    count_female_frankish: "Grâfijini"
@@ -701,13 +701,15 @@
    empress_mother_frankish: "$emperor_female_frankish$"
    
    baron_republic_frankish: "Skuldhaitijô"
-   barony_republic_frankish: "Stadi"
+   barony_city_frankish: "Stadi"
+   
+   barony_tribe_frankish: "$barony_castle_frankish$"
 ########################################################
   #French
 ########################################################
    baron_male_french: "Viscuens"
    baron_female_french: "Viscontesse"
-   barony_french: "Viscontez"
+   barony_castle_french: "Viscontez"
  
    count_male_french: "[CHARACTER.Custom('CountMaleFrench')]"
    count_female_french: "[CHARACTER.Custom('CountFemaleFrench')]"
@@ -753,22 +755,28 @@
    emperor_female_french: "Empereriz"
    empire_french: "Empires"
  
-   title_prince_male_french: "Princes"
-   title_prince_female_french: "Princesse"
-   title_prince_male_french_empire: "$title_prince_male_french$"
-   title_prince_female_french_empire: "$title_prince_female_french$"
+   title_prince_male_french: "[CHARACTER.Custom('PrinceFrench')]"
+   title_prince_female_french: "[CHARACTER.Custom('PrincessFrench')]"
+   title_prince_male_french_empire: "[CHARACTER.Custom('PrinceFrench')]"
+   title_prince_female_french_empire: "[CHARACTER.Custom('PrincessFrench')]"
+   dolphin_male_french: "Dauphin"
+   dolphin_female_french: "Dauphine"
+   prince_default_male_french: "Princes"
+   prince_default_female_french: "Princesse"
    queen_mother_french: "Roine Mere"
    empress_mother_french: "Empereriz Mere"
  
    baron_republic_male_french: "Maire"
    baron_republic_female_french: "Mairesse"
-   barony_republic_french: "Vile"
+   barony_city_french: "Vile"
    count_republic_french: "Prevoz"
    county_republic_french: "Comune"
    duke_republic_french: "Baillis"
    duchy_republic_french: "Balliage"
    king_republic_french: "Consul"
    kingdom_republic_french: "Republique"
+   
+   barony_tribe_french: "$barony_castle_french$"
 ########################################################
   #Norman
 ########################################################
@@ -1791,7 +1799,7 @@
 ########################################################
    baron_male_saxon: "Vrîhêre"
    baron_female_saxon: "Vrîvrouwe"
-   barony_saxon: "Hêrschop"
+   barony_castle_saxon: "Hêrschop"
  
    count_male_saxon: "[CHARACTER.Custom('CountMaleSaxon')]"
    count_female_saxon: "[CHARACTER.Custom('CountFemaleSaxon')]"
@@ -1852,7 +1860,7 @@
  
    baron_republic_male_saxon: "Schulthête"
    baron_republic_female_saxon: "Schulthêtinne"
-   barony_republic_saxon: "Stat"
+   barony_city_saxon: "Stat"
  
    count_republic_male_saxon: "[CHARACTER.Custom('FreeMayorMaleSaxon')]"
    count_republic_female_saxon: "[CHARACTER.Custom('FreeMayorFemaleSaxon')]"
@@ -1870,12 +1878,14 @@
    king_republic_male_saxon: "Ôlderman"
    king_republic_female_saxon: "Ôlderman"
    kingdom_republic_saxon: "Stêdehanse"
+   
+   barony_tribe_saxon: "$barony_castle_saxon$"
 #########################################################
   #Franconian, Swabian, and Bavarian ( Middle High German )
 ###########################################################
    baron_male_middle_high_german: "Vrîherre"
    baron_female_middle_high_german: "Vrîvrouwe"
-   barony_middle_high_german: "Hêrschaft"
+   barony_castle_middle_high_german: "Hêrschaft"
  
    count_male_middle_high_german: "[CHARACTER.Custom('CountMaleMiddleHighGerman')]"
    count_female_middle_high_german: "[CHARACTER.Custom('CountFemaleMiddleHighGerman')]"
@@ -1936,7 +1946,7 @@
  
    baron_republic_male_middle_high_german: "Schultheize"
    baron_republic_female_middle_high_german: "Schultheizin"
-   barony_republic_middle_high_german: "Stat"
+   barony_city_middle_high_german: "Stat"
  
    count_republic_male_middle_high_german: "[CHARACTER.Custom('FreeMayorMaleMiddleHighGerman')]"
    count_republic_female_middle_high_german: "[CHARACTER.Custom('FreeMayorFemaleMiddleHighGerman')]"
@@ -1954,12 +1964,14 @@
    king_republic_male_middle_high_german: "Lantambetman"
    king_republic_female_middle_high_german: "Lantambetman"
    kingdom_republic_middle_high_german: "Eitgenôzschaft"
+   
+   barony_tribe_middle_high_german: "$barony_castle_middle_high_german$"
 #########################################################
   #Frisian
 #########################################################
    baron_male_frisian: "Hêra"
    baron_female_frisian: "Frouwe"
-   barony_frisian: "Hêrskipi"
+   barony_castle_frisian: "Hêrskipi"
  
    count_male_frisian: "Grêva"
    count_female_frisian: "Grêven"
@@ -2000,13 +2012,15 @@
  
    baron_republic_male_frisian: "Skeltâ"
    baron_republic_female_frisian: "Skeltâ"
-   barony_republic_frisian: "Burch"
+   barony_city_frisian: "Burch"
+   
+   barony_tribe_frisian: "$barony_castle_frisian$"
 #########################################################
   #Dutch (Middle Dutch) ##To be Changed
 #########################################################
    baron_male_dutch: "Vrîhêre"
    baron_female_dutch: "Vrîvrouwe"
-   barony_dutch: "Hêrescap"
+   barony_castle_dutch: "Hêrescap"
  
    count_male_dutch: "[CHARACTER.Custom('CountMaleDutch')]"
    count_female_dutch: "[CHARACTER.Custom('CountFemaleDutch')]"
@@ -2069,7 +2083,7 @@
  
    baron_republic_male_dutch: "Scouthete"
    baron_republic_female_dutch: "Scouthete"
-   barony_republic_dutch: "Stat"
+   barony_city_dutch: "Stat"
    
    count_republic_male_dutch: "[CHARACTER.Custom('FreeMayorDutch')]"
    count_republic_female_dutch: "[CHARACTER.Custom('FreeMayorFemaleDutch')]"
@@ -2086,6 +2100,8 @@
    king_republic_male_dutch: "Ouderman"
    king_republic_female_dutch: "Ouderman"
    kingdom_republic_dutch: "Stêdehanse"
+   
+   barony_tribe_dutch: "$barony_castle_dutch$"
 ######################################################
  #Berber Culture Group
 ######################################################
@@ -2497,41 +2513,11 @@
    popeman_male_greek: "Papas"
    popeman_female_greek: "Papissa"
 ######################################################## 
-   #Generic Orthodox## ######UPDATE######
-######################################################## 
-    ecumenical_patriarch_ctp: "Oikumenikos Patriarchis"
-    ecumenical_matriarch_ctp: "Oikumenikos Matriarchis"
- 
-    baron_male_orthodox: "Patriarchis"
-    baron_republic_female_greek: "Matriarchis"
-    barony_republic_greek: "Dioikisis"
- 
-    count_male_orthodox: "Archimandritis"
-    count_female_orthodox: "Archimandritissa"
- 
-    duke_male_orthodox: "Episkopos"
-    duke_female_orthodox: "Episkopissa"
-    duchy_orthodox: "Eparchia"
- 
-    king_male_orthodox: "Mitropolitis"
-    kingdom_orthodox: "Mitropolis"
- 
-    emperor_male_orthodox: "Archiepiskopos"
-    empire_orthodox: "Archiepiskopi"
-######################################################## 
-   #Generic Iconoclast## ######UPDATE######
-######################################################## 
-    baron_male_iconoclast: "Iereas"
-    baron_female_iconoclast: "Ieria"
- 
-    emperor_male_iconoclast: "Patriarchis"
-    emperor_female_iconoclast: "Matriarchis"
-######################################################## 
   #Georgian
 ########################################################
    baron_male_georgian: "Aznauri"
    baron_female_georgian: "Aznauri"
-   barony_georgian: "Mamuli"
+   barony_castle_georgian: "Mamuli"
  
    count_male_georgian: "Didebuli"
    count_female_georgian: "Didebuli"
@@ -2577,16 +2563,20 @@
    queen_mother_georgian_empire: "$emperor_female_georgian$"
 
    baron_republic_georgian: "Amirtamira"
-   barony_republic_georgian: "Kalaki"
+   barony_city_georgian: "Kalaki"
+   count_republic_georgian: "Khevisberi"
+   county_republic_georgian: "Khevi"
+   
+   barony_tribe_georgian: "$barony_castle_georgian$"
 ######################################################## 
   #Alan
 ########################################################
    baron_male_alan: "Wæzdan"
    baron_female_alan: "Æfsinæ"
-   barony_feudalclan_alan: "Galwan"
+   barony_castle_alan: "Galwan"
    
    count_male_alan: "Xucaw"
-   count_female_alan: "Us-xucaw"
+   count_female_alan: "Us-Xucaw"
    county_alan: "Xucawad"
    
    count_male_alan_independent: "$duke_male_alan$"
@@ -2611,9 +2601,9 @@
    sultan_male_alan: "Xuyndædžer"
    sultan_female_alan: "Us-xuyndædžer"
    sultanate_alan: "Xuyndædžerad"
-   king_default_male_alan: "Sax"
-   king_default_female_alan: "Us-sax"
-   kingdom_default_alan: "Saxad"
+   king_default_male_alan: "Bӕqӕtar"
+   king_default_female_alan: "Us-Bӕqӕtar"
+   kingdom_default_alan: "Bӕqӕtarad"
    
    emperor_male_alan: "Padcax"
    emperor_female_alan: "Us-padcax"
@@ -2626,17 +2616,17 @@
    
    baron_male_republic_alan: "Xistær"
    baron_female_republic_alan: "Us-xistær"
-   barony_republic_alan: "Kalak"
+   barony_city_alan: "Kalak"
    count_republic_alan: "Kalakyxucaw"
    county_republic_alan: "Kalakyston"
    
-   barony_tribal_alan: "Qæw"
+   barony_tribe_alan: "Qæw"
 ######################################################## 
   #Assyrian
 ########################################################
    baron_male_assyrian: "Mārā"
    baron_female_assyrian: "Mārtā"
-   barony_feudalclan_assyrian: "Bīrtā"
+   barony_castle_assyrian: "Bīrtā"
  
    count_male_assyrian: "Qōmēsā"
    count_female_assyrian: "Qōmēṭīsā"
@@ -2681,7 +2671,7 @@
    byzantine_emperor_male_assyrian: "Basīliyūsā"
    emperor_female_assyrian: "Malkəṯā d-Malkāṯā"
    byzantine_emperor_female_assyrian: "Basīlīsā"
-   empire_assyrian: "Rēš Malkūṯā"
+   empire_assyrian: "Bēṯ Malkūṯā"
  
    title_prince_male_assyrian: "[CHARACTER.Custom('PrinceAssyrian')]"
    title_prince_female_assyrian: "[CHARACTER.Custom('PrincessAssyrian')]"
@@ -2698,7 +2688,7 @@
  
    baron_republic_male_assyrian: "Raḇ Qrīṯā"
    baron_republic_female_assyrian: "Rabbā Qrīṯā"
-   barony_republic_assyrian: "Qrīṯā"
+   barony_city_assyrian: "Qrīṯā"
    count_republic_male_assyrian: "Lōgesṭā"
    count_republic_female_assyrian: "Lōgesṭā"
    county_republic_assyrian: "Məḏīttā"
@@ -2709,7 +2699,7 @@
    king_republic_female_assyrian: "Rēšā ʿArkōnīṯā"
    kingdom_republic_assyrian: "Rēš ʿArkōnūṯā"
  
-   barony_tribal_assyrian: "$county_tribal_assyrian$"
+   barony_tribe_assyrian: "$county_tribal_assyrian$"
    count_tribal_male_assyrian: "Rabbānā"
    count_tribal_female_assyrian: "Rabbāntā"
    county_tribal_assyrian: "Šaḇṭā"
@@ -4190,11 +4180,11 @@
 ########################################################
  #East Slavic Culture Group
 ########################################################
-  barony_feudalclan_east_slavic_group: "Gorodišče"
+  barony_castle_east_slavic_group: "Gorodišče"
   
   baron_republic_male_east_slavic_group: "Starosta"
   baron_republic_female_east_slavic_group: "Starosta"
-  barony_republic_east_slavic_group: "Město"
+  barony_city_east_slavic_group: "Město"
 ########################################################
   #Russian
 ########################################################
@@ -4230,6 +4220,9 @@
    sultan_male_rus: "Sultan"
    sultan_female_rus: "Sultanša"
    sultanate_rus: "Sultanat"
+   karl_male_rus: "Korol'"
+   karl_female_rus: "Koroleva"
+   karldom_rus: "Korolevstvo"
    king_default_male_rus: "Velikij Knyaz'"
    king_default_female_rus: "Velikaya Knyaginya"
    kingdom_default_rus: "Velikoje Knyažestvo"
@@ -4253,6 +4246,7 @@
    duke_mother_russian: "$queen_mother_default_russian$"
    queen_mother_russian: "[CHARACTER.Custom('QueenMRussian')]"
    sultan_qm_russian: "Sultanša-Mati"
+   karl_qm_rus: "Koroleva-Mati"
    queen_mother_default_russian: "Knyaginya-Mati"
    empress_mother_russian: "Tsaritsa-Mati"
    
@@ -4263,7 +4257,7 @@
    duke_republic_female_russian: "Stepennaya Posadnitsa"
    duchy_republic_russian: "Zemlya"
    
-   barony_tribal_russian: "$county_tribal_russian$"
+   barony_tribe_russian: "$county_tribal_russian$"
    count_tribal_male_russian: "Vož"
    count_tribal_female_russian: "Vož"
    county_tribal_russian: "Plemya"
@@ -4344,7 +4338,7 @@
    duke_republic_female_severian_volhynian: "Stepenĭnaja Posadĭnitsa"
    duchy_republic_old_east_slavic: "Zemľa"
    
-   barony_tribal_old_east_slavic: "$county_tribal_old_east_slavic$"
+   barony_tribe_old_east_slavic: "$county_tribal_old_east_slavic$"
    count_tribal_male_ilmenian: "Vožgĭ"
    count_tribal_male_severian_volhynian: "Vožĭ"
    count_tribal_female_ilmenian: "Vožgĭ"
@@ -4389,7 +4383,7 @@
 ######################################################
    baron_male_hausa: "Ùbangidā"
    baron_female_hausa: "Uwar̃gidā"
-   barony_feudalclan_hausa: "Gidā"
+   barony_castle_hausa: "Gidā"
    
    count_male_hausa: "Magā̀jī"
    count_female_hausa: "Magājìyā"
@@ -4421,15 +4415,15 @@
    empress_mother_hausa: "$emperor_female_hausa$"
    
    baron_republic_hausa: "Màigàrī"
-   barony_republic_hausa: "Gàrī"
+   barony_city_hausa: "Gàrī"
    
-   barony_tribal_hausa: "Ḳauye"
+   barony_tribe_hausa: "Ḳauye"
 ######################################################
   #Nupe
 ######################################################
    baron_male_nupe: "Emitso"
    baron_female_nupe: "$baron_male_nupe$"
-   barony_nupe: "Èfù"
+   barony_castle_nupe: "Èfù"
    
    count_male_nupe: "Zhìtsu"
    count_female_nupe: "$count_male_nupe$"
@@ -4457,9 +4451,11 @@
    empress_mother_nupe: "$emperor_female_nupe$"
    
    baron_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-   barony_republic_hausa: "Tunga"
+   barony_city_hausa: "Tunga"
    count_republic_hausa: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
    county_republic_hausa: "Ezhì"
+   
+   barony_tribe_nupe: "$barony_castle_nupe$"
 ######################################################
  #Chinese Culture Group
 ######################################################
@@ -4468,12 +4464,18 @@
    baron_male_han: "Nan"
    baron_female_han: "Yiren"
    baron_female_han_holder: "Nünan"
-   barony_han: "Nanguo"
+   barony_castle_han: "Nanguo"
    
    count_feudalclan_male_han: "Bo"
    count_feudalclan_female_han: "Gongren"
    count_feudalclan_female_han_holder: "Nübo"
    county_feudalclan_han: "Boguo"
+   
+   count_feudalclan_male_han_independent: "$duke_default_male_han$"
+   count_feudalclan_female_han_independent: "$duke_feudalclan_female_han$"
+   count_feudalclan_female_han_holder_independent: "$duke_default_female_han$"
+   county_feudalclan_han_independent: "[CHARACTER.Custom('HanIndepCounty')]"
+   independent_county_han: "Gongguo"
    
    duke_feudalclan_male_han: "[CHARACTER.Custom('DukeMaleHan')]"
    duke_feudalclan_female_han: "Furen"
@@ -4488,7 +4490,6 @@
    duke_default_female_han: "Nügong"
    duchy_default_han: "Gongguo"
    
-   
    duke_feudalclan_male_han_independent: "Qinwang"
    duke_feudalclan_female_han_independent: "Nüqinwang"
    duke_feudalclan_female_han_holder_independent: "$duke_feudalclan_male_han_independent$"
@@ -4499,6 +4500,11 @@
    king_female_han: "Wanghou"
    king_female_han_holder: "$king_male_han$"
    kingdom_han: "Wangguo"
+   
+   king_male_han_independent: "Dawang"
+   king_female_han_independent: "Wanghou"
+   king_female_han_holder_independent: "$king_male_han_independent$"
+   kingdom_han_independent: "Wangguo"
    
    emperor_male_han: "Huangdi"
    emperor_female_han: "Huanghou"
@@ -4513,13 +4519,14 @@
    empress_mother_han: "Huangtaihou"
    
    baron_republic_han: "Xianling"
-   barony_republic_han: "Xian"
+   barony_city_han: "Xian"
    count_republic_han: "Cishi"
    county_republic_han: "Zhou"
    duke_republic_han: "Cishi"
    duchy_republic_han: "Zhou"
    kingdom_republic_han: "Lu"
    
+   barony_tribe_han: "$county_tribal_han$"
    count_tribal_male_han: "Qiuzhang"
    count_tribal_female_han_holder: "$count_tribal_male_han$"
    county_tribal_han: "Buluo"
@@ -4659,7 +4666,7 @@
 ######################################################
    baron_male_tamil: "Veḷḷāḷar"
    baron_female_tamil: "Veḷḷāḷar"
-   barony_tamil: "Koṭṭam"
+   barony_castle_tamil: "Koṭṭam"
    
    count_male_tamil: "Nāḍāḷvār"
    count_female_tamil: "Nāḍāḷvār"
@@ -4709,19 +4716,21 @@
    
    baron_republic_male_tamil: "Paṭṭanasāmī"
    baron_republic_female_tamil: "Paṭṭanasāminī"
-   barony_republic_tamil: "Paṭṭanam"
+   barony_city_tamil: "Paṭṭanam"
    count_republic_tamil: "Nagarattarin"
    county_republic_tamil: "Nagaram"
    duke_republic_tamil: "Mānagarattarin"
    duchy_republic_tamil: "Mānagaram"
    king_republic_tamil: "Peruṇnagarattarin"
    kingdom_republic_tamil: "Peruṇnagaram"
+   
+   barony_tribe_tamil: "$barony_castle_tamil$"
 ######################################################
   #Telugu
 ######################################################
    baron_male_telugu: "Reḍḍi"
    baron_female_telugu: "Reḍḍi"
-   barony_telugu: "Koṭṭam"
+   barony_castle_telugu: "Koṭṭam"
    
    count_male_telugu: "Māṇḍalikamu"
    count_female_telugu: "Māṇḍalikamu"
@@ -4771,19 +4780,21 @@
    
    baron_republic_male_telugu: "Paṭṭanasāmī"
    baron_republic_female_telugu: "Paṭṭanasāminī"
-   barony_republic_telugu: "Paṭṭanam"
+   barony_city_telugu: "Paṭṭanam"
    count_republic_telugu: "Nagarattarin"
    county_republic_telugu: "Nagaram"
    duke_republic_telugu: "Mānagarattarin"
    duchy_republic_telugu: "Mānagaram"
    king_republic_telugu: "Mahānagarattarin"
    kingdom_republic_telugu: "Mahānagaram"
+   
+   barony_tribe_telugu: "$barony_castle_telugu$"
 ######################################################
   #Kannada
 ######################################################
    baron_male_kannada: "Gāuḍa"
    baron_female_kannada: "Gāuḍi"
-   barony_kannada: "Khampaṇa"
+   barony_castle_kannada: "Khampaṇa"
    
    count_male_kannada: "Nāḍgāuḍa"
    count_female_kannada: "Nāḍgāuḍi"
@@ -4833,13 +4844,15 @@
    
    baron_republic_male_kannada: "Paṭṭanasāmī"
    baron_republic_female_kannada: "Paṭṭanasāminī"
-   barony_republic_kannada: "Paṭṭana"
+   barony_city_kannada: "Paṭṭana"
    count_republic_kannada: "Nagarattarin"
    county_republic_kannada: "Nagara"
    duke_republic_kannada: "Mānagarattarin"
    duchy_republic_kannada: "Mānagara"
    king_republic_kannada: "Mahānagarattarin"
    kingdom_republic_kannada: "Mahānagara"
+   
+   barony_tribe_kannada: "$barony_castle_kannada$"
 ########################################################
  #East African Culture Group 
 ########################################################
@@ -4848,7 +4861,7 @@
    baron_male_ethiopian: "Balabbat"
    baron_female_ethiopian: "Wäyzäró"
    baron_female_holder_ethiopian: "Balabbat"
-   barony_ethiopian: "Dästa"
+   barony_castle_ethiopian: "Dästa"
 
    count_feudalclan_male_ethiopian: "Śeyum"
    count_feudalclan_female_ethiopian: "Wäyzäró"
@@ -4882,24 +4895,28 @@
    empress_mother_ethiopian: "$queen_mother_ethiopian$"
 
    baron_republic_ethiopian: "Käntiba"
-   barony_republic_ethiopian: "Hagarit"
+   barony_city_ethiopian: "Hagarit"
    
+   barony_tribe_ethiopian: "$barony_castle_ethiopian$"
    duchy_tribal_ethiopian: "Angadä"
 ########################################################
   #Nubian Culture
 ########################################################
-   baron_male_nubian: "Ŋod"
+   baron_male_holder_nubian: "Ŋod"
+   baron_male_nubian: "Ŋodiogj"
    baron_female_nubian: "Ŋodieitt"
    baron_female_holder_nubian: "Ŋod"
-   barony_feudalclan_nubian: "Ŋodkane"
+   barony_castle_nubian: "Ŋodkane"
 
-   count_feudalclan_male_nubian: "Samet"
-   count_female_nubian: "Sametieitt"
+   count_feudalclan_male_holder_nubian: "Samet"
+   count_feudalclan_male_nubian: "Sametiogj"
+   count_feudalclan_female_nubian: "Sametieitt"
    count_feudalclan_female_holder_nubian: "Samet"
    county_feudalclan_nubian: "Samett"
 
-   duke_feudalclan_male_nubian: "[CHARACTER.Custom('DukeNubian')]"
-   duke_female_nubian: "Soŋojieitt"
+   duke_feudalclan_male_holder_nubian: "[CHARACTER.Custom('DukeNubian')]"
+   duke_feudalclan_male_nubian: "Soŋojiogj"
+   duke_feudalclan_female_nubian: "Soŋojieitt"
    duke_feudalclan_female_holder_nubian: "[CHARACTER.Custom('DukeNubian')]"
    duchy_feudalclan_nubian: "[CHARACTER.Custom('DuchyNubian')]"
    marquess_nubian: "Seudŋod"
@@ -4934,9 +4951,9 @@
 
    baron_male_republic_nubian: "Daukatt"
    baron_female_republic_nubian: "Daukatt"
-   barony_republic_nubian: "Dipp"
+   barony_city_nubian: "Dipp"
 
-   barony_tribal_nubian: "Erk"
+   barony_tribe_nubian: "Erk"
    count_male_tribal_nubian: "Ouran"
    count_female_tribal_holder_nubian: "Ouran"
    county_tribal_nubian: "Jer"
@@ -4968,37 +4985,41 @@
   #Daju Culture
 ########################################################
    baron_male_daju: "Dìmlíg"
-   baron_female_daju: "Ùré-dìmlíg"
-   barony_daju: "Dìmlígdìgé"
+   baron_female_daju: "Ùrá Dìmlíg"
+   barony_castle_daju: "Dìmlígdìgé"
    
-   count_male_daju: "Léttìgé"
-   count_female_daju: "Ùré-léttìgé"
+   count_male_daju: "Lèèdé Úské"
+   count_female_daju: "Ùrá Lèèdé Úské"
    county_daju: "Úské"
    
    count_male_daju_independent: "$duke_male_daju$"
    count_female_daju_independent: "$duke_female_daju$"
    county_daju_independent: "[CHARACTER.Custom('DajuIndepCounty')]"
+   independent_county_daju: "Bùgíttìgé"
    
    duke_male_daju: "Bùgé"
-   duke_female_daju: "Ùré-bùgé"
-   duchy_daju: "Bùgédìgé"
+   duke_female_daju: "Ùrá Bùgé"
+   duchy_daju: "Bùgíttìgé"
    
    duke_male_daju_independent: "$king_male_daju$"
    duke_female_daju_independent: "$king_female_daju$"
    duchy_daju_independent: "[CHARACTER.Custom('DajuIndepDuchy')]"
    
    king_male_daju: "Bùgúr"
-   king_female_daju: "Ùré-bùgúr"
+   king_female_daju: "Ùrá Bùgúr"
    kingdom_daju: "Bùgúrdìgé"
    
    emperor_male_daju: "Bónnò"
-   emperor_female_daju: "Ùré-bónnò"
-   empire_daju: "Bóndìgé"
+   emperor_female_daju: "Ùrá Bónnò"
+   empire_daju: "Bóŋdìgé"
    
-   queen_mother_daju: "$king_female_daju$"
-   empress_mother_daju: "$emperor_female_daju$"
+   queen_mother_daju: "Bóósín Bùgúr"
+   empress_mother_daju: "Bóósín Bónnò"
    
-   barony_republic_daju: "Héllé"
+   baron_republic_daju: "Lèèdé Héllé"
+   barony_city_daju: "Héllé"
+   
+   barony_tribe_daju: "$barony_castle_daju$"
 ########################################################
  #Indo-Aryan
 ########################################################
