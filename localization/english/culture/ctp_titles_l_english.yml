@@ -1418,6 +1418,9 @@
 ########################################################
   barony_north_germanic_group: "Hęrað"
   
+  county_north_germanic_group: "[CHARACTER.Custom('CountyNorth')]"
+  county_default_north_germanic_group: "Fylki"
+  
   count_male_north_germanic_group_independent: "Dróttinn"
   count_female_north_germanic_group_independent: "Dróttning"
   county_north_germanic_group_independent: "[CHARACTER.Custom('NorthGermanicIndepCounty')]"
@@ -1456,10 +1459,8 @@
    
    count_male_norse_norwegian: "[CHARACTER.Custom('CountMaleNorse')]"
    count_female_norse_norwegian: "[CHARACTER.Custom('CountFemaleNorse')]"
-   county_norse_norwegian: "[CHARACTER.Custom('CountyNorse')]"
    count_default_male_norse_norwegian: "Hǫfðingi"
    count_default_female_norse_norwegian: "Hǫfuðkona"
-   county_default_norse_norwegian: "Fylki"
    
    duke_male_norse_norwegian_independent: "$king_male_norse_norwegian$"
    
@@ -1488,12 +1489,8 @@
  
    count_male_swedish_danish: "[CHARACTER.Custom('CountMaleSwedish')]"
    count_female_swedish_danish: "[CHARACTER.Custom('CountFemaleSwedish')]"
-   county_swedish: "[CHARACTER.Custom('CountySwedish')]"
-   county_danish: "[CHARACTER.Custom('CountyDanish')]"
    count_default_male_swedish_danish: "Høfðingi"
    count_default_female_swedish_danish: "Hofuðkona"
-   county_default_swedish: "Landskapr"
-   county_default_danish: "Sýsla"
  
    duke_male_swedish_danish_independent: "$king_male_swedish_danish$"
 
@@ -2686,11 +2683,11 @@
    queen_mother_assyrian: "[CHARACTER.Custom('QueenMAssyrian')]"
    queen_mother_assyrian_empire: "[CHARACTER.Custom('EmpressMAssyrian')]"
  
-   baron_republic_male_assyrian: "Raḇ Qrīṯā"
+   baron_republic_male_assyrian: "Raḇ Qrīṯā"
    baron_republic_female_assyrian: "Rabbā Qrīṯā"
    barony_city_assyrian: "Qrīṯā"
-   count_republic_male_assyrian: "Lōgesṭā"
-   count_republic_female_assyrian: "Lōgesṭā"
+   count_republic_male_assyrian: "Lōgesṭā"
+   count_republic_female_assyrian: "Lōgesṭā"
    county_republic_assyrian: "Məḏīttā"
    duke_republic_male_assyrian: "ʿArkōnā"
    duke_republic_female_assyrian: "ʿArkōnīṯā"
@@ -2703,7 +2700,7 @@
    count_tribal_male_assyrian: "Rabbānā"
    count_tribal_female_assyrian: "Rabbāntā"
    county_tribal_assyrian: "Šaḇṭā"
-   duke_tribal_male_assyrian: "Raḇ Šaḇṭā"
+   duke_tribal_male_assyrian: "Raḇ Šaḇṭā"
    duke_tribal_female_assyrian: "Rabbā Šaḇṭā"
    duchy_tribal_assyrian: "Šaḇṭā"
 ########################################################
@@ -5832,10 +5829,10 @@
    title_prince_female_nepali: "[CHARACTER.Custom('PrincessNepali')]"
    sultan_prince_male_nepali: "Śāhajādā"
    sultan_prince_female_nepali: "Śāhajādi"
-   prince_default_male_nepali: "Kũwāra"
-   prince_default_female_nepali: "Kũwārī"
-   title_prince_male_nepali_empire: "Mahākũwāra"
-   title_prince_female_nepali_empire: "Mahākũwārī"
+   prince_default_male_nepali: "Kũwāra"
+   prince_default_female_nepali: "Kũwārī"
+   title_prince_male_nepali_empire: "Mahākũwāra"
+   title_prince_female_nepali_empire: "Mahākũwārī"
    queen_mother_nepali: "[CHARACTER.Custom('QueenMNepali')]"
    queen_mother_default_nepali: "Rāyamāyā"
    empress_mother_nepali: "Mahārāyamāyā"
@@ -5865,12 +5862,12 @@
   emperor_male_mongolic_group: "Ezen Qagan"
   emperor_female_mongolic_group: "Ezen Qatun"
   
-  title_prince_male_mongolic_group: "Kũwāra"
-  title_prince_female_mongolic_group: "Kũwārī"
+  title_prince_male_mongolic_group: "Kũwāra"
+  title_prince_female_mongolic_group: "Kũwārī"
   title_prince_male_mongol: "Qaganay Köbegün"
   title_prince_female_mongol: "Qaganay Öqin"
-  title_prince_male_mongolic_group_empire: "Mahākũwāra"
-  title_prince_female_mongolic_group_empire: "Mahākũwārī"
+  title_prince_male_mongolic_group_empire: "Mahākũwāra"
+  title_prince_female_mongolic_group_empire: "Mahākũwārī"
   queen_mother_mongolic_group: "$king_female_mongolic_group$"
   empress_mother_mongolic_group: "$emperor_female_mongolic_group$"
   
@@ -6662,7 +6659,7 @@
    duchy_tocharian_independent: "[CHARACTER.Custom('TocharianIndepDuchy')]"
    
    king_male_tocharian: "Lānti"
-   king_female_tocharian: "Lāntsa"
+   king_female_tocharian: "Lāntsa"
    kingdom_tocharian: "Lantuññe"
    
    emperor_male_tocharian: "Lānti Lāntäṃts"
@@ -6678,7 +6675,7 @@
    
    baron_republic_male_tocharian: "Riñmoko"
    baron_republic_female_tocharian: "Riñmoka"
-   barony_republic_tocharian: "Rīye"
+   barony_republic_tocharian: "Rīye"
    
    barony_tribal_tocharian: "Kuṣiye"
 ########################################################
