@@ -1,0 +1,21 @@
+﻿l_english:
+ 
+ Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip], "
+ 
+ Gui_blank: ""
+ CTP_Tier: "[ROOT.Char.GetTitleAsNameNoTooltip] "
+ CTP_Teknonym_Mommy_landed: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),_tek_mom))] "
+ CTP_Teknonym_Mommy_unlanded: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture'))ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,_tek_mom))] "
+ CTP_Teknonym_Daddy_landed: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),_tek_dad))] "
+ CTP_Teknonym_Daddy_unlanded: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),_tek_dad))] "
+ CTP_Teknonym_no_child: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),_no_child_tek))] "
+ CTP_Patronym_Man_Daddy: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_male_dad'))] "
+ CTP_Patronym_Woman_Daddy: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_female_dad'))] "
+ CTP_House: "[ROOT.Char.GetDynastyHouseNameNoTooltip] "
+ CTP_NickName: "[ROOT.Char.GetNickname] "
+ 
+ Full_Name_Arabic: "[ROOT.Char.Custom('TierCheck')][ROOT.Char.Custom('TekCheck')][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltipRegnal,_regnal))][ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
+ 
+ name_key_andalusian: "_andalusian"
+ name_key_arabic: "_arabic"
+ name_key_default: "_default"
