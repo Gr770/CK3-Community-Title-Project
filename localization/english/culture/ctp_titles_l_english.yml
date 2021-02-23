@@ -1523,11 +1523,11 @@
 ########################################################
    baron_male_finnish: "Isäntä"
    baron_female_finnish: "Emäntä"
-   barony_castle_finnish: "Kihlakunta"
+   barony_castle_finnish: "Isäntäkunta"
    
-   count_feudalclan_male_finnish: "Maapäällikkö"
-   count_feudalclan_female_finnish: "Maapäällikkö"
-   county_feudalclan_finnish: "Maakunta"
+   count_feudalclan_male_finnish: "Kreivi"
+   count_feudalclan_female_finnish: "Kreivitär"
+   county_feudalclan_finnish: "Kreivikunta"
    
    count_feudalclan_male_finnish_independent: "Ruhtinas"
    count_feudalclan_female_finnish_independent: "Ruhtinatar"
@@ -1537,9 +1537,9 @@
    duke_feudalclan_male_finnish: "[CHARACTER.Custom('DukeMaleFinnish')]"
    duke_feudalclan_female_finnish: "[CHARACTER.Custom('DukeFemaleFinnish')]"
    duchy_feudalclan_finnish: "[CHARACTER.Custom('DuchyFinnish')]"
-   marquess_male_finnish: "Markiisi"
-   marquess_female_finnish: "Markiisitar"
-   march_finnish: "Markiisikunta"
+   marquess_male_finnish: "Rajakreivi"
+   marquess_female_finnish: "Rajakreivitär"
+   march_finnish: "Rajakreivikunta"
    palatine_male_finnish: "Palatsikreivi"
    palatine_female_finnish: "Palatsikreivitär"
    palatinate_finnish: "Palatsikreivikunta"
@@ -1583,13 +1583,13 @@
    baron_republic_finnish: "Kaupunginjohtaja"
    barony_city_finnish: "Kaupunki"
    
-   barony_tribe_finnish: "Heimo"
-   count_male_tribal_finnish: "Heimopäällikkö"
-   count_female_tribal_finnish: "Heimopäällikkö"
-   county_tribal_finnish: "Heimo"
-   duke_male_tribal_finnish: "Suurheimopäällikkö"
-   duke_female_tribal_finnish: "Suurheimopäällikkö"
-   duchy_tribal_finnish: "Suurheimo"
+   barony_tribe_finnish: "Kihlakunta"
+   count_male_tribal_finnish: "Päällikkö"
+   count_female_tribal_finnish: "Päällikkö"
+   county_tribal_finnish: "Maakunta"
+   duke_male_tribal_finnish: "Suurpäällikkö"
+   duke_female_tribal_finnish: "Suurpäällikkö"
+   duchy_tribal_finnish: "Kansakunta"
 ########################################################
   #Sami Culture
 ########################################################
@@ -1597,16 +1597,16 @@
    baron_female_sami: "Eaménté"
    barony_castle_sami: "Šëljó"
    
-   count_male_sami: "Sijtë-isénté"
-   count_female_sami: "Sijtë-eaménté"
+   count_male_sami: "Sijtëisénté"
+   count_female_sami: "Sijtëeaménté"
    county_sami: "Sijtë"
    
    count_male_sami_independent: "$title_prince_male_sami$"
    count_female_sami_independent: "$title_prince_female_sami$"
    county_sami_independent: "[CHARACTER.Custom('SamiIndepCounty')]"
    
-   duke_male_sami: "Oajvé-isénté"
-   duke_female_sami: "Oajvé-eaménté"
+   duke_male_sami: "Oajvéisénté"
+   duke_female_sami: "Oajvéeaménté"
    duchy_sami: "Eanëm"
    
    duke_male_sami_independent: "$title_prince_male_sami$"
@@ -1614,20 +1614,20 @@
    duchy_sami_independent: "[CHARACTER.Custom('SamiIndepDuchy')]"
    
    king_male_sami: "Konëŋkés"
-   king_female_sami: "Konëŋkés-nisón"
+   king_female_sami: "Konëŋkésnisón"
    kingdom_sami: "Olmóńčëk"
    
-   title_prince_male_sami: "Konëŋkésn-párné"
-   title_prince_female_sami: "Konëŋkésn-niejtë"
-   queen_mother_sami: "Konëŋkésn-eanné"
+   title_prince_male_sami: "Konëŋkésnpárné"
+   title_prince_female_sami: "Konëŋkésnniejtë"
+   queen_mother_sami: "Konëŋkésneanné"
    
    barony_tribe_sami: "$barony_castle_sami$"
 ########################################################
   #Estonian Culture
 ########################################################
-   baron_male_estonian: "Parun"
-   baron_female_estonian: "Paruness"
-   barony_castle_estonian: "Parunkond"
+   baron_male_estonian: "Isand"
+   baron_female_estonian: "Emand"
+   barony_castle_estonian: "Isandkond"
    
    count_feudalclan_male_estonian: "[CHARACTER.Custom('CountMaleEstonian')]"
    count_feudalclan_female_estonian: "[CHARACTER.Custom('CountFemaleEstonian')]"
@@ -1692,13 +1692,13 @@
    king_republic_estonian: "Vabariigi Valitseja"
    kingdom_republic_estonian: "Vabariik"
 
-   barony_tribe_estonian: "$county_tribal_estonian$"
-   count_male_tribal_estonian: "Hõimuvanem"
-   count_female_tribal_estonian: "Hõimuvanem"
-   county_tribal_estonian: "Hõim "
-   duke_male_tribal_estonian: "Hõimkonnavanem"
-   duke_female_tribal_estonian: "Hõimkonnavanem"
-   duchy_tribal_estonian: "Hõimkond"
+   barony_tribe_estonian: "Kihelkond"
+   count_male_tribal_estonian: "Vanem"
+   count_female_tribal_estonian: "Vanem"
+   county_tribal_estonian: "Maakond"
+   duke_male_tribal_estonian: "Suurvanem"
+   duke_female_tribal_estonian: "Suurvanem"
+   duchy_tribal_estonian: "Rahvaskond"
 ########################################################
   #Karelian Culture
 ########################################################
@@ -1706,8 +1706,8 @@
    baron_female_karelian: "Emändä"
    barony_castle_karelian: "Ižändäkundu"
    
-   count_feudalclan_male_karelian: "Muapiälikkö"
-   count_feudalclan_female_karelian: "Muapiälikkö"
+   count_feudalclan_male_karelian: "Kreivi"
+   count_feudalclan_female_karelian: "Kreivinaine"
    county_feudalclan_karelian: "Kreivikundu"
    
    count_feudalclan_male_karelian_independent: "Ruhtinas"
@@ -1744,13 +1744,13 @@
    baron_republic_karelian: "Linnunhoidai"
    barony_city_karelian: "Linnu"
 
-   barony_tribe_karelian: "$county_tribal_karelian$"
-   count_male_tribal_karelian: "Heimopiälikkö"
-   count_female_tribal_karelian: "Heimopiälikkö"
-   county_tribal_karelian: "Heimo"
-   duke_male_tribal_karelian: "Šuuriheimopiälikkö"
-   duke_female_tribal_karelian: "Šuuriheimopiälikkö"
-   duchy_tribal_karelian: "Šuuriheimo"
+   barony_tribe_karelian: "Kundu"
+   count_male_tribal_karelian: "Piälikkö"
+   count_female_tribal_karelian: "Piälikkö"
+   county_tribal_karelian: "Muakundu"
+   duke_male_tribal_karelian: "Šuuripiälikkö"
+   duke_female_tribal_karelian: "Šuuripiälikkö"
+   duchy_tribal_karelian: "Kanzakundu"
 ########################################################
   #Vepsian Culture
 ########################################################
@@ -1787,13 +1787,13 @@
    baron_republic_vepsian: "Lidnan Pämezʿ"
    barony_city_vepsian: "Lidn"
 
-   barony_tribe_vepsian: "$county_tribal_vepsian$"
-   count_male_tribal_vepsian: "Heimpälik"
-   count_female_tribal_vepsian: "Heimpälik"
-   county_tribal_vepsian: "Heim"
-   duke_male_tribal_vepsian: "Surʿ Heimpälik"
-   duke_female_tribal_vepsian: "Surʿ Heimpälik"
-   duchy_tribal_vepsian: "Sur' Heim"
+   barony_tribe_vepsian: "Kund"
+   count_male_tribal_vepsian: "Pälik"
+   count_female_tribal_vepsian: "Pälik"
+   county_tribal_vepsian: "Makund"
+   duke_male_tribal_vepsian: "Sur'pälik"
+   duke_female_tribal_vepsian: "Sur'pälik"
+   duchy_tribal_vepsian: "Kanzkund"
 ########################################################
  #Central Germanic Culture Group
 ########################################################
