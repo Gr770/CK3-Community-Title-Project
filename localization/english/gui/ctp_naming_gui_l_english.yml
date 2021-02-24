@@ -5,7 +5,7 @@
  Gui_blank: ""
  CTP_Tier: "[ROOT.Char.GetTitleAsNameNoTooltip] "
  CTP_Teknonym_Mommy_landed: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_tek_mom'))] "
- CTP_Teknonym_Mommy_unlanded: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture'))ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,'_tek_mom'))] "
+ CTP_Teknonym_Mommy_unlanded: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,'_tek_mom'))] "
  CTP_Teknonym_Daddy_landed: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_tek_dad'))] "
  CTP_Teknonym_Daddy_unlanded: "[Localize(Concatenate(Concatenate(ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetHeir.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_tek_dad'))] "
  CTP_Teknonym_no_child: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_no_child_tek'))] "
