@@ -9,6 +9,9 @@
 	text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
 		}
 		localization_key = name_key_arabic
 	}
@@ -22,6 +25,9 @@ CTPFullName = {
 	text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
 		}
 		localization_key = Full_Name_Arabic
 	}
@@ -35,24 +41,22 @@ TierCheck = {
 	text = {
 		trigger = {
 			OR = {
-				is_landed = yes
+				highest_held_title_tier >= tier_barony
 				AND = {
 					exists = primary_spouse
 					root.primary_spouse = {
-						is_landed = yes
+						highest_held_title_tier >= tier_barony
 					}
 				}
 				AND = {
 					exists = father
 					root.father = {
-						is_landed = yes
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
 				AND = {
 					exists = mother
 					root.mother = {
-						is_landed = yes
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
