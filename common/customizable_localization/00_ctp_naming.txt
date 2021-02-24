@@ -65,6 +65,21 @@ TierCheck = {
 		localization_key = CTP_Tier
 	}
 	text = {
+		trigger = {
+			is_male = yes
+			has_trait = sayyid
+			has_religion = religion:islam_religion
+		}
+		localization_key = sayyid_male
+	}
+	text = {
+		trigger = {
+			has_trait = sayyid
+			has_religion = religion:islam_religion
+		}
+		localization_key = sayyid_female
+	}
+	text = {
 		fallback = yes
 		localization_key = Gui_blank
 	}
