@@ -74,7 +74,10 @@ TierCheck = {
 	}
 	text = {
 		trigger = {
-			has_trait = sayyid
+			exists = father
+			father = {
+				has_trait = sayyid
+			}
 			has_religion = religion:islam_religion
 		}
 		localization_key = sayyid_female
