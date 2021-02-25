@@ -1407,6 +1407,37 @@ county_feudalclan_vepsian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+count_feudalclan_male_vepsian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_vepsian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_vepsian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_vepsian = {
 	type = character
 	gender = male
