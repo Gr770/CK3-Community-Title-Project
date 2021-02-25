@@ -1048,23 +1048,12 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			is_male = yes
 			OR = {
 				liege.culture = culture:portuguese
 				liege.culture = culture:galician
 			}
 		}
-		localization_key = councillor_steward_portuguese_galician_male
-	}
-	text = {
-		trigger = {
-			is_male = no
-			OR = {
-				liege.culture = culture:portuguese
-				liege.culture = culture:galician
-			}
-		}
-		localization_key = councillor_steward_portuguese_galician_female
+		localization_key = councillor_steward_portuguese_galician
 	}
 	text = {
 		trigger = {
