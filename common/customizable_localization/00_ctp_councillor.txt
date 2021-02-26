@@ -731,6 +731,21 @@ CouncilPositionChancellor = {
 		}
 		localization_key = councillor_chancellor_russian
 	}
+	text = {
+		trigger = {
+			liege.culture = culture:ilmenian
+		}
+		localization_key = councillor_chancellor_ilmenian
+	}	
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:severian
+				liege.culture = culture:volhynian
+			}
+		}
+		localization_key = councillor_chancellor_severian_volhynian
+	}
 ##################################################
 ### Dravidian
 ##################################################
@@ -1590,37 +1605,31 @@ CouncilPositionSteward = {
 	}
 	text = {
 		trigger = {
-			liege.culture = culture:ilmenian
-			is_male = yes
-		}
-		localization_key = councillor_steward_ilmenian_male
-	}	
-	text = {
-		trigger = {
-			liege.culture = culture:ilmenian
-			is_male = no
-		}
-		localization_key = councillor_steward_ilmenian_female
-	}
-	text = {
-		trigger = {
 			OR = {
+				liege.culture = culture:ilmenian
 				liege.culture = culture:severian
-				liege.culture = culture:volhynian
 			}
 			is_male = yes
 		}
-		localization_key = councillor_steward_severian_volhynian_male
+		localization_key = councillor_steward_ilmenian_severian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:volhynian
+			is_male = yes
+		}
+		localization_key = councillor_steward_volhynian_male
 	}
 	text = {
 		trigger = {
 			OR = {
+				liege.culture = culture:ilmenian
 				liege.culture = culture:severian
 				liege.culture = culture:volhynian
 			}
 			is_male = no
 		}
-		localization_key = councillor_steward_severian_volhynian_female
+		localization_key = councillor_steward_ilmenian_severian_volhynian_female
 	}
 ##################################################
 ### Dravidian
@@ -3322,36 +3331,50 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege.culture = culture:russian
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_russian
+		localization_key = councillor_spymaster_russian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:russian
+			is_male = no
+		}
+		localization_key = councillor_spymaster_russian_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:ilmenian
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_ilmenian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:ilmenian
+			is_male = no
+		}
+		localization_key = councillor_spymaster_ilmenian_female
 	}
 	text = {
 		trigger = {
 			OR = {
-				liege.culture = culture:ilmenian
 				liege.culture = culture:severian
+				liege.culture = culture:volhynian
 			}
 			is_male = yes
 		}
-		localization_key = councillor_spymaster_ilmenian_severian_male
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:volhynian
-			is_male = yes
-		}
-		localization_key = councillor_spymaster_volhynian_male
+		localization_key = councillor_spymaster_severian_volhynian_male
 	}
 	text = {
 		trigger = {
 			OR = {
-				liege.culture = culture:ilmenian
 				liege.culture = culture:severian
 				liege.culture = culture:volhynian
 			}
 			is_male = no
 		}
-		localization_key = councillor_spymaster_ilmenian_severian_volhynian_female
+		localization_key = councillor_spymaster_severian_volhynian_female
 	}
 ##################################################
 ### Dravidian
