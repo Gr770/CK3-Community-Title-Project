@@ -2759,12 +2759,17 @@ CouncilPositionSpymaster = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				liege.culture = culture:castilian
-				liege.culture = culture:asturleonese
-			}
+			liege.culture = culture:castilian
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_castilian_asturleonese
+		localization_key = councillor_spymaster_castilian_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:castilian
+			is_male = no
+		}
+		localization_key = councillor_spymaster_castilian_female
 	}
 	text = {
 		trigger = {
@@ -2813,6 +2818,20 @@ CouncilPositionSpymaster = {
 			is_male = no
 		}
 		localization_key = councillor_spymaster_portuguese_female
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:asturleonese
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_asturleonese_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:asturleonese
+			is_male = no
+		}
+		localization_key = councillor_spymaster_asturleonese_female
 	}
 	text = {
 		trigger = {
