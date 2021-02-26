@@ -13060,6 +13060,20 @@ DukeMalePersian = {
 		localization_key = marquess_male_persian
 	}
 	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_male_persian
+	}
+	text = {
 		localization_key = duke_default_male_persian
 		fallback = yes
 	}
@@ -13079,6 +13093,20 @@ DukeFemalePersian = {
 			}
 		}
 		localization_key = marquess_female_persian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_female_persian
 	}
 	text = {
 		localization_key = duke_default_female_persian
