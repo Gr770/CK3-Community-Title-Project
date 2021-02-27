@@ -1,0 +1,23 @@
+﻿namespace = ctp
+ctp.1001 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		is_alive = yes
+		is_male = yes
+		NOT = {
+			has_trait = bastard
+			every_in_global_list = {
+				variable = eldest_sons
+				THIS.father = ROOT.father
+			}
+		}
+	}	
+	immediate = {
+		add_to_global_variable_list = {
+			name = eldest_sons
+			target = ROOT
+		}
+	}
+}
