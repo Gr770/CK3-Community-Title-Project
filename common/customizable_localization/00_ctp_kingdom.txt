@@ -3555,7 +3555,7 @@ KingdomMogyer = {
 		trigger = {
 			OR = {
 				has_faith = faith:orthodox
-				root.top_liege = {
+				top_liege = {
 					OR = {
 					has_primary_title = title:e_byzantium
 					has_primary_title = title:e_roman_empire
@@ -3584,11 +3584,14 @@ KingMaleHung = {
 	text = {
 		trigger = {
 			OR = {
-				root.top_liege = {
-					OR = {
-					has_primary_title = title:e_byzantium
-					has_primary_title = title:e_roman_empire
-				}
+				AND = {
+					exists = liege
+					top_liege = {
+						OR = {
+							has_primary_title = title:e_byzantium
+							has_primary_title = title:e_roman_empire
+						}
+					}
 				}
 				AND = {
 					has_faith = faith:orthodox
