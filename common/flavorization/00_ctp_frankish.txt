@@ -29,12 +29,12 @@ baron_female_frankish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_frankish = {
+barony_castle_frankish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { frankish }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_frankish = {
@@ -250,15 +250,22 @@ baron_republic_frankish = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_frankish = {
+barony_city_frankish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { frankish }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
-
+barony_tribe_frankish = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { frankish }
+	holding = tribal_holding
+	top_liege = no
+}
 ###############################################
 ## French_culture
 
@@ -282,12 +289,12 @@ baron_female_french = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_french = {
+barony_castle_french = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { french }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_french = {
@@ -515,12 +522,12 @@ baron_republic_female_french = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_french = {
+barony_city_french = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { french }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_french = {
@@ -575,6 +582,14 @@ kingdom_republic_french = {
 	priority = 143
 	cultures = { french }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_french = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { french }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -1212,6 +1227,248 @@ kingdom_republic_occitan = {
 	priority = 143
 	cultures = { occitan }
 	governments = { republic_government }
+	top_liege = no
+}
+###############################################
+## Outremer_culture
+
+baron_male_outremer = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_outremer = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_castle_outremer = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { outremer }
+	holding = castle_holding
+	top_liege = no
+}
+count_male_outremer = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_outremer = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_outremer = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_outremer = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_outremer = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_outremer = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_outremer_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duke_female_outremer_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duchy_outremer_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+king_male_outremer = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_outremer = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_outremer = {
+	type = title
+	priority = 143
+	tier = kingdom
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_outremer = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_outremer = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_outremer = {
+	type = title
+	priority = 153
+	tier = empire
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_outremer = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_outremer = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_outremer_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_outremer_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+queen_mother_outremer = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_outremer = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	cultures = { outremer }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+barony_tribe_outremer = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { outremer }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################

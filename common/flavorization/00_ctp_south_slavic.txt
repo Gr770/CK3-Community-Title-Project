@@ -29,12 +29,12 @@ baron_female_croatian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_croatian = {
+barony_castle_croatian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { croatian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_croatian = {
@@ -136,7 +136,6 @@ duke_male_croatian_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
 duke_female_croatian_independent = {
 	type = character
 	gender = female
@@ -148,7 +147,6 @@ duke_female_croatian_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
 duchy_croatian_independent = {
 	type = title
 	tier = duchy
@@ -296,6 +294,14 @@ empress_mother_croatian = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+barony_tribe_croatian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { croatian }
+	holding = tribal_holding
+	top_liege = no
+}
 ###############################################
 ## Serbian and Bosnian cultures
 
@@ -319,129 +325,129 @@ baron_female_serbian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_serbian = {
+barony_castle_serbian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
-count_feudalclan_male_serbian = {
+count_male_serbian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 113
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_female_serbian = {
+count_female_serbian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 113
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_governmenttribal_government }
 	top_liege = no
 }
-county_feudalclan_serbian = {
+county_serbian = {
 	type = title
 	tier = county
 	priority = 113
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_male_serbian_independent = {
+count_male_serbian_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 114
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-count_feudalclan_female_serbian_independent = {
+count_female_serbian_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 114
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-county_feudalclan_serbian_independent = {
+county_serbian_independent = {
 	type = title
 	tier = county
 	priority = 114
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-duke_feudalclan_male_serbian = {
+duke_male_serbian = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 123
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_female_serbian = {
+duke_female_serbian = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 123
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_feudalclan_serbian = {
+duchy_serbian = {
 	type = title
 	tier = duchy
 	priority = 123
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duke_feudalclan_male_serbian_independent = {
+duke_male_serbian_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 124
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-duke_feudalclan_female_serbian_independent = {
+duke_female_serbian_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 124
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-duchy_feudalclan_serbian_independent = {
+duchy_serbian_independent = {
 	type = title
 	tier = duchy
 	priority = 124
 	cultures = { serbian bosnian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -465,7 +471,6 @@ king_female_serbian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no	
 }
-
 kingdom_serbian = {
 	type = title
 	tier = kingdom
@@ -606,12 +611,12 @@ baron_republic_female_serbian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_serbian = {
+barony_city_serbian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { serbian bosnian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_serbian = {
@@ -704,68 +709,12 @@ kingdom_republic_serbian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_serbian = {
+barony_tribe_serbian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-count_tribal_male_serbian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-count_tribal_female_serbian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-county_tribal_serbian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_male_serbian = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duke_tribal_female_serbian = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 123
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
-	top_liege = no
-}
-duchy_tribal_serbian = {
-	type = title
-	tier = duchy
-	priority = 123
-	cultures = { serbian bosnian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -791,12 +740,12 @@ baron_female_vlach = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_vlach = {
+barony_castle_vlach = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { vlach }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_vlach = {
@@ -1055,12 +1004,12 @@ baron_republic_female_vlach = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_vlach = {
+barony_city_vlach = {
 	type = title
 	tier = barony
 	priority = 8
 	cultures = { vlach }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_vlach = {
@@ -1109,12 +1058,12 @@ kingdom_republic_vlach = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_vlach = {
+barony_tribe_vlach = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { vlach }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_vlach = {
@@ -1197,70 +1146,70 @@ baron_female_bulgarian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_bulgarian = {
+barony_castle_bulgarian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
-count_feudalclan_male_bulgarian = {
+count_male_bulgarian = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 113
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_female_bulgarian = {
+count_female_bulgarian = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 113
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-county_feudalclan_bulgarian = {
+county_bulgarian = {
 	type = title
 	tier = county
 	priority = 113
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-count_feudalclan_male_bulgarian_independent = {
+count_male_bulgarian_independent = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 114
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-count_feudalclan_female_bulgarian_independent = {
+count_female_bulgarian_independent = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 114
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
-county_feudalclan_bulgarian_independent = {
+county_bulgarian_independent = {
 	type = title
 	tier = county
 	priority = 114
 	cultures = { bulgarian }
-	governments = { feudal_government clan_government }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -1439,22 +1388,22 @@ title_prince_female_bulgarian_byzantine_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_male_bulgarian = {
+baron_republic_bulgarian = {
 	type = character
-	gender = male
 	special = holder
 	tier = barony
 	priority = 103
 	cultures = { bulgarian }
 	governments = { republic_government }
 	top_liege = no
+	only_holder = yes
 }
-barony_republic_bulgarian = {
+barony_city_bulgarian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { bulgarian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 county_republic_bulgarian = {
@@ -1465,40 +1414,12 @@ county_republic_bulgarian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_bulgarian = {
+barony_tribe_bulgarian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { bulgarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-count_tribal_male_bulgarian = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { bulgarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-count_tribal_female_bulgarian = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 113
-	cultures = { bulgarian }
-	governments = { tribal_government }
-	top_liege = no
-}
-county_tribal_bulgarian = {
-	type = title
-	tier = county
-	priority = 113
-	cultures = { bulgarian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################

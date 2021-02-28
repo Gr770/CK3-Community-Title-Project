@@ -1486,6 +1486,50 @@ DukeMaleFrench = {
 		localization_key = duke_male_french_independent
 	}
 	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_dauphine
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:d_dauphine
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_male_french
+	}
+	text = {
 		localization_key = duke_default_male_french
 		fallback = yes
 	}
@@ -1626,6 +1670,50 @@ DukeFemaleFrench = {
 			}
 		}
 		localization_key = duke_female_french_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_dauphine
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:d_dauphine
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_female_french
 	}
 	text = {
 		localization_key = duke_default_female_french
@@ -4613,6 +4701,53 @@ DukeMaleEstonian = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_male_estonian
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_male_estonian_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_saxon
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -4640,12 +4775,139 @@ DukeMaleEstonian = {
 		localization_key = palatine_male_estonian
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = liege
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						exists = liege
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_male_estonian_independent
+	}
+	text = {
 		localization_key = duke_default_male_estonian
 		fallback = yes
 	}
 }
 DukeFemaleEstonian = {
 	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurst_female_estonian
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = liege
+				liege.primary_title = {
+					has_title_law = princely_elective_succession_law
+					any_elector = {
+						this = root.primary_spouse
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_female_estonian_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_saxon
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -4675,12 +4937,105 @@ DukeFemaleEstonian = {
 		localization_key = palatine_female_estonian
 	}
 	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = liege
+					liege.primary_title = {
+						has_title_law = princely_elective_succession_law
+					}
+					OR = {
+						AND = {
+							has_realm_law = crown_authority_1
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_1
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_2
+							liege = {
+								NOR = {
+									has_realm_law = crown_authority_2
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+						AND = {
+							has_realm_law = crown_authority_3
+							liege = {
+								NOT = {
+									has_realm_law = crown_authority_3
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						exists = liege
+						liege.primary_title = {
+							has_title_law = princely_elective_succession_law
+						}
+						OR = {
+							AND = {
+								has_realm_law = crown_authority_1
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_1
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_2
+								liege = {
+									NOR = {
+										has_realm_law = crown_authority_2
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+							AND = {
+								has_realm_law = crown_authority_3
+								liege = {
+									NOT = {
+										has_realm_law = crown_authority_3
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		localization_key = duke_feudalclan_female_estonian_independent
+	}
+	text = {
 		localization_key = duke_default_female_estonian
 		fallback = yes
 	}
 }
 DuchyEstonian = {
 	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+				any_elector = {
+					this = root
+				}
+			}
+		}
+		localization_key = kurfurstdom_estonian
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -4692,6 +5047,45 @@ DuchyEstonian = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_estonian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			exists = liege
+			liege.primary_title = {
+				has_title_law = princely_elective_succession_law
+			}
+			OR = {
+				AND = {
+					has_realm_law = crown_authority_1
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_1
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_2
+					liege = {
+						NOR = {
+							has_realm_law = crown_authority_2
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+				AND = {
+					has_realm_law = crown_authority_3
+					liege = {
+						NOT = {
+							has_realm_law = crown_authority_3
+						}
+					}
+				}
+			}
+		}
+		localization_key = independent_duchy_estonian
 	}
 	text = {
 		localization_key = duchy_default_estonian
@@ -4746,6 +5140,26 @@ DukeMaleSaxon = {
 			}
 		}
 		localization_key = vajda_male_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_middle_high_german
 	}
 	text = {
 		trigger = {
@@ -4908,6 +5322,26 @@ DukeFemaleSaxon = {
 			}
 		}
 		localization_key = vajda_female_saxon
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_middle_high_german
 	}
 	text = {
 		trigger = {
@@ -5145,6 +5579,26 @@ DukeMaleMiddleHighGerman = {
 	text = {
 		trigger = {
 			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_dutch
+	}
+	text = {
+		trigger = {
+			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
 					exists = primary_spouse
@@ -5303,6 +5757,26 @@ DukeFemaleMiddleHighGerman = {
 			}
 		}
 		localization_key = vajda_female_middle_high_german
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_dutch
 	}
 	text = {
 		trigger = {
@@ -9637,6 +10111,26 @@ DukeMaleCzech = {
 	text = {
 		trigger = {
 			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_vlach
+	}
+	text = {
+		trigger = {
+			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
 					exists = primary_spouse
@@ -9775,6 +10269,26 @@ DukeFemaleCzech = {
 			}
 		}
 		localization_key = furst_female_czech
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_vlach
 	}
 	text = {
 		trigger = {
@@ -9987,7 +10501,7 @@ DukeMalePolish = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_polish_independent
+		localization_key = duke_default_male_polish
 	}
 	text = {
 		trigger = {
@@ -10095,7 +10609,7 @@ DukeMalePolish = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_polish_independent
+		localization_key = duke_default_male_polish
 	}
 	text = {
 		localization_key = duke_default_male_polish
@@ -10129,7 +10643,7 @@ DukeFemalePolish = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_polish_independent
+		localization_key = duke_default_female_polish
 	}
 	text = {
 		trigger = {
@@ -10237,7 +10751,7 @@ DukeFemalePolish = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_polish_independent
+		localization_key = duke_default_female_polish
 	}
 	text = {
 		localization_key = duke_default_female_polish
@@ -10257,7 +10771,7 @@ DuchyPolish = {
 				}
 			}
 		}
-		localization_key = independent_duchy_polish
+		localization_key = duchy_default_polish
 	}
 	text = {
 		trigger = {
@@ -10308,7 +10822,7 @@ DuchyPolish = {
 				}
 			}
 		}
-		localization_key = independent_duchy_polish
+		localization_key = duchy_default_polish
 	}
 	text = {
 		localization_key = duchy_default_polish
@@ -10431,7 +10945,7 @@ DukeMaleSlovien = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_slovien_independent
+		localization_key = duke_default_male_slovien
 	}
 	text = {
 		trigger = {
@@ -10539,7 +11053,7 @@ DukeMaleSlovien = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_male_slovien_independent
+		localization_key = duke_default_male_slovien
 	}
 	text = {
 		localization_key = duke_default_male_slovien
@@ -10573,7 +11087,7 @@ DukeFemaleSlovien = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_slovien_independent
+		localization_key = duke_default_female_slovien
 	}
 	text = {
 		trigger = {
@@ -10681,7 +11195,7 @@ DukeFemaleSlovien = {
 				}
 			}
 		}
-		localization_key = duke_feudalclan_female_slovien_independent
+		localization_key = duke_default_female_slovien
 	}
 	text = {
 		localization_key = duke_default_female_slovien
@@ -10752,7 +11266,7 @@ DuchySlovien = {
 				}
 			}
 		}
-		localization_key = independent_duchy_slovien
+		localization_key = duchy_default_slovien
 	}
 	text = {
 		localization_key = duchy_default_slovien
@@ -11408,6 +11922,26 @@ DukeMaleBengali = {
 	text = {
 		trigger = {
 			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male__mogyer
+	}
+	text = {
+		trigger = {
+			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
 					exists = primary_spouse
@@ -11418,6 +11952,21 @@ DukeMaleBengali = {
 			}
 		}
 		localization_key = marquess_bengali
+	}
+	text = {
+		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				has_primary_title = title:d_transylvania
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_mogyer
 	}
 	text = {
 		trigger = {
@@ -11440,6 +11989,18 @@ DukeMaleBengali = {
 }
 DukeFemaleBengali = {
 	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:d_transylvania
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_mogyer
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -11475,6 +12036,18 @@ DukeFemaleBengali = {
 }
 DuchyBengali = {
 	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:d_transylvania
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajdaasag_mogyer
+	}
 	text = {
 		trigger = {
 			vassal_contract_has_flag = has_march_contract
@@ -11523,6 +12096,26 @@ DukeMaleOriya = {
 }
 DukeFemaleOriya = {
 	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:d_transylvania
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						has_primary_title = title:d_transylvania
+					}
+				}
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_hung
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -11608,6 +12201,21 @@ DukeFemaleAssamese = {
 	type = character
 	text = {
 		trigger = {
+			exists = primary_spouse
+			root.primary_spouse = {
+				has_primary_title = title:d_transylvania
+			}
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_female_hung
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -11654,6 +12262,18 @@ DuchyAssamese = {
 }
 DukeMaleHindustani = {
 	type = character
+	text = {
+		trigger = {
+			has_primary_title = title:d_transylvania
+			exists = liege
+			root.top_liege = {
+				NOT = {
+					has_title_law = princely_elective_succession_law
+				}
+			}
+		}
+		localization_key = vajda_male_hung
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -12706,6 +13326,20 @@ DukeMalePersian = {
 		localization_key = marquess_male_persian
 	}
 	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_male_persian
+	}
+	text = {
 		localization_key = duke_default_male_persian
 		fallback = yes
 	}
@@ -12725,6 +13359,20 @@ DukeFemalePersian = {
 			}
 		}
 		localization_key = marquess_female_persian
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_female_persian
 	}
 	text = {
 		localization_key = duke_default_female_persian

@@ -13,6 +13,14 @@ barony_north_germanic_group = {
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
+county_north_germanic_group = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
 count_male_north_germanic_group_independent = {
 	type = character
 	gender = male
@@ -231,14 +239,6 @@ count_female_norse_norwegian = {
 	cultures = { norse norwegian }
 	top_liege = no
 }
-county_norse_norwegian = {
-	type = title
-	tier = county
-	priority = 113
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { norse norwegian }
-	top_liege = no
-}
 duke_male_norse_norwegian_independent = {
 	type = character
 	gender = male
@@ -401,22 +401,6 @@ count_female_swedish_danish = {
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { swedish danish }
-	top_liege = no
-}
-county_swedish = {
-	type = title
-	tier = county
-	priority = 113
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { swedish }
-	top_liege = no
-}
-county_danish = {
-	type = title
-	tier = county
-	priority = 113
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { danish }
 	top_liege = no
 }
 duke_male_swedish_danish_independent = {
