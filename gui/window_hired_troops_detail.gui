@@ -280,7 +280,8 @@ window = {
 
 										text_label_left = {
 											visible = "[Not(HiredTroopRegiment.IsLevies)]"
-											text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
+											text = "[Localize(Concatenate(HiredTroop.GetTitle.GetHolder.Custom('ctpCulture'),HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip))]"
+											#text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
 										}
 
 										text_label_left = {
@@ -415,7 +416,8 @@ window = {
 
 												text_label_left = {
 													visible = "[Not(HiredTroopRegiment.IsLevies)]"
-													text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
+													text = "[Localize(Concatenate(HiredTroop.GetTitle.GetHolder.Custom('ctpCulture'),HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip))]"
+													#text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
 												}
 
 												text_label_left = {

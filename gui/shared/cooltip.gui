@@ -967,7 +967,7 @@ template maa_type_container_tooltip
 						layoutpolicy_horizontal = expanding
 						name = "header"
 						align = top|hcenter
-						text = "[Localize(Concatenate('default', MenAtArmsType.GetNameNoTooltip ))]"
+						text = "[Localize(Concatenate(GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]"
 						maximumsize = { 400 -1 }
 
 						using = Font_Type_Flavor
@@ -1124,7 +1124,7 @@ widget = {
 					layoutpolicy_horizontal = expanding
 					name = "header"
 					align = top|hcenter
-					text = "[Localize(Concatenate('default', MenAtArmsType.GetNameNoTooltip ))]"
+					text = "[Localize(Concatenate(GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]"
 					maximumsize = { 400 -1 }
 
 					using = Font_Type_Flavor

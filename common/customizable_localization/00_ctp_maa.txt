@@ -131,19 +131,19 @@
 	}
 	text = {
 		trigger = {
-			has_culture = culture:franconian
-		}
-		localization_key = franconian_ctp_culture
-	}
-	text = {
-		trigger = {
 			OR= {
 				has_culture = culture:swabian
 				has_culture = culture:bavarian
-				has_culture = culture:frisian
+				has_culture = culture:franconian
 			}
 		}
 		localization_key = mhg_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = arabic_ctp_culture
 	}
 	text = {
 		trigger = {
@@ -159,9 +159,27 @@
 	}
 	text = {
 		trigger = {
+			has_culture = culture:italian
+		}
+		localization_key = italian_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:roman
+		}
+		localization_key = roman_ctp_culture
+	}
+	text = {
+		trigger = {
 			has_culture = culture:pommeranian
 		}
 		localization_key = pommeranian_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:czech
+		}
+		localization_key = czech_ctp_culture
 	}
 	text = {
 		trigger = {
@@ -189,16 +207,6 @@
 	}
 	text = {
 		trigger = {
-			OR= {
-				has_culture = culture:ilmenian
-				has_culture = culture:severian
-				has_culture = culture:volhynian
-			}
-		}
-		localization_key = east_slavic_ctp_culture
-	}
-	text = {
-		trigger = {
 			has_culture = culture:han
 		}
 		localization_key = han_ctp_culture
@@ -223,9 +231,75 @@
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:indo_aryan_group
+			has_culture = culture:bengali
 		}
-		localization_key = indo_aryan_ctp_culture
+		localization_key = bengali_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:oriya
+		}
+		localization_key = oriya_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:assamese
+		}
+		localization_key = assamese_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:hindustani
+		}
+		localization_key = hindustani_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:gujarati
+		}
+		localization_key = gujarati_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:punjabi
+		}
+		localization_key = punjabi_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:rajput
+		}
+		localization_key = rajput_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sindi
+		}
+		localization_key = sindi_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:marathi
+		}
+		localization_key = marathi_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:kashmiri
+		}
+		localization_key = kashmiri_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:sinhala
+		}
+		localization_key = sinhala_ctp_culture
+	}
+	text = {
+		trigger = {
+			has_culture = culture:nepali
+		}
+		localization_key = nepali_ctp_culture
 	}
 	text = {
 		fallback = yes
