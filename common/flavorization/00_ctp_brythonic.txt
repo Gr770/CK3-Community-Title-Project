@@ -28,12 +28,12 @@ baron_female_pictish_cumbrian = {
 	governments = { feudal_government tribal_government clan_government }
 	top_liege = no
 }
-barony_pictish_cumbrian = {
+barony_castle_pictish_cumbrian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pictish cumbrian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_pictish_cumbrian = {
@@ -292,12 +292,12 @@ baron_republic_female_pictish_cumbrian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_pictish_cumbrian = {
+barony_city_pictish_cumbrian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pictish cumbrian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_pictish_cumbrian = {
@@ -390,6 +390,14 @@ kingdom_republic_pictish_cumbrian = {
 	governments = { republic_government }
 	top_liege = no
 }
+barony_tribe_pictish_cumbrian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { pictish cumbrian }
+	holding = tribal_holding
+	top_liege = no
+}
 duke_tribal_male_pictish_cumbrian = {
 	type = character
 	gender = male
@@ -441,12 +449,12 @@ baron_female_welsh = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_welsh = {
+barony_castle_welsh = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { welsh }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_welsh = {
@@ -674,12 +682,12 @@ baron_republic_female_welsh = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_welsh = {
+barony_city_welsh = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { welsh }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_welsh = {
@@ -772,12 +780,12 @@ kingdom_republic_welsh = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_welsh = {
+barony_tribe_welsh = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { welsh }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_welsh = {
@@ -858,12 +866,12 @@ baron_female_breton = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_breton = {
+barony_castle_breton = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { breton }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_breton = {
@@ -1091,12 +1099,12 @@ baron_republic_female_breton = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_breton = {
+barony_city_breton = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { breton }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_breton = {
@@ -1189,6 +1197,14 @@ kingdom_republic_breton = {
 	governments = { republic_government }
 	top_liege = no
 }
+barony_tribe_breton = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { breton }
+	holding = tribal_holding
+	top_liege = no
+}
 count_tribal_male_breton = {
 	type = character
 	gender = male
@@ -1232,12 +1248,12 @@ baron_female_cornish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_cornish = {
+barony_castle_cornish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { cornish }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_cornish = {
@@ -1250,7 +1266,7 @@ count_feudalclan_male_cornish = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-coun_feudalclant_female_cornish = {
+count_feudalclan_female_cornish = {
 	type = character
 	gender = female
 	special = holder
@@ -1496,12 +1512,12 @@ baron_republic_female_cornish = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_cornish = {
+barony_city_cornish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { cornish }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_cornish = {
@@ -1594,12 +1610,12 @@ kingdom_republic_cornish = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_cornish = {
+barony_tribe_cornish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { cornish }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_tribal_male_cornish = {

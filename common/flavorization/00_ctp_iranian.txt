@@ -26,12 +26,12 @@ baron_female_persian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_persian = {
+barony_castle_persian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { persian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_persian = {
@@ -260,9 +260,8 @@ empress_mother_persian ={
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_male_persian = {
+baron_republic_persian = {
 	type = character
-	gender = male
 	special = holder
 	tier = barony
 	priority = 103
@@ -271,23 +270,12 @@ baron_republic_male_persian = {
 	only_holder = yes
 	top_liege = no
 }
-baron_republic_female_persian = {
-	type = character
-	gender = female
-	special = holder
+barony_city_persian = {
+	type = title
 	tier = barony
 	priority = 103
 	cultures = { persian }
-	governments = { republic_government }
-	only_holder = yes
-	top_liege = no
-}
-barony_republic_persian = {
-	type = title
-	tier = barony
-	priority = 153
-	cultures = { persian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_persian = {
@@ -378,6 +366,70 @@ kingdom_republic_persian = {
 	priority = 143
 	cultures = { persian }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_persian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { persian }
+	holding = tribal_holding
+	top_liege = no
+}
+count_tribal_male_persian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { persian } 
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_persian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { persian } 
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_persian = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { persian }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_persian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { persian } 
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_persian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { persian } 
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_persian = {
+	type = title
+	tier = duchy
+	priority = 123
+	cultures = { persian }
+	governments = { tribal_government }
 	top_liege = no
 }
 ###############################################

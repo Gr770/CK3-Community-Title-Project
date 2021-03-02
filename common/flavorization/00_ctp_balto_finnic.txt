@@ -29,12 +29,12 @@ baron_female_finnish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_finnish = {
+barony_castle_finnish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { finnish }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_finnish = {
@@ -314,20 +314,20 @@ baron_republic_finnish = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_finnish = {
+barony_city_finnish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { finnish }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
-barony_tribal_finnish = {
+barony_tribe_finnish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { finnish }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_tribal_finnish = {
@@ -410,12 +410,12 @@ baron_female_sami = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_sami = {
+barony_castle_sami = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { sami }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_sami = {
@@ -594,7 +594,14 @@ queen_mother_sami = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-
+barony_tribe_sami = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { sami }
+	holding = tribal_holding
+	top_liege = no
+}
 ###############################################
 ## Estonian  Culture
 
@@ -618,12 +625,12 @@ baron_female_estonian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_estonian = {
+barony_castle_estonian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { estonian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_estonian = {
@@ -839,12 +846,12 @@ baron_republic_estonian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_estonian = {
+barony_city_estonian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { estonian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_estonian = {
@@ -857,7 +864,7 @@ count_republic_estonian = {
 	top_liege = no
 	only_holder = yes
 }
-county_estonian = {
+county_republic_estonian = {
 	type = title
 	tier = county
 	priority = 113
@@ -875,7 +882,7 @@ duke_republic_estonian = {
 	top_liege = no
 	only_holder = yes
 }
-duchy_estonian = {
+duchy_republic_estonian = {
 	type = title
 	tier = duchy
 	priority = 123
@@ -893,7 +900,7 @@ king_republic_estonian = {
 	top_liege = no
 	only_holder = yes
 }
-kingdom_estonian = {
+kingdom_republic_estonian = {
 	type = title
 	tier = kingdom
 	priority = 143
@@ -901,12 +908,12 @@ kingdom_estonian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_estonian = {
+barony_tribe_estonian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { estonian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_tribal_estonian = {
@@ -988,12 +995,12 @@ baron_female_karelian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_karelian = {
+barony_castle_karelian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { karelian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_karelian = {
@@ -1269,20 +1276,20 @@ baron_republic_karelian = {
 	governments = { tribal_government }
 	top_liege = no
 }
-barony_republic_karelian = {
+barony_city_karelian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { karelian }
-	governments = { tribal_government }
+	holding = city_holding
 	top_liege = no
 }
-barony_tribal_karelian = {
+barony_tribe_karelian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { karelian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_tribal_karelian = {
@@ -1364,12 +1371,12 @@ baron_female_vepsian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_vepsian = {
+barony_castle_vepsian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { vepsian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_vepsian = {
@@ -1399,6 +1406,37 @@ county_feudalclan_vepsian = {
 	cultures = { vepsian }
 	governments = { feudal_government clan_government }
 	top_liege = no
+}
+count_feudalclan_male_vepsian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_feudalclan_female_vepsian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_feudalclan_vepsian_independent = {
+	type = title
+	tier = county
+	priority = 114
+	cultures = { vepsian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
 }
 duke_feudalclan_male_vepsian = {
 	type = character
@@ -1564,20 +1602,20 @@ baron_republic_vepsian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_republic_vepsian = {
+barony_city_vepsian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { vepsian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
-barony_tribal_vepsian = {
+barony_tribe_vepsian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { vepsian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_tribal_vepsian = {

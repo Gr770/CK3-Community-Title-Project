@@ -257,12 +257,12 @@ baron_female_hausa = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_hausa = {
+barony_castle_hausa = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { hausa }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_hausa = {
@@ -504,20 +504,20 @@ baron_republic_hausa = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_hausa = {
+barony_city_hausa = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { hausa }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
-barony_tribal_hausa = {
+barony_tribe_hausa = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { hausa }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -544,12 +544,12 @@ baron_female_nupe = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_nupe = {
+barony_castle_nupe = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { nupe }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_nupe = {
@@ -749,12 +749,12 @@ baron_republic_hausa = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_hausa = {
+barony_city_hausa = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { hausa }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_hausa = {
@@ -773,5 +773,13 @@ county_republic_hausa = {
 	priority = 113
 	cultures = { hausa }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_nupe = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { nupe }
+	holding = tribal_holding
 	top_liege = no
 }
