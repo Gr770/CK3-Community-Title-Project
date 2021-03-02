@@ -904,9 +904,18 @@
    count_female_outremer: "Comitissa"
    county_outremer: "Comitatus"
    
-   duke_male_outremer: "Dux"
-   duke_female_outremer: "Ducissa"
-   duchy_outremer: "Ducatus"
+   duke_male_outremer: "[CHARACTER.Custom('DukeMaleOutremer')]"
+   duke_female_outremer: "[CHARACTER.Custom('DukeFemaleOutremer')]"
+   duchy_outremer: "[CHARACTER.Custom('OutremerIndepDuchy')]"
+   marquess_male_outremer: "Marchio"
+   marquess_female_outremer: "Marchisa"
+   march_occitan: "Marca"
+   palatine_male_outremer: "Palatinus"
+   palatine_female_outremer: "Palatina"
+   palatinate_occitan: "Palatinatus"
+   duke_default_male_outremer: "Dux"
+   duke_default_female_outremer: "Ducissa"
+   duchy_default_occitan: "Ducatus"
    
    duke_male_outremer_independent: "Princeps"
    duke_female_outremer_independent: "Principissa"
@@ -929,6 +938,9 @@
    empress_mother_outremer: "$emperor_female_outremer$"
    
    barony_tribe_outremer: "$barony_castle_outremer$"
+   
+   baron_republic_male_outremer: "Maior"
+   baron_republic_female_outremer: "Maiorissa"
 ########################################################
  #Iberian Culture Group
 ########################################################
@@ -4706,12 +4718,12 @@
   #Mon
 ######################################################
    baron_male_mon: "Smiṅ"
-   barony_mon: "Myo"
+   barony_castle_mon: "Ḍūṅ"
    
    count_male_mon: "Bañña"
    county_mon: "Prī Krī"
    
-   king_male_mon: "Tala Ñaḥ"
+   king_male_mon: "Gna Smiṅ"
    king_female_mon: "Gna Kyȧk"
    
    title_prince_male_mon: "Bañña"
@@ -4719,6 +4731,7 @@
    queen_mother_mon: "$king_female_mon$"
    
    baron_republic_mon: "Myothugyi"
+   barony_city_mon: "Twāñ"
 ######################################################
  #Dravidian Culture Group
 ######################################################
@@ -4789,15 +4802,15 @@
   #Telugu
 ######################################################
    baron_male_telugu: "Reḍḍi"
-   baron_female_telugu: "Reḍḍi"
-   barony_castle_telugu: "Koṭṭam"
+   baron_female_telugu: "Reḍḍisāni"
+   barony_castle_telugu: "Sthala"
    
    count_male_telugu: "Māṇḍalikamu"
    count_female_telugu: "Māṇḍalikamu"
    county_telugu: "Nāḍu"
    
-   count_male_telugu_independent: "Nṛpa"
-   count_female_telugu_independent: "Nṛpa"
+   count_male_telugu_independent: "Rāju"
+   count_female_telugu_independent: "Dēvi"
    county_telugu_independent: "[CHARACTER.Custom('TeluguIndepCounty')]"
    independent_county_telugu: "Rājyamu"
    
@@ -4806,7 +4819,7 @@
    duchy_telugu: "Maṇḍalamu"
    
    duke_male_telugu_independent: "Mahārāju"
-   duke_female_telugu_independent: "Mahārāju"
+   duke_female_telugu_independent: "Mahādēvi"
    duchy_telugu_independent: "[CHARACTER.Custom('TeluguIndepDuchy')]"
    independent_duchy_telugu: "Maharājyamu"
    
@@ -4854,25 +4867,25 @@
 ######################################################
    baron_male_kannada: "Gāuḍa"
    baron_female_kannada: "Gāuḍi"
-   barony_castle_kannada: "Khampaṇa"
+   barony_castle_kannada: "Kampaṇa"
    
    count_male_kannada: "Nāḍgāuḍa"
    count_female_kannada: "Nāḍgāuḍi"
    county_kannada: "Nāḍ"
    
-   count_male_kannada_independent: "Nṛpa"
-   count_female_kannada_independent: "Nṛpa"
+   count_male_kannada_independent: "Ārasu"
+   count_female_kannada_independent: "Ārasi"
    county_kannada_independent: "[CHARACTER.Custom('KannadaIndepCounty')]"
-   independent_county_kannada: "Rājya"
+   independent_county_kannada: "Rājyam"
    
    duke_male_kannada: "Mahāmaṇḍaleśvara"
    duke_female_kannada: "Mahāmaṇḍaleśvara"
    duchy_kannada: "Maṇḍalam"
    
-   duke_male_kannada_independent: "Mahārasu"
-   duke_female_kannada_independent: "Mahārasi"
+   duke_male_kannada_independent: "Mahāarasu"
+   duke_female_kannada_independent: "Mahāarasi"
    duchy_kannada_independent: "[CHARACTER.Custom('KannadaIndepDuchy')]"
-   independent_duchy_kannada: "Maharājya"
+   independent_duchy_kannada: "Maharājyam"
    
    king_male_kannada: "[CHARACTER.Custom('KingMaleKannada')]"
    king_female_kannada: "[CHARACTER.Custom('KingFemaleKannada')]"
@@ -4889,7 +4902,7 @@
    emperor_male_kannada: "Cakravarti"
    emperor_female_kannada: "Piriyarasi"
    emperor_female_kannada_holder: "Cakravartini"
-   empire_kannada: "Pṛithuvurājya"
+   empire_kannada: "Pṛitthvirājyam"
    
    title_prince_male_kannada: "[CHARACTER.Custom('PrinceKannada')]"
    title_prince_female_kannada: "[CHARACTER.Custom('PrincessKannada')]"

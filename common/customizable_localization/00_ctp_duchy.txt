@@ -2546,6 +2546,95 @@ DuchyOccitan = {
 		fallback = yes
 	}
 }
+DukeMaleOutremer = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_male_outremer
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_male_outremer
+	}
+	text = {
+		localization_key = duke_default_male_outremer
+		fallback = yes
+	}
+}
+DukeFemaleOutremer = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_outremer
+	}
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_palatinate_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_palatinate_contract
+					}
+				}
+			}
+		}
+		localization_key = palatine_female_outremer
+	}
+	text = {
+		localization_key = duke_default_female_outremer
+		fallback = yes
+	}
+}
+DuchyOutremer = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_occitan
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_palatinate_contract
+		}
+		localization_key = palatinate_occitan
+	}
+	text = {
+		localization_key = duchy_default_occitan
+		fallback = yes
+	}
+}
 DukeMaleBasque = {
 	type = character
 	text = {
