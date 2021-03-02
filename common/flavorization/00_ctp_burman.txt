@@ -191,12 +191,12 @@ baron_male_mon = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_mon = {
+barony_castle_mon = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { mon }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_mon = {
@@ -274,5 +274,13 @@ baron_republic_mon = {
 	priority = 103
 	cultures = { mon }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_city_mon = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { mon }
+	holding = city_holding
 	top_liege = no
 }

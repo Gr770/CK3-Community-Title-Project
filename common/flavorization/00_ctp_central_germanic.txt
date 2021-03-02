@@ -153,11 +153,11 @@ emperor_female_saxon = {
 	cultures = { saxon }
 	top_liege = no
 }
-barony_saxon = {
+barony_castle_saxon = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	cultures = { saxon }
 	top_liege = no
 }
@@ -293,11 +293,11 @@ baron_republic_female_saxon = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_saxon = {
+barony_city_saxon = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { saxon }
 	top_liege = no
 }
@@ -388,6 +388,14 @@ kingdom_republic_saxon = {
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
+	cultures = { saxon }
+	top_liege = no
+}
+barony_tribe_saxon = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { saxon }
 	top_liege = no
 }
@@ -538,11 +546,11 @@ emperor_female_middle_high_german = {
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
-barony_middle_high_german = {
+barony_castle_middle_high_german = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
@@ -678,11 +686,11 @@ baron_republic_female_middle_high_german = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_middle_high_german = {
+barony_city_middle_high_german = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
@@ -776,7 +784,14 @@ kingdom_republic_middle_high_german = {
 	cultures = { franconian swabian bavarian }
 	top_liege = no
 }
-
+barony_tribe_middle_high_german = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	cultures = { franconian swabian bavarian }
+	top_liege = no
+}
 ###############################################
 ## Frisian Culture (Old Dutch)
 
@@ -924,11 +939,11 @@ emperor_female_frisian = {
 	cultures = { frisian }
 	top_liege = no
 }
-barony_frisian = {
+barony_castle_frisian = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	cultures = { frisian }
 	top_liege = no
 }
@@ -1004,11 +1019,19 @@ baron_republic_female_frisian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_frisian = {
+barony_city_frisian = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
+	cultures = { frisian }
+	top_liege = no
+}
+barony_tribe_frisian = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { frisian }
 	top_liege = no
 }
@@ -1159,11 +1182,11 @@ emperor_female_dutch = {
 	cultures = { dutch }
 	top_liege = no
 }
-barony_dutch = {
+barony_castle_dutch = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	cultures = { dutch }
 	top_liege = no
 }
@@ -1297,11 +1320,11 @@ baron_republic_female_dutch = {
 	cultures = { dutch }
 	top_liege = no
 }
-barony_republic_dutch = {
+barony_city_dutch = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { dutch }
 	top_liege = no
 }
@@ -1386,6 +1409,14 @@ kingdom_republic_dutch = {
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
+	cultures = { dutch }
+	top_liege = no
+}
+barony_tribe_dutch = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { dutch }
 	top_liege = no
 }

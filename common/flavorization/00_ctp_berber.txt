@@ -27,12 +27,12 @@ baron_female_butr = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_butr = {
+barony_castle_butr = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { butr zaghawa }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_butr = {
@@ -218,12 +218,20 @@ baron_republic_butr = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_butr = {
+barony_city_butr = {
 	type = title
 	tier = barony
 	priority = 153
 	cultures = { butr zaghawa }
-	governments = { republic_government }
+	holding = city_holding
+	top_liege = no
+}
+barony_tribe_butr = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { butr zaghawa }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -249,12 +257,12 @@ baron_female_baranis = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_baranis = {
+barony_castle_baranis = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { baranis }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_baranis = {
@@ -430,11 +438,19 @@ baron_republic_baranis = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_baranis = {
+barony_city_baranis = {
 	type = title
 	tier = barony
 	priority = 153
 	cultures = { baranis }
-	governments = { republic_government }
+	holding = city_holding
+	top_liege = no
+}
+barony_tribe_baranis = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { baranis }
+	holding = tribal_holding
 	top_liege = no
 }
