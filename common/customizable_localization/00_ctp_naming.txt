@@ -1,0 +1,269 @@
+﻿NameCulture = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = culture:andalusian
+		}
+		localization_key = name_key_andalusian
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = name_key_arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = name_key_default
+	}
+}
+CTPFullName = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = Full_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = Full_Name_Default
+	}
+}
+TierCheck = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				highest_held_title_tier >= tier_barony
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						highest_held_title_tier >= tier_barony
+					}
+				}
+				AND = {
+					exists = father
+					root.father = {
+						highest_held_title_tier >= tier_kingdom
+					}
+				}
+				AND = {
+					exists = mother
+					root.mother = {
+						highest_held_title_tier >= tier_kingdom
+					}
+				}
+			}
+		}
+		localization_key = CTP_Tier
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			has_trait = sayyid
+			has_religion = religion:islam_religion
+		}
+		localization_key = sayyid_male
+	}
+	text = {
+		trigger = {
+			exists = father
+			father = {
+				has_trait = sayyid
+			}
+			has_religion = religion:islam_religion
+		}
+		localization_key = sayyid_female
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+TekCheck = {
+	type = character
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = yes
+			exists = primary_heir
+			OR = {
+				AND = {
+					has_realm_law = male_preference_law
+					root.primary_heir = {
+						mother = root
+						is_male = yes
+					}
+				}
+				AND = {
+					has_realm_law = female_preference_law
+					root.primary_heir = {
+						mother = root
+						is_male = no
+					}
+				}
+				NAND = {
+					has_realm_law = female_preference_law
+					has_realm_law = male_preference_law
+				}
+			}
+		}	
+		localization_key = CTP_Teknonym_Mommy_landed
+	}
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = primary_heir
+				OR = {
+					AND = {
+						has_realm_law = male_preference_law
+						primary_heir = {
+							mother = root
+							is_male = yes
+						}
+					}
+					AND = {
+						has_realm_law = female_preference_law
+						primary_heir = {
+							mother = root
+							is_male = no
+						}
+					}
+					NAND = {
+						has_realm_law = female_preference_law
+						has_realm_law = male_preference_law
+					}
+				}
+			}
+		}
+		localization_key = CTP_Teknonym_Mommy_unlanded
+	}
+	text = {
+		trigger = {
+			is_landed = yes
+			exists = primary_heir
+			OR = {
+				AND = {
+					has_realm_law = male_preference_law
+					root.primary_heir = {
+						father = root
+						is_male = yes
+					}
+				}
+				AND = {
+					has_realm_law = female_preference_law
+					root.primary_heir = {
+						father = root
+						is_male = no
+					}
+				}
+				NAND = {
+					has_realm_law = female_preference_law
+					has_realm_law = male_preference_law
+				}
+			}
+		}	
+		localization_key = CTP_Teknonym_Daddy_landed
+	}
+	text = {
+		trigger = {
+			is_male = no
+			is_landed = no
+			exists = primary_spouse
+			root.primary_spouse = {
+				exists = primary_heir
+				OR = {
+					AND = {
+						has_realm_law = male_preference_law
+						primary_heir = {
+							father = root
+							is_male = yes
+						}
+					}
+					AND = {
+						has_realm_law = female_preference_law
+						primary_heir = {
+							father = root
+							is_male = no
+						}
+					}
+					NAND = {
+						has_realm_law = female_preference_law
+						has_realm_law = male_preference_law
+					}
+				}
+			}
+		}
+		localization_key = CTP_Teknonym_Daddy_unlanded
+	}
+	text = {
+		trigger = {
+			is_adult = yes
+			NOT = {
+				exists = primary_heir
+			}
+		}
+		localization_key = CTP_Teknonym_no_child
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+PatCheck = {
+	type = character
+	text = {
+		trigger = {
+			exists = father
+			is_male = yes
+		}
+		localization_key = CTP_Patronym_Man_Daddy
+	}
+	text = {
+		trigger = {
+			exists = father
+			is_male = no
+		}
+		localization_key = CTP_Patronym_Woman_Daddy
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+HouseCheck = {
+	type = character
+	text = {
+		trigger = {
+			is_lowborn = no
+		}
+		localization_key = CTP_House
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+NickCheck = {
+	type = character
+	text = {
+		trigger = {
+			has_any_nickname = yes
+		}
+		localization_key = CTP_NickName
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}

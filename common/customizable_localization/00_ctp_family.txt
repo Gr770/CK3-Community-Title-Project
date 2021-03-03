@@ -118,20 +118,12 @@ PrincePictish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -148,20 +140,12 @@ PrincessPictish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -178,20 +162,12 @@ PrinceWelsh = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -208,20 +184,12 @@ PrincessWelsh = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -253,20 +221,12 @@ PrinceCornish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -283,20 +243,12 @@ PrincessCornish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -305,6 +257,38 @@ PrincessCornish = {
 	text = {
 		fallback = yes
 		localization_key =  prince_default_female_cornish
+	}
+}
+PrinceFrench = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				has_primary_title = title:d_dauphine
+			}
+		}
+		localization_key = dolphin_male_french
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_male_french
+	}
+}
+PrincessFrench = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				has_primary_title = title:d_dauphine
+			}
+		}
+		localization_key = dolphin_female_french
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_default_female_french
 	}
 }
 QueenMBasque = {
@@ -412,26 +396,194 @@ QueenMAragonese = {
 		localization_key =  king_default_female_aragonese
 	}
 }
+PrinceDNorse = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_d_male_north
+	}
+}
+PrincessDNorse = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_d_female_north
+	}
+}
+PrinceNor = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_male_nor
+	}
+}
+PrincessENor = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_e_female_nor
+	}
+}
+PrincessKNor = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_k_female_nor
+	}
+}
+PrinceSweDan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_male
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_male_swe_dan
+	}
+}
+PrincessESweDan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_e_female_swe_dan
+	}
+}
+PrincessKSweDan = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
+				}
+			}
+		}
+		localization_key = norse_heir_female
+	}
+	text = {
+		fallback = yes
+		localization_key =  prince_k_female_swe_dan
+	}
+}
 PrinceFinnish = {
 	type = character
 	text = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -448,20 +600,12 @@ PrincessFinnish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -478,20 +622,12 @@ PrinceEFinnish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -508,20 +644,12 @@ PrincessEFinnish = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -538,20 +666,12 @@ PrinceEstonian = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -568,20 +688,12 @@ PrincessEstonian = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -658,20 +770,12 @@ PrinceArabic = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -688,20 +792,12 @@ PrincessArabic = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -790,20 +886,12 @@ PrinceBArmenian = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -820,20 +908,12 @@ PrincessBArmenian = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -865,20 +945,12 @@ PrinceGreek = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -895,20 +967,12 @@ PrincessGreek = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -925,20 +989,12 @@ PrinceBGreek = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -955,20 +1011,12 @@ PrincessBGreek = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -1472,10 +1520,14 @@ PrinceLithuanian = {
   type = character
 	text = {
 		trigger = {
-			any_parent = {
-				is_independent_ruler = yes
-				faith = {
-					has_doctrine = tenet_struggle_submission
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -1490,10 +1542,14 @@ PrincessLithuanian = {
   type = character
 	text = {
 		trigger = {
-			any_parent = {
-				is_independent_ruler = yes
-				faith = {
-					has_doctrine = tenet_struggle_submission
+			OR = {
+				AND = {
+					exists = father.primary_heir
+					root.father.primary_heir = root
+				}
+				AND = {
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -1510,20 +1566,12 @@ PrincePrussian = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}
@@ -1578,7 +1626,19 @@ QueenMRussian = {
 				has_doctrine = tenet_struggle_submission
 			}
 		}
-    localization_key = sultan_qm_russian
+		localization_key = sultan_qm_russian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_faith = faith:catholic
+				has_faith = faith:cathar
+				has_faith = faith:waldensian
+				has_faith = faith:lollard
+				has_faith = faith:insular_celtic
+			}
+		}
+		localization_key = karl_qm_rus
 	}
 	text = {
 		fallback = yes
@@ -1591,20 +1651,12 @@ PrinceBurman = {
 		trigger = {
 			OR = {
 				AND = {
-					exists = father
-					root.father = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = father.primary_heir
+					root.father.primary_heir = root
 				}
 				AND = {
-					exists = mother
-					root.mother = {
-						primary_heir = {
-							this = root
-						}
-					}
+					exists = mother.primary_heir
+					root.mother.primary_heir = root
 				}
 			}
 		}

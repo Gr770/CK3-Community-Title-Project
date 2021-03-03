@@ -1084,6 +1084,50 @@ CountMaleFrench = {
 		localization_key = duke_male_french_independent
 	}
 	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:c_viennois
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_male_french
+	}
+	text = {
 		localization_key = count_default_male_french
 		fallback = yes
 	}
@@ -1196,6 +1240,50 @@ CountFemaleFrench = {
 			}
 		}
 		localization_key = duke_female_french_independent
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_primary_title = title:c_viennois
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_primary_title = title:c_viennois
+					}
+				}
+			}
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.father
+					primary_spouse.father = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+				AND = {
+					exists = primary_spouse.mother
+					primary_spouse.mother = {
+						highest_held_title_tier >= tier_kingdom
+						primary_heir = root
+					}
+				}
+			}
+		}
+		localization_key = dolphin_female_french
 	}
 	text = {
 		localization_key = count_default_female_french
@@ -3390,6 +3478,26 @@ CountyAragonese = {
 		fallback = yes
 	}
 }
+CountyNorth = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_north_germanic_group
+	}
+	text = {
+		localization_key = county_default_north_germanic_group
+		fallback = yes
+	}
+}
 CountMaleNorse = {
 	type = character
 	text = {
@@ -3450,26 +3558,6 @@ CountFemaleNorse = {
 		fallback = yes
 	}
 }
-CountyNorse = {
-	type = character
-	text = {
-		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
-				}
-			}
-		}
-		localization_key = duchy_north_germanic_group
-	}
-	text = {
-		localization_key = county_default_norse_norwegian
-		fallback = yes
-	}
-}
 CountMaleSwedish = {
 	type = character
 	text = {
@@ -3527,46 +3615,6 @@ CountFemaleSwedish = {
 	}
 	text = {
 		localization_key = count_default_female_swedish_danish
-		fallback = yes
-	}
-}
-CountySwedish = {
-	type = character
-	text = {
-		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
-				}
-			}
-		}
-		localization_key = duchy_north_germanic_group
-	}
-	text = {
-		localization_key = county_default_swedish
-		fallback = yes
-	}
-}
-CountyDanish = {
-	type = character
-	text = {
-		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
-				}
-			}
-		}
-		localization_key = duchy_north_germanic_group
-	}
-	text = {
-		localization_key = county_default_danish
 		fallback = yes
 	}
 }

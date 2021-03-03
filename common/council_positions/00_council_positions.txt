@@ -210,6 +210,342 @@ councillor_court_chaplain = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
+					scope:councillor_liege.faith = faith:catholic
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture_group = culture_group:goidelic_group
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_male_theo_cath_goidelic
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:english
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_cath_english
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:english
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_cath_english
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:anglo_saxon
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_male_theo_cath_anglo_saxon
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:anglo_saxon
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_male_theo_cath_anglo_saxon
+						}
+						triggered_desc = {
+							trigger = {
+								is_male = yes
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:old_saxon
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_old_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:old_saxon
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_old_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:welsh
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_male_theo_cath_welsh
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:cornish
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_male_theo_cath_cornish
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:cumbrian
+												scope:councillor_liege.culture = culture:pictish
+											}
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_male_theo_cath_cumbrian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = baron_male_theo_cath
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = count_default_male_cath
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = duke_default_male_cath
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = king_male_theo_cath
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = emperor_male_theo_cath
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:old_saxon
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_female_cath_old_saxon
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:old_saxon
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_female_cath_old_saxon
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:welsh
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_female_theo_cath_welsh
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:cornish
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_female_theo_cath_cornish
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									scope:councillor_liege.culture = culture:cumbrian
+									scope:councillor_liege.culture = culture:pictish
+								}
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_female_theo_cath_cumbrian
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:french
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = baron_female_theo_cath_french
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:french
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_female_cath_french
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:french
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_female_cath_french
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:norman
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = baron_female_theo_cath_norman
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:norman
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_female_cath_norman
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:norman
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_female_cath_norman
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:occitan
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = baron_female_theo_cath_occitan
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:occitan
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_female_cath_occitan
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.culture = culture:occitan
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_female_cath_occitan
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = baron_female_theo_cath
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = count_default_female_cath
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = duke_default_female_cath
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+							}
+							desc = king_female_theo_cath
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+							}
+							desc = emperor_female_theo_cath
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
 					scope:councillor_liege.faith = { has_doctrine = doctrine_theocracy_temporal }
 				}
 				desc = actual_bishop_title
