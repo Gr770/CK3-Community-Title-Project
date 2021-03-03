@@ -353,6 +353,14 @@ baron_male_guan = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+barony_castle_akan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { akan }
+	holding = castle_holding
+	top_liege = no
+}
 count_male_guan = {
 	type = character
 	gender = male
@@ -369,6 +377,24 @@ count_female_guan = {
 	special = holder
 	tier = county
 	priority = 113
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_guan = {
+	type = title
+	tier = county
+	priority = 113
+	cultures = { guan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_guan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
 	cultures = { guan }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -499,5 +525,13 @@ empress_mother_guan = {
 	priority = 150
 	cultures = { guan }
 	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_tribe_akan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { akan }
+	holding = tribal_holding
 	top_liege = no
 }

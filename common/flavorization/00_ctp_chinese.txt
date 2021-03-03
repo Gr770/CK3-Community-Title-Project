@@ -394,6 +394,26 @@ empress_mother_han = {
 	cultures = { han }
 	top_liege = no
 }
+king_father_han = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { han }
+	top_liege = no
+}
+emperor_father_han = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = empire
+	priority = 150
+	governments = { republic_government feudal_government clan_government tribal_government }
+	cultures = { han }
+	top_liege = no
+}
 baron_republic_han = {
 	type = character
 	special = holder

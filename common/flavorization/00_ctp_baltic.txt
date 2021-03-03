@@ -275,6 +275,42 @@ county_tribal_latgalian = {
 	governments = { tribal_government }
 	top_liege = no
 }
+barony_tribal_latgalian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_male_latgalian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_latgalian = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
+county_tribal_latgalian = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { latgalian }
+	governments = { tribal_government }
+	top_liege = no
+}
 ###############################################
 #Lithuanian
 
@@ -514,6 +550,14 @@ barony_tribe_lithuanian = {
 	priority = 103
 	cultures = { lithuanian }
 	holding = tribal_holding
+	top_liege = no
+}
+barony_tribal_lithuanian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { lithuanian }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_tribal_male_lithuanian = {
@@ -845,6 +889,14 @@ barony_tribe_prussian = {
 	priority = 103
 	cultures = { prussian }
 	holding = tribal_holding
+	top_liege = no
+}
+barony_tribal_prussian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { prussian }
+	governments = { tribal_government }
 	top_liege = no
 }
 count_tribal_male_prussian = {
