@@ -2,6 +2,15 @@
 	type = character
 	text = {
 		trigger = {
+			is_independent_ruler = no
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_male_goidelic
+	}
+	text = {
+		trigger = {
 			any_parent = {
 				is_independent_ruler = yes
 				faith = {
@@ -18,6 +27,15 @@
 }
 PrincessGoidelic = {
 	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = no
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_female_goidelic
+	}
 	text = {
 		trigger = {
 			any_parent = {
