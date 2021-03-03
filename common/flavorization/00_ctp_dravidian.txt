@@ -238,11 +238,11 @@ empress_mother_tamil = {
 	cultures = { tamil }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-barony_tamil = {
+barony_castle_tamil = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government}
+	holding = castle_holding
 	cultures = { tamil }
 	top_liege = no
 }
@@ -357,11 +357,11 @@ king_republic_tamil = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_tamil = {
+barony_city_tamil = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { tamil }
 	top_liege = no
 }
@@ -386,6 +386,14 @@ kingdom_republic_tamil = {
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
+	cultures = { tamil }
+	top_liege = no
+}
+barony_tribe_tamil = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { tamil }
 	top_liege = no
 }
@@ -620,11 +628,11 @@ empress_mother_telugu = {
 	cultures = { telugu }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-barony_telugu = {
+barony_castle_telugu = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government}
+	holding = castle_holding
 	cultures = { telugu }
 	top_liege = no
 }
@@ -721,11 +729,11 @@ king_republic_telugu = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_telugu = {
+barony_city_telugu = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { telugu }
 	top_liege = no
 }
@@ -750,6 +758,14 @@ kingdom_republic_telugu = {
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
+	cultures = { telugu }
+	top_liege = no
+}
+barony_tribe_telugu = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { telugu }
 	top_liege = no
 }
@@ -984,11 +1000,11 @@ empress_mother_kannada = {
 	cultures = { kannada }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
-barony_kannada = {
+barony_castle_kannada = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { feudal_government clan_government tribal_government}
+	holding = castle_holding
 	cultures = { kannada }
 	top_liege = no
 }
@@ -1085,11 +1101,11 @@ king_republic_kannada = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_kannada = {
+barony_city_kannada = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { kannada }
 	top_liege = no
 }
@@ -1114,6 +1130,14 @@ kingdom_republic_kannada = {
 	tier = kingdom
 	priority = 143
 	governments = { republic_government }
+	cultures = { kannada }
+	top_liege = no
+}
+barony_tribe_kannada = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
 	cultures = { kannada }
 	top_liege = no
 }

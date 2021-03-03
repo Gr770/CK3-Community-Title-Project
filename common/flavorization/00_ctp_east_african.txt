@@ -43,12 +43,12 @@ baron_female_holder_ethiopian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_ethiopian = {
+barony_castle_ethiopian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { ethiopian }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_ethiopian = {
@@ -297,12 +297,12 @@ baron_republic_ethiopian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_ethiopian = {
+barony_city_ethiopian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { ethiopian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 duchy_tribal_ethiopian = {
@@ -311,6 +311,14 @@ duchy_tribal_ethiopian = {
 	priority = 123
 	cultures = { ethiopian }
 	governments = { tribal_government }
+	top_liege = no
+}
+barony_tribe_ethiopian = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { ethiopian }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################
@@ -336,6 +344,17 @@ baron_female_nubian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+baron_male_holder_nubian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { nubian }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_holder_nubian = {
 	type = character
 	gender = female
@@ -347,12 +366,12 @@ baron_female_holder_nubian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_feudalclan_nubian = {
+barony_castle_nubian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_feudalclan_male_nubian = {
@@ -365,7 +384,7 @@ count_feudalclan_male_nubian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-count_female_nubian = {
+count_feudalclan_female_nubian = {
 	type = character
 	gender = female
 	special = holder
@@ -374,6 +393,17 @@ count_female_nubian = {
 	cultures = { nubian }
 	governments = { feudal_government clan_government }
 	top_liege = no
+}
+count_feudalclan_male_holder_nubian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
 }
 count_feudalclan_female_holder_nubian = {
 	type = character
@@ -404,7 +434,7 @@ duke_feudalclan_male_nubian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
-duke_female_nubian = {
+duke_feudalclan_female_nubian = {
 	type = character
 	gender = female
 	special = holder
@@ -413,6 +443,17 @@ duke_female_nubian = {
 	cultures = { nubian }
 	governments = { feudal_government clan_government }
 	top_liege = no
+}
+duke_feudalclan_male_holder_nubian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
 }
 duke_feudalclan_female_holder_nubian = {
 	type = character
@@ -636,20 +677,20 @@ baron_female_republic_nubian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_nubian = {
+barony_city_nubian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
-barony_tribal_nubian = {
+barony_tribe_nubian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { nubian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_tribal_nubian = {
@@ -878,12 +919,12 @@ baron_female_daju = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_daju = {
+barony_castle_daju = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { daju }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_daju = {
@@ -1080,11 +1121,29 @@ empress_mother_daju = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-barony_republic_daju = {
-	type = title
+baron_republic_daju = {
+	type = character
+	special = holder
 	tier = barony
 	priority = 103
 	cultures = { daju }
 	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_daju = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	holding = city_holding
+	top_liege = no
+}
+barony_tribe_daju = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { daju }
+	holding = tribal_holding
 	top_liege = no
 }
