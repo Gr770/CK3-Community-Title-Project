@@ -2,6 +2,15 @@
 	type = character
 	text = {
 		trigger = {
+			is_independent_ruler = no
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_male_goidelic
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -21,6 +30,15 @@
 }
 DukeFemaleIrish = {
 	type = character
+	text = {
+		trigger = {
+			is_independent_ruler = no
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_female_goidelic
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -57,6 +75,14 @@ DukeMaleGaelic = {
 	type = character
 	text = {
 		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_male_goidelic
+	}
+	text = {
+		trigger = {
 			OR = {
 				vassal_contract_has_flag = has_march_contract
 				AND = {
@@ -76,6 +102,14 @@ DukeMaleGaelic = {
 }
 DukeFemaleGaelic = {
 	type = character
+	text = {
+		trigger = {
+			any_heir_title = {
+				has_title_law = gaelic_elective_succession_law
+			}
+		}
+		localization_key = tanist_female_goidelic
+	}
 	text = {
 		trigger = {
 			OR = {
@@ -4667,6 +4701,7 @@ DukeMaleNorth = {
 	type = character
 	text = {
 		trigger = {
+			exists = liege
 			root.liege = {
 				any_heir = {
 					this = root
