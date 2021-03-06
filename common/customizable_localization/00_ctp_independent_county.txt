@@ -76,26 +76,8 @@ NorthGermanicIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
-			}
 		}
-		localization_key = county_default_norse_norwegian
-	}
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_duchy
-			has_culture = culture:swedish
-		}
-		localization_key = county_default_swedish
-	}
-	text = {
-		trigger = {
-			highest_held_title_tier >= tier_duchy
-			has_culture = culture:danish
-		}
-		localization_key = county_default_danish
+		localization_key = county_default_north_germanic_group
 	}
 	text = {
 		fallback = yes
