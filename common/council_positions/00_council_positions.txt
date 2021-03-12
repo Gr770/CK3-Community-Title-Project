@@ -221,7 +221,7 @@ councillor_court_chaplain = {
 					first_valid = {
 						triggered_desc = {
 							trigger = {
-								councillor_liege = {
+								scope:councillor_liege = {
 									highest_held_title_tier = tier_barony
 									has_government = theocracy_government
 								}
@@ -329,9 +329,9 @@ councillor_court_chaplain = {
 												}
 												triggered_desc = {
 													trigger = {
-														scope:councillor_liege.culture = culture:pomeranian
+														scope:councillor_liege.culture = culture:pommeranian
 													}
-													desc = barons_cc_female_cath_pomeranian
+													desc = barons_cc_female_cath_pommeranian
 												}
 												triggered_desc = {
 													trigger = {
@@ -408,9 +408,9 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture = culture:pomeranian
+											scope:councillor_liege.culture = culture:pommeranian
 										}
-										desc = barons_cc_male_cath_pomeranian
+										desc = barons_cc_male_cath_pommeranian
 									}
 									triggered_desc = {
 										trigger = {
@@ -440,7 +440,7 @@ councillor_court_chaplain = {
 										}
 									}
 									AND = {
-										councillor_liege = {
+										scope:councillor_liege = {
 											highest_held_title_tier = tier_county
 											has_government = theocracy_government
 										}
@@ -556,9 +556,9 @@ councillor_court_chaplain = {
 												}
 												triggered_desc = {
 													trigger = {
-														scope:councillor_liege.culture = culture:pomeranian
+														scope:councillor_liege.culture = culture:pommeranian
 													}
-													desc = baron_female_theo_cath_pomeranian
+													desc = baron_female_theo_cath_pommeranian
 												}
 												triggered_desc = {
 													trigger = {
@@ -641,9 +641,9 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture = culture:pomeranian
+											scope:councillor_liege.culture = culture:pommeranian
 										}
-										desc = baron_male_theo_cath_pomeranian
+										desc = baron_male_theo_cath_pommeranian
 									}
 									triggered_desc = {
 										trigger = {
@@ -673,7 +673,7 @@ councillor_court_chaplain = {
 										}
 									}
 									AND = {
-										councillor_liege = {
+										scope:councillor_liege = {
 											highest_held_title_tier = tier_duchy
 											has_government = theocracy_government
 										}
@@ -834,9 +834,9 @@ councillor_court_chaplain = {
 												}
 												triggered_desc = {
 													trigger = {
-														scope:councillor_liege.culture = culture:pomeranian
+														scope:councillor_liege.culture = culture:pommeranian
 													}
-													desc = count_female_theo_cath_pomeranian
+													desc = count_female_theo_cath_pommeranian
 												}
 												triggered_desc = {
 													trigger = {
@@ -964,9 +964,9 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture = culture:pomeranian
+											scope:councillor_liege.culture = culture:pommeranian
 										}
-										desc = count_male_theo_cath_pomeranian
+										desc = count_male_theo_cath_pommeranian
 									}
 									triggered_desc = {
 										trigger = {
@@ -996,7 +996,7 @@ councillor_court_chaplain = {
 										}
 									}
 									AND = {
-										councillor_liege = {
+										scope:councillor_liege = {
 											highest_held_title_tier = tier_kingdom
 											has_government = theocracy_government
 										}
@@ -1127,9 +1127,9 @@ councillor_court_chaplain = {
 												}
 												triggered_desc = {
 													trigger = {
-														scope:councillor_liege.culture = culture:pomeranian
+														scope:councillor_liege.culture = culture:pommeranian
 													}
-													desc = duke_female_theo_cath_pomeranian
+													desc = duke_female_theo_cath_pommeranian
 												}
 												triggered_desc = {
 													trigger = {
@@ -1224,9 +1224,9 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture = culture:pomeranian
+											scope:councillor_liege.culture = culture:pommeranian
 										}
-										desc = duke_male_theo_cath_pomeranian
+										desc = duke_male_theo_cath_pommeranian
 									}
 									triggered_desc = {
 										trigger = {
