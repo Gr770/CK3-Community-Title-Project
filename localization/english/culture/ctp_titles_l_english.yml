@@ -3,7 +3,8 @@
 ########################################################### 
  #Goidelic Culture Group
 ########################################################### 
-  barony_goidelic_group: "Túath"
+  barony_castle_goidelic_group: "Túath"
+  barony_tribe_goidelic_group: "Túath"
 
   king_male_goidelic_group: "[CHARACTER.Custom('KingMaleGoidelic')]"
   king_female_goidelic_group: "[CHARACTER.Custom('KingFemaleGoidelic')]"
@@ -32,7 +33,7 @@
 
   baron_republic_male_goidelic_group: "Báille"
   baron_republic_female_goidelic_group: "Banbáille"
-  barony_republic_goidelic_group: "Cathair"
+  barony_city_goidelic_group: "Cathair"
   count_republic_male_goidelic_group: "Ardbháille"
   count_republic_female_goidelic_group: "Ardbhanbáille"
   county_republic_goidelic_group: "Ardchathair"
@@ -114,7 +115,7 @@
 ###########################################################
    baron_male_english: "Baroun"
    baron_female_english: "Barounesse"
-   barony_english: "Barone"
+   barony_castle_english: "Barone"
  
    count_male_english: "[CHARACTER.Custom('CountMaleEnglish')]"
    count_female_english: "[CHARACTER.Custom('CountFemaleEnglish')]"
@@ -169,7 +170,7 @@
    
    baron_republic_male_english: "Maire"
    baron_republic_female_english: "Mairesse"
-   barony_republic_english: "Cite"
+   barony_city_english: "Cite"
    count_republic_male_english: "Shirreve"
    count_republic_female_english: "Shirreve"
    county_republic_english: "Shire"
@@ -179,12 +180,14 @@
    king_republic_male_english: "Consuler"
    king_republic_female_english: "Consuleresse"
    kingdom_republic_english: "Graunt Commounwelthe"
+   
+   barony_tribe_english: "$barony_castle_english$"
 ###########################################################
   #Anglo-Saxon 
 ###########################################################
    baron_male_anglo_saxon: "Þegen"
    baron_female_anglo_saxon: "Frówe"
-   barony_feudalclan_anglo_saxon: "Hundred"
+   barony_castle_anglo_saxon: "Hundred"
  
    count_feudalclan_male_anglo_saxon: "Ealdormann"
    count_feudalclan_female_anglo_saxon: "Hlǽfdíge"
@@ -237,7 +240,7 @@
    
    baron_republic_male_anglo_saxon: "Geréfa"
    baron_republic_female_anglo_saxon: "Geréfen"
-   barony_republic_anglo_saxon: "Tún"
+   barony_city_anglo_saxon: "Tún"
    count_republic_male_anglo_saxon: "Scírgeréfa"
    count_republic_female_anglo_saxon: "Scírgeréfen"
    county_republic_anglo_saxon: "Gemǽnescír"
@@ -248,7 +251,7 @@
    king_republic_female_anglo_saxon: "Ánwealden"
    kingdom_republic_anglo_saxon: "Mycel Gemǽnewela"
     
-   barony_tribal_anglo_saxon: "Hundred"
+   barony_tribe_anglo_saxon: "Hundred"
    count_tribal_male_anglo_saxon: "Brego"
    count_tribal_female_anglo_saxon: "Bregen"
    county_tribal_anglo_saxon: "Bregadóm"
@@ -260,7 +263,7 @@
 ###########################################################
    baron_male_old_saxon: "Hêrro"
    baron_female_old_saxon: "Frûa"
-   barony_old_saxon: "Hêrskepi"
+   barony_castle_old_saxon: "Hêrskepi"
  
    count_male_old_saxon: "Grâvio"
    count_female_old_saxon: "Grâvin"
@@ -299,18 +302,20 @@
  
    baron_republic_male_old_saxon: "Skuldhêtio"
    baron_republic_female_old_saxon: "Skuldhêtio"
-   barony_republic_old_saxon: "Burg"
+   barony_city_old_saxon: "Burg"
    count_republic_male_old_saxon: "Burggrâvio"
    count_republic_female_old_saxon: "Burggrâvin"
    county_republic_old_saxon: "Frîe Burg"
    duchy_republic_old_saxon: "Burgginôtskepi"
    kingdom_republic_old_saxon: "Êthginôtskepi"
+   
+   barony_tribe_old_saxon: "$barony_castle_old_saxon$"
 ###########################################################
   #Scottish 
 ###########################################################
    baron_male_scottish: "Þein"
    baron_female_scottish: "Lady"
-   barony_scottish: "Þeindom"
+   barony_castle_scottish: "Þeindom"
  
    count_male_scottish: "[CHARACTER.Custom('CountMaleScottish')]"
    count_female_scottish: "[CHARACTER.Custom('CountFemaleScottish')]"
@@ -356,7 +361,7 @@
    
    baron_republic_male_scottish: "Provost"
    baron_republic_female_scottish: "Provost"
-   barony_republic_scottish: "Burgh"
+   barony_city_scottish: "Burgh"
    count_republic_male_scottish: "Lord Provost"
    count_republic_female_scottish: "Ledie Provost"
    county_republic_scottish: "Schire"
@@ -366,6 +371,8 @@
    kingdom_republic_male_scottish: "Consule"
    kingdom_republic_female_scottish: "Consulesse"
    kingdom_republic_scottish: "Graunt Comenwele"
+   
+   barony_tribe_scottish: "$barony_castle_scottish$"
 ########################################################
  #Brythonic Culture Group 
 ########################################################
@@ -782,7 +789,7 @@
 ########################################################
    baron_male_norman: "Viscuens"
    baron_female_norman: "Viscontesse"
-   barony_norman: "Viscuntez"
+   barony_castle_norman: "Viscuntez"
  
    count_male_norman: "[CHARACTER.Custom('CountMaleNorman')]"
    count_female_norman: "[CHARACTER.Custom('CountFemaleNorman')]"
@@ -825,19 +832,21 @@
  
    baron_republic_male_norman: "Maire"
    baron_republic_female_norman: "Mairesse"
-   barony_republic_norman: "Vile"
+   barony_city_norman: "Vile"
    count_republic_norman: "Prevoz"
    county_republic_norman: "Comune"
    duke_republic_norman: "Baillis"
    duchy_republic_norman: "Balliage"
    king_republic_norman: "Consul"
    kingdom_republic_norman: "Republique"
+   
+   barony_tribe_norman: "$barony_castle_norman$"
 ########################################################
   #Occitan
 ########################################################
    baron_male_occitan: "Vescoms"
    baron_female_occitan: "Vescomtessa"
-   barony_occitan: "Vescomtatz"
+   barony_castle_occitan: "Vescomtatz"
  
    count_male_occitan: "[CHARACTER.Custom('CountMaleOccitan')]"
    count_female_occitan: "[CHARACTER.Custom('CountFemaleOccitan')]"
@@ -885,7 +894,7 @@
    empress_mother_occitan: "Emperairitz Maire"
  
    baron_republic_occitan: "Consol"
-   barony_republic_occitan: "Ciutat"
+   barony_city_occitan: "Ciutat"
    count_republic_occitan: "Capitol"
    county_republic_occitan: "Capitoli"
    duke_republic_male_occitan: "Jurat"
@@ -893,6 +902,8 @@
    duchy_republic_occitan: "Counselh"
    king_republic_occitan: "Consistorial"
    kingdom_republic_occitan: "Counselh Generau"
+   
+   barony_tribe_occitan: "$barony_castle_occitan$"
 ########################################################
   #Outremer
 ########################################################
@@ -1469,7 +1480,8 @@
 ########################################################
  #North Germanic Culture Group
 ########################################################
-  barony_north_germanic_group: "Hęrað"
+  barony_castle_north_germanic_group: "Hęrað"
+  barony_tribe_north_germanic_group: "$barony_castle_north_germanic_group$"
   
   county_north_germanic_group: "[CHARACTER.Custom('CountyNorth')]"
   county_default_north_germanic_group: "Fylki"
@@ -1533,7 +1545,7 @@
    prince_k_female_nor: "Konungsdóttir"
    prince_e_female_nor: "Kęisaradóttir"
    
-   barony_republic_norse_norwegian: "Kaupstaðr"
+   barony_city_norse_norwegian: "Kaupstaðr"
 ########################################################
   #Swedish and Danish
 ########################################################
@@ -1563,7 +1575,7 @@
    prince_k_female_swe_dan: "Kunungsdóttir"
    prince_e_female_swe_dan: "Késaradóttir"
    
-   barony_republic_swedish_danish: "Kǿpstaðr"
+   barony_city_swedish_danish: "Kǿpstaðr"
 ########################################################
  #Balto-Finnic Culture Group
 ########################################################
@@ -3573,7 +3585,7 @@
 ######################################################
    baron_male_pommeranian: "Gardnik"
    baron_female_pommeranian: "Gardninô"
-   barony_feudalclan_pommeranian: "Gardzëszcze "
+   barony_castle_pommeranian: "Gardzëszcze"
    
    count_male_pommeranian: "Żupan"
    count_female_pommeranian: "Żupani"
@@ -3621,20 +3633,20 @@
    
    baron_republic_male_pommeranian: "Stôrosta"
    baron_republic_female_pommeranian: "Stôroscëna"
-   barony_republic_pommeranian: "Gard"
+   barony_city_pommeranian: "Gard"
    count_republic_male_pommeranian: "Bùrméster"
    count_republic_female_pommeranian: "Bùrmésterka"
    county_republic_pommeranian: "Miasto"
    duchy_republic_pommeranian: "Zemia"
    kingdom_republic_pommeranian: "Repùblika"
    
-   barony_tribal_pommeranian: "Òpòlé"
+   barony_tribe_pommeranian: "Òpòlé"
 ######################################################
   #Czech
 ######################################################
    baron_male_czech: "Hpán"
    baron_female_czech: "Hpaní"
-   barony_feudalclan_czech: "Hradišče"
+   barony_castle_czech: "Hradišče"
    
    count_male_czech: "[CHARACTER.Custom('CountMaleCzech')]"
    count_female_czech: "[CHARACTER.Custom('CountFemaleCzech')]"
@@ -3690,17 +3702,17 @@
    empress_mother_czech: "$emperor_female_czech$"
    
    baron_republic_czech: "Starosta"
-   barony_republic_czech: "Město"
+   barony_city_czech: "Město"
    count_republic_czech: "Purkmistr"
    county_republic_czech: "Veliké Město"
    
-   barony_tribal_czech: "Opolé"
+   barony_tribe_czech: "Opolé"
 ######################################################
   #Polish
 ######################################################
    baron_male_polish: "Pan"
    baron_female_polish: "Pani"
-   barony_feudalclan_polish: "Grodyszcze"
+   barony_castle_polish: "Grodyszcze"
    
    count_male_polish: "[CHARACTER.Custom('CountMalePolish')]"
    count_female_polish: "[CHARACTER.Custom('CountFemalePolish')]"
@@ -3756,20 +3768,20 @@
    
    baron_male_republic_polish: "Starosta"
    baron_female_republic_polish: "Starościna"
-   barony_republic_polish: "Miasto"
+   barony_city_polish: "Miasto"
    count_male_republic_polish: "Burmistrz"
    count_female_republic_polish: "Burmistrzyni"
    county_republic_polish: "Powiat"
    duchy_republic_polish: "Ziemia"
    kingdom_republic_polish: "Rzeczpospolita"
    
-   barony_tribal_polish: "Opole"
+   barony_tribe_polish: "Opole"
 ######################################################
   #Polabian
 ######################################################
    baron_male_polabian: "Gordnĕk"
    baron_female_polabian: "Gordnaină"
-   barony_feudalclan_polabian: "Gordaistĕ"
+   barony_castle_polabian: "Gordaistĕ"
    
    count_male_polabian: "Zaupon"
    count_female_polabian: "Zauponkă"
@@ -3813,7 +3825,7 @@
    
    baron_male_republic_polabian: "Storüstă"
    baron_female_republic_polabian: "Storüstaină"
-   barony_republic_polabian: "Gord"
+   barony_city_polabian: "Gord"
    count_male_republic_polabian: "Nawoisnĕ Rodnĕk"
    count_female_republic_polabian: "Nawoisnă Rodnaićă"
    county_republic_polabian: "Waikă"
@@ -3824,13 +3836,13 @@
    king_female_republic_polabian: "Ťėnąză Storüstaină"
    kingdom_republic_polabian: "Ťėnąză Waikă"
    
-   barony_tribal_polabian: "Vĕpüli"
+   barony_tribe_polabian: "Vĕpüli"
 ######################################################
   #Slovien
 ######################################################
    baron_male_slovien: "Pán"
    baron_female_slovien: "Pani"
-   barony_feudalclan_slovien: "Panstvo"
+   barony_castle_slovien: "Panstvo"
    
    count_male_slovien: "[CHARACTER.Custom('CountMaleSlovien')]"
    count_female_slovien: "[CHARACTER.Custom('CountFemaleSlovien')]"
@@ -3874,10 +3886,10 @@
    empress_mother_slovien: "$emperor_female_slovien$"
    
    baron_republic_slovien: "Starosta"
-   barony_republic_slovien: "Mesto"
+   barony_city_slovien: "Mesto"
    county_republic_slovien: "Veľké Mesto"
    
-   barony_tribal_slovien: "Opole"
+   barony_tribe_slovien: "Opole"
 ######################################################
  #Magyar Culture Group
 ######################################################
@@ -3885,7 +3897,7 @@
 ######################################################
    baron_male_mogyer: "[CHARACTER.Custom('BaronMaleMogyer')]"
    baron_female_mogyer: "[CHARACTER.Custom('BaronFemaleMogyer')]"
-   barony_feudalclan_mogyer: "Birtuc"
+   barony_castle_mogyer: "Birtuc"
    curadore_mogyer: "Curator"
    baron_male_mogyer_default: "Uru"
    baron_female_mogyer_default: "Uruneu"
@@ -3958,7 +3970,7 @@
    
    baron_republic_male_mogyer: "[CHARACTER.Custom('BaronMaleMogyerRepublic')]"
    baron_republic_female_mogyer: "[CHARACTER.Custom('BaronFemaleMogyerRepublic')]"
-   barony_republic_mogyer: "Várus"
+   barony_city_mogyer: "Várus"
    perfecto_male_mogyer: "Prefectus"
    perfecto_female_mogyer: "Prefecta"
    baron_default_republic_male_mogyer: "Birou"
@@ -3978,7 +3990,7 @@
    king_republic_female_mogyer: "Eleululnucachzin"
    kingdom_republic_mogyer: "Nag-Cuzutarsasag"
    
-   barony_tribal_mogyer: "$county_tribal_mogyer$"
+   barony_tribe_mogyer: "$county_tribal_mogyer$"
    count_tribal_male_mogyer: "Turzfeu"
    count_tribal_female_mogyer: "Turzfunukachzin"
    county_tribal_mogyer: "Kisturz"
@@ -3991,7 +4003,7 @@
    baron_male_hungarian: "[CHARACTER.Custom('BaronMaleHung')]"
    baron_female_hungarian: "[CHARACTER.Custom('BaronFemaleHung')]"
    baron_female_holder_hungarian: "[CHARACTER.Custom('BaronFemaleHolderHung')]"
-   barony_feudalclan_hungarian: "Birtok"
+   barony_castle_hungarian: "Birtok"
    curadore_hung: "Kurátor"
    baron_male_hung_default: "Báró"
    baron_female_hung_default: "Báróné"
@@ -4076,7 +4088,7 @@
    
    baron_republic_male_hungarian: "[CHARACTER.Custom('BaronMaleHungRepublic')]"
    baron_republic_female_hungarian: "[CHARACTER.Custom('KingdomHung')]"
-   barony_republic_hungarian: "Város"
+   barony_city_hungarian: "Város"
    perfecto_male_hung: "Prefektus"
    perfecto_female_hung: "Prefekta"
    baron_default_republic_male_hung: "Polgármester"
@@ -4099,7 +4111,7 @@
    king_republic_female_hungarian: "Elnökasszony"
    kingdom_republic_hungarian: "Nagy-Köztársaság"
 
-   barony_tribal_hungarian: "$county_tribal_hungarian$"
+   barony_tribe_hungarian: "$county_tribal_hungarian$"
    count_tribal_male_hungarian: "Törzsfőnök"
    count_tribal_female_hungarian: "Törzsfőnökasszony"
    county_tribal_hungarian: "Altörzs"
@@ -4685,7 +4697,9 @@
   #Burmese
 ######################################################
    baron_male_burmese: "Mruiw Sūkrī"
-   barony_burmese: "Mruiw"
+   barony_castle_burmese: "Mruiw"
+   barony_tribe_burmese: "Mruiw"
+   barony_city_burmese: "Mruiw"
    
    count_male_burmese: "Tuiṅ Sūkrī"
    county_burmese: "Tuiṅ"
@@ -5100,7 +5114,7 @@
 ########################################################
    baron_male_bengali: "Bhāyavāla"
    baron_female_bengali: "Bhāyavāla"
-   barony_bengali: "Bhāya"
+   barony_castle_bengali: "Bhāya"
    
    count_male_bengali: "Sāmaṁta"
    count_female_bengali: "Sāmaṁtaṇi"
@@ -5157,7 +5171,7 @@
    empress_mother_bengali: "Mahārāyamāvā"
    
    baron_republic_bengali: "Puravahāṇa"
-   barony_republic_bengali: "Pura"
+   barony_city_bengali: "Pura"
    count_republic_male_bengali: "Nayaraśēṭhi"
    count_republic_female_bengali: "Nayaraśēṭhiṇī"
    county_republic_bengali: "Nayara"
@@ -5165,12 +5179,14 @@
    duchy_republic_bengali: "Gaṇa"
    king_republic_bengali: "Saṁghamūkha"
    kingdom_republic_bengali: "Saṁgha"
+   
+   barony_tribe_bengali: "$barony_castle_bengali$"
 ########################################################
   #Oriya
 ########################################################
    baron_male_oriya: "Khaṁḍavāla"
    baron_female_oriya: "Khaṁḍavāla"
-   barony_oriya: "Khaṁḍa"
+   barony_castle_oriya: "Khaṁḍa"
    
    count_male_oriya: "Bisayavaï"
    count_female_oriya: "Bisayavātī"
@@ -5227,19 +5243,21 @@
    empress_mother_oriya: "Mahārāyamāvā"
    
    baron_republic_oriya: "Puramaji"
-   barony_republic_oriya: "Pura"
+   barony_city_oriya: "Pura"
    count_republic_oriya: "Nayaramaji"
    county_republic_oriya: "Nayara"
    duke_republic_oriya: "Gaṇamūkha"
    duchy_republic_oriya: "Gaṇa"
    king_republic_oriya: "Saṁghamūkha"
    kingdom_republic_oriya: "Saṁgha"
+   
+   barony_tribe_oriya: "$barony_castle_oriya$"
 ########################################################
   #Assamese
 ########################################################
    baron_male_assamese: "Rājanā"
    baron_female_assamese: "Rājanā"
-   barony_assamese: "Paḍhaya"
+   barony_castle_assamese: "Paḍhaya"
    
    count_male_assamese: "Sāmaṁta"
    count_female_assamese: "Sāmaṁtaṇi"
@@ -5296,7 +5314,7 @@
    empress_mother_assamese: "Mahārājamāvā"
    
    baron_republic_assamese: "Puravahāṇa"
-   barony_republic_assamese: "Pura"
+   barony_city_assamese: "Pura"
    count_republic_male_assamese: "Nayarasēṭhi"
    count_republic_female_assamese: "Nayarasēṭhiṇī"
    county_republic_assamese: "Nayara"
@@ -5304,12 +5322,14 @@
    duchy_republic_assamese: "Gaṇa"
    king_republic_assamese: "Saṁghamūkha"
    kingdom_republic_assamese: "Saṁgha"
+   
+   barony_tribe_assamese: "$barony_castle_assamese$"
 ########################################################
   #Hindustani
 ########################################################
    baron_male_hindustani: "Mahānāīka"
    baron_female_hindustani: "Mahānāīka"
-   barony_hindustani: "Paḍhaya"
+   barony_castle_hindustani: "Paḍhaya"
    
    count_male_hindustani: "Rāṇā"
    count_female_hindustani: "Rāni"
@@ -5366,7 +5386,7 @@
    empress_mother_hindustani: "Mahārāyamāyā"
    
    baron_republic_hindustani: "Puravahāṇa"
-   barony_republic_hindustani: "Pura"
+   barony_city_hindustani: "Pura"
    count_republic_male_hindustani: "Nayarasēṭhi"
    count_republic_female_hindustani: "Nagarasēṭṭhan"
    county_republic_hindustani: "Nayara"
@@ -5374,12 +5394,14 @@
    duchy_republic_hindustani: "Gaṇa"
    king_republic_hindustani: "Saṁghamūkha"
    kingdom_republic_hindustani: "Saṁgha"
+   
+   barony_tribe_hindustani: "$barony_castle_hindustani$"
 ########################################################
   #Gujarati
 ########################################################
    baron_male_gujarati: "Pāṭaïla"
    baron_female_gujarati: "Pāṭaïlāni"
-   barony_gujarati: "Paḍhaya"
+   barony_castle_gujarati: "Paḍhaya"
    
    count_male_gujarati: "Rāṇā"
    count_female_gujarati: "Rāṇi"
@@ -5436,7 +5458,7 @@
    empress_mother_gujarati: "Mahārāyamāyā"
    
    baron_republic_gujarati: "Paravahāṇo"
-   barony_republic_gujarati: "Paru"
+   barony_city_gujarati: "Paru"
    count_republic_male_gujarati: "Nayarasēṭhi"
    count_republic_female_gujarati: "Nayarasēṭhiṇī"
    county_republic_gujarati: "Nayara"
@@ -5444,12 +5466,14 @@
    duchy_republic_gujarati: "Gaṇa"
    king_republic_gujarati: "Saṁghamūkha"
    kingdom_republic_gujarati: "Saṁgha"
+   
+   barony_tribe_gujarati: "$barony_castle_gujarati$"
 ########################################################
   #Punjabi
 ########################################################
    baron_male_punjabi: "Caudharī"
    baron_female_punjabi: "Caudharāṇī"
-   barony_punjabi: "Tappa"
+   barony_castle_punjabi: "Tappa"
    
    count_male_punjabi: "Visayavaī"
    count_female_punjabi: "Visayavattī"
@@ -5506,7 +5530,7 @@
    empress_mother_punjabi: "Mahārāimāu"
    
    baron_republic_punjabi: "Puravatāṇa"
-   barony_republic_punjabi: "Purī"
+   barony_city_punjabi: "Purī"
    count_republic_male_punjabi: "Nayaraseṭṭhi"
    count_republic_female_punjabi: "Nayaraseṭṭhiṇī"
    county_republic_punjabi: "Nayarī"
@@ -5514,12 +5538,14 @@
    duchy_republic_punjabi: "Gaṇa"
    king_republic_punjabi: "Saṁkamūkkha"
    kingdom_republic_punjabi: "Saṁka"
+   
+   barony_tribe_punjabi: "$barony_castle_punjabi$"
 ########################################################
   #Rajput
 ########################################################
    baron_male_rajput: "Rāyaüta"
    baron_female_rajput: "Rāyaüti"
-   barony_rajput: "Paḍhaya"
+   barony_castle_rajput: "Paḍhaya"
    
    count_male_rajput: "Rāṇā"
    count_female_rajput: "Rāṇi"
@@ -5576,7 +5602,7 @@
    empress_mother_rajput: "Mahārāyamāyā"
    
    baron_republic_rajput: "Puravahāṇa"
-   barony_republic_rajput: "Pura"
+   barony_city_rajput: "Pura"
    count_republic_male_rajput: "Nayarasēṭhi"
    count_republic_female_rajput: "Nayarasēṭhiṇī"
    county_republic_rajput: "Nayara"
@@ -5584,12 +5610,14 @@
    duchy_republic_rajput: "Gaṇa"
    king_republic_rajput: "Saṁghamūkha"
    kingdom_republic_rajput: "Saṁgha"
+   
+   barony_tribe_rajput: "$barony_castle_rajput$"
 ########################################################
   #Sindhi
 ########################################################
    baron_male_sindhi: "Wadera"
    baron_female_sindhi: "Waderāṇī"
-   barony_sindhi: "Gara"
+   barony_castle_sindhi: "Gara"
    
    count_male_sindhi: "Sardār"
    count_female_sindhi: "Sardārāṇī"
@@ -5638,7 +5666,7 @@
    queen_mother_default_sindhi: "Šāhmāu"
    
    baron_republic_sindhi: "Puravahāṇu"
-   barony_republic_sindhi: "Puri"
+   barony_city_sindhi: "Puri"
    count_republic_male_sindhi: "Nagaraseṭhi"
    count_republic_female_sindhi: "Nagarseṭhiṇī"
    county_republic_sindhi: "Nagaru"
@@ -5646,12 +5674,14 @@
    duchy_republic_sindhi: "Gaṇu"
    king_republic_sindhi: "Saṁghamūkhu"
    kingdom_republic_sindhi: "Saṁghu"
+   
+   barony_tribe_sindhi: "$barony_castle_sindhi$"
 ########################################################
   #Marathi
 ########################################################
    baron_male_marathi: "Gamaüḍa"
    baron_female_marathi: "Gamaüḍa"
-   barony_marathi: "Kampaṇa"
+   barony_castle_marathi: "Kampaṇa"
    
    count_male_marathi: "Vikhaēvaï"
    count_female_marathi: "Vikhaēvātī"
@@ -5708,19 +5738,21 @@
    empress_mother_marathi: "Mahārāyamāyā"
    
    baron_republic_marathi: "Purapahāna"
-   barony_republic_marathi: "Pura"
+   barony_city_marathi: "Pura"
    count_republic_marathi: "Nayarajjhākha"
    county_republic_marathi: "Nayara"
    duke_republic_marathi: "Gaṇamuṣya"
    duchy_republic_marathi: "Gaṇa"
    king_republic_marathi: "Saṅgamuṣya"
    kingdom_republic_marathi: "Saṅga"
+   
+   barony_tribe_marathi: "$barony_castle_marathi$"
 ########################################################
   #Kashmiri
 ########################################################
    baron_male_kashmiri: "Ḍāmara"
    baron_female_kashmiri: "Ḍāmara"
-   barony_kashmiri: "Upaveśana"
+   barony_castle_kashmiri: "Upaveśana"
    
    count_male_kashmiri: "Sāmanta"
    count_female_kashmiri: "Sāmantaṇi"
@@ -5777,19 +5809,21 @@
    empress_mother_kashmiri: "Mahārājamātā"
    
    baron_republic_kashmiri: "Purapradhāna"
-   barony_republic_kashmiri: "Pura"
+   barony_city_kashmiri: "Pura"
    count_republic_kashmiri: "Nagarādhipa"
    county_republic_kashmiri: "Nagara"
    duke_republic_kashmiri: "Gaṇamukhya"
    duchy_republic_kashmiri: "Gaṇa"
    king_republic_kashmiri: "Saṁghamukhya"
    kingdom_republic_kashmiri: "Saṁgha"
+   
+   barony_tribe_kashmiri: "$barony_castle_kashmiri$"
 ########################################################
   #Sinhala
 ########################################################
    baron_male_sinhala: "Gam-ladu"
    baron_female_sinhala: "Gam-ladu"
-   barony_sinhala: "Gama"
+   barony_castle_sinhala: "Gama"
    
    count_male_sinhala: "Raṭ-ladu"
    count_female_sinhala: "Raṭ-ladu"
@@ -5845,19 +5879,21 @@
    empress_mother_sinhala: "Radamā"
    
    baron_republic_sinhala: "Purapadana"
-   barony_republic_sinhala: "Pura"
+   barony_city_sinhala: "Pura"
    count_republic_sinhala: "Ṇakaradiva"
    county_republic_sinhala: "Ṇakara"
    duke_republic_sinhala: "Gaṇamuwa"
    duchy_republic_sinhala: "Gaṇa"
    king_republic_sinhala: "Sagamuwa"
    kingdom_republic_sinhala: "Saga"
+   
+   barony_tribe_sinhala: "$barony_castle_sinhala$"
 ########################################################
   #Nepali
 ########################################################
    baron_male_nepali: "Ahigārī"
    baron_female_nepali: "Ahigāriṇī"
-   barony_nepali: "Darā"
+   barony_castle_nepali: "Darā"
    
    count_male_nepali: "Bikhaivaï"
    count_female_nepali: "Bikhaivāti"
@@ -5914,13 +5950,15 @@
    empress_mother_nepali: "Mahārāyamāyā"
    
    baron_republic_nepali: "Puravahāna"
-   barony_republic_nepali: "Pura"
+   barony_city_nepali: "Pura"
    count_republic_nepali: "Nagarādhipa"
    county_republic_nepali: "Nayara"
    duke_republic_nepali: "Gaṇamūkha"
    duchy_republic_nepali: "Gaṇa"
    king_republic_nepali: "Saṁghamūkha"
    kingdom_republic_nepali: "Saṁgha"
+   
+   barony_tribe_nepali: "$barony_castle_nepali$"
 ########################################################
  #Mongolic
 ########################################################

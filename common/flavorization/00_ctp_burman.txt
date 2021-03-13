@@ -16,12 +16,28 @@ baron_male_burmese = {
 	governments = { republic_government feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_burmese = {
+barony_castle_burmese = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { burmese }
-	governments = { republic_government feudal_government clan_government tribal_government }
+	holding = castle_holding
+	top_liege = no
+}
+barony_tribe_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { burmese }
+	holding = tribal_holding
+	top_liege = no
+}
+barony_city_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { burmese }
+	holding = city_holding
 	top_liege = no
 }
 count_male_burmese = {
