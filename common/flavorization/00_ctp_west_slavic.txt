@@ -28,12 +28,12 @@ baron_female_pommeranian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_pommeranian = {
+barony_castle_pommeranian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pommeranian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_pommeranian = {
@@ -250,12 +250,12 @@ baron_republic_female_pommeranian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_pommeranian = {
+barony_city_pommeranian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pommeranian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_pommeranian = {
@@ -304,12 +304,12 @@ kingdom_republic_pommeranian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_pommeranian = {
+barony_tribe_pommeranian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pommeranian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ## Czech ##
@@ -333,12 +333,12 @@ baron_female_czech = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_czech = {
+barony_castle_czech = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { czech }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_czech = {
@@ -543,12 +543,12 @@ baron_republic_czech = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_czech = {
+barony_city_czech = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { czech }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_czech = {
@@ -569,12 +569,12 @@ county_republic_czech = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_czech = {
+barony_tribe_czech = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { czech }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ## Polish ##
@@ -598,12 +598,12 @@ baron_female_polish = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_polish = {
+barony_castle_polish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polish }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_polish = {
@@ -840,12 +840,12 @@ baron_female_republic_polish = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_polish = {
+barony_city_polish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polish }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_male_republic_polish = {
@@ -926,12 +926,12 @@ kingdom_republic_polish = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_polish = {
+barony_tribe_polish = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polish }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ## Polabian ##
@@ -955,12 +955,12 @@ baron_female_polabian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_polabian = {
+barony_castle_polabian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polabian }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_polabian = {
@@ -1157,12 +1157,12 @@ baron_female_republic_polabian = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_polabian = {
+barony_city_polabian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polabian }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_male_republic_polabian = {
@@ -1255,12 +1255,12 @@ kingdom_republic_polabian = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_polabian = {
+barony_tribe_polabian = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { polabian }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }
 ## Slovien ##
@@ -1284,12 +1284,12 @@ baron_female_slovien = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_feudalclan_slovien = {
+barony_castle_slovien = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { slovien }
-	governments = { feudal_government clan_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_slovien = {
@@ -1494,19 +1494,27 @@ baron_republic_slovien = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_slovien = {
+barony_city_slovien = {
 	type = title
 	tier = barony
 	priority = 103
+	cultures = { slovien }
+	holding = city_holding
+	top_liege = no
+}
+county_republic_slovien = {
+	type = title
+	tier = county
+	priority = 113
 	cultures = { slovien }
 	governments = { republic_government }
 	top_liege = no
 }
-barony_tribal_slovien = {
+barony_tribe_slovien = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { slovien }
-	governments = { tribal_government }
+	holding = tribal_holding
 	top_liege = no
 }

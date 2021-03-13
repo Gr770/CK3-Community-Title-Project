@@ -5,11 +5,19 @@
 ################################################
 ## North_Germanic_culture_group ##
 ###############################################
-barony_north_germanic_group = {
+barony_castle_north_germanic_group = {
 	type = title
 	tier = barony
 	priority = 102
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
+	culture_groups = { north_germanic_group }
+	top_liege = no
+}
+barony_tribe_north_germanic_group = {
+	type = title
+	tier = barony
+	priority = 102
+	holding = tribal_holding
 	culture_groups = { north_germanic_group }
 	top_liege = no
 }
@@ -352,11 +360,11 @@ queen_mother_norse_norwegian_empire = {
 	cultures = { norse norwegian }
 	top_liege = no
 }
-barony_republic_norse_norwegian = {
+barony_city_norse_norwegian = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { norse norwegian }
 	top_liege = no
 }
@@ -516,11 +524,11 @@ queen_mother_swedish_danish_empire = {
 	cultures = { swedish danish }
 	top_liege = no
 }
-barony_republic_swedish_danish = {
+barony_city_swedish_danish = {
 	type = title
 	tier = barony
 	priority = 103
-	governments = { republic_government }
+	holding = city_holding
 	cultures = { swedish danish }
 	top_liege = no
 }
