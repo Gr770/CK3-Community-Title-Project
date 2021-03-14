@@ -2264,18 +2264,18 @@ duchy_theo_cath_portuguese_independent = {
 	top_liege = no
 	only_independent = yes
 }
-#Norse
-pope_man_norse = {
+#Norse/Norwegian
+pope_man_norse_norwegian = {
 	type = character
 	gender = male
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
 	top_liege = no
-	culture_groups = { north_germanic_group }
+	cultures = { norse norwegian }
 	only_holder = yes
 }
-grand_master_cath_norse = {
+grand_master_cath_norse_norwegian = {
 	type = character
 	special = holder
 	tier = duchy
@@ -2286,84 +2286,164 @@ grand_master_cath_norse = {
 	top_liege = no
 	only_holder = yes
 }
-grand_master_cath_danish = {
+baron_theo_cath_norse_norwegian = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 203
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+barony_hold_cath_norse_norwegian = {
+	type = title
+	tier = barony
+	priority = 203
+	holding = church_holding
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+barony_theo_cath_norse_norwegian = {
+	type = title
+	tier = barony
+	priority = 204
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+count_theo_cath_norse_norwegian = {
+	type = character
+	special = holder
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_cath_norse_norwegian = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+duke_theo_cath_norse_norwegian = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_cath_norse_norwegian = {
+	type = title
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { catholic waldensian insular_celtic lollard }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+#Swedish/Danish
+pope_man_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_papal_state }
+	top_liege = no
+	cultures = { swedish danish }
+	only_holder = yes
+}
+grand_master_cath_swedish_danish = {
 	type = character
 	special = holder
 	tier = duchy
 	priority = 301
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	cultures = { danish swedish }
+	cultures = { swedish danish }
 	top_liege = no
 	only_holder = yes
 }
-baron_theo_cath_norse = {
+baron_theo_cath_swedish_danish = {
 	type = character
 	special = holder
 	tier = barony
 	priority = 203
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 	only_holder = yes
 }
-barony_hold_cath_norse = {
+barony_hold_cath_swedish_danish = {
 	type = title
 	tier = barony
 	priority = 203
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 }
-barony_theo_cath_norse = {
+barony_theo_cath_swedish_danish = {
 	type = title
 	tier = barony
 	priority = 204
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 }
-count_theo_cath_norse = {
+count_theo_cath_swedish_danish = {
 	type = character
 	special = holder
 	tier = county
 	priority = 213
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 	only_holder = yes
 }
-county_theo_cath_norse = {
+county_theo_cath_swedish_danish = {
 	type = title
 	tier = county
 	priority = 213
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 }
-duke_theo_cath_norse = {
+duke_theo_cath_swedish_danish = {
 	type = character
 	special = holder
 	tier = duchy
 	priority = 223
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 	only_holder = yes
 }
-duchy_theo_cath_norse = {
+duchy_theo_cath_swedish_danish = {
 	type = title
 	tier = duchy
 	priority = 223
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	culture_groups = { north_germanic_group }
+	cultures = { swedish danish }
 	top_liege = no
 }
 #saxon
