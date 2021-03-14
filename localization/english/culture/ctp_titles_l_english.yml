@@ -1481,102 +1481,109 @@
 ########################################################
  #North Germanic Culture Group
 ########################################################
-  barony_castle_north_germanic_group: "Hęrað"
-  barony_tribe_north_germanic_group: "$barony_castle_north_germanic_group$"
-  
-  county_north_germanic_group: "[CHARACTER.Custom('CountyNorth')]"
-  county_default_north_germanic_group: "Fylki"
-  
-  count_male_north_germanic_group_independent: "Dróttinn"
-  count_female_north_germanic_group_independent: "Dróttning"
-  county_north_germanic_group_independent: "[CHARACTER.Custom('NorthGermanicIndepCounty')]"
-  
-  duke_male_north_germanic_group: "[CHARACTER.Custom('DukeMaleNorth')]"
-  duke_female_north_germanic_group: "[CHARACTER.Custom('DukeFemaleNorth')]"
-  duchy_north_germanic_group: "Jarldómr"
-  duke_default_male_north: "Jarl"
-  duke_default_female_north: "Jarlynja"
-  
-  duke_female_north_germanic_group_independent: "$king_female_north_germanic_group$"
-  duchy_north_germanic_group_independent: "[CHARACTER.Custom('NorthGermanicIndepDuchy')]"
-  
-  king_female_north_germanic_group: "Dróttning"
-  kingdom_north_germanic_group: "Ríki"
-  
-  empire_north_germanic_group: "Vęldi"
-  
-  norse_heir_male: "Arfi"
-  norse_heir_female: "Arfa"
-  title_prince_male_north_germanic_group_duchy: "[CHARACTER.Custom('PrinceDNorse')]"
-  title_prince_female_north_germanic_group_duchy: "[CHARACTER.Custom('PrincessDNorse')]"
-  prince_d_male_north: "Erlingr"
-  prince_d_female_north: "Aðalskona"
-  queen_mother_north_germanic_group_duchy_independent: "$king_female_north_germanic_group$"
-  queen_mother_north_germanic_group_kingdom: "$king_female_north_germanic_group$"
-  
-  baron_republic_north_germanic_group: "Gjaldkyri"
-########################################################
   #Norse and Norwegian
 ########################################################
    baron_male_norse: "Hęrsir"
    baron_male_norwegian: "Lęndrmaðr"
    baron_female_norse: "Frauva" 
    baron_female_norwegian: "Lęndrkona"
+   barony_castle_norse_norwegian: "Hęrað"
+   barony_tribe_norse_norwegian: "$barony_castle_norse_norwegian$"
    
    count_male_norse_norwegian: "[CHARACTER.Custom('CountMaleNorse')]"
    count_female_norse_norwegian: "[CHARACTER.Custom('CountFemaleNorse')]"
+   county_norse_norwegian: "[CHARACTER.Custom('CountyNorth')]"
    count_default_male_norse_norwegian: "Hǫfðingi"
    count_default_female_norse_norwegian: "Hǫfuðkona"
+   county_default_norse_norwegian: "Fylki"
+   
+   count_male_norse_norwegian_independent: "Dróttinn"
+   count_female_norse_norwegian_independent: "$king_female_norse_norwegian$"
+   county_norse_norwegian_independent: "[CHARACTER.Custom('NorthIndepCounty')]"
+   
+   duke_male_norse_norwegian: "[CHARACTER.Custom('DukeMaleNorth')]"
+   duke_female_norse_norwegian: "[CHARACTER.Custom('DukeFemaleNorth')]"
+   duchy_norse_norwegian: "Jarlsdómr"
+   duke_default_male_norse_norwegian: "Jarl"
+   duke_default_female_norse_norwegian: "Jarlynja"
    
    duke_male_norse_norwegian_independent: "$king_male_norse_norwegian$"
+   duke_female_norse_norwegian_independent: "$king_female_norse_norwegian$"
+   duchy_norse_norwegian_independent: "[CHARACTER.Custom('NorthIndepDuchy')]"
    
    king_male_norse_norwegian: "Konungr"
+   king_female_norse_norwegian: "Dróttning"
+   kingdom_norse_norwegian: "Ríki"
    
    emperor_male_norse_norwegian: "Kęisari"
    emperor_female_norse_norwegian: "Kęisarynja"
+   empire_norse_norwegian: "Vęldi"
    
-   title_prince_male_norse_norwegian_duchy_independent: "[CHARACTER.Custom('PrinceNor')]"
-   title_prince_female_norse_norwegian_duchy_independent: "[CHARACTER.Custom('PrincessKNor')]"
-   title_prince_male_norse_norwegian: "[CHARACTER.Custom('PrinceNor')]"
-   title_prince_male_norse_norwegian_empire: "[CHARACTER.Custom('PrinceNor')]"
-   title_prince_female_norse_norwegian: "[CHARACTER.Custom('PrincessKNor')]"
-   title_prince_female_norse_norwegian_empire: "[CHARACTER.Custom('PrincessENor')]"
+   title_prince_male_norse_norwegian_duchy: "Erlingr"
+   title_prince_female_norse_norwegian_duchy: "Jarlsdóttir"
+   title_prince_male_norse_norwegian_duchy_independent: "$title_prince_male_norse_norwegian$"
+   title_prince_female_norse_norwegian_duchy_independent: "$title_prince_female_norse_norwegian$"
+   title_prince_male_norse_norwegian: "Ǫðlingr"
+   title_prince_male_norse_norwegian_empire: "$title_prince_male_norse_norwegian$"
+   title_prince_female_norse_norwegian: "Aðalsfrauva"
+   title_prince_female_norse_norwegian_empire: "$title_prince_female_norse_norwegian$"
+   queen_mother_norse_norwegian_duchy_independent: "$king_female_norse_norwegian$"
+   queen_mother_norse_norwegian_kingdom: "$king_female_norse_norwegian$"
    queen_mother_norse_norwegian_empire: "$emperor_female_norse_norwegian$"
-   prince_male_nor: "Ǫðlingr"
-   prince_k_female_nor: "Aðalsfrauva"
-   prince_e_female_nor: "$prince_k_female_nor$"
    
+   baron_republic_norse_norwegian: "Gjaldkyri"
    barony_city_norse_norwegian: "Kaupstaðr"
 ########################################################
   #Swedish and Danish
 ########################################################
-   baron_male_swedish_danish: "Hęrsir"
-   baron_female_swedish_danish: "Fróva"
+   baron_male_swedish_danish: "Hærser"
+   baron_female_swedish_danish: "Frówa"
+   barony_castle_swedish_danish: "Hæraþ"
+   barony_tribe_swedish_danish: "$barony_castle_swedish_danish$"
  
    count_male_swedish_danish: "[CHARACTER.Custom('CountMaleSwedish')]"
    count_female_swedish_danish: "[CHARACTER.Custom('CountFemaleSwedish')]"
-   count_default_male_swedish_danish: "Høfðingi"
-   count_default_female_swedish_danish: "Hafuðkona"
+   county_swedish_danish: "[CHARACTER.Custom('CountySwedish')]"
+   count_default_male_swedish_danish: "Høfþinge"
+   count_default_female_swedish_danish: "Hafuþkona"
+   county_default_swedish_danish: "Fylke"
+   
+   count_male_swedish_danish_independent: "Drótten"
+   count_female_swedish_danish_independent: "$king_female_swedish_danish$"
+   county_swedish_danish_independent: "[CHARACTER.Custom('SwedishIndepCounty')]"
+   
+   duke_male_swedish_danish: "[CHARACTER.Custom('DukeMaleSwedish')]"
+   duke_female_swedish_danish: "[CHARACTER.Custom('DukeFemaleSwedish')]"
+   duchy_swedish_danish: "Iærlsdómber"
+   duke_default_male_swedish_danish: "Iærl"
+   duke_default_female_swedish_danishn: "Iærlinna"
  
    duke_male_swedish_danish_independent: "$king_male_swedish_danish$"
+   duke_female_swedish_danish_independent: "$king_female_swedish_danish$"
+   duchy_swedish_danish_independent: "[CHARACTER.Custom('SwedishIndepDuchy')]"
 
-   king_male_swedish_danish: "Kunungr"
+   king_male_swedish_danish: "Kununger"
+   king_female_swedish_danish: "Drótning"
+   kingdom_swedish_danish: "Ríke"
    
-   emperor_male_swedish_danish: "Késari"
-   emperor_female_swedish_danish: "Késarynja"
+   emperor_male_swedish_danish: "Késare"
+   emperor_female_swedish_danish: "Késarinna"
+   empire_swedish_danish: "Wælde"
  
-   title_prince_male_swedish_danishn_duchy_independent: "[CHARACTER.Custom('PrinceSweDan')]"
-   title_prince_female_swedish_danish_duchy_independent: "[CHARACTER.Custom('PrincessKSweDan')]"
-   title_prince_male_swedish_danish: "[CHARACTER.Custom('PrinceSweDan')]"
-   title_prince_male_swedish_danish_empire: "[CHARACTER.Custom('PrinceSweDan')]"
-   title_prince_female_swedish_danish: "[CHARACTER.Custom('PrincessKSweDan')]"
-   title_prince_female_swedish_danish_empire: "[CHARACTER.Custom('PrincessESweDan')]"
+   title_prince_male_swedish_danish_duchy: "Erlinger"
+   title_prince_female_swedish_danish_duchy: "Iærlsdóttir"
+   title_prince_male_swedish_danish_duchy_independent: "$title_prince_male_swedish_danish$"
+   title_prince_female_swedish_danish_duchy_independent: "$title_prince_female_swedish_danish$"
+   title_prince_male_swedish_danish: "Øþlinger"
+   title_prince_male_swedish_danish_empire: "$title_prince_male_swedish_danish$"
+   title_prince_female_swedish_danish: "Aþalskona"
+   title_prince_female_swedish_danish_empire: "$title_prince_female_swedish_danish$"
+   queen_mother_swedish_danish_duchy_independent: "$king_female_swedish_danish$"
+   queen_mother_swedish_danish_kingdom: "$king_female_swedish_danish$"
    queen_mother_swedish_danish_empire: "$emperor_female_swedish_danish$"
-   prince_male_swe_dan: "Øðlingr"
-   prince_k_female_swe_dan: "Aðalsfróva"
-   prince_e_female_swe_dan: "$prince_e_female_swe_dan$"
    
-   barony_city_swedish_danish: "Kǿpstaðr"
+   baron_republic_swedish_danish: "Giældkyre"
+   barony_city_swedish_danish: "Kǿpstaþer"
 ########################################################
  #Balto-Finnic Culture Group
 ########################################################
