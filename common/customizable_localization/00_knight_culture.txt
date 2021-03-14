@@ -149,9 +149,21 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_north_germanic_group
+		localization_key = knight_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group
