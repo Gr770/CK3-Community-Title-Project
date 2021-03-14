@@ -4677,7 +4677,7 @@ DukeMaleNorth = {
 		localization_key = norse_heir_male
 	}
 	text = {
-		localization_key = duke_default_male_north
+		localization_key = duke_default_male_norse_norwegian
 		fallback = yes
 	}
 }
@@ -4694,7 +4694,42 @@ DukeFemaleNorth = {
 		localization_key = norse_heir_female
 	}
 	text = {
-		localization_key = duke_default_female_north
+		localization_key = duke_default_female_norse_norwegian
+		fallback = yes
+	}
+}
+DukeMaleSwedish = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			root.liege = {
+				any_heir = {
+					this = root
+				}
+			}
+		}
+		localization_key = norse_heir_male
+	}
+	text = {
+		localization_key = duke_default_male_swedish_danish
+		fallback = yes
+	}
+}
+DukeFemaleSwedish = {
+	type = character
+	text = {
+		trigger = {
+			root.liege = {
+				any_heir = {
+					this = root
+				}
+			}
+		}
+		localization_key = norse_heir_female
+	}
+	text = {
+		localization_key = duke_default_female_swedish_danish
 		fallback = yes
 	}
 }
