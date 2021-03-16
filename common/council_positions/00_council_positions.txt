@@ -251,9 +251,21 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+											OR = {
+												scope:councillor_liege.culture = culture:norse
+												scope:councillor_liege.culture = culture:norwegian
+											}
 										}
-										desc = barons_cc_male_cath_norse
+										desc = barons_cc_male_cath_norse_norwegian
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = barons_cc_male_cath_swedish_danish
 									}
 									triggered_desc = {
 										trigger = {
@@ -475,9 +487,21 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+											OR = {
+												scope:councillor_liege.culture = culture:norse
+												scope:councillor_liege.culture = culture:norwegian
+											}
 										}
-										desc = baron_theo_cath_norse
+										desc = baron_theo_cath_norse_norwegian
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = baron_theo_cath_swedish_danish
 									}
 									triggered_desc = {
 										trigger = {
@@ -711,9 +735,21 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+											OR = {
+												scope:councillor_liege.culture = culture:norse
+												scope:councillor_liege.culture = culture:norwegian
+											}
 										}
-										desc = count_theo_cath_norse
+										desc = count_theo_cath_norse_norwegian
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = count_theo_cath_swedish_danish
 									}
 									triggered_desc = {
 										trigger = {
@@ -1037,9 +1073,21 @@ councillor_court_chaplain = {
 									}
 									triggered_desc = {
 										trigger = {
-											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+											OR = {
+												scope:councillor_liege.culture = culture:norse
+												scope:councillor_liege.culture = culture:norwegian
+											}
 										}
-										desc = duke_theo_cath_norse
+										desc = duke_theo_cath_norse_norwegian
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = duke_theo_cath_swedish_danish
 									}
 									triggered_desc = {
 										trigger = {
