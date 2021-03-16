@@ -437,7 +437,7 @@ councillor_court_chaplain = {
 									AND = {
 										scope:councillor_liege.highest_held_title_tier = tier_barony
 										NOT = {
-											councillor_liege = {
+											scope:councillor_liege = {
 												has_government = theocracy_government
 											}	
 										}
@@ -673,7 +673,7 @@ councillor_court_chaplain = {
 									AND = {
 										scope:councillor_liege.highest_held_title_tier = tier_county
 										NOT = {
-											councillor_liege = {
+											scope:councillor_liege = {
 												has_government = theocracy_government
 											}	
 										}
@@ -999,7 +999,7 @@ councillor_court_chaplain = {
 									AND = {
 										scope:councillor_liege.highest_held_title_tier = tier_duchy
 										NOT = {
-											councillor_liege = {
+											scope:councillor_liege = {
 												has_government = theocracy_government
 											}	
 										}
@@ -1306,6 +1306,210 @@ councillor_court_chaplain = {
 										desc = king_male_theo_cath_polish
 									}
 									desc = king_male_theo_cath
+								}
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.religion = religion:germanic_religion
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = emperor_female_theo_germanic_swe_dan
+												}
+												desc = emperor_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = emperor_male_theo_germanic_swe_dan
+									}
+									desc = emperor_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									scope:councillor_liege.highest_held_title_tier = tier_kingdom
+									scope:councillor_liege = {
+										is_independent_ruler = yes
+									}
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = king_female_theo_germanic_swe_dan
+												}
+												desc = king_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = king_male_theo_germanic_swe_dan
+									}
+									desc = king_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = duke_female_theo_germanic_swe_dan
+												}
+												desc = duke_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = duke_male_theo_germanic_swe_dan
+									}
+									desc = duke_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = count_female_theo_germanic_swe_dan
+												}
+												desc = count_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = count_male_theo_germanic_swe_dan
+									}
+									desc = count_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = baron_female_theo_germanic_swe_dan
+												}
+												desc = baron_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = baron_male_theo_germanic_swe_dan
+									}
+									desc = baron_male_theo_germanic
 								}
 							}
 						}
