@@ -210,6 +210,1314 @@ councillor_court_chaplain = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
+					OR = {
+						scope:councillor_liege.faith = faith:catholic
+						scope:councillor_liege.faith = faith:waldensian
+						scope:councillor_liege.faith = faith:insular_celtic
+						scope:councillor_liege.faith = faith:lollard
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege = {
+									highest_held_title_tier = tier_barony
+									has_government = theocracy_government
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:english
+												scope:councillor_liege.culture = culture:scottish
+											}
+										}
+										desc = barons_cc_male_cath_english
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:anglo_saxon
+										}
+										desc = barons_cc_male_cath_anglo_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+										}
+										desc = barons_cc_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+										}
+										desc = barons_cc_male_cath_norse
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:dutch
+										}
+										desc = barons_cc_male_cath_dutch
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:russian
+										}
+										desc = barons_cc_male_cath_russian
+									}
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:french
+													}
+													desc = barons_cc_female_cath_french
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:norman
+													}
+													desc = barons_cc_female_cath_norman
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:occitan
+													}
+													desc = barons_cc_female_cath_occitan
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:castilian
+													}
+													desc = barons_cc_female_cath_castilian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:catalan
+													}
+													desc = barons_cc_female_cath_catalan
+												}
+												triggered_desc = {
+													trigger = {
+														OR ={
+															scope:councillor_liege.culture = culture:portuguese
+															scope:councillor_liege.culture = culture:galician
+														}
+													}
+													desc = barons_cc_female_cath_portuguese
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:saxon
+													}
+													desc = barons_cc_female_cath_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:central_germanic_group
+													}
+													desc = barons_cc_female_cath_mhg
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:andalusian
+													}
+													desc = barons_cc_female_cath_andalusian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:pommeranian
+													}
+													desc = barons_cc_female_cath_pommeranian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:czech
+													}
+													desc = barons_cc_female_cath_czech
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:polish
+													}
+													desc = barons_cc_female_cath_polish
+												}
+												desc = barons_cc_female_cath
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+										}
+										desc = barons_cc_male_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+										}
+										desc = barons_cc_male_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+										}
+										desc = barons_cc_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:castilian
+										}
+										desc = barons_cc_male_cath_castilian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:catalan
+										}
+										desc = barons_cc_male_cath_catalan
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:portuguese
+												scope:councillor_liege.culture = culture:galician
+											}
+										}
+										desc = barons_cc_male_cath_portuguese
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:saxon
+										}
+										desc = barons_cc_male_cath_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:central_germanic_group
+										}
+										desc = barons_cc_male_cath_mhg
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:andalusian
+										}
+										desc = barons_cc_male_cath_andalusian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:pommeranian
+										}
+										desc = barons_cc_male_cath_pommeranian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:czech
+										}
+										desc = barons_cc_male_cath_czech
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:polish
+										}
+										desc = barons_cc_male_cath_polish
+									}
+									desc = barons_cc_male_cath
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									AND = {
+										scope:councillor_liege.highest_held_title_tier = tier_barony
+										NOT = {
+											scope:councillor_liege = {
+												has_government = theocracy_government
+											}	
+										}
+									}
+									AND = {
+										scope:councillor_liege = {
+											highest_held_title_tier = tier_county
+											has_government = theocracy_government
+										}
+									}
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:english
+												scope:councillor_liege.culture = culture:scottish
+											}
+										}
+										desc = baron_male_theo_cath_english
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:anglo_saxon
+										}
+										desc = baron_male_theo_cath_anglo_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+										}
+										desc = baron_male_theo_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+										}
+										desc = baron_theo_cath_norse
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:dutch
+										}
+										desc = baron_theo_cath_dutch
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:russian
+										}
+										desc = baron_male_theo_cath_russian
+									}
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:french
+													}
+													desc = baron_female_theo_cath_french
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:norman
+													}
+													desc = baron_female_theo_cath_norman
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:occitan
+													}
+													desc = baron_female_theo_cath_occitan
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:castilian
+													}
+													desc = baron_female_theo_cath_castilian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:catalan
+													}
+													desc = baron_female_theo_cath_catalan
+												}
+												triggered_desc = {
+													trigger = {
+														OR ={
+															scope:councillor_liege.culture = culture:portuguese
+															scope:councillor_liege.culture = culture:galician
+														}
+													}
+													desc = baron_female_theo_cath_portuguese
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:saxon
+													}
+													desc = baron_female_theo_cath_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:central_germanic_group
+													}
+													desc = baron_female_theo_cath_mhg
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:andalusian
+													}
+													desc = baron_female_theo_cath_andalusian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:arabic_group
+													}
+													desc = baron_female_theo_cath_arabic
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:pommeranian
+													}
+													desc = baron_female_theo_cath_pommeranian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:czech
+													}
+													desc = baron_female_theo_cath_czech
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:polish
+													}
+													desc = baron_female_theo_cath_polish
+												}
+												desc = baron_female_theo_cath
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+										}
+										desc = baron_male_theo_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+										}
+										desc = baron_male_theo_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+										}
+										desc = baron_male_theo_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:castilian
+										}
+										desc = baron_male_theo_cath_castilian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:catalan
+										}
+										desc = baron_male_theo_cath_catalan
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:portuguese
+												scope:councillor_liege.culture = culture:galician
+											}
+										}
+										desc = baron_male_theo_cath_portuguese
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:saxon
+										}
+										desc = baron_male_theo_cath_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:central_germanic_group
+										}
+										desc = baron_male_theo_cath_mhg
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:andalusian
+										}
+										desc = baron_male_theo_cath_andalusian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:arabic_group
+										}
+										desc = baron_male_theo_cath_arabic
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:pommeranian
+										}
+										desc = baron_male_theo_cath_pommeranian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:czech
+										}
+										desc = baron_male_theo_cath_czech
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:polish
+										}
+										desc = baron_male_theo_cath_polish
+									}
+									desc = baron_male_theo_cath
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									AND = {
+										scope:councillor_liege.highest_held_title_tier = tier_county
+										NOT = {
+											scope:councillor_liege = {
+												has_government = theocracy_government
+											}	
+										}
+									}
+									AND = {
+										scope:councillor_liege = {
+											highest_held_title_tier = tier_duchy
+											has_government = theocracy_government
+										}
+									}
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:english
+												scope:councillor_liege.culture = culture:scottish
+											}
+										}
+										desc = count_default_cath_english
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:anglo_saxon
+										}
+										desc = count_male_theo_cath_anglo_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+										}
+										desc = count_default_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+										}
+										desc = count_theo_cath_norse
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:dutch
+										}
+										desc = count_default_cath_dutch
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:russian
+										}
+										desc = count_male_theo_cath_russian
+									}
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:goidelic_group
+													}
+													desc = count_female_theo_cath_goidelic
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:old_saxon
+													}
+													desc = count_default_female_cath_old_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:welsh
+													}
+													desc = count_female_theo_cath_welsh
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:cornish
+													}
+													desc = count_female_theo_cath_cornish
+												}
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:cumbrian
+															scope:councillor_liege.culture = culture:pictish
+														}
+													}
+													desc = count_female_theo_cath_cumbrian
+												}
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:french
+															scope:councillor_liege.culture = culture:norman
+														}
+													}
+													desc = count_default_female_cath_french
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:occitan
+													}
+													desc = count_default_female_cath_occitan
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:castilian
+													}
+													desc = count_default_female_cath_castilian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:catalan
+													}
+													desc = count_default_female_cath_catalan
+												}
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:portuguese
+															scope:councillor_liege.culture = culture:galician
+														}
+													}
+													desc = count_default_female_cath_portuguese
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:saxon
+													}
+													desc = count_default_female_cath_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:central_germanic_group
+													}
+													desc = count_default_female_cath_mhg
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:andalusian
+													}
+													desc = count_female_theo_cath_andalusian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:arabic_group
+													}
+													desc = count_female_theo_cath_arabic
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:greek
+													}
+													desc = count_female_theo_cath_greek
+												}
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:bosnian
+															scope:councillor_liege.culture = culture:serbian
+														}
+													}
+													desc = count_female_theo_cath_serbian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:pommeranian
+													}
+													desc = count_female_theo_cath_pommeranian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:czech
+													}
+													desc = count_female_theo_cath_czech
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:polish
+													}
+													desc = count_female_theo_cath_polish
+												}
+												desc = count_default_female_cath
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:goidelic_group
+										}
+										desc = count_male_theo_cath_goidelic
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:old_saxon
+										}
+										desc = count_default_male_cath_old_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:welsh
+										}
+										desc = count_male_theo_cath_welsh
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:cornish
+										}
+										desc = count_male_theo_cath_cornish
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:cumbrian
+												scope:councillor_liege.culture = culture:pictish
+											}
+										}
+										desc = count_male_theo_cath_cumbrian
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:french
+												scope:councillor_liege.culture = culture:norman
+											}
+										}
+										desc = count_default_male_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+										}
+										desc = count_default_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:castilian
+										}
+										desc = count_default_male_cath_castilian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:catalan
+										}
+										desc = count_default_male_cath_catalan
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:portuguese
+												scope:councillor_liege.culture = culture:galician
+											}
+										}
+										desc = count_default_male_cath_portuguese
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:saxon
+										}
+										desc = count_default_male_cath_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:central_germanic_group
+										}
+										desc = count_default_male_cath_mhg
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:andalusian
+										}
+										desc = count_male_theo_cath_andalusian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:arabic_group
+										}
+										desc = count_male_theo_cath_arabic
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:greek
+										}
+										desc = count_male_theo_cath_greek
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:bosnian
+												scope:councillor_liege.culture = culture:serbian
+											}
+										}
+										desc = count_male_theo_cath_serbian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:pommeranian
+										}
+										desc = count_male_theo_cath_pommeranian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:czech
+										}
+										desc = count_male_theo_cath_czech
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:polish
+										}
+										desc = count_male_theo_cath_polish
+									}
+									desc = count_default_male_cath
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									AND = {
+										scope:councillor_liege.highest_held_title_tier = tier_duchy
+										NOT = {
+											scope:councillor_liege = {
+												has_government = theocracy_government
+											}	
+										}
+									}
+									AND = {
+										scope:councillor_liege = {
+											highest_held_title_tier = tier_kingdom
+											has_government = theocracy_government
+										}
+									}
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:english
+												scope:councillor_liege.culture = culture:scottish
+											}
+										}
+										desc = duke_default_cath_english
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:anglo_saxon
+										}
+										desc = duke_male_theo_cath_anglo_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:basque
+										}
+										desc = duke_default_male_cath_basque
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:north_germanic_group
+										}
+										desc = duke_theo_cath_norse
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:dutch
+										}
+										desc = duke_default_male_cath_dutch
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:russian
+										}
+										desc = duke_male_theo_cath_russian
+									}
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:old_saxon
+													}
+													desc = duke_default_female_cath_old_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:french
+													}
+													desc = duke_default_female_cath_french
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:norman
+													}
+													desc = duke_default_female_cath_norman
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:occitan
+													}
+													desc = duke_default_female_cath_occitan
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:castilian
+													}
+													desc = duke_default_female_cath_castilian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:catalan
+													}
+													desc = duke_default_female_cath_catalan
+												}
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:portuguese
+															scope:councillor_liege.culture = culture:galician
+														}
+													}
+													desc = duke_default_female_cath_portuguese
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:saxon
+													}
+													desc = duke_default_female_cath_saxon
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:central_germanic_group
+													}
+													desc = duke_default_female_cath_mhg
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:andalusian
+													}
+													desc = duke_female_theo_cath_andalusian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:arabic_group
+													}
+													desc = duke_female_theo_cath_arabic
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:greek
+													}
+													desc = duke_female_theo_cath_greek
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:pommeranian
+													}
+													desc = duke_female_theo_cath_pommeranian
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:czech
+													}
+													desc = duke_female_theo_cath_czech
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:polish
+													}
+													desc = duke_female_theo_cath_polish
+												}
+												desc = duke_default_female_cath
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:old_saxon
+										}
+										desc = duke_default_male_cath_old_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:french
+										}
+										desc = duke_default_male_cath_french
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:norman
+										}
+										desc = duke_default_male_cath_norman
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:occitan
+										}
+										desc = duke_default_male_cath_occitan
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:castilian
+										}
+										desc = duke_default_male_cath_castilian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:catalan
+										}
+										desc = duke_default_male_cath_catalan
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:portuguese
+												scope:councillor_liege.culture = culture:galician
+											}
+										}
+										desc = duke_default_male_cath_portuguese
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:saxon
+										}
+										desc = duke_default_male_cath_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:central_germanic_group
+										}
+										desc = duke_default_male_cath_mhg
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:andalusian
+										}
+										desc = duke_male_theo_cath_andalusian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:arabic_group
+										}
+										desc = duke_male_theo_cath_arabic
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:greek
+										}
+										desc = duke_male_theo_cath_greek
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:pommeranian
+										}
+										desc = duke_male_theo_cath_pommeranian
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:czech
+										}
+										desc = duke_male_theo_cath_czech
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:polish
+										}
+										desc = duke_male_theo_cath_polish
+									}
+									desc = duke_default_male_cath
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier >= tier_kingdom
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:dutch
+										}
+										desc = king_theo_cath_dutch
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:central_germanic_group
+										}
+										desc = king_theo_cath_saxon
+									}
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture_group = culture_group:arabic_group
+													}
+													desc = king_female_theo_cath_arabic
+												}
+												triggered_desc = {
+													trigger = {
+														scope:councillor_liege.culture = culture:polish
+													}
+													desc = king_female_theo_cath_polish
+												}
+												desc = king_female_theo_cath
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture_group = culture_group:arabic_group
+										}
+										desc = king_male_theo_cath_arabic
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.culture = culture:polish
+										}
+										desc = king_male_theo_cath_polish
+									}
+									desc = king_male_theo_cath
+								}
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.religion = religion:germanic_religion
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = emperor_female_theo_germanic_swe_dan
+												}
+												desc = emperor_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = emperor_male_theo_germanic_swe_dan
+									}
+									desc = emperor_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								OR = {
+									scope:councillor_liege.highest_held_title_tier = tier_kingdom
+									scope:councillor_liege = {
+										is_independent_ruler = yes
+									}
+								}
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = king_female_theo_germanic_swe_dan
+												}
+												desc = king_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = king_male_theo_germanic_swe_dan
+									}
+									desc = king_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = duke_female_theo_germanic_swe_dan
+												}
+												desc = duke_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = duke_male_theo_germanic_swe_dan
+									}
+									desc = duke_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = count_female_theo_germanic_swe_dan
+												}
+												desc = count_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = count_male_theo_germanic_swe_dan
+									}
+									desc = count_male_theo_germanic
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											is_male = no
+										}
+										desc = {
+											first_valid = {
+												triggered_desc = {
+													trigger = {
+														OR = {
+															scope:councillor_liege.culture = culture:swedish
+															scope:councillor_liege.culture = culture:danish
+														}
+													}
+													desc = baron_female_theo_germanic_swe_dan
+												}
+												desc = baron_female_theo_germanic
+											}
+										}
+									}
+									triggered_desc = {
+										trigger = {
+											OR = {
+												scope:councillor_liege.culture = culture:swedish
+												scope:councillor_liege.culture = culture:danish
+											}
+										}
+										desc = baron_male_theo_germanic_swe_dan
+									}
+									desc = baron_male_theo_germanic
+								}
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
 					scope:councillor_liege.faith = { has_doctrine = doctrine_theocracy_temporal }
 				}
 				desc = actual_bishop_title

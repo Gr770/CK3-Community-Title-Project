@@ -3457,10 +3457,10 @@ CountyNorth = {
 				}
 			}
 		}
-		localization_key = duchy_north_germanic_group
+		localization_key = duchy_norse_norwegian
 	}
 	text = {
-		localization_key = county_default_north_germanic_group
+		localization_key = county_default_norse_norwegian
 		fallback = yes
 	}
 }
@@ -3487,7 +3487,7 @@ CountMaleNorse = {
 				}
 			}
 		}
-		localization_key = duke_male_north_germanic_group
+		localization_key = duke_male_norse_norwegian
 	}
 	text = {
 		localization_key = count_default_male_norse_norwegian
@@ -3517,10 +3517,30 @@ CountFemaleNorse = {
 				}
 			}
 		}
-		localization_key = duke_female_north_germanic_group
+		localization_key = duke_female_norse_norwegian
 	}
 	text = {
 		localization_key = count_default_female_norse_norwegian
+		fallback = yes
+	}
+}
+CountySwedish = {
+	type = character
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_swedish_danish
+	}
+	text = {
+		localization_key = county_default_swedish_danish
 		fallback = yes
 	}
 }
@@ -3547,7 +3567,7 @@ CountMaleSwedish = {
 				}
 			}
 		}
-		localization_key = duke_male_north_germanic_group
+		localization_key = duke_male_swedish_danish
 	}
 	text = {
 		localization_key = count_default_male_swedish_danish
@@ -3577,7 +3597,7 @@ CountFemaleSwedish = {
 				}
 			}
 		}
-		localization_key = duke_female_north_germanic_group
+		localization_key = duke_female_swedish_danish
 	}
 	text = {
 		localization_key = count_default_female_swedish_danish

@@ -615,12 +615,12 @@ baron_female_norman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_norman = {
+barony_castle_norman = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { norman }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_norman = {
@@ -738,7 +738,6 @@ kingdom_norman = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-
 emperor_male_norman = {
 	type = character
 	gender = male
@@ -849,12 +848,12 @@ baron_republic_female_norman = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_norman = {
+barony_city_norman = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { norman }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_norman = {
@@ -911,6 +910,14 @@ kingdom_republic_norman = {
 	governments = { republic_government }
 	top_liege = no
 }
+barony_tribe_norman = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { norman }
+	holding = tribal_holding
+	top_liege = no
+}
 ###############################################
 ## Occitan_culture
 
@@ -934,12 +941,12 @@ baron_female_occitan = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_occitan = {
+barony_castle_occitan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { occitan }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_occitan = {
@@ -1155,12 +1162,12 @@ baron_republic_occitan = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_occitan = {
+barony_city_occitan = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { occitan }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_occitan = {
@@ -1227,6 +1234,14 @@ kingdom_republic_occitan = {
 	priority = 143
 	cultures = { occitan }
 	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_occitan = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { occitan }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################

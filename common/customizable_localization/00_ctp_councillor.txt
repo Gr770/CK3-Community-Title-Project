@@ -216,9 +216,21 @@ CouncilPositionChancellor = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
+			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
 		}
-		localization_key = councillor_chancellor_north_germanic_group
+		localization_key = councillor_chancellor_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:danish
+			}
+		}
+		localization_key = councillor_chancellor_swedish_danish
 	}
 ##################################################
 ### Balto-Finnic
@@ -2197,9 +2209,21 @@ CouncilPositionMarshal = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
+			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
 		}
-		localization_key = councillor_marshal_north_germanic_group
+		localization_key = councillor_marshal_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:danish
+			}
+		}
+		localization_key = councillor_marshal_swedish_danish
 	}
 ##################################################
 ### Balto-Finnic
@@ -3197,13 +3221,6 @@ CouncilPositionSpymaster = {
 ##################################################	
 	text = {
 		trigger = {
-			liege.culture_group = culture_group:north_germanic_group
-			is_male = no
-		}
-		localization_key = councillor_spymaster_north_germanic_group_female
-	}
-	text = {
-		trigger = {
 			OR = {
 				liege.culture = culture:norse
 				liege.culture = culture:norwegian
@@ -3215,12 +3232,32 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			OR = {
+				liege.culture = culture:norse
+				liege.culture = culture:norwegian
+			}
+			is_male = no
+		}
+		localization_key = councillor_spymaster_norse_norwegian_female
+	}
+	text = {
+		trigger = {
+			OR = {
 				liege.culture = culture:swedish
 				liege.culture = culture:danish
 			}
 			is_male = yes
 		}
 		localization_key = councillor_spymaster_swedish_danish_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				liege.culture = culture:swedish
+				liege.culture = culture:danish
+			}
+			is_male = no
+		}
+		localization_key = councillor_spymaster_swedish_danish_female
 	}
 ##################################################
 ### Balto-Finnic
