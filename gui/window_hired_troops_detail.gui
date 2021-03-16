@@ -2,7 +2,7 @@ window = {
 	name = "hired_troop_detail_view"
 	datacontext = "[HiredTroopDetailView.GetHiredTroop]"
 	parentanchor = top|right
-	position = { -610 160 }
+	position = { -610 90 }
 
 	movable = no
 	layer = middle
@@ -281,7 +281,7 @@ window = {
 										text_label_left = {
 											visible = "[Not(HiredTroopRegiment.IsLevies)]"
 											text = "[Localize(Concatenate(HiredTroop.GetTitle.GetHolder.Custom('ctpCulture'),HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip))]"
-											#text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
+											#text = "[HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip]"
 										}
 
 										text_label_left = {
@@ -417,7 +417,7 @@ window = {
 												text_label_left = {
 													visible = "[Not(HiredTroopRegiment.IsLevies)]"
 													text = "[Localize(Concatenate(HiredTroop.GetTitle.GetHolder.Custom('ctpCulture'),HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip))]"
-													#text = "[HiredTroopRegiment.GetMenAtArmsType.GetName]"
+													#text = "[HiredTroopRegiment.GetMenAtArmsType.GetNameNoTooltip]"
 												}
 
 												text_label_left = {
@@ -576,6 +576,13 @@ window = {
 						visible = "[HiredTroop.IsHolyOrder]"
 						name = "holy_order_hire_info"
 						text = "HIRED_TROOPS_VIEW_HO_HIRE_INFO"
+					}
+
+					text_multi = {
+						visible = "[And( HiredTroop.IsHired, HiredTroop.GetHolyOrder.IsPlayerPatron )]"
+						text = "HIRED_TROOPS_HIRED_BY"
+						autoresize = yes
+						max_width = 280
 					}
 
 					button_primary = {

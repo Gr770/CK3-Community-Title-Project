@@ -833,9 +833,21 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_no_tooltip_north_germanic_group
+		localization_key = knight_no_tooltip_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_no_tooltip_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group
@@ -1504,9 +1516,21 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_lower_north_germanic_group
+		localization_key = knight_lower_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_lower_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group
@@ -2174,9 +2198,21 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_plural_north_germanic_group
+		localization_key = knight_plural_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_plural_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group
@@ -2844,9 +2880,21 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_plural_no_tooltip_north_germanic_group
+		localization_key = knight_plural_no_tooltip_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_plural_no_tooltip_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group
@@ -3515,9 +3563,21 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
+			OR = {
+				has_culture = culture:norse
+				has_culture = culture:norwegian
+			}
 		}
-		localization_key = knight_plural_lower_north_germanic_group
+		localization_key = knight_plural_lower_norse_norwegian
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
+		}
+		localization_key = knight_plural_lower_swedish_danish
 	}
 #####################################
 ## Balto-Finnic group

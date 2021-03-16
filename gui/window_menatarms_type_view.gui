@@ -67,7 +67,7 @@ window = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 			size = { 430 0 }
-			maximumsize = { -1 380 }
+			maximumsize = { -1 340 }
 			autoresizescrollarea = yes
 
 			blockoverride "scrollbox_content"
@@ -101,6 +101,7 @@ window = {
 									name = "men_at_arms_name"
 									layoutpolicy_horizontal = expanding
 									text = "[Localize(Concatenate( GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]"
+									#text = "[MenAtArmsType.GetNameNoTooltip]"
 									default_format = "#high"
 								}
 
@@ -175,7 +176,7 @@ window = {
 				duration = 0.2
 
 				animation = {
-					size = { 0 500 }
+					size = { 0 540 }
 					bezier = { 0 0.5 0.5 1 }
 				}
 
@@ -237,7 +238,7 @@ window = {
 					}
 
 					spacer = {
-						size = { 10 6 }
+						size = { 10 46 }
 					}
 
 					text_label_center = {
@@ -478,6 +479,7 @@ types MenAtArms
 			text_single = {
 				name = "title"
 				text = "[Localize(Concatenate( GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]"
+				#text = "[MenAtArmsType.GetNameNoTooltip]"
 				using = Font_Size_Medium
 
 			}
@@ -541,7 +543,7 @@ types MenAtArms
 		hbox = {
 			layoutpolicy_horizontal = expanding
 			visible = "[Not(IsDataModelEmpty(MenAtArmsType.GetTerrainModifiers))]"
-
+			
 			hbox = {
 				name = "terrain_grid"
 				datamodel = "[MenAtArmsType.GetTerrainModifiers]"
@@ -573,7 +575,6 @@ types MenAtArms
 					}
 				}
 			}
-
 			expand = {}
 		}
 
@@ -583,6 +584,63 @@ types MenAtArms
 
 			text = "REGIMENT_TERRAIN_BONUS_NONE"
 			minimumsize = { 0 44 }
+		}
+		
+		text_single = {
+			name = "winter_label"
+			layoutpolicy_horizontal = expanding
+			text = "REGIMENT_WINTER_EFFECT_HEADER"
+			visible = "[MenAtArmsType.HasWinterHarshModifier]"
+		}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			visible = "[MenAtArmsType.HasWinterHarshModifier]"
+
+			maa_winter_effects_positive_icon = { # Positive Harsh Winter Effects
+				blockoverride "maa_has_winter_modifier" {
+					visible = "[MenAtArmsType.HasWinterHarshModifier]"
+				}
+				blockoverride "maa_has_winter_effect" {
+					visible = "[MenAtArmsType.GetWinterHarshModifier.IsPositive]"
+					texture = "gfx/interface/icons/terrain_types/winter_harsh.dds"
+					tooltip = "REGIMENT_WINTER_HARSH_MODIFIER_TOOLTIP"
+				}
+			}
+
+			maa_winter_effects_positive_icon = { # Positive Normal Winter Effects
+				blockoverride "maa_has_winter_modifier" {
+					visible = "[MenAtArmsType.HasWinterNormalModifier]"
+				}
+				blockoverride "maa_has_winter_effect" {
+					visible = "[MenAtArmsType.GetWinterNormalModifier.IsPositive]"
+					texture = "gfx/interface/icons/terrain_types/winter_normal.dds"
+					tooltip = "REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP"
+				}
+			}
+
+			maa_winter_effects_negative_icon = { # Negative Harsh Winter Effects
+				blockoverride "maa_has_winter_modifier" {
+					visible = "[MenAtArmsType.HasWinterHarshModifier]"
+				}
+				blockoverride "maa_has_winter_effect" {
+					visible = "[Not( MenAtArmsType.GetWinterHarshModifier.IsPositive ) )]"
+					texture = "gfx/interface/icons/terrain_types/winter_harsh.dds"
+					tooltip = "REGIMENT_WINTER_HARSH_MODIFIER_TOOLTIP"
+				}
+			}
+
+			maa_winter_effects_negative_icon = { # Negative Normal Winter Effects
+				blockoverride "maa_has_winter_modifier" {
+					visible = "[MenAtArmsType.HasWinterNormalModifier]"
+				}
+				blockoverride "maa_has_winter_effect" {
+					visible = "[Not( MenAtArmsType.GetWinterNormalModifier.IsPositive ) )]"
+					texture = "gfx/interface/icons/terrain_types/winter_normal.dds"
+					tooltip = "REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP"
+				}
+			}
+			expand = {}
 		}
 	}
 
@@ -624,4 +682,33 @@ types MenAtArms
 			}
 		}
 	}
+
+	type maa_winter_effects_icon = hbox {
+		block "maa_has_winter_modifier" {}
+		icon = {
+			block "maa_has_winter_effect" {}
+			size = { 40 40 }
+			using = tooltip_below
+
+			icon = {
+				block "maa_winter_modifier_icon" {}
+				parentanchor = bottom|right
+				position = { 0 5 }
+				size = { 25 25 }
+			}
+		}
+	}
+
+	type maa_winter_effects_positive_icon = maa_winter_effects_icon {
+		blockoverride "maa_winter_modifier_icon" {
+			texture = "gfx/interface/icons/symbols/icon_plus_small.dds"
+		}
+	}
+
+	type maa_winter_effects_negative_icon = maa_winter_effects_icon {
+		blockoverride "maa_winter_modifier_icon" {
+			texture = "gfx/interface/icons/symbols/icon_minus_small.dds"
+		}
+	}
+
 }

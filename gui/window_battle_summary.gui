@@ -6,12 +6,16 @@ window = {
 	position = { 0 80 }
 	layer = middle
 
+	using = Window_Decoration_Warfare
+	blockoverride "frame_bottom" {}
+
 	background = {
 		texture = "gfx/interface/window_military/battle_summary_bg.dds"
 		spritetype = corneredstretched
-		spriteborder = { 20 200 }
+		spriteborder = { 0 200 }
 		texture_density = 2
 		margin = { -18 0 }
+        margin_top = -8
 
 		modify_texture = {
 			texture = "gfx/interface/window_military/battle_summary_bg_overlay.dds"
@@ -24,25 +28,6 @@ window = {
 			texture = "gfx/interface/component_overlay/overlay_effect.dds"
 			blend_mode = overlay
 		}
-	}
-
-	icon = {
-		name = "tile_frame_top"
-		texture = "gfx/interface/component_decoration/decoration_frame_top.dds"
-		spriteType = Corneredtiled
-		spriteborder = { 100 0 }
-		position = { 0 -10 }
-		size = { 100% 22 }
-		texture_density = 2
-
-	}
-
-	icon = {
-		name = "tile_frame_top_center_part"
-		texture = "gfx/interface/window_war/tile_frame_top.dds"
-		position = { 0 -50 }
-		parentanchor = top|hcenter
-		texture_density = 2
 	}
 
 	state = {
@@ -71,7 +56,7 @@ window = {
 
 	vbox = {
 		set_parent_size_to_minimum = yes
-		margin = { 55 10 }
+		margin = { 55 20 }
 		margin_bottom = 70
 
 		hbox = {
@@ -1072,30 +1057,34 @@ window = {
 
 													tooltipwidget = {
 														container = {
-															using = DefaultTooltipBackground
+															using = GeneralTooltipSetup
+															alwaystransparent = no
 
-															vbox = {
+															widget = {
+																name = "background"
+																using = DefaultTooltipBackground
+																size = { 100% 100% }
+																alwaystransparent = no
+															}
 
+															flowcontainer = {
+																direction = vertical
+																layoutpolicy_horizontal = expanding
 																margin = { 15 15 }
 
 																text_single = {
-																	text = "[BattleEvent.GetRightCharacter( BattleSummaryWindow.IsPlayerAttacker ).GetNameNoTooltip] was"
+																	text = "BATTLE_SUMMARY_KNIGHT_EVENT_EXPAND_HEADER_TT"
 																	default_format = "#tooltip_heading"
 																	layoutpolicy_horizontal = expanding
-																	margin = { 20 0 }
 																}
 
-																vbox = {
-																	datamodel = "[BattleSummaryWindow.GetEventSequence( BattleEvent.GetRightCharacter( BattleSummaryWindow.IsPlayerAttacker ) )]"
-																	set_parent_size_to_minimum = yes
-																	margin = { 20 0 }
+																datamodel = "[BattleSummaryWindow.GetEventSequence( BattleEvent.GetRightCharacter( BattleSummaryWindow.IsPlayerAttacker ) )]"
 
-																	item = {
-																		text_single = {
-																			layoutpolicy_horizontal = expanding
-																			datacontext = "[BattleEvent.GetLeftCharacter( BattleSummaryWindow.IsPlayerAttacker )]"
-																			text = "[BattleEvent.GetOutcomeDesc] [Character.GetNameNoTooltip]: [Character.GetSkill( 'prowess' )] [prowess|E]"
-																		}
+																item = {
+																	text_single = {
+																		layoutpolicy_horizontal = expanding
+																		datacontext = "[BattleEvent.GetLeftCharacter( BattleSummaryWindow.IsPlayerAttacker )]"
+																		text = "BATTLE_SUMMARY_KNIGHT_EVENT_EXPAND_ENTRY_TT"
 																	}
 																}
 															}
@@ -1304,6 +1293,7 @@ types BattleSummary
 
 			block "icon_texture" {
 				texture = "gfx/interface/illustrations/men_at_arms_small/levies.dds"
+				using = Mask_Rough_Edges
 			}
 		}
 	}
@@ -1390,7 +1380,7 @@ types BattleSummary
 					text_single = {
 						visible = "[Not( Or( RegimentCombatStats.IsKnight, RegimentCombatStats.IsLevy ) )]"
 						text = "[Localize(Concatenate(BattleSummaryWindow.GetLeftSideMainParticipant.Custom('ctpCulture'), RegimentCombatStats.GetMenAtArmsType.GetNameNoTooltip))]"
-						#text = "[RegimentCombatStats.GetMenAtArmsType.GetName]"
+						#text = "[RegimentCombatStats.GetMenAtArmsType.GetNameNoTooltip]"
 
 						tooltipwidget = {
 							widget_maa_summary = {
@@ -1409,7 +1399,7 @@ types BattleSummary
 
 					text_single = {
 						visible = "[RegimentCombatStats.IsKnight]"
-						text = "BATTLE_SUMMARY_KNIGHTS_LEFT"
+						text = "BATTLE_SUMMARY_KNIGHTS"
 
 						tooltipwidget = {
 							widget_knight_summary = {
@@ -1653,7 +1643,7 @@ types BattleSummary
 					text_single = {
 						visible = "[Not( Or( RegimentCombatStats.IsKnight, RegimentCombatStats.IsLevy ) )]"
 						text = "[Localize(Concatenate(BattleSummaryWindow.GetRightSideMainParticipant.Custom('ctpCulture'), RegimentCombatStats.GetMenAtArmsType.GetNameNoTooltip))]"
-						#text = "[RegimentCombatStats.GetMenAtArmsType.GetName]"
+						#text = "[RegimentCombatStats.GetMenAtArmsType.GetNameNoTooltip]"
 
 						tooltipwidget = {
 							widget_maa_summary = {
@@ -1672,7 +1662,7 @@ types BattleSummary
 
 					text_single = {
 						visible = "[RegimentCombatStats.IsKnight]"
-						text = "BATTLE_SUMMARY_KNIGHTS_RIGHT"
+						text = "BATTLE_SUMMARY_KNIGHTS"
 
 						tooltipwidget = {
 							widget_knight_summary = {
@@ -1826,6 +1816,7 @@ types BattleSummary
 
 				blockoverride "icon_texture" {
 					texture = "[RegimentCombatStats.GetMenAtArmsType.GetVerticalImage]"
+					using = Mask_Rough_Edges
 				}
 
 				tooltipwidget = {
@@ -1848,6 +1839,7 @@ types BattleSummary
 
 				blockoverride "icon_texture" {
 					texture = "gfx/interface/illustrations/men_at_arms_small/knights.dds"
+					using = Mask_Rough_Edges
 				}
 
 				tooltipwidget = {

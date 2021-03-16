@@ -968,6 +968,7 @@ template maa_type_container_tooltip
 						name = "header"
 						align = top|hcenter
 						text = "[Localize(Concatenate(GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]" ###
+						#text = "[MenAtArmsType.GetNameNoTooltip]"
 						maximumsize = { 400 -1 }
 
 						using = Font_Type_Flavor
@@ -1125,6 +1126,7 @@ widget = {
 					name = "header"
 					align = top|hcenter
 					text = "[Localize(Concatenate(GetPlayer.Custom('ctpCulture'), MenAtArmsType.GetNameNoTooltip ))]" ###
+					#text = "[MenAtArmsType.GetNameNoTooltip]"
 					maximumsize = { 400 -1 }
 
 					using = Font_Type_Flavor
@@ -1198,7 +1200,7 @@ widget = {
 					layoutpolicy_horizontal = expanding
 
 					text_single = {
-						text = "Creation Cost: [MenAtArmsType.GetCostString( GetPlayer )]"
+						text = "MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST"
 					}
 					expand = {}
 				}
@@ -1290,6 +1292,7 @@ template regiment_container_tooltip
 						name = "header"
 						align = top|hcenter
 						text = "[Localize(Concatenate( Regiment.GetOwner.Custom('ctpCulture'), Regiment.GetNameNoTooltip ))]"
+						#text = "[Regiment.GetNameNoTooltip]"
 						maximumsize = { 400 -1 }
 
 						using = Font_Type_Flavor
@@ -1463,6 +1466,7 @@ template regiment_container_text_tooltip
 						name = "header"
 						align = top|hcenter
 						text = "[Localize(Concatenate( Regiment.GetOwner.Custom('ctpCulture'), Regiment.GetNameNoTooltip ))]"
+						#text = "[Regiment.GetNameNoTooltip]"
 						maximumsize = { 400 -1 }
 
 						using = Font_Type_Flavor
@@ -1788,6 +1792,7 @@ template unit_icon_item_tooltip {
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "[Army.GetSupplyInfoForTooltip]"
+						tooltip = "[Army.GetSupplyStateTooltip]"
 						align = nobaseline
 					}
 				}
@@ -2115,18 +2120,17 @@ types HoldingTooltips
 						layoutpolicy_horizontal = expanding
 						text = "HOLDING_TT_LEASED"
 					}
-
-
-					text_single = {
-						layoutpolicy_horizontal = expanding
-						text = [Holding.GetTooltip]
-					}
 				}
 
 				text_single = {
 					visible = "[Holding.IsEmpty]"
 					layoutpolicy_horizontal = expanding
 					text = "HOLDING_TT_EMPTY"
+				}
+
+				text_single = {
+					layoutpolicy_horizontal = expanding
+					text = [Holding.GetTooltip]
 				}
 
 				hbox = {

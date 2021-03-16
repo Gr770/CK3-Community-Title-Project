@@ -324,7 +324,7 @@ window = {
 
 			hbox = {
 				name = "supplies"
-				tooltip = "[ArmyWindow.GetSupplyStateTooltip]"
+				tooltip = "[Army.GetSupplyStateTooltip]"
 
 				icon = {
 					name = "supply_icon"
@@ -440,7 +440,7 @@ window = {
 
 				hbox = {
 					name = "supplies"
-					tooltip = "[ArmyWindow.GetSupplyStateTooltip]"
+					tooltip = "[Army.GetSupplyStateTooltip]"
 
 					icon = {
 						name = "supply_icon"
@@ -701,16 +701,17 @@ window = {
 									parentanchor = center
 								}
 
-								widget = {
-									size = { 45 50 }
+								button = {
+									size = { 50 50 }
+									enabled = "[ArmyWindow.CanShowCommanders]"
+									onclick = "[ArmyWindow.ShowCommanders]"
+									tooltip = "[ArmyWindow.GetShowCommandersTooltip]"
 
 									button_replace = {
 										name = "change_commander"
-										enabled = "[ArmyWindow.CanShowCommanders]"
-										onclick = "[ArmyWindow.ShowCommanders]"
 										parentanchor = center
-										alwaystransparent = no
-										tooltip = "[ArmyWindow.GetShowCommandersTooltip]"
+										size = { 36 36 }
+										alwaystransparent = yes
 									}
 								}
 
@@ -1819,9 +1820,11 @@ types ArmyWindow
 		margin = {4 4}
 		tooltip = "[ArmyComposition.GetArmyCompositionTooltip]"
 
-		background = {
-			using = Background_Area_Dark
-			margin = { 3 0 }
+		block "background" {
+			background = {
+				using = Background_Area_Dark
+				margin = { 3 0 }
+			}
 		}
 
 		icon = {
@@ -1899,7 +1902,7 @@ types ArmyWindow
 				texture = "gfx/interface/icons/icon_knight_small.dds"
 			}
 		}
-
+		
 		text_single = {
 			name = "maa_name"
 			layoutpolicy_horizontal = expanding
@@ -1907,14 +1910,14 @@ types ArmyWindow
 			#text = "[RegimentReorgEntry.GetName]"
 			visible = "[RegimentReorgEntry.IsMaA]"
 		}
-		
+
 		text_single = {
 			name = "name"
 			layoutpolicy_horizontal = expanding
 			text = "[RegimentReorgEntry.GetName]"
 			visible = "[Not(RegimentReorgEntry.IsMaA)]"
 		}
-		
+
 		coa_realm_tiny = {
 			name = "hired_coa"
 			visible = "[RegimentReorgEntry.ShowCoA]"

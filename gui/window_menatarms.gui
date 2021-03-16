@@ -33,6 +33,7 @@ window = {
 	vbox = {
 		set_parent_size_to_minimum = yes
 		margin = { 4 4 }
+
 		state = {
 			name = "menatarms_refresh"
 			alpha = 0.5
@@ -54,15 +55,14 @@ window = {
 			blockoverride "header_text"
 			{
 				text = "[Localize(Concatenate( Regiment.GetOwner.Custom('ctpCulture'), Regiment.GetNameNoTooltip ))]"
-				#text = "[Regiment.GetMAAType.GetBaseTypeName]"
+				#text = "[Regiment.GetNameNoTooltip]"
 			}
-			
+
 			blockoverride "button_close"
 			{
 				onclick = "[MenAtArmsView.Close]"
-				
+
 			}
-			tooltip = "[Localize(Concatenate('default', Regiment.GetNameNoTooltip))]"
 		}
 
 		vbox = {
