@@ -3468,16 +3468,6 @@ CountMaleNorse = {
 	type = character
 	text = {
 		trigger = {
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_male
-	}
-	text = {
-		trigger = {
 			root.top_liege = {
 				has_culture_group = culture_group:west_germanic_group
 				OR = {
@@ -3496,16 +3486,6 @@ CountMaleNorse = {
 }
 CountFemaleNorse = {
 	type = character
-	text = {
-		trigger = {
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_female
-	}
 	text = {
 		trigger = {
 			root.top_liege = {
@@ -3548,16 +3528,6 @@ CountMaleSwedish = {
 	type = character
 	text = {
 		trigger = {
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_male
-	}
-	text = {
-		trigger = {
 			root.top_liege = {
 				has_culture_group = culture_group:west_germanic_group
 				OR = {
@@ -3576,16 +3546,6 @@ CountMaleSwedish = {
 }
 CountFemaleSwedish = {
 	type = character
-	text = {
-		trigger = {
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_female
-	}
 	text = {
 		trigger = {
 			root.top_liege = {
