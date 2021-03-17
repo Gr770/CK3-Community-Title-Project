@@ -5,12 +5,20 @@
 ###############################################
 ## Goidelic_culture_group ## (Irish and Gaelic)
 ###############################################
-barony_goidelic_group = {
+barony_castle_goidelic_group = {
 	type = title
 	tier = barony
 	priority = 102
 	culture_groups = { goidelic_group }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
+	top_liege = no
+}
+barony_tribe_goidelic_group = {
+	type = title
+	tier = barony
+	priority = 102
+	culture_groups = { goidelic_group }
+	holding = tribal_holding
 	top_liege = no
 }
 king_male_goidelic_group = {
@@ -151,12 +159,12 @@ baron_republic_female_goidelic_group = {
 	governments = { republic_government }
 	top_liege = no
 }
-barony_republic_goidelic_group = {
+barony_city_goidelic_group = {
 	type = title
 	tier = barony
 	priority = 102
 	culture_groups = { goidelic_group }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_male_goidelic_group = {

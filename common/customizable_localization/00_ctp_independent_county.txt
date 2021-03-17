@@ -71,7 +71,7 @@ CornishIndepCounty = {
 		localization_key = independent_county_cornish
 	}
 }
-NorthGermanicIndepCounty = {
+NorthIndepCounty = {
 	type = character
 	text = {
 		trigger = {
@@ -84,22 +84,25 @@ NorthGermanicIndepCounty = {
 		localization_key = county_default_norse_norwegian
 	}
 	text = {
-		trigger = {
-			highest_held_title_tier >= tier_duchy
-			has_culture = culture:swedish
-		}
-		localization_key = county_default_swedish
+		fallback = yes
+		localization_key = kingdom_norse_norwegian
 	}
+}
+SwedishIndepCounty = {
+	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			has_culture = culture:danish
+			OR = {
+				has_culture = culture:swedish
+				has_culture = culture:danish
+			}
 		}
-		localization_key = county_default_danish
+		localization_key = county_default_swedish_danish
 	}
 	text = {
 		fallback = yes
-		localization_key = kingdom_north_germanic_group
+		localization_key = kingdom_swedish_danish
 	}
 }
 FinnishIndepCounty = {

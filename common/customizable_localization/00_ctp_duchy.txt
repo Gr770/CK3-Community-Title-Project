@@ -4663,41 +4663,6 @@ DuchyAragonese = {
 		fallback = yes
 	}
 }
-DukeMaleNorth = {
-	type = character
-	text = {
-		trigger = {
-			exists = liege
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_male
-	}
-	text = {
-		localization_key = duke_default_male_north
-		fallback = yes
-	}
-}
-DukeFemaleNorth = {
-	type = character
-	text = {
-		trigger = {
-			root.liege = {
-				any_heir = {
-					this = root
-				}
-			}
-		}
-		localization_key = norse_heir_female
-	}
-	text = {
-		localization_key = duke_default_female_north
-		fallback = yes
-	}
-}
 DukeMaleFinnish = {
 	type = character
 	text = {

@@ -1439,8 +1439,20 @@ barony_city_portugese = {
 	holding = city_holding
 	top_liege = no
 }
-count_republic_portugese = {
+count_republic_male_portugese = {
 	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { portuguese galician }
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+count_republic_female_portugese = {
+	type = character
+	gender = female
 	special = holder
 	tier = county
 	priority = 113
