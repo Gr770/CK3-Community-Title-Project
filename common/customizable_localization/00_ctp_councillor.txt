@@ -3283,39 +3283,20 @@ CouncilPositionSpymaster = {
 ##################################################
 ### Central Germanic
 ##################################################
-		text = {
-		trigger = {
-			liege = {
-				has_primary_title = title:e_hre
-				has_culture = culture:saxon
-			}
-			is_male = yes
-		}
-		localization_key = councillor_hre_spymaster_saxon_male
-	}
 	text = {
 		trigger = {
 			liege = {
 				has_primary_title = title:e_hre
 				has_culture = culture:saxon
 			}
-			is_male = no
 		}
-		localization_key = councillor_hre_spymaster_saxon_female
+		localization_key = councillor_hre_spymaster_saxon
 	}
 	text = {
 		trigger = {
 			liege.culture = culture:saxon
-			is_male = yes
 		}
-		localization_key = councillor_spymaster_saxon_male
-	}
-	text = {
-		trigger = {
-			liege.culture = culture:saxon
-			is_male = no
-		}
-		localization_key = councillor_spymaster_saxon_female
+		localization_key = councillor_spymaster_saxon
 	}
 	text = {
 		trigger = {
@@ -3327,23 +3308,8 @@ CouncilPositionSpymaster = {
 					has_culture = culture:swabian
 				}
 			}
-			is_male = yes
 		}
-		localization_key = councillor_hre_spymaster_mhg_male
-	}
-	text = {
-		trigger = {
-			liege = {
-				has_primary_title = title:e_hre
-				OR = {
-					has_culture = culture:bavarian
-					has_culture = culture:franconian
-					has_culture = culture:swabian
-				}
-			}
-			is_male = no
-		}
-		localization_key = councillor_hre_spymaster_mhg_female
+		localization_key = councillor_hre_spymaster_mhg
 	}
 	text = {
 		trigger = {
@@ -3352,35 +3318,14 @@ CouncilPositionSpymaster = {
 				liege.culture = culture:franconian
 				liege.culture = culture:swabian
 			}
-			is_male = yes
 		}
-		localization_key = councillor_spymaster_mhg_male
-	}
-	text = {
-		trigger = {
-			OR = {
-				liege.culture = culture:bavarian
-				liege.culture = culture:franconian
-				liege.culture = culture:swabian
-			}
-			is_male = no
-		}
-		localization_key = councillor_spymaster_mhg_female
-	}
-
-	text = {
-		trigger = {
-			liege.culture = culture:frisian
-			is_male = yes
-		}
-		localization_key = councillor_spymaster_frisian_male
+		localization_key = councillor_spymaster_mhg
 	}
 	text = {
 		trigger = {
 			liege.culture = culture:frisian
-			is_male = no
 		}
-		localization_key = councillor_spymaster_frisian_female
+		localization_key = councillor_spymaster_frisian
 	}
 	text = {
 		trigger = {
