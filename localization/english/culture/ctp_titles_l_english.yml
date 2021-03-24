@@ -5992,7 +5992,7 @@
 ########################################################
  #Mongolic
 ########################################################
-  barony_mongolic_group: "Tura"
+  barony_castle_mongolic_group: "Tura"
   
   county_feudalclan_mongolic_group: "Mingan"
   
@@ -6003,8 +6003,11 @@
   king_female_mongolic_group: "Qatun"
   kingdom_mongolic_group: "Qağantay Güren"
   
+  kingdom_mongolic_group_independent: "[CHARACTER.Custom('IndepKingdomMongol')]"
+  
   emperor_male_mongolic_group: "Ezen Qağan"
   emperor_female_mongolic_group: "Ezen Qatun"
+  empire_mongolic_group: "Ulus"
   
   title_prince_male_mongolic_group: "Kũwāra"
   title_prince_female_mongolic_group: "Kũwārī"
@@ -6016,9 +6019,23 @@
   empress_mother_mongolic_group: "$emperor_female_mongolic_group$"
   
   baron_republic_mongolic_group: "Jongtur"
-  barony_republic_mongolic_group: "Balgasun"
+  barony_city_mongolic_group: "Balgasun"
   
   county_tribal_mongolic_group: "Esege Zon"
+  
+  barony_tribe_mongolic_group: "$barony_castle_mongolic_group$"
+########################################################
+  #Khitan
+########################################################
+   county_feudalclan_khitan: "Miŋan"
+   
+   king_male_khitan: "Qaha"
+   
+   emperor_male_khitan: "Hoŋdi"
+   emperor_female_holder_khitan: "Hoŋdi"
+   emperor_female_khitan: "Hoŋheu"
+   
+   empress_mother_khitan: "Hoŋtaiheu"
 ########################################################
  #Qiangic
 ########################################################
@@ -6287,9 +6304,9 @@
 ########################################################
   #Beja
 ########################################################
-   baron_male_beja: "óo-Gawi Kína"
-   baron_female_holder_beja: "$baron_male_beja$"
+   baron_male_beja: "Kína"
    baron_female_beja: "Kína"
+   barony_castle_beja: "Balád"
    
    count_male_beja: "Hadaa'"
    count_female_beja: "Hadaa't"
@@ -6297,6 +6314,7 @@
    
    duke_male_beja: "Takléel"
    duke_female_beja: "Takléelt"
+   duchy_beja: "Hokúm"
    
    duke_male_beja_independent: "Ámiir"
    duke_female_beja_independent: "Ámiirt"
@@ -6313,6 +6331,10 @@
    
    queen_mother_beja: "$king_female_beja$"
    empress_mother_beja: "$emperor_female_beja$"
+   
+   barony_city_beja: "Balád"
+   
+   barony_tribe_beja: "Balád"
 ########################################################
   #Afar
 ########################################################
