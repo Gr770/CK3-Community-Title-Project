@@ -4673,14 +4673,17 @@
 ######################################################
   #Guan
 ######################################################
-   baron_male_guan: "Teŋgaansob"
-   barony_castle_akan: "Teŋgaan"
+   baron_male_guan: "Kasawulewura"
+   baron_female_guan: "Kasawulewurache"
+   barony_castle_akan: "Kasawule"
    
    count_male_guan: "Ewura"
    count_female_guan: "Ewurache"
    county_guan: "Tiuŋ"
    
-   duke_male_guan: "Ewurgboŋ"
+   duke_guan: "Ewurgboŋ"
+   duke_male_guan: "Ewura"
+   duke_female_guan: "Ewurache"
    
    duke_male_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
    duke_female_guan_independent: "Ewurache"
@@ -4739,47 +4742,66 @@
 ######################################################
   #Mon
 ######################################################
-   baron_male_mon: "Smiṅ"
-   barony_castle_mon: "Ḍūṅ"
+   baron_mon: "Smiṅ"
+   baron_male_mon: "Maṅ"
+   baron_female_mon: "Ya"
+   barony_castle_mon: "Ḍuṅ"
    
-   count_male_mon: "Bañña"
-   county_mon: "Prī Krī"
+   count_mon: "Sambeṅ"
+   count_male_mon: "Maṅ"
+   count_female_mon: "Ya"
+   county_mon: "Rās"
+   
+   count_mon_independent: "Bañā"
+   
+   duke_mon: "Bañā"
+   duke_male_mon: "Maṅ"
+   duke_female_mon: "Ya"
+   duchy_mon: "Ḍuṅ Jnok"
+   
+   duke_male_mon_independent: "Gna Smiṅ"
+   duke_female_holder_mon_independent: "Gna Smiṅ"
+   duke_female_mon_independent: "Gna Kyȧk"
+   duchy_mon_independent: "[CHARACTER.Custom('MonIndepDuchy')]"
    
    king_male_mon: "Gna Smiṅ"
+   king_female_holder_mon: "Gna Smiṅ"
    king_female_mon: "Gna Kyȧk"
+   kingdom_mon: "Kirmin"
+   
+   emperor_male_mon: "Rājādhirāt"
    
    title_prince_male_mon: "Bañña"
    title_prince_female_mon: "$title_prince_male_mon$"
    queen_mother_mon: "$king_female_mon$"
    
-   baron_republic_mon: "Myothugyi"
    barony_city_mon: "Twāñ"
 ######################################################
  #Dravidian Culture Group
 ######################################################
   #Tamil
 ######################################################
-   baron_male_tamil: "Veḷḷāḷar"
-   baron_female_tamil: "Veḷḷāḷar"
+   baron_male_tamil: "Uḍaiyār"
+   baron_female_tamil: "Uḍaiyār"
    barony_castle_tamil: "Koṭṭam"
    
    count_male_tamil: "Nāḍāḷvār"
    count_female_tamil: "Nāḍāḷvār"
    county_tamil: "Nāḍu"
    
-   count_male_tamil_independent: "Irunkōvēlar"
-   count_female_tamil_independent: "Irunkōvēlar"
+   count_male_tamil_independent: "Kōmāṉ"
+   count_female_tamil_independent: "Kōmāṭṭi"
    county_tamil_independent: "[CHARACTER.Custom('TamilIndepCounty')]"
-   independent_county_tamil: "Arasu"
+   independent_county_tamil: "Nāḍu"
    
    duke_male_tamil: "Maṇḍalamudaliyār"
    duke_female_tamil: "Maṇḍalamudaliyār"
    duchy_tamil: "Maṇḍalam"
    
-   duke_male_tamil_independent: "Pērarasan"
-   duke_female_tamil_independent: "Pērarasi"
+   duke_male_tamil_independent: "Kō"
+   duke_female_tamil_independent: "Kō"
    duchy_tamil_independent: "[CHARACTER.Custom('TamilIndepDuchy')]"
-   independent_duchy_tamil: "Pērarasu"
+   independent_duchy_tamil: "Periyanāḍu"
    
    king_male_tamil: "[CHARACTER.Custom('KingMaleTamil')]"
    king_female_tamil: "[CHARACTER.Custom('KingFemaleTamil')]"
@@ -4793,9 +4815,9 @@
    king_default_female_holder_tamil: "Iṟaivi"
    kingdom_default_tamil: "Sāmarājiyam"
    
-   emperor_male_tamil: "Cakkaravartti"
+   emperor_male_tamil: "Cakkaravattigaḷ"
    emperor_female_tamil: "Peruṇdēvi"
-   emperor_female_tamil_holder: "Cakkaravarttini"
+   emperor_female_tamil_holder: "Cakkaravatttini"
    empire_tamil: "Prthvīrājyam"
    
    title_prince_male_tamil: "[CHARACTER.Custom('PrinceTamil')]"
@@ -5063,7 +5085,7 @@
    
    duke_male_welayta_independent: "Motalami"
    duke_female_welayta_independent: "Kawiya"
-   duke_female_welayta_holder_independent: "$duke_male_welayta_independent$"
+   duke_female_welayta_holder_independent: "Motalamitettaa"
    
    king_male_welayta: "Kawó"
    king_female_welayta: "Abéntá"
@@ -5090,26 +5112,26 @@
    count_male_daju_independent: "$duke_male_daju$"
    count_female_daju_independent: "$duke_female_daju$"
    county_daju_independent: "[CHARACTER.Custom('DajuIndepCounty')]"
-   independent_county_daju: "Bùgíttìgé"
+   independent_county_daju: "Ɓùgíttìgé"
    
-   duke_male_daju: "Bùgé"
-   duke_female_daju: "Ùrá Bùgé"
-   duchy_daju: "Bùgíttìgé"
+   duke_male_daju: "Ɓùgé"
+   duke_female_daju: "Ùrá Ɓùgé"
+   duchy_daju: "Ɓùgíttìgé"
    
    duke_male_daju_independent: "$king_male_daju$"
    duke_female_daju_independent: "$king_female_daju$"
    duchy_daju_independent: "[CHARACTER.Custom('DajuIndepDuchy')]"
    
-   king_male_daju: "Bùgúr"
-   king_female_daju: "Ùrá Bùgúr"
-   kingdom_daju: "Bùgúrdìgé"
+   king_male_daju: "Ɓùgúr"
+   king_female_daju: "Ùrá Ɓùgúr"
+   kingdom_daju: "Ɓùgúrdìgé"
    
-   emperor_male_daju: "Bónnò"
-   emperor_female_daju: "Ùrá Bónnò"
-   empire_daju: "Bóŋdìgé"
+   emperor_male_daju: "Ɓónnò"
+   emperor_female_daju: "Ùrá Ɓónnò"
+   empire_daju: "Ɓóŋdìgé"
    
-   queen_mother_daju: "Bóósín Bùgúr"
-   empress_mother_daju: "Bóósín Bónnò"
+   queen_mother_daju: "Ɓóósín Ɓùgúr"
+   empress_mother_daju: "Ɓóósín Ɓónnò"
    
    baron_republic_daju: "Lèèdé Héllé"
    barony_city_daju: "Héllé"
