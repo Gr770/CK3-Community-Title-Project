@@ -5,17 +5,17 @@
 ###############################################
 ## Mongolic Culture Group ##
 ###############################################
-barony_mongolic_group = {
+barony_castle_mongolic_group = {
 	type = title
 	tier = barony
-	priority = 103
+	priority = 102
 	culture_groups = { mongolic_group }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
 	top_liege = no
 }
 county_feudalclan_mongolic_group = {
 	type = title
-	priority = 113
+	priority = 112
 	tier = county
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government }
@@ -26,7 +26,7 @@ duke_male_mongolic_group = {
 	gender = male
 	special = holder
 	tier = duchy
-	priority = 123
+	priority = 122
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -34,7 +34,7 @@ duke_male_mongolic_group = {
 duchy_mongolic_group = {
 	type = title
 	tier = duchy
-	priority = 123
+	priority = 122
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -43,7 +43,7 @@ king_male_mongolic_group = {
 	type = character
 	gender = male
 	special = holder
-	priority = 143
+	priority = 142
 	tier = kingdom
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government }
@@ -53,7 +53,7 @@ king_female_mongolic_group = {
 	type = character
 	gender = female
 	special = holder
-	priority = 143
+	priority = 142
 	tier = kingdom
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government }
@@ -61,17 +61,26 @@ king_female_mongolic_group = {
 }
 kingdom_mongolic_group = {
 	type = title
-	priority = 143
+	priority = 142
 	tier = kingdom
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+kingdom_mongolic_group_independent = {
+	type = title
+	priority = 143
+	tier = kingdom
+	culture_groups = { mongolic_group }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 emperor_male_mongolic_group = {
 	type = character
 	gender = male
 	special = holder
-	priority = 153
+	priority = 152
 	tier = empire
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government republic_government }
@@ -81,10 +90,18 @@ emperor_female_mongolic_group = {
 	type = character
 	gender = female
 	special = holder
-	priority = 153
+	priority = 152
 	tier = empire
 	culture_groups = { mongolic_group }
 	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_mongolic_group = {
+	type = title
+	priority = 152
+	tier = empire
+	culture_groups = { mongolic_group }
+	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
 title_prince_male_mongolic_group = {
@@ -177,12 +194,12 @@ baron_republic_mongolic_group = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_mongolic_group = {
+barony_city_mongolic_group = {
 	type = title
 	tier = barony
 	priority = 153
 	culture_groups = { mongolic_group }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 county_tribal_mongolic_group = {
@@ -191,5 +208,75 @@ county_tribal_mongolic_group = {
 	priority = 113
 	culture_groups = { mongolic_group }
 	governments = { tribal_government }
+	top_liege = no
+}
+barony_tribe_mongolic_group = {
+	type = title
+	tier = barony
+	priority = 102
+	culture_groups = { mongolic_group }
+	holding = tribal_holding
+	top_liege = no
+}
+###############################################
+## Khitan Culture ##
+###############################################
+county_feudalclan_khitan = {
+	type = title
+	priority = 113
+	tier = county
+	cultures = { khitan }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+king_male_khitan = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	cultures = { khitan }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_khitan = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { khitan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_holder_khitan = {
+	type = character
+	gender = female
+	special = holder
+	priority = 154
+	tier = empire
+	cultures = { khitan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
+}
+emperor_female_khitan = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { khitan }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empress_mother_khitan ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 151
+	cultures = { khitan }
+	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }

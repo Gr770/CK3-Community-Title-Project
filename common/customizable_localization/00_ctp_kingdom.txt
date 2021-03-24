@@ -5977,6 +5977,19 @@ KingdomKimek = {
 		localization_key = kingdom_default_turkish_group_two
 	}
 }
+IndepKingdomMongol = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_empire
+		}
+		localization_key = kingdom_mongolic_group
+	}
+	text = {
+		fallback = yes
+		localization_key = empire_mongolic_group
+	}
+}
 KingMalePersian = {
 	type = character
 	text = {
