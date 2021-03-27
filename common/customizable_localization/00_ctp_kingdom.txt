@@ -1,4 +1,4 @@
-﻿KingMaleGoidelic = {
+﻿SultanMaleGoidelic = {
 	type = character
 	text = {
 		trigger = {
@@ -23,11 +23,36 @@
 		localization_key = sultan_male_goidelic
 	}
 	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = king_male_holder_goid
+	}
+	text = {
 		fallback = yes
-		localization_key = king_default_male_goidelic
+		localization_key = king_male_non_holder_goid
 	}
 }
-KingFemaleGoidelic = {
+KingMaleGoid = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = high_king_male_gael_norse
+	}
+	text = {
+		localization_key = king_default_male_goidelic
+		fallback = yes
+	}
+}
+SultanFemaleGoidelic = {
 	type = character
 	text = {
 		trigger = {
@@ -52,8 +77,33 @@ KingFemaleGoidelic = {
 		localization_key = sultan_female_goidelic
 	}
 	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = king_female_holder_goid
+	}
+	text = {
 		fallback = yes
+		localization_key = king_female_non_holder_goid
+	}
+}
+KingFemaleGoid = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = high_king_female_gael_norse
+	}
+	text = {
 		localization_key = king_default_female_goidelic
+		fallback = yes
 	}
 }
 KingdomGoidelic = {
@@ -146,7 +196,7 @@ KingdomEnglish = {
 		localization_key = kingdom_default_english
 	}
 }
-KingMaleAngloSaxon = {
+SultanMaleAngloSaxon = {
 	type = character
 	text = {
 		trigger = {
@@ -171,11 +221,36 @@ KingMaleAngloSaxon = {
 		localization_key = sultan_male_anglo_saxon
 	}
 	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = king_default_male_holder_anglo
+	}
+	text = {
 		fallback = yes
-		localization_key = king_default_male_anglo_saxon
+		localization_key = king_default_male_anglo
 	}
 }
-KingFemaleAngloSaxon = {
+KingMaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = king_default_male_anglo_norse
+	}
+	text = {
+		localization_key = king_default_male_anglo_saxon
+		fallback = yes
+	}
+}
+SultanFemaleAngloSaxon = {
 	type = character
 	text = {
 		trigger = {
@@ -200,8 +275,33 @@ KingFemaleAngloSaxon = {
 		localization_key = sultan_female_anglo_saxon
 	}
 	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = king_default_female_holder_anglo
+	}
+	text = {
 		fallback = yes
+		localization_key = king_default_female_anglo
+	}
+}
+KingFemaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = king_default_female_anglo_norse
+	}
+	text = {
 		localization_key = king_default_female_anglo_saxon
+		fallback = yes
 	}
 }
 KingdomAngloSaxon = {

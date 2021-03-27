@@ -1,5 +1,19 @@
-﻿CountMaleIrish = {
+﻿DynastyMaleIrish = {
 	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_male_holder_irish
+	}
 	text = {
 		trigger = {
 			root.top_liege = {
@@ -11,10 +25,94 @@
 				}
 			}
 		}
-		localization_key = earl_male_irish
+		localization_key = earl_male_non_holder_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = count_male_holder_irish
+	}
+	text = {
+		localization_key = count_male_non_holder_irish
+		fallback = yes
+	}
+}
+CountMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = count_male_gael_norse
 	}
 	text = {
 		localization_key = count_default_male_irish
+		fallback = yes
+	}
+}
+EarlMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_male_gael_norse
+	}
+	text = {
+		localization_key = earl_male_irish
+		fallback = yes
+	}
+}
+DynastyFemaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_female_holder_irish
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_female_non_holder_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = count_female_holder_irish
+	}
+	text = {
+		localization_key = count_female_non_holder_irish
 		fallback = yes
 	}
 }
@@ -22,19 +120,37 @@ CountFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
 				}
 			}
 		}
-		localization_key = earl_female_irish
+		localization_key = count_female_gael_norse
 	}
 	text = {
 		localization_key = count_default_female_irish
+		fallback = yes
+	}
+}
+EarlFemaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_female_gael_norse
+	}
+	text = {
+		localization_key = earl_female_irish
 		fallback = yes
 	}
 }
@@ -58,8 +174,22 @@ CountyIrish = {
 		fallback = yes
 	}
 }
-CountMaleGaelic = {
+DynastyMaleGaelic = {
 	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_male_holder_irish
+	}
 	text = {
 		trigger = {
 			root.top_liege = {
@@ -71,10 +201,75 @@ CountMaleGaelic = {
 				}
 			}
 		}
-		localization_key = earl_male_irish
+		localization_key = earl_male_non_holder_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = count_male_holder_gaelic
+	}
+	text = {
+		localization_key = count_male_non_holder_gaelic
+		fallback = yes
+	}
+}
+CountMaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = count_male_gael_norse
 	}
 	text = {
 		localization_key = count_default_male_gaelic
+		fallback = yes
+	}
+}
+DynastyFemaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_female_holder_irish
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = earl_female_non_holder_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = count_female_holder_gaelic
+	}
+	text = {
+		localization_key = count_female_non_holder_gaelic
 		fallback = yes
 	}
 }
@@ -82,16 +277,15 @@ CountFemaleGaelic = {
 	type = character
 	text = {
 		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
 				}
 			}
 		}
-		localization_key = earl_female_irish
+		localization_key = count_female_gael_norse
 	}
 	text = {
 		localization_key = count_default_female_gaelic
@@ -102,16 +296,15 @@ CountFemaleGaelicHolder = {
 	type = character
 	text = {
 		trigger = {
-			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
-				OR = {
-					has_primary_title = title:e_britannia
-					has_primary_title = title:k_england
-					has_primary_title = title:k_scotland
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
 				}
 			}
 		}
-		localization_key = earl_female_irish
+		localization_key = count_female_gael_norse
 	}
 	text = {
 		localization_key = count_default_female_gaelic_holder
@@ -437,6 +630,25 @@ CountyEnglish = {
 	}
 	text = {
 		localization_key = county_default_english
+		fallback = yes
+	}
+}
+CountMaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = count_feudalclan_male_anglo_norse
+	}
+	text = {
+		localization_key = count_feudalclan_male_anglo_saxon
 		fallback = yes
 	}
 }
