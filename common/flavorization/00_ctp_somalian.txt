@@ -202,17 +202,6 @@ baron_male_beja = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-baron_female_holder_beja = {
-	type = character
-	gender = female
-	special = holder
-	tier = barony
-	priority = 104
-	cultures = { beja }
-	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_holder = yes
-}
 baron_female_beja = {
 	type = character
 	gender = female
@@ -221,6 +210,14 @@ baron_female_beja = {
 	priority = 103
 	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_castle_beja = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { beja }
+	holding = castle_holding
 	top_liege = no
 }
 count_male_beja = {
@@ -250,7 +247,6 @@ county_beja = {
 	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
-	only_independent = yes
 }
 duke_male_beja = {
 	type = character
@@ -266,6 +262,14 @@ duke_female_beja = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { beja }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_beja = {
+	type = title
 	tier = duchy
 	priority = 123
 	cultures = { beja }
@@ -352,6 +356,22 @@ empress_mother_beja = {
 	priority = 150
 	cultures = { beja }
 	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+barony_city_beja = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { beja }
+	holding = city_holding
+	top_liege = no
+}
+barony_tribe_beja = {
+	type = title
+	tier = barony
+	priority = 103
+	cultures = { beja }
+	holding = tribal_holding
 	top_liege = no
 }
 ###############################################

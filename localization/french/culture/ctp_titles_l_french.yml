@@ -5,13 +5,45 @@
 ########################################################### 
   barony_castle_goidelic_group: "Túath"
   barony_tribe_goidelic_group: "Túath"
+  baron_male_gael_norse: "Tigerna"
+  baron_female_gael_norse: "Bantigerna"
+  
+  count_male_gael_norse: "Ardtigerna"
+  count_female_gael_norse: "Ardbantigerna"
+  
+  count_feudalclan_male_holder_goidelic_independent: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepCountMale')]"
+  count_feudalclan_male_goidelic_independent: "[CHARACTER.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepCountMale')]"
+  count_feudalclan_female_holder_goidelic_independent: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepCountFemale')]"
+  count_feudalclan_female_goidelic_independent: "[CHARACTER.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepCountFemale')]"
+  county_feudalclan_goidelic_independent: "[CHARACTER.Custom('IndepCountyGoid')]"
+  indep_count_male_goid: "[ROOT.Char.Custom('IndepCountMaleGoid')]"
+  indep_count_female_goid: "[ROOT.Char.Custom('IndepCountFemaleGoid')]"
+  
+  earl_male_gael_norse: "Erell"
+  earl_female_gael_norse: "Banerell"
+  
+  duke_feudalclan_male_holder_goidelic_independent: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepDukeMale')]"
+  duke_feudalclan_male_goidelic_independent: "[CHARACTER.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepDukeMale')]"
+  duke_feudalclan_female_holder_goidelic_independent: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepDukeFemale')]"
+  duke_feudalclan_female_goidelic_independent: "[CHARACTER.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastGoidIndepDukeFemale')]"
+  duchy_feudalclan_goidelic_independent: "[CHARACTER.Custom('GoidIndepDuchy')]"
+  indep_duke_male_goid: "[ROOT.Char.Custom('IndepDukeMaleGoid')]"
+  indep_duke_female_goid: "[ROOT.Char.Custom('IndepDukeFemaleGoid')]"
+  king_male_gael_norse: "Conung"
+  king_female_gael_norse: "Banconung"
 
-  king_male_goidelic_group: "[CHARACTER.Custom('KingMaleGoidelic')]"
-  king_female_goidelic_group: "[CHARACTER.Custom('KingFemaleGoidelic')]"
+  king_male_goidelic_group: "[CHARACTER.Custom('SultanMaleGoidelic')]"
+  king_female_goidelic_group: "[CHARACTER.Custom('SultanFemaleGoidelic')]"
   kingdom_goidelic_group: "[CHARACTER.Custom('KingdomGoidelic')]"
+  king_male_holder_goid: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingMaleGoid')]"
+  king_male_non_holder_goid: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingMaleGoid')]"
+  king_female_holder_goid: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingFemaleGoid')]"
+  king_female_non_holder_goid: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingFemaleGoid')]"
   sultan_male_goidelic: "Sabdán"
   sultan_female_goidelic: "Bansabdán"
   sultanate_goidelic: "Sabdánacht"
+  high_king_male_gael_norse: "Ardconung"
+  high_king_female_gael_norse: "Ardbanconung"
   king_default_male_goidelic: "Ardrí"
   king_default_female_goidelic: "Ardrígan"
   kingdom_default_goidelic: "Ardrígdacht"
@@ -46,12 +78,26 @@
 ########################################################### 
   #Irish
 ###########################################################
-   baron_male_irish: "Rí Tuaithe"
-   baron_female_irish: "Rígan Tuaithe"
+   baron_male_irish: "[CHARACTER.Custom('DynastyCheckBaronIrishM')]"
+   baron_female_irish: "[CHARACTER.Custom('DynastyCheckBaronIrishF')]"
+   baron_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronMaleIrish')]"
+   baron_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronMaleIrish')]"
+   baron_female_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronFemaleIrish')]"
+   baron_female_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronFemaleIrish')]"
+   baron_male_irish_default: "Rí Tuaithe"
+   baron_female_irish_default: "Rígan Tuaithe"
  
-   count_male_irish: "[CHARACTER.Custom('CountMaleIrish')]"
-   count_female_irish: "[CHARACTER.Custom('CountFemaleIrish')]"
+   count_male_irish: "[CHARACTER.Custom('DynastyMaleIrish')]"
+   count_female_irish: "[CHARACTER.Custom('DynastyFemaleIrish')]"
    county_irish: "[CHARACTER.Custom('CountyIrish')]"
+   earl_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlMaleIrish')]"
+   earl_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlMaleIrish')]"
+   earl_female_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlFemaleIrish')]"
+   earl_female_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlFemaleIrish')]"
+   count_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleIrish')]"
+   count_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleIrish')]"
+   count_female_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountFemaleIrish')]"
+   count_female_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountFemaleIrish')]"
    earl_male_irish: "Íarla"
    earl_female_irish: "Baníarla"
    earldom_irish: "Íarlacht"
@@ -59,9 +105,14 @@
    count_default_female_irish: "Ruirígan"
    county_default_irish: "Mór Túath"
  
-   duke_male_irish: "[CHARACTER.Custom('DukeMaleIrish')]"
-   duke_female_irish: "[CHARACTER.Custom('DukeFemaleIrish')]"
+   duke_male_irish: "[CHARACTER.Custom('DynastyMaleIrish')]"
+   duke_female_irish: "[CHARACTER.Custom('DynastyFemaleIrish')]"
    duchy_irish: "[CHARACTER.Custom('DuchyIrish')]"
+   duke_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleIrish')]"
+   duke_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleIrish')]"
+   duke_female_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeFemaleIrish')]"
+   duke_female_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeFemaleIrish')]"
+   duchy_dynast_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastDuchyIrish')]"
    marquess_male_irish: "Rí Margaidh"
    marquess_female_irish: "Rígan Margaidh"
    march_irish: "Margadh"
@@ -74,10 +125,13 @@
    baron_male_gaelic: "Taoiseach"
    baron_female_gaelic: "Bantaoiseach"
  
-   count_feudalclan_male_gaelic: "[CHARACTER.Custom('CountMaleGaelic')]"
-   count_feudalclan_female_gaelic_holder: "[CHARACTER.Custom('CountFemaleGaelicHolder')]"
-   count_feudalclan_female_gaelic: "[CHARACTER.Custom('CountFemaleGaelic')]"
+   count_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyMaleGaelic')]"
+   count_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyFemaleGaelic')]"
    county_feudalclan_gaelic: "[CHARACTER.Custom('CountyGaelic')]"
+   count_male_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleGaelic')]"
+   count_male_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleGaelic')]"
+   count_female_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountFemaleGaelicHolder')]"
+   count_female_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountFemaleGaelic')]"
    ### Conditional Earl/Earldom is same as Irish and have been coded as such
    count_default_male_gaelic: "Mormaer"
    count_default_female_gaelic_holder: "Banmormaer"
@@ -86,20 +140,23 @@
  
    count_feudalclan_male_gaelic_independent: "Rí"
    count_feudalclan_female_gaelic_independent: "Rígan"
-   county_feudalclan_gaelic_independent: "[CHARACTER.Custom('GaelicIndepCounty')]"
    independent_county_gaelic: "Rígdacht"
  
-   duke_feudalclan_male_gaelic: "[CHARACTER.Custom('DukeMaleGaelic')]"
-   duke_feudalclan_female_gaelic: "[CHARACTER.Custom('DukeFemaleGaelic')]"
+   duke_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyMaleGaelic')]"
+   duke_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyFemaleGaelic')]"
    duchy_feudalclan_gaelic: "[CHARACTER.Custom('DuchyGaelic')]"
+   duke_male_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleGaelic')]"
+   duke_male_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleGaelic')]"
+   duke_female_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeFemaleGaelic')]"
+   duke_female_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeFemaleGaelic')]"
+   duchy_dynast_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DynastDuchyGaelic')]"
    ### Marches are same as Irish and have been coded as such
    duke_default_male_gaelic: "Ardtiarna" 
    duke_default_female_gaelic: "Ardbhantiarna"
    duchy_default_gaelic: "Ardtiarnas"
  
    duke_feudalclan_male_gaelic_independent: "Rí"
-   duke_feudalclan_female_gaelic_independent: "Rígan" 
-   duchy_feudalclan_gaelic_independent: "[CHARACTER.Custom('GaelicIndepDuchy')]"
+   duke_feudalclan_female_gaelic_independent: "Rígan"
    independent_duchy_gaelic: "Rígdacht"
  
    count_tribal_male_gaelic: "Ceann-cinnidh"
@@ -185,13 +242,28 @@
 ###########################################################
   #Anglo-Saxon 
 ###########################################################
+   baron_male_anglo: "[CHARACTER.Custom('DynastyCheckBaronAnglo')]"
+   baron_female_anglo: "Frówe"
+   barony_castle_anglo: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronyAnglo')]"
+   baron_male_holder_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronMaleAnglo')]"
+   baron_male_non_holder_anglo: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronMaleAnglo')]"
+   baron_male_anglo_norse: "Hold"
+   barony_castle_anglo_norse: "Wǽpengetæc"
    baron_male_anglo_saxon: "Þegen"
-   baron_female_anglo_saxon: "Frówe"
    barony_castle_anglo_saxon: "Hundred"
  
+   count_feudalclan_male_anglo: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleAnglo')]"
+   count_feudalclan_female_anglo: "Hlǽfdíge"
+   county_feudalclan_anglo: "Scír"
+   count_feudalclan_male_anglo_norse: "Aldormann"
    count_feudalclan_male_anglo_saxon: "Ealdormann"
-   count_feudalclan_female_anglo_saxon: "Hlǽfdíge"
-   county_feudalclan_anglo_saxon: "Scír"
+   
+   count_feudalclan_male_anglo_independent: "[CHARACTER.Custom('AngloIndepCountMale')]"
+   count_feudalclan_female_anglo_independent: "[CHARACTER.Custom('SultanFemaleAngloSaxon')]"
+   county_feudalclan_anglo_independent: "[CHARACTER.Custom('AngloIndepCounty')]"
+   indep_count_default_male_holder_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('AngloIndepCountMaleTwo')]"
+   indep_count_default_male_anglo: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('AngloIndepCountMaleTwo')]"
+   count_feudalclan_male_anglo_norse_independent: "Dryhten"
  
    duke_feudalclan_male_anglo_saxon: "[CHARACTER.Custom('DukeMaleAngloSaxon')]"
    duke_feudalclan_female_anglo_saxon: "[CHARACTER.Custom('DukeFemaleAngloSaxon')]"
@@ -206,16 +278,22 @@
    duke_default_female_anglo_saxon: "Eorlen"
    duchy_default_anglo_saxon: "Eorldóm"
  
-   duke_feudalclan_male_anglo_saxon_independent: "[CHARACTER.Custom('KingMaleAngloSaxon')]"
-   duke_feudalclan_female_anglo_saxon_independent: "[CHARACTER.Custom('KingFemaleAngloSaxon')]" 
+   duke_feudalclan_male_anglo_saxon_independent: "[CHARACTER.Custom('SultanMaleAngloSaxon')]"
+   duke_feudalclan_female_anglo_saxon_independent: "[CHARACTER.Custom('SultanFemaleAngloSaxon')]" 
    duchy_feudalclan_anglo_saxon_independent: "[CHARACTER.Custom('AngloSaxonIndepDuchy')]"
  
-   king_male_anglo_saxon: "[CHARACTER.Custom('KingMaleAngloSaxon')]"
-   king_female_anglo_saxon: "[CHARACTER.Custom('KingFemaleAngloSaxon')]"
+   king_male_anglo_saxon: "[CHARACTER.Custom('SultanMaleAngloSaxon')]"
+   king_female_anglo_saxon: "[CHARACTER.Custom('SultanFemaleAngloSaxon')]"
    kingdom_anglo_saxon: "[CHARACTER.Custom('KingdomAngloSaxon')]"
+   king_default_male_holder_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingMaleAnglo')]"
+   king_default_female_holder_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingFemaleAnglo')]"
+   king_default_male_anglo: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingMaleAnglo')]"
+   king_default_female_anglo: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingFemaleAnglo')]"
    sultan_male_anglo_saxon: "Soldan"
    sultan_female_anglo_saxon: "Soldanen"
    sultanate_anglo_saxon: "Soldanríce"
+   king_default_male_anglo_norse: "Cunung"
+   king_default_female_anglo_norse: "Cwœ́n"
    king_default_male_anglo_saxon: "Cyning"
    king_default_female_anglo_saxon: "Cwén"
    kingdom_default_anglo_saxon: "Ríce"
@@ -532,7 +610,7 @@
    barony_tribe_welsh: "$county_tribal_male_welsh$"
    count_tribal_male_welsh: "Pennaeth"
    count_tribal_female_welsh: "Pennaethes"
-   county_tribal_male_welsh: "Luidt"
+   county_tribal_welsh: "Luidt"
    duke_tribal_male_welsh: "Rig"
    duke_tribal_female_welsh: "Riges"
    duchy_tribal_male_welsh: "Gint" 
@@ -1483,29 +1561,25 @@
 ########################################################
   #Norse and Norwegian
 ########################################################
-   baron_male_norse: "Hęrsir"
-   baron_male_norwegian: "Lęndrmaðr"
-   baron_female_norse: "Frauva" 
-   baron_female_norwegian: "Lęndrkona"
+   baron_male_norse_norwegian: "Lęndrmaðr"
+   baron_female_norse_norwegian: "Lęndkona"
    barony_castle_norse_norwegian: "Hęrað"
    barony_tribe_norse_norwegian: "$barony_castle_norse_norwegian$"
    
    count_male_norse_norwegian: "[CHARACTER.Custom('CountMaleNorse')]"
    count_female_norse_norwegian: "[CHARACTER.Custom('CountFemaleNorse')]"
    county_norse_norwegian: "[CHARACTER.Custom('CountyNorth')]"
-   count_default_male_norse_norwegian: "Hǫfðingi"
-   count_default_female_norse_norwegian: "Hǫfuðkona"
+   count_default_male_norse_norwegian: "Hęrsir"
+   count_default_female_norse_norwegian: "Frauva"
    county_default_norse_norwegian: "Fylki"
    
    count_male_norse_norwegian_independent: "Dróttinn"
    count_female_norse_norwegian_independent: "$king_female_norse_norwegian$"
    county_norse_norwegian_independent: "[CHARACTER.Custom('NorthIndepCounty')]"
    
-   duke_male_norse_norwegian: "[CHARACTER.Custom('DukeMaleNorth')]"
-   duke_female_norse_norwegian: "[CHARACTER.Custom('DukeFemaleNorth')]"
+   duke_male_norse_norwegian: "Jarl"
+   duke_female_norse_norwegian: "Jarlynja"
    duchy_norse_norwegian: "Jarlsdómr"
-   duke_default_male_norse_norwegian: "Jarl"
-   duke_default_female_norse_norwegian: "Jarlynja"
    
    duke_male_norse_norwegian_independent: "$king_male_norse_norwegian$"
    duke_female_norse_norwegian_independent: "$king_female_norse_norwegian$"
@@ -1524,7 +1598,7 @@
    title_prince_male_norse_norwegian_duchy_independent: "$title_prince_male_norse_norwegian$"
    title_prince_female_norse_norwegian_duchy_independent: "$title_prince_female_norse_norwegian$"
    title_prince_male_norse_norwegian: "Ǫðlingr"
-   title_prince_female_norse_norwegian: "Aðalsfrauva"
+   title_prince_female_norse_norwegian: "Aðalskona"
    title_prince_male_norse_norwegian_empire: "$title_prince_male_norse_norwegian$"
    title_prince_female_norse_norwegian_empire: "$title_prince_female_norse_norwegian$"
    queen_mother_norse_norwegian_duchy_independent: "$king_female_norse_norwegian$"
@@ -1536,28 +1610,26 @@
 ########################################################
   #Swedish and Danish
 ########################################################
-   baron_male_swedish_danish: "Hærser"
-   baron_female_swedish_danish: "Fróva"
+   baron_male_swedish_danish: "Lǽnsmaþær"
+   baron_female_swedish_danish: "Lǽnskona"
    barony_castle_swedish_danish: "Hæraþ"
    barony_tribe_swedish_danish: "$barony_castle_swedish_danish$"
  
    count_male_swedish_danish: "[CHARACTER.Custom('CountMaleSwedish')]"
    count_female_swedish_danish: "[CHARACTER.Custom('CountFemaleSwedish')]"
    county_swedish_danish: "[CHARACTER.Custom('CountySwedish')]"
-   count_default_male_swedish_danish: "Høfþinge"
-   count_default_female_swedish_danish: "Hafuþkona"
+   count_default_male_swedish_danish: "Hærser"
+   count_default_female_swedish_danish: "Fróva"
    county_default_swedish_danish: "Fylke"
    
    count_male_swedish_danish_independent: "Drótten"
    count_female_swedish_danish_independent: "$king_female_swedish_danish$"
    county_swedish_danish_independent: "[CHARACTER.Custom('SwedishIndepCounty')]"
    
-   duke_male_swedish_danish: "[CHARACTER.Custom('DukeMaleSwedish')]"
-   duke_female_swedish_danish: "[CHARACTER.Custom('DukeFemaleSwedish')]"
+   duke_male_swedish_danish: "Iærl"
+   duke_female_swedish_danish: "Iærlinna"
    duchy_swedish_danish: "Iærlsdómbær"
-   duke_default_male_swedish_danish: "Iærl"
-   duke_default_female_swedish_danish: "Iærlinna"
- 
+   
    duke_male_swedish_danish_independent: "$king_male_swedish_danish$"
    duke_female_swedish_danish_independent: "$king_female_swedish_danish$"
    duchy_swedish_danish_independent: "[CHARACTER.Custom('SwedishIndepDuchy')]"
@@ -2268,20 +2340,20 @@
   baron_female_arabic_group_holder: "$baron_feudalclan_male_arabic_group$"
   barony_castle_arabic_group: "Ḍayʿa"
   baron_male_andalusian_christian: "Muqadam"
-  baron_female_andalusian_christian: "Muqadamah"
+  baron_female_andalusian_christian: "Muqadama"
   baron_female_andalusian_christian_holder: "$baron_feudalclan_male_andalusian_christian$"
  
   count_feudalclan_male_arabic_group: "Wālī"
   count_feudalclan_female_arabic_group: "Wāliya"
   count_feudalclan_female_arabic_group_holder: "Sitt"
-  county_feudalclan_arabic_group: "Liwā'"
+  county_feudalclan_arabic_group: "Liwāʾ"
   count_feudalclan_male_andalusian_christian: "Qūmis"
   count_feudalclan_female_andalusian_christian: "Qūmisa"
  
   count_feudalclan_male_arabic_group_independent: "$duke_default_male_arabic_group$"
   count_feudalclan_female_arabic_group_independent: "$duke_default_female_arabic_group$"
   county_feudalclan_arabic_group_independent: "$duchy_arabic_group$"
-  county_feudalclan_andalusian_independent: "Ṭā'ifa"
+  county_feudalclan_andalusian_independent: "Ṭāʾifa"
   count_feudalclan_male_andalusian_independent_christian: "$count_feudalclan_male_andalusian_christian$"
   count_feudalclan_female_andalusian_independent_christian: "$count_feudalclan_female_andalusian_christian$"
   count_feudalclan_female_andalusian_holder_independent_christian: "$count_feudalclan_male_andalusian_christian$"
@@ -2293,19 +2365,19 @@
   marquess_male_arabic_group: "Ṣāḥib aṯ-Ṯaġr"
   marquess_female_arabic_group: "Sitt aṯ-Ṯaġr"
   march_arabic_group: "Ṯaġr"
-  palatine_male_arabic_group: "'Amīr al-'Umarā'"
+  palatine_male_arabic_group: "ʾAmīr al-ʾUmarāʾ"
   palatine_female_arabic_group: "Sayyidat al-Ḥurra"
-  palatine_male_christian_andulusian: "Dūq al-'Umarā'"
+  palatine_male_christian_andulusian: "Dūq al-ʾUmarāʾ"
   palatine_female_christian_andulusian: "Dūqa al-Ḥurra"
   duke_christian_male_andulusian: "Dūq"
   duke_christian_female_andulusian: "Dūqa"
   duchy_christian_andulusian: "Dūqiyya"
-  duke_default_male_arabic_group: "'Amīr"
-  duke_default_female_arabic_group: "'Amīra"
-  duchy_arabic_group: "'Imāra"
+  duke_default_male_arabic_group: "ʾAmīr"
+  duke_default_female_arabic_group: "ʾAmīra"
+  duchy_arabic_group: "ʾImāra"
   
   duchy_feudalclan_andulusian_independent: "[CHARACTER.Custom('AndalusianIndepDuchy')]"
-  independent_duchy_andalusian: "Ṭā'ifa"
+  independent_duchy_andalusian: "Ṭāʾifa"
  
   king_feudalclan_male_arabic_group: "[CHARACTER.Custom('KingMaleArabic')]"
   king_feudalclan_female_arabic_group: "[CHARACTER.Custom('KingFemaleArabic')]"
@@ -2328,34 +2400,34 @@
   emperor_default_male_arabic: "Malik al-Mulūk"
   emperor_default_female_arabic: "Malikat al-Malikāt"
   empire_default_arabic: "Mulk"
-  emperor_male_andalusian_christian: "'Imbarāṭūr"
-  emperor_female_andalusian_christian: "'Imbarāṭūra"
+  emperor_male_andalusian_christian: "ʾImbarāṭūr"
+  emperor_female_andalusian_christian: "ʾImbarāṭūra"
  
   title_prince_male_arabic_group: "[CHARACTER.Custom('PrinceArabic')]"
   title_prince_female_arabic_group: "[CHARACTER.Custom('PrincessArabic')]"
-  prince_default_male_arabic: "'Amīr"
-  prince_default_female_arabic: "'Amīra"
+  prince_default_male_arabic: "ʾAmīr"
+  prince_default_female_arabic: "ʾAmīra"
   title_prince_male_arabic_group_empire: "[CHARACTER.Custom('PrinceArabic')]"
   title_prince_female_arabic_group_empire: "[CHARACTER.Custom('PrincessArabic')]"
-  title_prince_male_andalusian_christian: "'Ifānt"
-  title_prince_female_andalusian_christian: "'Ifānta"
+  title_prince_male_andalusian_christian: "ʾIfānt"
+  title_prince_female_andalusian_christian: "ʾIfānta"
   title_prince_male_andalusian_christian_empire: "$title_prince_male_andalusian_christian_empire$"
   title_prince_female_andalusian_christian_empire: "$title_prince_female_andalusian_christian$"
   queen_mother_arabic_group: "[CHARACTER.Custom('QueenMArabic')]"
   queen_mother_arabic_group_empire: "[CHARACTER.Custom('EmpressMArabic')]"
   arabic_primary_heir: "Waliyy ʿAhd"
  
-  baron_republic_male_arabic_group: "Ra'īs"
-  baron_republic_female_arabic_group: "Ra'īsa"
+  baron_republic_male_arabic_group: "Raʾīs"
+  baron_republic_female_arabic_group: "Raʾīsa"
   barony_city_arabic_group: "Madīna"
-  count_republic_male_arabic_group: "Ra'īs"
-  count_republic_female_arabic_group: "Ra'īsa"
+  count_republic_male_arabic_group: "Raʾīs"
+  count_republic_female_arabic_group: "Raʾīsa"
   county_republic_arabic_group: "Madīnat Kubrā"
-  duke_republic_male_arabic_group: "Ra'īs ar-Ru'asā'"
-  duke_republic_female_arabic_group: "Ra'īsat ar-Ru'asā'"
+  duke_republic_male_arabic_group: "Raʾīs ar-Ruʾasāʾ"
+  duke_republic_female_arabic_group: "Raʾīsat ar-Ruʾasāʾ"
   duchy_republic_arabic_group: "Dawla"
-  king_republic_male_arabic_group: "Ra'īs ad-Dawla"
-  king_republic_female_arabic_group: "Ra'īsat ad-Dawla"
+  king_republic_male_arabic_group: "Raʾīs ad-Dawla"
+  king_republic_female_arabic_group: "Raʾīsat ad-Dawla"
   kingdom_republic_arabic_group: "Dawla"
  
   barony_tribe_arabic_group: "$county_tribal_arabic_group$"
@@ -2436,7 +2508,7 @@
    count_female_armenian: "Naxararowhi"
    county_armenian: "Nahang"
    
-   county_armenian_independent: "Naxararowtʿiwn"
+   county_armenian_independent: "Naxararowtՙiwn"
  
    duke_male_armenian: "[CHARACTER.Custom('DukeMaleArmenian')]"
    duke_female_armenian: "[CHARACTER.Custom('DukeFemaleArmenian')]"
@@ -2444,30 +2516,30 @@
    duchy_armenian: "[CHARACTER.Custom('DuchyArmenian')]"
    marquess_male_armenian: "Bdešx"
    marquess_female_armenian: "Bdešxowhi"
-   march_armenian: "Bdešxowtʿiwn"
+   march_armenian: "Bdešxowtՙiwn"
    duke_default_male_armenian: "Išxan"
    duke_default_female_armenian: "Išxanakin"
    duke_default_holder_female_armenian: "Išxanowhi"
-   duchy_default_armenian: "Išxanowtʿiwn"
+   duchy_default_armenian: "Išxanowtՙiwn"
  
    king_male_armenian: "[CHARACTER.Custom('KingMaleArmenian')]"
    king_female_armenian: "[CHARACTER.Custom('KingFemaleArmenian')]"
    kingdom_armenian: "[CHARACTER.Custom('KingdomArmenian')]"
-   byzantine_king_male_armenian: "Arkʿay"
-   byzantine_king_female_armenian: "Arkʿayowhi"
-   byzantine_kingdom_armenian: "Arkʿayowtʿiwn"
-   sultan_male_armenian: "Sowltʿan"
-   sultan_female_armenian: "Sowltʿanowhi"
-   sultanate_armenian: "Sowltʿanowtʿiwn"
-   armenian_prince_ruler_male: "Išxanacʿ Išxan"
-   armenian_prince_ruler_female: "Išxanuheac῾ Išxanuhi"
-   king_default_male_armenian: "Tʿagawor"
-   king_default_female_armenian: "Tʿagowhi"
-   kingdom_default_armenian: "Tʿagaworowtʿiwn"
+   byzantine_king_male_armenian: "Arkՙay"
+   byzantine_king_female_armenian: "Arkՙayowhi"
+   byzantine_kingdom_armenian: "Arkՙayowtՙiwn"
+   sultan_male_armenian: "Sowltՙan"
+   sultan_female_armenian: "Sowltՙanowhi"
+   sultanate_armenian: "Sowltՙanowtՙiwn"
+   armenian_prince_ruler_male: "Išxanacՙ Išxan"
+   armenian_prince_ruler_female: "Išxanuheacՙ Išxanuhi"
+   king_default_male_armenian: "Tՙagawor"
+   king_default_female_armenian: "Tՙagowhi"
+   kingdom_default_armenian: "Tՙagaworowtՙiwn"
  
    emperor_male_armenian: "Kaysr"
    emperor_female_armenian: "Kaysrowhi"
-   empire_armenian: "Kaysrowtʿiwn"
+   empire_armenian: "Kaysrowtՙiwn"
  
    title_prince_male_armenian: "[CHARACTER.Custom('PrinceArmenian')]"
    title_prince_female_armenian: "[CHARACTER.Custom('PrincessArmenian')]"
@@ -2477,15 +2549,15 @@
    title_prince_female_armenian_byzantine_empire: "[CHARACTER.Custom('PrincessBArmenian')]"
    caeser_armenian_male: "Kesar"
    caeser_armenian_female: "Kesarissa"
-   sultan_prince_male_armenian: "Sowltʿanazn"
-   sultan_prince_female_armenian: "Sowltʿandowstr"
+   sultan_prince_male_armenian: "Sowltՙanazn"
+   sultan_prince_female_armenian: "Sowltՙandowstr"
    prince_default_male_armenian: "Sepowh"
-   prince_default_female_armenian: "Tʿagawordowstr"
+   prince_default_female_armenian: "Tikin"
    queen_mother_armenian: "[CHARACTER.Custom('QueenMArmenian')]"
    queen_mother_armenian_empire: "$emperor_female_armenian$"
  
-   baron_male_armenian_republic: "Kʿałakʿapet"
-   barony_armenian_city: "Kʿałakʿ"
+   baron_male_armenian_republic: "Kՙałakՙapet"
+   barony_armenian_city: "Kՙałakՙ"
    county_armenian_republic: "Šahastan"
    
    barony_tribe_armenian: "$barony_castle_armenian$"
@@ -2716,12 +2788,12 @@
    palatine_male_assyrian: "Palaṭīnāyā"
    palatine_female_assyrian: "Palaṭīnāytā"
    palatinate_assyrian: "Palaṭīnāyūṯā"
-   byzantine_duke_male_assyrian: "'Esṭrāṭēḡā"
-   byzantine_duke_female_assyrian: "'Esṭrāṭēḡīsā"
-   byzantine_duchy_assyrian: "'Esṭrāṭēḡūṯā"
-   duke_default_male_assyrian: "'Amīrā"
-   duke_default_female_assyrian: "'Amīrtā"
-   duchy_default_assyrian: "'Amīrūṯā"
+   byzantine_duke_male_assyrian: "ʾEsṭrāṭēḡā"
+   byzantine_duke_female_assyrian: "ʾEsṭrāṭēḡīsā"
+   byzantine_duchy_assyrian: "ʾEsṭrāṭēḡūṯā"
+   duke_default_male_assyrian: "ʾAmīrā"
+   duke_default_female_assyrian: "ʾAmīrtā"
+   duchy_default_assyrian: "ʾAmīrūṯā"
  
    duke_male_assyrian_independent: "Malkōnā"
    duke_female_assyrian_independent: "Malkəṯōnītā"
@@ -2732,9 +2804,9 @@
    king_male_assyrian: "[CHARACTER.Custom('DuchyAssyrian')]"
    king_female_assyrian: "[CHARACTER.Custom('DuchyAssyrian')]"
    kingdom_assyrian: "[CHARACTER.Custom('DuchyAssyrian')]"
-   byzantine_king_male_assyrian: "'Eksarkā"
-   byzantine_king_female_assyrian: "'Eksarkīsā"
-   byzantine_kingdom_assyrian: "'Eksarkūṯā"
+   byzantine_king_male_assyrian: "ʾEksarkā"
+   byzantine_king_female_assyrian: "ʾEksarkīsā"
+   byzantine_kingdom_assyrian: "ʾEksarkūṯā"
    sultan_male_assyrian: "Šulṭānā"
    sultan_female_assyrian: "Šulṭānīṯā"
    sultanate_assyrian: "Šulṭānūṯā"
@@ -2767,12 +2839,12 @@
    count_republic_male_assyrian: "Lōgesṭā"
    count_republic_female_assyrian: "Lōgesṭā"
    county_republic_assyrian: "Məḏīttā"
-   duke_republic_male_assyrian: "ʿArkōnā"
-   duke_republic_female_assyrian: "ʿArkōnīṯā"
-   duchy_republic_assyrian: "'Arkōnūṯā"
-   king_republic_male_assyrian: "Rēš ʿArkōnā"
-   king_republic_female_assyrian: "Rēšā ʿArkōnīṯā"
-   kingdom_republic_assyrian: "Rēš ʿArkōnūṯā"
+   duke_republic_male_assyrian: "ʾArkōnā"
+   duke_republic_female_assyrian: "ʾArkōnīṯā"
+   duchy_republic_assyrian: "ʾArkōnūṯā"
+   king_republic_male_assyrian: "Rēš ʾArkōnā"
+   king_republic_female_assyrian: "Rēšā ʾArkōnīṯā"
+   kingdom_republic_assyrian: "Rēš ʾArkōnūṯā"
  
    barony_tribe_assyrian: "$county_tribal_assyrian$"
    count_tribal_male_assyrian: "Rabbānā"
@@ -4673,14 +4745,17 @@
 ######################################################
   #Guan
 ######################################################
-   baron_male_guan: "Teŋgaansob"
-   barony_castle_akan: "Teŋgaan"
+   baron_male_guan: "Kasawulewura"
+   baron_female_guan: "Kasawulewurache"
+   barony_castle_akan: "Kasawule"
    
    count_male_guan: "Ewura"
    count_female_guan: "Ewurache"
    county_guan: "Tiuŋ"
    
-   duke_male_guan: "Ewurgboŋ"
+   duke_guan: "Ewurgboŋ"
+   duke_male_guan: "Ewura"
+   duke_female_guan: "Ewurache"
    
    duke_male_guan_independent: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]wura"
    duke_female_guan_independent: "Ewurache"
@@ -4739,47 +4814,66 @@
 ######################################################
   #Mon
 ######################################################
-   baron_male_mon: "Smiṅ"
-   barony_castle_mon: "Ḍūṅ"
+   baron_mon: "Smiṅ"
+   baron_male_mon: "Maṅ"
+   baron_female_mon: "Ya"
+   barony_castle_mon: "Ḍuṅ"
    
-   count_male_mon: "Bañña"
-   county_mon: "Prī Krī"
+   count_mon: "Sambeṅ"
+   count_male_mon: "Maṅ"
+   count_female_mon: "Ya"
+   county_mon: "Rās"
+   
+   count_mon_independent: "Bañā"
+   
+   duke_mon: "Bañā"
+   duke_male_mon: "Maṅ"
+   duke_female_mon: "Ya"
+   duchy_mon: "Ḍuṅ Jnok"
+   
+   duke_male_mon_independent: "Gna Smiṅ"
+   duke_female_holder_mon_independent: "Gna Smiṅ"
+   duke_female_mon_independent: "Gna Kyȧk"
+   duchy_mon_independent: "[CHARACTER.Custom('MonIndepDuchy')]"
    
    king_male_mon: "Gna Smiṅ"
+   king_female_holder_mon: "Gna Smiṅ"
    king_female_mon: "Gna Kyȧk"
+   kingdom_mon: "Kirmin"
+   
+   emperor_male_mon: "Rājādhirāt"
    
    title_prince_male_mon: "Bañña"
    title_prince_female_mon: "$title_prince_male_mon$"
    queen_mother_mon: "$king_female_mon$"
    
-   baron_republic_mon: "Myothugyi"
    barony_city_mon: "Twāñ"
 ######################################################
  #Dravidian Culture Group
 ######################################################
   #Tamil
 ######################################################
-   baron_male_tamil: "Veḷḷāḷar"
-   baron_female_tamil: "Veḷḷāḷar"
+   baron_male_tamil: "Uḍaiyār"
+   baron_female_tamil: "Uḍaiyār"
    barony_castle_tamil: "Koṭṭam"
    
    count_male_tamil: "Nāḍāḷvār"
    count_female_tamil: "Nāḍāḷvār"
    county_tamil: "Nāḍu"
    
-   count_male_tamil_independent: "Irunkōvēlar"
-   count_female_tamil_independent: "Irunkōvēlar"
+   count_male_tamil_independent: "Kōmāṉ"
+   count_female_tamil_independent: "Kōmāṭṭi"
    county_tamil_independent: "[CHARACTER.Custom('TamilIndepCounty')]"
-   independent_county_tamil: "Arasu"
+   independent_county_tamil: "Nāḍu"
    
    duke_male_tamil: "Maṇḍalamudaliyār"
    duke_female_tamil: "Maṇḍalamudaliyār"
    duchy_tamil: "Maṇḍalam"
    
-   duke_male_tamil_independent: "Pērarasan"
-   duke_female_tamil_independent: "Pērarasi"
+   duke_male_tamil_independent: "Kō"
+   duke_female_tamil_independent: "Kō"
    duchy_tamil_independent: "[CHARACTER.Custom('TamilIndepDuchy')]"
-   independent_duchy_tamil: "Pērarasu"
+   independent_duchy_tamil: "Periyanāḍu"
    
    king_male_tamil: "[CHARACTER.Custom('KingMaleTamil')]"
    king_female_tamil: "[CHARACTER.Custom('KingFemaleTamil')]"
@@ -4793,9 +4887,9 @@
    king_default_female_holder_tamil: "Iṟaivi"
    kingdom_default_tamil: "Sāmarājiyam"
    
-   emperor_male_tamil: "Cakkaravartti"
+   emperor_male_tamil: "Cakkaravattigaḷ"
    emperor_female_tamil: "Peruṇdēvi"
-   emperor_female_tamil_holder: "Cakkaravarttini"
+   emperor_female_tamil_holder: "Cakkaravatttini"
    empire_tamil: "Prthvīrājyam"
    
    title_prince_male_tamil: "[CHARACTER.Custom('PrinceTamil')]"
@@ -5063,7 +5157,7 @@
    
    duke_male_welayta_independent: "Motalami"
    duke_female_welayta_independent: "Kawiya"
-   duke_female_welayta_holder_independent: "$duke_male_welayta_independent$"
+   duke_female_welayta_holder_independent: "Motalamitettaa"
    
    king_male_welayta: "Kawó"
    king_female_welayta: "Abéntá"
@@ -5090,26 +5184,26 @@
    count_male_daju_independent: "$duke_male_daju$"
    count_female_daju_independent: "$duke_female_daju$"
    county_daju_independent: "[CHARACTER.Custom('DajuIndepCounty')]"
-   independent_county_daju: "Bùgíttìgé"
+   independent_county_daju: "Ɓùgíttìgé"
    
-   duke_male_daju: "Bùgé"
-   duke_female_daju: "Ùrá Bùgé"
-   duchy_daju: "Bùgíttìgé"
+   duke_male_daju: "Ɓùgé"
+   duke_female_daju: "Ùrá Ɓùgé"
+   duchy_daju: "Ɓùgíttìgé"
    
    duke_male_daju_independent: "$king_male_daju$"
    duke_female_daju_independent: "$king_female_daju$"
    duchy_daju_independent: "[CHARACTER.Custom('DajuIndepDuchy')]"
    
-   king_male_daju: "Bùgúr"
-   king_female_daju: "Ùrá Bùgúr"
-   kingdom_daju: "Bùgúrdìgé"
+   king_male_daju: "Ɓùgúr"
+   king_female_daju: "Ùrá Ɓùgúr"
+   kingdom_daju: "Ɓùgúrdìgé"
    
-   emperor_male_daju: "Bónnò"
-   emperor_female_daju: "Ùrá Bónnò"
-   empire_daju: "Bóŋdìgé"
+   emperor_male_daju: "Ɓónnò"
+   emperor_female_daju: "Ùrá Ɓónnò"
+   empire_daju: "Ɓóŋdìgé"
    
-   queen_mother_daju: "Bóósín Bùgúr"
-   empress_mother_daju: "Bóósín Bónnò"
+   queen_mother_daju: "Ɓóósín Ɓùgúr"
+   empress_mother_daju: "Ɓóósín Ɓónnò"
    
    baron_republic_daju: "Lèèdé Héllé"
    barony_city_daju: "Héllé"
@@ -5178,7 +5272,8 @@
    queen_mother_default_bengali: "Rāyamāvā"
    empress_mother_bengali: "Mahārāyamāvā"
    
-   baron_republic_bengali: "Puravahāṇa"
+   baron_republic_male_bengali: "Puravahāṇa"
+   baron_republic_female_bengali: "Puravahāṇa"
    barony_city_bengali: "Pura"
    count_republic_male_bengali: "Nayaraśēṭhi"
    count_republic_female_bengali: "Nayaraśēṭhiṇī"
@@ -5250,7 +5345,8 @@
    queen_mother_default_oriya: "Rāyamāvā"
    empress_mother_oriya: "Mahārāyamāvā"
    
-   baron_republic_oriya: "Puramaji"
+   baron_republic_male_oriya: "Puramaji"
+   baron_republic_female_oriya: "Puramaji"
    barony_city_oriya: "Pura"
    count_republic_oriya: "Nayaramaji"
    county_republic_oriya: "Nayara"
@@ -5321,7 +5417,8 @@
    queen_mother_default_assamese: "Rājamāvā"
    empress_mother_assamese: "Mahārājamāvā"
    
-   baron_republic_assamese: "Puravahāṇa"
+   baron_republic_male_assamese: "Puravahāṇa"
+   baron_republic_female_assamese: "Puravahāṇa"
    barony_city_assamese: "Pura"
    count_republic_male_assamese: "Nayarasēṭhi"
    count_republic_female_assamese: "Nayarasēṭhiṇī"
@@ -5393,7 +5490,8 @@
    queen_mother_default_hindustani: "Rāyamāyā"
    empress_mother_hindustani: "Mahārāyamāyā"
    
-   baron_republic_hindustani: "Puravahāṇa"
+   baron_republic_male_hindustani: "Puravahāṇa"
+   baron_republic_female_hindustani: "Puravahāṇa"
    barony_city_hindustani: "Pura"
    count_republic_male_hindustani: "Nayarasēṭhi"
    count_republic_female_hindustani: "Nagarasēṭṭhan"
@@ -5465,7 +5563,8 @@
    queen_mother_default_gujarati: "Rāyamāyā"
    empress_mother_gujarati: "Mahārāyamāyā"
    
-   baron_republic_gujarati: "Paravahāṇo"
+   baron_republic_male_gujarati: "Paravahāṇo"
+   baron_republic_female_gujarati: "Paravahāṇo"
    barony_city_gujarati: "Paru"
    count_republic_male_gujarati: "Nayarasēṭhi"
    count_republic_female_gujarati: "Nayarasēṭhiṇī"
@@ -5537,7 +5636,8 @@
    queen_mother_default_punjabi: "Rāimāu"
    empress_mother_punjabi: "Mahārāimāu"
    
-   baron_republic_punjabi: "Puravatāṇa"
+   baron_republic_male_punjabi: "Puravatāṇa"
+   baron_republic_female_punjabi: "Puravatāṇa"
    barony_city_punjabi: "Purī"
    count_republic_male_punjabi: "Nayaraseṭṭhi"
    count_republic_female_punjabi: "Nayaraseṭṭhiṇī"
@@ -5609,7 +5709,8 @@
    queen_mother_default_rajput: "Rāyamāyā"
    empress_mother_rajput: "Mahārāyamāyā"
    
-   baron_republic_rajput: "Puravahāṇa"
+   baron_republic_male_rajput: "Puravahāṇa"
+   baron_republic_female_rajput: "Puravahāṇa"
    barony_city_rajput: "Pura"
    count_republic_male_rajput: "Nayarasēṭhi"
    count_republic_female_rajput: "Nayarasēṭhiṇī"
@@ -5673,7 +5774,8 @@
    queen_mother_sindhi: "[CHARACTER.Custom('QueenMSindhi')]"
    queen_mother_default_sindhi: "Šāhmāu"
    
-   baron_republic_sindhi: "Puravahāṇu"
+   baron_republic_male_sindhi: "Puravahāṇu"
+   baron_republic_female_sindhi: "Puravahāṇu"
    barony_city_sindhi: "Puri"
    count_republic_male_sindhi: "Nagaraseṭhi"
    count_republic_female_sindhi: "Nagarseṭhiṇī"
@@ -5745,7 +5847,8 @@
    queen_mother_default_marathi: "Rāyamāyā"
    empress_mother_marathi: "Mahārāyamāyā"
    
-   baron_republic_marathi: "Purapahāna"
+   baron_republic_male_marathi: "Purapahāna"
+   baron_republic_female_marathi: "Purapahāna"
    barony_city_marathi: "Pura"
    count_republic_marathi: "Nayarajjhākha"
    county_republic_marathi: "Nayara"
@@ -5816,7 +5919,8 @@
    queen_mother_default_kashmiri: "Rājamātā"
    empress_mother_kashmiri: "Mahārājamātā"
    
-   baron_republic_kashmiri: "Purapradhāna"
+   baron_republic_male_kashmiri: "Purapradhāna"
+   baron_republic_female_kashmiri: "Purapradhāna"
    barony_city_kashmiri: "Pura"
    count_republic_kashmiri: "Nagarādhipa"
    county_republic_kashmiri: "Nagara"
@@ -5886,7 +5990,8 @@
    queen_mother_sinhala: "[CHARACTER.Custom('QueenMSinhala')]"
    empress_mother_sinhala: "Radamā"
    
-   baron_republic_sinhala: "Purapadana"
+   baron_republic_male_sinhala: "Purapadana"
+   baron_republic_female_sinhala: "Purapadana"
    barony_city_sinhala: "Pura"
    count_republic_sinhala: "Ṇakaradiva"
    county_republic_sinhala: "Ṇakara"
@@ -5957,7 +6062,8 @@
    queen_mother_default_nepali: "Rāyamāyā"
    empress_mother_nepali: "Mahārāyamāyā"
    
-   baron_republic_nepali: "Puravahāna"
+   baron_republic_male_nepali: "Puravahāna"
+   baron_republic_female_nepali: "Puravahāna"
    barony_city_nepali: "Pura"
    count_republic_nepali: "Nagarādhipa"
    county_republic_nepali: "Nayara"
@@ -5970,7 +6076,7 @@
 ########################################################
  #Mongolic
 ########################################################
-  barony_mongolic_group: "Tura"
+  barony_castle_mongolic_group: "Tura"
   
   county_feudalclan_mongolic_group: "Mingan"
   
@@ -5981,8 +6087,11 @@
   king_female_mongolic_group: "Qatun"
   kingdom_mongolic_group: "Qağantay Güren"
   
+  kingdom_mongolic_group_independent: "[CHARACTER.Custom('IndepKingdomMongol')]"
+  
   emperor_male_mongolic_group: "Ezen Qağan"
   emperor_female_mongolic_group: "Ezen Qatun"
+  empire_mongolic_group: "Ulus"
   
   title_prince_male_mongolic_group: "Kũwāra"
   title_prince_female_mongolic_group: "Kũwārī"
@@ -5994,9 +6103,23 @@
   empress_mother_mongolic_group: "$emperor_female_mongolic_group$"
   
   baron_republic_mongolic_group: "Jongtur"
-  barony_republic_mongolic_group: "Balgasun"
+  barony_city_mongolic_group: "Balgasun"
   
   county_tribal_mongolic_group: "Esege Zon"
+  
+  barony_tribe_mongolic_group: "$barony_castle_mongolic_group$"
+########################################################
+  #Khitan
+########################################################
+   county_feudalclan_khitan: "Miŋan"
+   
+   king_male_khitan: "Qaha"
+   
+   emperor_male_khitan: "Hoŋdi"
+   emperor_female_holder_khitan: "Hoŋdi"
+   emperor_female_khitan: "Hoŋheu"
+   
+   empress_mother_khitan: "Hoŋtaiheu"
 ########################################################
  #Qiangic
 ########################################################
@@ -6265,9 +6388,9 @@
 ########################################################
   #Beja
 ########################################################
-   baron_male_beja: "óo-Gawi Kína"
-   baron_female_holder_beja: "$baron_male_beja$"
+   baron_male_beja: "Kína"
    baron_female_beja: "Kína"
+   barony_castle_beja: "Balád"
    
    count_male_beja: "Hadaa'"
    count_female_beja: "Hadaa't"
@@ -6275,6 +6398,7 @@
    
    duke_male_beja: "Takléel"
    duke_female_beja: "Takléelt"
+   duchy_beja: "Hokúm"
    
    duke_male_beja_independent: "Ámiir"
    duke_female_beja_independent: "Ámiirt"
@@ -6291,6 +6415,10 @@
    
    queen_mother_beja: "$king_female_beja$"
    empress_mother_beja: "$emperor_female_beja$"
+   
+   barony_city_beja: "Balád"
+   
+   barony_tribe_beja: "Balád"
 ########################################################
   #Afar
 ########################################################
@@ -6367,7 +6495,7 @@
   duke_male_turkish_group_one: "[CHARACTER.Custom('DukeMaleTurkishOne')]"
   duke_female_turkish_group_one: "[CHARACTER.Custom('DukeFemaleTurkishOne')]"
   palatine_turkish_group_one: "Beklerbeki"
-  duke_default_male_turkish_group_one: "Atabekliği"
+  duke_default_male_turkish_group_one: "Atabek"
   duke_default_female_turkish_group_one: "Atabeküm"
   duchy_turkish_group_one: "Atabekliği"
   
@@ -6396,15 +6524,15 @@
   duke_female_holder_khazar: "[CHARACTER.Custom('DukeFemaleHolderKhazar')]"
   duke_male_khazar: "[CHARACTER.Custom('DukeMaleKhazar')]"
   duke_female_khazar: "[CHARACTER.Custom('DukeFemaleKhazar')]"
-  duchy_khazar: "[CHARACTER.Custom('DukeFemaleKhazar')]"
+  duchy_khazar: "[CHARACTER.Custom('DuchyKhazar')]"
   marquess_khazar: "Qapğan"
   march_khazar: "Qapuğ"
   palatine_khazar: "Elteber"
   palatinate_khazar: "Etleberliği"
-  duke_holder_male_khazar: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]-išad"
-  duke_holder_female_khazar: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]-išadum"
-  duke_default_male_khazar: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]-išad"
-  duke_default_female_khazar: "[CHARACTER.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]-išadum"
+  duke_holder_male_khazar: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]išad"
+  duke_holder_female_khazar: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]išadum"
+  duke_default_male_khazar: "[ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]išad"
+  duke_default_female_khazar: "[ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]išadum"
   duchy_default_khazar: "Išadlïğï"
   
   duke_male_khazar_independent: "$duke_male_turkish_group_two$"
