@@ -1,4 +1,119 @@
-﻿BaronRepublicBasque = {
+﻿DynastyCheckBaronIrishM = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = baron_male_holder_irish
+	}
+	text = {
+		localization_key = baron_male_non_holder_irish
+		fallback = yes
+	}
+}
+BaronMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = baron_male_gael_norse
+	}
+	text = {
+		localization_key = baron_male_irish_default
+		fallback = yes
+	}
+}
+DynastyCheckBaronIrishF = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = baron_female_holder_irish
+	}
+	text = {
+		localization_key = baron_female_non_holder_irish
+		fallback = yes
+	}
+}
+BaronFemaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = baron_female_gael_norse
+	}
+	text = {
+		localization_key = baron_female_irish_default
+		fallback = yes
+	}
+}
+DynastyCheckBaronAnglo = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = baron_male_holder_anglo
+	}
+	text = {
+		localization_key = baron_male_non_holder_anglo
+		fallback = yes
+	}
+}
+BaronMaleAngloNorse = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = baron_male_anglo_norse
+	}
+	text = {
+		localization_key = baron_male_anglo_saxon
+		fallback = yes
+	}
+}
+BaronyAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = barony_castle_anglo_norse
+	}
+	text = {
+		localization_key = barony_castle_anglo_saxon
+		fallback = yes
+	}
+}
+BaronRepublicBasque = {
 	type = character
 	text = {
 		trigger = {
