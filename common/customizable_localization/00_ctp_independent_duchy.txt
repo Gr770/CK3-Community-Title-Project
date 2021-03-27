@@ -24,64 +24,6 @@ EnglishIndepDuchy = {
 		localization_key = independent_duchy_english
 	}
 }
-AngloIndepDukeMale = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				AND = {
-					exists = primary_spouse
-					root.primary_spouse = {
-						is_independent_ruler = yes
-						faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
-				}
-			}
-		}
-		localization_key = sultan_male_anglo_saxon
-	}
-	text = {
-		fallback = yes
-		localization_key = king_default_male_anglo
-	}
-}
-AngloIndepDukeFemale = {
-	type = character
-	text = {
-		trigger = {
-			OR = {
-				AND = {
-					is_independent_ruler = yes
-					root.faith = {
-						has_doctrine = tenet_struggle_submission
-					}
-				}
-				AND = {
-					exists = primary_spouse
-					root.primary_spouse = {
-						is_independent_ruler = yes
-						faith = {
-							has_doctrine = tenet_struggle_submission
-						}
-					}
-				}
-			}
-		}
-		localization_key = sultan_female_anglo_saxon
-	}
-	text = {
-		fallback = yes
-		localization_key = king_default_female_anglo
-	}
-}
 AngloSaxonIndepDuchy = {
 	type = character
 	text = {

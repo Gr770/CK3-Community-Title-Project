@@ -1,4 +1,17 @@
-﻿BaronMaleAnglo = {
+﻿DynastyCheckBaronAnglo = {
+	type = character
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = baron_male_holder_anglo
+	}
+	text = {
+		localization_key = baron_male_non_holder_anglo
+		fallback = yes
+	}
+}
+BaronMaleAngloNorse = {
 	type = character
 	text = {
 		trigger = {
