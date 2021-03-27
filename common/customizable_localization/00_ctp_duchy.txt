@@ -1,4 +1,4 @@
-﻿DukeMaleIrish = {
+﻿DynastyMaleIrish = {
 	type = character
 	text = {
 		trigger = {
@@ -15,11 +15,49 @@
 		localization_key = marquess_male_irish
 	}
 	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_default_male_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = duke_male_holder_irish
+	}
+	text = {
+		localization_key = duke_male_non_holder_irish
+		fallback = yes
+	}
+}
+DukeMaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_male_gael_norse
+	}
+	text = {
 		localization_key = duke_default_male_irish
 		fallback = yes
 	}
 }
-DukeFemaleIrish = {
+DynastyFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
@@ -34,6 +72,44 @@ DukeFemaleIrish = {
 			}
 		}
 		localization_key = marquess_female_irish
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_default_female_irish
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = duke_female_holder_irish
+	}
+	text = {
+		localization_key = duke_female_non_holder_irish
+		fallback = yes
+	}
+}
+DukeFemaleIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_female_gael_norse
 	}
 	text = {
 		localization_key = duke_default_female_irish
@@ -49,11 +125,43 @@ DuchyIrish = {
 		localization_key = march_irish
 	}
 	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_default_irish
+	}
+	text = {
+		localization_key = duchy_dynast_irish
+		fallback = yes
+	}
+}
+DynastDuchyIrish = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earldom_irish
+	}
+	text = {
 		localization_key = duchy_default_irish
 		fallback = yes
 	}
 }
-DukeMaleGaelic = {
+DynastyMaleGaelic = {
 	type = character
 	text = {
 		trigger = {
@@ -70,11 +178,49 @@ DukeMaleGaelic = {
 		localization_key = marquess_male_irish
 	}
 	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_default_male_gaelic
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = duke_male_holder_gaelic
+	}
+	text = {
+		localization_key = duke_male_non_holder_gaelic
+		fallback = yes
+	}
+}
+DukeMaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_male_gael_norse
+	}
+	text = {
 		localization_key = duke_default_male_gaelic
 		fallback = yes
 	}
 }
-DukeFemaleGaelic = {
+DynastyFemaleGaelic = {
 	type = character
 	text = {
 		trigger = {
@@ -91,6 +237,44 @@ DukeFemaleGaelic = {
 		localization_key = marquess_female_irish
 	}
 	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duke_default_female_gaelic
+	}
+	text = {
+		trigger = {
+			is_ruler = yes
+		}
+		localization_key = duke_female_holder_gaelic
+	}
+	text = {
+		localization_key = duke_female_non_holder_gaelic
+		fallback = yes
+	}
+}
+DukeFemaleGaelic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earl_female_gael_norse
+	}
+	text = {
 		localization_key = duke_default_female_gaelic
 		fallback = yes
 	}
@@ -102,6 +286,38 @@ DuchyGaelic = {
 			vassal_contract_has_flag = has_march_contract
 		}
 		localization_key = march_irish
+	}
+	text = {
+		trigger = {
+			root.top_liege = {
+				has_culture_group = culture_group:west_germanic_group
+				OR = {
+					has_primary_title = title:e_britannia
+					has_primary_title = title:k_england
+					has_primary_title = title:k_scotland
+				}
+			}
+		}
+		localization_key = duchy_default_gaelic
+	}
+	text = {
+		localization_key = duchy_dynast_gaelic
+		fallback = yes
+	}
+}
+DynastDuchyGaelic = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = earldom_irish
 	}
 	text = {
 		localization_key = duchy_default_gaelic

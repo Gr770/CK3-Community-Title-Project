@@ -1,5 +1,75 @@
-﻿GaelicIndepCounty = {
+﻿DynastGoidIndepCountMale = {
 	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = king_male_gael_norse
+	}
+	text = {
+		localization_key = indep_count_male_goid
+		fallback = yes
+	}
+}
+IndepCountMaleGoid = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = culture:irish
+		}
+		localization_key = count_default_male_irish
+	}
+	text = {
+		localization_key = count_feudalclan_male_gaelic_independent
+		fallback = yes
+	}
+}
+DynastGoidIndepCountFemale = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = king_female_gael_norse
+	}
+	text = {
+		localization_key = indep_count_female_goid
+		fallback = yes
+	}
+}
+IndepCountFemaleGoid = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = culture:irish
+		}
+		localization_key = count_default_female_irish
+	}
+	text = {
+		localization_key = count_feudalclan_female_gaelic_independent
+		fallback = yes
+	}
+}
+IndepCountyGoid = {
+	type = character
+	text = {
+		trigger = {
+			has_culture = culture:irish
+		}
+		localization_key = county_default_irish
+	}
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
