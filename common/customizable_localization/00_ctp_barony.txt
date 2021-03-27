@@ -1,4 +1,42 @@
-﻿BaronRepublicBasque = {
+﻿BaronMaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = baron_male_anglo_norse
+	}
+	text = {
+		localization_key = baron_male_anglo_saxon
+		fallback = yes
+	}
+}
+BaronyAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = barony_castle_anglo_norse
+	}
+	text = {
+		localization_key = barony_castle_anglo_saxon
+		fallback = yes
+	}
+}
+BaronRepublicBasque = {
 	type = character
 	text = {
 		trigger = {

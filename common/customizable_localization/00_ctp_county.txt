@@ -440,6 +440,25 @@ CountyEnglish = {
 		fallback = yes
 	}
 }
+CountMaleAnglo = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:north_germanic_group
+				AND = {
+					exists = father
+					father.culture_group = culture_group:north_germanic_group
+				}
+			}
+		}
+		localization_key = count_feudalclan_male_anglo_norse
+	}
+	text = {
+		localization_key = count_feudalclan_male_anglo_saxon
+		fallback = yes
+	}
+}
 CountMaleScottish = {
 	type = character
 	text = {

@@ -185,13 +185,25 @@
 ###########################################################
   #Anglo-Saxon 
 ###########################################################
+   baron_male_anglo: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronMaleAnglo')]"
+   baron_female_anglo: "Frówe"
+   barony_castle_anglo: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('BaronyAnglo')]"
+   baron_male_anglo_norse: "Hold"
+   barony_castle_anglo_norse: "Wǽpengetæc"
    baron_male_anglo_saxon: "Þegen"
-   baron_female_anglo_saxon: "Frówe"
    barony_castle_anglo_saxon: "Hundred"
  
+   count_feudalclan_male_anglo: "[CHARACTER.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleAnglo')]"
+   count_feudalclan_female_anglo: "Hlǽfdíge"
+   county_feudalclan_anglo: "Scír"
+   count_feudalclan_male_anglo_norse: "Aldormann"
    count_feudalclan_male_anglo_saxon: "Ealdormann"
-   count_feudalclan_female_anglo_saxon: "Hlǽfdíge"
-   county_feudalclan_anglo_saxon: "Scír"
+   
+   count_feudalclan_male_anglo_independent: "[CHARACTER.Custom('AngloIndepCountMale')]"
+   count_feudalclan_female_anglo_independent: "[CHARACTER.Custom('KingFemaleAngloSaxon')]"
+   county_feudalclan_anglo_independent: "[CHARACTER.Custom('AngloIndepCounty')]"
+   indep_count_default_male_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('AngloIndepCountMaleTwo')]"
+   count_feudalclan_male_anglo_norse_independent: "Dryhten"
  
    duke_feudalclan_male_anglo_saxon: "[CHARACTER.Custom('DukeMaleAngloSaxon')]"
    duke_feudalclan_female_anglo_saxon: "[CHARACTER.Custom('DukeFemaleAngloSaxon')]"
@@ -206,16 +218,20 @@
    duke_default_female_anglo_saxon: "Eorlen"
    duchy_default_anglo_saxon: "Eorldóm"
  
-   duke_feudalclan_male_anglo_saxon_independent: "[CHARACTER.Custom('KingMaleAngloSaxon')]"
-   duke_feudalclan_female_anglo_saxon_independent: "[CHARACTER.Custom('KingFemaleAngloSaxon')]" 
+   duke_feudalclan_male_anglo_saxon_independent: "[CHARACTER.Custom('AngloIndepDukeMale')]"
+   duke_feudalclan_female_anglo_saxon_independent: "[CHARACTER.Custom('AngloIndepDukeFemale')]" 
    duchy_feudalclan_anglo_saxon_independent: "[CHARACTER.Custom('AngloSaxonIndepDuchy')]"
  
-   king_male_anglo_saxon: "[CHARACTER.Custom('KingMaleAngloSaxon')]"
-   king_female_anglo_saxon: "[CHARACTER.Custom('KingFemaleAngloSaxon')]"
+   king_male_anglo_saxon: "[CHARACTER.Custom('SultanMaleAngloSaxon')]"
+   king_female_anglo_saxon: "[CHARACTER.Custom('SultanFemaleAngloSaxon')]"
    kingdom_anglo_saxon: "[CHARACTER.Custom('KingdomAngloSaxon')]"
+   king_default_male_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingMaleAnglo')]"
+   king_default_female_anglo: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('KingFemaleAnglo')]"
    sultan_male_anglo_saxon: "Soldan"
    sultan_female_anglo_saxon: "Soldanen"
    sultanate_anglo_saxon: "Soldanríce"
+   king_default_male_anglo_norse: "Cunung"
+   king_default_female_anglo_norse: "Cwœ́n"
    king_default_male_anglo_saxon: "Cyning"
    king_default_female_anglo_saxon: "Cwén"
    kingdom_default_anglo_saxon: "Ríce"
