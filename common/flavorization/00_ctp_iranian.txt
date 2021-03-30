@@ -260,8 +260,20 @@ empress_mother_persian ={
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-baron_republic_persian = {
+baron_republic_male_persian = {
 	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { persian } 
+	governments = { republic_government }
+	only_holder = yes
+	top_liege = no
+}
+baron_republic_female_persian = {
+	type = character
+	gender = female
 	special = holder
 	tier = barony
 	priority = 103
