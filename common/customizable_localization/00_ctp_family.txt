@@ -1036,6 +1036,12 @@ QueenMSicilian = {
 	}
 	text = {
 		trigger = {
+			has_religion = religion:islam_religion
+		}
+		localization_key = king_default_female_arabic
+	}
+	text = {
+		trigger = {
 			any_child = {
 				OR = {
 					has_primary_title = title:e_byzantium
@@ -1048,6 +1054,19 @@ QueenMSicilian = {
 	text = {
 		fallback = yes
 		localization_key =  king_default_female_sicilian
+	}
+}
+EmpressMSicilian = {
+	type = character
+	text = {
+		trigger = {
+			has_religion = religion:islam_religion
+		}
+		localization_key = emperor_default_female_arabic
+	}
+	text = {
+		fallback = yes
+		localization_key =  emperor_female_sicilian
 	}
 }
 QueenMLombard = {
