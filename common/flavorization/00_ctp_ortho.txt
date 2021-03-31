@@ -1,0 +1,413 @@
+﻿#############################################
+##         Community Title Project         ##
+##          Title Flavourisation           ##
+#############################################
+#############################################
+## Orthodox Titles ##
+#############################################
+daddy_patriarch = {
+	type = character
+	gender = male
+	special = holder
+	priority = 500
+	titles = { k_orthodox d_iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+mommy_patriarch = {
+	type = character
+	gender = female
+	special = holder
+	priority = 500
+	titles = { k_orthodox d_iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+baron_male_theo_ortho = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 202
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+barony_hold_ortho = {
+	type = title
+	tier = barony
+	priority = 202
+	holding = church_holding
+	faiths = { orthodox iconoclast }
+	top_liege = no
+}
+count_male_theo_ortho = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 212
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_ortho = {
+	type = title
+	tier = county
+	priority = 212
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+}
+duke_male_theo_ortho = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 222
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_ortho = {
+	type = title
+	tier = duchy
+	priority = 222
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+}
+king_male_theo_ortho = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 242
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_theo_ortho = {
+	type = title
+	tier = kingdom
+	priority = 242
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+}
+emperor_male_theo_ortho = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 252
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+emperor_female_theo_ortho = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 252
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+	only_holder = yes
+}
+empire_theo_ortho = {
+	type = title
+	tier = empire
+	priority = 252
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	top_liege = no
+}
+#############################################
+## anglo_saxon ##
+#############################################
+daddy_patriarch_anglo_saxon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_orthodox d_iconoclast }
+	top_liege = no
+	cultures = { anglo_saxon }
+	only_holder = yes
+}
+baron_theo_ortho_anglo_saxon = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 203
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+	only_holder = yes
+}
+barony_hold_ortho_anglo_saxon = {
+	type = title
+	tier = barony
+	priority = 203
+	holding = church_holding
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+}
+count_theo_ortho_anglo_saxon = {
+	type = character
+	special = holder
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_ortho_anglo_saxon = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+}
+duke_theo_ortho_anglo_saxon = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_ortho_anglo_saxon = {
+	type = title
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+}
+emperor_male_theo_ortho_anglo_saxon = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+	only_holder = yes
+}
+empire_theo_ortho_anglo_saxon = {
+	type = title
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { anglo_saxon }
+	top_liege = no
+}
+#############################################
+## norse norwegian ##
+#############################################
+daddy_patriarch_norse_norwegian = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_orthodox d_iconoclast }
+	top_liege = no
+	cultures = { norse norwegian }
+	only_holder = yes
+}
+baron_theo_ortho_norse_norwegian = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 203
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+barony_hold_ortho_norse_norwegian = {
+	type = title
+	tier = barony
+	priority = 203
+	holding = church_holding
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+count_theo_ortho_norse_norwegian = {
+	type = character
+	special = holder
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_ortho_norse_norwegian = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+duke_theo_ortho_norse_norwegian = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_ortho_norse_norwegian = {
+	type = title
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+emperor_male_theo_ortho_norse_norwegian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+	only_holder = yes
+}
+empire_theo_ortho_norse_norwegian = {
+	type = title
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { norse norwegian }
+	top_liege = no
+}
+#############################################
+## swedish danish ##
+#############################################
+daddy_patriarch_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	priority = 501
+	titles = { k_orthodox d_iconoclast }
+	top_liege = no
+	cultures = { swedish danish }
+	only_holder = yes
+}
+baron_theo_ortho_swedish_danish = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 203
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+	only_holder = yes
+}
+barony_hold_ortho_swedish_danish = {
+	type = title
+	tier = barony
+	priority = 203
+	holding = church_holding
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+}
+count_theo_ortho_swedish_danish = {
+	type = character
+	special = holder
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+	only_holder = yes
+}
+county_theo_ortho_swedish_danish = {
+	type = title
+	tier = county
+	priority = 213
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+}
+duke_theo_ortho_swedish_danish = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+	only_holder = yes
+}
+duchy_theo_ortho_swedish_danish = {
+	type = title
+	tier = duchy
+	priority = 223
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+}
+emperor_male_theo_ortho_swedish_danish = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+	only_holder = yes
+}
+empire_theo_ortho_swedish_danish = {
+	type = title
+	tier = empire
+	priority = 253
+	governments = { theocracy_government }
+	faiths = { orthodox iconoclast }
+	cultures = { swedish danish }
+	top_liege = no
+}
