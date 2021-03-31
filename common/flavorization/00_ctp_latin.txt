@@ -1684,6 +1684,37 @@ barony_castle_sicilian = {
 	holding = castle_holding
 	top_liege = no
 }
+baron_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_castle_sicilian_arabic = {
+	type = title
+	priority = 104
+	tier = barony
+	cultures = { sicilian }
+	religions = { islam_religion }
+	holding = castle_holding
+	top_liege = no
+}
 count_male_sicilian = {
 	type = character
 	gender = male
@@ -1712,6 +1743,82 @@ county_sicilian = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+count_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_female_holder_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 115
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+county_sicilian_arabic = {
+	type = title
+	priority = 114
+	tier = county
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+count_male_sicilian_arabic_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 116
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_sicilian_arabic_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 116
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
+county_sicilian_arabic_independent = {
+	type = title
+	priority = 116
+	tier = county
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
 duke_male_sicilian = {
 	type = character
 	gender = male
@@ -1738,6 +1845,37 @@ duchy_sicilian = {
 	tier = duchy
 	cultures = { sicilian }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duke_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_sicilian_arabic = {
+	type = title
+	priority = 125
+	tier = duchy
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government }
 	top_liege = no
 }
 duke_male_sicilian_independent = {
@@ -1799,6 +1937,49 @@ kingdom_sicilian = {
 	governments = { feudal_government clan_government tribal_government}
 	top_liege = no
 }
+king_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government}
+	top_liege = no
+}
+king_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government}
+	top_liege = no
+}
+king_female_holder_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government}
+	top_liege = no
+	only_holder = yes
+}
+kingdom_sicilian_arabic = {
+	type = title
+	priority = 144
+	tier = kingdom
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government}
+	top_liege = no
+}
 emperor_male_sicilian = {
 	type = character
 	gender = male
@@ -1824,6 +2005,37 @@ empire_sicilian = {
 	priority = 153
 	tier = empire
 	cultures = { sicilian }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+empire_sicilian_arabic = {
+	type = title
+	priority = 154
+	tier = empire
+	cultures = { sicilian }
+	religions = { islam_religion }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -1867,6 +2079,50 @@ title_prince_female_sicilian_empire = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
+title_prince_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 131
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 131
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_male_sicilian_arabic_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_female_sicilian_arabic_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 queen_mother_sicilian = {
 	type = character
 	gender = female
@@ -1905,6 +2161,39 @@ barony_city_sicilian = {
 	holding = city_holding
 	top_liege = no
 }
+baron_male_republic_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_republic_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_sicilian_arabic = {
+	type = title
+	priority = 104
+	tier = barony
+	cultures = { sicilian }
+	religions = { islam_religion }
+	holding = city_holding
+	top_liege = no
+}
 count_republic_sicilian = {
 	type = character
 	special = holder
@@ -1920,6 +2209,39 @@ county_republic_sicilian = {
 	priority = 113
 	tier = county
 	cultures = { sicilian }
+	governments = { republic_government }
+	top_liege = no
+}
+count_male_republic_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+count_female_republic_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+county_republic_sicilian_arabic = {
+	type = title
+	priority = 114
+	tier = county
+	cultures = { sicilian }
+	religions = { islam_religion }
 	governments = { republic_government }
 	top_liege = no
 }
@@ -1953,6 +2275,39 @@ duchy_republic_sicilian = {
 	governments = { republic_government }
 	top_liege = no
 }
+duke_republic_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_republic_sicilian_arabic = {
+	type = title
+	priority = 124
+	tier = duchy
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+}
 king_republic_male_sicilian = {
 	type = character
 	gender = male
@@ -1974,6 +2329,113 @@ king_republic_female_sicilian = {
 	governments = { republic_government }
 	top_liege = no
 	only_holder = yes
+}
+king_republic_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { sicilian } 
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+	only_holder = yes
+}
+kingdom_republic_sicilian_arabic = {
+	type = title
+	priority = 144
+	tier = kingdom
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { republic_government }
+	top_liege = no
+}
+barony_tribe_sicilian_arabic = {
+	type = title
+	priority = 104
+	tier = barony
+	cultures = { sicilian }
+	religions = { islam_religion }
+	holding = tribal_holding
+	top_liege = no
+}
+count_male_tribal_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+count_female_tribal_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+county_tribal_sicilian_arabic = {
+	type = title
+	priority = 114
+	tier = county
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_sicilian_arabic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_tribal_female_sicilian_arabic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { sicilian } 
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duchy_tribal_sicilian_arabic = {
+	type = title
+	priority = 125
+	tier = duchy
+	cultures = { sicilian }
+	religions = { islam_religion }
+	governments = { tribal_government }
+	top_liege = no
 }
 ###############################################
 ## Lombard
