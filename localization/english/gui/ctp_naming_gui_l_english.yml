@@ -14,7 +14,8 @@
  CTP_House: "[ROOT.Char.GetDynastyHouseNameNoTooltip] "
  CTP_NickName: "[ROOT.Char.GetNickname] "
  
- Full_Name_Arabic: "[ROOT.Char.Custom('TierCheck')][ROOT.Char.Custom('TekCheck')][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
+ Full_Name_Arabic_male: "[ROOT.Char.Custom('TierCheck')][GetScriptedGui('scripted_gui_ctp_tek_male').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
+ Full_Name_Arabic_female: "[ROOT.Char.Custom('TierCheck')][GetScriptedGui('scripted_gui_ctp_tek_female').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
  
  name_key_andalusian: "_andalusian"
  name_key_arabic: "_arabic"
@@ -22,3 +23,5 @@
  
  sayyid_male: "Sāyyid "
  sayyid_female: "Sāyyidā "
+ title_prince_male_arabic_group_gui: "[ROOT.Char.Custom('PrinceArabic')] "
+ title_prince_female_arabic_group_gui: "[ROOT.Char.Custom('PrincessArabic')] "

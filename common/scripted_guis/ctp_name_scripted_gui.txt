@@ -1,0 +1,154 @@
+﻿scripted_gui_ctp_tek_male = {
+	scope = character
+	effect = {
+		save_scope_as = effect_root
+		hidden_effect = {
+			IF = {
+				limit = { is_alive = no }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
+					}
+				}
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
+				}
+			}
+			IF = {
+				limit = { is_alive = yes }
+				IF = {
+					limit = { exists = var:var_dad_eldest_son }
+					var:var_dad_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_dad_eldest_daughter }
+					var:var_dad_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
+				}
+			}
+		}
+		IF = {
+			limit = {
+				exists = scope:scripted_gui_eldest_son
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_ctp_kunya_male
+				subject = scope:effect_root
+				object = scope:scripted_gui_eldest_son
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:scripted_gui_eldest_daughter
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_ctp_kunya_male
+				subject = scope:effect_root
+				object = scope:scripted_gui_eldest_daughter
+			}
+		}
+		else_if = {
+			custom_description_no_bullet = {
+				text = ctp_blank_kunya
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+	}
+}
+scripted_gui_ctp_tek_female = {
+	scope = character
+	effect = {
+		save_scope_as = effect_root
+		hidden_effect = {
+			IF = {
+				limit = { is_alive = no }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
+					}
+				}
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
+				}
+			}
+			IF = {
+				limit = { is_alive = yes }
+				IF = {
+					limit = { exists = var:var_dad_eldest_son }
+					var:var_dad_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_dad_eldest_daughter }
+					var:var_dad_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
+				}
+			}
+		}
+		IF = {
+			limit = {
+				exists = scope:scripted_gui_eldest_son
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_ctp_kunya_female
+				subject = scope:effect_root
+				object = scope:scripted_gui_eldest_son
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:scripted_gui_eldest_daughter
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_ctp_kunya_female
+				subject = scope:effect_root
+				object = scope:scripted_gui_eldest_daughter
+			}
+		}
+		else_if = {
+			custom_description_no_bullet = {
+				text = ctp_blank_kunya
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+	}
+}

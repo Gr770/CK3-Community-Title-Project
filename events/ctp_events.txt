@@ -1,23 +1,182 @@
-﻿namespace = ctp
-ctp.1001 = {
+﻿namespace = ctpname
+
+ctpname.999 = {
 	type = character_event
 	hidden = yes
-	
 	trigger = {
-		is_alive = yes
-		is_male = yes
 		NOT = {
 			has_trait = bastard
-			every_in_global_list = {
-				variable = eldest_sons
-				THIS.father = ROOT.father
+		}
+		is_male = yes
+		exists = father
+		father = {
+			NOT = {
+				has_character_flag = had_eldest_son
 			}
 		}
-	}	
+	}
 	immediate = {
-		add_to_global_variable_list = {
-			name = eldest_sons
-			target = ROOT
+		save_scope_as = ctp_eldest_son
+		father = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = scope:ctp_eldest_son }
+		}
+	}
+}
+ctpname.998 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		NOT = {
+			has_trait = bastard
+		}
+		is_male = yes
+		exists = mother
+		mother = {
+			NOT = {
+				has_character_flag = had_eldest_son
+			}
+		}
+	}
+	immediate = {
+		save_scope_as = ctp_eldest_son
+		mother = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_mom_eldest_son value = scope:ctp_eldest_son }
+		}
+	}
+}
+ctpname.997 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		NOT = {
+			has_trait = bastard
+		}
+		is_male = no
+		exists = father
+		father = {
+			NOT = {
+				has_character_flag = had_eldest_son
+				has_character_flag = had_eldest_daughter 
+			}
+		}
+	}
+	immediate = {
+		save_scope_as = ctp_eldest_daughter
+		father = {
+			add_character_flag = had_eldest_daughter
+			set_variable = { name = var_dad_eldest_daughter value = scope:ctp_eldest_daughter }
+		}
+	}
+}
+ctpname.996 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		NOT = {
+			has_trait = bastard
+		}
+		is_male = no
+		exists = mother
+		mother = {
+			NOT = {
+				has_character_flag = had_eldest_son
+				has_character_flag = had_eldest_daughter 
+			}
+		}
+	}
+	immediate = {
+		save_scope_as = ctp_eldest_daughter
+		mother = {
+			add_character_flag = had_eldest_daughter
+			set_variable = { name = var_mom_eldest_daughter value = scope:ctp_eldest_daughter }
+		}
+	}
+}
+ctpname.995 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		is_male = yes
+		has_character_flag = had_eldest_son
+		exists = var:var_dad_eldest_son
+	}
+	immediate = {
+		var:var_dad_eldest_son = {
+			save_scope_as = ctp_eldest_son
+		}
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = dynasty_list_ctp_sons target = scope:ctp_eldest_son } }
+		}
+		else = {
+			add_to_global_variable_list = { name = global_list_ctp_sons target = scope:ctp_eldest_son }
+		}
+	}
+}
+ctpname.994 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		is_male = yes
+		has_character_flag = had_eldest_daughter
+		NOT = {
+			has_character_flag = had_eldest_son
+		}
+		exists = var:ctp_eldest_daughter
+	}
+	immediate = {
+		var:ctp_eldest_daughter = {
+			save_scope_as = ctp_eldest_daughter
+		}
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = dynasty_list_ctp_daughters target = scope:ctp_eldest_daughter } }
+		}
+		else = {
+			add_to_global_variable_list = { name = global_list_ctp_daughters target = scope:ctp_eldest_daughter }
+		}
+	}
+}
+ctpname.993 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		is_male = no
+		has_character_flag = had_eldest_son
+		exists = var:var_dad_eldest_son
+	}
+	immediate = {
+		var:var_dad_eldest_son = {
+			save_scope_as = ctp_eldest_son
+		}
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = dynasty_list_ctp_sons target = scope:ctp_eldest_son } }
+		}
+		else = {
+			add_to_global_variable_list = { name = global_list_ctp_sons target = scope:ctp_eldest_son }
+		}
+	}
+}
+ctpname.992 = {
+	type = character_event
+	hidden = yes
+	trigger = {
+		is_male = no
+		has_character_flag = had_eldest_daughter
+		NOT = {
+			has_character_flag = had_eldest_son
+		}
+		exists = var:ctp_eldest_daughter
+	}
+	immediate = {
+		var:ctp_eldest_daughter = {
+			save_scope_as = ctp_eldest_daughter
+		}
+		IF = { limit = { exists = dynasty }
+			dynasty = { add_to_variable_list = { name = dynasty_list_ctp_daughters target = scope:ctp_eldest_daughter } }
+		}
+		else = {
+			add_to_global_variable_list = { name = global_list_ctp_daughters target = scope:ctp_eldest_daughter }
 		}
 	}
 }
