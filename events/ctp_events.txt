@@ -10,6 +10,7 @@ ctpname.999 = {
 		is_male = yes
 		exists = father
 		father = {
+			is_alive = yes
 			NOT = {
 				has_character_flag = had_eldest_son
 			}
@@ -33,6 +34,7 @@ ctpname.998 = {
 		is_male = yes
 		exists = mother
 		mother = {
+			is_alive = yes
 			NOT = {
 				has_character_flag = had_eldest_son
 			}
@@ -56,6 +58,7 @@ ctpname.997 = {
 		is_male = no
 		exists = father
 		father = {
+			is_alive = yes
 			NOT = {
 				has_character_flag = had_eldest_son
 				has_character_flag = had_eldest_daughter 
@@ -80,6 +83,7 @@ ctpname.996 = {
 		is_male = no
 		exists = mother
 		mother = {
+			is_alive = yes
 			NOT = {
 				has_character_flag = had_eldest_son
 				has_character_flag = had_eldest_daughter 
@@ -123,10 +127,10 @@ ctpname.994 = {
 		NOT = {
 			has_character_flag = had_eldest_son
 		}
-		exists = var:ctp_eldest_daughter
+		exists = var:var_dad_eldest_daughter
 	}
 	immediate = {
-		var:ctp_eldest_daughter = {
+		var:var_dad_eldest_daughter = {
 			save_scope_as = ctp_eldest_daughter
 		}
 		IF = { limit = { exists = dynasty }
@@ -143,10 +147,10 @@ ctpname.993 = {
 	trigger = {
 		is_male = no
 		has_character_flag = had_eldest_son
-		exists = var:var_dad_eldest_son
+		exists = var:var_mom_eldest_son
 	}
 	immediate = {
-		var:var_dad_eldest_son = {
+		var:var_mom_eldest_son = {
 			save_scope_as = ctp_eldest_son
 		}
 		IF = { limit = { exists = dynasty }
@@ -166,10 +170,10 @@ ctpname.992 = {
 		NOT = {
 			has_character_flag = had_eldest_son
 		}
-		exists = var:ctp_eldest_daughter
+		exists = var:var_mom_eldest_daughter
 	}
 	immediate = {
-		var:ctp_eldest_daughter = {
+		var:var_mom_eldest_daughter = {
 			save_scope_as = ctp_eldest_daughter
 		}
 		IF = { limit = { exists = dynasty }

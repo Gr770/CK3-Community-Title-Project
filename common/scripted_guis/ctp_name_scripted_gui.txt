@@ -51,7 +51,7 @@
 				exists = scope:scripted_gui_eldest_son
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_ctp_kunya_male
+				text = scripted_gui_trigger_ctp_kunya_male
 				subject = scope:effect_root
 				object = scope:scripted_gui_eldest_son
 			}
@@ -61,14 +61,24 @@
 				exists = scope:scripted_gui_eldest_daughter
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_ctp_kunya_male
+				text = scripted_gui_trigger_ctp_kunya_male
 				subject = scope:effect_root
 				object = scope:scripted_gui_eldest_daughter
 			}
 		}
 		else_if = {
+			limit = {
+				is_adult = yes
+			}
 			custom_description_no_bullet = {
-				text = ctp_blank_kunya
+				text = ctp_no_child_trigger_kunya
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else = {
+			custom_description_no_bullet = {
+				text = ctp_blank_trigger_kunya
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -114,12 +124,12 @@ scripted_gui_ctp_tek_female = {
 			IF = {
 				limit = { is_alive = yes }
 				IF = {
-					limit = { exists = var:var_dad_eldest_son }
-					var:var_dad_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+					limit = { exists = var:var_mom_eldest_son }
+					var:var_mom_eldest_son = { save_scope_as = scripted_gui_eldest_son }
 				}
 				else_if = {
-					limit = { exists = var:var_dad_eldest_daughter }
-					var:var_dad_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
+					limit = { exists = var:var_mom_eldest_daughter }
+					var:var_mom_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
 				}
 			}
 		}
@@ -128,7 +138,7 @@ scripted_gui_ctp_tek_female = {
 				exists = scope:scripted_gui_eldest_son
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_ctp_kunya_female
+				text = scripted_gui_trigger_ctp_kunya_female
 				subject = scope:effect_root
 				object = scope:scripted_gui_eldest_son
 			}
@@ -138,14 +148,24 @@ scripted_gui_ctp_tek_female = {
 				exists = scope:scripted_gui_eldest_daughter
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_ctp_kunya_female
+				text = scripted_gui_trigger_ctp_kunya_female
 				subject = scope:effect_root
 				object = scope:scripted_gui_eldest_daughter
 			}
 		}
 		else_if = {
+			limit = {
+				is_adult = yes
+			}
 			custom_description_no_bullet = {
-				text = ctp_blank_kunya
+				text = ctp_no_child_trigger_kunya
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			custom_description_no_bullet = {
+				text = ctp_blank_trigger_kunya
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
