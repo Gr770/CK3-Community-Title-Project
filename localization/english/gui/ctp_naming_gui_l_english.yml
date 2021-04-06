@@ -12,10 +12,10 @@
  CTP_Patronym_Man_Daddy: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_male_dad'))] "
  CTP_Patronym_Woman_Daddy: "[Localize(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_female_dad'))] "
  CTP_House: "[ROOT.Char.GetDynastyHouseNameNoTooltip] "
- CTP_NickName: "[ROOT.Char.GetNickname] "
+ CTP_NickName: "[Localize(Concatenate(ROOT.Char.GetNickname,ROOT.Char.Custom('NameCulture')))]"
  
- Full_Name_Arabic_male: "[ROOT.Char.Custom('TierCheck')][GetScriptedGui('scripted_gui_ctp_tek_male').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
- Full_Name_Arabic_female: "[ROOT.Char.Custom('TierCheck')][GetScriptedGui('scripted_gui_ctp_tek_female').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('HouseCheck')][ROOT.Char.Custom('NickCheck')]"
+ Full_Name_Arabic_male: "[ROOT.Char.Custom('TierCheck')][ROOT.Char.Custom('LaqabCheck')][GetScriptedGui('scripted_gui_ctp_tek_male').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('NickCheck')]"
+ Full_Name_Arabic_female: "[ROOT.Char.Custom('TierCheck')][ROOT.Char.Custom('LaqabCheck')][GetScriptedGui('scripted_gui_ctp_tek_female').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')))] [ROOT.Char.Custom('PatCheck')][ROOT.Char.Custom('NickCheck')]"
  
  name_key_andalusian: "_andalusian"
  name_key_arabic: "_arabic"
