@@ -183,4 +183,12 @@ ctpname.992 = {
 			add_to_global_variable_list = { name = global_list_ctp_daughters target = scope:ctp_eldest_daughter }
 		}
 	}
+}	
+ctpname.992 = {
+	type = none
+	hidden = yes
+	trigger = { year = 1066 }
+	immediate = {
+		add_to_global_variable_list = { name = laqab_obey_god_command target = character:3080 }
+	}
 }
