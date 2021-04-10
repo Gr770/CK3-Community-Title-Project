@@ -306,25 +306,3 @@ NickCheck = {
 		localization_key = Gui_blank
 	}
 }
-LaqabCheck = {
-	type = character
-	text = {
-		trigger = {
-			has_character_flag = laqab_truth_summoner
-		}
-		localization_key = laqab_truth_summoner_ctp
-	}
-	text = {
-		trigger = {
-			every_in_global_list = {
-				variable = laqab_obey_god_command
-				limit = { ROOT = THIS }
-			}
-		}
-		localization_key = laqab_obey_god_command_ctp
-	}
-	text = {
-		fallback = yes
-		localization_key = Gui_blank
-	}
-}	

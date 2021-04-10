@@ -172,3 +172,203 @@ scripted_gui_ctp_tek_female = {
 		}
 	}
 }
+scripted_gui_ctp_laqab = {
+	scope = character
+	effect = {
+		save_scope_as = effect_root
+		hidden_effect = {
+			IF = {
+				limit = { is_alive = no }
+				every_in_global_list = {
+					variable = laqab_obey_god_command
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_obey_god_command_scope
+				}
+				every_in_global_list = {
+					variable = laqab_supporter_religion
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_supporter_religion_scope
+				}
+				every_in_global_list = {
+					variable = laqab_seeker_victory_god
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_seeker_victory_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_muayyad
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_muayyad_scope
+				}
+				every_in_global_list = {
+					variable = laqab_vault_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_vault_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_light_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_light_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_mutamid_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_mutamid_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_zaim_dynasty
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_zaim_dynasty_scope
+				}
+				every_in_global_list = {
+					variable = laqab_knowledge_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_knowledge_faith_scope
+				}
+				every_in_global_list = {
+					variable = laqab_adornment_worshipers
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_adornment_worshipers_scope
+				}
+				every_in_global_list = {
+					variable = laqab_prophet_seal
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_prophet_seal_scope
+				}
+			}
+			IF = {
+				limit = { is_alive = yes }
+				IF = {
+					limit = { has_character_flag = laqab_truth_summoner }
+					save_scope_as = laqab_truth_summoner_scope
+				}
+			}
+		}
+		IF = {
+			limit = {
+				exists = scope:laqab_obey_god_command_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_obey_god_command
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_supporter_religion_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_supporter_religion
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_seeker_victory_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_seeker_victory_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_truth_summoner_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_truth_summoner
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_muayyad_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_muayyad
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_vault_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_vault_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_light_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_light_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_mutamid_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_mutamid_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_zaim_dynasty_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_zaim_dynasty
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_knowledge_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_knowledge_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_adornment_worshipers_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_adornment_worshipers
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_prophet_seal_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_prophet_seal
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else = {
+			custom_description_no_bullet = {
+				text = ctp_blank_trigger_kunya
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+	}
+}
