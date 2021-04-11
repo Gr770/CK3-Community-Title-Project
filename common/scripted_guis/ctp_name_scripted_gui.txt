@@ -234,6 +234,11 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_prophet_seal_scope
 				}
+				every_in_global_list = {
+					variable = laqab_possessor_lights
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_possessor_lights_scope
+				}
 			}
 			IF = {
 				limit = { is_alive = yes }
@@ -359,6 +364,16 @@ scripted_gui_ctp_laqab = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_prophet_seal
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_possessor_lights_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_possessor_lights
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

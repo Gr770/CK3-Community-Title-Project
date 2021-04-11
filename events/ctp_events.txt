@@ -191,6 +191,7 @@ ctpname.991 = {
 	immediate = {
 		add_to_global_variable_list = { name = laqab_adornment_worshipers target = character:33913 }
 		add_to_global_variable_list = { name = laqab_prophet_seal target = character:33922 }
+		add_to_global_variable_list = { name = laqab_possessor_lights target = character:163021 }
 		dynasty:589 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33914 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33915 }
@@ -199,11 +200,17 @@ ctpname.991 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33918 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33919 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33926 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163023 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163024 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163025 }
 		}
 		dynasty:597 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:73681 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:73683 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163002 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163003 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163020 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163021 }
 		}
 		dynasty:101727 = { 
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33901 }
@@ -217,6 +224,15 @@ ctpname.991 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33929 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33931 }
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:33932 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163006 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163009 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163010 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163011 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163012 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163013 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163015 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163016 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163017 }
 		}
 		dynasty:101731 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:155148 }
@@ -237,6 +253,10 @@ ctpname.991 = {
 		character:73685 = {
 			add_character_flag = had_eldest_son
 			set_variable = { name = var_dad_eldest_son value = character:73686 }
+		}
+		character:163025 = {
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:163026 }
 		}
 	}
 }
@@ -289,6 +309,7 @@ ctpname.990 = {
 		}
 		dynasty:589 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:32900 }
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:163026 }
 		}
 		dynasty:7296 = {
 			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34041 }
