@@ -355,6 +355,39 @@ DutchIndepCounty = {
 		localization_key = independent_county_dutch
 	}
 }
+ArabicIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_arabic_group
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_arabic_group
+	}
+}
+AndalusianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+			has_religion = religion:christianity_religion
+		}
+		localization_key = county_feudalclan_andalusian_christian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_andalusian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_county_andalusian
+	}
+}
 GeorgianIndepCounty = {
 	type = character
 	text = {

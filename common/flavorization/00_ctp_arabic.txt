@@ -128,10 +128,18 @@ county_feudalclan_arabic_group = {
 	culture_groups = { arabic_group }
 	top_liege = no
 }
-county_feudalclan_andalusian_christian = {
+county_feudalclan_andalusian = {
 	type = title
 	tier = county
 	priority = 113
+	governments = { feudal_government clan_government }
+	cultures = { andalusian }
+	top_liege = no
+}
+county_feudalclan_andalusian_christian = {
+	type = title
+	tier = county
+	priority = 114
 	governments = { feudal_government clan_government }
 	cultures = { andalusian }
 	religions = { christianity_religion }
