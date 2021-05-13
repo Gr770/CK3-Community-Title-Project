@@ -59,18 +59,6 @@ baron_female_andalusian_christian = {
 	religions = { christianity_religion }
 	top_liege = no
 }
-baron_female_andalusian_christian_holder = {
-	type = character
-	gender = female
-	special = holder 
-	tier = barony
-	priority = 104
-	governments = { feudal_government clan_government tribal_government }
-	cultures = { andalusian }
-	religions = { christianity_religion }
-	only_holder = yes
-	top_liege = no
-}
 barony_castle_arabic_group = {
 	type = title
 	tier = barony
@@ -140,6 +128,15 @@ county_feudalclan_arabic_group = {
 	culture_groups = { arabic_group }
 	top_liege = no
 }
+county_feudalclan_andalusian_christian = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government }
+	cultures = { andalusian }
+	religions = { christianity_religion }
+	top_liege = no
+}
 count_feudalclan_male_arabic_group_independent = {
 	type = character
 	gender = male 
@@ -186,35 +183,12 @@ count_feudalclan_female_andalusian_independent_christian = {
 	only_independent = yes
 	top_liege = no
 }
-count_feudalclan_female_andalusian_holder_independent_christian = {
-	type = character
-	gender = female 
-	special = holder
-	tier = county
-	priority = 116
-	governments = { feudal_government clan_government }
-	cultures = { andalusian }
-	religions = { christianity_religion }
-	only_holder = yes
-	only_independent = yes
-	top_liege = no
-}
 county_feudalclan_arabic_group_independent = {
 	type = title
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government }
 	culture_groups = { arabic_group }
-	only_independent = yes
-	top_liege = no
-}
-county_feudalclan_arabic_group_independent_christian = {
-	type = title
-	tier = county
-	priority = 114
-	governments = { feudal_government clan_government }
-	cultures = { andalusian }
-	religions = { christianity_religion }
 	only_independent = yes
 	top_liege = no
 }
@@ -344,6 +318,15 @@ empire_arabic_group = {
 	culture_groups = { arabic_group }
 	top_liege = no
 }
+empire_andalusian_christian = {
+	type = title
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government republic_government tribal_government }
+	religions = { christianity_religion }
+	cultures = { andalusian }
+	top_liege = no
+}
 title_prince_male_arabic_group = {
 	type = character
 	gender = male
@@ -431,6 +414,7 @@ barony_city_arabic_group = {
 	tier = barony
 	priority = 102
 	governments = { republic_government }
+	culture_groups = { arabic_group }
 	holding = city_holding
 	top_liege = no
 }
