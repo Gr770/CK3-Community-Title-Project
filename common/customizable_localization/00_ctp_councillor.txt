@@ -3049,8 +3049,16 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege.culture = culture:pictish
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_pictish
+		localization_key = councillor_spymaster_pictish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:pictish
+			is_male = no
+		}
+		localization_key = councillor_spymaster_pictish_female
 	}
 	text = {
 		trigger = {
@@ -3083,14 +3091,30 @@ CouncilPositionSpymaster = {
 	text = {
 		trigger = {
 			liege.culture = culture:cornish
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_cornish
+		localization_key = councillor_spymaster_cornish_male
+	}
+	text = {
+		trigger = {
+			liege.culture = culture:cornish
+			is_male = no
+		}
+		localization_key = councillor_spymaster_cornish_female
 	}	
 	text = {
 		trigger = {
 			liege.culture = culture:cumbrian
+			is_male = yes
 		}
-		localization_key = councillor_spymaster_cumbrian
+		localization_key = councillor_spymaster_cumbrian_male
+	}	
+	text = {
+		trigger = {
+			liege.culture = culture:cumbrian
+			is_male = no
+		}
+		localization_key = councillor_spymaster_cumbrian_female
 	}	
 ##################################################
 ### Frankish
