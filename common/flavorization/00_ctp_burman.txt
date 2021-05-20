@@ -16,6 +16,16 @@ baron_male_burmese = {
 	governments = { republic_government feudal_government clan_government tribal_government }
 	top_liege = no
 }
+baron_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	cultures = { burmese }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
 barony_castle_burmese = {
 	type = title
 	tier = barony
@@ -50,6 +60,38 @@ count_male_burmese = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+count_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_burmese_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_burmese_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
 county_burmese = {
 	type = title
 	priority = 113
@@ -68,6 +110,16 @@ duke_male_burmese = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+duke_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
 duchy_burmese = {
 	type = title
 	tier = duchy
@@ -79,6 +131,17 @@ duchy_burmese = {
 duke_male_burmese_independent = {
 	type = character
 	gender = male
+	special = holder
+	priority = 124
+	tier = duchy
+	cultures = { burmese }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duke_female_burmese_independent = {
+	type = character
+	gender = female
 	special = holder
 	priority = 124
 	tier = duchy

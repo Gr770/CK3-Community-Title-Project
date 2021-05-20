@@ -7,7 +7,28 @@
 ###############################################
 ## Kanuri_culture ##
 ##
-
+baron_male_kanuri_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { kanuri }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_female_kanuri_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { kanuri }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 baron_male_kanuri = {
 	type = character
 	gender = male
@@ -27,6 +48,44 @@ baron_female_kanuri = {
 	cultures = { kanuri }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
+}
+barony_castle_kanuri = {
+	type = title
+	tier = barony
+	priority = 102
+	holding = castle_holding
+	cultures = { kanuri }
+	top_liege = no
+}
+barony_tribe_kanuri = {
+	type = title
+	tier = barony
+	priority = 102
+	holding = tribal_holding
+	cultures = { kanuri }
+	top_liege = no
+}
+count_feudalclan_male_kanuri_holder = {
+	type = character
+	gender = male
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { kanuri }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+count_feudalclan_female_kanuri_holder = {
+	type = character
+	gender = female
+	special = holder
+	priority = 114
+	tier = county
+	cultures = { kanuri }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
 }
 count_male_kanuri = {
 	type = character
@@ -48,14 +107,34 @@ count_female_kanuri = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+county_kanuri = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { kanuri }
+	top_liege = no
+}
+count_male_holder_kanuri_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 116
+	tier = county
+	cultures = { kanuri }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
 count_male_kanuri_independent = {
 	type = character
 	gender = male
 	special = holder
-	priority = 114
+	priority = 115
 	tier = county
 	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -63,10 +142,10 @@ count_female_holder_kanuri_independent = {
 	type = character
 	gender = female
 	special = holder
-	priority = 115
+	priority = 116
 	tier = county
 	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 	only_holder = yes
@@ -75,10 +154,10 @@ count_female_kanuri_independent = {
 	type = character
 	gender = female
 	special = holder
-	priority = 114
+	priority = 115
 	tier = county
 	cultures = { kanuri }
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government clan_government }
 	top_liege = no
 	only_independent = yes
 }
@@ -90,6 +169,28 @@ county_kanuri_independent = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
+}
+duke_feudalclan_male_holder_kanuri = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { kanuri }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_feudalclan_female_holder_kanuri = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	cultures = { kanuri }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
 }
 duke_male_kanuri = {
 	type = character
@@ -109,6 +210,14 @@ duke_female_kanuri = {
 	priority = 123
 	cultures = { kanuri }
 	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_feudalclan_kanuri = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government }
+	cultures = { kanuri }
 	top_liege = no
 }
 duke_male_kanuri_independent = {
@@ -231,6 +340,62 @@ baron_republic_kanuri = {
 	cultures = { kanuri } 
 	governments = { republic_government }
 	only_holder = yes
+	top_liege = no
+}
+barony_city_kanuri = {
+	type = title
+	tier = barony
+	priority = 102
+	holding = city_holding
+	cultures = { kanuri }
+	top_liege = no
+}
+count_tribal_male_holder_kanuri = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { kanuri }
+	governments = { tribal_government }
+	top_liege = no
+}
+count_tribal_female_holder_kanuri = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	cultures = { kanuri }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_male_holder_kanuri = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { kanuri }
+	governments = { tribal_government }
+	top_liege = no
+}
+duke_tribal_female_holder_kanuri = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	cultures = { kanuri }
+	governments = { tribal_government }
+	top_liege = no
+}
+duchy_tribal_kanuri = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { tribal_government }
+	cultures = { kanuri }
 	top_liege = no
 }
 ###############################################

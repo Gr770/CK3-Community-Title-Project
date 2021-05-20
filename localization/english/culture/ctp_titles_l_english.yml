@@ -736,10 +736,10 @@
    county_republic_cornish: "Sir"
    duke_republic_male_cornish: "Leuuit"
    duke_republic_female_cornish: "Leuuites"
-   duchy_republic_cornish: "Gueryneth"
+   duchy_republic_cornish: "Gwerinieth"
    king_republic_male_cornish: "Primleuuit"
    king_republic_female_cornish: "Primleuuites"
-   kingdom_republic_cornish: "Huhelueryneth"
+   kingdom_republic_cornish: "Huhelwerinieth"
  
    barony_tribe_cornish: "$county_tribal_cornish$"
    count_tribal_male_cornish: "Pendeuig"
@@ -1315,11 +1315,11 @@
    queen_m_portugese: "Reỹa Madre"
    empress_mother_portugese: "Emperadriz Madre"
  
-   baron_republic_male_portugese: "Meirinho"
-   baron_republic_female_portugese: "Meirinha"
+   baron_republic_male_portugese: "Vereador"
+   baron_republic_female_portugese: "Vereadora"
    barony_city_portugese: "Cidade"
-   count_republic_male_portugese: "Meirinho-moor"
-   count_republic_female_portugese: "Meirinha-moor"
+   count_republic_male_portugese: "Moordomo"
+   count_republic_female_portugese: "Moordomo"
    county_republic_portugese: "Concello"
    duke_republic_portugese: "Tenente"
    duchy_republic_portugese: "Comarca"
@@ -1555,7 +1555,7 @@
    county_tribal_aragonese: "Ost"
    duke_tribal_male_aragonese: "Cabdel"
    duke_tribal_female_aragonese: "Cabdela"
-   duchy_tribal_aragonese: "Chents"
+   duchy_tribal_aragonese: "Gents"
 ########################################################
  #North Germanic Culture Group
 ########################################################
@@ -4560,35 +4560,54 @@
 ######################################################
   #Kanuri
 ######################################################
-   baron_male_kanuri: "Cíyàmà Gàná"
-   baron_female_kanuri: "Cíyàmà Gàná"
+   baron_male_kanuri_holder: "Cîma Ganá"
+   baron_female_kanuri_holder: "Cîma Ganá"
+   baron_male_kanuri: "Kəmâ"
+   baron_female_kanuri: "Yâ"
+   barony_castle_kanuri: "Cídí"
+   barony_tribe_kanuri: "Cî"
    
-   count_male_kanuri: "Cíyàmà Kúrà"
-   count_female_kanuri: "Cíyàmà Kúrà"
+   count_feudalclan_male_kanuri_holder: "Cîma Kúra"
+   count_feudalclan_female_kanuri_holder: "Cîma Kúra"
+   count_male_kanuri: "Kəmâ"
+   count_female_kanuri: "Yâ"
+   county_kanuri: "Cî"
    
-   count_male_kanuri_independent: "$king_male_kanuri$"
-   count_female_holder_kanuri_independent: "$king_female_holder_kanuri$"
-   count_female_kanuri_independent: "$king_female_kanuri$"
-   county_kanuri_independent: "$kingdom_kanuri$"
+   count_male_holder_kanuri_independent: "Mâi"
+   count_female_holder_kanuri_independent: "Mâi"
+   count_male_kanuri_independent: "Kəmâ"
+   count_female_kanuri_independent: "Gumsú"
+   county_kanuri_independent: "[CHARACTER.Custom('KanuriIndepCounty')]"
+   independent_county_kanuri: "Kərmâi"
    
-   duke_male_kanuri: "Galadíma"
-   duke_female_kanuri: "Galadíma"
+   duke_feudalclan_male_holder_kanuri: "Galadíma"
+   duke_feudalclan_female_holder_kanuri: "Galadíma"
+   duke_male_kanuri: "Kəmâ"
+   duke_female_kanuri: "Yâ"
+   duchy_feudalclan_kanuri: "Lárdə"
    
    duke_male_kanuri_independent: "$king_male_kanuri$"
    duke_female_holder_kanuri_independent: "$king_female_holder_kanuri$"
    duke_female_kanuri_independent: "$king_female_kanuri$"
-   duchy_kanuri_independent: "$kingdom_kanuri$"
+   duchy_kanuri_independent: "[CHARACTER.Custom('KanuriIndepDuchy')]"
    
    king_male_kanuri: "Mâì"
    king_female_holder_kanuri: "Mâì"
    king_female_kanuri: "Gúmsù"
-   kingdom_kanuri: "Kèrmâi"
+   kingdom_kanuri: "Kərmâi"
    
    title_prince_male_kanuri: "Mâinà"
    title_prince_female_kanuri: "Mâiràm"
    queen_mother_kanuri: "Makkíra"
+
+   count_tribal_male_holder_kanuri: "Cîma"
+   count_tribal_female_holder_kanuri: "Cîma"
+   duke_tribal_male_holder_kanuri: "Cîma"
+   duke_tribal_female_holder_kanuri: "Cîma"
+   duchy_tribal_kanuri: "Cî"
    
    baron_republic_kanuri: "Màigàɽí"
+   barony_city_kanuri: "Ngúro"
 ######################################################
   #Hausa
 ######################################################
@@ -4835,24 +4854,31 @@
   #Burmese
 ######################################################
    baron_male_burmese: "Mruiw Sūkrī"
+   baron_female_burmese: "Mruiw Sūkrī"
    barony_castle_burmese: "Mruiw"
    barony_tribe_burmese: "Mruiw"
    barony_city_burmese: "Mruiw"
    
-   count_male_burmese: "Tuiṅ Sūkrī"
+   count_male_burmese: "Saṁbeṅ"
+   count_female_burmese: "Saṁbeṅ"
    county_burmese: "Tuiṅ"
+
+   count_male_burmese_independent: "Maṅ"
+   count_female_burmese_independent: "Maṅ"
    
    duke_male_burmese: "[CHARACTER.Custom('DukeMaleBurmese')]"
+   duke_female_burmese: "[CHARACTER.Custom('DukeMaleBurmese')]"
    duchy_burmese: "[CHARACTER.Custom('DuchyBurmese')]"
    marquess_burmese: "Tuik Sūkrī"
    march_burmese: "Tuik"
-   duke_default_male_burmese: "Saṁbeṅ"
+   duke_default_male_burmese: "Maṅ Ṅay"
    duchy_default_burmese: "Khwaṅ"
    
    duke_male_burmese_independent: "Maṅ"
+   duke_female_burmese_independent: "Maṅ"
    duchy_burmese_independent: "[CHARACTER.Custom('BurmeseIndepDuchy')]"
    
-   king_male_burmese: "Maṅḥkrīḥ"
+   king_male_burmese: "Maṅ Krī"
    king_female_holder_burmese: "Bhuraṅma"
    king_female_burmese: "Maṅ Nhama Tō"
    kingdom_burmese: "Prañ"
