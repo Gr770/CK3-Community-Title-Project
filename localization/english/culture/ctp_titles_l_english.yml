@@ -87,8 +87,8 @@
    baron_male_irish_default: "Rí Tuaithe"
    baron_female_irish_default: "Rígan Tuaithe"
  
-   count_male_irish: "[CHARACTER.Custom('DynastyMaleIrish')]"
-   count_female_irish: "[CHARACTER.Custom('DynastyFemaleIrish')]"
+   count_male_irish: "[CHARACTER.Custom('DynastyCountyMaleIrish')]"
+   count_female_irish: "[CHARACTER.Custom('DynastyCountyFemaleIrish')]"
    county_irish: "[CHARACTER.Custom('CountyIrish')]"
    earl_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlMaleIrish')]"
    earl_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('EarlMaleIrish')]"
@@ -105,8 +105,8 @@
    count_default_female_irish: "Ruirígan"
    county_default_irish: "Mór Túath"
  
-   duke_male_irish: "[CHARACTER.Custom('DynastyMaleIrish')]"
-   duke_female_irish: "[CHARACTER.Custom('DynastyFemaleIrish')]"
+   duke_male_irish: "[CHARACTER.Custom('DynastyDuchyMaleIrish')]"
+   duke_female_irish: "[CHARACTER.Custom('DynastyDuchyFemaleIrish')]"
    duchy_irish: "[CHARACTER.Custom('DuchyIrish')]"
    duke_male_holder_irish: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleIrish')]"
    duke_male_non_holder_irish: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleIrish')]"
@@ -125,8 +125,8 @@
    baron_male_gaelic: "Taoiseach"
    baron_female_gaelic: "Bantaoiseach"
  
-   count_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyMaleGaelic')]"
-   count_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyFemaleGaelic')]"
+   count_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyCountyMaleGaelic')]"
+   count_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyCountyFemaleGaelic')]"
    county_feudalclan_gaelic: "[CHARACTER.Custom('CountyGaelic')]"
    count_male_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleGaelic')]"
    count_male_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('CountMaleGaelic')]"
@@ -142,8 +142,8 @@
    count_feudalclan_female_gaelic_independent: "Rígan"
    independent_county_gaelic: "Rígdacht"
  
-   duke_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyMaleGaelic')]"
-   duke_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyFemaleGaelic')]"
+   duke_feudalclan_male_gaelic: "[CHARACTER.Custom('DynastyDuchyMaleGaelic')]"
+   duke_feudalclan_female_gaelic: "[CHARACTER.Custom('DynastyDuchyFemaleGaelic')]"
    duchy_feudalclan_gaelic: "[CHARACTER.Custom('DuchyGaelic')]"
    duke_male_holder_gaelic: "[ROOT.Char.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleGaelic')]"
    duke_male_non_holder_gaelic: "[ROOT.Char.GetPrimarySpouse.GetDynasty.GetDynast.GetHouse.GetFounder.Custom('DukeMaleGaelic')]"
