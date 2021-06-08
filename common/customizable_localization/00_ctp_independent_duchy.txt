@@ -824,6 +824,19 @@ BurmeseIndepDuchy = {
 		localization_key = kingdom_burmese
     }
 }
+KanuriIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_kanuri
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duchy_kanuri
+	}
+}
 HausaIndepDuchy = {
 	type = character
 	text = {
@@ -847,7 +860,7 @@ HanIndepDuchy = {
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_han
+		localization_key = kingdom_han
 	}
 }
 MonIndepDuchy = {

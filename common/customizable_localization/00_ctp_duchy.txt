@@ -12030,6 +12030,116 @@ DuchyHan = {
 		fallback = yes
 	}
 }
+DukeMaleTelugu = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_male_telugu
+	}
+	text = {
+		localization_key = duke_default_male_telugu
+		fallback = yes
+	}
+}
+DukeFemaleTelugu = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_telugu
+	}
+	text = {
+		localization_key = duke_default_female_telugu
+		fallback = yes
+	}
+}
+DuchyTelugu = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_telugu
+	}
+	text = {
+		localization_key = duchy_default_telugu
+		fallback = yes
+	}
+}
+DukeMaleKannada = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_male_kannada
+	}
+	text = {
+		localization_key = duke_default_male_kannada
+		fallback = yes
+	}
+}
+DukeFemaleKannada = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				vassal_contract_has_flag = has_march_contract
+				AND = {
+					exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+				}
+			}
+		}
+		localization_key = marquess_female_kannada
+	}
+	text = {
+		localization_key = duke_default_female_kannada
+		fallback = yes
+	}
+}
+DuchyKannada = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = has_march_contract
+		}
+		localization_key = march_kannada
+	}
+	text = {
+		localization_key = duchy_default_kannada
+		fallback = yes
+	}
+}
 DukeNubian = {
 	type = character
 	text = {
