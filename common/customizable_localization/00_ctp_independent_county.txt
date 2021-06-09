@@ -988,6 +988,19 @@ KannadaIndepCounty = {
 		localization_key = independent_county_kannada
 	}
 }
+NubianIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_feudalclan_nubian
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_default_nubian
+	}
+}
 DajuIndepCounty = {
 	type = character
 	text = {
@@ -1155,6 +1168,19 @@ NepaliIndepCounty = {
 	text = {
 		fallback = yes
 		localization_key = independent_county_nepali
+	}
+}
+SonghaiIndepCounty = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_duchy
+		}
+		localization_key = county_songhai
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_songhai
 	}
 }
 TurkishThreeIndepCounty = {

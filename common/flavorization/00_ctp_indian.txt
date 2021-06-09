@@ -19,6 +19,17 @@ baron_male_bengali = {
 	cultures = { bengali }
 	top_liege = no
 }
+baron_male_bengali_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bengali }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_bengali = {
 	type = character
 	gender = female
@@ -102,6 +113,18 @@ duke_male_bengali_independent = {
 	top_liege = no
 	only_independent = yes
 }
+duke_male_bengali_independent_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bengali }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
 duke_female_bengali_independent_holder = {
 	type = character
 	gender = female
@@ -145,12 +168,23 @@ king_female_bengali = {
 	cultures = { bengali }
 	top_liege = no
 }
+king_male_bengali_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { bengali }
+	top_liege = no
+	only_holder = yes
+}
 king_female_bengali_holder = {
 	type = character
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 143
+	priority = 144
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { bengali }
 	top_liege = no
@@ -176,6 +210,17 @@ emperor_female_bengali = {
 	cultures = { bengali }
 	top_liege = no
 }
+emperor_male_bengali_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { bengali }
+	top_liege = no
+	only_holder = yes
+}
 emperor_female_bengali_holder = {
 	type = character
 	gender = female
@@ -185,6 +230,7 @@ emperor_female_bengali_holder = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { bengali }
 	top_liege = no
+	only_holder = yes
 }
 barony_castle_bengali = {
 	type = title
@@ -415,6 +461,17 @@ baron_male_oriya = {
 	cultures = { oriya }
 	top_liege = no
 }
+baron_male_oriya_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { oriya }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_oriya = {
 	type = character
 	gender = female
@@ -497,6 +554,18 @@ duke_male_oriya_independent = {
 	cultures = { oriya }
 	top_liege = no
 	only_independent = yes
+}
+duke_male_oriya_independent_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { oriya }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
 }
 duke_female_oriya_independent_holder = {
 	type = character
@@ -882,6 +951,18 @@ duke_male_assamese_independent = {
 	top_liege = no
 	only_independent = yes
 }
+duke_male_assamese_independent_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { assamese }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
 duke_female_assamese_independent_holder = {
 	type = character
 	gender = female
@@ -925,12 +1006,23 @@ king_female_assamese = {
 	cultures = { assamese }
 	top_liege = no
 }
+king_male_assamese_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	governments = { feudal_government clan_government tribal_government }
+	cultures = { assamese }
+	top_liege = no
+	only_holder = yes
+}
 king_female_assamese_holder = {
 	type = character
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 143
+	priority = 144
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { assamese }
 	top_liege = no
@@ -956,6 +1048,17 @@ emperor_female_assamese = {
 	cultures = { assamese }
 	top_liege = no
 }
+emperor_male_assamese_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { assamese }
+	top_liege = no
+	only_holder = yes
+}
 emperor_female_assamese_holder = {
 	type = character
 	gender = female
@@ -965,6 +1068,7 @@ emperor_female_assamese_holder = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { assamese }
 	top_liege = no
+	only_holder = yes
 }
 barony_castle_assamese = {
 	type = title
@@ -1326,7 +1430,7 @@ king_female_hindustani_holder = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 143
+	priority = 144
 	governments = { feudal_government clan_government tribal_government }
 	cultures = { hindustani }
 	top_liege = no
@@ -1352,6 +1456,17 @@ emperor_female_hindustani = {
 	cultures = { hindustani }
 	top_liege = no
 }
+emperor_male_hindustani_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government republic_government }
+	cultures = { hindustani }
+	top_liege = no
+	only_holder = yes
+}
 emperor_female_hindustani_holder = {
 	type = character
 	gender = female
@@ -1361,6 +1476,7 @@ emperor_female_hindustani_holder = {
 	governments = { feudal_government clan_government tribal_government republic_government }
 	cultures = { hindustani }
 	top_liege = no
+	only_holder = yes
 }
 barony_castle_hindustani = {
 	type = title

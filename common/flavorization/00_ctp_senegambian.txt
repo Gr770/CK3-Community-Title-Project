@@ -27,6 +27,17 @@ baron_female_pulaar = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+baron_male_holder_pulaar = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 104
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 baron_female_holder_pulaar = {
 	type = character
 	gender = female
@@ -58,12 +69,34 @@ count_female_pulaar = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+count_male_holder_pulaar = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 count_female_holder_pulaar = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 114
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_male_holder_pulaar = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
 	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
@@ -100,14 +133,71 @@ duke_female_pulaar = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-duchy_pulaar_independent = {
-	type = title
+duke_male_holder_pulaar_independent = {
+	type = character
+	gender = male
+	special = holder
 	tier = duchy
-	priority = 124
+	priority = 126
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_male_pulaar_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
 	cultures = { pulaar }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 	only_independent = yes
+}
+duke_female_holder_pulaar_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 126
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_pulaar_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_pulaar_independent = {
+	type = title
+	tier = duchy
+	priority = 125
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_holder_pulaar = {
+	type = character
+	gender = male
+	special = holder
+	priority = 144
+	tier = kingdom
+	cultures = { pulaar }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
 }
 king_male_pulaar = {
 	type = character
@@ -206,12 +296,12 @@ baron_republic_pulaar = {
 	only_holder = yes
 	top_liege = no
 }
-barony_republic_pulaar = {
+barony_city_pulaar = {
 	type = title
 	tier = barony
 	priority = 103
 	cultures = { pulaar }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 ###############################################
