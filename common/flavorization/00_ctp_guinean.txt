@@ -27,12 +27,20 @@ baron_female_malinke = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
-barony_malinke = {
+barony_castle_malinke = {
 	type = title
 	priority = 103
 	tier = barony
 	cultures = { malinke }
-	governments = { feudal_government clan_government tribal_government }
+	holding = castle_holding
+	top_liege = no
+}
+barony_tribe_malinke = {
+	type = title
+	priority = 103
+	tier = barony
+	cultures = { malinke }
+	holding = tribal_holding
 	top_liege = no
 }
 count_male_malinke = {
@@ -315,12 +323,12 @@ baron_republic_malinke = {
 	top_liege = no
 	only_holder = yes
 }
-barony_republic_malinke = {
+barony_city_malinke = {
 	type = title
 	priority = 103
 	tier = barony
 	cultures = { malinke }
-	governments = { republic_government }
+	holding = city_holding
 	top_liege = no
 }
 count_republic_malinke = {
