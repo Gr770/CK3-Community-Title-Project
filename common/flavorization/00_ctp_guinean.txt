@@ -186,6 +186,17 @@ king_male_malinke = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+king_female_malinke_holder = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
 king_female_malinke = {
 	type = character
 	gender = female
@@ -204,9 +215,61 @@ kingdom_malinke = {
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
+king_male_malinke_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 145
+	tier = kingdom
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_female_malinke_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 145
+	tier = kingdom
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_malinke_independent = {
+	type = title
+	priority = 145
+	tier = kingdom
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+emperor_male_malinke = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_independent = yes
+}
+emperor_female_malinke = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	cultures = { malinke }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
 empire_malinke = {
 	type = title
-	priority = 143
+	priority = 153
 	tier = empire
 	cultures = { malinke }
 	governments = { feudal_government clan_government tribal_government republic_government }

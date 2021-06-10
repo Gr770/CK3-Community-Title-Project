@@ -6562,7 +6562,7 @@
    
    count_male_somali: "Ugaas"
    count_female_somali: "Ugaasad"
-   county_somali: "Qabiil"
+   county_somali: "Éṇḍawa"
    
    duke_male_somali: "Gerad"
    duke_female_somali: "Geradad"
@@ -6622,47 +6622,92 @@
 ########################################################
   #Afar
 ########################################################
-   king_male_afar: "Malik"
-   kingdom_afar: "Mulki"
+   king_male_afar: "Maaliki"
+   king_female_afar: "Maalika"
+   kingdom_afar: "Mamlaka"
 ########################################################
  #Tibetan
 ########################################################
   #Bodpa
 ########################################################
-   baron_male_bodpa: "Ded Dpon"
-   baron_female_bodpa: "Dede Dpon"
-   barony_bodpa: "Dé"
+   baron_male_bodpa: "Jo Bo"
+   baron_female_bodpa: "Jo Mo"
+   barony_castle_bodpa: "Gnas"
    
-   count_male_bodpa: "Stong Dpon"
-   count_female_bodpa: "Stong Dpon"
-   county_bodpa: "Tongdé"
+   count_male_bodpa: "Dpon Po"
+   count_female_bodpa: "Dpon Mo"
+   county_bodpa: "Yul"
    
-   duke_male_bodpa: "[CHARACTER.Custom('DukeMaleBodpa')]"
-   duchy_bodpa: "[CHARACTER.Custom('DuchyBodpa')]"
-   marquess_bodpa: "Makpön"
-   march_bodpa: "Khob Tongdé"
-   duke_default_bodpa: "Ru Dpon"
-   duchy_default_bodpa: "Ru"
+   duke_male_bodpa_holder: "[CHARACTER.Custom('DukeBodpa')]"
+   duke_female_bodpa_holder: "[CHARACTER.Custom('DukeBodpa')]"
+   duke_male_bodpa: "$count_male_bodpa$"
+   duke_female_bodpa: "$count_female_bodpa$"
+   duchy_bodpa: "Khri Skor"
+   marquess_bodpa: "Dmag Dpon"
+   duke_default_bodpa: "Khri Dpon"
    
-   duchy_bodpa_independent: "[CHARACTER.Custom('DuchyBodpa')]"
-   independent_duchy_bodpa: "Rgyalphran"
+   duchy_bodpa_independent: "[CHARACTER.Custom('BodpaIndepDuchy')]"
    
-   king_male_bodpa: "Rgyal Po"
-   king_female_bodpa: "Rgyal Mo"
-   kingdom_bodpa: "Rgyalkhab"
+   king_male_bodpa_holder: "Dpon Chen"
+   king_female_bodpa_holder: "Dpon Chen"
+   king_male_bodpa: "Dpon Po"
+   king_female_bodpa: "Dpon Mo"
+   kingdom_bodpa: "Rgyal Phran"
+
+   king_male_bodpa_independent: "Rgyal Po"
+   king_female_bodpa_independent: "Rgyal Mo"
+   kingdom_bodpa_independent: "[CHARACTER.Custom('BodpaIndepDuchy')]"
+   indep_kingdom_bodpa: "Rgyal Khab"
    
    emperor_male_bodpa: "Btsen Po"
    emperor_female_bodpa: "Btsen Mo"
-   empire_bodpa: "Btsenkhab"
+   empire_bodpa: "Rgyal Srid"
    
-   queen_mother_bodpa: "$king_female_bodpa$"
-   empress_mother_bodpa: "$emperor_female_bodpa$"
-   
-   baron_republic_bodpa: "Tseje Raganpa"
+   queen_mother_bodpa: "Rgyal Yum"
+   empress_mother_bodpa: "Rgyal Yum"
 ########################################################
   #Zhangzhung
 ########################################################
-   king_male_zhangzhung: "Wer Ro"
+   barony_castle_zhangzhung: "Nam Lu"
+
+   count_male_zhangzhung: "Skya"
+   count_female_zhangzhung: "Skya"
+   county_zhangzhung: "Ka"
+
+   count_male_zhangzhung_independent: "$king_male_zhangzhung$"
+   count_female_zhangzhung_independent: "$king_female_zhangzhung$"
+
+   duke_male_zhangzhung: "Rkya"
+   duke_female_zhangzhung: "Rkya"
+   duchy_zhangzhung: "Khum"
+
+   duke_male_zhangzhung_independent: "$king_male_zhangzhung$"
+   duke_female_zhangzhung_independent: "$king_female_zhangzhung$"
+
+   king_male_zhangzhung: "Wer"
+   king_female_zhangzhung: "Wer"
+   kingdom_zhangzhung: "Mu Ye"
+
+   emperor_male_zhangzhung: "Tse Mig"
+   emperor_female_zhangzhung: "Tse Mig"
+   empire_zhangzhung: "$kingdom_zhangzhung$"
+########################################################
+  #Kirati
+########################################################
+   duke_male_kirati_independent: "$king_male_kirati$"
+   duke_female_kirati_independent: "$king_female_kirati$"
+
+   king_male_kirati: "Haŋpa"
+   king_female_kirati: "Haŋma"
+   kingdom_kirati: "Haŋkha"
+########################################################
+  #Lhomon
+########################################################
+   duke_male_lhomon_independent: "Je Po"
+   duke_female_lhomon_independent: "Je Mo"
+
+   king_male_lhomon_independent: "Je Po"
+   king_female_lhomon_independent: "Je Mo"
 ########################################################
  #Turkish (all grouped)
 ########################################################
@@ -7274,7 +7319,7 @@
    county_baloch: "Sardāri"
    
    duke_male_baloch: "Amir"
-   duke_female_baloch: "Amirah"
+   duke_female_baloch: "Amira"
    duchy_baloch: "Amiri"
    
    king_male_baloch: "[CHARACTER.Custom('KingMaleBaloch')]"
@@ -7350,7 +7395,7 @@
    county_daylamite: "Sardāri"
    
    duke_male_daylamite: "Amir"
-   duke_female_daylamite: "Amireh"
+   duke_female_daylamite: "Amira"
    duchy_daylamite: "Amiri"
    
    king_male_daylamite: "Šāh"
@@ -7417,7 +7462,7 @@
    barony_tajik: "Xadēvi"
    
    count_male_tajik: "Vāli"
-   count_female_tajik: "Vālieh"
+   count_female_tajik: "Vālia"
    county_tajik: "Velāyat"
    
    count_male_tajik_independent: "Sardār"
@@ -7431,7 +7476,7 @@
    marquess_tajik: "Marzbān"
    march_tajik: "Marz"
    duke_default_male_tajik: "Amir"
-   duke_default_female_tajik: "Amireh"
+   duke_default_female_tajik: "Amira"
    duchy_default_tajik: "Emārat"
    
    king_male_tajik: "[CHARACTER.Custom('KingMaleTajik')]"
@@ -7460,32 +7505,39 @@
 ########################################################
   #Malinke
 ########################################################
-   baron_male_malinke: "Fari"
-   baron_female_malinke: "Fari"
+   baron_male_malinke: "Fàrí"
+   baron_female_malinke: "Fàrí"
    barony_malinke: "Fariya"
    
-   count_male_malinke: "Kafutigi"
-   count_female_malinke: "Kafutigi"
-   county_malinke: "Kafu"
+   count_male_malinke: "Kàfótigi"
+   count_female_malinke: "Kàfótigi"
+   county_malinke: "Kàfó"
    
    count_male_malinke_independent: "$duke_male_malinke$"
    count_female_holder_malinke_independent: "$duke_female_holder_malinke$"
    count_female_malinke_independent: "$duke_female_malinke$"
    county_malinke_independent: "[CHARACTER.Custom('MalinkeIndepCounty')]"
    
-   duke_male_malinke: "Fariba"
-   duke_female_holder_malinke: "Fariba"
-   duke_female_malinke: "Faribamuso"
-   duchy_malinke: "Faribaya"
+   duke_male_malinke: "Fàribá"
+   duke_female_holder_malinke: "Fàribá"
+   duke_female_malinke: "Fàribámuso"
+   duchy_malinke: "Fàribáya"
    
    duke_male_malinke_independent: "$king_male_malinke$"
    duke_female_malinke_independent: "$king_female_malinke$"
    duchy_malinke_independent: "[CHARACTER.Custom('MalinkeIndepDuchy')]"
    
-   king_male_malinke: "Mansa"
-   king_female_malinke: "Qasa"
-   kingdom_malinke: "Mansaya"
+   king_male_malinke: "Fàamá"
+   king_female_malinke_holder: "Fàamá"
+   king_female_malinke: "Fàamámuso"
+   kingdom_malinke: "Fàamáya"
+
+   king_male_malinke_independent: "$emperor_male_malinke$"
+   king_female_malinke_independent: "$emperor_female_malinke$"
+   kingdom_malinke_independent: "[CHARACTER.Custom('MalinkeIndepKingdom')]"
    
+   emperor_male_malinke: "Mànsá"
+   emperor_female_malinke: "Qàsá"
    empire_malinke: "Mansaya"
    
    title_prince_male_malinke: "Mansadiŋ"
