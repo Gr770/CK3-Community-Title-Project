@@ -938,7 +938,7 @@ NubianIndepDuchy = {
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_nubian
+		localization_key = kingdom_nubian
 	}
 }
 DajuIndepDuchy = {
@@ -1129,11 +1129,11 @@ BodpaIndepDuchy = {
 		trigger = {
 			highest_held_title_tier >= tier_kingdom
 		}
-		localization_key = duchy_default_bodpa
+		localization_key = duchy_bodpa
 	}
 	text = {
 		fallback = yes
-		localization_key = independent_duchy_bodpa
+		localization_key = kingdom_bodpa
 	}
 }
 KhazarIndepDuchy = {
@@ -1238,5 +1238,25 @@ MalinkeIndepDuchy = {
 	text = {
 		fallback = yes
 		localization_key = kingdom_malinke
+	}
+}
+KanuriIndepDuchy = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+			has_government = tribal_government
+		}
+		localization_key = county_kanuri
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = duchy_feudalclan_kanuri
+	}
+	text = {
+		fallback = yes
+		localization_key = kingdom_kanuri
 	}
 }

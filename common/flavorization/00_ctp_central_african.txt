@@ -7,7 +7,6 @@
 ###############################################
 ## Kanuri_culture ##
 ##
-
 baron_male_kanuri_holder = {
 	type = character
 	gender = male
@@ -53,12 +52,12 @@ baron_female_kanuri = {
 barony_castle_kanuri = {
 	type = title
 	tier = barony
-	priority = 103
-	cultures = { kanuri }
+	priority = 102
 	holding = castle_holding
+	cultures = { kanuri }
 	top_liege = no
 }
-count_male_kanuri_holder = {
+count_feudalclan_male_kanuri_holder = {
 	type = character
 	gender = male
 	special = holder
@@ -211,6 +210,14 @@ duchy_kanuri = {
 	priority = 123
 	cultures = { kanuri }
 	governments = { feudal_government clan_government }
+	top_liege = no
+}
+duchy_feudalclan_kanuri = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government }
+	cultures = { kanuri }
 	top_liege = no
 }
 duke_male_kanuri_independent = {

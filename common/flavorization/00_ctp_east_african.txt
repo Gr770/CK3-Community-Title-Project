@@ -424,6 +424,39 @@ county_feudalclan_nubian = {
 	governments = { feudal_government clan_government }
 	top_liege = no
 }
+count_feudalclan_male_holder_nubian_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 115
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+count_feudalclan_female_holder_nubian_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 115
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+county_feudalclan_nubian_independent = {
+	type = title
+	tier = county
+	priority = 115
+	cultures = { nubian }
+	governments = { feudal_government clan_government }
+	top_liege = no
+	only_independent = yes
+}
 duke_feudalclan_male_nubian = {
 	type = character
 	gender = male
@@ -783,6 +816,18 @@ duke_male_welayta_independent = {
 	top_liege = no
 	only_independent = yes
 }
+duke_male_welayta_holder_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
 duke_female_welayta_independent = {
 	type = character
 	gender = female
@@ -854,6 +899,17 @@ emperor_male_welayta = {
 	cultures = { welayta }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
+}
+emperor_male_welayta_holder = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	cultures = { welayta }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
 }
 emperor_female_welayta = {
 	type = character
