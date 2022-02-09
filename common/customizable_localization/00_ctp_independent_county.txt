@@ -3,10 +3,27 @@
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -35,10 +52,27 @@ DynastGoidIndepCountFemale = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -121,10 +155,27 @@ AngloIndepCountMaleTwo = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -222,10 +273,6 @@ NorthIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
-			}
 		}
 		localization_key = county_default_norse_norwegian
 	}
@@ -239,10 +286,6 @@ SwedishIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
-			}
 		}
 		localization_key = county_default_swedish_danish
 	}

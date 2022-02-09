@@ -5,14 +5,14 @@
 ###############################################
 ## Israelite ##
 ###############################################
-## ashkenazi ##
+## name_list_ashkenazi ##
 baron_male_ashkenazi = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -22,7 +22,7 @@ baron_female_ashkenazi = {
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -30,7 +30,7 @@ barony_castle_ashkenazi = {
 	type = title
 	priority = 113
 	tier = barony
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	holding = castle_holding
 	top_liege = no
 }
@@ -40,7 +40,7 @@ count_male_ashkenazi = {
 	special = holder
 	priority = 113
 	tier = county
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -50,7 +50,7 @@ count_female_ashkenazi = {
 	special = holder
 	priority = 113
 	tier = county
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -58,7 +58,7 @@ county_ashkenazi = {
 	type = title
 	priority = 113
 	tier = county
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -68,7 +68,7 @@ duke_male_ashkenazi = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -78,7 +78,7 @@ duke_female_ashkenazi = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -86,7 +86,7 @@ duchy_ashkenazi = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -96,7 +96,7 @@ duke_male_ashkenazi_independent = {
 	special = holder
 	priority = 124
 	tier = duchy
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -107,7 +107,7 @@ duke_female_ashkenazi_independent = {
 	special = holder
 	priority = 124
 	tier = duchy
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -116,7 +116,7 @@ duchy_ashkenazi_independent = {
 	type = title
 	priority = 124
 	tier = duchy
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -127,7 +127,7 @@ king_male_ashkenazi = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -137,7 +137,7 @@ king_female_ashkenazi = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -145,7 +145,7 @@ kingdom_ashkenazi = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -155,7 +155,7 @@ emperor_male_ashkenazi = {
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -165,7 +165,7 @@ emperor_female_ashkenazi = {
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -173,7 +173,7 @@ empire_ashkenazi = {
 	type = title
 	priority = 153
 	tier = empire
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -183,7 +183,7 @@ title_prince_male_ashkenazi = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -193,7 +193,7 @@ title_prince_female_ashkenazi = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -203,7 +203,7 @@ title_prince_male_ashkenazi_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -213,7 +213,7 @@ title_prince_female_ashkenazi_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -223,7 +223,7 @@ queen_mother_ashkenazi ={
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -233,19 +233,19 @@ empress_mother_ashkenazi ={
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { ashkenazi }
+	name_lists = { name_list_ashkenazi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
 ###############################################
-## sephardi ##
+## name_list_sephardi ##
 baron_male_sephardi = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -255,7 +255,7 @@ baron_female_sephardi = {
 	special = holder
 	tier = barony
 	priority = 103
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -263,7 +263,7 @@ barony_castle_sephardi = {
 	type = title
 	priority = 113
 	tier = barony
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	holding = castle_holding
 	top_liege = no
 }
@@ -273,7 +273,7 @@ count_male_sephardi = {
 	special = holder
 	priority = 113
 	tier = county
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -283,7 +283,7 @@ count_female_sephardi = {
 	special = holder
 	priority = 113
 	tier = county
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -291,7 +291,7 @@ county_sephardi = {
 	type = title
 	priority = 113
 	tier = county
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -301,7 +301,7 @@ duke_male_sephardi = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -311,7 +311,7 @@ duke_female_sephardi = {
 	special = holder
 	tier = duchy
 	priority = 123
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -319,7 +319,7 @@ duchy_sephardi = {
 	type = title
 	tier = duchy
 	priority = 123
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -329,7 +329,7 @@ duke_male_sephardi_independent = {
 	special = holder
 	priority = 124
 	tier = duchy
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -340,7 +340,7 @@ duke_female_sephardi_independent = {
 	special = holder
 	priority = 124
 	tier = duchy
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -349,7 +349,7 @@ duchy_sephardi_independent = {
 	type = title
 	priority = 124
 	tier = duchy
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	only_independent = yes
 	top_liege = no
@@ -360,7 +360,7 @@ king_male_sephardi = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -370,7 +370,7 @@ king_female_sephardi = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -378,7 +378,7 @@ kingdom_sephardi = {
 	type = title
 	priority = 143
 	tier = kingdom
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -388,7 +388,7 @@ emperor_male_sephardi = {
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -398,7 +398,7 @@ emperor_female_sephardi = {
 	special = holder
 	priority = 153
 	tier = empire
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -406,7 +406,7 @@ empire_sephardi = {
 	type = title
 	priority = 153
 	tier = empire
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -416,7 +416,7 @@ title_prince_male_sephardi = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -426,7 +426,7 @@ title_prince_female_sephardi = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -436,7 +436,7 @@ title_prince_male_sephardi_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -446,7 +446,7 @@ title_prince_female_sephardi_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
@@ -456,7 +456,7 @@ queen_mother_sephardi ={
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government }
 	top_liege = no
 }
@@ -466,7 +466,7 @@ empress_mother_sephardi ={
 	special = queen_mother
 	tier = empire
 	priority = 150
-	cultures = { sephardi }
+	name_lists = { name_list_sephardi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }

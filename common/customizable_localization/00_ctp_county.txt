@@ -4,7 +4,9 @@
 		trigger = {
 			is_ruler = yes
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -17,7 +19,9 @@
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -43,10 +47,27 @@ CountMaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -62,10 +83,27 @@ EarlMaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -82,7 +120,9 @@ DynastyCountyFemaleIrish = {
 		trigger = {
 			is_ruler = yes
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -95,7 +135,9 @@ DynastyCountyFemaleIrish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -121,10 +163,27 @@ CountFemaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -140,10 +199,27 @@ EarlFemaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -159,7 +235,9 @@ CountyIrish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -180,7 +258,9 @@ DynastyCountyMaleGaelic = {
 		trigger = {
 			is_ruler = yes
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -193,7 +273,9 @@ DynastyCountyMaleGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -219,10 +301,27 @@ CountMaleGaelic = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -239,7 +338,9 @@ DynastyCountyFemaleGaelic = {
 		trigger = {
 			is_ruler = yes
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -252,7 +353,9 @@ DynastyCountyFemaleGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -278,10 +381,27 @@ CountFemaleGaelic = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -297,10 +417,27 @@ CountFemaleGaelicHolder = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -316,7 +453,9 @@ CountyGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -638,10 +777,27 @@ CountMaleAnglo = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -959,7 +1115,9 @@ CountMalePictishCumbrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -985,7 +1143,9 @@ CountFemalePictishCumbrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1011,7 +1171,9 @@ CountyPictishCumbrian = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1037,7 +1199,9 @@ CountMaleWelsh = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1057,7 +1221,9 @@ CountFemaleWelsh = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1077,7 +1243,9 @@ CountyWelsh = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1097,7 +1265,9 @@ CountMaleCornish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1117,7 +1287,9 @@ CountFemaleCornish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -1137,7 +1309,9 @@ CountyCornish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3661,7 +3835,9 @@ CountyNorth = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3681,7 +3857,9 @@ CountMaleNorse = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3701,7 +3879,9 @@ CountFemaleNorse = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3721,7 +3901,9 @@ CountySwedish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3741,7 +3923,9 @@ CountMaleSwedish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -3761,7 +3945,9 @@ CountFemaleSwedish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england

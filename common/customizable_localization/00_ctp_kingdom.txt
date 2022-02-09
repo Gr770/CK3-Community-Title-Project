@@ -38,10 +38,27 @@ KingMaleGoid = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -92,10 +109,27 @@ KingFemaleGoid = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -236,10 +270,27 @@ KingMaleAnglo = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -290,10 +341,27 @@ KingFemaleAnglo = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}

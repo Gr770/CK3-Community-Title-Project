@@ -17,7 +17,9 @@
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -43,10 +45,27 @@ DukeMaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -76,7 +95,9 @@ DynastyDuchyFemaleIrish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -102,10 +123,27 @@ DukeFemaleIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -127,7 +165,9 @@ DuchyIrish = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -147,12 +187,29 @@ DynastDuchyIrish = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
-			}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+			
 		}
 		localization_key = earldom_irish
 	}
@@ -180,7 +237,9 @@ DynastyDuchyMaleGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -206,10 +265,27 @@ DukeMaleGaelic = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -239,7 +315,9 @@ DynastyDuchyFemaleGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -265,10 +343,27 @@ DukeFemaleGaelic = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
@@ -290,7 +385,9 @@ DuchyGaelic = {
 	text = {
 		trigger = {
 			root.top_liege = {
-				has_culture_group = culture_group:west_germanic_group
+				culture = {
+					has_cultural_pillar = heritage_west_germanic
+				}
 				OR = {
 					has_primary_title = title:e_britannia
 					has_primary_title = title:k_england
@@ -310,10 +407,27 @@ DynastDuchyGaelic = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture_group = culture_group:north_germanic_group
 				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
+					exists = father.culture
+					father.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
+				}
+				AND = {
+					exists = mother.culture
+					mother.culture = {
+						OR = {
+							has_cultural_pillar = heritage_north_germanic
+							any_parent_culture_or_above = {
+								has_cultural_pillar = heritage_north_germanic
+							}
+						}
+					}
 				}
 			}
 		}
