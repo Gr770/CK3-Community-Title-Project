@@ -1,0 +1,210 @@
+tsakonian = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:d_achaia = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:d_achaia
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = language_greek }
+			duchy = title:d_achaia
+		}
+		scope:culture = { has_cultural_pillar = language_greek }
+	}
+}
+rhomaios = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:d_latium = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:d_latium
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = language_greek }
+			duchy = title:d_latium
+		}
+		scope:culture = { has_cultural_pillar = language_greek }
+	}
+}
+african_romance = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:k_africa = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:k_africa
+		}
+		any_sub_realm_county = {
+            culture = {
+                OR = {
+                    has_cultural_pillar = heritage_latin
+                }
+            }
+            kingdom = title:k_africa
+		}
+		scope:culture = { has_cultural_pillar = heritage_latin }
+	}
+}
+corsican = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:d_corsica = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:d_corsica
+		}
+		any_sub_realm_county = {
+            culture = {
+                OR = {
+                    has_cultural_pillar = language_sardinian
+                }
+            }
+            duchy = title:d_corsica
+		}
+		scope:culture = { has_cultural_pillar = language_sardinian }
+	}
+}
+copts = {
+    trigger = {
+		scope:culture = culture:egyptian
+        faith = faith:coptic
+	}
+}
+siculo_arabic = {
+    trigger = {
+		OR = {
+            AND = {
+                scope:culture = {
+                    OR = {
+                        has_cultural_pillar = language_arabic
+                        has_cultural_pillar = heritage_arabic
+                    }
+                }
+                scope:other_culture = culture:sicilian
+            }
+            AND = {
+                scope:other_culture = {
+                    OR = {
+                        has_cultural_pillar = language_arabic
+                        has_cultural_pillar = heritage_arabic
+                    }
+                }
+                scope:culture = culture:sicilian
+            }
+        }
+	}
+    hybrid = yes
+}
+mizrahim = {
+    trigger = {
+		OR = {
+            AND = {
+                scope:culture = {
+                    OR = {
+                        has_cultural_pillar = language_arabic
+                        has_cultural_pillar = heritage_arabic
+                    }
+                }
+                scope:other_culture = {
+                    has_cultural_pillar = heritage_israelite
+                }
+            }
+            AND = {
+                scope:other_culture = {
+                    OR = {
+                        has_cultural_pillar = language_arabic
+                        has_cultural_pillar = heritage_arabic
+                    }
+                }
+                scope:culture = {
+                    has_cultural_pillar = heritage_israelite
+                }
+            }
+        }
+	}
+    hybrid = yes
+}
+persian_isrealites = {
+    trigger = {
+		OR = {
+            AND = {
+                scope:culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_iranian
+                        has_cultural_pillar = language_iranian
+                    }
+                }
+                scope:other_culture = {
+                    has_cultural_pillar = heritage_israelite
+                }
+            }
+            AND = {
+                scope:other_culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_iranian
+                        has_cultural_pillar = language_iranian
+                    }
+                }
+                scope:culture = {
+                    has_cultural_pillar = heritage_israelite
+                }
+            }
+        }
+	}
+    hybrid = yes
+}
+bactrian = {
+    trigger = {
+        OR = {
+			capital_county = {
+				OR = {
+                    title:k_khorasan = {
+                        is_de_jure_liege_or_above_target = prev
+                    }
+                    title:k_kabulistan = {
+                        is_de_jure_liege_or_above_target = prev
+                    }
+                }
+			}
+			OR = {
+                has_primary_title = title:k_khorasan
+                has_primary_title = title:k_kabulistan
+            }
+		}
+		OR = {
+            AND = {
+                scope:culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_iranian
+                        has_cultural_pillar = language_iranian
+                    }
+                }
+                scope:other_culture = {
+                    has_cultural_pillar = language_greek
+                }
+            }
+            AND = {
+                scope:other_culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_iranian
+                        has_cultural_pillar = language_iranian
+                    }
+                }
+                scope:culture = {
+                    has_cultural_pillar = language_greek
+                }
+            }
+        }
+	}
+    hybrid = yes
+}
