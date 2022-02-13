@@ -15,30 +15,7 @@ BaronMaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = baron_male_gael_norse
 	}
@@ -64,30 +41,7 @@ BaronFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = baron_female_gael_norse
 	}
@@ -113,30 +67,7 @@ BaronMaleAnglo = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = baron_male_anglo_norse
 	}
@@ -149,30 +80,7 @@ BaronyAnglo = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = barony_castle_anglo_norse
 	}

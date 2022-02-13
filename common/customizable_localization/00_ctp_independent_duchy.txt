@@ -2,30 +2,7 @@
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_male_gael_norse
 	}
@@ -51,30 +28,7 @@ DynastGoidIndepDukeFemale = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_female_gael_norse
 	}

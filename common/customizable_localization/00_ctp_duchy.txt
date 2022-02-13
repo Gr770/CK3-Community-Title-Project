@@ -44,30 +44,7 @@ DukeMaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = earl_male_gael_norse
 	}
@@ -122,30 +99,7 @@ DukeFemaleIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = earl_female_gael_norse
 	}
@@ -186,30 +140,7 @@ DynastDuchyIrish = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 			
 		}
 		localization_key = earldom_irish
@@ -265,30 +196,7 @@ DukeMaleGaelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = earl_male_gael_norse
 	}
@@ -343,30 +251,7 @@ DukeFemaleGaelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = earl_female_gael_norse
 	}
@@ -407,30 +292,7 @@ DynastDuchyGaelic = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				AND = {
-					exists = father.culture
-					father.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-				AND = {
-					exists = mother.culture
-					mother.culture = {
-						OR = {
-							has_cultural_pillar = heritage_north_germanic
-							any_parent_culture_or_above = {
-								has_cultural_pillar = heritage_north_germanic
-							}
-						}
-					}
-				}
-			}
+			culutre = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = earldom_irish
 	}
