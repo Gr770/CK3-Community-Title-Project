@@ -44,9 +44,7 @@ african_romance = {
 		}
 		any_sub_realm_county = {
             culture = {
-                OR = {
-                    has_cultural_pillar = heritage_latin
-                }
+                has_cultural_pillar = heritage_latin
             }
             kingdom = title:k_africa
 		}
@@ -65,9 +63,7 @@ corsican = {
 		}
 		any_sub_realm_county = {
             culture = {
-                OR = {
-                    has_cultural_pillar = language_sardinian
-                }
+                has_cultural_pillar = language_sardinian
             }
             duchy = title:d_corsica
 		}
@@ -76,7 +72,15 @@ corsican = {
 }
 copts = {
     trigger = {
-		scope:culture = culture:egyptian
+        OR = {
+			capital_county = {
+				title:k_eygpt = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:k_eygpt
+		}
+		scope:culture = { has_cultural_pillar = heritage_east_african }
         faith = faith:coptic
 	}
 }
@@ -184,10 +188,7 @@ bactrian = {
 		OR = {
             AND = {
                 scope:culture = {
-                    OR = {
-                        has_cultural_pillar = heritage_iranian
-                        has_cultural_pillar = language_iranian
-                    }
+                    has_cultural_pillar = heritage_iranian
                 }
                 scope:other_culture = {
                     has_cultural_pillar = language_greek
@@ -195,10 +196,7 @@ bactrian = {
             }
             AND = {
                 scope:other_culture = {
-                    OR = {
-                        has_cultural_pillar = heritage_iranian
-                        has_cultural_pillar = language_iranian
-                    }
+                    has_cultural_pillar = heritage_iranian
                 }
                 scope:culture = {
                     has_cultural_pillar = language_greek
@@ -207,4 +205,38 @@ bactrian = {
         }
 	}
     hybrid = yes
+}
+canary = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:d_canarias = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:d_canarias
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_berber }
+			duchy = title:d_canarias
+		}
+		scope:culture = { has_cultural_pillar = heritage_berber }
+	}
+}
+tuareg = {
+    trigger = {
+		OR = {
+			capital_county = {
+				title:k_anbiya = {
+                    is_de_jure_liege_or_above_target = prev
+                }
+			}
+			has_primary_title = title:k_anbiya
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_berber }
+			duchy = title:k_anbiya
+		}
+		scope:culture = { has_cultural_pillar = heritage_berber }
+	}
 }
