@@ -1,16 +1,16 @@
 ﻿l_german:
  knight_culture_player: "[GetPlayer.Custom( 'KnightCulture' )]"
  knight_culture_player_no_tooltip: "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
- knight_culture_player_no_tooltip_lowercase: "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
+ knight_culture_player_no_tooltip_lowercase: "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
  
  knight_culture_player_plural: "[GetPlayer.Custom( 'KnightCulturePlural' )]"
  knight_culture_player_plural_no_tooltip: "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
- knight_culture_player_plural_no_tooltip_lowercase: "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
+ knight_culture_player_plural_no_tooltip_lowercase: "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
  
- knight_culture_player_plural_possessive_no_tooltip_lowercase: "$knight_culture_player_plural_no_tooltip_lowercase$"
- knight_culture_player_adjective_no_tooltip_lowercase: "militärisch" ##One of the contexts is actually inadequate!
+ knight_culture_player_plural_possessive_no_tooltip_lowercase: "$knight_culture_player_no_tooltip_lowercase$s'" ##A hack because gaiscedachs' and fariss' not gaiscedaig's and farisayn's but only used once so... OK?
+ knight_culture_player_adjective_no_tooltip_lowercase: "$knight_culture_player_no_tooltip_lowercase$"
 
-## Flavorisations - note that for German, there will be no use of lowercase!
+## Flavorisations
 
 ## Irish and Gaelic
  knight_irish_gaelic: "[Concept( 'knight', '$knight_no_tooltip_irish_gaelic$' )|E]"
@@ -183,14 +183,23 @@
  knight_plural_no_tooltip_aragonese: "Cavelleros"
  knight_plural_lower_aragonese: "cavelleros"
  
-## North Germanic
- knight_north_germanic_group: "[Concept( 'knight', '$knight_no_tooltip_north_germanic_group$' )|E]"
- knight_no_tooltip_north_germanic_group: "Þegn"
- knight_lower_north_germanic_group: "þegn"
+## Norse/Norwegian
+ knight_norse_norwegian: "[Concept( 'knight', '$knight_no_tooltip_norse_norwegian$' )|E]"
+ knight_no_tooltip_norse_norwegian: "Þegn"
+ knight_lower_norse_norwegian: "þegn"
  
- knight_plural_north_germanic_group: "[Concept( 'knight', '$knight_plural_no_tooltip_north_germanic_group$' )|E]"
- knight_plural_no_tooltip_north_germanic_group: "Þegnar"
- knight_plural_lower_north_germanic_group: "þegnar"
+ knight_plural_norse_norwegian: "[Concept( 'knight', '$knight_plural_no_tooltip_norse_norwegian$' )|E]"
+ knight_plural_no_tooltip_norse_norwegian: "Þegnar"
+ knight_plural_lower_norse_norwegian: "þegnar"
+ 
+ ## Swedish/Danish
+ knight_swedish_danish: "[Concept( 'knight', '$knight_no_tooltip_swedish_danish$' )|E]"
+ knight_no_tooltip_swedish_danish: "Þiæghn"
+ knight_lower_swedish_danish: "þiæghn"
+ 
+ knight_plural_swedish_danish: "[Concept( 'knight', '$knight_plural_no_tooltip_swedish_danish$' )|E]"
+ knight_plural_no_tooltip_swedish_danish: "Þiæghnar"
+ knight_plural_lower_swedish_danish: "þiæghnar"
  
 ## Finnish
  knight_finnish: "[Concept( 'knight', '$knight_no_tooltip_finnish$' )|E]"
@@ -401,12 +410,12 @@ knight_plural_lower_lombard: "cavalieri"
  
 ## Czech
  knight_czech: "[Concept( 'knight', '$knight_no_tooltip_czech$' )|E]"
- knight_no_tooltip_czech: "Vítěz"
- knight_lower_czech: "vítěz"
+ knight_no_tooltip_czech: "Witiez"
+ knight_lower_czech: "witiez"
  
  knight_plural_czech: "[Concept( 'knight', '$knight_plural_no_tooltip_czech$' )|E]"
- knight_plural_no_tooltip_czech: "Vítězové"
- knight_plural_lower_czech: "vítězové"
+ knight_plural_no_tooltip_czech: "Witiezowe"
+ knight_plural_lower_czech: "witiezowe"
  
 ## Polish
  knight_polish: "[Concept( 'knight', '$knight_no_tooltip_polish$' )|E]"
@@ -625,13 +634,13 @@ knight_plural_lower_lombard: "cavalieri"
  knight_plural_lower_daju: "léttìgé mòrtígè"
 
 ## Mongolic Group
-knight_mongolic_group: "[Concept( 'knight', '$knight_no_tooltip_mongolic_group$' )|E]"
-knight_no_tooltip_mongolic_group: "Bagatur"
-knight_lower_mongolic_group: "bagatur"
-
-knight_plural_mongolic_group: "[Concept( 'knight', '$knight_plural_no_tooltip_mongolic_group$' )|E]"
-knight_plural_no_tooltip_mongolic_group: "Bagaturuud"
-knight_plural_lower_mongolic_group: "bagaturuud"
+ knight_mongolic_group: "[Concept( 'knight', '$knight_no_tooltip_mongolic_group$' )|E]"
+ knight_no_tooltip_mongolic_group: "Bagatur"
+ knight_lower_mongolic_group: "bagatur"
+ 
+ knight_plural_mongolic_group: "[Concept( 'knight', '$knight_plural_no_tooltip_mongolic_group$' )|E]"
+ knight_plural_no_tooltip_mongolic_group: "Bagaturuud"
+ knight_plural_lower_mongolic_group: "bagaturuud"
  
 ## Songhai
  knight_songhai: "[Concept( 'knight', '$knight_no_tooltip_songhai$' )|E]"
