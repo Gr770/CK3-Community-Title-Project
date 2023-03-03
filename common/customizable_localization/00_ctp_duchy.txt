@@ -361,6 +361,24 @@ DukeMaleEnglish = {
 	text = {
 		trigger = {
 			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_male_english
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					exists = liege
 					liege.primary_title = {
@@ -503,6 +521,24 @@ DukeFemaleEnglish = {
 	text = {
 		trigger = {
 			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_female_english
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					exists = liege
 					liege.primary_title = {
@@ -626,6 +662,16 @@ DuchyEnglish = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_english
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_english
 	}
 	text = {
 		trigger = {
