@@ -1647,6 +1647,24 @@ DukeMaleFrench = {
 	text = {
 		trigger = {
 			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_male_french
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					exists = liege
 					liege.primary_title = {
@@ -1833,6 +1851,24 @@ DukeFemaleFrench = {
 	text = {
 		trigger = {
 			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_female_french
+	}
+	text = {
+		trigger = {
+			OR = {
 				AND = {
 					exists = liege
 					liege.primary_title = {
@@ -2000,6 +2036,16 @@ DuchyFrench = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_french
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_french
 	}
 	text = {
 		trigger = {
@@ -2374,6 +2420,16 @@ DuchyNorman = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_french
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -2744,6 +2800,16 @@ DuchyOccitan = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_occitan
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -2957,6 +3023,16 @@ DuchyBasque = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_basque
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_basque
 	}
 	text = {
 		localization_key = duchy_default_basque
@@ -3288,6 +3364,16 @@ DuchyCastilian = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_castilian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_castilian
 	}
 	text = {
 		trigger = {
@@ -3658,6 +3744,16 @@ DuchyCatalan = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_catalan
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_catalan
 	}
 	text = {
 		trigger = {
@@ -4491,6 +4587,16 @@ DuchyAsturleonese = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_asturleonese
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -4861,6 +4967,16 @@ DuchyAragonese = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_aragonese
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -4985,6 +5101,16 @@ DuchyFinnish = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_finnish
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_finnish
 	}
 	text = {
 		localization_key = duchy_default_finnish
@@ -5301,6 +5427,16 @@ DuchyEstonian = {
 			vassal_contract_has_flag = has_palatinate_contract
 		}
 		localization_key = palatinate_estonian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_estonian
 	}
 	text = {
 		trigger = {
@@ -7200,6 +7336,16 @@ DuchyGreek = {
 		localization_key = byzantine_duchy_greek
 	}
 	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_greek
+	}
+	text = {
 		localization_key = duchy_default_greek
 		fallback = yes
 	}
@@ -7232,6 +7378,16 @@ DuchyGeorgian = {
 			vassal_contract_has_flag = has_march_contract
 		}
 		localization_key = march_georgian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_georgian
 	}
 	text = {
 		localization_key = duchy_default_georgian
@@ -7811,6 +7967,16 @@ DuchyItalian = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_italian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -8226,6 +8392,16 @@ DuchyRoman = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_roman
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -8625,6 +8801,16 @@ DuchyCisalpine = {
 			}
 		}
 		localization_key = byzantine_duchy_italian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_cisalpine
 	}
 	text = {
 		trigger = {
@@ -9032,6 +9218,16 @@ DuchySardinian = {
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_sardinian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
 			exists = liege
 			liege.primary_title = {
 				has_title_law = princely_elective_succession_law
@@ -9431,6 +9627,16 @@ DuchySicilian = {
 			}
 		}
 		localization_key = byzantine_duchy_sardinian
+	}
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_sicilian
 	}
 	text = {
 		trigger = {

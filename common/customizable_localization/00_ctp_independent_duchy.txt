@@ -351,6 +351,58 @@ SwedishIndepDuchy = {
 		localization_key = kingdom_swedish_danish
 	}
 }
+FinnishIndepDukeMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_male_finnish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duke_male_finnish
+	}
+}
+FinnishIndepDukeFemale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_female_finnish
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duke_female_finnish
+	}
+}
 FinnishIndepDuchy = {
 	type = character
 	text = {
@@ -365,6 +417,16 @@ FinnishIndepDuchy = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_finnish
+	}
+	text = {
+		trigger = {
+			has_government = feudal_government
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_finnish
 	}
 	text = {
 		fallback = yes
@@ -384,6 +446,58 @@ SamiIndepDuchy = {
 		localization_key = kingdom_sami
 	}
 }
+EstonianIndepDukeMale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_male_estonian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duke_male_estonian
+	}
+}
+EstonianIndepDukeFemale = {
+	type = character
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_duchy
+			OR = {
+				any_held_title = {
+					count = 2
+					tier = tier_duchy
+				}
+				AND = {
+					exists = primary_spouse
+						any_held_title = {
+						count = 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+		localization_key = grand_duke_female_estonian
+	}
+	text = {
+		fallback = yes
+		localization_key = independent_duke_female_estonian
+	}
+}
 EstonianIndepDuchy = {
 	type = character
 	text = {
@@ -391,6 +505,16 @@ EstonianIndepDuchy = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_estonian
+	}
+	text = {
+		trigger = {
+			has_government = feudal_government
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_estonian
 	}
 	text = {
 		fallback = yes
@@ -715,6 +839,15 @@ SerbianIndepDuchy = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		localization_key = duchy_default_serbian
+	}
+	text = {
+		trigger = {
+			any_held_title = {
+				count = 2
+				tier = tier_duchy
+			}
+		}
+		localization_key = grand_duchy_serbian
 	}
 	text = {
 		fallback = yes
