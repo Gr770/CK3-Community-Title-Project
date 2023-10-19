@@ -37,13 +37,7 @@ KingMaleGoid = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = high_king_male_gael_norse
 	}
@@ -91,13 +85,7 @@ KingFemaleGoid = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = high_king_female_gael_norse
 	}
@@ -235,13 +223,7 @@ KingMaleAnglo = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_default_male_anglo_norse
 	}
@@ -289,13 +271,7 @@ KingFemaleAnglo = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_default_female_anglo_norse
 	}

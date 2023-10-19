@@ -11,7 +11,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_irish_gaelic
 	}
@@ -20,25 +20,25 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_scottish
 	}
@@ -47,28 +47,28 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }
 			}
 		}
 		localization_key = knight_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_cornish
 	}
@@ -77,22 +77,22 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_occitan
 	}
@@ -101,46 +101,46 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_aragonese
 	}
@@ -150,8 +150,8 @@ KnightCulture = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_norse_norwegian
@@ -159,8 +159,8 @@ KnightCulture = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_swedish_danish
@@ -170,13 +170,13 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_estonian
 	}
@@ -185,29 +185,29 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_old_high_german ##Franconians, Swabians and Bavarians all spoke Old High German (c) Urkaun
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_dutch
 	}
@@ -219,9 +219,9 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -229,7 +229,7 @@ KnightCulture = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_egyptian_coptic
@@ -239,31 +239,31 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_assyrian
 	}
@@ -272,37 +272,37 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_sicilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lombard
+			culture = { has_name_list = name_list_lombard }
 		}
 		localization_key = knight_lombard
 	}
@@ -311,10 +311,10 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic }
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian ##For consistency
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian } ##For consistency
 			}
 		}
 		localization_key = knight_south_slavic_group
@@ -322,13 +322,13 @@ KnightCulture = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_bulgarian
 	}
@@ -337,31 +337,31 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_slovien
 	}
@@ -370,13 +370,13 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_hungarian
 	}
@@ -385,19 +385,19 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_prussian
 	}
@@ -406,21 +406,21 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_severian_volhynian
@@ -439,7 +439,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_chinese_group
 	}
@@ -448,19 +448,19 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_kannada
 	}
@@ -469,19 +469,19 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_daju
 	}
@@ -491,44 +491,44 @@ KnightCulture = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_nepali
 	}
@@ -537,7 +537,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_mongolic_group
 	}
@@ -546,7 +546,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_songhai
 	}
@@ -555,13 +555,13 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_wolof
 	}
@@ -570,7 +570,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_beja
 	}
@@ -581,49 +581,49 @@ KnightCulture = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_chuvash
 	}
@@ -633,37 +633,37 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_tajik
 	}
@@ -673,7 +673,7 @@ KnightCulture = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_malinke
 	}
@@ -695,7 +695,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_no_tooltip_irish_gaelic
 	}
@@ -704,25 +704,25 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_no_tooltip_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_no_tooltip_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_no_tooltip_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_no_tooltip_scottish
 	}
@@ -731,28 +731,28 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_no_tooltip_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_no_tooltip_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }	
 			}
 		}
 		localization_key = knight_no_tooltip_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_no_tooltip_cornish
 	}
@@ -761,22 +761,22 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_no_tooltip_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_no_tooltip_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_no_tooltip_occitan
 	}
@@ -785,46 +785,46 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_no_tooltip_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_no_tooltip_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_no_tooltip_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_no_tooltip_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_no_tooltip_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_no_tooltip_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_no_tooltip_aragonese
 	}
@@ -834,8 +834,8 @@ KnightCultureNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_no_tooltip_norse_norwegian
@@ -843,8 +843,8 @@ KnightCultureNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_no_tooltip_swedish_danish
@@ -854,13 +854,13 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_no_tooltip_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_no_tooltip_estonian
 	}
@@ -869,29 +869,29 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_no_tooltip_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_no_tooltip_old_high_german
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_no_tooltip_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_no_tooltip_dutch
 	}
@@ -903,9 +903,9 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -913,7 +913,7 @@ KnightCultureNoTooltip = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_no_tooltip_egyptian_coptic
@@ -923,31 +923,31 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_no_tooltip_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_no_tooltip_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_no_tooltip_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_no_tooltip_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_no_tooltip_assyrian
 	}
@@ -956,37 +956,37 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_no_tooltip_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_no_tooltip_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_no_tooltip_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_no_tooltip_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_no_tooltip_sicilian
 	}
 #	text = {
 #		trigger = {
-#			has_culture = culture:lombard
+#			culture = { has_name_list = name_list_lombard
 #		}
 #		localization_key = knight_no_tooltip_lombard
 #	}
@@ -995,10 +995,10 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic}
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian ##For consistency
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian } ##For consistency
 			}
 		}
 		localization_key = knight_no_tooltip_south_slavic_group
@@ -1006,13 +1006,13 @@ KnightCultureNoTooltip = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_no_tooltip_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_no_tooltip_bulgarian
 	}
@@ -1021,31 +1021,31 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_no_tooltip_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_no_tooltip_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_no_tooltip_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_no_tooltip_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_no_tooltip_slovien
 	}
@@ -1054,13 +1054,13 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_no_tooltip_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_no_tooltip_hungarian
 	}
@@ -1069,19 +1069,19 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_no_tooltip_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_no_tooltip_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_no_tooltip_prussian
 	}
@@ -1090,21 +1090,21 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_no_tooltip_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_no_tooltip_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_no_tooltip_severian_volhynian
@@ -1123,7 +1123,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_no_tooltip_chinese_group
 	}
@@ -1132,19 +1132,19 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_no_tooltip_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_no_tooltip_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_no_tooltip_kannada
 	}
@@ -1153,19 +1153,19 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_no_tooltip_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_no_tooltip_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_no_tooltip_daju
 	}
@@ -1175,44 +1175,44 @@ KnightCultureNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_no_tooltip_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_no_tooltip_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_no_tooltip_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_no_tooltip_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_no_tooltip_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_no_tooltip_nepali
 	}
@@ -1221,7 +1221,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_no_tooltip_mongolic_group
 	}
@@ -1230,7 +1230,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_no_tooltip_songhai
 	}
@@ -1239,13 +1239,13 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_no_tooltip_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_no_tooltip_wolof
 	}
@@ -1254,7 +1254,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_no_tooltip_beja
 	}
@@ -1264,49 +1264,49 @@ KnightCultureNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_no_tooltip_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_no_tooltip_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_no_tooltip_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_no_tooltip_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_no_tooltip_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_no_tooltip_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_no_tooltip_chuvash
 	}
@@ -1316,37 +1316,37 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_no_tooltip_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_no_tooltip_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_no_tooltip_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_no_tooltip_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_no_tooltip_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_no_tooltip_tajik
 	}
@@ -1356,7 +1356,7 @@ KnightCultureNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_no_tooltip_malinke
 	}
@@ -1378,7 +1378,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_lower_irish_gaelic
 	}
@@ -1387,25 +1387,25 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_lower_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_lower_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_lower_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_lower_scottish
 	}
@@ -1414,28 +1414,28 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_lower_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_lower_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }	
 			}
 		}
 		localization_key = knight_lower_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_lower_cornish
 	}
@@ -1444,22 +1444,22 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_lower_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_lower_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_lower_occitan
 	}
@@ -1468,46 +1468,46 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_lower_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_lower_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_lower_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_lower_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_lower_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_lower_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_lower_aragonese
 	}
@@ -1517,8 +1517,8 @@ KnightCultureNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_lower_norse_norwegian
@@ -1526,8 +1526,8 @@ KnightCultureNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_lower_swedish_danish
@@ -1537,13 +1537,13 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_lower_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_lower_estonian
 	}
@@ -1552,29 +1552,29 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_lower_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_lower_old_high_german
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_lower_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_lower_dutch
 	}
@@ -1586,9 +1586,9 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -1596,7 +1596,7 @@ KnightCultureNoTooltipLowercase = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_lower_egyptian_coptic
@@ -1606,31 +1606,31 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_lower_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_lower_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_lower_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_lower_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_lower_assyrian
 	}
@@ -1639,37 +1639,37 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_lower_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_lower_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_lower_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_lower_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_lower_sicilian
 	}
 #	text = {
 #		trigger = {
-#			has_culture = culture:lombard
+#			culture = { has_name_list = name_list_lombard
 #		}
 #		localization_key = knight_lower_lombard
 #	}
@@ -1678,10 +1678,10 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic }
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian ##For consistency
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian } ##For consistency
 			}
 		}
 		localization_key = knight_lower_south_slavic_group
@@ -1689,13 +1689,13 @@ KnightCultureNoTooltipLowercase = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_lower_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_lower_bulgarian
 	}
@@ -1704,31 +1704,31 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_lower_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_lower_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_lower_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_lower_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_lower_slovien
 	}
@@ -1737,13 +1737,13 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_lower_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_lower_hungarian
 	}
@@ -1752,19 +1752,19 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_lower_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_lower_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_lower_prussian
 	}
@@ -1773,21 +1773,21 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_lower_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_lower_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_lower_severian_volhynian
@@ -1806,7 +1806,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_lower_chinese_group
 	}
@@ -1815,19 +1815,19 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_lower_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_lower_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_lower_kannada
 	}
@@ -1836,19 +1836,19 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_lower_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_lower_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_lower_daju
 	}
@@ -1858,44 +1858,44 @@ KnightCultureNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_lower_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_lower_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_lower_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_lower_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_lower_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_lower_nepali
 	}
@@ -1904,7 +1904,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_lower_mongolic_group
 	}
@@ -1913,7 +1913,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_lower_songhai
 	}
@@ -1922,13 +1922,13 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_lower_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_lower_wolof
 	}
@@ -1937,7 +1937,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_lower_beja
 	}
@@ -1947,49 +1947,49 @@ KnightCultureNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_lower_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_lower_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_lower_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_lower_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_lower_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_lower_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_lower_chuvash
 	}
@@ -1998,37 +1998,37 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_lower_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_lower_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_lower_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_lower_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_lower_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_lower_tajik
 	}
@@ -2038,7 +2038,7 @@ KnightCultureNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_lower_malinke
 	}
@@ -2060,7 +2060,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_plural_irish_gaelic
 	}
@@ -2069,25 +2069,25 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_plural_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_plural_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_plural_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_plural_scottish
 	}
@@ -2096,28 +2096,28 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_plural_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_plural_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }	
 			}
 		}
 		localization_key = knight_plural_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_plural_cornish
 	}
@@ -2126,22 +2126,22 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_plural_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_plural_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_plural_occitan
 	}
@@ -2150,46 +2150,46 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_plural_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_plural_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_plural_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_plural_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_plural_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_plural_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_plural_aragonese
 	}
@@ -2199,8 +2199,8 @@ KnightCulturePlural = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_plural_norse_norwegian
@@ -2208,8 +2208,8 @@ KnightCulturePlural = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_plural_swedish_danish
@@ -2219,13 +2219,13 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_plural_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_plural_estonian
 	}
@@ -2234,29 +2234,29 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_plural_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_plural_old_high_german
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_plural_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_plural_dutch
 	}
@@ -2268,9 +2268,9 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -2278,7 +2278,7 @@ KnightCulturePlural = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_plural_egyptian_coptic
@@ -2288,31 +2288,31 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_plural_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_plural_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_plural_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_plural_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_plural_assyrian
 	}
@@ -2321,37 +2321,37 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_plural_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_plural_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_plural_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_plural_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_plural_sicilian
 	}
 #	text = {
 #		trigger = {
-#			has_culture = culture:lombard
+#			culture = { has_name_list = name_list_lombard
 #		}
 #		localization_key = knight_plural_lombard
 #	}
@@ -2360,10 +2360,10 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic}
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian }
 			}
 		}
 		localization_key = knight_plural_south_slavic_group
@@ -2371,13 +2371,13 @@ KnightCulturePlural = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_plural_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_plural_bulgarian
 	}
@@ -2386,31 +2386,31 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_plural_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_plural_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_plural_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_plural_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_plural_slovien
 	}
@@ -2419,13 +2419,13 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_plural_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_plural_hungarian
 	}
@@ -2434,19 +2434,19 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_plural_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_plural_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_plural_prussian
 	}
@@ -2455,21 +2455,21 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_plural_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_plural_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_plural_severian_volhynian
@@ -2488,7 +2488,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_plural_chinese_group
 	}
@@ -2497,19 +2497,19 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_plural_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_plural_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_plural_kannada
 	}
@@ -2518,19 +2518,19 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_plural_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_plural_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_plural_daju
 	}
@@ -2540,44 +2540,44 @@ KnightCulturePlural = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_plural_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_plural_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_plural_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_plural_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_plural_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_plural_nepali
 	}
@@ -2586,7 +2586,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_plural_mongolic_group
 	}
@@ -2595,7 +2595,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_plural_songhai
 	}
@@ -2604,13 +2604,13 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_plural_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_plural_wolof
 	}
@@ -2619,7 +2619,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_plural_beja
 	}
@@ -2629,49 +2629,49 @@ KnightCulturePlural = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_plural_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_plural_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_plural_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_plural_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_plural_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_plural_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_plural_chuvash
 	}
@@ -2680,37 +2680,37 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_plural_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_plural_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_plural_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_plural_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_plural_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_plural_tajik
 	}
@@ -2720,7 +2720,7 @@ KnightCulturePlural = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_plural_malinke
 	}
@@ -2742,7 +2742,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_plural_no_tooltip_irish_gaelic
 	}
@@ -2751,25 +2751,25 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_plural_no_tooltip_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_plural_no_tooltip_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_plural_no_tooltip_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_plural_no_tooltip_scottish
 	}
@@ -2778,28 +2778,28 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_plural_no_tooltip_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_plural_no_tooltip_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }	
 			}
 		}
 		localization_key = knight_plural_no_tooltip_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_plural_no_tooltip_cornish
 	}
@@ -2808,22 +2808,22 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_plural_no_tooltip_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_plural_no_tooltip_occitan
 	}
@@ -2832,46 +2832,46 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_plural_no_tooltip_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_plural_no_tooltip_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_plural_no_tooltip_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_plural_no_tooltip_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_plural_no_tooltip_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_plural_no_tooltip_aragonese
 	}
@@ -2881,8 +2881,8 @@ KnightCulturePluralNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_norse_norwegian
@@ -2890,8 +2890,8 @@ KnightCulturePluralNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_swedish_danish
@@ -2901,13 +2901,13 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_plural_no_tooltip_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_plural_no_tooltip_estonian
 	}
@@ -2916,29 +2916,29 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_plural_no_tooltip_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_old_high_german
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_plural_no_tooltip_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_plural_no_tooltip_dutch
 	}
@@ -2950,9 +2950,9 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -2960,7 +2960,7 @@ KnightCulturePluralNoTooltip = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_plural_no_tooltip_egyptian_coptic
@@ -2970,31 +2970,31 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_plural_no_tooltip_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_plural_no_tooltip_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_plural_no_tooltip_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_plural_no_tooltip_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_plural_no_tooltip_assyrian
 	}
@@ -3003,37 +3003,37 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_plural_no_tooltip_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_plural_no_tooltip_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_plural_no_tooltip_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_plural_no_tooltip_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_plural_no_tooltip_sicilian
 	}
 #	text = {
 #		trigger = {
-#			has_culture = culture:lombard
+#			culture = { has_name_list = name_list_lombard
 #		}
 #		localization_key = knight_plural_no_tooltip_lombard
 #	}
@@ -3042,10 +3042,10 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic}
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_south_slavic_group
@@ -3053,13 +3053,13 @@ KnightCulturePluralNoTooltip = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_plural_no_tooltip_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_plural_no_tooltip_bulgarian
 	}
@@ -3068,31 +3068,31 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_plural_no_tooltip_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_plural_no_tooltip_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_plural_no_tooltip_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_plural_no_tooltip_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_plural_no_tooltip_slovien
 	}
@@ -3101,13 +3101,13 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_plural_no_tooltip_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_plural_no_tooltip_hungarian
 	}
@@ -3116,19 +3116,19 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_plural_no_tooltip_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_plural_no_tooltip_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_plural_no_tooltip_prussian
 	}
@@ -3137,21 +3137,21 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_plural_no_tooltip_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_plural_no_tooltip_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_severian_volhynian
@@ -3170,7 +3170,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_plural_no_tooltip_chinese_group
 	}
@@ -3179,19 +3179,19 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_plural_no_tooltip_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_plural_no_tooltip_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_plural_no_tooltip_kannada
 	}
@@ -3200,19 +3200,19 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_plural_no_tooltip_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_plural_no_tooltip_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_plural_no_tooltip_daju
 	}
@@ -3222,44 +3222,44 @@ KnightCulturePluralNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_plural_no_tooltip_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_plural_no_tooltip_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_plural_no_tooltip_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_plural_no_tooltip_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_plural_no_tooltip_nepali
 	}
@@ -3268,7 +3268,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_plural_no_tooltip_mongolic_group
 	}
@@ -3277,7 +3277,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_plural_no_tooltip_songhai
 	}
@@ -3286,13 +3286,13 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_plural_no_tooltip_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_plural_no_tooltip_wolof
 	}
@@ -3301,7 +3301,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_plural_no_tooltip_beja
 	}
@@ -3312,49 +3312,49 @@ KnightCulturePluralNoTooltip = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_plural_no_tooltip_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_plural_no_tooltip_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_plural_no_tooltip_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_plural_no_tooltip_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_plural_no_tooltip_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_plural_no_tooltip_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_plural_no_tooltip_chuvash
 	}
@@ -3363,37 +3363,37 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_plural_no_tooltip_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_plural_no_tooltip_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_plural_no_tooltip_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_plural_no_tooltip_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_plural_no_tooltip_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_plural_no_tooltip_tajik
 	}
@@ -3403,7 +3403,7 @@ KnightCulturePluralNoTooltip = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_plural_no_tooltip_malinke
 	}
@@ -3425,7 +3425,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:goidelic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
 		}
 		localization_key = knight_plural_lower_irish_gaelic
 	}
@@ -3434,25 +3434,25 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:english
+			culture = { has_name_list = name_list_english }
 		}
 		localization_key = knight_plural_lower_english
 	}
 	text = {
 		trigger = {
-			has_culture = culture:anglo_saxon
+			culture = { has_name_list = name_list_anglo_saxon }
 		}
 		localization_key = knight_plural_lower_anglo_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:old_saxon
+			culture = { has_name_list = name_list_old_saxon }
 		}
 		localization_key = knight_plural_lower_old_saxon
 	}
 	text = {
 		trigger = {
-			has_culture = culture:scottish
+			culture = { has_name_list = name_list_scottish }
 		}
 		localization_key = knight_plural_lower_scottish
 	}
@@ -3461,28 +3461,28 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:welsh
+			culture = { has_name_list = name_list_welsh }
 		}
 		localization_key = knight_plural_lower_welsh
 	}
 	text = {
 		trigger = {
-			has_culture = culture:breton
+			culture = { has_name_list = name_list_breton }
 		}
 		localization_key = knight_plural_lower_breton
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:cumbrian
-				has_culture = culture:pictish	
+				culture = { has_name_list = name_list_cumbrian }
+				culture = { has_name_list = name_list_pictish }	
 			}
 		}
 		localization_key = knight_plural_lower_cumbrian_pictish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cornish
+			culture = { has_name_list = name_list_cornish }
 		}
 		localization_key = knight_plural_lower_cornish
 	}
@@ -3491,22 +3491,22 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:frankish
+			culture = { has_name_list = name_list_frankish }
 		}
 		localization_key = knight_plural_lower_frankish
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:french
-				has_culture = culture:norman
+				culture = { has_name_list = name_list_french }
+				culture = { has_name_list = name_list_norman }
 			}
 		}
 		localization_key = knight_plural_lower_french_norman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:occitan
+			culture = { has_name_list = name_list_occitan }
 		}
 		localization_key = knight_plural_lower_occitan
 	}
@@ -3515,46 +3515,46 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:basque
+			culture = { has_name_list = name_list_basque }
 		}
 		localization_key = knight_plural_lower_basque
 	}
 	text = {
 		trigger = {
-			has_culture = culture:castilian
+			culture = { has_name_list = name_list_castilian }
 		}
 		localization_key = knight_plural_lower_castilian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:catalan
+			culture = { has_name_list = name_list_catalan }
 		}
 		localization_key = knight_plural_lower_catalan
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:portuguese
-				has_culture = culture:galician
+				culture = { has_name_list = name_list_portuguese }
+				culture = { has_name_list = name_list_galician }
 			}
 		}
 		localization_key = knight_plural_lower_portuguese_galician
 	}
 	text = {
 		trigger = {
-			has_culture = culture:visigothic
+			culture = { has_name_list = name_list_visigothic }
 		}
 		localization_key = knight_plural_lower_visigothic
 	}
 	text = {
 		trigger = {
-			has_culture = culture:asturleonese
+			culture = { has_name_list = name_list_asturleonese }
 		}
 		localization_key = knight_plural_lower_asturleonese
 	}
 	text = {
 		trigger = {
-			has_culture = culture:aragonese
+			culture = { has_name_list = name_list_aragonese }
 		}
 		localization_key = knight_plural_lower_aragonese
 	}
@@ -3564,8 +3564,8 @@ KnightCulturePluralNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
+				culture = { has_name_list = name_list_norse }
+				culture = { has_name_list = name_list_norwegian }
 			}
 		}
 		localization_key = knight_plural_lower_norse_norwegian
@@ -3573,8 +3573,8 @@ KnightCulturePluralNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
+				culture = { has_name_list = name_list_swedish }
+				culture = { has_name_list = name_list_danish }
 			}
 		}
 		localization_key = knight_plural_lower_swedish_danish
@@ -3584,13 +3584,13 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:finnish
+			culture = { has_name_list = name_list_finnish }
 		}
 		localization_key = knight_plural_lower_finnish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:estonian
+			culture = { has_name_list = name_list_estonian }
 		}
 		localization_key = knight_plural_lower_estonian
 	}
@@ -3599,29 +3599,29 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:saxon
+			culture = { has_name_list = name_list_saxon }
 		}
 		localization_key = knight_plural_lower_saxon
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:franconian
-				has_culture = culture:swabian
-				has_culture = culture:bavarian
+				culture = { has_name_list = name_list_franconian }
+				culture = { has_name_list = name_list_swabian }
+				culture = { has_name_list = name_list_bavarian }
 			}
 		}
 		localization_key = knight_plural_lower_old_high_german
 	}
 	text = {
 		trigger = {
-			has_culture = culture:frisian
+			culture = { has_name_list = name_list_frisian }
 		}
 		localization_key = knight_plural_lower_frisian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:dutch
+			culture = { has_name_list = name_list_dutch }
 		}
 		localization_key = knight_plural_lower_dutch
 	}
@@ -3633,9 +3633,9 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:arabic_group
+			culture = { has_cultural_pillar = heritage_arabic }
 			NAND = {
-				has_culture = culture:egyptian
+				culture = { has_name_list = name_list_egyptian }
 				has_faith = faith:coptic
 			}
 		}
@@ -3643,7 +3643,7 @@ KnightCulturePluralNoTooltipLowercase = {
 	}
 	text = {
 		trigger = {
-			has_culture = culture:egyptian
+			culture = { has_name_list = name_list_egyptian }
 			has_faith = faith:coptic
 		}
 		localization_key = knight_plural_lower_egyptian_coptic
@@ -3653,31 +3653,31 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:armenian
+			culture = { has_name_list = name_list_armenian }
 		}
 		localization_key = knight_plural_lower_armenian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:greek
+			culture = { has_name_list = name_list_greek }
 		}
 		localization_key = knight_plural_lower_greek
 	}
 	text = {
 		trigger = {
-			has_culture = culture:georgian
+			culture = { has_name_list = name_list_georgian }
 		}
 		localization_key = knight_plural_lower_georgian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:alan
+			culture = { has_name_list = name_list_alan }
 		}
 		localization_key = knight_plural_lower_alan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:assyrian
+			culture = { has_name_list = name_list_assyrian }
 		}
 		localization_key = knight_plural_lower_alan
 	}
@@ -3686,37 +3686,37 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:italian
+			culture = { has_name_list = name_list_italian }
 		}
 		localization_key = knight_plural_lower_italian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:roman
+			culture = { has_name_list = name_list_roman }
 		}
 		localization_key = knight_plural_lower_roman
 	}
 	text = {
 		trigger = {
-			has_culture = culture:cisalpine
+			culture = { has_name_list = name_list_cisalpine }
 		}
 		localization_key = knight_plural_lower_cisalpine
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sardinian
+			culture = { has_name_list = name_list_sardinian }
 		}
 		localization_key = knight_plural_lower_sardinian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sicilian
+			culture = { has_name_list = name_list_sicilian }
 		}
 		localization_key = knight_plural_lower_sicilian
 	}
 #	text = {
 #		trigger = {
-#			has_culture = culture:lombard
+#			culture = { has_name_list = name_list_lombard
 #		}
 #		localization_key = knight_plural_lower_lombard
 #	}
@@ -3725,10 +3725,10 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:south_slavic_group
+			culture = { has_cultural_pillar = heritage_south_slavic}
 			NOR = {
-				has_culture = culture:vlach
-				has_culture = culture:bulgarian
+				culture = { has_name_list = name_list_vlach }
+				culture = { has_name_list = name_list_bulgarian }
 			}
 		}
 		localization_key = knight_plural_lower_south_slavic_group
@@ -3736,13 +3736,13 @@ KnightCulturePluralNoTooltipLowercase = {
 
 	text = {
 		trigger = {
-			has_culture = culture:vlach
+			culture = { has_name_list = name_list_vlach }
 		}
 		localization_key = knight_plural_lower_vlach
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bulgarian
+			culture = { has_name_list = name_list_bulgarian }
 		}
 		localization_key = knight_plural_lower_bulgarian
 	}
@@ -3751,31 +3751,31 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:pommeranian
+			culture = { has_name_list = name_list_pommeranian }
 		}
 		localization_key = knight_plural_lower_pommeranian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:czech
+			culture = { has_name_list = name_list_czech }
 		}
 		localization_key = knight_plural_lower_czech
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polish
+			culture = { has_name_list = name_list_polish }
 		}
 		localization_key = knight_plural_lower_polish
 	}
 	text = {
 		trigger = {
-			has_culture = culture:polabian
+			culture = { has_name_list = name_list_polabian }
 		}
 		localization_key = knight_plural_lower_polabian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:slovien
+			culture = { has_name_list = name_list_slovien }
 		}
 		localization_key = knight_plural_lower_slovien
 	}
@@ -3784,13 +3784,13 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:mogyer
+			culture = { has_name_list = name_list_mogyer }
 		}
 		localization_key = knight_plural_lower_mogyer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hungarian
+			culture = { has_name_list = name_list_hungarian }
 		}
 		localization_key = knight_plural_lower_hungarian
 	}
@@ -3799,19 +3799,19 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:latgalian
+			culture = { has_name_list = name_list_latgalian }
 		}
 		localization_key = knight_plural_lower_latgalian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:lithuanian
+			culture = { has_name_list = name_list_lithuanian }
 		}
 		localization_key = knight_plural_lower_lithuanian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:prussian
+			culture = { has_name_list = name_list_prussian }
 		}
 		localization_key = knight_plural_lower_prussian
 	}
@@ -3820,21 +3820,21 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:russian
+			culture = { has_name_list = name_list_russian }
 		}
 		localization_key = knight_plural_lower_russian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:ilmenian
+			culture = { has_name_list = name_list_ilmenian }
 		}
 		localization_key = knight_plural_lower_ilmenian
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:severian
-				has_culture = culture:volhynian
+				culture = { has_name_list = name_list_severian }
+				culture = { has_name_list = name_list_volhynian }
 			}
 		}
 		localization_key = knight_plural_lower_severian_volhynian
@@ -3853,7 +3853,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:chinese_group ##Sic, in case someone adds a second culture
+			culture = { has_cultural_pillar = heritage_chinese } ##Sic, in case someone adds a second culture
 		}
 		localization_key = knight_plural_lower_chinese_group
 	}
@@ -3862,19 +3862,19 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:tamil
+			culture = { has_name_list = name_list_tamil } 
 		}
 		localization_key = knight_plural_lower_tamil
 	}
 	text = {
 		trigger = {
-			has_culture = culture:telugu
+			culture = { has_name_list = name_list_telugu }
 		}
 		localization_key = knight_plural_lower_telugu
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kannada
+			culture = { has_name_list = name_list_kannada }
 		}
 		localization_key = knight_plural_lower_kannada
 	}
@@ -3883,19 +3883,19 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:ethiopian
+			culture = { has_name_list = name_list_ethiopian }
 		}
 		localization_key = knight_plural_lower_ethiopian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nubian
+			culture = { has_name_list = name_list_nubian }
 		}
 		localization_key = knight_plural_lower_nubian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:daju
+			culture = { has_name_list = name_list_daju }
 		}
 		localization_key = knight_plural_lower_daju
 	}
@@ -3905,44 +3905,44 @@ KnightCulturePluralNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:bengali
-				has_culture = culture:oriya
-				has_culture = culture:assamese
-				has_culture = culture:gujarati
-				has_culture = culture:rajput
-				has_culture = culture:sindhi
-				has_culture = culture:marathi
+				culture = { has_name_list = name_list_bengali }
+				culture = { has_name_list = name_list_oriya }
+				culture = { has_name_list = name_list_assamese }
+				culture = { has_name_list = name_list_gujarati }
+				culture = { has_name_list = name_list_rajput }
+				culture = { has_name_list = name_list_sindhi }
+				culture = { has_name_list = name_list_marathi }
 			}
 		}
 		localization_key = knight_plural_lower_indoaryan
 	}
 	text = {
 		trigger = {
-			has_culture = culture:hindustani
+			culture = { has_name_list = name_list_hindustani }
 		}
 		localization_key = knight_plural_lower_hindustani
 	}
 	text = {
 		trigger = {
-			has_culture = culture:punjabi
+			culture = { has_name_list = name_list_punjabi }
 		}
 		localization_key = knight_plural_lower_punjabi
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kashmiri
+			culture = { has_name_list = name_list_kashmiri }
 		}
 		localization_key = knight_plural_lower_kashmiri
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sinhala
+			culture = { has_name_list = name_list_sinhala }
 		}
 		localization_key = knight_plural_lower_sinhala
 	}
 	text = {
 		trigger = {
-			has_culture = culture:nepali
+			culture = { has_name_list = name_list_nepali }
 		}
 		localization_key = knight_plural_lower_nepali
 	}
@@ -3951,7 +3951,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 		}
 		localization_key = knight_plural_lower_mongolic_group
 	}
@@ -3960,7 +3960,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:songhai
+			culture = { has_name_list = name_list_songhai }
 		}
 		localization_key = knight_plural_lower_songhai
 	}
@@ -3969,13 +3969,13 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:serer
+			culture = { has_name_list = name_list_serer }
 		}
 		localization_key = knight_plural_lower_serer
 	}
 	text = {
 		trigger = {
-			has_culture = culture:wolof
+			culture = { has_name_list = name_list_wolof }
 		}
 		localization_key = knight_plural_lower_wolof
 	}
@@ -3984,7 +3984,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:beja
+			culture = { has_name_list = name_list_beja }
 		}
 		localization_key = knight_plural_lower_beja
 	}
@@ -3994,49 +3994,49 @@ KnightCulturePluralNoTooltipLowercase = {
 	text = {
 		trigger = {
 			OR = {
-				has_culture = culture:turkish
-				has_culture = culture:cuman
-				has_culture = culture:khazar
-				has_culture = culture:karluk
-				has_culture = culture:uyghur
-				has_culture = culture:yughur
+				culture = { has_name_list = name_list_turkish }
+				culture = { has_name_list = name_list_cuman }
+				culture = { has_name_list = name_list_khazar }
+				culture = { has_name_list = name_list_karluk }
+				culture = { has_name_list = name_list_uyghur }
+				culture = { has_name_list = name_list_yughur }
 			}
 		}
 		localization_key = knight_plural_lower_turkish_one
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bolghar
+			culture = { has_name_list = name_list_bolghar }
 		}
 		localization_key = knight_plural_lower_bolghar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:bashkir
+			culture = { has_name_list = name_list_bashkir  }
 		}
 		localization_key = knight_plural_lower_bashkir
 	}
 	text = {
 		trigger = {
-			has_culture = culture:avar
+			culture = { has_name_list = name_list_avar }
 		}
 		localization_key = knight_plural_lower_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kipchak
+			culture = { has_name_list = name_list_kipchak }
 		}
 		localization_key = knight_plural_lower_avar
 	}
 	text = {
 		trigger = {
-			has_culture = culture:kirghiz
+			culture = { has_name_list = name_list_kirghiz }
 		}
 		localization_key = knight_plural_lower_kirghiz
 	}
 	text = {
 		trigger = {
-			has_culture = culture:chuvash
+			culture = { has_name_list = name_list_chuvash }
 		}
 		localization_key = knight_plural_lower_chuvash
 	}
@@ -4045,37 +4045,37 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:persian
+			culture = { has_name_list = name_list_persian }
 		}
 		localization_key = knight_plural_lower_persian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:sogdian
+			culture = { has_name_list = name_list_sogdian }
 		}
 		localization_key = knight_plural_lower_sogdian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tocharian
+			culture = { has_name_list = name_list_tocharian }
 		}
 		localization_key = knight_plural_lower_tocharian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:saka
+			culture = { has_name_list = name_list_saka }
 		}
 		localization_key = knight_plural_lower_saka
 	}
 	text = {
 		trigger = {
-			has_culture = culture:khwarezmian
+			culture = { has_name_list = name_list_khwarezmian }
 		}
 		localization_key = knight_plural_lower_khwarezmian
 	}
 	text = {
 		trigger = {
-			has_culture = culture:tajik
+			culture = { has_name_list = name_list_tajik }
 		}
 		localization_key = knight_plural_lower_tajik
 	}
@@ -4085,7 +4085,7 @@ KnightCulturePluralNoTooltipLowercase = {
 #####################################
 	text = {
 		trigger = {
-			has_culture = culture:malinke
+			culture = { has_name_list = name_list_malinke }
 		}
 		localization_key = knight_plural_lower_malinke
 	}

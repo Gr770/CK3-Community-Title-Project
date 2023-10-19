@@ -1,456 +1,881 @@
 ﻿l_german:
-#goidelic
- goidelic_group: "Goídelach"
- goidelic_group_collective_noun: "Goídelchlann"
- irish: "Érennach"
- irish_collective_noun: "Érennach"
- gaelic: "Albanach"
- gaelic_collective_noun: "Albanach"
-#west germanic
- west_germanic_group: "Angelcynn"
- west_germanic_group_collective_noun: "Angelcynn"
- english: "Englisch"
- english_collective_noun: "Englisch"
- anglo_saxon: "Ænglisc"
- anglo_saxon_collective_noun:1 "Ængle"
- old_saxon: "Ald Sahsisk"
- old_saxon_collective_noun:1 "Ald Sahsisk"
- scottish:1 "Inglis"
- scottish_collective_noun:1 "Inglis"
-#Brythonic group
- brythonic_group: "Brytanyawl"
- brythonic_group_collective_noun: "Brytanyeit"
- pictish: "Albidosaek"
- pictish_collective_noun:1 "Albidosi"
- welsh: "Kymreic"
- welsh_collective_noun: "Kymri"
- breton: "Breizat"
- breton_collective_noun:1 "Breiziz"
- cornish: "Kernewek"
- cornish_collective_noun: "Kernowyon"
- cumbrian: "Kumbraek"
- cumbrian_collective_noun: "Kumbri"
-#Frankish group
- frankish_group: "Franci"
- frankish_group_collective_noun: "Franci"
- frankish: "Frenkisk"
- frankish_collective_noun:1 "Frankan"
- french: "Francois"
- french_collective_noun: "Francois"
- norman: "Normanz"
- norman_collective_noun:1 "Normant"
- occitan: "Proensals"
- occitan_collective_noun:1 "Proensals"
- outremer: "Ultramare"
- outremer_collective_noun:1 "Ultramares"
-#Iberian group
- iberian_group: "Espano"
- iberian_group_collective_noun:1 "Espanos"
- basque: "Euskal"
- basque_collective_noun: "Euskaldunak"
- castilian: "Castellano"
- castilian_collective_noun:1 "Castellanos"
- catalan: "Catala"
- catalan_collective_noun:1 "Catalans"
- portuguese: "Portugaes"
- portuguese_collective_noun: "Portugaeses"
- visigothic: "Gothico"
- visigothic_collective_noun:1 "Gothos"
- galician: "Galego"
- galician_collective_noun: "Galegos"
- aragonese: "Aragones"
- aragonese_collective_noun: "Aragoneses"
- asturleonese: "Lliones"
- asturleonese_collective_noun: "Llionesos"
- suebi: "Suevo"
- suebi_collective_noun:1 "Suevos"
-#North Germanic group
- north_germanic_group: "Norðrǿnn"
- north_germanic_group_collective_noun: "Norðmęnn"
- norse: "Norðrǿnn"
- norse_collective_noun: "Norðmęnn"
- swedish: "Svǽnskær"
- swedish_collective_noun:1 "Svéar"
- norwegian: "Norskr"
- norwegian_collective_noun:1 "Norðmęnn"
- danish: "Danskær"
- danish_collective_noun:1 "Daner"
-#Balto-Finnic group
- finnish: "Suomalainen"
- finnish_collective_noun:1 "Suomalaiset"
- sami: "Sámé"
- sami_collective_noun: "Sámék"
- estonian: "Maarahva"
- estonian_collective_noun:1 "Maarahvas"
- karelian: "Karjalainen"
- karelian_collective_noun:1 "Karjalaižet"
- vepsian: "Vepsläine"
- vepsian_collective_noun:1 "Vepsläižed"
-#Central Germanic group
- saxon: "Sassisch"
- saxon_collective_noun: "Sassen"
- franconian: "Vrenkisch"
- franconian_collective_noun: "Vranken"
- swabian: "Swæbisch"
- swabian_collective_noun: "Swâben"
- bavarian: "Beierisch"
- bavarian_collective_noun: "Beieren"
- frisian: "Frêsisk"
- frisian_collective_noun:1 "Frêsan"
- dutch:2 "Dûtsch"
- dutch_collective_noun:2 "Dûtsche"
-#Berber group
- berber_group: "Imaziğen"
- berber_group_collective_noun: "Imaziğen"
- baranis: "Amaziğ"
- baranis_collective_noun: "Imaziğen"
- butr: "Znata"
- butr_collective_noun:1 "Iznaten"
- zaghawa: "Azwağa"
- zaghawa_collective_noun: "Izwağen"
-#Arabic group
- arabic_group: "ʿArab"
+arabic_group:0 "ʿArab"
  arabic_group_collective_noun:1 "ʿArab"
- bedouin: "Badawī"
+
+ bedouin:0 "Badawī"
+ bedouin_prefix:0 "Badawī"
  bedouin_collective_noun:1 "al-Badū"
+
+ berber:0 "Imaziğen"
+ berber_prefix:0 "Imaziğ"
+ berber_collective_noun:1 "Imaziğen"
+
  levantine:1 "Šamī"
+ levantine_prefix:0 "Šamī"
  levantine_collective_noun:2 "aš-Šamīyūn"
- egyptian: "Miṣrī"
- egyptian_collective_noun:1 "al-Miṣrīyūn"
- maghrebi: "Maġribī"
- maghrebi_collective_noun:1 "al-Maġribīyūn"
- andalusian: "ʾAndalusī"
+
+ egyptian:0 "Miṣrī"
+ egyptian_prefix:0 "Miṣrī"
+ egyptian_collective_noun:1 "al-Maġribīyūn"
+
+ andalusian:0 "ʾAndalusī"
+ andalusian_prefix:0 "ʾAndalusī"
  andalusian_collective_noun:1 "al-ʾAndalusīyūn"
- yemeni: "Yamanī"
- yemeni_collective_noun: "al-Yamanīyūn"
-#Byzantine group
- byzantine_group: "Romei"
+
+ yemeni:0 "Yamanī"
+ yemeni_prefix:0 "Yamanī"
+ yemeni_collective_noun:0 "al-Yamanīyūn"
+
+ #Berber group
+ berber_group:0 "Imaziğen"
+ berber_group_collective_noun:0 "Imaziğen"
+
+ baranis:0 "Amaziğ"
+ baranis_prefix:0 "Amaziğ"
+ baranis_collective_noun:0 "Imaziğen"
+
+ butr:0 "Znata"
+ butr_prefix:0 "Znata"
+ butr_collective_noun:1 "Iznaten"
+
+ zaghawa:0 "Azwağa"
+ zaghawa_prefix:0 "Azwağa"
+ zaghawa_collective_noun:0 "Izwağen"
+ #Byzantine group
+ byzantine_group:0 "Romei"
  byzantine_group_collective_noun:1 "Romeos"
- armenian: "Haykakan"
+
+ armenian:0 "Haykakan"
+ armenian_prefix:0 "Hayk"
  armenian_collective_noun:1 "Haykՙ"
- greek: "Ellin"
+
+ greek:0 "Ellin"
+ greek_prefix:0 "Elli"
  greek_collective_noun:1 "Ellines"
- georgian: "Kartveli"
- georgian_collective_noun:1 "Kartvelebi"
- alan: "Allon"
+
+ alan:0 "Allon"
+ alan_prefix:0 "Allo"
  alan_collective_noun:1 "Allontæ"
- assyrian: "Sūryāyā"
- assyrian_collective_noun:1 "Sūryāyē"
-#Latin group
- latin_group: "Latini"
- latin_group_collective_noun: "Latini"
- italian: "Italiano"
- italian_collective_noun:1 "Italiani"
- roman: "Romanus"
- roman_collective_noun:1 "Romani"
- cisalpine: "Lumbardo"
- cisalpine_collective_noun:1 "Lumbardi"
- sardinian: "Sardu"
- sardinian_collective_noun: "Sardos"
- sicilian: "Sichilianu"
- sicilian_collective_noun: "Sichiliani"
- lombard: "Langobardu"
- lombard_collective_noun:1 "Langobardi"
-#South Slavic group
- south_slavic_group: "Južnoslovenski"
- south_slavic_group_collective_noun: "Južnoslovenski"
- croatian: "Hrvatski"
- croatian_collective_noun:1 "Hrvati"
- bosnian: "Bosanski"
- bosnian_collective_noun: "Bošnjani"
- serbian: "Srpski"
- serbian_collective_noun:1 "Srbi"
- vlach: "Rumîn"
- vlach_collective_noun:1 "Rumîni"
- bulgarian: "Bŭlgarsk"
- bulgarian_collective_noun:1 "Bŭlgare"
-#West Slavic group
- west_slavic_group: "Zachodniosłowiański"
- west_slavic_group_collective_noun: "Zachodni Słowiańe"
- pommeranian:1 "Pòmòrsczi"
- pommeranian_collective_noun:1 "Pòmòrzanié"
- czech: "Česky"
- czech_collective_noun:1 "Čechové"
- polish: "Polski"
- polish_collective_noun:1 "Polacy"
- polabian: "Slüvensťĕ"
- polabian_collective_noun:1 "Slüwioniĕ"
- slovien: "Slovenský"
- slovien_collective_noun: "Slováci"
-#Magyar group
- magyar_group:2 "Mogyër"
- magyar_group_collective_noun: "Mogyërok"
- mogyer: "Moger"
- mogyer_collective_noun: "Mogeruc"
- hungarian: "Magyar"
- hungarian_collective_noun:1 "Magyarok"
-#Baltic group
- baltic_group: "Baltai"
+
+ georgian:0 "Kartveli"
+ georgian_prefix:0 "Kartveli"
+ georgian_collective_noun:1 "Kartvelebi"
+
+ assyrian:1 "Sūryāyā"
+ assyrian_prefix:1 "Sūryā"
+ assyrian_collective_noun:2 "Sūryāyē"
+ #Baltic group
+ baltic_group:0 "Baltai"
  baltic_group_collective_noun:1 "Baltai"
- latgalian: "Latgaliskys"
+
+ latgalian:0 "Latgaliskys"
+ latgalian_prefix:0 "Latgali"
  latgalian_collective_noun:1 "Latgali"
- lithuanian: "Lietuviškas"
+
+ lithuanian:0 "Lietuviškas"
+ lithuanian_prefix:0 "Lietuviai"
  lithuanian_collective_noun:1 "Lietuviai"
- prussian: "Prūsisks"
+
+ prussian:0 "Prūsisks"
+ prussian_prefix:0 "Prūsai"
  prussian_collective_noun:1 "Prūsai"
-#East Slavic group
- east_slavic_group: "Voskhodnoslavyanskij"
- east_slavic_group_collective_noun: "Voskhodnyje Slavyane"
- russian: "Ruskij"
- russian_collective_noun:1 "Rus'"
- ilmenian: "Slovenĭskojĭ"
- ilmenian_collective_noun:1 "Slovene"
- severian: "Sěveřanĭskojĭ"
- severian_collective_noun:1 "Sěveřane"
- volhynian: "Drevľanĭskŭjĭ"
- volhynian_collective_noun:1 "Drevľane"
-#Akan group
- akan_group: "Okànní"
- akan_group_collective_noun: "Akaṅfo"
- akan: "Okànní"
- akan_collective_noun: "Akaṅfo"
-#Burman group
- burman_group: "Mranmā"
- burman_group_collective_noun: "Bama"
- burmese: "Mranmā"
- burmese_collective_noun: "Bama"
- mon: "Rmeñ"
- mon_collective_noun: "Rmeñ"
-#Central African group
- kanuri: "Kanúri"
- kanuri_collective_noun: "Kanúriwa"
- hausa: "Bà'afúnī"
- hausa_collective_noun: "Afunāwā"
- nupe: "Nupenci"
- nupe_collective_noun: "Nupencizhi"
- #Chinese
-  chinese_group: "Hwrahra"
-  chinese_group_collective_noun: "Hwrahra"
-  han: "Han"
-  han_collective_noun: "Hanńin"
-#Dravidian group
- dravidian_group: "Drāviḍa"
- dravidian_group_collective_noun: "Drāviḍa"
- tamil: "Tamiḻ"
+
+ #Balto-Finnic group
+ balto_finnic_group:0 "Balto-Finnic"
+ balto_finnic_group_collective_noun:1 "Balto-Finnics"
+
+ finnish:0 "Suomalainen"
+ finnish_prefix:0 "Suomalai"
+ finnish_collective_noun:1 "Suomalaiset"
+
+ sami:0 "Sámé"
+ sami_prefix:0 "Sámé"
+ sami_collective_noun:0 "Sámék"
+
+ estonian:0 "Maarahva"
+ estonian_prefix:0 "Maarahva"
+ estonian_collective_noun:1 "Maarahvas"
+
+ karelian:0 "Karjalainen"
+ karelian_prefix:0 "Karjalai"
+ karelian_collective_noun:1 "Karjalaižet"
+
+ vepsian:0 "Vepsläine"
+ vepsian_prefix:0 "Vepsläi"
+ vepsian_collective_noun:1 "Vepsläižed"
+ #Goidelic group
+ celtic_group:0 "Celtic"
+ celtic_group_collective_noun:0 "Celts"
+ goidelic_group:0 "Goídelach"
+ goidelic_group_collective_noun:0 "Goídelchlann"
+
+ irish:0 "Érennach"
+ irish_prefix:0 "Érenn"
+ irish_collective_noun:0 "Érennach"
+
+ gaelic:0 "Albanach"
+ gaelic_prefix:0 "Alban"
+ gaelic_collective_noun:0 "Albanach"
+ #Brythonic group
+ brythonic_group:0 "Brytanyawl"
+ brythonic_group_collective_noun:0 "Brytanyeit"
+
+ pictish:0 "Albidosaek"
+ pictish_prefix:0 "Albido"
+ pictish_collective_noun:1 "Albidosi"
+
+ welsh:0 "Kymreic"
+ welsh_prefix:0 "Kymri"
+ welsh_collective_noun:0 "Kymri"
+
+ breton:0 "Breizat"
+ breton_prefix:0 "Breiza"
+ breton_collective_noun:1 "Breiziz"
+
+ cornish:0 "Kernewek"
+ cornish_prefix:0 "Kerne"
+ cornish_collective_noun:0 "Kernowyon"
+
+ cumbrian:0 "Kumbraek"
+ cumbrian_prefix:0 "Kumbri"
+ cumbrian_collective_noun:0 "Kumbri"
+ #Central Germanic group
+ central_germanic_group:0 "Central Germanic"
+ central_germanic_group_collective_noun:1 "Central Germanics"
+ german:0 "German"
+ german_prefix:0 "Germano"
+ german_collective_noun:1 "Germans"
+ lombard:0 "Langobardu"
+ lombard_prefix:0 "Langobardi"
+ lombard_collective_noun:1 "Langobardi"
+
+ langobard:0 "Langobardu"
+ langobard_prefix:0 "Langobardi"
+ langobard_collective_noun:0 "Langobardi"
+
+ suebi:0 "Suevo"
+ suebi_prefix:0 "Suevo"
+ suebi_collective_noun:1 "Suevos"
+
+ saxon:0 "Sassisch"
+ saxon_prefix:0 "Sasse"
+ saxon_collective_noun:0 "Sassen"
+
+ franconian:0 "Vrenkisch"
+ franconian_prefix:0 "Vrenki"
+ franconian_collective_noun:0 "Vranken"
+
+ swabian:0 "Swâbisch"
+ swabian_prefix:0 "Swâbi"
+ swabian_collective_noun:0 "Swâben"
+
+ bavarian:0 "Beierisch"
+ bavarian_prefix:0 "Beieri"
+ bavarian_collective_noun:0 "Beieren"
+ #Dravidian group
+ dravidian_group:0 "Drāviḍa"
+ dravidian_group_collective_noun:0 "Drāviḍa"
+
+ tamil:0 "Tamiḻ"
+ tamil_prefix:0 "Tamiḻa"
  tamil_collective_noun:1 "Tamiḻarkaḷ"
- telugu: "Telugu"
+
+ telugu:0 "Telugu"
+ telugu_prefix:0 "Telugu"
  telugu_collective_noun:1 "Teluguvāl"
- kannada: "Kannaḍiga"
+
+ kannada:0 "Kannaḍiga"
+ kannada_prefix:0 "Kannaḍiga"
  kannada_collective_noun:1 "Kannadigaru"
-#East African group
- east_african_group: "Əcôš"
- east_african_group_collective_noun:1 "Əcôš"
- ethiopian: "Āmara"
- ethiopian_collective_noun:1 "Āmara"
- nubian: "Migiti"
- nubian_collective_noun:1 "Migiti"
- welayta: "Wolaytta"
- welayta_collective_noun: "Wolaytta"
- daju: "Dáájíŋcè"
- daju_collective_noun: "Dáájíŋgè"
-#Indo Aryan
- indo_aryan_group: "Bhāratīya"
- indo_aryan_group_collective_noun: "Bhāratīya"
- bengali: "Bāŋgalī"
- bengali_collective_noun: "Bāŋgalē"
- oriya: "Oṛiā"
- oriya_collective_noun:1 "Oṛē"
- assamese: "Kāmarī"
- assamese_collective_noun: "Kāmarē"
- hindustani: "Kāṇaūjī"
- hindustani_collective_noun: "Kāṇaūjē"
- gujarati: "Sōrāṭhī"
- gujarati_collective_noun:1 "Sōrāṭhē"
- punjabi: "Panjaṇī"
- punjabi_collective_noun:1 "Panjaṇē"
- rajput: "Gūjarī"
- rajput_collective_noun:1 "Gūjarē"
- sindhi: "Sindhī"
- sindhi_collective_noun:1 "Sendhavē"
- marathi: "Marahāṭī"
- marathi_collective_noun:1 "Marahāṭē"
- kashmiri: "Kaśamirīya"
- kashmiri_collective_noun: "Kaśamirāḥ"
- sinhala: "Sīhala"
- sinhala_collective_noun:1 "Sīhala"
- nepali: "Khasa"
- nepali_collective_noun:1 "Khasa"
-#Mongolic
- mongolic_group: "Mongğol"
- mongolic_group_collective_noun: "Mongğolčud"
- mongol: "Mongğol"
- mongol_collective_noun:1 "Mongğolčud"
- buryat: "Buriyad"
- buryat_collective_noun: "Buriyadčud"
- oirat: "Oyirad"
- oirat_collective_noun: "Oyiradčud"
- naiman: "Naiman"
- naiman_collective_noun: "Naimans"
- kerait: "Khereid"
- kerait_collective_noun: "Khereid"
- khitan: "Qidún"
- khitan_collective_noun:1 "Qidúnd"
- tuyuhun: "Tuguhun"
- tuyuhun_collective_noun: "Tuguhund"
- jurchen: "Jörcen"
- jurchen_collective_noun:1 "Jörcensa"
-#Qiangic Group
- qiangic_group: "Qiang"
- qiangic_group_collective_noun: "Qiang"
- tangut: "My Na"
- tangut_collective_noun:1 "My Na"
- qiang: "Rrmea"
- qiang_collective_noun: "Rrmea"
-#Sahelian group
- sahelian_group: "Sāḥiliyy"
- sahelian_group_collective_noun: "Sāḥiliyy"
- soninke: "Sarakule"
- soninke_collective_noun: "Sarakulo"
- bozo: "Sorogo"
- bozo_collective_noun: "Sorogoye"
- mossi: "Moaaga"
- mossi_collective_noun: "Mosse"
- songhai: "Koyraboro"
- songhai_collective_noun: "Koyraborey"
-#Senegambian group
- senegambian_group: "Gaámbi"
- senegambian_group_collective_noun: "Gaámbi"
- pulaar: "Pülo"
- pulaar_collective_noun: "Fulɓe"
- serer: "Seereer"
- serer_collective_noun: "Seereer"
- wolof: "Wolof"
- wolof_collective_noun: "Wolof-yi"
-#Somalian group
- somalian_group: "Soomaali"
- somalian_group_collective_noun: "Soomaaliyeey"
- somali: "Soomaali"
+
+ gond:0 "Gond"
+ gond_prefix:0 "Gond"
+ gond_collective_noun:0 "Gonds"
+ #Horn African/Somalian group
+ somalian_group:0 "Soomaali"
+ somalian_group_collective_noun:0 "Soomaaliyeey"
+
+ somali:0 "Soomaali"
+ somali_prefix:0 "Soomaali"
  somali_collective_noun:1 "Soomaaliyeey"
- beja: "Beḍaawye"
- beja_collective_noun: "aa-Beḍawyée"
- afar: "Qafàrtu"
- afar_collective_noun: "Qafàra"
-#Tibetan
- bodpa: "Bod Pa"
- bodpa_collective_noun:1 "Bod Pa"
- zhangzhung: "Ryang Ryung"
- zhangzhung_collective_noun:1 "Ryang Ryung"
- sumpa: "Sum Pa"
- sumpa_collective_noun:1 "Sum Pa"
- tsangpa: "Gtsang Pa"
- tsangpa_collective_noun: "Gtsang Pa"
- kirati: "Rakduŋ"
- kirati_collective_noun: "Rakduŋ"
- lhomon: "Mon Pa"
- lhomon_collective_noun: "Mon Pa"
-#Turkic
- turkic_group: "Türklar"
- turkic_group_collective_noun: "Türklar"
- turkish:1 "Oğuz"
- turkish_collective_noun:2 "Oğuzlar"
- pecheneg: "Bacanak"
- pecheneg_collective_noun:1 "Bacanaklar"
- cuman: "Quman"
- cuman_collective_noun:1 "Qumanlar"
- khazar: "Qasar"
- khazar_collective_noun:1 "Qasarlar"
- bolghar: "Pălkhar"
- bolghar_collective_noun:1 "Pălkharsem"
- bashkir: "Bašqort"
- bashkir_collective_noun:1 "Bašqorttar"
- avar: "Apar"
- avar_collective_noun:1 "Aparsem"
- karluk: "Qarluq"
- karluk_collective_noun:1 "Qarluqlar"
- kimek: "Kimäk"
- kimek_collective_noun:1 "Kimäklar"
- kipchak: "Qïpčaq"
- kipchak_collective_noun:1 "Qïpčaqlar"
- laktan: "Laktan"
- laktan_collective_noun:1 "Laktanlar"
- kirghiz: "Kïrgïz"
- kirghiz_collective_noun: "Kïrgïzdar"
- uyghur: "Uyğur"
- uyghur_collective_noun:1 "Uyğurlar"
- yughur: "Yogïr"
- yughur_collective_noun: "Yogïrlar"
- uriankhai: "Uraañxay"
- uriankhai_collective_noun: "Uraañxaydar"
- chuvash: "Čăvaš"
- chuvash_collective_noun: "Čăvašsem"
- shatuo: "Sart"
- shatuo_collective_noun: "Sarttar"
- ongud: "Ongud"
- ongud_collective_noun: "Onguddar"
-#Ugro-Permian group
- komi: "Komi"
- komi_collective_noun:1 "Komiyas"
- khanty: "Hanti"
- khanty_collective_noun:1 "Hantiət"
- samoyed: "Perma"
- samoyed_collective_noun:1 "Permaki"
-#Volga-Finnic group
- mordvin: "Mordva"
- mordvin_collective_noun:1 "Mordvat"
- merya: "Merä"
- merya_collective_noun:1 "Merä"
- meshchera: "Meščjerja"
- meshchera_collective_noun:1 "Meščjerjan"
- mari: "Mari"
- mari_collective_noun: "Marii"
- muroma: "Muromian"
- muroma_collective_noun:1 "Muromian"
-#Israelite group
- israelite_group: "Yehudim"
- israelite_group_collective_noun: "Yehudim"
- ashkenazi: "Ashkenaz"
- ashkenazi_collective_noun:1 "Ashkenazim"
- sephardi: "Sefardí"
- sephardi_collective_noun:1 "Sefardím"
-#Iranian group
- iranian_group: "Arya"
- iranian_group_collective_noun: "Arya"
- persian: "Pārsi"
- persian_collective_noun:1 "Pārsiyān"
- sogdian: "Suğðīk"
- sogdian_collective_noun:1 "Suğðīkān"
- tocharian: "Kuśiññe"
- tocharian_collective_noun:1 "Kuśiññi"
- kurdish: "Kurdī"
- kurdish_collective_noun:1 "Kurd"
- afghan: "Pəxtún"
- afghan_collective_noun:1 "Pəxtānə́"
- baloch: "Balōč"
- baloch_collective_noun:1 "Balōč"
- saka: "Hvaṃna"
- saka_collective_noun:1 "Hvaṃnye"
- daylamite: "Deylami"
- daylamite_collective_noun: "Deylamiyān"
- khwarezmian: "Xwārazmi"
- khwarezmian_collective_noun: "Xwārazmiyān"
- tajik: "Xwarāsāni"
- tajik_collective_noun: "Xwarāsāniyān"
-#West African group
+
+ beja:0 "Beḍaawye"
+ beja_prefix:0 "Beḍaawye"
+ beja_collective_noun:0 "aa-Beḍawyée"
+
+ afar:0 "Qafàrtu"
+ afar_prefix:0 "Qafàra"
+ afar_collective_noun:0 "Qafàra"
+ #East African group
+ east_african_group:0 "Əcôš"
+ east_african_group_collective_noun:1 "Əcôš"
+
+ ethiopian:0 "Āmara"
+ ethiopian_prefix:0 "Āmara"
+ ethiopian_collective_noun:1 "Āmara"
+
+ nubian:0 "Migiti"
+ nubian_prefix:0 "Migiti"
+ nubian_collective_noun:1 "Migiti"
+
+ welayta:0 "Wolaytta"
+ welayta_prefix:0 "Wolaytta"
+ welayta_collective_noun:0 "Wolaytta"
+
+ daju:0 "Dáájíŋcè"
+ daju_prefix:0 "Dáájíŋcè"
+ daju_collective_noun:0 "Dáájíŋcè"
+ #Central African group
+ central_african_group:0 "Central African"
+ central_african_group_collective_noun:0 "Central Africans"
+
+ kanuri:0 "Kanúri"
+ kanuri_prefix:0 "Kanúri"
+ kanuri_collective_noun:0 "Kanúriwa"
+
+ hausa:0 "Bà'afúnī"
+ hausa_prefix:0 "Afunāwā"
+ hausa_collective_noun:0 "Afunāwā"
+
+ sao:0 "Sao"
+ sao_prefix:0 "Sao"
+ sao_collective_noun:0 "Saos"
+
+ nupe:0 "Nupenci"
+ nupe_prefix:0 "Nupenci"
+ nupe_collective_noun:0 "Nupencizhi"
+ #Yoruba group
+ yoruba_group:0 "Yorùbá"
+ yoruba_group_collective_noun:0 "Yorùbá"
+
+ ewe:0 "Eẁe"
+ ewe_prefix:0 "Eẁe"
+ ewe_collective_noun:0 "Eẁe"
+
+ yoruba:0 "Yorùbá"
+ yoruba_prefix:0 "Yorùbá"
+ yoruba_collective_noun:0 "Yorùbá"
+
+ edo:0 "Ẹ̀dó"
+ edo_prefix:0 "Ẹ̀dó"
+ edo_collective_noun:0 "Ẹ̀dó"
+
+ igbo:0 "Ìgbò"
+ igbo_prefix:0 "Ìgbò"
+ igbo_collective_noun:0 "Ìgbò"
+ #Sahelian group
+ sahelian_group:0 "Sāḥiliyy"
+ sahelian_group_collective_noun:0 "Sāḥiliyy"
+
+ soninke:0 "Sarakule"
+ soninke_prefix:0 "Sarakulo"
+ soninke_collective_noun:0 "Sarakulo"
+
+ bozo:0 "Sorogo"
+ bozo_prefix:0 "Sorogo"
+ bozo_collective_noun:0 "Sorogoye"
+
+ mossi:0 "Moaaga"
+ mossi_prefix:0 "Mosse"
+ mossi_collective_noun:0 "Mosse"
+
+ sorko:0 "Sorko"
+ sorko_prefix:0 "Sorko"
+ sorko_collective_noun:0 "Sorkos"
+
+ gaw:0 "Qaw"
+ gaw_prefix:0 "Qawi"
+ gaw_collective_noun:0 "Qaws"
+
+ songhai:0 "Koyraboro"
+ songhai_prefix:0 "Koyraboro"
+ songhai_collective_noun:0 "Koyraborey"
+ #West African group
  west_african_group:1 "Màninká"
  west_african_group_collective_noun:1 "Màninká"
- malinke: "Màninká"
- malinke_collective_noun: "Màninká"
- bobo: "Bobo"
- bobo_collective_noun: "Bobo"
- gur: "Gulimance"
- gur_collective_noun: "Gulimancéba"
- marka: "Marka"
- marka_collective_noun: "Markas"
- mel: "Témené"
- mel_collective_noun: "Témené"
-#Yoruba group
- yoruba_group: "Yorùbá"
- yoruba_group_collective_noun: "Yorùbá"
- yoruba: "Yorùbá"
- yoruba_collective_noun: "Yorùbá"
- edo: "Ẹ̀dó"
- edo_collective_noun: "Ẹ̀dó"
- igbo: "Ìgbò"
- igbo_collective_noun: "Ìgbò"
- ewe: "Eẁe"
- ewe_collective_noun: "Eẁe"
+
+ mande:0 "Mandé"
+ mande_prefix:0 "Mandé"
+ mande_collective_noun:1 "Mandés"
+
+ malinke:0 "Màninká"
+ malinke_prefix:0 "Màninká"
+ malinke_collective_noun:0 "Màninká"
+
+ bobo:0 "Bobo"
+ bobo_prefix:0 "Bobo"
+ bobo_collective_noun:0 "Bobo"
+
+ gur:0 "Gulimance"
+ gur_prefix:0 "Guli"
+ gur_collective_noun:0 "Gulimancéba"
+
+ marka:0 "Marka"
+ marka_prefix:0 "Marka"
+ marka_collective_noun:0 "Markas"
+
+ mel:0 "Témené"
+ mel_prefix:0 "Témené"
+ mel_collective_noun:0 "Témené"
+
+ senufo:0 "Senufo"
+ senufo_prefix:0 "Senufo"
+ senufo_collective_noun:0 "Senufos"
+ #Senegambian group
+ senegambian_group:0 "Gaámbi"
+ senegambian_group_collective_noun:0 "Gaámbi"
+
+ pulaar:0 "Pülo"
+ pulaar_prefix:0 "Pülo"
+ pulaar_collective_noun:0 "Fulɓe"
+
+ serer:0 "Seereer"
+ serer_prefix:0 "Seereer"
+ serer_collective_noun:0 "Seereer"
+
+ wolof:0 "Wolof"
+ wolof_prefix:0 "Wolof"
+ wolof_collective_noun:0 "Wolof-yi"
+ #Akan group
+ akan_group:0 "Okànní"
+ akan_group_collective_noun:0 "Akaṅfo"
+
+ akan:0 "Okànní"
+ akan_prefix:0 "Akaṅfo"
+ akan_collective_noun:0 "Akaṅfo"
+
+ guan:0 "Guan"
+ guan_prefix:0 "Guani"
+ guan_collective_noun:0 "Guans"
+
+ kru:0 "Kru"
+ kru_prefix:0 "Kru"
+ kru_collective_noun:0 "Krus"
+ #East Slavic group
+ east_slavic_group:0 "Voskhodnoslavyanskij"
+ east_slavic_group_collective_noun:1 "Voskhodnyje Slavyane"
+
+ russian:0 "Ruskij"
+ russian_prefix:0 "Rus"
+ russian_collective_noun:1 "Rus'"
+
+ ilmenian:0 "Slovenĭskojĭ"
+ ilmenian_prefix:0 "Slovene"
+ ilmenian_collective_noun:1 "Slovene"
+
+ severian:0 "Sěveřanĭskojĭ"
+ severian_prefix:0 "Sěveřane"
+ severian_collective_noun:1 "Sěveřane"
+
+ volhynian:0 "Drevľanĭskŭjĭ"
+ volhynian_prefix:0 "Drevľane"
+ volhynian_collective_noun:1 "Drevľane"
+ #Iberian group
+ iberian_group:0 "Espano"
+ iberian_group_collective_noun:1 "Espanos"
+
+ basque:0 "Euskal"
+ basque_prefix:0 "Euskal"
+ basque_collective_noun:0 "Euskaldunak"
+
+ castilian:0 "Castellano"
+ castilian_prefix:0 "Castella"
+ castilian_collective_noun:1 "Castellanos"
+
+ catalan:0 "Catala"
+ catalan_prefix:0 "Catala"
+ catalan_collective_noun:1 "Catalans"
+
+ portuguese:0 "Portugaes"
+ portuguese_prefix:0 "Portuga"
+ portuguese_collective_noun:0 "Portugaeses"
+
+ visigothic:0 "Gothico"
+ visigothic_prefix:0 "Gotho"
+ visigothic_collective_noun:1 "Gothos"
+ #Indo Aryan
+ indo_aryan_group:0 "Bhāratīya"
+ indo_aryan_group_collective_noun:0 "Bhāratīya"
+
+ bengali:0 "Bāŋgalī"
+ bengali_prefix:0 "Bāŋgalī"
+ bengali_collective_noun:1 "Bāŋgalē"
+
+ oriya:0 "Oṛiā"
+ oriya_prefix:0 "Oṛiā"
+ oriya_collective_noun:1 "Oṛē"
+
+ assamese:1 "Kāmarī"
+ assamese_prefix:1 "Kāmarī"
+ assamese_collective_noun:1 "Kāmarē"
+
+ hindustani:1 "Kāṇaūjī"
+ hindustani_prefix:1 "Kāṇaūjī"
+ hindustani_collective_noun:1 "Kāṇaūjē"
+
+ malvi:0 "Malvi"
+ malvi_prefix:0 "Malvi"
+ malvi_collective_noun:0 "Malvi"
+
+ gujarati:0 "Sōrāṭhī"
+ gujarati_prefix:0 "Sōrāṭhī"
+ gujarati_collective_noun:1 "Sōrāṭhē"
+
+ punjabi:0 "Panjaṇī"
+ punjabi_prefix:0 "Panjaṇī"
+ punjabi_collective_noun:1 "Panjaṇē"
+
+ rajput:1 "Gūjarī"
+ rajput_prefix:1 "Gūjarī"
+ rajput_collective_noun:2 "Gūjarē"
+
+ sindhi:0 "Sindhī"
+ sindhi_prefix:0 "Sindhī"
+ sindhi_collective_noun:2 "Sendhavē"
+
+ marathi:0 "Marahāṭī"
+ marathi_prefix:0 "Marahāṭī"
+ marathi_collective_noun:1 "Marahāṭē"
+
+ sinhala:0 "Sīhala"
+ sinhala_prefix:0 "Sīhala"
+ sinhala_collective_noun:1 "Sīhala"
+
+ nepali:0 "Khasa"
+ nepali_prefix:0 "Khasa"
+ nepali_collective_noun:1 "Khasa"
+
+ kashmiri:0 "Kaśamirīya"
+ kashmiri_prefix:0 "Kaśamirī"
+ kashmiri_collective_noun:0 "Kaśamirāḥ"
+ #Iranian group
+ iranian_group:0 "Arya"
+ iranian_group_collective_noun:0 "Arya"
+
+ persian:0 "Pārsi"
+ persian_prefix:0 "Pārsi"
+ persian_collective_noun:1 "Pārsiyān"
+
+ sogdian:0 "Suğðīk"
+ sogdian_prefix:0 "Suğðī"
+ sogdian_collective_noun:1 "Suğðīkān"
+
+ tocharian:0 "Kuśiññe"
+ tocharian_prefix:0 "Kuśiññi"
+ tocharian_collective_noun:1 "Kuśiññi"
+
+ kurdish:0 "Kurdī"
+ kurdish_prefix:0 "Kurdī"
+ kurdish_collective_noun:1 "Kurd"
+
+ afghan:0 "Pəxtún"
+ afghan_prefix:0 "Pəxtānə́"
+ afghan_collective_noun:1 "Pəxtānə́"
+
+ baloch:0 "Balōč"
+ baloch_prefix:0 "Balōč"
+ baloch_collective_noun:1 "Balōč"
+
+ saka:0 "Hvaṃna"
+ saka_prefix:0 "Hvaṃna"
+ saka_collective_noun:1 "Hvaṃnye"
+
+ daylamite:0 "Deylami"
+ daylamite_prefix:0 "Deylami"
+ daylamite_collective_noun:0 "Deylamiyān"
+
+ khwarezmian:0 "Xwārazmi"
+ khwarezmian_prefix:0 "Xwārazmi"
+ khwarezmian_collective_noun:0 "Xwārazmiyān"
+
+ tajik:0 "Xwarāsāni"
+ tajik_prefix:0 "Xwarāsāni"
+ tajik_collective_noun:0 "Xwarāsāniyān"
+ #Israelite group
+ israelite_group:0 "Yehudim"
+ israelite_group_collective_noun:0 "Yehudim"
+
+ ashkenazi:0 "Ashkenaz"
+ ashkenazi_prefix:0 "Ashkenazi"
+ ashkenazi_collective_noun:1 "Ashkenazim"
+
+ sephardi:0 "Sefardí"
+ sephardi_prefix:0 "Sefardí"
+ sephardi_collective_noun:1 "Sefardím"
+
+ radhanite:0 "Raðanī"
+ radhanite_prefix:0 "Raðanī"
+ radhanite_collective_noun:0 "ar-Raðanīyūn"
+
+ kochinim:0 "Keācciyile"
+ kochinim_prefix:0 "Keācci"
+ kochinim_collective_noun:0 "Keācciyile"
+ #Latin group
+ latin_group:0 "Latini"
+ latin_group_collective_noun:0 "Latini"
+
+ italian:0 "Italiano"
+ italian_prefix:0 "Italo"
+ italian_collective_noun:1 "Italiani"
+
+ roman:0 "Romanus"
+ roman_prefix:0 "Romano"
+ roman_collective_noun:1 "Romani"
+
+ sardinian:0 "Sardu"
+ sardinian_prefix:0 "Sardo"
+ sardinian_collective_noun:0 "Sardos"
+
+ sicilian:0 "Sichilianu"
+ sicilian_prefix:0 "Sichilo"
+ sicilian_collective_noun:0 "Sichiliani"
+
+ cisalpine:0 "Lumbardo"
+ cisalpine_prefix:0 "Lumbardo"
+ cisalpine_collective_noun:1 "Lumbardi"
+ #Frankish group
+ frankish_group:0 "Franci"
+ frankish_group_collective_noun:0 "Franci"
+
+ frankish:0 "Frenkisk"
+ frankish_prefix:0 "Frenki"
+ frankish_collective_noun:1 "Frankan"
+
+ french:0 "Francois"
+ french_prefix:0 "Franco"
+ french_collective_noun:0 "Francois"
+
+ norman:0 "Normanz"
+ norman_prefix:0 "Normano"
+ norman_collective_noun:1 "Normant"
+
+ occitan:0 "Occitan"
+ occitan_prefix:0 "Occitano"
+ occitan_collective_noun:1 "Occitans"
+ #Magyar group
+ magyar_group:2 "Mogyër"
+ magyar_group_collective_noun:0 "Mogyërok"
+
+ mogyer:0 "Moger"
+ mogyer_prefix:0 "Moger"
+ mogyer_collective_noun:0 "Mogeruc"
+
+ hungarian:0 "Magyar"
+ hungarian_prefix:0 "Magyar"
+ hungarian_collective_noun:1 "Magyarok"
+ #North Germanic group
+ north_germanic_group:0 "Norðrǿnn"
+ north_germanic_group_collective_noun:0 "Norðmęnn"
+
+ norse:0 "Norðrǿnn"
+ norse_prefix:0 "Norð"
+ norse_collective_noun:0 "Norðmęnn"
+
+ swedish:0 "Svænskær"
+ swedish_prefix:0 "Svænsk"
+ swedish_collective_noun:2 "Svear"
+
+ norwegian:0 "Norskr"
+ norwegian_prefix:0 "Norsk"
+ norwegian_collective_noun:1 "Norðmęnn"
+
+ danish:0 "Danskær"
+ danish_prefix:0 "Dansk"
+ danish_collective_noun:1 "Daner"
+ #South Slavic group
+ south_slavic_group:0 "Južnoslovenski"
+ south_slavic_group_collective_noun:0 "Južnoslovenski"
+
+ bosnian:0 "Bosanski"
+ bosnian_prefix:0 "Bosani"
+ bosnian_collective_noun:0 "Bošnjani"
+
+ croatian:0 "Hrvatski"
+ croatian_prefix:0 "Hrvati"
+ croatian_collective_noun:1 "Hrvati"
+
+ serbian:0 "Srpski"
+ serbian_prefix:0 "Srbi"
+ serbian_collective_noun:1 "Srbi"
+
+ vlach:0 "Rumîn"
+ vlach_prefix:0 "Rumîni"
+ vlach_collective_noun:1 "Rumîni"
+
+ bulgarian:0 "Bŭlgarsk"
+ bulgarian_prefix:0 "Bŭlgare"
+ bulgarian_collective_noun:1 "Bŭlgare"
+ #Ugro-Permian group
+ ugro_permian_group:0 "Ugro-Permian"
+ ugro_permian_group_collective_noun:1 "Ugro-Permians"
+ #"Komi"
+ komi:0 "Komi"
+ komi_prefix:0 "Komi"
+ komi_collective_noun:1 "Komiyas"
+ #"Khanty"
+ khanty:0 "Hanti"
+ khanty_prefix:0 "Hanti"
+ khanty_collective_noun:1 "Hantiət"
+
+ samoyed:0 "Perma"
+ samoyed_prefix:0 "Perma"
+ samoyed_collective_noun:1 "Permaki"
+ #Volga-Finnic group
+ volga_finnic_group:0 "Volga-Finnic"
+ volga_finnic_group_collective_noun:1 "Volga-Finns"
+
+ mordvin:0 "Mordva"
+ mordvin_prefix:0 "Mordva"
+ mordvin_collective_noun:1 "Mordvat"
+
+ mari:0 "Mari"
+ mari_prefix:0 "Mari"
+ mari_collective_noun:0 "Marii"
+
+ merya:0 "Merä"
+ merya_prefix:0 "Merä"
+ merya_collective_noun:1 "Merä"
+
+ meshchera:0 "Meščjerja"
+ meshchera_prefix:0 "Meščji"
+ meshchera_collective_noun:1 "Meščjerjan"
+
+ muroma:0 "Muromian"
+ muroma_prefix:0 "Muromi"
+ muroma_collective_noun:1 "Muromian"
+ #West Germanic group
+ west_germanic_group:0 "Angelcynn"
+ west_germanic_group_collective_noun:0 "Angelcynn"
+
+ english:0 "Englisch"
+ english_prefix:0 "Anglo"
+ english_collective_noun:0 "Englisch"
+
+ anglo_saxon:0 "Ænglisc"
+ anglo_saxon_prefix:0 "Ængl"
+ anglo_saxon_collective_noun:1 "Ængle"
+
+ old_saxon:0 "Ald Sahsisk"
+ old_saxon_prefix:0 "Sahssi"
+ old_saxon_collective_noun:1 "Ald Sahsisk"
+
+ frisian:0 "Frêsisk"
+ frisian_prefix:0 "Frêsi"
+ frisian_collective_noun:1 "Frêsan"
+
+ dutch:2 "Dûtsch"
+ dutch_prefix:0 "Dûtsch"
+ dutch_collective_noun:2 "Dûtsche"
+
+ scottish:1 "Inglis"
+ scottish_prefix:0 "Ingli"
+ scottish_collective_noun:1 "Inglis"
+ #West Slavic group
+ west_slavic_group:0 "Zachodniosłowiański"
+ west_slavic_group_collective_noun:0 "Zachodni Słowiańe"
+
+ pommeranian:1 "Pòmòrsczi"
+ pommeranian_prefix:0 "Pòmòrsczi"
+ pommeranian_collective_noun:1 "Pòmòrzanié"
+
+ czech:0 "Czesky"
+ czech_prefix:0 "Czeski"
+ czech_collective_noun:1 "Czehowe"
+
+ slovien:0 "Slovenský"
+ slovien_prefix:0 "Slováci"
+ slovien_collective_noun:0 "Slováci"
+
+ polish:0 "Polski"
+ polish_prefix:0 "Polski"
+ polish_collective_noun:1 "Polacy"
+
+ polabian:0 "Slüvensťĕ"
+ polabian_prefix:0 "Slüwioni"
+ polabian_collective_noun:1 "Slüwioniĕ"
+
+ carantanian:0 "Korǫtĭskŭ"
+ carantanian_prefix:0 "Korǫtane"
+ carantanian_collective_noun:0 "Korǫtane"
+ #Tibetan
+ tibetan_group:0 "Tibetan"
+ tibetan_group_collective_noun:0 "Tibetans"
+
+ bodpa:0 "Bod Pa"
+ bodpa_prefix:0 "Bod"
+ bodpa_collective_noun:1 "Bod Pa"
+
+ tangut:0 "Tangut"
+ tangut_prefix:0 "Tangut"
+ tangut_collective_noun:1 "Tanguts"
+
+ zhangzhung:0 "Ryang Ryung"
+ zhangzhung_prefix:0 "Ryang"
+ zhangzhung_collective_noun:1 "Ryang Ryung"
+
+ sumpa:0 "Sum Pa"
+ sumpa_prefix:0 "Sum"
+ sumpa_collective_noun:1 "Sum Pa"
+
+ tsangpa:0 "Gtsang Pa"
+ tsangpa_prefix:0 "Gtsang"
+ tsangpa_collective_noun:0 "Gtsang Pa"
+
+ kirati:0 "Rakduŋ"
+ kirati_prefix:0 "Rakduŋ"
+ kirati_collective_noun:0 "Rakduŋ"
+
+ lhomon:0 "Mon Pa"
+ lhomon_prefix:0 "Mon"
+ lhomon_collective_noun:0 "Mon Pa"
+
+ qiang:0 "Rrmea"
+ qiang_prefix:0 "Rrmea"
+ qiang_collective_noun:0 "Rrmea"
+ #Chinese
+ chinese_group:0 "Hwrahra"
+ chinese_group_collective_noun:0 "Hwrahra"
+
+ han:0 "Han"
+ han_prefix:0 "Han"
+ han_collective_noun:0 "Hanńin"
+
+ maghrebi:0 "Maġribī"
+ maghrebi_prefix:0 "Maġribī"
+ maghrebi_collective_noun:1 "al-Maġribīyūn"
+ #Mongolic
+ mongolic_group:0 "Mongğol"
+ mongolic_group_collective_noun:0 "Mongğolčud"
+
+ mongol:0 "Mongğol"
+ mongol_prefix:0 "Mongğol"
+ mongol_collective_noun:1 "Mongğolčud"
+
+ buryat:0 "Buriyad"
+ buryat_prefix:0 "Buriy"
+ buryat_collective_noun:0 "Buriyadčud"
+
+ oirat:0 "Oyirad"
+ oirat_prefix:0 "Oyira"
+ oirat_collective_noun:0 "Oyiradčud"
+
+ naiman:0 "Naiman"
+ naiman_prefix:0 "Naiman"
+ naiman_collective_noun:0 "Naimans"
+
+ kerait:0 "Khereid"
+ kerait_prefix:0 "Kherei"
+ kerait_collective_noun:0 "Khereid"
+
+ khitan:0 "Qidún"
+ khitan_prefix:0 "Qidún"
+ khitan_collective_noun:1 "Qidúnd"
+
+ tuyuhun:0 "Tuguhun"
+ tuyuhun_prefix:0 "Tuguhun"
+ tuyuhun_collective_noun:0 "Tuguhund"
+
+ jurchen:0 "Jörcen"
+ jurchen_prefix:0 "Jörcensa"
+ jurchen_collective_noun:1 "Jörcensa"
+ #Turkic
+ turkic_group:0 "Türklar"
+ turkic_group_collective_noun:0 "Türklar"
+
+ turkish:1 "Oğuz"
+ turkish_prefix:0 "Oğuzla"
+ turkish_collective_noun:2 "Oğuzlar"
+
+ pecheneg:0 "Bacanak"
+ pecheneg_prefix:0 "Bacanakla"
+ pecheneg_collective_noun:1 "Bacanaklar"
+
+ cuman:0 "Quman"
+ cuman_prefix:0 "Qumanla"
+ cuman_collective_noun:1 "Qumanlar"
+
+ khazar:0 "Qasar"
+ khazar_prefix:0 "Qasarla"
+ khazar_collective_noun:1 "Qasarlar"
+
+ bolghar:0 "Pălkhar"
+ bolghar_prefix:0 "Pălkha"
+ bolghar_collective_noun:1 "Pălkharsem"
+
+ bashkir:0 "Bašqort"
+ bashkir_prefix:0 "Bašqortta"
+ bashkir_collective_noun:1 "Bašqorttar"
+
+ avar:0 "Apar"
+ avar_prefix:0 "Aparse"
+ avar_collective_noun:1 "Aparsem"
+
+ karluk:0 "Qarluq"
+ karluk_prefix:0 "Qarluqla"
+ karluk_collective_noun:1 "Qarluqlar"
+
+ kimek:0 "Kimäk"
+ kimek_prefix:0 "Kimäkla"
+ kimek_collective_noun:1 "Kimäklar"
+
+ kipchak:0 "Qïpčaq"
+ kipchak_prefix:0 "Qïpčaqla"
+ kipchak_collective_noun:1 "Qïpčaqlar"
+
+ laktan:0 "Laktan"
+ laktan_prefix:0 "Laktanla"
+ laktan_collective_noun:1 "Laktanlar"
+
+ kirghiz:0 "Kïrgïz"
+ kirghiz_prefix:0 "Kïrgïzda"
+ kirghiz_collective_noun:0 "Kïrgïzdar"
+
+ uyghur:0 "Uyğur"
+ uyghur_prefix:0 "Uyğurla"
+ uyghur_collective_noun:1 "Uyğurlar"
+
+ uriankhai:0 "Uriankhai"
+ uriankhai_prefix:0 "Uriankho"
+ uriankhai_collective_noun:0 "Uriankhais"
+
+ yughur:0 "Yogïr"
+ yughur_prefix:0 "Yogïrla"
+ yughur_collective_noun:0 "Yogïrlar"
+
+ chuvash:0 "Čăvaš"
+ chuvash_prefix:0 "Čăvašse"
+ chuvash_collective_noun:0 "Čăvašsem"
+
+ shatuo:0 "Sart"
+ shatuo_prefix:0 "Sartta"
+ shatuo_collective_noun:0 "Sarttar"
+
+ ongud:0 "Ongud"
+ ongud_prefix:0 "Ongudda"
+ ongud_collective_noun:0 "Onguddar"
+ #Qiangic Group
+ qiangic_group:0 "Qiang"
+ qiangic_group_collective_noun:0 "Qiang"
+ #Burman
+ burman_group:0 "Mranmā"
+ burman_group_collective_noun:0 "Bama"
+
+ burmese:0 "Mranmā"
+ burmese_prefix:0 "Bama"
+ burmese_collective_noun:0 "Bama"
+
+ mon:0 "Rmeñ"
+ mon_prefix:0 "Rmeñ"
+ mon_collective_noun:0 "Rmeñ"
+ # Iberian
+ aragonese:0 "Aragones"
+ aragonese_prefix:0 "Aragono"
+ aragonese_collective_noun:0 "Aragoneses"
+
+ asturleonese:0 "Lliones"
+ asturleonese_prefix:0 "Lliono"
+ asturleonese_collective_noun:0 "Llionesos"
+
+ galician:0 "Galego"
+ galician_prefix:0 "Galego"
+ galician_collective_noun:0 "Galegos"

@@ -2,13 +2,7 @@
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_male_gael_norse
 	}
@@ -34,13 +28,7 @@ DynastGoidIndepCountFemale = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = king_female_gael_norse
 	}
@@ -120,13 +108,7 @@ AngloIndepCountMaleTwo = {
 	type = character
 	text = {
 		trigger = {
-			OR = {
-				has_culture_group = culture_group:north_germanic_group
-				AND = {
-					exists = father
-					father.culture_group = culture_group:north_germanic_group
-				}
-			}
+			culture = { any_parent_culture_or_above = { has_cultural_pillar = heritage_north_germanic } }
 		}
 		localization_key = count_feudalclan_male_anglo_norse_independent
 	}
@@ -222,10 +204,6 @@ NorthIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			OR = {
-				has_culture = culture:norse
-				has_culture = culture:norwegian
-			}
 		}
 		localization_key = county_default_norse_norwegian
 	}
@@ -239,10 +217,6 @@ SwedishIndepCounty = {
 	text = {
 		trigger = {
 			highest_held_title_tier >= tier_duchy
-			OR = {
-				has_culture = culture:swedish
-				has_culture = culture:danish
-			}
 		}
 		localization_key = county_default_swedish_danish
 	}
