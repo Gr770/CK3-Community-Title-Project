@@ -31,6 +31,13 @@
  COUNCILLOR_MISSING_SPOUSE:0 "No tengo [available_spouse|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE:1 "[CouncilWindow.GetCharacter.GetFirstName] no tiene [available_spouse|lE]"
  COUNCILLOR_WILL_BE_ASSIGNED:0 "Se asignará el [councillor|E]"
+ COUNCILLOR_MISSING_VIZIER: "You have no [vizier|E] or [spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "[CouncilWindow.GetCharacter.GetShortUIName] has no [vizier|E] or [spouse|E]"
+ COUNCILLOR_MISSING_CHANCELLOR: "You have no [chancellor|E]"
+ COUNCILLOR_MISSING_MARSHAL: "You have no [marshal|E]"
+ COUNCILLOR_MISSING_STEWARD: "You have no [steward|E]"
+ COUNCILLOR_MISSING_SPYMASTER: "You have no [spymaster|E]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "You have no [court_chaplain|E]"
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
@@ -296,3 +303,7 @@
  councillor_spouse_count_possessive:0 "del $councillor_spouse_count$"
  councillor_spouse_baron_possessive:0 "del $councillor_spouse_baron$"
  
+ councillor_leaving_court_message_title:0 "Councillor Left Court"
+ councillor_leaving_court_marriage_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHis] marriage to a landed spouse."
+ councillor_leaving_court_landed_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHim] inheriting a title."
+ councillor_leaving_court_generic_fallback_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], has left [councillor.GetHerHis] position and your court."
