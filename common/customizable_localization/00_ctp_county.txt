@@ -6166,7 +6166,7 @@ CountMaleSardinian = {
 	}
 	text = {
 		trigger = {
-			root.top_liege = {
+			root.top_liege ?= {
 				OR = {
 					has_primary_title = title:e_byzantium
 					has_primary_title = title:e_roman_empire
