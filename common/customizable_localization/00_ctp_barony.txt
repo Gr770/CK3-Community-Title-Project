@@ -1061,3 +1061,43 @@ BaronFemaleMogyerRepublic = {
 		fallback = yes
 	}
 }
+BaronMaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				liege.liege ?= {
+					vassal_contract_has_flag = admin_theme_naval
+				}
+				liege ?= {
+					vassal_contract_has_flag = admin_theme_naval
+				}
+			}
+		}
+		localization_key = Baron_naval_greek
+	}
+	text = {
+		localization_key = baron_male_greek
+		fallback = yes
+	}
+}
+BaronFemaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				liege.liege ?= {
+					vassal_contract_has_flag = admin_theme_naval
+				}
+				liege ?= {
+					vassal_contract_has_flag = admin_theme_naval
+				}
+			}
+		}
+		localization_key = Baroness_naval_greek
+	}
+	text = {
+		localization_key = baron_female_greek
+		fallback = yes
+	}
+}

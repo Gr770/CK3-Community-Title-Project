@@ -14166,3 +14166,72 @@ DuchyTajik = {
 		fallback = yes
 	}
 }
+DukeMaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_naval
+		}
+		localization_key = Duke_naval_greek
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_frontier
+		}
+		localization_key = byzantine_marquess_male_greek
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_civilian
+		}
+		localization_key = duke_default_male_greek
+	}
+	text = {
+		localization_key = byzantine_duke_male_greek
+		fallback = yes
+	}
+}
+DukeFemaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_naval
+		}
+		localization_key = Duchess_naval_greek
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_frontier
+		}
+		localization_key = byzantine_marquess_female_greek
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_civilian
+		}
+		localization_key = duke_default_female_greek
+	}
+	text = {
+		localization_key = byzantine_duke_female_greek
+		fallback = yes
+	}
+}
+DuchyGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_frontier
+		}
+		localization_key = byzantine_march_greek
+	}
+	text = {
+		trigger = {
+			vassal_contract_has_flag = admin_theme_civilian
+		}
+		localization_key = duchy_default_greek
+	}
+	text = {
+		localization_key = byzantine_duchy_greek
+		fallback = yes
+	}
+}

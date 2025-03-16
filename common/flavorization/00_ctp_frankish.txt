@@ -297,8 +297,8 @@ baron_republic_frankish = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_frankish = {
 	type = title
@@ -612,8 +612,8 @@ baron_republic_male_french = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 baron_republic_female_french = {
 	type = character
@@ -625,8 +625,8 @@ baron_republic_female_french = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_french = {
 	type = title
@@ -647,8 +647,8 @@ count_republic_french = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_french = {
 	type = title
@@ -669,8 +669,8 @@ duke_republic_french = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_republic_french = {
 	type = title
@@ -691,8 +691,8 @@ king_republic_french = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_republic_french = {
 	type = title
@@ -713,6 +713,38 @@ barony_tribe_french = {
 	flavourization_rules = {
 		top_liege = no
 	}
+}
+camp_male_french = {
+	type = character
+	gender = male
+	special = holder
+	priority = 123
+	name_lists = { name_list_french name_list_norman }
+	domicile_type = camp
+}
+camp_female_french  = {
+	type = character
+	gender = female
+	special = holder
+	priority = 123
+	name_lists = { name_list_french name_list_norman }
+	domicile_type = camp
+}
+estate_male_french  = {
+	type = character
+	gender = male
+	special = holder
+	priority = 123
+	name_lists = { name_list_french name_list_norman }
+	domicile_type = estate
+}
+estate_female_french = {
+	type = character
+	gender = female
+	special = holder
+	priority = 123
+	name_lists = { name_list_french name_list_norman }
+	domicile_type = estate
 }
 ###############################################
 ## Norman culture 
@@ -1006,8 +1038,8 @@ baron_republic_male_norman = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 baron_republic_female_norman = {
 	type = character
@@ -1019,8 +1051,8 @@ baron_republic_female_norman = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_norman = {
 	type = title
@@ -1041,8 +1073,8 @@ count_republic_norman = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_norman = {
 	type = title
@@ -1063,8 +1095,8 @@ duke_republic_norman = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_republic_norman = {
 	type = title
@@ -1085,8 +1117,8 @@ king_republic_norman = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_republic_norman = {
 	type = title
@@ -1399,8 +1431,8 @@ baron_republic_occitan = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_occitan = {
 	type = title
@@ -1421,8 +1453,8 @@ count_republic_occitan = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_occitan = {
 	type = title
@@ -1444,8 +1476,8 @@ duke_republic_male_occitan = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duke_republic_female_occitan = {
 	type = character
@@ -1457,8 +1489,8 @@ duke_republic_female_occitan = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_republic_occitan = {
 	type = title
@@ -1479,8 +1511,8 @@ king_republic_occitan = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_republic_occitan = {
 	type = title
@@ -1501,6 +1533,38 @@ barony_tribe_occitan = {
 	flavourization_rules = {
 		top_liege = no
 	}
+}
+camp_male_occitan = {
+	type = character
+	gender = male
+	special = holder
+	priority = 123
+	name_lists = { name_list_occitan }
+	domicile_type = camp
+}
+camp_female_occitan  = {
+	type = character
+	gender = female
+	special = holder
+	priority = 123
+	name_lists = { name_list_occitan }
+	domicile_type = camp
+}
+estate_male_occitan  = {
+	type = character
+	gender = male
+	special = holder
+	priority = 123
+	name_lists = { name_list_occitan }
+	domicile_type = estate
+}
+estate_female_occitan = {
+	type = character
+	gender = female
+	special = holder
+	priority = 123
+	name_lists = { name_list_occitan }
+	domicile_type = estate
 }
 ###############################################
 ## End of Frankish_culture_group ##

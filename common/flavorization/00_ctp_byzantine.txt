@@ -123,8 +123,8 @@ duke_female_armenian_holder = {
 	governments = { feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_armenian = {
 	type = title
@@ -312,8 +312,8 @@ baron_male_armenian_republic = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_armenian_city = {
 	type = title
@@ -382,6 +382,32 @@ barony_castle_greek = {
 		top_liege = no
 	}
 }
+baron_male_admin_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
+baron_female_admin_greek = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
 count_feudalclan_male_greek = {
 	type = character
 	gender = male
@@ -416,6 +442,42 @@ county_feudalclan_greek = {
 		top_liege = no
 	}
 }
+count_male_admin_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
+count_female_admin_greek = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
+county_admin_greek = {
+	type = title
+	tier = county
+	priority = 113
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
 duke_feudalclan_male_greek = {
 	type = character
 	gender = male
@@ -446,6 +508,42 @@ duchy_feudalclan_greek = {
 	priority = 123
 	name_lists = { name_list_greek }
 	governments = { feudal_government clan_government }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+duke_male_admin_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
+duke_female_admin_greek = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+}
+duchy_admin_greek = {
+	type = title
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_greek }
+	governments = { administrative_government }
 	flavourization_rules = {
 		top_liege = no
 	}
@@ -553,7 +651,7 @@ byzantine_emperor_male_greek = {
 	priority = 154
 	name_lists = { name_list_greek }
 	titles = { e_byzantium }
-	governments = { feudal_government clan_government tribal_government republic_government }
+	governments = { feudal_government clan_government tribal_government republic_government administrative_government }
 	flavourization_rules = {
 		top_liege = no
 	}
@@ -566,7 +664,7 @@ byzantine_emperor_female_greek = {
 	priority = 154
 	name_lists = { name_list_greek }
 	titles = { e_byzantium }
-	governments = { feudal_government clan_government tribal_government republic_government }
+	governments = { feudal_government clan_government tribal_government republic_government administrative_government }
 	flavourization_rules = {
 		top_liege = no
 	}
@@ -683,8 +781,8 @@ baron_republic_male_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 baron_republic_female_greek = {
 	type = character
@@ -696,8 +794,8 @@ baron_republic_female_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_greek = {
 	type = title
@@ -719,8 +817,8 @@ count_republic_male_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 count_republic_female_greek = {
 	type = character
@@ -732,8 +830,8 @@ count_republic_female_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_greek = {
 	type = title
@@ -755,8 +853,8 @@ duke_republic_male_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duke_republic_female_greek = {
 	type = character
@@ -768,8 +866,8 @@ duke_republic_female_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_republic_greek = {
 	type = title
@@ -791,8 +889,8 @@ king_republic_male_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 king_republic_female_greek = {
 	type = character
@@ -804,8 +902,8 @@ king_republic_female_greek = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_republic_greek = {
 	type = title
@@ -919,6 +1017,38 @@ popeman_female_greek = {
 		top_liege = no
 	}
 }
+camp_male_greek = {
+	type = character
+	gender = male
+	special = holder
+	priority = 140
+	name_lists = { name_list_greek }
+	domicile_type = camp
+}
+camp_female_greek  = {
+	type = character
+	gender = female
+	special = holder
+	priority = 140
+	name_lists = { name_list_greek }
+	domicile_type = camp
+}
+estate_male_greek  = {
+	type = character
+	gender = male
+	special = holder
+	priority = 140
+	name_lists = { name_list_greek }
+	domicile_type = estate
+}
+estate_female_greek = {
+	type = character
+	gender = female
+	special = holder
+	priority = 140
+	name_lists = { name_list_greek }
+	domicile_type = estate
+}
 ###############################################
 ## Georgian ##
 ###############################################
@@ -1013,8 +1143,8 @@ count_female_holder_georgian_independent = {
 	governments = { feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 	only_independent = yes
 }
 count_female_georgian_independent = {
@@ -1063,8 +1193,8 @@ duke_female_holder_georgian = {
 	governments = { feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duke_female_georgian = {
 	type = character
@@ -1111,8 +1241,8 @@ duke_female_holder_georgian_independent = {
 	governments = { feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 	only_independent = yes
 }
 duchy_georgian_independent = {
@@ -1160,8 +1290,8 @@ king_female_georgian_holder = {
 	governments = { feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_georgian = {
 	type = title
@@ -1207,8 +1337,8 @@ emperor_female_georgian_holder = {
 	governments = { republic_government feudal_government clan_government tribal_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 empire_georgian = {
 	type = title
@@ -1276,8 +1406,8 @@ baron_republic_georgian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_georgian = {
 	type = title
@@ -1298,8 +1428,8 @@ count_republic_georgian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_georgian = {
 	type = title
@@ -1978,8 +2108,8 @@ baron_republic_male_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 baron_republic_female_assyrian = {
 	type = character
@@ -1991,8 +2121,8 @@ baron_republic_female_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 barony_city_assyrian = {
 	type = title
@@ -2014,8 +2144,8 @@ count_republic_male_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 count_republic_female_assyrian = {
 	type = character
@@ -2027,8 +2157,8 @@ count_republic_female_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 county_republic_assyrian = {
 	type = title
@@ -2050,8 +2180,8 @@ duke_republic_male_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duke_republic_female_assyrian = {
 	type = character
@@ -2063,8 +2193,8 @@ duke_republic_female_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 duchy_republic_assyrian = {
 	type = title
@@ -2086,8 +2216,8 @@ king_republic_male_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 king_republic_female_assyrian = {
 	type = character
@@ -2099,8 +2229,8 @@ king_republic_female_assyrian = {
 	governments = { republic_government }
 	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
 	}
-	only_holder = yes
 }
 kingdom_republic_assyrian = {
 	type = title

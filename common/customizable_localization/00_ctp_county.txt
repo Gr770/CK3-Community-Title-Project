@@ -8733,3 +8733,74 @@ CountyHung = {
 		fallback = yes
 	}
 }
+CountMaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			liege ?= {
+				vassal_contract_has_flag = admin_theme_naval
+			}
+		}
+		localization_key = Count_naval_greek
+	}
+	text = {
+		trigger = {
+			liege ?= {
+				OR = {
+					vassal_contract_has_flag = admin_theme_military
+					vassal_contract_has_flag = admin_theme_frontier
+				}
+			}
+		}
+		localization_key = count_default_male_greek
+	}
+	text = {
+		localization_key = byzantine_count_male_greek
+		fallback = yes
+	}
+}
+CountFemaleGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			liege ?= {
+				vassal_contract_has_flag = admin_theme_naval
+			}
+		}
+		localization_key = Countess_naval_greek
+	}
+	text = {
+		trigger = {
+			liege ?= {
+				OR = {
+					vassal_contract_has_flag = admin_theme_military
+					vassal_contract_has_flag = admin_theme_frontier
+				}
+			}
+		}
+		localization_key = count_default_female_greek
+	}
+	text = {
+		localization_key = byzantine_count_female_greek
+		fallback = yes
+	}
+}
+CountyGreekAdmin = {
+	type = character
+	text = {
+		trigger = {
+			liege ?= {
+				OR = {
+					vassal_contract_has_flag = admin_theme_military
+					vassal_contract_has_flag = admin_theme_frontier
+					vassal_contract_has_flag = admin_theme_naval
+				}
+			}
+		}
+		localization_key = county_default_greek
+	}
+	text = {
+		localization_key = byzantine_county_greek
+		fallback = yes
+	}
+}
