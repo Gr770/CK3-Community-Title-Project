@@ -13,7 +13,9 @@ baron_male_mongolic_group = {
 	priority = 102
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_mongolic_group = {
 	type = character
@@ -23,7 +25,9 @@ baron_female_mongolic_group = {
 	priority = 102
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_mongolic_group = {
 	type = title
@@ -31,7 +35,9 @@ barony_castle_mongolic_group = {
 	priority = 102
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_mongolic_group = {
 	type = character
@@ -41,7 +47,9 @@ count_male_mongolic_group = {
 	priority = 101
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_mongolic_group_holder = {
 	type = character
@@ -51,7 +59,9 @@ count_male_mongolic_group_holder = {
 	priority = 102
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_mongolic_group = {
@@ -62,7 +72,9 @@ count_female_mongolic_group = {
 	priority = 102
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_feudalclan_mongolic_group = {
 	type = title
@@ -70,7 +82,9 @@ county_feudalclan_mongolic_group = {
 	tier = county
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_mongolic_group_independent = {
 	type = character
@@ -80,8 +94,10 @@ count_male_mongolic_group_independent = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_female_mongolic_group_independent = {
 	type = character
@@ -91,8 +107,10 @@ count_female_mongolic_group_independent = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_mongolic_group = {
 	type = character
@@ -102,7 +120,9 @@ duke_male_mongolic_group = {
 	priority = 122
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_mongolic_group = {
 	type = character
@@ -112,7 +132,9 @@ duke_female_mongolic_group = {
 	priority = 122
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_mongolic_group = {
 	type = title
@@ -120,7 +142,9 @@ duchy_mongolic_group = {
 	priority = 122
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_mongolic_group = {
 	type = character
@@ -130,7 +154,9 @@ king_male_mongolic_group = {
 	tier = kingdom
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_mongolic_group = {
 	type = character
@@ -140,7 +166,9 @@ king_female_mongolic_group = {
 	tier = kingdom
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_mongolic_group = {
 	type = title
@@ -148,7 +176,9 @@ kingdom_mongolic_group = {
 	tier = kingdom
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_mongolic_group_independent = {
 	type = title
@@ -156,8 +186,10 @@ kingdom_mongolic_group_independent = {
 	tier = kingdom
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 emperor_male_mongolic_group = {
 	type = character
@@ -167,7 +199,9 @@ emperor_male_mongolic_group = {
 	tier = empire
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_mongolic_group = {
 	type = character
@@ -177,7 +211,9 @@ emperor_female_mongolic_group = {
 	tier = empire
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_mongolic_group = {
 	type = title
@@ -185,7 +221,9 @@ empire_mongolic_group = {
 	tier = empire
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mongolic_group = {
 	type = character
@@ -195,7 +233,9 @@ title_prince_male_mongolic_group = {
 	priority = 130
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mongolic_group = {
 	type = character
@@ -205,7 +245,9 @@ title_prince_female_mongolic_group = {
 	priority = 130
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mongol = {
 	type = character
@@ -215,7 +257,9 @@ title_prince_male_mongol = {
 	priority = 131
 	name_lists = { name_list_mongol }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mongol = {
 	type = character
@@ -225,7 +269,9 @@ title_prince_female_mongol = {
 	priority = 131
 	name_lists = { name_list_mongol }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mongolic_group_empire = {
 	type = character
@@ -235,7 +281,9 @@ title_prince_male_mongolic_group_empire = {
 	priority = 150
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mongolic_group_empire = {
 	type = character
@@ -245,7 +293,9 @@ title_prince_female_mongolic_group_empire = {
 	priority = 150
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_mongolic_group ={
 	type = character
@@ -255,7 +305,9 @@ queen_mother_mongolic_group ={
 	priority = 130
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_mongolic_group ={
 	type = character
@@ -265,7 +317,9 @@ empress_mother_mongolic_group ={
 	priority = 150
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_mongolic_group = {
 	type = character
@@ -275,7 +329,9 @@ baron_republic_mongolic_group = {
 	heritages = { heritage_mongolic } 
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_city_mongolic_group = {
 	type = title
@@ -283,7 +339,9 @@ barony_city_mongolic_group = {
 	priority = 153
 	heritages = { heritage_mongolic } 
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_tribal_mongolic_group = {
 	type = title
@@ -291,7 +349,9 @@ county_tribal_mongolic_group = {
 	priority = 113
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_mongolic_group = {
 	type = title
@@ -299,7 +359,9 @@ barony_tribe_mongolic_group = {
 	priority = 102
 	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Khitan Culture ##
@@ -312,7 +374,9 @@ baron_male_khitan = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_khitan = {
 	type = character
@@ -322,7 +386,9 @@ baron_female_khitan = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_khitan = {
 	type = title
@@ -330,7 +396,9 @@ barony_castle_khitan = {
 	priority = 103
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_khitan_holder = {
 	type = character
@@ -340,7 +408,9 @@ count_male_khitan_holder = {
 	priority = 114
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_khitan_holder = {
@@ -351,7 +421,9 @@ count_female_khitan_holder = {
 	priority = 114
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_khitan = {
@@ -362,7 +434,9 @@ count_male_khitan = {
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_khitan = {
 	type = character
@@ -372,7 +446,9 @@ count_female_khitan = {
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_feudalclan_khitan = {
 	type = title
@@ -380,7 +456,9 @@ county_feudalclan_khitan = {
 	tier = county
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_khitan_holder = {
 	type = character
@@ -390,7 +468,9 @@ duke_male_khitan_holder = {
 	priority = 124
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_khitan_holder = {
@@ -401,7 +481,9 @@ duke_female_khitan_holder = {
 	priority = 124
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_male_khitan = {
@@ -412,7 +494,9 @@ duke_male_khitan = {
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_khitan = {
 	type = character
@@ -422,7 +506,9 @@ duke_female_khitan = {
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_khitan name_list_tuyuhun }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_feudalclan_khitan = {
 	type = title
@@ -430,7 +516,9 @@ duchy_feudalclan_khitan = {
 	tier = duchy
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_khitan = {
 	type = character
@@ -440,7 +528,9 @@ king_male_khitan = {
 	tier = kingdom
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_khitan = {
 	type = character
@@ -450,7 +540,9 @@ king_female_khitan = {
 	tier = kingdom
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_feudalclan_khitan = {
 	type = title
@@ -458,7 +550,9 @@ kingdom_feudalclan_khitan = {
 	tier = kingdom
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_khitan ={
 	type = character
@@ -468,7 +562,9 @@ queen_mother_khitan ={
 	priority = 130
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_khitan = {
 	type = character
@@ -478,7 +574,9 @@ emperor_male_khitan = {
 	tier = empire
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_holder_khitan = {
 	type = character
@@ -488,7 +586,9 @@ emperor_female_holder_khitan = {
 	tier = empire
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_khitan = {
@@ -499,7 +599,9 @@ emperor_female_khitan = {
 	tier = empire
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_feudalclan_khitan = {
 	type = title
@@ -507,7 +609,9 @@ empire_feudalclan_khitan = {
 	tier = empire
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_khitan ={
 	type = character
@@ -517,7 +621,9 @@ empress_mother_khitan ={
 	priority = 151
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_khitan = {
 	type = title
@@ -525,7 +631,9 @@ barony_tribe_khitan = {
 	priority = 103
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_tribal_khitan = {
 	type = title
@@ -533,7 +641,9 @@ county_tribal_khitan = {
 	tier = county
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_tribal_khitan = {
 	type = title
@@ -541,7 +651,9 @@ duchy_tribal_khitan = {
 	tier = duchy
 	name_lists = { name_list_khitan name_list_tuyuhun }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Jurchen
 barony_castle_jurchen = {
@@ -550,7 +662,9 @@ barony_castle_jurchen = {
 	priority = 103
 	name_lists = { name_list_jurchen }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_jurchen = {
 	type = title
@@ -558,7 +672,9 @@ barony_tribe_jurchen = {
 	priority = 103
 	name_lists = { name_list_jurchen }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_jurchen = {
 	type = character
@@ -568,7 +684,9 @@ count_male_jurchen = {
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_jurchen = {
 	type = character
@@ -578,7 +696,9 @@ count_female_jurchen = {
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_feudalclan_jurchen = {
 	type = title
@@ -586,7 +706,9 @@ county_feudalclan_jurchen = {
 	tier = county
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_jurchen_holder = {
 	type = character
@@ -596,7 +718,9 @@ duke_male_jurchen_holder = {
 	priority = 124
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_male_jurchen = {
@@ -607,7 +731,9 @@ duke_male_jurchen = {
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_jurchen = {
 	type = character
@@ -617,7 +743,9 @@ duke_female_jurchen = {
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_feudalclan_jurchen = {
 	type = title
@@ -625,7 +753,9 @@ duchy_feudalclan_jurchen = {
 	tier = duchy
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_jurchen = {
 	type = character
@@ -635,7 +765,9 @@ king_male_jurchen = {
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_jurchen = {
 	type = character
@@ -645,7 +777,9 @@ king_female_jurchen = {
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_feudalclan_jurchen = {
 	type = title
@@ -653,7 +787,9 @@ kingdom_feudalclan_jurchen = {
 	tier = kingdom
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_jurchen ={
 	type = character
@@ -663,7 +799,9 @@ queen_mother_jurchen ={
 	priority = 130
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_jurchen = {
 	type = character
@@ -673,7 +811,9 @@ emperor_male_jurchen = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_jurchen_holder = {
 	type = character
@@ -683,7 +823,9 @@ emperor_female_jurchen_holder = {
 	priority = 154
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_jurchen = {
@@ -694,7 +836,9 @@ emperor_female_jurchen = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_jurchen }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_feudalclan_jurchen = {
 	type = title
@@ -702,7 +846,9 @@ empire_feudalclan_jurchen = {
 	tier = empire
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_jurchen ={
 	type = character
@@ -712,5 +858,7 @@ empress_mother_jurchen ={
 	priority = 150
 	name_lists = { name_list_jurchen }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }

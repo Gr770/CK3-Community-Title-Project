@@ -11,7 +11,9 @@ pope_man = {
 	special = holder
 	priority = 500
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 pope_woman = {
@@ -20,7 +22,9 @@ pope_woman = {
 	special = holder
 	priority = 500
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_catholic = {
@@ -31,7 +35,9 @@ grand_master_catholic = {
 	priority = 300
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath = {
@@ -42,7 +48,9 @@ baron_male_theo_cath = {
 	priority = 202
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath = {
@@ -53,7 +61,9 @@ baron_female_theo_cath = {
 	priority = 202
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath = {
@@ -62,7 +72,9 @@ barony_hold_cath = {
 	priority = 202
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath = {
 	type = title
@@ -70,7 +82,9 @@ barony_theo_cath = {
 	priority = 203
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath = {
 	type = character
@@ -80,7 +94,9 @@ count_male_theo_cath = {
 	priority = 212
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath = {
@@ -91,7 +107,9 @@ count_female_theo_cath = {
 	priority = 212
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath = {
@@ -100,7 +118,9 @@ county_theo_cath = {
 	priority = 212
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_independent = {
 	type = character
@@ -110,7 +130,9 @@ count_male_theo_cath_independent = {
 	priority = 213
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -122,7 +144,9 @@ count_female_theo_cath_independent = {
 	priority = 213
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -132,8 +156,10 @@ county_theo_cath_independent = {
 	priority = 213
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath = {
 	type = character
@@ -143,7 +169,9 @@ duke_male_theo_cath = {
 	priority = 222
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath = {
@@ -154,7 +182,9 @@ duke_female_theo_cath = {
 	priority = 222
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath = {
@@ -163,7 +193,9 @@ duchy_theo_cath = {
 	priority = 222
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_independent = {
 	type = character
@@ -173,7 +205,9 @@ duke_male_theo_cath_independent = {
 	priority = 223
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -185,7 +219,9 @@ duke_female_theo_cath_independent = {
 	priority = 223
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -195,8 +231,10 @@ duchy_theo_cath_independent = {
 	priority = 223
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_theo_cath = {
 	type = character
@@ -206,7 +244,9 @@ king_male_theo_cath = {
 	priority = 242
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_theo_cath = {
@@ -217,7 +257,9 @@ king_female_theo_cath = {
 	priority = 242
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath = {
@@ -226,7 +268,9 @@ kingdom_theo_cath = {
 	priority = 242
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_theo_cath = {
 	type = character
@@ -236,7 +280,9 @@ emperor_male_theo_cath = {
 	priority = 152
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_theo_cath = {
@@ -247,7 +293,9 @@ emperor_female_theo_cath = {
 	priority = 152
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath = {
@@ -256,7 +304,9 @@ empire_theo_cath = {
 	priority = 152
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Goidelic
 pope_man_goidelic = {
@@ -266,7 +316,9 @@ pope_man_goidelic = {
 	priority = 501
 	titles = { k_papal_state }
 	heritages = { heritage_goidelic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_theo_cath_goidelic = {
@@ -278,7 +330,9 @@ count_male_theo_cath_goidelic = {
 	governments = { theocracy_government }
 	heritages = { heritage_goidelic }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_goidelic = {
@@ -290,7 +344,9 @@ count_female_theo_cath_goidelic = {
 	governments = { theocracy_government }
 	heritages = { heritage_goidelic }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_goidelic = {
@@ -300,7 +356,9 @@ county_theo_cath_goidelic = {
 	governments = { theocracy_government }
 	heritages = { heritage_goidelic }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_english
 pope_man_english = {
@@ -310,7 +368,9 @@ pope_man_english = {
 	priority = 501
 	titles = { k_papal_state }
 	name_lists = { name_list_english name_list_scottish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_theo_cath_english = {
@@ -322,7 +382,9 @@ count_male_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_english = {
@@ -334,7 +396,9 @@ baron_male_theo_cath_english = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_english name_list_scottish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_english = {
@@ -346,7 +410,9 @@ baron_female_theo_cath_english = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_english name_list_scottish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_english = {
@@ -356,7 +422,9 @@ barony_hold_cath_english = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_english name_list_scottish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_english = {
 	type = title
@@ -365,7 +433,9 @@ barony_theo_cath_english = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_english name_list_scottish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_theo_cath_english = {
 	type = character
@@ -376,7 +446,9 @@ count_female_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_english = {
@@ -386,7 +458,9 @@ county_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_english_independent = {
 	type = character
@@ -397,7 +471,9 @@ count_male_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -410,7 +486,9 @@ count_female_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -421,8 +499,10 @@ county_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_english = {
 	type = character
@@ -433,7 +513,9 @@ duke_male_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_english = {
@@ -445,7 +527,9 @@ duke_female_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_english = {
@@ -455,7 +539,9 @@ duchy_theo_cath_english = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_english_independent = {
 	type = character
@@ -466,7 +552,9 @@ duke_male_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -479,7 +567,9 @@ duke_female_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -490,8 +580,10 @@ duchy_theo_cath_english_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_english name_list_scottish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_anglo_saxon
 pope_man_anglo_saxon = {
@@ -501,7 +593,9 @@ pope_man_anglo_saxon = {
 	priority = 501
 	titles = { k_papal_state }
 	name_lists = { name_list_anglo_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_anglo_saxon = {
@@ -513,7 +607,9 @@ baron_male_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_anglo_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_anglo_saxon = {
@@ -525,7 +621,9 @@ baron_female_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_anglo_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_anglo_saxon = {
@@ -535,7 +633,9 @@ barony_hold_cath_anglo_saxon = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_anglo_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_anglo_saxon = {
 	type = title
@@ -544,7 +644,9 @@ barony_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_anglo_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_anglo_saxon = {
 	type = character
@@ -555,7 +657,9 @@ count_male_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_anglo_saxon = {
@@ -567,7 +671,9 @@ count_female_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_anglo_saxon = {
@@ -577,7 +683,9 @@ county_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_anglo_saxon = {
 	type = character
@@ -588,7 +696,9 @@ duke_male_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_anglo_saxon = {
@@ -600,7 +710,9 @@ duke_female_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_anglo_saxon = {
@@ -610,7 +722,9 @@ duchy_theo_cath_anglo_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_anglo_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_old_saxon
 pope_man_old_saxon = {
@@ -620,7 +734,9 @@ pope_man_old_saxon = {
 	priority = 501
 	titles = { k_papal_state }
 	name_lists = { name_list_old_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_theo_cath_old_saxon = {
@@ -632,7 +748,9 @@ count_male_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_old_saxon = {
@@ -644,7 +762,9 @@ count_female_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_old_saxon = {
@@ -654,7 +774,9 @@ county_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_old_saxon_independent = {
 	type = character
@@ -665,7 +787,9 @@ count_male_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -678,7 +802,9 @@ count_female_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -689,8 +815,10 @@ county_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_old_saxon = {
 	type = character
@@ -701,7 +829,9 @@ duke_male_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_old_saxon = {
@@ -713,7 +843,9 @@ duke_female_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_old_saxon = {
@@ -723,7 +855,9 @@ duchy_theo_cath_old_saxon = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_old_saxon_independent = {
 	type = character
@@ -734,7 +868,9 @@ duke_male_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -747,7 +883,9 @@ duke_female_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -758,8 +896,10 @@ duchy_theo_cath_old_saxon_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_old_saxon }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #Welsh
 pope_man_bythonic = {
@@ -769,7 +909,9 @@ pope_man_bythonic = {
 	priority = 501
 	titles = { k_papal_state }
 	heritages = { heritage_brythonic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 pope_woman_bythonic = {
@@ -779,7 +921,9 @@ pope_woman_bythonic = {
 	priority = 501
 	titles = { k_papal_state }
 	heritages = { heritage_brythonic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_theo_cath_welsh = {
@@ -791,7 +935,9 @@ count_male_theo_cath_welsh = {
 	governments = { theocracy_government }
 	name_lists = { name_list_welsh }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_welsh = {
@@ -803,7 +949,9 @@ count_female_theo_cath_welsh = {
 	governments = { theocracy_government }
 	name_lists = { name_list_welsh }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_welsh = {
@@ -813,7 +961,9 @@ county_theo_cath_welsh = {
 	governments = { theocracy_government }
 	name_lists = { name_list_welsh }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_cornish
 count_male_theo_cath_cornish = {
@@ -825,7 +975,9 @@ count_male_theo_cath_cornish = {
 	governments = { theocracy_government }
 	name_lists = { name_list_welsh }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_cornish = {
@@ -837,7 +989,9 @@ count_female_theo_cath_cornish = {
 	governments = { theocracy_government }
 	name_lists = { name_list_cornish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_cornish = {
@@ -847,7 +1001,9 @@ county_theo_cath_cornish = {
 	governments = { theocracy_government }
 	name_lists = { name_list_cornish }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_cumbrian
 count_male_theo_cath_cumbrian = {
@@ -859,7 +1015,9 @@ count_male_theo_cath_cumbrian = {
 	governments = { theocracy_government }
 	name_lists = { name_list_pictish name_list_cumbrian }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_cumbrian = {
@@ -871,7 +1029,9 @@ count_female_theo_cath_cumbrian = {
 	governments = { theocracy_government }
 	name_lists = { name_list_pictish name_list_cumbrian }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_cumbrian = {
@@ -881,7 +1041,9 @@ county_theo_cath_cumbrian = {
 	governments = { theocracy_government }
 	name_lists = { name_list_pictish name_list_cumbrian }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_french
 baron_male_theo_cath_french = {
@@ -893,7 +1055,9 @@ baron_male_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_french = {
@@ -905,7 +1069,9 @@ baron_female_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_french = {
@@ -915,7 +1081,9 @@ barony_hold_cath_french = {
 	holding = church_holding
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_french = {
 	type = title
@@ -924,7 +1092,9 @@ barony_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_french = {
 	type = character
@@ -935,7 +1105,9 @@ count_male_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_french = {
@@ -947,7 +1119,9 @@ count_female_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_french = {
@@ -957,7 +1131,9 @@ county_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_french_independent = {
 	type = character
@@ -968,7 +1144,9 @@ count_male_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -981,7 +1159,9 @@ count_female_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -992,8 +1172,10 @@ county_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_french = {
 	type = character
@@ -1004,7 +1186,9 @@ duke_male_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_french = {
@@ -1016,7 +1200,9 @@ duke_female_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_french = {
@@ -1026,7 +1212,9 @@ duchy_theo_cath_french = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_french_independent = {
 	type = character
@@ -1037,7 +1225,9 @@ duke_male_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1050,7 +1240,9 @@ duke_female_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1061,8 +1253,10 @@ duchy_theo_cath_french_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_french }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_norman
 baron_male_theo_cath_norman = {
@@ -1074,7 +1268,9 @@ baron_male_theo_cath_norman = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_norman = {
@@ -1086,7 +1282,9 @@ baron_female_theo_cath_norman = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_norman  = {
@@ -1096,7 +1294,9 @@ barony_hold_cath_norman  = {
 	holding = church_holding
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_norman  = {
 	type = title
@@ -1105,7 +1305,9 @@ barony_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_norman  = {
 	type = character
@@ -1116,7 +1318,9 @@ count_male_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_norman  = {
@@ -1128,7 +1332,9 @@ count_female_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_norman  = {
@@ -1138,7 +1344,9 @@ county_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_norman_independent  = {
 	type = character
@@ -1149,7 +1357,9 @@ count_male_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1162,7 +1372,9 @@ count_female_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1173,8 +1385,10 @@ county_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_norman  = {
 	type = character
@@ -1185,7 +1399,9 @@ duke_male_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_norman  = {
@@ -1197,7 +1413,9 @@ duke_female_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_norman  = {
@@ -1207,7 +1425,9 @@ duchy_theo_cath_norman  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_norman_independent  = {
 	type = character
@@ -1218,7 +1438,9 @@ duke_male_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1231,7 +1453,9 @@ duke_female_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1242,8 +1466,10 @@ duchy_theo_cath_norman_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_norman }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_occitan
 baron_male_theo_cath_occitan = {
@@ -1255,7 +1481,9 @@ baron_male_theo_cath_occitan = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_occitan = {
@@ -1267,7 +1495,9 @@ baron_female_theo_cath_occitan = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_occitan  = {
@@ -1277,7 +1507,9 @@ barony_hold_cath_occitan  = {
 	holding = church_holding
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_occitan  = {
 	type = title
@@ -1286,7 +1518,9 @@ barony_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_occitan  = {
 	type = character
@@ -1297,7 +1531,9 @@ count_male_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_occitan  = {
@@ -1309,7 +1545,9 @@ count_female_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_occitan  = {
@@ -1319,7 +1557,9 @@ county_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_occitan_independent  = {
 	type = character
@@ -1330,7 +1570,9 @@ count_male_theo_cath_occitan_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1343,7 +1585,9 @@ count_female_theo_cath_occitan_independent  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1354,8 +1598,10 @@ county_theo_cath_occitan_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_occitan  = {
 	type = character
@@ -1366,7 +1612,9 @@ duke_male_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_occitan  = {
@@ -1378,7 +1626,9 @@ duke_female_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_occitan  = {
@@ -1388,7 +1638,9 @@ duchy_theo_cath_occitan  = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_occitan_independent = {
 	type = character
@@ -1399,7 +1651,9 @@ duke_male_theo_cath_occitan_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1412,7 +1666,9 @@ duke_female_theo_cath_occitan_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1423,8 +1679,10 @@ duchy_theo_cath_occitan_independent = {
 	governments = { theocracy_government }
 	name_lists = { name_list_occitan }
 	faiths = { catholic waldensian insular_celtic lollard }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_basque
 pope_man_basque = {
@@ -1434,7 +1692,9 @@ pope_man_basque = {
 	priority = 501
 	titles = { k_papal_state }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 pope_woman_basque = {
@@ -1444,7 +1704,9 @@ pope_woman_basque = {
 	priority = 501
 	titles = { k_papal_state }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_male_catholic_basque = {
@@ -1456,7 +1718,9 @@ grand_master_male_catholic_basque = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_catholic_basque = {
@@ -1468,7 +1732,9 @@ grand_master_female_catholic_basque = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_basque = {
@@ -1480,7 +1746,9 @@ baron_male_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_basque = {
@@ -1490,7 +1758,9 @@ barony_hold_cath_basque = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_basque = {
 	type = title
@@ -1499,7 +1769,9 @@ barony_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_basque = {
 	type = character
@@ -1510,7 +1782,9 @@ count_male_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_basque = {
@@ -1520,7 +1794,9 @@ county_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_basque_independent = {
 	type = character
@@ -1531,7 +1807,9 @@ count_male_theo_cath_basque_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1542,8 +1820,10 @@ county_theo_cath_basque_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_basque = {
 	type = character
@@ -1554,7 +1834,9 @@ duke_male_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_basque = {
@@ -1564,7 +1846,9 @@ duchy_theo_cath_basque = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_basque_independent = {
 	type = character
@@ -1575,7 +1859,9 @@ duke_male_theo_cath_basque_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1586,8 +1872,10 @@ duchy_theo_cath_basque_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_basque }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_castilian
 pope_man_castilian = {
@@ -1596,7 +1884,9 @@ pope_man_castilian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_castilian }
 	only_holder = yes
 }
@@ -1606,7 +1896,9 @@ pope_woman_castilian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_castilian }
 	only_holder = yes
 }
@@ -1619,7 +1911,9 @@ grand_master_male_cath_castilian = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_castilian = {
@@ -1631,7 +1925,9 @@ grand_master_female_cath_castilian = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_castilian = {
@@ -1643,7 +1939,9 @@ baron_male_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_castilian = {
@@ -1655,7 +1953,9 @@ baron_female_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_castilian = {
@@ -1665,7 +1965,9 @@ barony_hold_cath_castilian = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_castilian = {
 	type = title
@@ -1674,7 +1976,9 @@ barony_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_castilian = {
 	type = character
@@ -1685,7 +1989,9 @@ count_male_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_castilian = {
@@ -1697,7 +2003,9 @@ count_female_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_castilian = {
@@ -1707,7 +2015,9 @@ county_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_castilian_independent = {
 	type = character
@@ -1718,7 +2028,9 @@ count_male_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1731,7 +2043,9 @@ count_female_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1742,8 +2056,10 @@ county_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_castilian = {
 	type = character
@@ -1754,7 +2070,9 @@ duke_male_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_castilian = {
@@ -1766,7 +2084,9 @@ duke_female_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_castilian = {
@@ -1776,7 +2096,9 @@ duchy_theo_cath_castilian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_castilian_independent = {
 	type = character
@@ -1787,7 +2109,9 @@ duke_male_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1800,7 +2124,9 @@ duke_female_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1811,8 +2137,10 @@ duchy_theo_cath_castilian_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_castilian }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_catalan
 pope_man_catalan = {
@@ -1821,7 +2149,9 @@ pope_man_catalan = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_catalan }
 	only_holder = yes
 }
@@ -1831,7 +2161,9 @@ pope_woman_catalan = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_catalan }
 	only_holder = yes
 }
@@ -1844,7 +2176,9 @@ grand_master_male_cath_catalan = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_catalan = {
@@ -1856,7 +2190,9 @@ grand_master_female_cath_catalan = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_catalan = {
@@ -1868,7 +2204,9 @@ baron_male_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_catalan = {
@@ -1880,7 +2218,9 @@ baron_female_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_catalan = {
@@ -1890,7 +2230,9 @@ barony_hold_cath_catalan = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_catalan = {
 	type = title
@@ -1899,7 +2241,9 @@ barony_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_catalan = {
 	type = character
@@ -1910,7 +2254,9 @@ count_male_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_catalan = {
@@ -1922,7 +2268,9 @@ count_female_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_catalan = {
@@ -1932,7 +2280,9 @@ county_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_catalan_independent = {
 	type = character
@@ -1943,7 +2293,9 @@ count_male_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1956,7 +2308,9 @@ count_female_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -1967,8 +2321,10 @@ county_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_catalan = {
 	type = character
@@ -1979,7 +2335,9 @@ duke_male_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_catalan = {
@@ -1991,7 +2349,9 @@ duke_female_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_catalan = {
@@ -2001,7 +2361,9 @@ duchy_theo_cath_catalan = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_catalan_independent = {
 	type = character
@@ -2012,7 +2374,9 @@ duke_male_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2025,7 +2389,9 @@ duke_female_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2036,8 +2402,10 @@ duchy_theo_cath_catalan_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_catalan }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #name_list_portuguese
 pope_man_portuguese = {
@@ -2046,7 +2414,9 @@ pope_man_portuguese = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_portuguese name_list_galician }
 	only_holder = yes
 }
@@ -2056,7 +2426,9 @@ pope_woman_portuguese = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_portuguese name_list_galician }
 	only_holder = yes
 }
@@ -2069,7 +2441,9 @@ grand_master_male_cath_portuguese = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_portuguese = {
@@ -2081,7 +2455,9 @@ grand_master_female_cath_portuguese = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_portuguese = {
@@ -2093,7 +2469,9 @@ baron_male_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_portuguese = {
@@ -2105,7 +2483,9 @@ baron_female_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_portuguese = {
@@ -2115,7 +2495,9 @@ barony_hold_cath_portuguese = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_portuguese = {
 	type = title
@@ -2124,7 +2506,9 @@ barony_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_portuguese = {
 	type = character
@@ -2135,7 +2519,9 @@ count_male_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_portuguese = {
@@ -2147,7 +2533,9 @@ count_female_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_portuguese = {
@@ -2157,7 +2545,9 @@ county_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_portuguese_independent = {
 	type = character
@@ -2168,7 +2558,9 @@ count_male_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2181,7 +2573,9 @@ count_female_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2192,8 +2586,10 @@ county_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_portuguese = {
 	type = character
@@ -2204,7 +2600,9 @@ duke_male_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_portuguese = {
@@ -2216,7 +2614,9 @@ duke_female_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_portuguese = {
@@ -2226,7 +2626,9 @@ duchy_theo_cath_portuguese = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_portuguese_independent = {
 	type = character
@@ -2237,7 +2639,9 @@ duke_male_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2250,7 +2654,9 @@ duke_female_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2261,8 +2667,10 @@ duchy_theo_cath_portuguese_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_portuguese name_list_galician }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 #Norse/Norwegian
 pope_man_norse_norwegian = {
@@ -2271,7 +2679,9 @@ pope_man_norse_norwegian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_norse name_list_norwegian }
 	only_holder = yes
 }
@@ -2283,7 +2693,9 @@ grand_master_cath_norse_norwegian = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_theo_cath_norse_norwegian = {
@@ -2294,7 +2706,9 @@ baron_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_norse_norwegian = {
@@ -2304,7 +2718,9 @@ barony_hold_cath_norse_norwegian = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_norse_norwegian = {
 	type = title
@@ -2313,7 +2729,9 @@ barony_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_theo_cath_norse_norwegian = {
 	type = character
@@ -2323,7 +2741,9 @@ count_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_norse_norwegian = {
@@ -2333,7 +2753,9 @@ county_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_theo_cath_norse_norwegian = {
 	type = character
@@ -2343,7 +2765,9 @@ duke_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_norse_norwegian = {
@@ -2353,7 +2777,9 @@ duchy_theo_cath_norse_norwegian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_norse name_list_norwegian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Swedish/Danish
 pope_man_swedish_danish = {
@@ -2362,7 +2788,9 @@ pope_man_swedish_danish = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_swedish name_list_danish }
 	only_holder = yes
 }
@@ -2374,7 +2802,9 @@ grand_master_cath_swedish_danish = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_theo_cath_swedish_danish = {
@@ -2385,7 +2815,9 @@ baron_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_swedish_danish = {
@@ -2395,7 +2827,9 @@ barony_hold_cath_swedish_danish = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_swedish_danish = {
 	type = title
@@ -2404,7 +2838,9 @@ barony_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_theo_cath_swedish_danish = {
 	type = character
@@ -2414,7 +2850,9 @@ count_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_swedish_danish = {
@@ -2424,7 +2862,9 @@ county_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_theo_cath_swedish_danish = {
 	type = character
@@ -2434,7 +2874,9 @@ duke_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_swedish_danish = {
@@ -2444,7 +2886,9 @@ duchy_theo_cath_swedish_danish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_swedish name_list_danish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_saxon
 pope_man_saxon = {
@@ -2453,7 +2897,9 @@ pope_man_saxon = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_saxon }
 	only_holder = yes
 }
@@ -2463,7 +2909,9 @@ pope_woman_saxon = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_saxon }
 	only_holder = yes
 }
@@ -2476,7 +2924,9 @@ grand_master_male_cath_saxon = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_saxon = {
@@ -2488,7 +2938,9 @@ grand_master_female_cath_saxon = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_saxon = {
@@ -2500,7 +2952,9 @@ baron_male_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_saxon = {
@@ -2512,7 +2966,9 @@ baron_female_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_saxon = {
@@ -2522,7 +2978,9 @@ barony_hold_cath_saxon = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_saxon = {
 	type = title
@@ -2531,7 +2989,9 @@ barony_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_saxon = {
 	type = character
@@ -2542,7 +3002,9 @@ count_male_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_saxon = {
@@ -2554,7 +3016,9 @@ count_female_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_saxon = {
@@ -2564,7 +3028,9 @@ county_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_saxon_independent = {
 	type = character
@@ -2575,7 +3041,9 @@ count_male_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2588,7 +3056,9 @@ count_female_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2599,8 +3069,10 @@ county_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_saxon = {
 	type = character
@@ -2611,7 +3083,9 @@ duke_male_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_saxon = {
@@ -2623,7 +3097,9 @@ duke_female_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_saxon = {
@@ -2633,7 +3109,9 @@ duchy_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_saxon_independent = {
 	type = character
@@ -2644,7 +3122,9 @@ duke_male_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2657,7 +3137,9 @@ duke_female_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2668,8 +3150,10 @@ duchy_theo_cath_saxon_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_theo_cath_saxon = {
 	type = character
@@ -2679,7 +3163,9 @@ king_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath_saxon = {
@@ -2689,7 +3175,9 @@ kingdom_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_theo_cath_saxon = {
 	type = character
@@ -2700,7 +3188,9 @@ emperor_male_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_theo_cath_saxon = {
@@ -2712,7 +3202,9 @@ emperor_female_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath_saxon = {
@@ -2722,7 +3214,9 @@ empire_theo_cath_saxon = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_saxon }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #mhg
 pope_man_mhg = {
@@ -2731,7 +3225,9 @@ pope_man_mhg = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
 	only_holder = yes
 }
@@ -2741,7 +3237,9 @@ pope_woman_mhg = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
 	only_holder = yes
 }
@@ -2754,7 +3252,9 @@ grand_master_male_cath_mhg = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_mhg = {
@@ -2766,7 +3266,9 @@ grand_master_female_cath_mhg = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_mhg = {
@@ -2778,7 +3280,9 @@ baron_male_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_mhg = {
@@ -2790,7 +3294,9 @@ baron_female_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_mhg = {
@@ -2800,7 +3306,9 @@ barony_hold_cath_mhg = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_mhg = {
 	type = title
@@ -2809,7 +3317,9 @@ barony_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_mhg = {
 	type = character
@@ -2820,7 +3330,9 @@ count_male_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_mhg = {
@@ -2832,7 +3344,9 @@ count_female_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_mhg = {
@@ -2842,7 +3356,9 @@ county_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_mhg_independent = {
 	type = character
@@ -2853,7 +3369,9 @@ count_male_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2866,7 +3384,9 @@ count_female_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2877,8 +3397,10 @@ county_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_theo_cath_mhg = {
 	type = character
@@ -2889,7 +3411,9 @@ duke_male_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_mhg = {
@@ -2901,7 +3425,9 @@ duke_female_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_mhg = {
@@ -2911,7 +3437,9 @@ duchy_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_mhg_independent = {
 	type = character
@@ -2922,7 +3450,9 @@ duke_male_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2935,7 +3465,9 @@ duke_female_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -2946,8 +3478,10 @@ duchy_theo_cath_mhg_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_theo_cath_mhg = {
 	type = character
@@ -2957,7 +3491,9 @@ king_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath_mhg = {
@@ -2967,7 +3503,9 @@ kingdom_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_theo_cath_mhg = {
 	type = character
@@ -2978,7 +3516,9 @@ emperor_male_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_theo_cath_mhg = {
@@ -2990,7 +3530,9 @@ emperor_female_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath_mhg = {
@@ -3000,7 +3542,9 @@ empire_theo_cath_mhg = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_franconian name_list_swabian name_list_bavarian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #name_list_dutch
 pope_dutch = {
@@ -3008,7 +3552,9 @@ pope_dutch = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_dutch }
 	only_holder = yes
 }
@@ -3020,7 +3566,9 @@ grand_master_cath_dutch = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_theo_cath_dutch = {
@@ -3031,7 +3579,9 @@ baron_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_dutch = {
@@ -3041,7 +3591,9 @@ barony_hold_cath_dutch = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_dutch = {
 	type = title
@@ -3050,7 +3602,9 @@ barony_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_theo_cath_dutch = {
 	type = character
@@ -3060,7 +3614,9 @@ count_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_dutch = {
@@ -3070,7 +3626,9 @@ county_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_theo_cath_dutch_independent = {
 	type = character
@@ -3080,7 +3638,9 @@ count_theo_cath_dutch_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -3091,8 +3651,10 @@ county_theo_cath_dutch_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_theo_cath_dutch = {
 	type = character
@@ -3102,7 +3664,9 @@ duke_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_dutch = {
@@ -3112,7 +3676,9 @@ duchy_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_theo_cath_dutch_independent = {
 	type = character
@@ -3122,7 +3688,9 @@ duke_theo_cath_dutch_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -3133,8 +3701,10 @@ duchy_theo_cath_dutch_independent = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_theo_cath_dutch = {
 	type = character
@@ -3144,7 +3714,9 @@ king_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath_dutch = {
@@ -3154,7 +3726,9 @@ kingdom_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_theo_cath_dutch = {
 	type = character
@@ -3164,7 +3738,9 @@ emperor_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath_dutch = {
@@ -3174,7 +3750,9 @@ empire_theo_cath_dutch = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_dutch }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Arabic
 pope_man_arabic = {
@@ -3183,7 +3761,9 @@ pope_man_arabic = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	heritages = { heritage_arabic }
 	only_holder = yes
 }
@@ -3193,7 +3773,9 @@ pope_woman_arabic = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	heritages = { heritage_arabic }
 	only_holder = yes
 }
@@ -3206,7 +3788,9 @@ grand_master_male_cath_arabic = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_arabic = {
@@ -3218,7 +3802,9 @@ grand_master_female_cath_arabic = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_arabic = {
@@ -3230,7 +3816,9 @@ baron_male_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_arabic = {
@@ -3242,7 +3830,9 @@ baron_female_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_arabic = {
@@ -3252,7 +3842,9 @@ barony_hold_cath_arabic = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_arabic = {
 	type = title
@@ -3261,7 +3853,9 @@ barony_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_arabic = {
 	type = character
@@ -3272,7 +3866,9 @@ count_male_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_arabic = {
@@ -3284,7 +3880,9 @@ count_female_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_arabic = {
@@ -3294,7 +3892,9 @@ county_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_arabic = {
 	type = character
@@ -3305,7 +3905,9 @@ duke_male_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_arabic = {
@@ -3317,7 +3919,9 @@ duke_female_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_arabic = {
@@ -3327,7 +3931,9 @@ duchy_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_theo_cath_arabic = {
 	type = character
@@ -3338,7 +3944,9 @@ king_male_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_theo_cath_arabic = {
@@ -3350,7 +3958,9 @@ king_female_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath_arabic = {
@@ -3360,7 +3970,9 @@ kingdom_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_theo_cath_arabic = {
 	type = character
@@ -3371,7 +3983,9 @@ emperor_male_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_theo_cath_arabic = {
@@ -3383,7 +3997,9 @@ emperor_female_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath_arabic = {
@@ -3393,7 +4009,9 @@ empire_theo_cath_arabic = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	heritages = { heritage_arabic }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Andalusian
 baron_male_theo_cath_andalusian = {
@@ -3405,7 +4023,9 @@ baron_male_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_andalusian = {
@@ -3417,7 +4037,9 @@ baron_female_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_andalusian = {
@@ -3427,7 +4049,9 @@ barony_hold_cath_andalusian = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_andalusian = {
 	type = title
@@ -3436,7 +4060,9 @@ barony_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_andalusian = {
 	type = character
@@ -3447,7 +4073,9 @@ count_male_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_andalusian = {
@@ -3459,7 +4087,9 @@ count_female_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_andalusian = {
@@ -3469,7 +4099,9 @@ county_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_andalusian = {
 	type = character
@@ -3480,7 +4112,9 @@ duke_male_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_andalusian = {
@@ -3492,7 +4126,9 @@ duke_female_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_andalusian = {
@@ -3502,7 +4138,9 @@ duchy_theo_cath_andalusian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_andalusian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Greek
 pope_man_greek = {
@@ -3511,7 +4149,9 @@ pope_man_greek = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_greek }
 	only_holder = yes
 }
@@ -3521,7 +4161,9 @@ pope_woman_greek = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_greek }
 	only_holder = yes
 }
@@ -3534,7 +4176,9 @@ count_male_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_greek = {
@@ -3546,7 +4190,9 @@ count_female_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_greek = {
@@ -3556,7 +4202,9 @@ county_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_greek = {
 	type = character
@@ -3567,7 +4215,9 @@ duke_male_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_greek = {
@@ -3579,7 +4229,9 @@ duke_female_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_greek = {
@@ -3589,7 +4241,9 @@ duchy_theo_cath_greek = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_greek }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Bosian/Serbian
 pope_man_serbian = {
@@ -3597,7 +4251,9 @@ pope_man_serbian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_serbian name_list_bosnian }
 	only_holder = yes
 }
@@ -3610,7 +4266,9 @@ count_male_theo_cath_serbian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_serbian name_list_bosnian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_serbian = {
@@ -3622,7 +4280,9 @@ count_female_theo_cath_serbian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_serbian name_list_bosnian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_serbian = {
@@ -3632,7 +4292,9 @@ county_theo_cath_serbian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_serbian name_list_bosnian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Western Slavic
 #name_list_pommeranian
@@ -3642,7 +4304,9 @@ pope_man_pommeranian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_pommeranian }
 	only_holder = yes
 }
@@ -3652,7 +4316,9 @@ pope_woman_pommeranian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_pommeranian }
 	only_holder = yes
 }
@@ -3665,7 +4331,9 @@ baron_male_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_pommeranian = {
@@ -3677,7 +4345,9 @@ baron_female_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_pommeranian = {
@@ -3687,7 +4357,9 @@ barony_hold_cath_pommeranian = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_pommeranian = {
 	type = title
@@ -3696,7 +4368,9 @@ barony_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_pommeranian = {
 	type = character
@@ -3707,7 +4381,9 @@ count_male_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_pommeranian = {
@@ -3719,7 +4395,9 @@ count_female_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_pommeranian = {
@@ -3729,7 +4407,9 @@ county_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_pommeranian = {
 	type = character
@@ -3740,7 +4420,9 @@ duke_male_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_pommeranian = {
@@ -3752,7 +4434,9 @@ duke_female_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_pommeranian = {
@@ -3762,7 +4446,9 @@ duchy_theo_cath_pommeranian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_pommeranian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Czech
 pope_man_czech = {
@@ -3771,7 +4457,9 @@ pope_man_czech = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_czech }
 	only_holder = yes
 }
@@ -3781,7 +4469,9 @@ pope_woman_czech = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_czech }
 	only_holder = yes
 }
@@ -3794,7 +4484,9 @@ baron_male_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_czech = {
@@ -3806,7 +4498,9 @@ baron_female_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_czech = {
@@ -3816,7 +4510,9 @@ barony_hold_cath_czech = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_czech = {
 	type = title
@@ -3825,7 +4521,9 @@ barony_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_czech = {
 	type = character
@@ -3836,7 +4534,9 @@ count_male_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_czech = {
@@ -3848,7 +4548,9 @@ count_female_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_czech = {
@@ -3858,7 +4560,9 @@ county_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_czech = {
 	type = character
@@ -3869,7 +4573,9 @@ duke_male_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_czech = {
@@ -3881,7 +4587,9 @@ duke_female_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_czech = {
@@ -3891,7 +4599,9 @@ duchy_theo_cath_czech = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_czech }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Polish
 pope_man_polish = {
@@ -3900,7 +4610,9 @@ pope_man_polish = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_polish }
 	only_holder = yes
 }
@@ -3910,7 +4622,9 @@ pope_woman_polish = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_polish }
 	only_holder = yes
 }
@@ -3923,7 +4637,9 @@ grand_master_male_cath_polish  = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 grand_master_female_cath_polish  = {
@@ -3935,7 +4651,9 @@ grand_master_female_cath_polish  = {
 	governments = { holy_order_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_male_theo_cath_polish = {
@@ -3947,7 +4665,9 @@ baron_male_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_theo_cath_polish = {
@@ -3959,7 +4679,9 @@ baron_female_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_polish = {
@@ -3969,7 +4691,9 @@ barony_hold_cath_polish = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_polish = {
 	type = title
@@ -3978,7 +4702,9 @@ barony_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_polish = {
 	type = character
@@ -3989,7 +4715,9 @@ count_male_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_theo_cath_polish = {
@@ -4001,7 +4729,9 @@ count_female_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_polish = {
@@ -4011,7 +4741,9 @@ county_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_polish = {
 	type = character
@@ -4022,7 +4754,9 @@ duke_male_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_theo_cath_polish = {
@@ -4034,7 +4768,9 @@ duke_female_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_polish = {
@@ -4044,7 +4780,9 @@ duchy_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_theo_cath_polish = {
 	type = character
@@ -4055,7 +4793,9 @@ king_male_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_theo_cath_polish = {
@@ -4067,7 +4807,9 @@ king_female_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_theo_cath_polish = {
@@ -4077,7 +4819,9 @@ kingdom_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_theo_cath_polish = {
 	type = character
@@ -4088,7 +4832,9 @@ emperor_male_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_theo_cath_polish = {
@@ -4100,7 +4846,9 @@ emperor_female_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_theo_cath_polish = {
@@ -4110,7 +4858,9 @@ empire_theo_cath_polish = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_polish }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 #Russian
 pope_man_russian = {
@@ -4119,7 +4869,9 @@ pope_man_russian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_russian }
 	only_holder = yes
 }
@@ -4129,7 +4881,9 @@ pope_woman_russian = {
 	special = holder
 	priority = 501
 	titles = { k_papal_state }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	name_lists = { name_list_russian }
 	only_holder = yes
 }
@@ -4142,7 +4896,9 @@ baron_male_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_hold_cath_russian = {
@@ -4152,7 +4908,9 @@ barony_hold_cath_russian = {
 	holding = church_holding
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_theo_cath_russian = {
 	type = title
@@ -4161,7 +4919,9 @@ barony_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_theo_cath_russian = {
 	type = character
@@ -4172,7 +4932,9 @@ count_male_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_theo_cath_russian = {
@@ -4182,7 +4944,9 @@ county_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_theo_cath_russian = {
 	type = character
@@ -4193,7 +4957,9 @@ duke_male_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_theo_cath_russian = {
@@ -4203,5 +4969,7 @@ duchy_theo_cath_russian = {
 	governments = { theocracy_government }
 	faiths = { catholic waldensian insular_celtic lollard }
 	name_lists = { name_list_russian }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }

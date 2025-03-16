@@ -15,7 +15,9 @@ baron_male_pulaar = {
 	priority = 103
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_pulaar = {
 	type = character
@@ -25,7 +27,9 @@ baron_female_pulaar = {
 	priority = 103
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_male_holder_pulaar = {
 	type = character
@@ -35,7 +39,9 @@ baron_male_holder_pulaar = {
 	priority = 104
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_holder_pulaar = {
@@ -46,7 +52,9 @@ baron_female_holder_pulaar = {
 	priority = 104
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_male_pulaar = {
@@ -57,7 +65,9 @@ count_male_pulaar = {
 	priority = 113
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_pulaar = {
 	type = character
@@ -67,7 +77,9 @@ count_female_pulaar = {
 	priority = 113
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_holder_pulaar = {
 	type = character
@@ -77,7 +89,9 @@ count_male_holder_pulaar = {
 	priority = 114
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_holder_pulaar = {
@@ -88,7 +102,9 @@ count_female_holder_pulaar = {
 	priority = 114
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_male_holder_pulaar = {
@@ -99,7 +115,9 @@ duke_male_holder_pulaar = {
 	priority = 124
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_male_pulaar = {
@@ -110,7 +128,9 @@ duke_male_pulaar = {
 	priority = 123
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_holder_pulaar = {
 	type = character
@@ -120,7 +140,9 @@ duke_female_holder_pulaar = {
 	priority = 124
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_pulaar = {
@@ -131,7 +153,9 @@ duke_female_pulaar = {
 	priority = 123
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_holder_pulaar_independent = {
 	type = character
@@ -141,7 +165,9 @@ duke_male_holder_pulaar_independent = {
 	priority = 126
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -153,8 +179,10 @@ duke_male_pulaar_independent = {
 	priority = 125
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_female_holder_pulaar_independent = {
 	type = character
@@ -164,7 +192,9 @@ duke_female_holder_pulaar_independent = {
 	priority = 126
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -176,8 +206,10 @@ duke_female_pulaar_independent = {
 	priority = 125
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_pulaar_independent = {
 	type = title
@@ -185,8 +217,10 @@ duchy_pulaar_independent = {
 	priority = 125
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_holder_pulaar = {
 	type = character
@@ -196,7 +230,9 @@ king_male_holder_pulaar = {
 	tier = kingdom
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_male_pulaar = {
@@ -207,7 +243,9 @@ king_male_pulaar = {
 	tier = kingdom
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_holder_pulaar = {
 	type = character
@@ -217,7 +255,9 @@ king_female_holder_pulaar = {
 	tier = kingdom
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_pulaar = {
@@ -228,7 +268,9 @@ king_female_pulaar = {
 	tier = kingdom
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_pulaar = {
 	type = title
@@ -236,7 +278,9 @@ kingdom_pulaar = {
 	tier = kingdom
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_pulaar = {
 	type = character
@@ -246,7 +290,9 @@ emperor_male_pulaar = {
 	tier = empire
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_pulaar = {
 	type = character
@@ -256,7 +302,9 @@ emperor_female_pulaar = {
 	tier = empire
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_pulaar = {
 	type = title
@@ -264,7 +312,9 @@ empire_pulaar = {
 	tier = empire
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_pulaar = {
 	type = character
@@ -274,7 +324,9 @@ queen_mother_pulaar = {
 	priority = 130
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_pulaar = {
 	type = character
@@ -284,7 +336,9 @@ empress_mother_pulaar = {
 	priority = 150
 	name_lists = { name_list_pulaar }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_pulaar = {
 	type = character
@@ -294,7 +348,9 @@ baron_republic_pulaar = {
 	name_lists = { name_list_pulaar }
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_city_pulaar = {
 	type = title
@@ -302,7 +358,9 @@ barony_city_pulaar = {
 	priority = 103
 	name_lists = { name_list_pulaar }
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Serer
@@ -314,7 +372,9 @@ baron_male_serer = {
 	priority = 103
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_serer = {
 	type = character
@@ -324,7 +384,9 @@ baron_female_serer = {
 	priority = 103
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_feudalclan_serer = {
 	type = title
@@ -332,7 +394,9 @@ barony_feudalclan_serer = {
 	priority = 103
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_serer = {
 	type = character
@@ -342,7 +406,9 @@ count_male_serer = {
 	priority = 113
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_serer = {
 	type = character
@@ -352,7 +418,9 @@ count_female_serer = {
 	priority = 113
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_feudalclan_serer = {
 	type = title
@@ -360,7 +428,9 @@ county_feudalclan_serer = {
 	priority = 113
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_serer_independent = {
 	type = character
@@ -370,8 +440,10 @@ count_male_serer_independent = {
 	priority = 114
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_female_serer_independent = {
 	type = character
@@ -381,8 +453,10 @@ count_female_serer_independent = {
 	priority = 114
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_serer = {
 	type = character
@@ -392,7 +466,9 @@ duke_male_serer = {
 	priority = 123
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_serer = {
 	type = character
@@ -402,7 +478,9 @@ duke_female_serer = {
 	priority = 123
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_serer_independent = {
 	type = character
@@ -412,8 +490,10 @@ duke_male_serer_independent = {
 	priority = 124
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_female_holder_serer_independent = {
 	type = character
@@ -423,9 +503,11 @@ duke_female_holder_serer_independent = {
 	priority = 125
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+		only_holder = yes
+	}
 }
 duke_female_serer_independent = {
 	type = character
@@ -435,8 +517,10 @@ duke_female_serer_independent = {
 	priority = 124
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_serer_independent = {
 	type = title
@@ -444,8 +528,10 @@ duchy_serer_independent = {
 	priority = 124
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_serer = {
 	type = character
@@ -455,7 +541,9 @@ king_male_serer = {
 	tier = kingdom
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_holder_serer = {
 	type = character
@@ -465,7 +553,9 @@ king_female_holder_serer = {
 	tier = kingdom
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_serer = {
@@ -476,7 +566,9 @@ king_female_serer = {
 	tier = kingdom
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_serer = {
 	type = title
@@ -484,7 +576,9 @@ kingdom_serer = {
 	tier = kingdom
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_serer = {
 	type = character
@@ -494,7 +588,9 @@ emperor_male_serer = {
 	tier = empire
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_holder_serer = {
 	type = character
@@ -504,7 +600,9 @@ emperor_female_holder_serer = {
 	tier = empire
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_serer = {
@@ -515,7 +613,9 @@ emperor_female_serer = {
 	tier = empire
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_serer = {
 	type = character
@@ -525,7 +625,9 @@ queen_mother_serer = {
 	priority = 130
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_serer = {
 	type = character
@@ -535,7 +637,9 @@ empress_mother_serer = {
 	priority = 150
 	name_lists = { name_list_serer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_republic_serer = {
 	type = title
@@ -543,7 +647,9 @@ barony_republic_serer = {
 	priority = 103
 	name_lists = { name_list_serer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_serer = {
 	type = character
@@ -553,7 +659,9 @@ count_republic_serer = {
 	name_lists = { name_list_serer }
 	governments = { republic_government }
 	only_holder = yes
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribal_serer = {
 	type = title
@@ -561,7 +669,9 @@ barony_tribal_serer = {
 	priority = 103
 	name_lists = { name_list_serer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_tribal_serer = {
 	type = title
@@ -569,7 +679,9 @@ county_tribal_serer = {
 	priority = 113
 	name_lists = { name_list_serer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Wolof
@@ -581,7 +693,9 @@ baron_male_wolof = {
 	priority = 103
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_wolof = {
 	type = character
@@ -591,7 +705,9 @@ baron_female_wolof = {
 	priority = 103
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_wolof = {
 	type = character
@@ -601,7 +717,9 @@ count_male_wolof = {
 	priority = 113
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_wolof = {
 	type = character
@@ -611,7 +729,9 @@ count_female_wolof = {
 	priority = 113
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_wolof_independent = {
 	type = character
@@ -621,8 +741,10 @@ count_male_wolof_independent = {
 	priority = 114
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_female_wolof_independent = {
 	type = character
@@ -632,8 +754,10 @@ count_female_wolof_independent = {
 	priority = 114
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_wolof = {
 	type = character
@@ -643,7 +767,9 @@ duke_male_wolof = {
 	priority = 123
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_wolof = {
 	type = character
@@ -653,7 +779,9 @@ duke_female_wolof = {
 	priority = 123
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_wolof_independent = {
 	type = character
@@ -663,8 +791,10 @@ duke_male_wolof_independent = {
 	priority = 124
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_female_holder_wolof_independent = {
 	type = character
@@ -674,9 +804,11 @@ duke_female_holder_wolof_independent = {
 	priority = 125
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+		only_holder = yes
+	}
 }
 duke_female_wolof_independent = {
 	type = character
@@ -686,8 +818,10 @@ duke_female_wolof_independent = {
 	priority = 124
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_wolof_independent = {
 	type = title
@@ -695,8 +829,10 @@ duchy_wolof_independent = {
 	priority = 124
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_wolof = {
 	type = character
@@ -706,7 +842,9 @@ king_male_wolof = {
 	tier = kingdom
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_holder_wolof = {
 	type = character
@@ -716,7 +854,9 @@ king_female_holder_wolof = {
 	tier = kingdom
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_wolof = {
@@ -727,7 +867,9 @@ king_female_wolof = {
 	tier = kingdom
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_wolof = {
 	type = title
@@ -735,7 +877,9 @@ kingdom_wolof = {
 	tier = kingdom
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_wolof = {
 	type = character
@@ -745,7 +889,9 @@ emperor_male_wolof = {
 	tier = empire
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_holder_wolof = {
 	type = character
@@ -755,7 +901,9 @@ emperor_female_holder_wolof = {
 	tier = empire
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_wolof = {
@@ -766,7 +914,9 @@ emperor_female_wolof = {
 	tier = empire
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_wolof = {
 	type = title
@@ -774,7 +924,9 @@ empire_wolof = {
 	tier = empire
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_wolof = {
 	type = character
@@ -784,7 +936,9 @@ queen_mother_wolof = {
 	priority = 130
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_wolof = {
 	type = character
@@ -794,7 +948,9 @@ empress_mother_wolof = {
 	priority = 150
 	name_lists = { name_list_wolof }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_republic_wolof = {
 	type = title
@@ -802,5 +958,7 @@ barony_republic_wolof = {
 	priority = 103
 	name_lists = { name_list_wolof }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }

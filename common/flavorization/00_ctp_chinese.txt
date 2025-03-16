@@ -18,7 +18,9 @@ baron_male_han = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_han = {
 	type = character
@@ -28,7 +30,9 @@ baron_female_han = {
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_han_holder = {
 	type = character
@@ -38,7 +42,9 @@ baron_female_han_holder = {
 	priority = 104
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_castle_han = {
@@ -47,7 +53,9 @@ barony_castle_han = {
 	priority = 103
 	holding = castle_holding
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_han = {
 	type = character
@@ -57,7 +65,9 @@ count_feudalclan_male_han = {
 	priority = 113
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_han = {
 	type = character
@@ -67,7 +77,9 @@ count_feudalclan_female_han = {
 	priority = 113
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_han_holder = {
 	type = character
@@ -77,7 +89,9 @@ count_feudalclan_female_han_holder = {
 	priority = 114
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_feudalclan_han = {
@@ -86,7 +100,9 @@ county_feudalclan_han = {
 	priority = 113
 	governments = { feudal_government clan_government}
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_han_independent = {
 	type = character
@@ -96,8 +112,10 @@ count_feudalclan_male_han_independent = {
 	priority = 115
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_feudalclan_female_han_independent = {
 	type = character
@@ -107,8 +125,10 @@ count_feudalclan_female_han_independent = {
 	priority = 115
 	governments = { feudal_government clan_government  }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_feudalclan_female_han_holder_independent = {
 	type = character
@@ -118,7 +138,9 @@ count_feudalclan_female_han_holder_independent = {
 	priority = 116
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -128,8 +150,10 @@ county_feudalclan_han_independent = {
 	priority = 115
 	governments = { feudal_government clan_government}
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_male_han = {
 	type = character
@@ -139,7 +163,9 @@ duke_feudalclan_male_han = {
 	priority = 123
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_female_han = {
 	type = character
@@ -149,7 +175,9 @@ duke_feudalclan_female_han = {
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_female_han_holder = {
 	type = character
@@ -159,7 +187,9 @@ duke_feudalclan_female_han_holder = {
 	priority = 124
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_feudalclan_han = {
@@ -168,7 +198,9 @@ duchy_feudalclan_han = {
 	priority = 123
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_male_han_independent = {
 	type = character
@@ -178,8 +210,10 @@ duke_feudalclan_male_han_independent = {
 	priority = 125
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_female_han_independent = {
 	type = character
@@ -189,8 +223,10 @@ duke_feudalclan_female_han_independent = {
 	priority = 125
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_female_han_holder_independent = {
 	type = character
@@ -200,7 +236,9 @@ duke_feudalclan_female_han_holder_independent = {
 	priority = 126
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -210,8 +248,10 @@ duchy_feudalclan_han_independent = {
 	priority = 125
 	governments = { feudal_government clan_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_han = {
 	type = character
@@ -221,7 +261,9 @@ king_male_han = {
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_han = {
 	type = character
@@ -231,7 +273,9 @@ king_female_han = {
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_han_holder = {
 	type = character
@@ -241,7 +285,9 @@ king_female_han_holder = {
 	priority = 144
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_han = {
@@ -250,7 +296,9 @@ kingdom_han = {
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_han_independent = {
 	type = character
@@ -260,8 +308,10 @@ king_male_han_independent = {
 	priority = 145
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_female_han_independent = {
 	type = character
@@ -271,8 +321,10 @@ king_female_han_independent = {
 	priority = 145
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_female_han_holder_independent = {
 	type = character
@@ -282,7 +334,9 @@ king_female_han_holder_independent = {
 	priority = 146
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -292,8 +346,10 @@ kingdom_han_independent = {
 	priority = 145
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 emperor_male_han = {
 	type = character
@@ -303,7 +359,9 @@ emperor_male_han = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_han = {
 	type = character
@@ -313,7 +371,9 @@ emperor_female_han = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_han_holder = {
 	type = character
@@ -323,7 +383,9 @@ emperor_female_han_holder = {
 	priority = 154
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 empire_han = {
@@ -332,7 +394,9 @@ empire_han = {
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_han = {
 	type = character
@@ -342,7 +406,9 @@ title_prince_male_han = {
 	priority = 130
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_han = {
 	type = character
@@ -352,7 +418,9 @@ title_prince_female_han = {
 	priority = 130
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_han_empire = {
 	type = character
@@ -362,7 +430,9 @@ title_prince_male_han_empire = {
 	priority = 150
 	governments = { republic_government feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_empire = {
 	type = character
@@ -372,7 +442,9 @@ title_prince_female_empire = {
 	priority = 150
 	governments = { republic_government feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_han = {
 	type = character
@@ -382,7 +454,9 @@ queen_mother_han = {
 	priority = 130
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_han = {
 	type = character
@@ -392,7 +466,9 @@ empress_mother_han = {
 	priority = 150
 	governments = { republic_government feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_father_han = {
 	type = character
@@ -402,7 +478,9 @@ king_father_han = {
 	priority = 130
 	governments = { feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_father_han = {
 	type = character
@@ -412,7 +490,9 @@ emperor_father_han = {
 	priority = 150
 	governments = { republic_government feudal_government clan_government tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_han = {
 	type = character
@@ -421,7 +501,9 @@ baron_republic_han = {
 	priority = 103
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_city_han = {
 	type = title
@@ -429,7 +511,9 @@ barony_city_han = {
 	priority = 103
 	holding = city_holding
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_han = {
 	type = character
@@ -438,7 +522,9 @@ count_republic_han = {
 	priority = 113
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_republic_han = {
 	type = title
@@ -446,7 +532,9 @@ county_republic_han = {
 	priority = 113
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_republic_han = {
 	type = character
@@ -455,7 +543,9 @@ duke_republic_han = {
 	priority = 123
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_republic_han = {
 	type = title
@@ -463,7 +553,9 @@ duchy_republic_han = {
 	priority = 123
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_republic_han = {
 	type = title
@@ -471,7 +563,9 @@ kingdom_republic_han = {
 	priority = 143
 	governments = { republic_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_han = {
 	type = title
@@ -479,7 +573,9 @@ barony_tribe_han = {
 	priority = 103
 	holding = tribal_holding
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_male_han = {
 	type = character
@@ -489,7 +585,9 @@ count_tribal_male_han = {
 	priority = 113
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_female_han_holder = {
 	type = character
@@ -499,7 +597,9 @@ count_tribal_female_han_holder = {
 	priority = 114
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_tribal_han = {
@@ -508,7 +608,9 @@ county_tribal_han = {
 	priority = 113
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_tribal_male_han = {
 	type = character
@@ -518,7 +620,9 @@ duke_tribal_male_han = {
 	priority = 123
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_tribal_female_han_holder = {
 	type = character
@@ -528,7 +632,9 @@ duke_tribal_female_han_holder = {
 	priority = 124
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_tribal_han = {
@@ -537,5 +643,7 @@ duchy_tribal_han = {
 	priority = 123
 	governments = { tribal_government }
 	name_lists = { name_list_han }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }

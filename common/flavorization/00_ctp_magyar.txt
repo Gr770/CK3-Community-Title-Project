@@ -14,7 +14,9 @@ baron_male_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_mogyer = {
 	type = character
@@ -24,7 +26,9 @@ baron_female_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_mogyer = { 
 	type = title
@@ -32,7 +36,9 @@ barony_castle_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_mogyer = {
 	type = character
@@ -42,7 +48,9 @@ count_feudalclan_male_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_mogyer = {
 	type = character
@@ -52,7 +60,9 @@ count_feudalclan_female_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_holder_mogyer = {
 	type = character
@@ -62,7 +72,9 @@ count_feudalclan_female_holder_mogyer = {
 	priority = 114
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_feudalclan_mogyer = {
@@ -71,7 +83,9 @@ county_feudalclan_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_mogyer_independent = {
 	type = character
@@ -81,8 +95,10 @@ count_feudalclan_male_mogyer_independent = {
 	priority = 115
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_feudalclan_female_mogyer_independent = {
 	type = character
@@ -92,8 +108,10 @@ count_feudalclan_female_mogyer_independent = {
 	priority = 115
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_feudalclan_female_holder_mogyer_independent = {
 	type = character
@@ -103,7 +121,9 @@ count_feudalclan_female_holder_mogyer_independent = {
 	priority = 116
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -113,8 +133,10 @@ county_feudalclan_mogyer_independent = {
 	priority = 115
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_male_mogyer = { 
 	type = character
@@ -124,7 +146,9 @@ duke_feudalclan_male_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer  }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_female_mogyer = { 
 	type = character
@@ -134,7 +158,9 @@ duke_feudalclan_female_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_holder_female_mogyer = {
 	type = character
@@ -145,7 +171,9 @@ duke_feudalclan_holder_female_mogyer = {
 	only_holder = yes
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_feudalclan_mogyer = { 
 	type = title
@@ -153,7 +181,9 @@ duchy_feudalclan_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government  }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_male_mogyer_independent = {
 	type = character
@@ -181,7 +211,9 @@ duchy_feudalclan_mogyer_independent = {
 	priority = 125
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government  }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_mogyer = {
 	type = character
@@ -191,7 +223,9 @@ king_male_mogyer = {
 	tier = kingdom
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_mogyer = {
 	type = character
@@ -201,7 +235,9 @@ king_female_mogyer = {
 	tier = kingdom
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_mogyer = {
 	type = title
@@ -209,7 +245,9 @@ kingdom_mogyer = {
 	tier = kingdom
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_mogyer = {
 	type = character
@@ -219,7 +257,9 @@ emperor_male_mogyer = {
 	tier = empire
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_mogyer = {
 	type = character
@@ -229,7 +269,9 @@ emperor_female_mogyer = {
 	priority = 153
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_holder_mogyer = {
 	type = character
@@ -240,7 +282,9 @@ emperor_female_holder_mogyer = {
 	name_lists = { name_list_mogyer }
 	only_holder = yes
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_mogyer = {
 	type = title
@@ -248,7 +292,9 @@ empire_mogyer = {
 	tier = empire
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mogyer = {
 	type = character
@@ -258,7 +304,9 @@ title_prince_male_mogyer = {
 	priority = 130
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mogyer = {
 	type = character
@@ -268,7 +316,9 @@ title_prince_female_mogyer = {
 	priority = 130
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mogyer_empire = {
 	type = character
@@ -278,7 +328,9 @@ title_prince_male_mogyer_empire = {
 	priority = 150
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mogyer_empire = {
 	type = character
@@ -288,7 +340,9 @@ title_prince_female_mogyer_empire = {
 	priority = 150
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_mogyer_byzantine = {
 	type = character
@@ -299,7 +353,9 @@ title_prince_male_mogyer_byzantine = {
 	titles = { e_byzantium e_roman_empire }
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_mogyer_byzantine = {
 	type = character
@@ -310,7 +366,9 @@ title_prince_female_mogyer_byzantine = {
 	titles = { e_byzantium e_roman_empire }
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_mogyer = {
 	type = character
@@ -320,7 +378,9 @@ queen_mother_mogyer = {
 	priority = 130
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_mogyer= {
 	type = character
@@ -330,7 +390,9 @@ empress_mother_mogyer= {
 	priority = 150
 	name_lists = { name_list_mogyer }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_male_mogyer = {
 	type = character
@@ -340,7 +402,9 @@ baron_republic_male_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_female_mogyer = {
 	type = character
@@ -350,7 +414,9 @@ baron_republic_female_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_city_mogyer = { 
 	type = title
@@ -358,7 +424,9 @@ barony_city_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_male_mogyer = {
 	type = character
@@ -368,7 +436,9 @@ count_republic_male_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_female_mogyer = {
 	type = character
@@ -378,7 +448,9 @@ count_republic_female_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_republic_mogyer = { 
 	type = title
@@ -386,7 +458,9 @@ county_republic_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_republic_male_mogyer = {
 	type = character
@@ -396,7 +470,9 @@ duke_republic_male_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_republic_female_mogyer = {
 	type = character
@@ -406,7 +482,9 @@ duke_republic_female_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_republic_mogyer = { 
 	type = title
@@ -414,7 +492,9 @@ duchy_republic_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_republic_male_mogyer = {
 	type = character
@@ -424,7 +504,9 @@ king_republic_male_mogyer = {
 	priority = 143
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_republic_female_mogyer = {
 	type = character
@@ -434,7 +516,9 @@ king_republic_female_mogyer = {
 	priority = 143
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_republic_mogyer = { 
 	type = title
@@ -442,7 +526,9 @@ kingdom_republic_mogyer = {
 	priority = 143
 	name_lists = { name_list_mogyer }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_mogyer = { 
 	type = title
@@ -450,7 +536,9 @@ barony_tribe_mogyer = {
 	priority = 103
 	name_lists = { name_list_mogyer }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_male_mogyer = {
 	type = character
@@ -460,7 +548,9 @@ count_tribal_male_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_female_mogyer = {
 	type = character
@@ -470,7 +560,9 @@ count_tribal_female_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_tribal_mogyer = {
 	type = title
@@ -478,7 +570,9 @@ county_tribal_mogyer = {
 	priority = 113
 	name_lists = { name_list_mogyer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_tribal_male_mogyer = { 
 	type = character
@@ -488,7 +582,9 @@ duke_tribal_male_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer  }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_tribal_female_mogyer = { 
 	type = character
@@ -498,7 +594,9 @@ duke_tribal_female_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_tribal_mogyer = {
 	type = title
@@ -506,7 +604,9 @@ duchy_tribal_mogyer = {
 	priority = 123
 	name_lists = { name_list_mogyer }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ## Hungarian ##
 baron_male_hungarian = {
@@ -517,7 +617,9 @@ baron_male_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_holder_hungarian = {
 	type = character
@@ -527,7 +629,9 @@ baron_female_holder_hungarian = {
 	priority = 104
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_female_hungarian = {
@@ -538,7 +642,9 @@ baron_female_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_hungarian = { 
 	type = title
@@ -546,7 +652,9 @@ barony_castle_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_hungarian = {
 	type = character
@@ -556,7 +664,9 @@ count_feudalclan_male_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_hungarian = {
 	type = character
@@ -566,7 +676,9 @@ count_feudalclan_female_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_female_holder_hungarian = {
 	type = character
@@ -577,7 +689,9 @@ count_feudalclan_female_holder_hungarian = {
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
 	only_holder = yes
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_feudalclan_hungarian = {
 	type = title
@@ -585,7 +699,9 @@ county_feudalclan_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_feudalclan_male_hungarian_independent = {
 	type = character
@@ -595,8 +711,10 @@ count_feudalclan_male_hungarian_independent = {
 	priority = 114
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_feudalclan_female_hungarian_independent = {
 	type = character
@@ -625,8 +743,10 @@ county_feudalclan_hungarian_independent = {
 	priority = 114
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_male_hungarian = { 
 	type = character
@@ -636,7 +756,9 @@ duke_feudalclan_male_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian  }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_female_hungarian = { 
 	type = character
@@ -646,7 +768,9 @@ duke_feudalclan_female_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_holder_female_hungarian = {
 	type = character
@@ -657,7 +781,9 @@ duke_feudalclan_holder_female_hungarian = {
 	only_holder = yes
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_feudalclan_hungarian = { 
 	type = title
@@ -665,7 +791,9 @@ duchy_feudalclan_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government  }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_feudalclan_male_hungarian_independent = { 
 	type = character
@@ -675,8 +803,10 @@ duke_feudalclan_male_hungarian_independent = {
 	priority = 124
 	name_lists = { name_list_hungarian  }
 	governments = { feudal_government clan_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_feudalclan_female_hungarian_independent = {
 	type = character
@@ -694,8 +824,10 @@ duchy_feudalclan_hungarian_independent = {
 	priority = 124
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government  }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_hungarian = {
 	type = character
@@ -705,7 +837,9 @@ king_male_hungarian = {
 	tier = kingdom
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_hungarian = {
 	type = character
@@ -715,7 +849,9 @@ king_female_hungarian = {
 	tier = kingdom
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_holder_female_hungarian = {
 	type = character
@@ -726,7 +862,9 @@ king_holder_female_hungarian = {
 	only_holder = yes
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_hungarian = {
 	type = title
@@ -734,7 +872,9 @@ kingdom_hungarian = {
 	tier = kingdom
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_hungarian = {
 	type = character
@@ -744,7 +884,9 @@ emperor_male_hungarian = {
 	tier = empire
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_hungarian = {
 	type = character
@@ -754,7 +896,9 @@ emperor_female_hungarian = {
 	tier = empire
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_holder_female_hungarian = {
 	type = character
@@ -765,7 +909,9 @@ emperor_holder_female_hungarian = {
 	only_holder = yes
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_hungarian = {
 	type = title
@@ -773,7 +919,9 @@ empire_hungarian = {
 	tier = empire
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_hungarian = {
 	type = character
@@ -783,7 +931,9 @@ title_prince_male_hungarian = {
 	priority = 130
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_hungarian = {
 	type = character
@@ -793,7 +943,9 @@ title_prince_female_hungarian = {
 	priority = 130
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_hungarian_empire = {
 	type = character
@@ -803,7 +955,9 @@ title_prince_male_hungarian_empire = {
 	priority = 150
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_hungarian_empire = {
 	type = character
@@ -813,7 +967,9 @@ title_prince_female_hungarian_empire = {
 	priority = 150
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_hungarian_byzantine = {
 	type = character
@@ -824,7 +980,9 @@ title_prince_male_hungarian_byzantine = {
 	titles = { e_byzantium e_roman_empire }
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_hungarian_byzantine = {
 	type = character
@@ -835,7 +993,9 @@ title_prince_female_hungarian_byzantine = {
 	titles = { e_byzantium e_roman_empire }
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_hungarian = {
 	type = character
@@ -845,7 +1005,9 @@ queen_mother_hungarian = {
 	priority = 130
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_hungarian = {
 	type = character
@@ -855,7 +1017,9 @@ empress_mother_hungarian = {
 	priority = 150
 	name_lists = { name_list_hungarian }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_male_hungarian = {
 	type = character
@@ -865,7 +1029,9 @@ baron_republic_male_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 baron_republic_female_hungarian = {
@@ -876,7 +1042,9 @@ baron_republic_female_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_city_hungarian = { 
@@ -885,7 +1053,9 @@ barony_city_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_male_hungarian = {
 	type = character
@@ -895,7 +1065,9 @@ count_republic_male_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_republic_female_hungarian = {
@@ -906,7 +1078,9 @@ count_republic_female_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_republic_hungarian = { 
@@ -915,7 +1089,9 @@ county_republic_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_republic_male_hungarian = {
 	type = character
@@ -925,7 +1101,9 @@ duke_republic_male_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_republic_female_hungarian = {
@@ -936,7 +1114,9 @@ duke_republic_female_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_republic_hungarian = { 
@@ -945,7 +1125,9 @@ duchy_republic_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_republic_male_hungarian = {
 	type = character
@@ -955,7 +1137,9 @@ king_republic_male_hungarian = {
 	priority = 143
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_republic_female_hungarian = {
@@ -966,7 +1150,9 @@ king_republic_female_hungarian = {
 	priority = 143
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_republic_hungarian = { 
@@ -975,7 +1161,9 @@ kingdom_republic_hungarian = {
 	priority = 143
 	name_lists = { name_list_hungarian }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_hungarian = { 
 	type = title
@@ -983,7 +1171,9 @@ barony_tribe_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_male_hungarian = {
 	type = character
@@ -993,7 +1183,9 @@ count_tribal_male_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_tribal_female_hungarian = {
 	type = character
@@ -1003,7 +1195,9 @@ count_tribal_female_hungarian = {
 	priority = 103
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_tribal_hungarian = { 
 	type = title
@@ -1011,7 +1205,9 @@ county_tribal_hungarian = {
 	priority = 113
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_tribal_male_hungarian = {
 	type = character
@@ -1021,7 +1217,9 @@ duke_tribal_male_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_tribal_female_hungarian = {
@@ -1032,7 +1230,9 @@ duke_tribal_female_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_tribal_hungarian = { 
@@ -1041,7 +1241,9 @@ duchy_tribal_hungarian = {
 	priority = 123
 	name_lists = { name_list_hungarian }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## End of Magyar_group ##

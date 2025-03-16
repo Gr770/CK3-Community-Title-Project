@@ -15,7 +15,9 @@ baron_male_soninke = {
 	priority = 103
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_soninke = {
 	type = character
@@ -25,7 +27,9 @@ baron_female_soninke = {
 	priority = 103
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_soninke = {
 	type = character
@@ -35,7 +39,9 @@ count_male_soninke = {
 	priority = 113
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_holder_soninke = {
 	type = character
@@ -45,7 +51,9 @@ count_male_holder_soninke = {
 	priority = 114
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_holder_soninke = {
@@ -56,7 +64,9 @@ count_female_holder_soninke = {
 	priority = 114
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 count_female_soninke = {
@@ -67,7 +77,9 @@ count_female_soninke = {
 	priority = 113
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_soninke = {
 	type = title
@@ -75,7 +87,9 @@ county_soninke = {
 	priority = 113
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_soninke = {
 	type = character
@@ -85,7 +99,9 @@ duke_male_soninke = {
 	priority = 123
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_soninke = {
 	type = character
@@ -95,7 +111,9 @@ duke_female_soninke = {
 	priority = 123
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_soninke_holder = {
 	type = character
@@ -105,7 +123,9 @@ duke_male_soninke_holder = {
 	priority = 124
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_soninke_holder = {
@@ -116,7 +136,9 @@ duke_female_soninke_holder = {
 	priority = 124
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duchy_soninke = {
@@ -125,7 +147,9 @@ duchy_soninke = {
 	priority = 123
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_soninke_independent = {
 	type = character
@@ -135,8 +159,10 @@ duke_male_soninke_independent = {
 	priority = 125
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_holder_soninke_independent = {
 	type = character
@@ -146,9 +172,11 @@ duke_male_holder_soninke_independent = {
 	priority = 126
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+		only_holder = yes
+	}
 }
 duke_female_holder_soninke_independent = {
 	type = character
@@ -158,9 +186,11 @@ duke_female_holder_soninke_independent = {
 	priority = 126
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+		only_holder = yes
+	}
 }
 duke_female_soninke_independent = {
 	type = character
@@ -170,8 +200,10 @@ duke_female_soninke_independent = {
 	priority = 125
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_soninke_independent = {
 	type = title
@@ -179,8 +211,10 @@ duchy_soninke_independent = {
 	priority = 125
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_soninke = {
 	type = character
@@ -190,7 +224,9 @@ king_male_soninke = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_holder_soninke = {
 	type = character
@@ -200,7 +236,9 @@ king_male_holder_soninke = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_holder_soninke = {
@@ -211,7 +249,9 @@ king_female_holder_soninke = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_soninke = {
@@ -222,7 +262,9 @@ king_female_soninke = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_soninke = {
 	type = title
@@ -230,7 +272,9 @@ kingdom_soninke = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_soninke_independent = {
 	type = character
@@ -240,8 +284,10 @@ king_male_soninke_independent = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_holder_soninke_independent = {
 	type = character
@@ -251,7 +297,9 @@ king_male_holder_soninke_independent = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -263,7 +311,9 @@ king_female_holder_soninke_independent = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 	only_independent = yes
 }
@@ -275,8 +325,10 @@ king_female_soninke_independent = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 kingdom_soninke_independent = {
 	type = title
@@ -284,8 +336,10 @@ kingdom_soninke_independent = {
 	tier = kingdom
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 emperor_male_soninke = {
 	type = character
@@ -295,7 +349,9 @@ emperor_male_soninke = {
 	tier = empire
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_holder_soninke = {
 	type = character
@@ -305,7 +361,9 @@ emperor_male_holder_soninke = {
 	tier = empire
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_holder_soninke = {
@@ -316,7 +374,9 @@ emperor_female_holder_soninke = {
 	tier = empire
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 emperor_female_soninke = {
@@ -327,7 +387,9 @@ emperor_female_soninke = {
 	tier = empire
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_soninke = {
 	type = title
@@ -335,7 +397,9 @@ empire_soninke = {
 	tier = empire
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_city_soninke = {
 	type = title
@@ -343,7 +407,9 @@ barony_city_soninke = {
 	priority = 103
 	name_lists = { name_list_soninke }
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_soninke = {
 	type = character
@@ -353,7 +419,9 @@ queen_mother_soninke = {
 	priority = 130
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_soninke = {
 	type = character
@@ -363,7 +431,9 @@ empress_mother_soninke = {
 	priority = 150
 	name_lists = { name_list_soninke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Mossi
@@ -375,7 +445,9 @@ duke_male_mossi = {
 	priority = 123
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_mossi = {
 	type = character
@@ -385,7 +457,9 @@ duke_female_mossi = {
 	priority = 123
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_mossi = {
 	type = title
@@ -393,7 +467,9 @@ duchy_mossi = {
 	priority = 123
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_mossi = {
 	type = character
@@ -403,7 +479,9 @@ king_male_mossi = {
 	tier = kingdom
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_mossi = {
 	type = character
@@ -413,7 +491,9 @@ king_female_mossi = {
 	tier = kingdom
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_mossi = {
 	type = title
@@ -421,7 +501,9 @@ kingdom_mossi = {
 	tier = kingdom
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_male_mossi = {
 	type = character
@@ -431,7 +513,9 @@ emperor_male_mossi = {
 	tier = empire
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 emperor_female_mossi = {
 	type = character
@@ -441,7 +525,9 @@ emperor_female_mossi = {
 	tier = empire
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_mossi = {
 	type = title
@@ -449,7 +535,9 @@ empire_mossi = {
 	tier = empire
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_mossi = {
 	type = character
@@ -459,7 +547,9 @@ queen_mother_mossi = {
 	priority = 130
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empress_mother_mossi = {
 	type = character
@@ -469,7 +559,9 @@ empress_mother_mossi = {
 	priority = 150
 	name_lists = { name_list_mossi }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Songhai
@@ -481,7 +573,9 @@ baron_male_songhai = {
 	priority = 103
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_songhai = {
 	type = character
@@ -491,7 +585,9 @@ baron_female_songhai = {
 	priority = 103
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_songhai = {
 	type = title
@@ -499,7 +595,9 @@ barony_castle_songhai = {
 	tier = barony
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_songhai = {
 	type = title
@@ -507,7 +605,9 @@ barony_tribe_songhai = {
 	tier = barony
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_songhai = {
 	type = character
@@ -517,7 +617,9 @@ count_male_songhai = {
 	priority = 113
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_songhai = {
 	type = character
@@ -527,7 +629,9 @@ count_female_songhai = {
 	priority = 113
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_songhai = {
 	type = title
@@ -535,7 +639,9 @@ county_songhai = {
 	tier = county
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_songhai_independent = {
 	type = title
@@ -543,8 +649,10 @@ county_songhai_independent = {
 	tier = county
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_songhai = {
 	type = character
@@ -554,7 +662,9 @@ duke_male_songhai = {
 	priority = 123
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_songhai = {
 	type = title
@@ -562,7 +672,9 @@ duchy_songhai = {
 	tier = duchy
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_songhai = {
 	type = character
@@ -572,7 +684,9 @@ king_male_songhai = {
 	tier = kingdom
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_songhai = {
 	type = character
@@ -582,7 +696,9 @@ king_female_songhai = {
 	tier = kingdom
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_songhai = {
 	type = title
@@ -590,7 +706,9 @@ kingdom_songhai = {
 	tier = kingdom
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_songhai = {
 	type = character
@@ -600,7 +718,9 @@ title_prince_male_songhai = {
 	priority = 130
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_songhai = {
 	type = character
@@ -610,7 +730,9 @@ title_prince_female_songhai = {
 	priority = 130
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_songhai = {
 	type = character
@@ -619,7 +741,9 @@ baron_republic_songhai = {
 	priority = 103
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_republic_songhai = {
@@ -628,7 +752,9 @@ barony_republic_songhai = {
 	tier = barony
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_songhai = {
 	type = character
@@ -637,7 +763,9 @@ count_republic_songhai = {
 	priority = 113
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_republic_songhai = {
@@ -646,7 +774,9 @@ county_republic_songhai = {
 	tier = county
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_republic_songhai = {
 	type = title
@@ -654,7 +784,9 @@ duchy_republic_songhai = {
 	tier = duchy
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_republic_songhai = {
 	type = character
@@ -663,7 +795,9 @@ king_republic_songhai = {
 	tier = kingdom
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 kingdom_republic_songhai = {
@@ -672,5 +806,7 @@ kingdom_republic_songhai = {
 	tier = kingdom
 	name_lists = { name_list_songhai name_list_sorko name_list_gaw }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }

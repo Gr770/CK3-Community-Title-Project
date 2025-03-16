@@ -15,7 +15,9 @@ baron_male_malinke = {
 	priority = 103
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_female_malinke = {
 	type = character
@@ -25,7 +27,9 @@ baron_female_malinke = {
 	priority = 103
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_castle_malinke = {
 	type = title
@@ -33,7 +37,9 @@ barony_castle_malinke = {
 	tier = barony
 	name_lists = { name_list_malinke }
 	holding = castle_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 barony_tribe_malinke = {
 	type = title
@@ -41,7 +47,9 @@ barony_tribe_malinke = {
 	tier = barony
 	name_lists = { name_list_malinke }
 	holding = tribal_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_malinke = {
 	type = character
@@ -51,7 +59,9 @@ count_male_malinke = {
 	priority = 113
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_female_malinke = {
 	type = character
@@ -61,7 +71,9 @@ count_female_malinke = {
 	priority = 113
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 county_malinke = {
 	type = title
@@ -69,7 +81,9 @@ county_malinke = {
 	tier = county
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_male_malinke_independent = {
 	type = character
@@ -79,8 +93,10 @@ count_male_malinke_independent = {
 	priority = 114
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_female_holder_malinke_independent = {
 	type = character
@@ -90,9 +106,11 @@ count_female_holder_malinke_independent = {
 	priority = 115
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
-	only_holder = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+		only_holder = yes
+	}
 }
 count_female_malinke_independent = {
 	type = character
@@ -102,8 +120,10 @@ count_female_malinke_independent = {
 	priority = 114
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 county_malinke_independent = {
 	type = title
@@ -111,8 +131,10 @@ county_malinke_independent = {
 	tier = county
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_malinke = {
 	type = character
@@ -122,7 +144,9 @@ duke_male_malinke = {
 	priority = 123
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_female_holder_malinke = {
 	type = character
@@ -132,7 +156,9 @@ duke_female_holder_malinke = {
 	priority = 124
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 duke_female_malinke = {
@@ -143,7 +169,9 @@ duke_female_malinke = {
 	priority = 123
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duchy_malinke = {
 	type = title
@@ -151,7 +179,9 @@ duchy_malinke = {
 	tier = duchy
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 duke_male_malinke_independent = {
 	type = character
@@ -161,8 +191,10 @@ duke_male_malinke_independent = {
 	priority = 125
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_female_malinke_independent = {
 	type = character
@@ -172,8 +204,10 @@ duke_female_malinke_independent = {
 	priority = 125
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_malinke_independent = {
 	type = title
@@ -181,8 +215,10 @@ duchy_malinke_independent = {
 	tier = duchy
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_malinke = {
 	type = character
@@ -192,7 +228,9 @@ king_male_malinke = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_malinke_holder = {
 	type = character
@@ -202,7 +240,9 @@ king_female_malinke_holder = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 king_female_malinke = {
@@ -213,7 +253,9 @@ king_female_malinke = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_malinke = {
 	type = title
@@ -221,7 +263,9 @@ kingdom_malinke = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_male_malinke_independent = {
 	type = character
@@ -231,8 +275,10 @@ king_male_malinke_independent = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_female_malinke_independent = {
 	type = character
@@ -242,8 +288,10 @@ king_female_malinke_independent = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 kingdom_malinke_independent = {
 	type = title
@@ -251,8 +299,10 @@ kingdom_malinke_independent = {
 	tier = kingdom
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 emperor_male_malinke = {
 	type = character
@@ -262,8 +312,10 @@ emperor_male_malinke = {
 	tier = empire
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 emperor_female_malinke = {
 	type = character
@@ -273,7 +325,9 @@ emperor_female_malinke = {
 	tier = empire
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 empire_malinke = {
 	type = title
@@ -281,7 +335,9 @@ empire_malinke = {
 	tier = empire
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_male_malinke = {
 	type = character
@@ -291,7 +347,9 @@ title_prince_male_malinke = {
 	priority = 130
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 title_prince_female_malinke = {
 	type = character
@@ -301,7 +359,9 @@ title_prince_female_malinke = {
 	priority = 130
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 queen_mother_malinke = {
 	type = character
@@ -311,7 +371,9 @@ queen_mother_malinke = {
 	priority = 130
 	name_lists = { name_list_malinke }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 baron_republic_malinke = {
 	type = character
@@ -320,7 +382,9 @@ baron_republic_malinke = {
 	priority = 103
 	name_lists = { name_list_malinke }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 barony_city_malinke = {
@@ -329,7 +393,9 @@ barony_city_malinke = {
 	tier = barony
 	name_lists = { name_list_malinke }
 	holding = city_holding
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 count_republic_malinke = {
 	type = character
@@ -338,7 +404,9 @@ count_republic_malinke = {
 	priority = 113
 	name_lists = { name_list_malinke }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 	only_holder = yes
 }
 county_republic_malinke = {
@@ -347,7 +415,9 @@ county_republic_malinke = {
 	tier = county
 	name_lists = { name_list_malinke }
 	governments = { republic_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 ###############################################
 ## Gur
@@ -359,8 +429,10 @@ count_male_gur_independent = {
 	priority = 114
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 count_female_gur_independent = {
 	type = character
@@ -370,8 +442,10 @@ count_female_gur_independent = {
 	priority = 114
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 county_gur_independent = {
 	type = title
@@ -379,8 +453,10 @@ county_gur_independent = {
 	tier = county
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_male_gur_independent = {
 	type = character
@@ -390,8 +466,10 @@ duke_male_gur_independent = {
 	priority = 125
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duke_female_gur_independent = {
 	type = character
@@ -401,8 +479,10 @@ duke_female_gur_independent = {
 	priority = 125
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 duchy_gur_independent = {
 	type = title
@@ -410,8 +490,10 @@ duchy_gur_independent = {
 	tier = duchy
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
-	only_independent = yes
+	flavourization_rules = {
+		top_liege = no
+		only_independent = yes
+	}
 }
 king_male_gur = {
 	type = character
@@ -421,7 +503,9 @@ king_male_gur = {
 	tier = kingdom
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 king_female_gur = {
 	type = character
@@ -431,7 +515,9 @@ king_female_gur = {
 	tier = kingdom
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
 kingdom_gur = {
 	type = title
@@ -439,5 +525,7 @@ kingdom_gur = {
 	tier = kingdom
 	name_lists = { name_list_gur }
 	governments = { feudal_government clan_government tribal_government }
-	top_liege = no
+	flavourization_rules = {
+		top_liege = no
+	}
 }
