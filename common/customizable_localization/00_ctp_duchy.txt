@@ -14187,6 +14187,19 @@ DukeMaleGreekAdmin = {
 		localization_key = duke_default_male_greek
 	}
 	text = {
+		trigger = {
+			NOR = {
+				vassal_contract_has_flag = admin_theme_civilian
+				vassal_contract_has_flag = admin_theme_frontier
+				vassal_contract_has_flag = admin_theme_naval
+				vassal_contract_has_flag = admin_theme_military
+				vassal_contract_has_flag = admin_theme_balanced
+				vassal_contract_has_flag = admin_theme_imperial
+			}
+		}
+		localization_key = estate_male_greek
+	}
+	text = {
 		localization_key = byzantine_duke_male_greek
 		fallback = yes
 	}
@@ -14212,6 +14225,19 @@ DukeFemaleGreekAdmin = {
 		localization_key = duke_default_female_greek
 	}
 	text = {
+		trigger = {
+			NOR = {
+				vassal_contract_has_flag = admin_theme_civilian
+				vassal_contract_has_flag = admin_theme_frontier
+				vassal_contract_has_flag = admin_theme_naval
+				vassal_contract_has_flag = admin_theme_military
+				vassal_contract_has_flag = admin_theme_balanced
+				vassal_contract_has_flag = admin_theme_imperial
+			}
+		}
+		localization_key = estate_female_greek
+	}
+	text = {
 		localization_key = byzantine_duke_female_greek
 		fallback = yes
 	}
@@ -14229,6 +14255,19 @@ DuchyGreekAdmin = {
 			vassal_contract_has_flag = admin_theme_civilian
 		}
 		localization_key = duchy_default_greek
+	}
+	text = {
+		trigger = {
+			NOR = {
+				vassal_contract_has_flag = admin_theme_civilian
+				vassal_contract_has_flag = admin_theme_frontier
+				vassal_contract_has_flag = admin_theme_naval
+				vassal_contract_has_flag = admin_theme_military
+				vassal_contract_has_flag = admin_theme_balanced
+				vassal_contract_has_flag = admin_theme_imperial
+			}
+		}
+		localization_key = estate_greek
 	}
 	text = {
 		localization_key = byzantine_duchy_greek
